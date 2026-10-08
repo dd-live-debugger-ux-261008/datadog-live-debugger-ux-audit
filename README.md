@@ -1,51 +1,34 @@
 # Datadog Live Debugger and Source Code Integration audit
 
-Work in progress. Last updated: 2026-10-08 03:31 UTC.
+Overnight checkpoint: 8 October 2026, 04:23 UTC (00:23 New York). Runtime and source testing are paused at explicit authorization gates. This is a resumable report, not a completed end-to-end audit.
 
-Public repository: [datadog-live-debugger-ux-audit](https://github.com/dd-live-debugger-ux-261008/datadog-live-debugger-ux-audit).
+The report has two distinct parts:
+1. Beginner usability: a structured walkthrough of fresh Datadog and APM onboarding, with no recruited participants or blind timing claim.
+2. Detailed functional QA: exact case definitions, observed results, concrete blockers and remaining runtime/source/permission/lifecycle checks.
 
-The report has two explicit parts, connected by one severity-ranked finding index.
+## Read the results
 
-1. Part 1: usability study of brand-new Datadog and APM onboarding. This is a structured first-time-user walkthrough, not a recruited-participant study.
-2. Part 2: detailed professional QA of Live Debugger and Source Code Integration, including runtime behavior, source identity, permissions, error handling, and lifecycle.
-
-## Read the current results
-
-- [Annotated report PDF](report.pdf)
-- [Editable report](report.docx)
-- [Individual finding pages with inline annotated screenshots](findings.md#severity-ranked-finding-index)
-- [Severity-ranked finding index](findings.md#severity-ranked-finding-index)
-- [High severity findings only](high-severity.md)
-- [Medium severity findings](findings.md#medium-severity)
-- [Low severity findings](findings.md#low-severity)
+- [Annotated PDF](report.pdf) and [editable Word report](report.docx)
+- [Severity-ranked findings](findings.md#severity-ranked-finding-index)
+- [High severity only](high-severity.md), [Medium](findings.md#medium-severity), [Low](findings.md#low-severity)
+- [All 63 case outcomes and full plan](QA_MATRIX.md)
+- [Evidence, timestamps and recording boundaries](EVIDENCE.md)
 - [Beginner glossary](glossary.md)
-- [Detailed QA test plan](QA_MATRIX.md)
+- [Video catalog with all reviewed excerpts and archive status](VIDEOS.md)
+- [Authenticated UI QA motion](authenticated-ui-qa-excerpt.mp4), [account/setup transitions](account-setup-excerpt.mp4), and [public onboarding](early-onboarding-excerpt.mp4)
 
-The PDF and Word document contain actual browser screenshots with separate red-border annotations. The screenshots are not generated mockups. The [80-second early onboarding video](early-onboarding-excerpt.mp4) is real motion capture with browser chrome removed, captions, and red borders. It covers public signup and documentation, not a completed authenticated debugger workflow.
+## What is established
 
-Video chapters: 00:00 overview; 00:20 region-choice UX; 00:34 documentation navigation; 00:58 Python command defect.
+HIGH 0 · MEDIUM 1 · LOW 3. Two confirmed documentation/layout defects and two separately labeled UX recommendations have individual evidence pages with inline annotated screenshots and full-size links. The medium finding is the invalid Python module launch example, reproduced locally with positive controls.
 
-## Current state
+63 cases accounted for: 2 scoped PASS, 2 FINDING, and 59 BLOCKED.
 
-- Fresh test Datadog and GitHub accounts reached authenticated welcome/home screens.
-- Public onboarding and Python documentation were reviewed in a real browser.
-- One Python quickstart command defect was reproduced locally, with working positive controls.
-- One desktop documentation layout defect was observed in two scroll positions.
-- A region-selection decision-support recommendation is recorded separately from confirmed defects.
-- A synthetic Python fixture has eight passing local tests and one intentional expected failure for its planted pricing bug.
-- First authenticated empty-state navigation was checked: manual debugging is available without source linking, missing service prevents session start, and Close returns correctly. UX02 records a recovery-guidance recommendation.
-- Authenticated product exploration is ongoing. No successful Datadog variable capture, exact deployed-source match, repository authorization boundary, or expiry test is claimed yet.
+Scoped passes cover manual-route entry and pre-install cancellation/reload. The separate [executed subchecks](EXECUTED_CHECKS.md) preserve zero-session inventory, isolated documentation-command reproduction, modal, keyboard, navigation and empty-list observations without promoting their entire parent cases. No successful runtime variable capture, exact deployed-source mapping, A-only/B-denied repository boundary, or expiry/disable behavior was verified.
 
-The matrix contains 54 baseline cases plus nine separately labeled supplementary edge cases, all a test plan. Its case count is not the count of tests executed. The current matrix records one scoped PASS and one LOW UX finding, two partially in progress cases, and 59 planned/not-run cases. A discovery-route pass is not a runtime-capture pass. This repository will be updated incrementally as results become available.
+## Current stop and resume state
 
-## Evidence conventions
+The Agent and sample are stopped; source integration remains unconnected. At 04:12 UTC the session inventory was All 0 / Active 0 / Inactive 0 with filters cleared. Test accounts, the public audit repository and private fixture A are intentionally retained. Full all-settings cleanup reconciliation is not certified.
 
-All times are UTC. Screenshot timestamps identify capture-file creation; approximate raw recording offsets are separate. An edited video's timestamps will differ from the raw capture.
+Resume after the specific telemetry-payload approval and official GitHub App A-only installation approval. First establish a real capture at the known fixture line, then validate exact deployed SHA and the never-granted B boundary. Run the shortest actual expiry test through its terminal state. Further role/revocation or controlled-failure tests need their own stated gates. The [matrix](QA_MATRIX.md) preserves each case's prerequisites, steps, expected result and cleanup.
 
-The public artifacts exclude credentials, API keys, account identifiers, private session URLs, and unrelated account information. Underlying screenshot pixels remain unchanged beneath the report annotations.
-
-## Scope
-
-The audit uses dedicated synthetic data and a local pricing example. It does not test production applications, customer data, load capacity, or the complete Datadog security model. Planned negative and permission cases are explicitly distinguished from observed failures.
-
-At audit close, every planned case will have an explicit executed outcome, a concrete blocker, or an unsupported classification. The ongoing plan is not presented as exhausted coverage.
+All clocks are UTC unless stated otherwise. Screenshots are actual browser captures; red borders are annotations. Public files omit credentials, private account identifiers, private browser/session URLs and raw authenticated recordings. No generated mockup is represented as evidence.

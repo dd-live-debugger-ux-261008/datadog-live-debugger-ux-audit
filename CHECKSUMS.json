@@ -1,0 +1,188 @@
+{
+  "checkpoint_utc": "2026-10-08T04:23:00Z",
+  "original_cases": 63,
+  "status_counts": {
+    "PASS": 2,
+    "FINDING": 2,
+    "BLOCKED": 59
+  },
+  "finding_counts": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 3
+  },
+  "document_pages": 21,
+  "video_archive_status": "Reviewed excerpts available; complete privacy-safe archive pending",
+  "files": [
+    {
+      "name": "EVIDENCE.md",
+      "bytes": 8048,
+      "sha256": "52c32011e2cb13e51c7075ace0b0c73115a427c229f5c5209a99fbb9884c10dc"
+    },
+    {
+      "name": "EXECUTED_CHECKS.md",
+      "bytes": 3566,
+      "sha256": "9d2ac0bb5a7188d210a3d8c9c5aadf192a914990f01c04c75883e236deedf975"
+    },
+    {
+      "name": "QA_MATRIX.md",
+      "bytes": 68871,
+      "sha256": "8886449fd7492b2f4b00d7762307bde0142958decd713569dc7f4207f76829fc"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3234,
+      "sha256": "f9c17e7ce2bd822582552265bfbf60640b34a4487b4118818863769e605270b6"
+    },
+    {
+      "name": "VIDEOS.md",
+      "bytes": 3003,
+      "sha256": "023d342b6b96202c9860d569291523f73dfc021d754bb89252e32ff5856551ac"
+    },
+    {
+      "name": "account-setup-excerpt.mp4",
+      "bytes": 269012,
+      "sha256": "8019c86de8b90d3b74e7ada74598f502fc43b9ab872d32e0c8507019fcf0ce60"
+    },
+    {
+      "name": "authenticated-ui-qa-excerpt.mp4",
+      "bytes": 2486206,
+      "sha256": "7ba39eb4917142e052186195f7eeeaf836054ec6cf340f62cf226da3d85c3d61"
+    },
+    {
+      "name": "early-onboarding-excerpt.mp4",
+      "bytes": 1270354,
+      "sha256": "6e45367d33106258f156ca156b7d1e61be6ff641ae12e29a2d0c09484fc652e2"
+    },
+    {
+      "name": "edited-video-manifest.md",
+      "bytes": 9033,
+      "sha256": "734711e29a3fbbcbaf5d924717ed0e38a1f365335c99fa534472b0768d78550c"
+    },
+    {
+      "name": "evidence/03-python-requirements.jpg",
+      "bytes": 101209,
+      "sha256": "142546c5d8785408578421a07f8c61b098f979b28bb5d0a5ece85d773e28ad5b"
+    },
+    {
+      "name": "evidence/04-python-launch-command.jpg",
+      "bytes": 112191,
+      "sha256": "9dc24fe0e9bd2754e126b027b1ad35883950a25e510cfd9eb5ccf301d4830131"
+    },
+    {
+      "name": "evidence/08-public-signup-blank-video-frame.png",
+      "bytes": 239151,
+      "sha256": "609d0620a284bbfd1029dea02aa3c893169ce8534c2dd301ad711394f051fd7f"
+    },
+    {
+      "name": "evidence/10-live-debugger-service-list-public.png",
+      "bytes": 347283,
+      "sha256": "f27e264de843c4111376b5d64bd1065803446f3fce260851e26c42b01439815f"
+    },
+    {
+      "name": "evidence/13-live-debugger-no-environments.jpg",
+      "bytes": 71232,
+      "sha256": "971cda56be4fda2b5fc0d351ced6cb6e055c4d89a66cd27c7a3c4079d6b72bae"
+    },
+    {
+      "name": "evidence/17-apm-first-run-public.png",
+      "bytes": 245060,
+      "sha256": "f15a34ee7d370883c4befac70647ce7aae9194192324721fd21b0fe1918428a8"
+    },
+    {
+      "name": "evidence/18-search-live-debugger-public.png",
+      "bytes": 126810,
+      "sha256": "9dcf4d5b374298ea7321dc538be163a9a7cb12563022d4579bb4d636af375058"
+    },
+    {
+      "name": "evidence/19-debugger-zoom125-public.png",
+      "bytes": 229906,
+      "sha256": "24587214ee4dff8260debfa3866d2d42863ff68f63ff565c42afaca36d2a0087"
+    },
+    {
+      "name": "evidence/20-logpoint-modal-zoom125.jpg",
+      "bytes": 29859,
+      "sha256": "2ea0243c65360d98adac8dfcf1349f6140efa8d1eabdc32ebd8a7ecd574152da"
+    },
+    {
+      "name": "evidence/26-github-read-source-requirements.jpg",
+      "bytes": 97692,
+      "sha256": "76d9c686d95c2c97db31f49b76a84dc28cecdf0bfdacc147ca75d22d0bf7e28e"
+    },
+    {
+      "name": "evidence/annotated/DOC01-python-launch-command.png",
+      "bytes": 496499,
+      "sha256": "09f45fb8adbad5ab89ed76c7fefa1cd7aefcc89c89d9a8334b2c079556a8d7ad"
+    },
+    {
+      "name": "evidence/annotated/DOC02-documentation-navigation.png",
+      "bytes": 449734,
+      "sha256": "441700db116f4f8786059acb95bce7201d2506a20c58a30c773a4fa83fd2ce0b"
+    },
+    {
+      "name": "evidence/annotated/UX01-region-choice.png",
+      "bytes": 268564,
+      "sha256": "65f56b4d88d384206512694170545cf9786d89616a66432ecfee81151e37c45b"
+    },
+    {
+      "name": "evidence/annotated/UX02-empty-service-list.png",
+      "bytes": 378369,
+      "sha256": "c9f65109d3506fd18abc405996454b3e0a386a6dc46014b7ae59dadd8ced3127"
+    },
+    {
+      "name": "evidence/annotated/UX02-no-environments.png",
+      "bytes": 310758,
+      "sha256": "7e6cdae25b17daf82f208cc82d1cb1200136fcb25d68228ebcbf11da1dc9cd33"
+    },
+    {
+      "name": "execution-ledger.json",
+      "bytes": 83617,
+      "sha256": "e1e2b0993728717737b3d64871460a687d0b6553e04d9766ea9a8136f11574f8"
+    },
+    {
+      "name": "findings/DOC01-python-launch-command.md",
+      "bytes": 2767,
+      "sha256": "553980092dad562789137cc61bb542f0400ccebc54d79d32f280b8f817bbc667"
+    },
+    {
+      "name": "findings/DOC02-documentation-navigation.md",
+      "bytes": 2148,
+      "sha256": "63803bd51654c518a8f9b98817c670c247a3ecf5596dc82d784c815c33bcc4b2"
+    },
+    {
+      "name": "findings/UX01-region-choice.md",
+      "bytes": 1986,
+      "sha256": "5d8b3bb40d39ee26172b49be605afa62a9d7c18e87e7686554dc0ebdb9f66d0a"
+    },
+    {
+      "name": "findings/UX02-empty-state-recovery.md",
+      "bytes": 3959,
+      "sha256": "7501686637afbacf7e1509211506a0356215f51ed8f12c7c21035665d38cc362"
+    },
+    {
+      "name": "findings.md",
+      "bytes": 4286,
+      "sha256": "1e065cf1bcb3d5fb5b8f7ce669dd4b68e8b0bd6a5f40e82d3f5c9a4c049aae2b"
+    },
+    {
+      "name": "glossary.md",
+      "bytes": 1688,
+      "sha256": "4a45c1046b9c282a3413b8753c374cdb64eaecea8f3d765cc6f07202cc8055fa"
+    },
+    {
+      "name": "high-severity.md",
+      "bytes": 831,
+      "sha256": "b89edfca7b5fe06f0f5f376c383faf57969656a58d168d61567e5313b27df3f8"
+    },
+    {
+      "name": "report.docx",
+      "bytes": 829068,
+      "sha256": "e6e81a33b294d43bc52b971fabd3b850a2f8d5b511d07bbc3a8a73f4099250e7"
+    },
+    {
+      "name": "report.pdf",
+      "bytes": 836621,
+      "sha256": "abaa06d312fef1667092f0b1db9ab861136d93715d0ffc11874128910e4d5170"
+    }
+  ]
+}

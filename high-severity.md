@@ -1,6 +1,6 @@
 # High severity findings only
 
-Work in progress. Updated 2026-10-08 03:31 UTC.
+Overnight checkpoint. Updated 2026-10-08 04:23 UTC.
 
 There are currently **no confirmed HIGH-severity findings** in the evidence established so far. This does not establish that untested runtime, source, permissions, or lifecycle areas are free of serious defects.
 
@@ -10,6 +10,6 @@ HIGH means a core task is blocked or there is significant incorrect behavior wit
 - [Medium severity findings](findings.md#medium-severity)
 - [Low severity findings](findings.md#low-severity)
 - [Annotated report](report.pdf)
-- [Planned QA coverage](QA_MATRIX.md)
+- [All 63 case outcomes](QA_MATRIX.md)
 
 Confirmed HIGH findings will be added here with direct links to their detailed evidence.

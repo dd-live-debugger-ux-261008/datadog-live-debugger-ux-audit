@@ -1,6 +1,6 @@
 # Datadog audit findings
 
-Work in progress. Report and online finding pages updated 2026-10-08 03:31 UTC.
+Overnight checkpoint. Updated 2026-10-08 04:23 UTC.
 
 Part 1 covers brand-new Datadog/APM usability. Part 2 covers professional Live Debugger and Source Code Integration QA. Both use this shared index.
 
@@ -30,7 +30,7 @@ There are currently **no confirmed HIGH-severity findings** in the evidence esta
 - [DOC02 Contents rail splits section names mid-word](findings/DOC02-documentation-navigation.md): observed at default desktop zoom in two scroll positions. [Screenshot](evidence/annotated/DOC02-documentation-navigation.png) · [Video](early-onboarding-excerpt.mp4), 00:34–00:58.
 - [UX01 Permanent region choice needs decision support](findings/UX01-region-choice.md): a recommendation that preserves the clear permanent-choice warning. [Screenshot](evidence/annotated/UX01-region-choice.png) · [Video](early-onboarding-excerpt.mp4), 00:20–00:34.
 
-- [UX02 Empty service states do not explain setup recovery](findings/UX02-empty-state-recovery.md): natural first-run no-service/no-environment views give no concrete recovery step in the captured section. [Service screenshot](evidence/annotated/UX02-empty-service-list.png) · [Setup screenshot](evidence/annotated/UX02-no-environments.png). Public video excerpt pending.
+- [UX02 Empty service states do not explain setup recovery](findings/UX02-empty-state-recovery.md): natural first-run no-service/no-environment views give no concrete recovery step in the captured section. [Service screenshot](evidence/annotated/UX02-empty-service-list.png) · [Setup screenshot](evidence/annotated/UX02-no-environments.png). [Authenticated video](authenticated-ui-qa-excerpt.mp4), 00:00–00:13.80 and 02:42.80–02:50.80.
 
 ## Severity rubric and evidence types
 
@@ -46,6 +46,4 @@ Fresh test accounts reached authenticated welcome/home states. Local fixture tes
 
 No successful Datadog variable capture, exact deployed-source match, repository authorization boundary, or expiry result is claimed by this checkpoint. Runtime readiness and service-process availability alone do not establish ingestion.
 
-The [QA matrix](QA_MATRIX.md) preserves 54 baseline cases and adds nine supplementary cases X01–X09. The latest scoped results are B02 → UX02 and B04 → PASS for manual-route discoverability only. F14 and S01 are partially in progress; 59 cases remain planned. The total of 63 is not an executed-test count. They cover first-capture onboarding, missing prerequisites, source permissions and recovery, commit drift, invalid inputs, lifecycle, stale state, redaction, mixed replicas, async correlation, and simultaneous sessions.
-
-At audit close, each case will have an executed outcome, a concrete blocker, or an unsupported classification. The ongoing plan is not presented as exhausted coverage.
+The [QA matrix](QA_MATRIX.md) accounts for all 63 planned cases. 63 cases accounted for: 2 scoped PASS, 2 FINDING, and 59 BLOCKED. [Evidence and recording scope](EVIDENCE.md) distinguish actual UI observations, local reproductions and unexecuted runtime/source cases. Runtime telemetry and the A-only official GitHub App installation await explicit approval. The audit remains resumable.

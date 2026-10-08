@@ -1,0 +1,1090 @@
+{
+  "updated_utc": "2026-10-08T04:12:00Z",
+  "cases": [
+    {
+      "id": "B01",
+      "priority": "P0",
+      "preconditions": "G0; start at normal signed-in home",
+      "steps": "Without docs or deep links, find the feature from navigation/search. Say aloud what APM, Live Debugger, Debug Session, and logpoint appear to mean. Record first wrong turn and total elapsed time.",
+      "expected": "A newcomer can locate the intended product and explain the first action. Ambiguity is a UX finding, not automatically a functional bug.",
+      "evidence_required": "V; first path; elapsed time; exact confusing labels",
+      "cleanup": "Return home; no change",
+      "status": "BLOCKED",
+      "actual": "Informed Home to APM intro to global-search navigation reached Live Debugger. APM is expanded in the intro, and search exposes New Session, Sessions List and Configuration.",
+      "reason": "The original blind first-user timing and first-wrong-turn study needs a fresh uninformed tester. It cannot be recovered after the auditor has learned the product. This is a study-method limitation, not an unsupported product feature. Required case precondition: G0; start at normal signed-in home.",
+      "evidence": [
+        "EVIDENCE.md#informed-navigation-and-keyboard-smoke"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Blind first-user discoverability and timing. Informed navigation smoke is reported separately."
+    },
+    {
+      "id": "B02",
+      "priority": "P0",
+      "preconditions": "G0; service absent or first-run view",
+      "steps": "Open creation/onboarding. Inspect zero-state and prerequisite guidance before following external docs.",
+      "expected": "Distinguishes no service, incompatible runtime, insufficient access, missing setup, and filtered-out results where knowable; gives a concrete next step.",
+      "evidence_required": "V; copied nonsecret instructions; click path",
+      "cleanup": "Cancel",
+      "status": "FINDING",
+      "actual": "Natural first-run service/environment empty states lack contextual recovery guidance in the captured sections. UX02 is LOW.",
+      "reason": "Other causes such as incompatible SDKs, missing rights and filtered-out configured services were not induced. No claim that a healthy service is incorrectly absent.",
+      "evidence": [
+        "findings/UX02-empty-state-recovery.md"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Natural no-service and no-environment first-run guidance only."
+    },
+    {
+      "id": "B03",
+      "priority": "P0",
+      "preconditions": "G0; setup steps visible",
+      "steps": "Follow the displayed Python path mentally against Agent, SDK, application, and shell responsibilities. Inspect copied commands without executing unapproved installs.",
+      "expected": "A beginner can tell which machine/file/process each step belongs to, what values to replace, whether restart is needed, and how success is verified.",
+      "evidence_required": "V; exact version/language/site selections",
+      "cleanup": "Close setup",
+      "status": "FINDING",
+      "actual": "Python setup instructions were inspected. DOC01 confirms an invalid python -m myapp.py example using isolated local reproduction and two positive controls.",
+      "reason": "This is a documentation-path result. No instrumented startup, telemetry ingestion or first capture is verified.",
+      "evidence": [
+        "findings/DOC01-python-launch-command.md"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Python setup guidance and launch-command validity; not an end-to-end quickstart pass."
+    },
+    {
+      "id": "B04",
+      "priority": "P0",
+      "preconditions": "G0; no source link yet",
+      "steps": "Start manual debugging, then inspect Bits entry, then source-integration setup.",
+      "expected": "UI accurately communicates each path's prerequisites; source-linking guidance does not falsely block the manual route.",
+      "evidence_required": "V; separate routes and blocker wording",
+      "cleanup": "Cancel both flows",
+      "status": "PASS",
+      "actual": "Manual session entry is available without Source Code Integration; the modal requires a service and safely disables Start. The Bits preview prerequisite is visible.",
+      "reason": "PASS is limited to route and prerequisite clarity. No session start or captured values.",
+      "evidence": [
+        "findings/UX02-empty-state-recovery.md",
+        "EVIDENCE.md#authenticated-first-run"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Manual versus source-assisted entry and visible prerequisite gates."
+    },
+    {
+      "id": "B05",
+      "priority": "P1",
+      "preconditions": "G0; at least two filter values if available",
+      "steps": "Change service, environment, and version in sequence; search a nonexistent service; clear filters; navigate back.",
+      "expected": "Selection labels remain visible; dependencies reset safely; empty results explain active filters; no silent carryover into the wrong target.",
+      "evidence_required": "V; selected values at every transition",
+      "cleanup": "Restore baseline filters",
+      "status": "BLOCKED",
+      "actual": "Empty Sessions List controls accepted search, status, owner and a custom October 1\u20137 date range. Status/owner survived reload; Clear Filter reset them.",
+      "reason": "No service or environment values were available, so two-target dependencies, version changes and populated-result correctness could not be exercised. G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G0; at least two filter values if available.",
+      "evidence": [
+        "EVIDENCE.md#empty-session-list-controls"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Service/environment/version dependency test; empty-list controls are a separate partial observation."
+    },
+    {
+      "id": "B06",
+      "priority": "P0",
+      "preconditions": "G0; setup/install action requires rights",
+      "steps": "Inspect the permission/error experience using available current identity; do not alter roles.",
+      "expected": "Error identifies the missing capability and owner/action to resolve it, without generic retry loops or suggesting broad access as the only solution.",
+      "evidence_required": "V, A if known",
+      "cleanup": "Cancel",
+      "status": "BLOCKED",
+      "actual": "Pre-install setup explains an organization-owner prerequisite; no missing-rights failure was induced.",
+      "reason": "No independent restricted identity or naturally occurring permission error was available. The organization-owner explanation is recorded under S01, not a role-enforcement pass. Required case precondition: G0; setup/install action requires rights.",
+      "evidence": [
+        "EVIDENCE.md#source-integration-pre-install"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Inspect the permission/error experience using available current identity; do not alter roles."
+    },
+    {
+      "id": "B07",
+      "priority": "P0",
+      "preconditions": "G1; new logpoint",
+      "steps": "Record time from creation to accepted/configured/installed/first event. At each state ask what the UI tells a novice to do or wait for.",
+      "expected": "Useful progress distinguishes configuration acceptance, runtime activation, traffic, and visible data. A green setup badge alone is not first-capture evidence.",
+      "evidence_required": "V, I, T",
+      "cleanup": "Keep baseline for dependent cases",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; new logpoint.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Record time from creation to accepted/configured/installed/first event. At each state ask what the UI tells a novice to do or wait for."
+    },
+    {
+      "id": "B08",
+      "priority": "P1",
+      "preconditions": "G1; first events captured",
+      "steps": "Find quantity 3 and inspect locals. Explain why the price is wrong using only the session UI. Follow any relevant event/source link and return.",
+      "expected": "Can connect request, location, values, and source without losing session context. Actual numeric values agree with fixture oracle.",
+      "evidence_required": "V, I, T",
+      "cleanup": "Return to baseline",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; first events captured.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Find quantity 3 and inspect locals. Explain why the price is wrong using only the session UI. Follow any relevant event/source link and return."
+    },
+    {
+      "id": "B09",
+      "priority": "P1",
+      "preconditions": "G0; editable draft",
+      "steps": "Use keyboard navigation at 125\u2013150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
+      "expected": "Core tasks remain operable; validation is associated with its field; selected line and action buttons are discoverable. Scope this as a focused accessibility smoke test.",
+      "evidence_required": "V; browser zoom; key sequence",
+      "cleanup": "Reset zoom; cancel draft",
+      "status": "BLOCKED",
+      "actual": "At actual 125% browser zoom, keyboard focus cycles within the modal; Escape closes it and restores New Session focus. Zoom was reset to 100%.",
+      "reason": "No target service was available for code-gutter, long-path or field-validation tests. The focused modal smoke passed, but the complete case remains blocked. Required case precondition: G0; editable draft.",
+      "evidence": [
+        "EVIDENCE.md#informed-navigation-and-keyboard-smoke"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Focused modal keyboard/zoom smoke completed; editor and validation scope blocked."
+    },
+    {
+      "id": "B10",
+      "priority": "P0",
+      "preconditions": "G1; active session",
+      "steps": "From session and list views, find expiry, manual stop, what remains visible afterward, and route back tomorrow.",
+      "expected": "A beginner can stop collection and distinguish inactive capture from retained historical logs. Scope/consequence of service-wide disable is understandable.",
+      "evidence_required": "V, I, R",
+      "cleanup": "Stop test capture unless needed by an active case",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; active session.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "From session and list views, find expiry, manual stop, what remains visible afterward, and route back tomorrow."
+    },
+    {
+      "id": "F01",
+      "priority": "P0",
+      "preconditions": "G1; no experimental logpoints",
+      "steps": "Create baseline at `pricing.py:17`; template `QA quantity={quantity} total={total_cents}`; capture numeric locals; run bounded 2/3/4 traffic.",
+      "expected": "A real event matches selected target/location and fixture oracle. Verify from event detail, not count or status alone.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Retain one baseline only while dependent tests run",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; no experimental logpoints.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Create baseline at `pricing.py:17`; template `QA quantity={quantity} total={total_cents}`; capture numeric locals; run bounded 2/3/4 traffic."
+    },
+    {
+      "id": "F02",
+      "priority": "P0",
+      "preconditions": "G1; baseline works",
+      "steps": "Create condition `quantity == 3`; cycle 2/3/4; then change to `quantity == 4`, apply, wait for activation and repeat.",
+      "expected": "Post-activation captures match the current predicate; old events remain identifiable; unsaved edits do not masquerade as applied state.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Disable experimental logpoint",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; baseline works.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Create condition `quantity == 3`; cycle 2/3/4; then change to `quantity == 4`, apply, wait for activation and repeat."
+    },
+    {
+      "id": "F03",
+      "priority": "P1",
+      "preconditions": "G1",
+      "steps": "Set `quantity == 101` with valid 2/3/4 traffic; then remove condition and reapply.",
+      "expected": "No-match period remains distinguishable from a broken runtime; removing the condition restores capture without recreating the service.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Disable experiment",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Set `quantity == 101` with valid 2/3/4 traffic; then remove condition and reapply."
+    },
+    {
+      "id": "F04",
+      "priority": "P0",
+      "preconditions": "G0 form; G1 for runtime validation",
+      "steps": "Try `quantity ==`, a non-Boolean condition `quantity`, an unmatched template brace, then a supported valid expression. One input at a time.",
+      "expected": "Bad input is rejected or produces explicit evaluation/installation feedback; valid correction succeeds. No application side effect or silent valid-looking wrong result.",
+      "evidence_required": "V; exact input; I/T if submitted",
+      "cleanup": "Restore valid baseline; remove failed drafts",
+      "status": "BLOCKED",
+      "actual": "The creation modal was reached without a service; the specified expression/line-value sequence was not entered.",
+      "reason": "No service was selectable, so the relevant target/expression fields were not reached. Attempts at an optional control failed in the automation locator before input and are not product defects. Runtime validation also requires G1. Required case precondition: G0 form; G1 for runtime validation.",
+      "evidence": [
+        "EVIDENCE.md#empty-modal-recovery"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Try `quantity ==`, a non-Boolean condition `quantity`, an unmatched template brace, then a supported valid expression. One input at a time."
+    },
+    {
+      "id": "F05",
+      "priority": "P1",
+      "preconditions": "G1",
+      "steps": "Reference nonexistent `missing_qa_value`; separately test `isDefined(missing_qa_value)`; compare with an available local.",
+      "expected": "Missing data has an explicit, distinguishable result; the documented definition check is evaluated appropriately for the runtime. Do not confuse false with missing or redacted.",
+      "evidence_required": "V, I, T",
+      "cleanup": "Disable experiment",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Reference nonexistent `missing_qa_value`; separately test `isDefined(missing_qa_value)`; compare with an available local."
+    },
+    {
+      "id": "F06",
+      "priority": "P0",
+      "preconditions": "G0 form; G1 if accepted",
+      "steps": "Try line 0, -1, nonnumeric input, 9999, blank line 10, and comment line 16. Then select executable line 17.",
+      "expected": "Reject invalid targets or explain any runtime rejection/line relocation. Never silently claim a different active location. Valid recovery must work.",
+      "evidence_required": "V; exact input and resulting line; I, R",
+      "cleanup": "Remove experiments; restore line 17",
+      "status": "BLOCKED",
+      "actual": "The creation modal was reached without a service; the specified expression/line-value sequence was not entered.",
+      "reason": "No service was selectable, so the relevant target/expression fields were not reached. Attempts at an optional control failed in the automation locator before input and are not product defects. Runtime validation also requires G1. Required case precondition: G0 form; G1 if accepted.",
+      "evidence": [
+        "EVIDENCE.md#empty-modal-recovery"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Try line 0, -1, nonnumeric input, 9999, blank line 10, and comment line 16. Then select executable line 17."
+    },
+    {
+      "id": "F07",
+      "priority": "P1",
+      "preconditions": "G1",
+      "steps": "Select method `pricing.calculate_quote` where supported; compare method entry/exit capture with line 17; try method-only contextual return expression on a line.",
+      "expected": "Context-dependent values are accurate or explicitly unavailable. Entry capture cannot imply that yet-unassigned locals have values. Unsupported context is explained.",
+      "evidence_required": "V, I, T",
+      "cleanup": "Disable method experiment",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Select method `pricing.calculate_quote` where supported; compare method entry/exit capture with line 17; try method-only contextual return expression on a line."
+    },
+    {
+      "id": "F08",
+      "priority": "P0",
+      "preconditions": "G1; record list count/IDs",
+      "steps": "Rapidly double-click Create/Apply once; repeat Enter once during pending state; reload and inspect list.",
+      "expected": "A single intended submission does not silently create duplicate entities. If duplicates are a supported explicit action they must be distinguishable, not hidden.",
+      "evidence_required": "V, I, R",
+      "cleanup": "Disable every created test entity",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; record list count/IDs.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Rapidly double-click Create/Apply once; repeat Enter once during pending state; reload and inspect list."
+    },
+    {
+      "id": "F09",
+      "priority": "P0",
+      "preconditions": "G1; two tabs on same logpoint",
+      "steps": "In tab A save a condition/template change. In stale tab B save a different field. Reload both and capture new events.",
+      "expected": "No hidden lost update or mixed revision; conflict handling or last-write behavior is understandable and actual active definition matches the final display.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Restore baseline or disable experiment",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; two tabs on same logpoint.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "In tab A save a condition/template change. In stale tab B save a different field. Reload both and capture new events."
+    },
+    {
+      "id": "F10",
+      "priority": "P0",
+      "preconditions": "G1; active session in two tabs",
+      "steps": "Disable logpoint in A; use stale edit/re-enable UI in B; reload. Repeat session-level disable with a child logpoint.",
+      "expected": "Stale controls cannot accidentally conceal reactivation; parent/child enabled state is consistent and latest accepted action is visible.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Ensure final session and children inactive",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; active session in two tabs.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Disable logpoint in A; use stale edit/re-enable UI in B; reload. Repeat session-level disable with a child logpoint."
+    },
+    {
+      "id": "F11",
+      "priority": "P0",
+      "preconditions": "G1; shortest expiry available; clock checked",
+      "steps": "Record expiry time; keep traffic before and after it; leave page open, then reload and reopen direct session link. Continue until terminal state or a specific blocker.",
+      "expected": "Expiration actually ends capture; distinguish buffered old events from new executions. Countdown/status/controls remain consistent across page reload. Quantify any propagation lag rather than assume instantaneous removal.",
+      "evidence_required": "V, I, T, R, H; last execution vs expiry",
+      "cleanup": "Verify inactive; stop bounded traffic",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; shortest expiry available; clock checked.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Record expiry time; keep traffic before and after it; leave page open, then reload and reopen direct session link. Continue until terminal state or a specific blocker."
+    },
+    {
+      "id": "F12",
+      "priority": "P1",
+      "preconditions": "G1; expired session from F11",
+      "steps": "Use available re-enable/extend flow; inspect new deadline and resulting IDs; generate fresh traffic.",
+      "expected": "Explicit action has clear scope/duration; previously expired state cannot reactivate by mere page navigation; new captures are distinguishable.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Disable again; confirm inactive",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; expired session from F11.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Use available re-enable/extend flow; inspect new deadline and resulting IDs; generate fresh traffic."
+    },
+    {
+      "id": "F13",
+      "priority": "P1",
+      "preconditions": "G1; at least two test logpoints",
+      "steps": "Disable one logpoint, then whole session; attempt documented re-enable paths; inspect sibling state each time.",
+      "expected": "No unintended sibling/session activation; displayed hierarchy matches capture behavior.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Disable whole session",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; at least two test logpoints.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Disable one logpoint, then whole session; attempt documented re-enable paths; inspect sibling state each time."
+    },
+    {
+      "id": "F14",
+      "priority": "P0",
+      "preconditions": "G1; before/after entity count",
+      "steps": "Begin a change then Close, Cancel, Escape, Back, Forward, and refresh in separate attempts. Reopen entity.",
+      "expected": "Unsaved work is not published; saved work persists; no invisible session creation, duplicate modal, or navigation trap. Warnings, if present, are accurate.",
+      "evidence_required": "V, I, R",
+      "cleanup": "Cancel drafts; disable unintended test entities",
+      "status": "BLOCKED",
+      "actual": "Empty-service modal Close, Escape, Back, Forward, refresh and two repeated open/Close cycles recovered cleanly. Ctrl+Enter did not submit the disabled Start action.",
+      "reason": "No editable or saved runtime configuration existed; unsaved editor changes, persistence and saved-state variants remain untested. G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; before/after entity count.",
+      "evidence": [
+        "EVIDENCE.md#empty-modal-recovery"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Navigation and cancellation on an empty-service modal only; saved configuration variants blocked."
+    },
+    {
+      "id": "F15",
+      "priority": "P0",
+      "preconditions": "G1; baseline source/target selected",
+      "steps": "Attempt to edit original target service/environment/location on an existing logpoint; use the UI's supported alternate flow if blocked.",
+      "expected": "Target identity obeys product's immutability contract; alternate creation cannot mislabel old events as belonging to a new target.",
+      "evidence_required": "V, I, R",
+      "cleanup": "Disable alternate test entity",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; baseline source/target selected.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Attempt to edit original target service/environment/location on an existing logpoint; use the UI's supported alternate flow if blocked."
+    },
+    {
+      "id": "F16",
+      "priority": "P1",
+      "preconditions": "G1",
+      "steps": "Turn variable capture off, apply, produce traffic, then turn back on and capture again. Inspect event details.",
+      "expected": "Each event reflects the effective definition. Historical snapshots may remain; message-only new events do not appear to contain newly captured locals.",
+      "evidence_required": "V, I, T",
+      "cleanup": "Restore or disable experiment",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Turn variable capture off, apply, produce traffic, then turn back on and capture again. Inspect event details."
+    },
+    {
+      "id": "F17",
+      "priority": "P1",
+      "preconditions": "G1; two genuine matching events",
+      "steps": "Narrow time range to exclude newest events, pause/resume stream, change sorting, clear filters, reopen event.",
+      "expected": "Empty views and stale streams are attributable to controls; correct ordering/identity survives refresh; no duplicate rendering presented as extra execution.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Restore standard range/filters",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; two genuine matching events.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Narrow time range to exclude newest events, pause/resume stream, change sorting, clear filters, reopen event."
+    },
+    {
+      "id": "F18",
+      "priority": "P1",
+      "preconditions": "G1 + G4; isolated runtime restart permitted",
+      "steps": "While session is active, stop/restart only test process, then send traffic. Compare runtime status and capture recovery.",
+      "expected": "Disappearance and recovery are honest; restart does not resurrect expired definitions or change target mapping silently.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Leave runtime in agreed baseline state",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated runtime restart permitted.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "While session is active, stop/restart only test process, then send traffic. Compare runtime status and capture recovery."
+    },
+    {
+      "id": "F19",
+      "priority": "P1",
+      "preconditions": "G1 + G4; isolated forwarding failure permitted",
+      "steps": "Preserve config; deliberately stop only test Agent or use approved test-only disconnected state. Restore and repeat baseline.",
+      "expected": "Distinguishable offline/pending behavior; no fabricated capture success; recovery works without unneeded reinstall. Do not alter production log indexes.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Restore test Agent/config; verify health",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated forwarding failure permitted.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Preserve config; deliberately stop only test Agent or use approved test-only disconnected state. Restore and repeat baseline."
+    },
+    {
+      "id": "F20",
+      "priority": "P1",
+      "preconditions": "G1 + G4; two fixture versions/envs with distinct numeric outputs",
+      "steps": "Target one version/environment, produce traffic in both, inspect event tags and source view; then deliberately choose the other.",
+      "expected": "No cross-environment/version contamination; unspecified-version behavior is visible; mixed deployments are not shown as one unqualified source truth.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Stop extra fixture instance; disable experiments",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; two fixture versions/envs with distinct numeric outputs.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Target one version/environment, produce traffic in both, inspect event tags and source view; then deliberately choose the other."
+    },
+    {
+      "id": "F21",
+      "priority": "P1",
+      "preconditions": "G1 + G4; approved synthetic redaction fixture",
+      "steps": "Capture dummy numeric locals plus obvious dummy `password`/`accessToken` values and harmless string. Use existing mode; never lower protection for the test.",
+      "expected": "Capture honors configured mode and sensitive identifiers. Verify masked vs absent vs unavailable presentation. Never use real credentials as canaries.",
+      "evidence_required": "V, I, T; masked results only",
+      "cleanup": "Remove fixture/logpoint; retain normal redaction",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; approved synthetic redaction fixture.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Capture dummy numeric locals plus obvious dummy `password`/`accessToken` values and harmless string. Use existing mode; never lower protection for the test."
+    },
+    {
+      "id": "F22",
+      "priority": "P2",
+      "preconditions": "G1 + G4; small extra fixture permitted",
+      "steps": "Capture empty list/map, nested object, duplicate leaf names, long synthetic string, and bounded cyclic structure. Expand/collapse/search values.",
+      "expected": "Truthful type/value association; truncation/depth limitations are explicit; UI stays responsive and does not imply partial data is complete.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Disable experiment; revert fixture variant",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; small extra fixture permitted.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Capture empty list/map, nested object, duplicate leaf names, long synthetic string, and bounded cyclic structure. Expand/collapse/search values."
+    },
+    {
+      "id": "F23",
+      "priority": "P2",
+      "preconditions": "G1 + G4; tiny burst test approved",
+      "steps": "Compare normal 1.1-second traffic with a short bounded burst using a separate approved generator. Do not change the supplied script to unbounded load.",
+      "expected": "Sampling/rate limit behavior is explained; capture count need not equal request count; application remains healthy. Avoid inferring exact per-service aggregate limits from one instance.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Stop burst; return traffic to baseline",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; tiny burst test approved.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Compare normal 1.1-second traffic with a short bounded burst using a separate approved generator. Do not change the supplied script to unbounded load."
+    },
+    {
+      "id": "S01",
+      "priority": "P0",
+      "preconditions": "G0; unconnected setup path",
+      "steps": "Open integration from debugger and independent integration settings; inspect provider, org, repo scope, requested permissions, callback destination, cancel/back. Do not accept a new grant without its approval.",
+      "expected": "Clear source-sharing/scope choices; cancel preserves prior state; browser returns to useful context rather than falsely reporting connection.",
+      "evidence_required": "V, A, R",
+      "cleanup": "Cancel or keep explicitly approved baseline",
+      "status": "PASS",
+      "actual": "Official and custom pre-install routes were inspected and canceled. Reload remained Not Connected. Custom setup explains owner prerequisites and the source feature minimum of Contents Read plus Push webhook; the visible custom draft has broader Read & Write defaults. Secrets access is described as names only.",
+      "reason": "No installation, effective grant, callback completion, source retrieval or repository boundary is validated by this pre-install pass.",
+      "evidence": [
+        "EVIDENCE.md#source-integration-pre-install"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Pre-install permission explanations and cancel/reload preservation only."
+    },
+    {
+      "id": "S02",
+      "priority": "P0",
+      "preconditions": "G2; baseline commit C1 in A deployed",
+      "steps": "Open source from actual capture; compare repository owner/name, full SHA, file, line, and nearby text with deployed C1. Follow provider link.",
+      "expected": "Exact code revision and location match runtime evidence; a linked GitHub account or repository label alone is insufficient.",
+      "evidence_required": "V, I, T; provider URL",
+      "cleanup": "Return to session",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. Required case precondition: G2; baseline commit C1 in A deployed.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Open source from actual capture; compare repository owner/name, full SHA, file, line, and nearby text with deployed C1. Follow provider link."
+    },
+    {
+      "id": "S03",
+      "priority": "P0",
+      "preconditions": "G2; app installation limited to A; B private and never granted",
+      "steps": "Record effective A-only grant. Search B in Datadog. If B is selectable/known by URL, request its exact file/commit through supported UI. Test A as positive control.",
+      "expected": "A works; ungranted B's private source is not returned through this integration. B's failure is actionable without implying broad grants are mandatory. Repo-name discoverability alone is not source-content leakage.",
+      "evidence_required": "V, I, A, R; B unique marker if exposed",
+      "cleanup": "Keep B ungranted; close attempt",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. Required case precondition: G2; app installation limited to A; B private and never granted.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Record effective A-only grant. Search B in Datadog. If B is selectable/known by URL, request its exact file/commit through supported UI. Test A as positive control."
+    },
+    {
+      "id": "S04",
+      "priority": "P0",
+      "preconditions": "G2 + G4; approved test service tagged to B",
+      "steps": "Map only a dedicated test instance to known B URL/SHA without granting B. Open its code from a real synthetic event; compare same-named A file.",
+      "expected": "No fallthrough to A, default branch, another installation, or same-named repository without explicit correct identity. Never fetch unauthorized B contents by an alternate account.",
+      "evidence_required": "V, I, A, T",
+      "cleanup": "Restore test instance mapping to A; restart if needed",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved test service tagged to B.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Map only a dedicated test instance to known B URL/SHA without granting B. Open its code from a real synthetic event; compare same-named A file."
+    },
+    {
+      "id": "S05",
+      "priority": "P0",
+      "preconditions": "G2 + G4; A has C1 and newer C2; C1 remains deployed",
+      "steps": "In C2 shift the pricing lines and change a numeric marker; do not deploy C2. Open fresh C1 event/source; inspect any latest-source option separately.",
+      "expected": "Runtime context stays tied to C1; latest branch must not silently replace deployed source or move a logpoint to a semantically different line.",
+      "evidence_required": "V, I, T; C1/C2 evidence",
+      "cleanup": "Keep approved repo history; reset UI to C1",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; A has C1 and newer C2; C1 remains deployed.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "In C2 shift the pricing lines and change a numeric marker; do not deploy C2. Open fresh C1 event/source; inspect any latest-source option separately."
+    },
+    {
+      "id": "S06",
+      "priority": "P0",
+      "preconditions": "G2 + G4; authorized fixture metadata variant",
+      "steps": "Independently test absent SHA, syntactically invalid SHA, valid-length nonexistent SHA, then real SHA with wrong repository. Restore exact mapping between runs.",
+      "expected": "Distinct diagnosable failures; no misleading source success or silent substitution. Correcting metadata restores source on new telemetry.",
+      "evidence_required": "V, I, T, R, H",
+      "cleanup": "Restore A/C1 mapping and confirm",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; authorized fixture metadata variant.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Independently test absent SHA, syntactically invalid SHA, valid-length nonexistent SHA, then real SHA with wrong repository. Restore exact mapping between runs."
+    },
+    {
+      "id": "S07",
+      "priority": "P1",
+      "preconditions": "G2 + G4; approved A/C1 and A/C2 deployments",
+      "steps": "Show both versions under same service/environment. Switch versions quickly, back/forward, and open direct event links.",
+      "expected": "Source and line selection update atomically with the chosen event/version; stale code is not relabeled as the new SHA.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Stop extra version if temporary",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved A/C1 and A/C2 deployments.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Show both versions under same service/environment. Switch versions quickly, back/forward, and open direct event links."
+    },
+    {
+      "id": "S08",
+      "priority": "P1",
+      "preconditions": "G2; available filename/path variants; G4 to create",
+      "steps": "Test same basename in two directories, moved/renamed file across commits, and path with spaces or non-ASCII. Select by full path.",
+      "expected": "Correct disambiguation and encoding; file/path errors are honest; line links are anchored to the right file/revision.",
+      "evidence_required": "V, I, R",
+      "cleanup": "Remove temporary drafts; keep approved fixture history",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2; available filename/path variants; G4 to create.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Test same basename in two directories, moved/renamed file across commits, and path with spaces or non-ASCII. Select by full path."
+    },
+    {
+      "id": "S09",
+      "priority": "P1",
+      "preconditions": "G2 + G4; mapping variants allowed",
+      "steps": "Compare canonical HTTPS URL, trailing `.git`, and supported SSH-style repository metadata, one at a time. Inspect displayed provider link.",
+      "expected": "Documented forms normalize consistently; unsupported forms fail helpfully; credentials are never included in URLs.",
+      "evidence_required": "V, I, T",
+      "cleanup": "Restore canonical mapping",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; mapping variants allowed.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Compare canonical HTTPS URL, trailing `.git`, and supported SSH-style repository metadata, one at a time. Inspect displayed provider link."
+    },
+    {
+      "id": "S10",
+      "priority": "P0",
+      "preconditions": "G2 + G3; A-only grant can be revoked safely; uncached C3/file prepared",
+      "steps": "Record before-state and known fetched files. Revoke A via approved flow. In old/new tabs request old source, then **fresh unfetched C3/file**; refresh integration status.",
+      "expected": "New fetches respect revoked access. Label old cache separately from new fetches; identify actual advertised revocation contract before severity. A cached old file alone is inconclusive.",
+      "evidence_required": "V, I, A, R; revoke time; old vs never-fetched targets",
+      "cleanup": "Restore only previously authorized grant if explicitly approved; otherwise leave revoked",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G2 + G3; A-only grant can be revoked safely; uncached C3/file prepared.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Record before-state and known fetched files. Revoke A via approved flow. In old/new tabs request old source, then **fresh unfetched C3/file**; refresh integration status."
+    },
+    {
+      "id": "S11",
+      "priority": "P1",
+      "preconditions": "G3; sandbox reconnect authorized",
+      "steps": "After S10 or a canceled/expired setup, reconnect using approved A-only scope, return to debugger, load fresh source.",
+      "expected": "Recovers without broadening to all repositories or duplicating integration/session state; original service context is retained.",
+      "evidence_required": "V, I, A, R",
+      "cleanup": "Preserve approved A-only baseline",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G3; sandbox reconnect authorized.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "After S10 or a canceled/expired setup, reconnect using approved A-only scope, return to debugger, load fresh source."
+    },
+    {
+      "id": "S12",
+      "priority": "P0",
+      "preconditions": "G1 + G3; read-only Datadog test user exists",
+      "steps": "As read-only user, inspect session and attempt create/edit/disable through UI and copied direct page link. Do not alter user roles just to make this runnable.",
+      "expected": "Effective authorization is enforced beyond hidden buttons; denied actions do not mutate state. Inspect log-data access separately from configuration access.",
+      "evidence_required": "V, I, A, R from independent authorized view",
+      "cleanup": "Restore browser's audit identity",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G1 + G3; read-only Datadog test user exists.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "As read-only user, inspect session and attempt create/edit/disable through UI and copied direct page link. Do not alter user roles just to make this runnable."
+    },
+    {
+      "id": "S13",
+      "priority": "P0",
+      "preconditions": "G1 + G3; write access can be revoked for disposable test user",
+      "steps": "Open an editable session, revoke only that user's write capability via approved admin, then apply from stale tab and reload.",
+      "expected": "Stale UI cannot successfully write after effective revocation. If propagation delay exists, measure and report it with timestamps.",
+      "evidence_required": "V, I, A, R",
+      "cleanup": "Restore only authorized baseline permissions",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G1 + G3; write access can be revoked for disposable test user.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Open an editable session, revoke only that user's write capability via approved admin, then apply from stale tab and reload."
+    },
+    {
+      "id": "S14",
+      "priority": "P0",
+      "preconditions": "G1 + G3; separate configuration-read and restricted log-data identities",
+      "steps": "Open same session under both identities; test event/snapshot direct links and expand captured values.",
+      "expected": "Configuration visibility does not automatically imply permission to read protected logs. Authoritative Logs permissions remain effective.",
+      "evidence_required": "V, I, A, R; never copy restricted payload to less-privileged view",
+      "cleanup": "Restore audit identity",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G1 + G3; separate configuration-read and restricted log-data identities.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Open same session under both identities; test event/snapshot direct links and expand captured values."
+    },
+    {
+      "id": "S15",
+      "priority": "P1",
+      "preconditions": "G2 + G3; two users with known relevant access model",
+      "steps": "Compare source retrieval under user with GitHub access and user without it, using the same authorized Datadog org integration. First document whether access is org-integration-based or user-delegated.",
+      "expected": "Behavior follows the product's actual authorization model. Do not label missing per-user GitHub checks a bug if shared organization access is the documented grant.",
+      "evidence_required": "V, I, A; applicable authorization contract",
+      "cleanup": "Sign out of secondary identity",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G2 + G3; two users with known relevant access model.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Compare source retrieval under user with GitHub access and user without it, using the same authorized Datadog org integration. First document whether access is org-integration-based or user-delegated."
+    },
+    {
+      "id": "S16",
+      "priority": "P1",
+      "preconditions": "G0; G2/G3 for second org/account",
+      "steps": "Open a verified deep link with wrong Datadog org or signed-out state; sign in/switch through supported flow. Inspect preserved redirect/context.",
+      "expected": "No cross-org source/session disclosure; explicit org/account mismatch; recover to intended target without publishing a draft.",
+      "evidence_required": "V, I, A, R",
+      "cleanup": "Return to correct org; close extra tabs",
+      "status": "BLOCKED",
+      "actual": "No second organization or independently authorized signed-out/deep-link identity comparison was performed.",
+      "reason": "A second authorized organization/account and a real source/session target are missing. No cross-organization isolation conclusion is possible. Required case precondition: G0; G2/G3 for second org/account.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Open a verified deep link with wrong Datadog org or signed-out state; sign in/switch through supported flow. Inspect preserved redirect/context."
+    },
+    {
+      "id": "S17",
+      "priority": "P1",
+      "preconditions": "G0; existing org and current redaction mode known",
+      "steps": "Inspect Bits availability in Strict mode, missing-source setup, and missing preview access where naturally present. Avoid changing protection merely to unlock Bits.",
+      "expected": "Explains each gating condition; manual debugging remains discoverable where supported; no request to expose secrets or blanket-disable protection.",
+      "evidence_required": "V, A",
+      "cleanup": "Cancel prompts; preserve mode",
+      "status": "BLOCKED",
+      "actual": "Bits preview gating was visible and manual debugging remained discoverable.",
+      "reason": "Strict-mode behavior, effective redaction mode and the full combination of source/preview gates were not independently established. Protection was not changed to unlock Bits. Required case precondition: G0; existing org and current redaction mode known.",
+      "evidence": [
+        "EVIDENCE.md#authenticated-first-run"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Inspect Bits availability in Strict mode, missing-source setup, and missing preview access where naturally present. Avoid changing protection merely to unlock Bits."
+    },
+    {
+      "id": "S18",
+      "priority": "P1",
+      "preconditions": "G1 + G2; Bits approved and available",
+      "steps": "Ask why exactly three units cost 3600 instead of 3240. Inspect created logpoints, captured evidence, source SHA, and suggested explanation; disable session.",
+      "expected": "Conclusion is supported by current numeric captures and correct revision. An unexecuted suggestion is not a verified fix; absent traffic/data is acknowledged.",
+      "evidence_required": "V, I, T, R; proposed vs executed actions",
+      "cleanup": "Disable all session logpoints; no code change unless separately authorized",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. Required case precondition: G1 + G2; Bits approved and available.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Ask why exactly three units cost 3600 instead of 3240. Inspect created logpoints, captured evidence, source SHA, and suggested explanation; disable session."
+    },
+    {
+      "id": "C01",
+      "priority": "P0",
+      "preconditions": "Any test entity created",
+      "steps": "Inventory created session/logpoint IDs; disable each; check active list and direct links after reload; produce a small final traffic batch if runtime remains.",
+      "expected": "No unintended ongoing capture. Historical data is not represented as erased merely because capture stopped.",
+      "evidence_required": "I, R, T; final active count",
+      "cleanup": "Record remaining authorized entities explicitly",
+      "status": "BLOCKED",
+      "actual": "At 04:12 UTC, live read-only UI inspection found All 0, Active 0 and Inactive 0, with all filters cleared. No audit sessions or logpoints were created.",
+      "reason": "The zero-entity inventory check passed. The planned active-session disable/direct-link/post-stop-traffic checks require a real capture and remain blocked by G1. The final inventory check was not video-recorded. Required case precondition: Any test entity created.",
+      "evidence": [
+        "EVIDENCE.md#final-state"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Final zero-session inventory observed; full created-entity cleanup test blocked."
+    },
+    {
+      "id": "C02",
+      "priority": "P0",
+      "preconditions": "Config/roles/grants/runtime changed",
+      "steps": "Reconcile before/after inventory of test processes, integration scope, settings, identities, and fixtures. Restore only changes covered by existing authorization.",
+      "expected": "No hidden broadened access, recurring activity, cost-bearing service, or forgotten extra runtime remains. Unrestored change is reported concretely.",
+      "evidence_required": "A, H, R; nonsecret before/after summary",
+      "cleanup": "Complete authorized restorations",
+      "status": "BLOCKED",
+      "actual": "Agent/sample processes were stopped by 03:39 UTC; no App grant was submitted. Accounts, public audit repository and private fixture A are intentionally retained audit assets.",
+      "reason": "Full before/after reconciliation of every setting, identity, configuration and potential recurring resource was not completed. Scoped process/grant/retention checks are verified; do not read them as a complete cleanup certification. Required case precondition: Config/roles/grants/runtime changed.",
+      "evidence": [
+        "EVIDENCE.md#final-state"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Full environment inventory and restoration; only the named stop/grant/retention checks are complete."
+    },
+    {
+      "id": "C03",
+      "priority": "P0",
+      "preconditions": "One observed failure or workaround",
+      "steps": "Repeat the minimum reproducer once in fresh state, run nearby positive control, then verify any proposed correction through actual capture/source.",
+      "expected": "Separate UI defect, setup/environment issue, permission boundary, unsupported feature, timing artifact, and documentation mismatch. Never claim fixed without re-test.",
+      "evidence_required": "V, I, T/R as relevant; exact reproduction",
+      "cleanup": "Restore baseline; finalize outcome",
+      "status": "BLOCKED",
+      "actual": "DOC01 was repeated independently with inert and guarded Python scripts. The invalid module form exits 1; script and suffix-free module forms exit 0.",
+      "reason": "Isolated reproduction and positive controls passed. The planned actual capture/source correction retest remains blocked by G1/G2; neither the Datadog wrapper nor a repaired end-to-end workflow was tested. Required case precondition: One observed failure or workaround.",
+      "evidence": [
+        "findings/DOC01-python-launch-command.md",
+        "EVIDENCE.md#local-reproduction"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Reproduction of the observed documentation defect complete; live correction retest blocked."
+    },
+    {
+      "id": "X01",
+      "priority": "P0",
+      "preconditions": "G1 + G2 + G4; two approved test replicas at C1/C2 during a rolling deployment",
+      "steps": "Keep both commits active under one service/environment; give each replica a unique numeric marker; capture bounded traffic and open each event source.",
+      "expected": "Every event matches the executing replica and deployed commit; a service-wide current version never silently substitutes for event identity.",
+      "evidence_required": "V, I, T, H; replica and SHA markers",
+      "cleanup": "Stop the extra replica and disable experiments.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; two approved test replicas at C1/C2 during a rolling deployment.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Keep both commits active under one service/environment; give each replica a unique numeric marker; capture bounded traffic and open each event source."
+    },
+    {
+      "id": "X02",
+      "priority": "P0",
+      "preconditions": "G1 + G2 + G4; same service name across two test environments and two repository forks",
+      "steps": "Use different numeric markers; switch environment/version/repository filters quickly and open each event directly.",
+      "expected": "Source, values, filters, and provider links refer to the same intended target; no association by service name or basename alone.",
+      "evidence_required": "V, I, T, R",
+      "cleanup": "Return to baseline target and stop extra deployments.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; same service name across two test environments and two repository forks.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Use different numeric markers; switch environment/version/repository filters quickly and open each event directly."
+    },
+    {
+      "id": "X03",
+      "priority": "P0",
+      "preconditions": "G1 + G4; one healthy function that is never called and one controlled failed installation",
+      "steps": "Install at the never-executed function; separately create a target known to fail installation; compare status; finally execute the healthy function once.",
+      "expected": "The healthy/no-traffic state is distinguishable from an uninstalled probe; the positive control produces an event.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Disable both test definitions.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; one healthy function that is never called and one controlled failed installation.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Install at the never-executed function; separately create a target known to fail installation; compare status; finally execute the healthy function once."
+    },
+    {
+      "id": "X04",
+      "priority": "P0",
+      "preconditions": "G1; approved deletion or shortest expiry; accurate clocks and bounded traffic",
+      "steps": "Record executions immediately before and after effective stop; inspect late arrivals and refresh/direct links. Use permitted deletion only on disposable test entities.",
+      "expected": "Late ingestion of pre-stop data is distinguished from new post-stop capture; state and retained history remain understandable.",
+      "evidence_required": "V, I, T, R; separate execution, stop, and ingestion clocks",
+      "cleanup": "Verify all affected entities inactive and stop traffic.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; approved deletion or shortest expiry; accurate clocks and bounded traffic.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Record executions immediately before and after effective stop; inspect late arrivals and refresh/direct links. Use permitted deletion only on disposable test entities."
+    },
+    {
+      "id": "X05",
+      "priority": "P0",
+      "preconditions": "G1 + G2 + G4; C2 shifts the original selected statement to a new line",
+      "steps": "Capture baseline at C1; deploy C2; inspect installed target, displayed source, and new captures.",
+      "expected": "The system preserves correct source/target attribution or explicitly requests a new target; it never presents a different statement as the original location.",
+      "evidence_required": "V, I, T, H; both commits and locations",
+      "cleanup": "Restore approved baseline or document the final deployed commit; disable experiment.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; C2 shifts the original selected statement to a new line.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Capture baseline at C1; deploy C2; inspect installed target, displayed source, and new captures."
+    },
+    {
+      "id": "X06",
+      "priority": "P0",
+      "preconditions": "G1 + G4; approved tiny async fixture variant",
+      "steps": "Send bounded overlapping requests carrying unique numeric correlation IDs; inspect local variables, trace/request context, and source per event.",
+      "expected": "Each snapshot belongs to a single correct execution; no cross-request values or wrong trace/source association.",
+      "evidence_required": "V, I, T, H",
+      "cleanup": "Stop traffic and remove the temporary definition/fixture variant.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; approved tiny async fixture variant.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Send bounded overlapping requests carrying unique numeric correlation IDs; inspect local variables, trace/request context, and source per event."
+    },
+    {
+      "id": "X07",
+      "priority": "P1",
+      "preconditions": "G1 + G4; approved small synthetic data fixture",
+      "steps": "Exercise cyclic objects, Unicode keys/values, duplicate nested keys, and nested dummy password/accessToken identifiers without weakening redaction.",
+      "expected": "UI remains usable; type, truncation, cycle handling, and protection are truthful at every depth. Only fake canaries are used.",
+      "evidence_required": "V, I, T, H; masked or absent sensitive fields",
+      "cleanup": "Remove extra fixture and logpoint; preserve normal protection.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; approved small synthetic data fixture.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Exercise cyclic objects, Unicode keys/values, duplicate nested keys, and nested dummy password/accessToken identifiers without weakening redaction."
+    },
+    {
+      "id": "X08",
+      "priority": "P1",
+      "preconditions": "G2 + G3; approved test-only access/prerequisite interruption",
+      "steps": "Establish source baseline; remove one permitted prerequisite or revoke A; restore only its prior authorized scope; refresh and request fresh source.",
+      "expected": "Recovery does not require unexplained reinstallation, duplicate integrations, or broader repository access; original context is preserved where supported.",
+      "evidence_required": "V, I, A, R; before/after effective scope",
+      "cleanup": "Keep only the explicitly approved final grant and baseline integration.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. G2 unavailable: the official GitHub App installation limited to fixture A is awaiting approval and was not submitted. Private fixture B has not been created or granted. No source mapping is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G2 + G3; approved test-only access/prerequisite interruption.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Establish source baseline; remove one permitted prerequisite or revoke A; restore only its prior authorized scope; refresh and request fresh source."
+    },
+    {
+      "id": "X09",
+      "priority": "P0",
+      "preconditions": "G1; two allowed simultaneous sessions at the same file/line",
+      "steps": "Give session one condition quantity == 3 and session two quantity == 4; generate 2/3/4 traffic; edit one, then stop/expire one while the other remains active.",
+      "expected": "Events, definitions, edits, lifecycle, and counts remain attached to the correct session; one session never disables or relabels the other silently.",
+      "evidence_required": "V, I, T, R; both session/logpoint IDs",
+      "cleanup": "Disable both sessions and verify terminal state.",
+      "status": "BLOCKED",
+      "actual": "No result for the planned case is established.",
+      "reason": "G1 unavailable: explicit approval for the synthetic telemetry payload to Datadog US1 is pending. The Agent and sample processes are stopped; no debugger service or captured event was established. Required case precondition: G1; two allowed simultaneous sessions at the same file/line.",
+      "evidence": [
+        "EVIDENCE.md#checkpoint-and-gates"
+      ],
+      "checkpoint_utc": "2026-10-08T04:12:00Z",
+      "scope": "Give session one condition quantity == 3 and session two quantity == 4; generate 2/3/4 traffic; edit one, then stop/expire one while the other remains active."
+    }
+  ],
+  "checkpoints": [
+    {
+      "at_utc": "2026-10-08T04:12:00Z",
+      "observation": "Final observed browser state: zero sessions, filters cleared, source integration unconnected; runtime and App-install approvals pending."
+    }
+  ],
+  "status_counts": {
+    "BLOCKED": 59,
+    "FINDING": 2,
+    "PASS": 2
+  },
+  "checkpoint_type": "Resumable overnight checkpoint, not completed end-to-end audit"
+}
