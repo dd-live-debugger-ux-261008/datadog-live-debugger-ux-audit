@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "scope": "Source 10 continuation only; all earlier archives, highlights and the V6 checkpoint are unchanged.",
+  "source": {
+    "file": "onboarding-10-raw.mkv",
+    "duration_seconds": 270.75,
+    "bytes": 5173448,
+    "sha256": "73276d04588379f647606755d19d40754f045fe54cdd40b1f930db686a66c7a9",
+    "utc_start": "2026-10-08T06:23:43+00:00",
+    "utc_end": "2026-10-08T06:28:13.750000+00:00",
+    "width": 1364,
+    "height": 1024,
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end), in seconds from raw source start. UTC derives from recorded start. There are no inserted transition-card durations.",
+  "retained_seconds": 262.8,
+  "omitted_seconds": 7.95,
+  "retained": [
+    {
+      "source_start_seconds": 7.95,
+      "source_end_seconds": 8.7,
+      "utc_start": "2026-10-08T06:23:50.950000+00:00",
+      "utc_end": "2026-10-08T06:23:51.700000+00:00",
+      "duration_seconds": 0.75,
+      "title": "Return to the manual session draft",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          876,
+          1004,
+          24
+        ]
+      ],
+      "output_file": "source-10-part-01-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 0.75
+    },
+    {
+      "source_start_seconds": 8.7,
+      "source_end_seconds": 269.7,
+      "utc_start": "2026-10-08T06:23:51.700000+00:00",
+      "utc_end": "2026-10-08T06:28:12.700000+00:00",
+      "duration_seconds": 261.0,
+      "title": "Draft entry, invalid-template feedback, correction and retained waiting",
+      "crop_xywh": [
+        144,
+        252,
+        1062,
+        664
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          144,
+          876,
+          810,
+          40
+        ]
+      ],
+      "output_file": "source-10-part-01-sanitized.mp4",
+      "output_start_seconds": 0.75,
+      "output_end_seconds": 261.75
+    },
+    {
+      "source_start_seconds": 269.7,
+      "source_end_seconds": 270.75,
+      "utc_start": "2026-10-08T06:28:12.700000+00:00",
+      "utc_end": "2026-10-08T06:28:13.750000+00:00",
+      "duration_seconds": 1.05,
+      "title": "Draft closed without submission",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          876,
+          1004,
+          24
+        ]
+      ],
+      "output_file": "source-10-part-01-sanitized.mp4",
+      "output_start_seconds": 261.75,
+      "output_end_seconds": 262.8
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 7.95,
+      "duration_seconds": 7.95,
+      "utc_start": "2026-10-08T06:23:43+00:00",
+      "utc_end": "2026-10-08T06:23:50.950000+00:00",
+      "reason": "Initial recorder/terminal preparation and transition to the browser; includes privacy boundary padding."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-10-part-01-sanitized.mp4",
+      "duration_seconds": 262.8,
+      "bytes": 1965930,
+      "sha256": "c03578ff80103d65595314c8b4a9137a344f341f50a3c5b6575cf90dcbfb43cc",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "5256"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    }
+  ],
+  "evidence_limits": [
+    "This recording shows draft-only manual logpoint entry and template validation. No create request is submitted, and no session, logpoint or captured variable is claimed.",
+    "The unmatched template disables Start Debug Session while editing. Moving focus to the Line field produces a visible red outline on the invalid template. Correcting the closing brace restores enabled Start.",
+    "These pixels show visual validation behavior. The accessible name and error-announcement semantics of the controls require separate DOM/accessibility inspection; the motion and stills do not themselves establish a WCAG failure.",
+    "The service/wildcard environment warning remains visible. Enabled Start is a draft-state observation, not proof of valid instrumentation, successful source retrieval or live capture.",
+    "All source-caption clocks are UTC reconstructed from recorder start. Original-speed motion, waiting time and transitions are retained inside the source ranges listed in the archive manifest.",
+    "Browser chrome, account/profile regions, terminal preparation and browser tooltip/status areas are cropped or opaquely masked. Masks may hide adjacent blank UI and are disclosed editorial overlays.",
+    "The screenshots are separate genuine captures. Original 58/59 filenames have a .png suffix but contain JPEG data; the publication derivatives are decoded, metadata-stripped PNG crops. No still image is substituted into the video.",
+    "Previous source09 exports, older recordings and the frozen V6 checkpoint are unchanged."
+  ],
+  "review": {
+    "source_overview_seconds": 5,
+    "source_boundary_review_fps": 2,
+    "browser_boundary_review_fps": 4,
+    "all_frame_sidebar_classification_fps": 20,
+    "output_ocr": {
+      "frames_reviewed": 66,
+      "unresolved_flags": 0
+    },
+    "representative_output_full_size_review": true,
+    "raw_source_hash_unchanged": true,
+    "decode_validation": true
+  }
+}
