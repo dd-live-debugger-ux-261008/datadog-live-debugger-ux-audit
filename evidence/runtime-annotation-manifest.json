@@ -1,0 +1,32 @@
+{
+  "title": "SCI01 annotated screenshot provenance",
+  "source_public_filename": "30-github-return-empty-integration-public.png",
+  "source_public_sha256": "751e19f1183d5c91ecac21c6dbcf9240bac70021a12c93a4ca9f21875c5ca452",
+  "annotated_filename": "30-github-return-empty-integration-public-annotated.png",
+  "annotated_sha256": "3fc1a038198e524cb8c1e8703eceacc1b123b491cbfaed0258fbb4384e674a9f",
+  "annotation": "Only added a thin red rectangular border around Get started with GitHub Apps and Connect GitHub Account. Sanitized original is preserved separately.",
+  "border_xyxy_inclusive": [
+    235,
+    255,
+    795,
+    478
+  ],
+  "border_width_pixels": 3,
+  "border_rgb": [
+    220,
+    38,
+    38
+  ],
+  "all_non_border_pixels_exact": true,
+  "metadata_empty": true,
+  "png_chunks": [
+    "IHDR",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IEND"
+  ],
+  "privacy_provenance": "See runtime-privacy-provenance.md for original screenshot crop and source hash.",
+  "finding": "SCI01: Medium interrupted-flow recovery issue. Fresh-install behavior and root cause remain unestablished.",
+  "visually_reviewed_after_annotation": true
+}
