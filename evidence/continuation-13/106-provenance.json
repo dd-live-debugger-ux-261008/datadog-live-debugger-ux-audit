@@ -1,0 +1,57 @@
+{
+  "id": "106",
+  "source_filename": "106-invalid-condition-draft.jpg",
+  "source_sha256": "a7d69976e386572336f15d8bf936a2e8be91c206595a22ccf0d410737579383e",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "106-invalid-condition-draft-safe.png",
+  "public_relative_path": "evidence/continuation-13/106-invalid-condition-draft-safe.png",
+  "safe_sha256": "e5928db257d9c0df83ef67e4ff7afcb82bbe7d98a643bcaa00d86417473a7dd7",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "2889d3ce9872415f2e16934637153e3780c78a32a61fd64031ecd6ae5f38c777",
+  "safe_decoded_rgb_sha256": "7701e4a5942cb02baff4590298f3cd7d6ef56c6be3b15e41496e7e7893f37a30",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The condition editor visibly contains the incomplete expression quantity == with a red validation mark. The log template is RECOVER quantity={quantity} total={total_cents}, and existing RECOVER event rows remain below. This is the invalid-expression draft state.",
+  "visible_evidence_limits": [
+    "No explanatory validation error text or confirmed server rejection is visible.",
+    "Existing rows do not prove this draft was applied."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

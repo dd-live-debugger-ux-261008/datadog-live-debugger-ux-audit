@@ -1,0 +1,57 @@
+{
+  "id": "114",
+  "source_filename": "114-capture-restored-new-locals.jpg",
+  "source_sha256": "33b237ca2eb06b0e06e2510280d904c2dab049474d6b99f28c889de3d2fc04da",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "114-capture-restored-locals-safe.png",
+  "public_relative_path": "evidence/continuation-13/114-capture-restored-locals-safe.png",
+  "safe_sha256": "5479e5fad769921b8c12a5e7629e128afdca094d34c20117680d500f877ebb2a",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "9fd21a4fdfa900be3a67223c29b2bb632c1b0248996ded439dc905038c315cd2",
+  "safe_decoded_rgb_sha256": "55e1b2c290df7f415b903899ab67a482c87b94ce482ea1f139edb294efea6235",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The capture message remains MESSAGE_ONLY missing=False present=True quantity=2, and the capture pane now visibly includes quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This is the captured-locals result in the re-enable sequence.",
+  "visible_evidence_limits": [
+    "The precise payload timestamp is not displayed.",
+    "The row times are not independently verified execution timestamps for the capture pane."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

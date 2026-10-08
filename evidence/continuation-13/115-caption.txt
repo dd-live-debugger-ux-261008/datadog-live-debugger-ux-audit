@@ -1,0 +1,1 @@
+The Add a logpoint form visibly targets pricing#calculate_quote(quantity) in staging, with the template METHOD quantity={quantity} and capture of all variables up to 3 levels deep. Retrieved pricing.py source includes the calculate_quote signature and the intentional quantity > 3 boundary bug. The Add to Session button remains visible.

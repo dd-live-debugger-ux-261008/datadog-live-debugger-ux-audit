@@ -1,0 +1,57 @@
+{
+  "id": "111",
+  "source_filename": "111-message-only-definition.jpg",
+  "source_sha256": "8415ca3a0d57b969f1885aa34ed8d26525265072e2dd96e686d258e23f87d889",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "111-message-only-definition-safe.png",
+  "public_relative_path": "evidence/continuation-13/111-message-only-definition-safe.png",
+  "safe_sha256": "6125ef960726c3a0ea600dacfbb79f1a436d2f91a6e43874309a5fb9ea250dba",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "8e0116013120453e32a56d5e7cfc813f4f939f2ad2e8bbd06629d9fb59ed9c6c",
+  "safe_decoded_rgb_sha256": "acab2aa2df873c0e16e96a6e9c085f888b2afa6fb9263fc55086251b4e0dca29",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The lower portion of the condition editor is visible, including partly clipped quantity == 2 and \u201c+ Capture Variables\u201d controls and fully visible Apply/Cancel buttons. The lower pane still displays the earlier DEFINED missing=False quantity=2 capture and its variables. This records the prepared variable-capture-off state.",
+  "visible_evidence_limits": [
+    "The upper editor area, including the new message template, is offscreen; the condition and Capture Variables controls are partly clipped.",
+    "The Apply action is not shown, and the retained lower capture is not evidence of the pending definition."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

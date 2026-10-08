@@ -1,0 +1,1 @@
+The session visibly shows INACTIVE, and the line 17 logpoint shows DISABLED with “Captured 1m ago.” Previously captured QA rows and the quantity-two capture remain available in a fixed one-hour range. The visible capture values are quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200.

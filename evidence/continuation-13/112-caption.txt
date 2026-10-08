@@ -1,0 +1,1 @@
+The visible capture message is MESSAGE_ONLY missing=False present=True quantity=2. The pane states “Logpoint does not contain debugging information,” explains that this logpoint does not capture method parameters or local variables, and offers Change to Capture Variables. The explanatory copy also mentions a one-log-per-second rate limit.

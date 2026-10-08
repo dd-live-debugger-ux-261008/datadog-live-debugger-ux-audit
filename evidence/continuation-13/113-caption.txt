@@ -1,0 +1,1 @@
+The retained MESSAGE_ONLY capture is labeled OUTDATED. A green confirmation states that Capture variables is now enabled for this logpoint and that future logs will include method parameters and local variables. The older message-only result remains displayed.

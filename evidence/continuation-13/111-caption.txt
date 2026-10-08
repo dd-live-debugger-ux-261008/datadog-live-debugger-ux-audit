@@ -1,0 +1,1 @@
+The lower portion of the condition editor is visible, including partly clipped quantity == 2 and “+ Capture Variables” controls and fully visible Apply/Cancel buttons. The lower pane still displays the earlier DEFINED missing=False quantity=2 capture and its variables. This records the prepared variable-capture-off state.

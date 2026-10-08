@@ -1,0 +1,1 @@
+The valid line 17 logpoint is marked EVENTS RECEIVED, and the visible event rows render VALID2 quantity=2. This is the event result following the condition-correction sequence. The source pane is showing the separate expired line 9999 logpoint.

@@ -1,0 +1,57 @@
+{
+  "id": "109",
+  "source_filename": "109-missing-local-actionable-error.jpg",
+  "source_sha256": "e80f9c52d8cfa7b4dcb0ef10dbd898532161e73252f21d6e22fa33b36c9785b7",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "109-missing-local-actionable-error-safe.png",
+  "public_relative_path": "evidence/continuation-13/109-missing-local-actionable-error-safe.png",
+  "safe_sha256": "6a2cd71ae6f0a442f108630688ba286523e00211dd87017b8428957f1a57cc44",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c8227f162ff6f868c810d6c35a7ac461490b22f9ff9d58106f802746907fbc82",
+  "safe_decoded_rgb_sha256": "22900a1e7f515ee57785eabceadf634aa1b835c13eb7ac7dff32e21c16a0b284",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The capture pane visibly reports Evaluation errors for expression missing_qa_value: \u201cNo such local variable: 'missing_qa_value'\u201d, in the Log field. A guidance panel says the error can be fixed by editing the log template, conditions, and/or capture expressions, and provides Edit Logpoint. Event rows render MISSING value=ERROR quantity=2. The visible captured fields include quantity=2 and discount_cents=0.",
+  "visible_evidence_limits": [
+    "Additional captured variables are below the visible area.",
+    "This still does not show the edit or its outcome."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

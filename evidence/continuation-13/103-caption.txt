@@ -1,0 +1,1 @@
+The session visibly shows INACTIVE, and the pricing.py line 17 logpoint shows EXPIRED with “Captured 43m ago.” Historical QA event rows remain visible in a fixed one-hour range. The resume control is present. This is the displayed state before the separate resume action.

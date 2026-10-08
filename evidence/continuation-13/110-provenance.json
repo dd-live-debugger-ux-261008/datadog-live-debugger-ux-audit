@@ -1,0 +1,57 @@
+{
+  "id": "110",
+  "source_filename": "110-definedness-false-recovery.jpg",
+  "source_sha256": "c4584e155d668de389c826db213f30e16747a409062d975b254923e88842f82e",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "110-definedness-false-recovery-safe.png",
+  "public_relative_path": "evidence/continuation-13/110-definedness-false-recovery-safe.png",
+  "safe_sha256": "984fbfa30a14379d451c035046ab30484e9273037341f6633777c479df5b9af3",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a116f61a68eaaae199eab4f5e80081883082cc6339298d203d2147c7b0fc5dd8",
+  "safe_decoded_rgb_sha256": "4d39aef57feac1272c52441659cad94490ebf98c9d578fd45d4b90dde5e96af6",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The event list and capture message visibly render DEFINED missing=False quantity=2. Captured values are quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. The capture pane displays a normal Log Message and values in place of the earlier evaluation-error panel.",
+  "visible_evidence_limits": [
+    "The isDefined expression itself is not visible in this still.",
+    "The screenshot records the rendered recovery result without independently proving the exact edit."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

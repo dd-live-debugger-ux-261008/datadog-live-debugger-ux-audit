@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "title": "Continuation 13: session recovery, expression errors, variable capture, and function exit controls",
+  "public_relative_directory": "evidence/continuation-13/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "All rectangles are zero-based and half-open [left, top, right, bottom). Outputs use integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "11118e23ddb2e4da84413a56fbbde3fb79f1021ae5d88ce0a1af118bcf3410aa",
+    "batch_definition_sha256": "c5e9ad14293ca77823a831de92d043163b4a1b8665c423ae5084321d6d9f544c",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "103",
+      "source_filename": "103-expired-session-before-explicit-resume.jpg",
+      "source_sha256": "339ea6e4738d32d16e00cba3445043ddfd4cb2cebd96db3c2fb778ff09f99a8b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "103-expired-session-before-resume-safe.png",
+      "public_relative_path": "evidence/continuation-13/103-expired-session-before-resume-safe.png",
+      "safe_sha256": "eb85f31e9a2aea9440525c86a1be72e9519102ac7bd4285388912a266b0bd2a8",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f4172fbea2de965d7babea6f5104e3126b47ced798624f3b215865bb54bea426",
+      "safe_decoded_rgb_sha256": "75c922fd4794dba34ae1eb0b67b752040c1e421341cce9e72619921f4c13d99b",
+      "verified_unchanged_pixels_outside_masks": 569815,
+      "source_unchanged": true,
+      "caption": "The session visibly shows INACTIVE, and the pricing.py line 17 logpoint shows EXPIRED with \u201cCaptured 43m ago.\u201d Historical QA event rows remain visible in a fixed one-hour range. The resume control is present. This is the displayed state before the separate resume action.",
+      "visible_evidence_limits": [
+        "The resume action itself is not pictured.",
+        "Historical row times are not new post-expiry execution evidence."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "104",
+      "source_filename": "104-explicit-resume-new-capture.jpg",
+      "source_sha256": "f450888e93a57a2fa951d9b7c12a4eff1d5ab99e01aa864a90f84462fdf17085",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "104-resumed-session-active-capture-safe.png",
+      "public_relative_path": "evidence/continuation-13/104-resumed-session-active-capture-safe.png",
+      "safe_sha256": "a8f62b4373d0999cbb0fc4cf2289d48215e5179350b4ac05cbbefb564f1c4048",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "fa7bad05c96d5d84a1ef39b14c97cf73961cd9d30ca4839fe10781da3b91fddb",
+      "safe_decoded_rgb_sha256": "afd1a357b686fa3948771c9025d1d6b312723b1847ffae5c4b1a4474c6754a99",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The session visibly shows ACTIVE (59 MINUTES LEFT), EVENTS RECEIVED, and approximately 18 captured events. The capture message is QA quantity=2 total=2400, with quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This records the active capture state in the resume sequence.",
+      "visible_evidence_limits": [
+        "The click that resumed the session is not visible.",
+        "A displayed row timestamp is not independently verified as the capture payload timestamp."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "105",
+      "source_filename": "105-resumed-session-stopped-after-reload.jpg",
+      "source_sha256": "d079d1665f33d676d64b3d03b017f9839b185a59c09175c26535414faea3ae56",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "105-resumed-session-inactive-disabled-safe.png",
+      "public_relative_path": "evidence/continuation-13/105-resumed-session-inactive-disabled-safe.png",
+      "safe_sha256": "439d2273076e4788506fdc3c688e70c832eb0e1af7da5cb6890fd6b95aebd313",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4925ade48c06f215f2ae9d5b1e3f2888be3495aecf09b02ee139a4ebecfd554c",
+      "safe_decoded_rgb_sha256": "e2641bb35a04baf9be2e07f5bfd012e5d51a25d12130a893aff95b95886d2872",
+      "verified_unchanged_pixels_outside_masks": 569815,
+      "source_unchanged": true,
+      "caption": "The session visibly shows INACTIVE, and the line 17 logpoint shows DISABLED with \u201cCaptured 1m ago.\u201d Previously captured QA rows and the quantity-two capture remain available in a fixed one-hour range. The visible capture values are quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200.",
+      "visible_evidence_limits": [
+        "The stop and reload actions are not pictured; the still establishes the resulting displayed state.",
+        "Retained rows do not establish new capture while disabled."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "106",
+      "source_filename": "106-invalid-condition-draft.jpg",
+      "source_sha256": "a7d69976e386572336f15d8bf936a2e8be91c206595a22ccf0d410737579383e",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "106-invalid-condition-draft-safe.png",
+      "public_relative_path": "evidence/continuation-13/106-invalid-condition-draft-safe.png",
+      "safe_sha256": "e5928db257d9c0df83ef67e4ff7afcb82bbe7d98a643bcaa00d86417473a7dd7",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "2889d3ce9872415f2e16934637153e3780c78a32a61fd64031ecd6ae5f38c777",
+      "safe_decoded_rgb_sha256": "7701e4a5942cb02baff4590298f3cd7d6ef56c6be3b15e41496e7e7893f37a30",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The condition editor visibly contains the incomplete expression quantity == with a red validation mark. The log template is RECOVER quantity={quantity} total={total_cents}, and existing RECOVER event rows remain below. This is the invalid-expression draft state.",
+      "visible_evidence_limits": [
+        "No explanatory validation error text or confirmed server rejection is visible.",
+        "Existing rows do not prove this draft was applied."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "107",
+      "source_filename": "107-nonboolean-condition-rejected.jpg",
+      "source_sha256": "5d14662d8a9567a522499455a60712bada60b9a0c3ccd5de698475e84ba2074e",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "107-nonboolean-condition-validation-safe.png",
+      "public_relative_path": "evidence/continuation-13/107-nonboolean-condition-validation-safe.png",
+      "safe_sha256": "c27d76125c1ca9ed420d88a570dc3df7dca474dd0983810d63d0605701744c93",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f915207b4311445f6e1a625756ef97e649f585010b0e953da812faf1edd2494b",
+      "safe_decoded_rgb_sha256": "3037508c4ea30c0b36460328f9884becee02cc8ca669f61cfdcdaf8a9cda58a9",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The editor visibly contains the template NUMERIC_CONDITION quantity={quantity} and the bare condition quantity, shown with a red field border and validation mark. The lower list still contains RECOVER messages. This records the visible validation state for the non-Boolean condition attempt.",
+      "visible_evidence_limits": [
+        "The exact validation reason is not printed in the still.",
+        "The still does not independently establish a server-side rejection."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "108",
+      "source_filename": "108-valid-condition-correction-events.jpg",
+      "source_sha256": "71b657880409daa9181dfb46aa0d805e1e128124a77d0856711b1fcd015827b2",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "108-valid-condition-correction-events-safe.png",
+      "public_relative_path": "evidence/continuation-13/108-valid-condition-correction-events-safe.png",
+      "safe_sha256": "16521252a9ecce621fa05896ec8c245f256a6f85fe3cd5e36444eb65718b4de8",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "1c7c2cc5a2bce46d4cf2d3d4fa2f6c2d75ccbfdfc05be0767ac5c779eb38c0b8",
+      "safe_decoded_rgb_sha256": "0ab4bf074ffcbf754eeaa4853a3bae3dab6fc6cc467e974a6599b2bff89a52bd",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The valid line 17 logpoint is marked EVENTS RECEIVED, and the visible event rows render VALID2 quantity=2. This is the event result following the condition-correction sequence. The source pane is showing the separate expired line 9999 logpoint.",
+      "visible_evidence_limits": [
+        "The corrected condition definition is not visible.",
+        "The separate line 9999 source context must not be described as the corrected condition."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "109",
+      "source_filename": "109-missing-local-actionable-error.jpg",
+      "source_sha256": "e80f9c52d8cfa7b4dcb0ef10dbd898532161e73252f21d6e22fa33b36c9785b7",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "109-missing-local-actionable-error-safe.png",
+      "public_relative_path": "evidence/continuation-13/109-missing-local-actionable-error-safe.png",
+      "safe_sha256": "6a2cd71ae6f0a442f108630688ba286523e00211dd87017b8428957f1a57cc44",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c8227f162ff6f868c810d6c35a7ac461490b22f9ff9d58106f802746907fbc82",
+      "safe_decoded_rgb_sha256": "22900a1e7f515ee57785eabceadf634aa1b835c13eb7ac7dff32e21c16a0b284",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The capture pane visibly reports Evaluation errors for expression missing_qa_value: \u201cNo such local variable: 'missing_qa_value'\u201d, in the Log field. A guidance panel says the error can be fixed by editing the log template, conditions, and/or capture expressions, and provides Edit Logpoint. Event rows render MISSING value=ERROR quantity=2. The visible captured fields include quantity=2 and discount_cents=0.",
+      "visible_evidence_limits": [
+        "Additional captured variables are below the visible area.",
+        "This still does not show the edit or its outcome."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "110",
+      "source_filename": "110-definedness-false-recovery.jpg",
+      "source_sha256": "c4584e155d668de389c826db213f30e16747a409062d975b254923e88842f82e",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "110-definedness-false-recovery-safe.png",
+      "public_relative_path": "evidence/continuation-13/110-definedness-false-recovery-safe.png",
+      "safe_sha256": "984fbfa30a14379d451c035046ab30484e9273037341f6633777c479df5b9af3",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a116f61a68eaaae199eab4f5e80081883082cc6339298d203d2147c7b0fc5dd8",
+      "safe_decoded_rgb_sha256": "4d39aef57feac1272c52441659cad94490ebf98c9d578fd45d4b90dde5e96af6",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The event list and capture message visibly render DEFINED missing=False quantity=2. Captured values are quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. The capture pane displays a normal Log Message and values in place of the earlier evaluation-error panel.",
+      "visible_evidence_limits": [
+        "The isDefined expression itself is not visible in this still.",
+        "The screenshot records the rendered recovery result without independently proving the exact edit."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "111",
+      "source_filename": "111-message-only-definition.jpg",
+      "source_sha256": "8415ca3a0d57b969f1885aa34ed8d26525265072e2dd96e686d258e23f87d889",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "111-message-only-definition-safe.png",
+      "public_relative_path": "evidence/continuation-13/111-message-only-definition-safe.png",
+      "safe_sha256": "6125ef960726c3a0ea600dacfbb79f1a436d2f91a6e43874309a5fb9ea250dba",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "8e0116013120453e32a56d5e7cfc813f4f939f2ad2e8bbd06629d9fb59ed9c6c",
+      "safe_decoded_rgb_sha256": "acab2aa2df873c0e16e96a6e9c085f888b2afa6fb9263fc55086251b4e0dca29",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The lower portion of the condition editor is visible, including partly clipped quantity == 2 and \u201c+ Capture Variables\u201d controls and fully visible Apply/Cancel buttons. The lower pane still displays the earlier DEFINED missing=False quantity=2 capture and its variables. This records the prepared variable-capture-off state.",
+      "visible_evidence_limits": [
+        "The upper editor area, including the new message template, is offscreen; the condition and Capture Variables controls are partly clipped.",
+        "The Apply action is not shown, and the retained lower capture is not evidence of the pending definition."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "112",
+      "source_filename": "112-message-only-no-captured-variables.jpg",
+      "source_sha256": "8617efcdd1e77efafd0541bdf62856f1bd3468e8da78172436035a7f05e5a495",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "112-message-only-explanation-safe.png",
+      "public_relative_path": "evidence/continuation-13/112-message-only-explanation-safe.png",
+      "safe_sha256": "ee2e3d847b26d9ac901319f6ad55317e984881f921173610bde46ba661843f77",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4a58ccabf2185be6b7e9fbabccb151dae8c9d322329ec4b1c2be4bf75182af17",
+      "safe_decoded_rgb_sha256": "91dec9917017a02b604158ba40a4886a678142a5237c455d4e6d00d974327f40",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The visible capture message is MESSAGE_ONLY missing=False present=True quantity=2. The pane states \u201cLogpoint does not contain debugging information,\u201d explains that this logpoint does not capture method parameters or local variables, and offers Change to Capture Variables. The explanatory copy also mentions a one-log-per-second rate limit.",
+      "visible_evidence_limits": [
+        "This result does not contain a captured-locals panel.",
+        "The button action and later capture behavior are not pictured here."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "113",
+      "source_filename": "113-capture-reenabled-future-logs-guidance.jpg",
+      "source_sha256": "98ccc1e4287196411c955ee8e6de41f4d068d3d1f8e1f547f3e294cf7107ce3f",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "113-capture-reenabled-future-logs-guidance-safe.png",
+      "public_relative_path": "evidence/continuation-13/113-capture-reenabled-future-logs-guidance-safe.png",
+      "safe_sha256": "a7d29cf12a0179d2ecbe685a08746cf935e5e7f41bdf635f3ff4ba28cddfc191",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "640589229f01d8a9165fd89ad0e6429662aee8b46d1017b383a5b2e920d1acbc",
+      "safe_decoded_rgb_sha256": "1b0042eb55d0336880eac469dc99ed97a3fa4ae796bc16c59b29a1bf7f0940b0",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The retained MESSAGE_ONLY capture is labeled OUTDATED. A green confirmation states that Capture variables is now enabled for this logpoint and that future logs will include method parameters and local variables. The older message-only result remains displayed.",
+      "visible_evidence_limits": [
+        "The still explicitly promises variables for future logs; it does not show variables being added retroactively to this older result."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "114",
+      "source_filename": "114-capture-restored-new-locals.jpg",
+      "source_sha256": "33b237ca2eb06b0e06e2510280d904c2dab049474d6b99f28c889de3d2fc04da",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "114-capture-restored-locals-safe.png",
+      "public_relative_path": "evidence/continuation-13/114-capture-restored-locals-safe.png",
+      "safe_sha256": "5479e5fad769921b8c12a5e7629e128afdca094d34c20117680d500f877ebb2a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9fd21a4fdfa900be3a67223c29b2bb632c1b0248996ded439dc905038c315cd2",
+      "safe_decoded_rgb_sha256": "55e1b2c290df7f415b903899ab67a482c87b94ce482ea1f139edb294efea6235",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The capture message remains MESSAGE_ONLY missing=False present=True quantity=2, and the capture pane now visibly includes quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This is the captured-locals result in the re-enable sequence.",
+      "visible_evidence_limits": [
+        "The precise payload timestamp is not displayed.",
+        "The row times are not independently verified execution timestamps for the capture pane."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "115",
+      "source_filename": "115-function-logpoint-draft.jpg",
+      "source_sha256": "941a32993a4e0c53661caffbfce2e5b7b89768612879c76f7c20d8a6d9dd3d83",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "115-function-logpoint-draft-safe.png",
+      "public_relative_path": "evidence/continuation-13/115-function-logpoint-draft-safe.png",
+      "safe_sha256": "27edc49540d12f8c7fbba50cc4fd763ee58c74183a2da15cc65e644c5dcc9bba",
+      "safe_dimensions": [
+        1062,
+        693
+      ],
+      "crop_source_xyxy": [
+        59,
+        48,
+        1121,
+        741
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            110,
+            147,
+            324,
+            172
+          ],
+          "output_xyxy": [
+            51,
+            99,
+            265,
+            124
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a5e568bf1a118d1e6afa1ba61b65a19df5525081f7e60f85b996819db39553d9",
+      "safe_decoded_rgb_sha256": "ed56cd6f00fddf798e1b6eb6b774907c859926d8730592959212a39ebddf5dbc",
+      "verified_unchanged_pixels_outside_masks": 730616,
+      "source_unchanged": true,
+      "caption": "The Add a logpoint form visibly targets pricing#calculate_quote(quantity) in staging, with the template METHOD quantity={quantity} and capture of all variables up to 3 levels deep. Retrieved pricing.py source includes the calculate_quote signature and the intentional quantity > 3 boundary bug. The Add to Session button remains visible.",
+      "visible_evidence_limits": [
+        "This is a prepared function-probe draft; the submission action is not pictured."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "116",
+      "source_filename": "116-function-exit-return-capture.jpg",
+      "source_sha256": "0e83dc197668013755886bd5e29f27254a0fd63f3cb420e889c8a4fb1da53304",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "116-function-exit-return-capture-safe.png",
+      "public_relative_path": "evidence/continuation-13/116-function-exit-return-capture-safe.png",
+      "safe_sha256": "845e92351827734e8641f404e254b4b5bd6ca02c1c4700bc4497654c775e5576",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b48213ee87cf9cbedae01c3de79d448fae2f2085155b1bd3fb27545a6352ae2e",
+      "safe_decoded_rgb_sha256": "862ae59d8e575671db57ba3fa47435943588cc82d5ca419a7d08a974d3394b16",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The function capture message visibly reads METHOD quantity=3. Under \u201cValues on exit,\u201d the pane shows local quantity=3 and an expanded @return dictionary of size 6. Four returned entries are visible: quantity -> 3, unit_price_cents -> 1200, subtotal_cents -> 3600, and discount_eligible -> False. The function source and METHOD event rows are also visible.",
+      "visible_evidence_limits": [
+        "The remaining two return entries are below the visible area and are not claimed as pictured.",
+        "The dictionary size does not by itself reveal the offscreen values.",
+        "Event-list times are not substituted for a verified function-exit payload timestamp."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "103-caption.txt",
+    "103-expired-session-before-resume-safe.png",
+    "103-provenance.json",
+    "104-caption.txt",
+    "104-provenance.json",
+    "104-resumed-session-active-capture-safe.png",
+    "105-caption.txt",
+    "105-provenance.json",
+    "105-resumed-session-inactive-disabled-safe.png",
+    "106-caption.txt",
+    "106-invalid-condition-draft-safe.png",
+    "106-provenance.json",
+    "107-caption.txt",
+    "107-nonboolean-condition-validation-safe.png",
+    "107-provenance.json",
+    "108-caption.txt",
+    "108-provenance.json",
+    "108-valid-condition-correction-events-safe.png",
+    "109-caption.txt",
+    "109-missing-local-actionable-error-safe.png",
+    "109-provenance.json",
+    "110-caption.txt",
+    "110-definedness-false-recovery-safe.png",
+    "110-provenance.json",
+    "111-caption.txt",
+    "111-message-only-definition-safe.png",
+    "111-provenance.json",
+    "112-caption.txt",
+    "112-message-only-explanation-safe.png",
+    "112-provenance.json",
+    "113-caption.txt",
+    "113-capture-reenabled-future-logs-guidance-safe.png",
+    "113-provenance.json",
+    "114-caption.txt",
+    "114-capture-restored-locals-safe.png",
+    "114-provenance.json",
+    "115-caption.txt",
+    "115-function-logpoint-draft-safe.png",
+    "115-provenance.json",
+    "116-caption.txt",
+    "116-function-exit-return-capture-safe.png",
+    "116-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ]
+}

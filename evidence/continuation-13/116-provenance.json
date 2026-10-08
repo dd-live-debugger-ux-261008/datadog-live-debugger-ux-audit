@@ -1,0 +1,58 @@
+{
+  "id": "116",
+  "source_filename": "116-function-exit-return-capture.jpg",
+  "source_sha256": "0e83dc197668013755886bd5e29f27254a0fd63f3cb420e889c8a4fb1da53304",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "116-function-exit-return-capture-safe.png",
+  "public_relative_path": "evidence/continuation-13/116-function-exit-return-capture-safe.png",
+  "safe_sha256": "845e92351827734e8641f404e254b4b5bd6ca02c1c4700bc4497654c775e5576",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b48213ee87cf9cbedae01c3de79d448fae2f2085155b1bd3fb27545a6352ae2e",
+  "safe_decoded_rgb_sha256": "862ae59d8e575671db57ba3fa47435943588cc82d5ca419a7d08a974d3394b16",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The function capture message visibly reads METHOD quantity=3. Under \u201cValues on exit,\u201d the pane shows local quantity=3 and an expanded @return dictionary of size 6. Four returned entries are visible: quantity -> 3, unit_price_cents -> 1200, subtotal_cents -> 3600, and discount_eligible -> False. The function source and METHOD event rows are also visible.",
+  "visible_evidence_limits": [
+    "The remaining two return entries are below the visible area and are not claimed as pictured.",
+    "The dictionary size does not by itself reveal the offscreen values.",
+    "Event-list times are not substituted for a verified function-exit payload timestamp."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

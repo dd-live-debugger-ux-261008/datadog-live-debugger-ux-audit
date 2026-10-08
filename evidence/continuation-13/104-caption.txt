@@ -1,0 +1,1 @@
+The session visibly shows ACTIVE (59 MINUTES LEFT), EVENTS RECEIVED, and approximately 18 captured events. The capture message is QA quantity=2 total=2400, with quantity=2, discount_cents=0, discount_eligible=False, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This records the active capture state in the resume sequence.

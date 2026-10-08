@@ -1,0 +1,56 @@
+{
+  "id": "113",
+  "source_filename": "113-capture-reenabled-future-logs-guidance.jpg",
+  "source_sha256": "98ccc1e4287196411c955ee8e6de41f4d068d3d1f8e1f547f3e294cf7107ce3f",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "113-capture-reenabled-future-logs-guidance-safe.png",
+  "public_relative_path": "evidence/continuation-13/113-capture-reenabled-future-logs-guidance-safe.png",
+  "safe_sha256": "a7d29cf12a0179d2ecbe685a08746cf935e5e7f41bdf635f3ff4ba28cddfc191",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "640589229f01d8a9165fd89ad0e6429662aee8b46d1017b383a5b2e920d1acbc",
+  "safe_decoded_rgb_sha256": "1b0042eb55d0336880eac469dc99ed97a3fa4ae796bc16c59b29a1bf7f0940b0",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The retained MESSAGE_ONLY capture is labeled OUTDATED. A green confirmation states that Capture variables is now enabled for this logpoint and that future logs will include method parameters and local variables. The older message-only result remains displayed.",
+  "visible_evidence_limits": [
+    "The still explicitly promises variables for future logs; it does not show variables being added retroactively to this older result."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

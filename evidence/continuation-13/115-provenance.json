@@ -1,0 +1,56 @@
+{
+  "id": "115",
+  "source_filename": "115-function-logpoint-draft.jpg",
+  "source_sha256": "941a32993a4e0c53661caffbfce2e5b7b89768612879c76f7c20d8a6d9dd3d83",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "115-function-logpoint-draft-safe.png",
+  "public_relative_path": "evidence/continuation-13/115-function-logpoint-draft-safe.png",
+  "safe_sha256": "27edc49540d12f8c7fbba50cc4fd763ee58c74183a2da15cc65e644c5dcc9bba",
+  "safe_dimensions": [
+    1062,
+    693
+  ],
+  "crop_source_xyxy": [
+    59,
+    48,
+    1121,
+    741
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        110,
+        147,
+        324,
+        172
+      ],
+      "output_xyxy": [
+        51,
+        99,
+        265,
+        124
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a5e568bf1a118d1e6afa1ba61b65a19df5525081f7e60f85b996819db39553d9",
+  "safe_decoded_rgb_sha256": "ed56cd6f00fddf798e1b6eb6b774907c859926d8730592959212a39ebddf5dbc",
+  "verified_unchanged_pixels_outside_masks": 730616,
+  "source_unchanged": true,
+  "caption": "The Add a logpoint form visibly targets pricing#calculate_quote(quantity) in staging, with the template METHOD quantity={quantity} and capture of all variables up to 3 levels deep. Retrieved pricing.py source includes the calculate_quote signature and the intentional quantity > 3 boundary bug. The Add to Session button remains visible.",
+  "visible_evidence_limits": [
+    "This is a prepared function-probe draft; the submission action is not pictured."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}
