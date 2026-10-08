@@ -1,47 +1,46 @@
-# Remaining Datadog audit execution plan
+# Remaining Datadog audit work
 
-The next work should close original case requirements before adding optional scenarios. The current account and test repository support substantial further execution. A missing prepared fixture is a setup task, not a permanent product limitation.
+This plan follows the **V12 checkpoint frozen at 8 October 2026, 21:51:46.355 UTC**. The grouped campaign is complete: actual metadata repair, concurrent C1/C2 execution, application restart, Agent interruption and the bounded burst have receipts. All seven known sessions are inactive and the owned runtimes are stopped. The work below identifies remaining original-case requirements; it does not imply that these completed stages are still pending or that new execution is already approved.
 
-## Finish session and browser branches
+The current 63-case ledger contains **23 PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED**. A case with a finding can still contain unfinished branches. [Full definitions and outcomes](QA_MATRIX.md).
 
-Use the existing authorized A runtime and a small set of shared controls.
+## Remaining session, browser and assessment branches
 
-1. F09: actually save the second field from a stale tab, reload both tabs and inspect a fresh capture against the final saved condition and message. The confirmed dirty-draft finding does not complete this saved-write branch.
-2. F10: repeat the individual and session/child stale-edit sequences with both-tab reload agreement, the action wording and the new event's own details. Resolve the intended reactivation feedback without declaring a security bypass from Apply alone.
-3. F15 and X09: create the supported alternate target while retaining old-event identity, then compare two same-location sessions with quantity-three and quantity-four conditions. Edit and stop one while the other remains active.
-4. B10: complete list-view lifecycle, direct-link return, retained-history explanation and the visible scope of service/environment disable. Do not use service-wide controls unless their exact test-only scope is authorized.
-5. F07: inspect the supported method-entry path or establish its documented/UI availability limit. Default exit capture does not imply entry was tested.
-6. B09: finish keyboard and zoom checks for code gutter, scroll, full/long paths and the computed Line label. Preserve the existing UX03 finding without treating it as complete accessibility coverage.
-7. F17: repeat ascending selection and refresh in isolation, inspect the resulting sort indicator and correct chronological order, and resolve whether the original expectation is violated. Current retained-view checks are valid evidence; active capture is not an added prerequisite.
-8. S16: test the signed-out direct-link and supported sign-in recovery branch. A wrong-organization test separately needs a second authorized organization.
+1. **F09:** Complete the branch in which a stale different-field save is actually accepted or explicitly rejected under an understood conflict contract. The latest run repeated FUNC01: B's unsaved draft disappeared after A saved, and B's Apply became disabled. Both reloads and a new row supported A's accepted state; no stale B write was accepted.
+2. **F10:** Establish the original reload-both-tabs comparison and inspect the individual-probe STALE_EDIT capture itself. The earlier individual still selected an older OUTDATED event. The later session-level capture supports its own branch but does not replace that missing detail. Resolve the intended disabled-edit contract and pre-action reactivation feedback before deciding whether a defect exists.
+3. **F15 and X09:** Follow the supported alternate-target creation route and verify retained historical identity. Separately complete the original two-session isolation comparison using the same location with quantity-three and quantity-four conditions, editing and stopping one while the other remains active.
+4. **B10:** Finish the list-view lifecycle, route-back-later and visible scope of service/environment disable. Existing expiry, explicit stop and retained-history evidence is valid but does not complete the whole walkthrough. Any service-wide action needs authorization for its exact test-only scope.
+5. **B09:** Finish keyboard/zoom coverage for the code gutter, scrolling, full/long paths and the computed Line label. Preserve the scoped UX03 finding without implying a completed screen-reader or global accessibility audit.
+6. **F17:** Repeat and assess ascending sort after refresh against the actual sort-state contract, including the displayed indicator. Correct capture identity and values after refresh are already established; active capture is not needed to assess the retained-event behavior.
+7. **S06:** Assess diagnostic specificity and automatic shared-editor recovery separately from selected-event source. All six same-target metadata repairs are complete and resolve exact A/C1 event stacks. A fresh editor can retain a missing-file banner, while explicit row selection shows shared C1 code; the six repairs do not need to be described as missing.
+8. **S07:** Resolve the in-flight atomic-update expectation. Actual C1/C2 attribution, direct links, Back/Forward and the rapid selection loop have run and settle correctly. Transient prior content prevents a blanket every-frame PASS but does not establish a persistent mismatch or new finding.
+9. **F19:** Assess the observed offline/pending feedback against the original expectation. Actual Agent interruption, restoration and same-application capture recovery are verified. The historical EVENTS RECEIVED label during the outage alone does not establish fabricated events, data loss or a defect.
 
-## One grouped fixture campaign
+## Remaining fixture and execution branches
 
-Prepare all fixtures, exact revision/path/value oracles and cleanup before dispatching one bounded test run. Prefer explicit phase boundaries and stable positive controls to a separate runtime launch for every case.
+These are specific unfinished controls or fixture corrections, rather than a request to repeat the entire completed campaign. Any future runtime should be bounded and retain exact revision/path/value oracles and explicit cleanup.
 
-- S06: retain each failing service/profile identity, correct its metadata, and inspect new telemetry from that same target. A different healthy service is not a recovery test. Preserve exact URL/SHA values and source results before and after correction.
-- S07 and X01: genuinely execute C1 and C2 concurrently under the same service/environment, with distinct numeric markers, event-level revisions and overlapping SDK execution timestamps. C2 must actually run; an advanced branch alone does not satisfy these cases.
-- F20 and B05: run two real test environments and versions. Exercise the selectors that exist, reset dependencies, inspect event tags/source, and document controls absent from the tested surface rather than inventing them.
-- X05: keep the original C1 target through a real line-shifting C2 deployment. Verify its installed location or explicit rejection and compare a correct C2 executable-line positive control. Do not assume automatic retargeting.
-- S08 and remaining B09: prepare same basenames in different directories, a moved/renamed file across revisions, and paths containing spaces and non-ASCII characters. Use exact revision/path/line oracles.
-- F18: restart only the owned test application while its Agent and intended active/disabled definitions are known. Verify disappearance, new runtime identity, mapping and fresh capture recovery; ensure disabled/expired definitions do not silently resume.
-- F19: separately stop and restore only the owned test Agent or approved forwarding component. Keep the application control running; distinguish buffering/late ingestion from execution and record honest status and recovery without reinstalling unrelated integrations.
-- F22 and X07: finish long-string truncation, search/collapse, bounded cycle/depth, Unicode and duplicate-leaf checks, including dummy sensitive children under a nonsensitive parent. Keep normal protection unchanged and use no real secrets.
-- F23, after core controls: compare normal traffic with a fixed tiny burst under explicit request/time ceilings. Record health and observed sampling behavior; do not infer a global rate limit from one instance.
+- **B05 and F20:** Complete the supported second-environment selection/dependency and contamination controls. Real staging C1/C2 captures already establish the sampled version branch. The tested Sessions List exposed no Version control; document that surface honestly. The production-labeled synthetic probe was never created and its capture remains subject to the explicit approval gate below.
+- **X05:** Inspect the original line-17 definition on each C2 instance. The original target remained present and a separate line-24 C2 probe captured correctly, but aggregate instance counts and the positive control do not establish relocation, rejection or retargeting guidance for the original definition.
+- **S08:** Use an ordinary-import live fixture for the space/non-ASCII path branch. The earlier direct-loader module-map failure also occurred with ASCII and is not a Unicode product defect. Execute a genuine move/rename across deployed revisions. The alpha/beta same-basename controls already passed in their tested samples.
+- **F18:** Establish disappearance/status behavior during a controlled application stop and test an actually expired matching definition across restart. The observed process-generation change, fresh same-probe recovery and disabled-definition control are complete; a disabled definition does not substitute for an expired one.
+- **F22 and X07:** Verify supported string/depth truncation semantics and the remaining dummy sensitive children under a nonsensitive parent, while preserving normal protection. Typed empties, Unicode, duplicate leaves, search and four responsive cycle expansions/collapse are observed. Viewport clipping does not prove payload truncation, and four expansions do not prove a cycle-termination bound.
+- **F23:** Complete the original same-target baseline comparison and assess the sampling/rate-limit explanation. The actual nine-request burst and health checks succeeded. The campaign's distributed 1.2-second-wait baseline does not replace the specified same-target 1.1-second comparison, and no global rate limit or capture-count guarantee is established.
 
-The eight currently setup-blocked cases F18, F19, F20, F23, S07, S08, X01 and X05 belong in this engineered campaign. They are not permanent access blockers.
+## Approval, access, study and feature gates
 
-## Genuine access and study gates
+- **Production-labeled capture / F20:** Obtain explicit approval before creating the second production-labeled synthetic probe. Its draft was not submitted, no such probe was created, and no cross-environment capture result exists. This label does not imply real production data was inspected.
+- **B01:** A fresh uninformed participant is required for blind first-use timing and first-wrong-turn evidence. The informed auditor cannot recreate that study.
+- **B06 and S12–S15:** Obtain the specified independent restricted identities and a known access model. S13 additionally requires approved disposable-user revocation. Do not alter the sole administrator's role to manufacture these controls.
+- **S03:** Complete supported provider reauthentication to verify the current effective A-only installation grant and assess the private-content boundary. Datadog's A-only list and generic B-metadata source failure do not prove the underlying authorization decision. B remains ungranted.
+- **S10 and X08:** Obtain the specific authorization and setup for test-only prerequisite or access revocation and restoration. Prepare an unfetched revision/file before revocation; old cached source does not prove a new fetch.
+- **S16:** Complete the supported signed-out direct-link/sign-in recovery branch in an appropriate account context. Its wrong-organization branch separately requires a second authorized organization.
+- **F07:** Establish whether the available editor/runtime has a supported entry-capture route. If present, execute the original entry control and compare it with exit. Default function-exit capture and its returned-value control are already evidenced; an absent selector in one editor does not prove global lack of support.
+- **S17 and S18:** Use naturally available Strict-mode/preview/source gating or an explicitly authorized test context. Actual Bits availability and authorization are required for S18. Do not weaken protection to unlock a feature.
+- **X02:** Obtain two genuine authorized repository forks and the two-environment fixture. Same-A revisions and B-tagged A execution do not satisfy the fork requirement. Any additional repository grant needs its applicable approval.
 
-- B01 needs a fresh uninformed participant. The informed auditor cannot recreate a blind first-use study.
-- B06 and S12–S15 need the specified independent restricted identities and a known access model. Do not alter the sole administrator's role. S13 also requires approved disposable-user revocation.
-- S03 needs the current effective A-only grant check completed through supported reauthentication. The isolated B-metadata result establishes a narrow UI no-fallthrough observation, not the underlying authorization-decision cause.
-- S10 and X08 require specifically authorized test-only prerequisite/revocation changes and restoration. Prepare an unfetched revision/file before revocation; old cache is not a new-fetch test.
-- S16's wrong-organization branch needs another authorized organization context.
-- S17 needs naturally available Strict-mode and preview/source gating or an explicitly authorized test context. Do not weaken protection to unlock Bits.
-- S18 needs actual Bits availability and authorization to use it for the synthetic test.
-- X02 needs two genuine authorized repository forks as well as two environments. Same-A revisions or B-tagged A execution cannot replace its two-fork requirement. Any extra repository grant needs its applicable approval; B stays ungranted.
+## Remaining cleanup reconciliation
 
-## Final cleanup
+**C01/C02 are partial, with named shutdown verified.** The bounded workflow succeeded with explicit owned-runtime cleanup. The post-terminal list at 21:28:36 UTC showed All 7 / Active 0 / Inactive 7. The mixed session's seven probes were disabled, the six repaired definitions expired, and three older source-session definitions remained disabled. Later retained navigation stayed inactive.
 
-Close C01/C02 after the last execution, not after an intermediate zero-active count. Reconcile every session and probe, final reload/direct-link states, bounded post-stop traffic and SDK execution timestamps, runtime termination, test settings, fixture history, identities and intentionally retained repositories/keys/grants. Record retained assets concretely without claiming deletion or revocation that did not occur.
+Finish the original whole-audit reconciliation of test settings, resources, identities, approved grants, fixture history and remaining case-specific post-stop telemetry requirements. Record accounts, keys, repositories, approved A-only source scope and historical captures as intentionally retained. Do not describe these assets as deleted or revoked, or the verified runtime shutdown as still awaiting completion.

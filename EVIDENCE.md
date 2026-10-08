@@ -1,14 +1,14 @@
 # Evidence and checkpoint scope
 
-V11 web checkpoint: evidence through **8 October 2026, 18:51:18 UTC**. The 63 original definitions are preserved: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are outside severity totals. Further original-case work is planned; dated runtime and cleanup updates are kept separately.
+V12 consolidated checkpoint: evidence through **8 October 2026, 21:51:46.355 UTC**. The 63 original definitions are preserved: **23 scoped PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics remain outside severity totals. The later coverage controls add evidence and repeat existing FUNC01; they add no new finding. Named controlled runtimes and all known capture sessions are stopped; broader original-case work and retained-asset reconciliation remain explicit.
 
-Earlier V8/V9 sections retain their dated observations and limitations. Later run-4 and source-phase sections below supersede their dated pending-control and inventory statements. Earlier blockers and zero-session counts do not describe the present state. The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4, source controls and retained-state checks.
+The [PDF](report.pdf) and [Word report](report.docx) are the consolidated **37-page V12 report**, superseding the earlier V9 documents. Earlier V8/V9, run-4 and source-phase sections retain their dated observations and limitations. Their pending-control statements, counts and cleanup boundaries are superseded only by explicitly dated later evidence. The current [coverage controls](#coverage-phase-controls), [final runtime and capture state](#final-runtime-and-capture-state) and [video catalog](VIDEOS.md) reconcile the later results.
 
 ## Checkpoint and gates
 
 The initial and additional runtime approvals were received. The hosted synthetic baseline now has a registered debugger SDK client, actual numeric-template captures and a verified source match. The approved same-A-only reinstall repaired the interrupted source association. B remains private and never granted; discovery no-match is not a content-denial test. Independent role contexts and several controlled deployment/failure-injection variants remain unavailable.
 
-Current cases: 22 PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED, totaling 63. Ten distinct findings: 0 High, 4 Medium and 6 Low. Seven current unresolved topics remain outside finding totals. [Current status](CURRENT_STATUS.md) · [Case ledger](execution-ledger.json) · [Unconfirmed inventory](UNCONFIRMED_OBSERVATIONS.md).
+Current cases: 23 PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED, totaling 63. Ten distinct findings: 0 High, 4 Medium and 6 Low. Seven current unresolved topics remain outside finding totals. [Current status](CURRENT_STATUS.md) · [Case ledger](execution-ledger.json) · [Unconfirmed inventory](UNCONFIRMED_OBSERVATIONS.md).
 
 G1 is established for the tested healthy baseline. G2 is established for A source retrieval and deployed-revision matching, with B still ungranted; the broader B retrieval boundary remains unproved. G3/G4 case-specific prerequisites must still be satisfied. Readiness, capture, source, access boundaries and cleanup are separate claims. The retained runtime/control/experimental assets are intentional; full cleanup is not certified.
 
@@ -493,7 +493,7 @@ Subsequent source-integration work resumed. A later unscored browser check at 17
 
 ## Current media and document boundary
 
-Sources 13 and 14 now have privacy-reviewed archives and highlights in the [video catalog](VIDEOS.md), with original-speed footage, masks/crops and omissions disclosed. Earlier source-12/13 media bytes remain unchanged; timing sidecars correct nominal-versus-stored-frame interpretation. No missing transition is reconstructed or replaced by an inserted still. The PDF/Word remain the separately dated V9 snapshot.
+Sources 01–17 are reconciled in the [video catalog](VIDEOS.md): **729:50.65 recorded = 609:59.40 retained + 119:51.25 omitted**, in **57 archive MP4s**. Thirteen overlapping highlights total **47:14.40** and are not extra unique coverage. Source 15 includes **122:40.00 of unchanged idle recording**, not continuous testing. Earlier source-12/13 media bytes remain unchanged; timing sidecars correct nominal-versus-stored-frame interpretation. Source 16 and source 17 have reviewed original-speed archives with crops, masks, timing maps and omissions. No missing transition is reconstructed or replaced by an inserted still. The PDF and Word report are the consolidated 37-page V12 edition.
 
 
 ## Source phase metadata controls
@@ -502,7 +502,7 @@ Nine isolated synthetic profiles produced genuine captures. Indexed event tags w
 
 Missing both repository/SHA tags and missing SHA alone explicitly warned that Datadog used the default branch’s latest commit, 712435171efef64508cd48d514ac62122c8c5314. This is disclosed fallback, not silent substitution. The malformed synthetic-invalid-sha value produced a specific 40-hexadecimal-character diagnostic. Valid-length nonexistent SHA and wrong-repository pairs produced generic missing-link/configuration guidance. No source-correctness or security finding is inferred from those generic failures.
 
-Both B metadata combinations were checked in received tags: B URL with B’s real SHA, and B URL with A/C1 SHA. A separate one-profile, one-probe B/B-SHA session removed shared-editor ambiguity: its main editor said the file was not found and its selected-event stack showed no repository source link. The actual process ran A fixture bytes with B metadata. This passes S04’s metadata/no-fallthrough scope, not authentic B execution or proof that authorization enforcement caused the failure. S03 remains incomplete; current provider-checkbox reauthentication is still blocked. S06 still needs correcting the same failed target and observing restored source on new telemetry.
+Both B metadata combinations were checked in received tags: B URL with B’s real SHA, and B URL with A/C1 SHA. A separate one-profile, one-probe B/B-SHA session removed shared-editor ambiguity: its main editor said the file was not found and its selected-event stack showed no repository source link. The actual process ran A fixture bytes with B metadata. This passes S04’s metadata/no-fallthrough scope, not authentic B execution or proof that authorization enforcement caused the failure. S03 remains incomplete; current provider-checkbox reauthentication is still blocked. At this source-phase checkpoint, S06 still needed same-target metadata correction and restored source on new telemetry. The later six-profile repair below completes that branch; diagnostic specificity and main-editor recovery remain separate limitations.
 
 [Reviewed source screenshots and limits](evidence/source-phase-177-199/manifest.json) · [Safe received-metadata and timestamp observations](evidence/source-phase-177-199/source-observations.json).
 
@@ -533,7 +533,7 @@ The runtime continued within its approved bound at this checkpoint. Retained-vie
 
 ## Source 16 foreground visibility boundary
 
-Initial foreground review found that approximately 18:36–18:54 UTC remains on the source-integration page. The later draft/filter/sort controls, six-session list and restored C1 view are supported by direct stills and recorded UI observations, not visible foreground movie actions. No stills will be inserted to imitate that missing motion.
+The reviewed source 16 foreground remains on the settled source-integration page from about 18:36–18:54 UTC. The later draft/filter/sort controls, six-session list and restored C1 view are supported by direct stills and recorded UI observations, not visible foreground movie actions. No stills are inserted to imitate that missing motion. The [full archive](recordings/continuation-16/CONTINUATION_RECORDING_ARCHIVE.md) retains **78:04.90**, omits **11:21.35**, and links the separate **05:40.00** highlight edit.
 
 
 ## Later terminal runtime and inventory check
@@ -541,3 +541,64 @@ Initial foreground review found that approximately 18:36–18:54 UTC remains on 
 At **19:09:43 UTC**, source-run attempt 2 was verified **SUCCEEDED** after **1h 30m 50s**. Its cleanup step explicitly reported job-owned grouped-source runtime cleanup completed. A fresh post-terminal unfiltered list at **19:10:18 UTC** showed **All 6 / Active 0 / Inactive 6**, with My sessions off. [Safe terminal-status receipt](evidence/source-phase-177-199/runtime-terminal-status.json).
 
 This later status does not rescore the 18:51:18 case ledger. It closes the named bounded runtime, while future original-case execution and final whole-audit reconciliation remain distinct. No subsequent runtime had been started when this receipt was recorded.
+
+
+## Coverage phase controls
+
+This V12 continuation runs through **21:51:46.355 UTC**. It combines actual supervisor-stage receipts, SDK snapshot execution timestamps, received event metadata, genuine screenshots and recorded foreground motion. Planned stage clocks, UI event-list times and an overall successful workflow are not substitutes for executed-stage receipts. [Safe coverage outcomes](evidence/coverage-phase-224-261/coverage-outcomes.json) · [Reviewed images and provenance](evidence/coverage-phase-224-261/manifest.json) · [Actual stage and cleanup receipts](evidence/coverage-final-receipts/safe-outcomes.json) · [Receipt images and provenance](evidence/coverage-final-receipts/manifest.json).
+
+### Actual C1 and C2 execution
+
+C2 startup completed at **20:14:41.182422 UTC** while C1 remained active under the same service and staging environment. The actual C2 SDK execution at **20:18:57.336 UTC** resolves to **2d38d91c9229ce7742b07cb219d1a667128b9d19**, pricing.py line **24**, quantity 3, unit price 1300 and total 3900. The actual C1 SDK execution at **20:30:55.057 UTC** resolves to **9fd3f277d9047dc8fc55d2b77ac8e375184a1453**, pricing.py line **17**, quantity 3, unit price 1200 and total 3600. Distinct runtime identities and received version/repository/SHA tags support the sampled event-level attribution. X01 is a scoped PASS; exhaustive telemetry or zero-loss behavior is not asserted.
+
+The original unfiltered C1 line-17 definition later showed two instances. The separate C2 line-24 positive control does not establish how the original line-17 target behaved on C2, where that line is blank. X05 remains IN_PROGRESS for the original target's per-instance installation and migration behavior.
+
+[Real C1 source](evidence/coverage-phase-224-261/224-real-c1-source-safe.png) · [Real C2 source](evidence/coverage-phase-224-261/233-real-c2-source-safe.png). Full SHA, SDK timestamps and below-frame locals come from separately recorded attributes; a screenshot is evidence only for its visible fields.
+
+### Six same-target metadata repairs
+
+The actual repair stage ran **20:19:39.089314–20:19:47.215409 UTC**. All six original failing profile/probe identities were preserved. New received tags show A/C1, and all six selected-event stacks resolve exact C1 pricing.py line 17 with quantity 3, unit price 1200 and total 3600. This closes the previously missing same-target event-source recovery branch.
+
+S06 remains IN_PROGRESS because diagnostic specificity and automatic main-editor recovery are distinct. Fresh direct navigation can retain a main-editor missing-file banner while the selected-event stack resolves correctly; selecting a row can show shared C1 code without proving automatic recovery for each target. No new source or security finding is assigned.
+
+[Missing metadata repaired](evidence/coverage-phase-224-261/234-repaired-missing-metadata-source-safe.png) · [Missing SHA repaired](evidence/coverage-phase-224-261/235-repaired-missing-sha-source-safe.png) · [Invalid SHA repaired](evidence/coverage-phase-224-261/236-repaired-invalid-sha-source-safe.png) · [Nonexistent SHA repaired](evidence/coverage-phase-224-261/237-repaired-nonexistent-sha-source-safe.png) · [B/B-SHA control repaired](evidence/coverage-phase-224-261/238-repaired-b-own-sha-source-safe.png) · [B/A-SHA control repaired](evidence/coverage-phase-224-261/239-repaired-b-a-sha-source-safe.png) · [Selected editor follow-up](evidence/coverage-final-receipts/09-repaired-editor-selected-safe.png).
+
+### Application restart and Agent interruption
+
+The actual application restart stage ran **20:34:39.165902–20:34:40.568984 UTC**. The same line-49 probe recovered with a changed process generation, correct service/environment/version and source mapping, and a fresh **20:35:13.807 UTC** SDK capture of numeric control **90002**. The complex line-81 definition stayed disabled. F18 remains IN_PROGRESS: the short disappearance interval and an actually expired matching definition were not established; disabled is not equivalent to expired.
+
+Agent stop completed at **20:49:39.862471 UTC**. Restore began at **20:50:40.905469** and completed at **20:50:43.473731 UTC**. The UI observation at **20:50:23.733 UTC** falls inside the verified stopped interval and retained historical EVENTS RECEIVED without an explicit offline indication. A fresh **20:51:21.893 UTC** SDK capture after restoration has the same application process identity and numeric control **90002**. The interruption and capture recovery are established; F19's offline/pending feedback expectation remains under assessment. No maximum detection or recovery latency, data loss or fabricated capture is inferred.
+
+[Before restart](evidence/coverage-phase-224-261/243-before-restart-active-disabled-safe.png) · [After restart](evidence/coverage-phase-224-261/244-after-restart-value-safe.png) · [During Agent outage](evidence/coverage-phase-224-261/250-during-nominal-agent-outage-safe.png) · [After Agent restore](evidence/coverage-phase-224-261/251-after-nominal-agent-restore-safe.png) · [Actual stage receipts](evidence/coverage-final-receipts/safe-outcomes.json). Earlier filenames containing “nominal” describe the original observation context; the later actual receipts establish execution separately.
+
+### Bounded traffic and path controls
+
+The actual tiny burst ran **21:04:38.240349–21:04:38.502620 UTC**: **9 of 9** data requests succeeded in **0.26 seconds**, with a strict maximum of 9 and application health true before and after. This is an executed bounded traffic control. F23 remains IN_PROGRESS because the campaign's distributed baseline with a 1.2-second wait is not the original same-target 1.1-second comparison; capture count, sampling behavior and rate-limit explanations remain unestablished. [Actual burst result](evidence/coverage-final-receipts/01-bounded-burst-outcome-safe.png) · [Burst completion](evidence/coverage-final-receipts/06-burst-completed-safe.png).
+
+The same-basename controls captured **11011** at alpha/handler.py line 8 and **22022** at beta/handler.py line 8, with correct distinct source paths. The Unicode/space-path installation error is confounded by the fixture's direct-loader module map: an ASCII direct-loader control also fails, while normal importing succeeds for the Unicode path. It is not a confirmed Unicode product bug. S08 remains IN_PROGRESS for a corrected live path fixture and an actual move/rename across deployed revisions. [Alpha path](evidence/coverage-phase-224-261/245-path-alpha-safe.png) · [Beta path](evidence/coverage-phase-224-261/246-path-beta-safe.png) · [Confounded path error](evidence/coverage-phase-224-261/247-unicode-path-error-confounded-safe.png).
+
+### Saved state and complex values
+
+Source 17 visibly records a repeat of existing **Medium FUNC01**: B's unsaved STALE_B draft resets after A saves value == 2, and B's Apply becomes disabled. Both tabs then reload A's accepted condition and original message; a newer value-2 / numeric-90002 row matches that accepted state. A stale B save was **never accepted**. The original conflicting accepted-saved-write branch remains incomplete, and no mixed backend revision or additional finding is inferred. [Final definition observation](evidence/coverage-phase-224-261/256-f09-final-definition-observation-safe.png) · [Source 17 highlight chapters](recordings/continuation-17/highlights/CONTINUATION_HIGHLIGHTS.md), **05:54.15–06:50.70** for draft preparation, remote save and reset views.
+
+Typed empty collections, Unicode keys/values, distinct nested leaves **11/22** and five search matches were verified. At **21:37:30.937 UTC**, four cycle expansions remained responsive; collapse followed at **21:37:41.556**, and leaf search at **21:38:13.978 UTC**. The underlying full serialized long-string payload and truncation flags remain unverified. Four expansions do not prove a cycle/depth termination bound, and viewport clipping is not evidence of payload truncation. Remaining nested sensitive-child protection also stays open; normal Targeted protection was retained. F22 and X07 remain IN_PROGRESS. [Unicode value](evidence/coverage-phase-224-261/257-complex-unicode-visible-value-safe.png) · [Later cycle inspection](evidence/coverage-final-receipts/10-complex-cycle-expansion-safe.png) · [Leaf search](evidence/coverage-final-receipts/11-complex-leaf-search-safe.png).
+
+### Rapid retained revision navigation
+
+Direct event links and Back/Forward restored exact C1/C2 captures. A retained **C1 → C2 → C1** action loop was recorded at **21:51:26.584**, **21:51:27.321** and **21:51:28.071 UTC**, a **1.487-second** span, under two seconds. The first immediate C1 selection still showed prior C2 source links; later immediate content updated. The final observation at **21:51:46.355 UTC** matched C1, pricing.py line 17 and the selected snapshot. Recorded below-viewport values were quantity 4, unit price 1200, subtotal 4800, discount 480 and total 4320.
+
+The 1.487-second span measures action records, **not UI settling duration**. These checks occurred after source 17 recording stopped and are direct-still/recorded-observation evidence. The settled screenshot does not visibly show the below-viewport value rows. Correct settled identity does not prove atomic consistency in every frame or a maximum transition latency. S07 remains IN_PROGRESS for the in-flight expectation; no persistent mismatch or new finding is assigned. [Rapid actions and limits](evidence/rapid-navigation/safe-outcomes.json) · [First immediate C1 selection](evidence/rapid-navigation/01-immediate-c1-selection-safe.png) · [Settled C1 screenshot](evidence/rapid-navigation/04-settled-c1-safe.png).
+
+## Final runtime and capture state
+
+The bounded workflow was observed **SUCCESS at 21:20:54 UTC**, duration **1h 30m 57s**, and its explicit owned-runtime cleanup completion was read. At **21:28:36.754 UTC**, a fresh unfiltered inventory showed **All 7 / Active 0 / Inactive 7**: My sessions off, Services All, Environments All, Created All time and empty session-title search. The mixed coverage session had seven disabled probes; the source-repair session had six expired recovery definitions and three older disabled definitions. Subsequent retained navigation stayed inactive. No further runtime or production-labeled probe was created.
+
+Named runtime shutdown and all known session inactivity are verified. C01/C02 remain IN_PROGRESS for complete retained-resource/settings/grant/identity reconciliation and any outstanding original post-stop requirements. Accounts, keys, the approved A-only integration, repository/fixture history and historical captures are intentionally retained; no deletion or revocation is claimed. The production-labeled synthetic capture was never submitted and still requires explicit approval.
+
+[Owned cleanup receipt](evidence/coverage-final-receipts/07-terminal-cleanup-safe.png) · [Post-terminal unfiltered inventory](evidence/coverage-final-receipts/08-post-terminal-inventory-safe.png) · [Safe terminal outcomes](evidence/coverage-final-receipts/safe-outcomes.json) · [Remaining original-case work](REMAINING_WORK.md).
+
+## V12 reviewed motion boundary
+
+[Source 16 archive](recordings/continuation-16/CONTINUATION_RECORDING_ARCHIVE.md): **89:26.25 recorded = 78:04.90 retained + 11:21.35 omitted**, seven archive videos, plus an overlapping [05:40.00 highlight](recordings/continuation-16/highlights/CONTINUATION_HIGHLIGHTS.md). The approximately 18:36–18:54 integration-page foreground limit remains explicit; later draft/filter controls are still/recorded observations.
+
+[Source 17 archive](recordings/continuation-17/CONTINUATION_RECORDING_ARCHIVE.md): **102:21.80 recorded = 98:58.45 retained + 03:23.35 omitted**, eight archive videos, plus an overlapping [08:35.70 highlight](recordings/continuation-17/highlights/CONTINUATION_HIGHLIGHTS.md). It contains actual foreground dirty-draft reset footage, with interruptions and browser-recovery intervals mapped. Nominal Agent/burst movie windows require the separately verified actual-stage receipts above. Later complex-value follow-up and the 21:51 rapid-navigation check are after-recording still/recorded observations. No missing motion is reconstructed.

@@ -1,28 +1,32 @@
 # Datadog Live Debugger and Source Code Integration audit
 
-V11 web checkpoint: evidence through **8 October 2026, 18:51:18 UTC**. The 63 original definitions are preserved: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are outside severity totals. Further original-case work is planned; dated runtime and cleanup updates are kept separately.
+V12 consolidated checkpoint: evidence frozen at **8 October 2026, 21:51:46.355 UTC**. The 63 original case definitions are preserved: **23 scoped PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED**. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. Seven unresolved topics remain outside the finding and severity totals. This is an evidence checkpoint, not release signoff.
 
-The new source controls preserve the deployed C1 revision after a different branch advances, normalize the tested repository URL forms, and show no source fallback in an isolated B-metadata request. Unsaved dismissal/navigation controls also passed. Missing metadata explicitly warns about default-branch fallback; generic failure and sort-refresh behavior remain scoped observations, not new confirmed defects.
+Live capture and exact source attribution work in the tested setup. This continuation adds actual same-target metadata repairs, concurrent C1/C2 execution, application restart, Agent interruption and a bounded nine-request burst. The new evidence strengthens coverage without adding a confirmed finding or completing every original case branch.
 
 ## Read the results
 
 - [Severity-ranked findings](findings.md#severity-ranked-finding-index), [High only](high-severity.md), [Medium](findings.md#medium-severity), [Low](findings.md#low-severity)
 - [Part 1 beginner UX](QA_MATRIX.md#track-1-complete-beginner-ux) and [Part 2 detailed functional QA](QA_MATRIX.md#track-2a-live-debugger-functional-depth)
 - [All 63 original outcomes](QA_MATRIX.md), [supplemental executed records](EXECUTED_CHECKS.md), [evidence](EVIDENCE.md), [unresolved topics](UNCONFIRMED_OBSERVATIONS.md)
-- [Current state and cleanup](CURRENT_STATUS.md), [remaining execution plan](REMAINING_WORK.md), [reviewed recordings](VIDEOS.md), [glossary](glossary.md)
+- [Current state and cleanup](CURRENT_STATUS.md), [remaining work and gates](REMAINING_WORK.md), [reviewed recordings](VIDEOS.md), [glossary](glossary.md)
 
-The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live cutoff 13:15:00 UTC and separate SDK verification 13:16:33 UTC. They have not been regenerated for this web checkpoint; use these web pages for the later evidence.
+The [37-page V12 PDF](report.pdf) and [editable V12 Word report](report.docx) consolidate this checkpoint and supersede the earlier 31-page V9 documents. The reports and web pages use the same ten-finding inventory and current case accounting.
 
 ## What this continuation established
 
-- S04 passes the original metadata-directed no-fallthrough experiment: a dedicated B URL/B SHA session shows no source in either its editor or event stack. It executes A fixture bytes and does not establish the authorization-decision cause or authentic B execution.
-- S05 passes held-C1 attribution after the named branch advances to nondeployed C2. The actual SDK execution at 18:21:12.263 UTC retains C1 line 17 and unit price 1200. Default branch was unchanged.
-- S09 passes the tested canonical HTTPS, HTTPS.git and SSH.git forms, each resolving to exact C1 source.
-- F14 passes the separate dismissal/navigation attempts. Saved configuration and count persisted without publication. Inline Escape kept its draft open, which Cancel then discarded.
-- B05, F15 and F17 advance without claiming their unexecuted branches. S03’s effective-grant/private-content interpretation and S06’s same-target correction/recovery remain open.
+- All six original failing metadata profiles recovered exact A/C1 tags and selected-event source after the actual repair stage. Their service, version and probe identities were preserved. S06 remains partial because generic diagnostics and shared-editor recovery require separate assessment.
+- C1 and C2 actually executed concurrently under one service and staging environment. Sampled payload timestamps, distinct values and exact revision/path/line attribution support scoped X01 PASS. The original line-17 target's per-instance behavior on C2 remains unresolved under X05.
+- Application restart recovered the same probe with a new process generation. Actual Agent stop and restoration receipts establish an outage and subsequent capture by the same application process. F18 and F19 retain their untested or unresolved branches.
+- The bounded burst completed 9 of 9 requests in 0.26 seconds, with healthy checks before and after. It does not establish a capture-rate limit, sampling contract or the original same-target baseline comparison.
+- Direct links, Back/Forward and rapid C1 → C2 → C1 selection restored the correct settled capture and source. Immediate frames briefly retained prior content, so S07 remains partial; no persistent mismatch or new defect is claimed.
+- Distinct same-basename paths and bounded complex-value controls succeeded. The Unicode/space-path installation error is confounded by the fixture's direct loader, including an ASCII control, and is not a confirmed Unicode product bug.
+- The existing FUNC01 dirty-draft loss repeated. Reloads and a fresh row support the accepted state, but a stale second write was never accepted. Earlier scoped S04, S05, S09 and F14 results remain valid within their recorded boundaries.
 
-## Remaining work is actionable
+## Current state and remaining scope
 
-Eight setup-blocked cases can be engineered in one grouped A-fixture campaign: real C1/C2 deployments, two environments, path variants, controlled application/Agent restarts and a bounded burst. Additional active-session and complex-value branches can share that run. These setup gaps are not permanent access blockers. Separate identity, revocation, second-fork and feature-availability gates remain explicit in the [plan](REMAINING_WORK.md).
+The bounded workflow was observed successful at **21:20:54 UTC**, with explicit completion of its owned-runtime cleanup. At **21:28:36 UTC**, the unfiltered session list showed **All 7 / Active 0 / Inactive 7**. Later retained navigation stayed inactive. C01/C02 remain partial for broader retained-resource, settings, grant and identity reconciliation; accounts, keys, repositories, approved A-only source scope and fixture history are retained.
 
-All reviewed screenshots remain genuine crops/opaque masks or disclosed outlines. No missing UI transition has been reconstructed. Source 15 contains a long disclosed idle period; source 16’s finalized raw recording is awaiting privacy-reviewed export and is excluded from published media totals.
+The grouped campaign has run. The [remaining plan](REMAINING_WORK.md) identifies the specific unfinished original branches and distinguishes them from fixture corrections, independent-identity requirements and approval gates. The production-labeled synthetic probe was never created; its capture still requires explicit approval.
+
+Sources **01–17**, including sources 16 and 17, now have reviewed archives and highlights. Source 15's long idle interval, source 16's foreground limits, source 17's crashes and recovery, and checks made after recording stopped are disclosed in the [catalog](VIDEOS.md). Screenshots use genuine crops, opaque privacy masks and disclosed outlines. No missing motion or UI transition has been reconstructed.

@@ -1,6 +1,6 @@
 # Audit video catalog
 
-Sources 01–15 have reviewed archives and highlights cataloged below: **538:02.60 recorded = 432:56.05 retained + 105:06.55 omitted**, in **42 archive MP4s**. Eleven overlapping highlights total **32:58.70**. Source 15 includes a disclosed 122:40.00 unchanged idle interval; retained duration is not continuous testing or all visible product evidence. Source 16 is finalized but its reviewed export remains pending and is excluded from these totals.
+V12 catalog through **8 October 2026, 21:51:46.355 UTC**. Sources 01–17 are reconciled below: **729:50.65 recorded = 609:59.40 retained + 119:51.25 omitted**, in **57 archive MP4s**. Thirteen overlapping highlights total **47:14.40** and are not additional unique coverage. Source 15 includes a disclosed **122:40.00 unchanged idle interval**; retained duration is not continuous testing or all visible product evidence. Sources 06 and 08 remain wholly omitted tooling preparation. The [PDF](report.pdf) and [Word report](report.docx) are the consolidated **37-page V12** edition.
 
 GitHub may show a file page instead of an inline player. Use View raw or Download for MP4 playback.
 
@@ -134,9 +134,9 @@ Half-open source timestamp ranges are the primary cut references. Earlier source
 
 ## Historical media boundary through source 14
 
-Sources 01–14 total **390:44.55 recorded, 298:03.00 retained and 92:41.55 omitted**, 35 archive MP4s. Ten highlights total 31:02.70 and overlap retained footage. Retained duration includes labeled fully obscured privacy panels and is not all visible product evidence. At that earlier boundary, source 15 was outside the finalized totals. Its subsequent reviewed package appears below; source 16 remains excluded from the current totals.
+Sources 01–14 total **390:44.55 recorded, 298:03.00 retained and 92:41.55 omitted**, 35 archive MP4s. Ten highlights total 31:02.70 and overlap retained footage. Retained duration includes labeled fully obscured privacy panels and is not all visible product evidence. At that earlier boundary, source 15 was outside the finalized totals. The subsequent reviewed source 15–17 packages appear below and are included in the V12 totals at the top.
 
-The PDF/Word retain the 31-page V9 snapshot. This current web catalog includes later reviewed motion without retroactively changing the old report’s evidence cutoff.
+These through-source-14 figures are historical totals. The consolidated V12 PDF and Word report supersede the earlier V9 documents; each older recording retains its original evidence and timing limits.
 
 
 ## Source 15 setup interruption and recovery
@@ -145,11 +145,46 @@ The PDF/Word retain the 31-page V9 snapshot. This current web catalog includes l
 
 The source covers 14:53:34–17:20:52.05 UTC and includes **122:40.00 of unchanged idle recording**. It documents setup, interruption and recovery; that idle interval is not continuous QA and does not establish successful later source retrieval. All crops, masks, omitted intervals and sampled-review limits are in the unchanged frozen manifests.
 
-## Source 16 pending reviewed export
+## Historical media boundary through source 15
 
-Source 16 was finalized at 18:54:13 UTC after starting 17:24:47 UTC, with recorded duration 5366.25 seconds. Its raw bytes are private and excluded from this repository. Reviewed stills and independent observations support the current source/retained-state results; no full safe motion export is claimed until its own review and publication are complete.
+Through source 15 at **17:20:52.05 UTC**: **538:02.60 recorded = 432:56.05 retained + 105:06.55 omitted**, in **42 archive MP4s**. Eleven overlapping highlights total **32:58.70**. These dated totals are preserved for comparison; source 16 and 17 are included in the current V12 totals.
 
+## Source 16 source metadata and held revision
 
-## Source 16 foreground visibility boundary
+Source 16 covers **17:24:47–18:54:13.25 UTC**: **89:26.25 recorded = 78:04.90 retained + 11:21.35 omitted**, in seven original-speed archive MP4s. Its overlapping highlight runs **05:40.00**.
 
-Initial foreground review found that approximately 18:36–18:54 UTC remains on the source-integration page. The later draft/filter/sort controls, six-session list and restored C1 view are supported by direct stills and recorded UI observations, not visible foreground movie actions. No stills will be inserted to imitate that missing motion.
+- [Full reviewed archive, seven videos and exact omissions](recordings/continuation-16/CONTINUATION_RECORDING_ARCHIVE.md)
+- [Watch source 16 highlights](recordings/continuation-16/highlights/source-controls-recovery-highlights.mp4)
+- [Highlight chapters and exact source intervals](recordings/continuation-16/highlights/CONTINUATION_HIGHLIGHTS.md)
+- [Archive crop/mask and timing manifest](recordings/continuation-16/continuation-recording-manifest.json)
+- [Sanitation verification](recordings/continuation-16/SANITATION_VERIFICATION.json) and [archive checksums](recordings/continuation-16/SHA256SUMS.txt)
+
+The recording covers C1 setup, metadata controls, browser interruption and recovery, held C1 after branch advancement, and the isolated B metadata control. It retains an 08:33 interrupted/idle interval, a browser-interruption window and the final integration-page dwell. This is not uninterrupted active testing, and a browser failure is not proof of a Datadog backend outage.
+
+### Source 16 foreground visibility boundary
+
+The foreground remains on the settled source-integration page from about **18:36–18:54 UTC**. Later draft/filter/sort controls, the six-session list, grouped-child stop checks and restored C1 view are direct-still/recorded-observation evidence. They are not foreground movie actions. No stills are inserted to imitate missing motion. The source 16 C2 branch change was not a deployed C2 rollout; actual C2 execution belongs to the later coverage controls.
+
+## Source 17 executed coverage controls and final state
+
+Source 17 covers **19:46:20–21:28:41.80 UTC**: **102:21.80 recorded = 98:58.45 retained + 03:23.35 omitted**, in eight original-speed archive MP4s. Its overlapping highlight runs **08:35.70**.
+
+- [Full reviewed archive, eight videos and every omission](recordings/continuation-17/CONTINUATION_RECORDING_ARCHIVE.md)
+- [Watch source 17 highlights](recordings/continuation-17/highlights/coverage-controls-highlights.mp4)
+- [Highlight chapters and exact source intervals](recordings/continuation-17/highlights/CONTINUATION_HIGHLIGHTS.md)
+- [Archive crop/mask and timing manifest](recordings/continuation-17/continuation-recording-manifest.json)
+- [Sanitation verification](recordings/continuation-17/SANITATION_VERIFICATION.json) and [archive checksums](recordings/continuation-17/SHA256SUMS.txt)
+
+Highlight guide: **01:59.95** C2 line-24 setup; **02:12.15** real C2 capture; **02:42.15** repaired metadata controls; **03:32.15** observations around application restart; **03:54.15** path controls; **04:24.15** nominal Agent-window views; **05:34.15** nominal burst-window views; **05:54.15** unsaved STALE_B preparation; **06:02.20** other-tab save; **06:07.20–06:50.70** dirty-editor reset views; **06:50.70** complex values; **07:42.10** grouped-session stop; **08:27.70** final inventory view.
+
+The source 17 dirty-draft reset is genuine foreground motion: the remote save resets the unsaved draft and disables Apply. This repeats existing FUNC01; it does not show an accepted stale B write or a hidden backend overwrite. The original source 13 editor-transition limitation remains unchanged.
+
+Actual C1/C2 execution, all six repairs, application restart, Agent stop/restore and the tiny burst are established by separately correlated [coverage outcomes](evidence/coverage-phase-224-261/coverage-outcomes.json) and [actual-stage receipts](evidence/coverage-final-receipts/safe-outcomes.json). Nominal movie windows and planned log declarations alone do not establish execution. The actual burst was 9 of 9 successful requests in 0.26 seconds with health true before/after; capture count and sampling behavior remain unresolved. Verified restart/outage recovery does not establish every original case branch or a maximum latency.
+
+The archive maps crashes, recovery periods, waits, privacy exclusions and foreground limits. Interrupted windows include **19:57:30–19:59:16** and **20:27:43–20:30:08 UTC**. Browser error/reload motion around **20:24:30–20:27:14 UTC** is not evidence of a product backend outage. No missing transition is reconstructed and no still is inserted as motion.
+
+### After-recording observations
+
+The **21:37–21:38 UTC** complex cycle/search follow-up and **21:51 UTC** rapid retained C1→C2→C1 loop occurred after source 17 stopped. They are [direct-still/recorded observations](evidence/rapid-navigation/safe-outcomes.json), not continuous video. The rapid action span was 1.487 seconds, while the final settled check at **21:51:46.355 UTC** restored exact C1 identity. Immediate frames retained prior content during transition; neither every-frame atomic consistency nor a 1.487-second settling time is asserted.
+
+Unicode source-path failure remains fixture-confounded, and full received long-string truncation flags and cycle/depth bounds remain unverified. The unsubmitted production-label draft yields no capture result. [Current evidence and limitations](EVIDENCE.md#coverage-phase-controls) · [Final runtime and capture inventory](EVIDENCE.md#final-runtime-and-capture-state).

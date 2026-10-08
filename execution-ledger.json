@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T18:51:18Z",
+  "updated_utc": "2026-10-08T21:51:46.355Z",
   "cases": [
     {
       "id": "B01",
@@ -90,7 +90,7 @@
       "scope": "Service/environment/version dependency test; empty-list controls are a separate partial observation.",
       "remaining_gaps": [
         "Add a second genuine test environment/version in the grouped fixture campaign and exercise supported selectors/dependencies.",
-        "Document the tested surface\u2019s absent version control rather than inventing a version-selection result."
+        "Document the tested surface’s absent version control rather than inventing a version-selection result."
       ]
     },
     {
@@ -150,7 +150,7 @@
       "id": "B09",
       "priority": "P1",
       "preconditions": "G0; editable draft",
-      "steps": "Use keyboard navigation at 125\u2013150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
+      "steps": "Use keyboard navigation at 125–150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
       "expected": "Core tasks remain operable; validation is associated with its field; selected line and action buttons are discoverable. Scope this as a focused accessibility smoke test.",
       "evidence_required": "V; browser zoom; key sequence",
       "cleanup": "Reset zoom; cancel draft",
@@ -189,7 +189,7 @@
       "evidence_required": "V, I, T, H",
       "cleanup": "Retain one baseline only while dependent tests run",
       "status": "PASS",
-      "actual": "The numeric message template QA quantity={quantity} total={total_cents} rendered correctly on the live pricing.py:17 staging probe. Captured locals matched quantity 2\u21922400, quantity 3\u21923600 with false discount eligibility, and quantity 4\u21924320 with subtotal 4800, discount 480 and true eligibility. Numeric controls were observed at 10:03:50.811, 10:04:08.659 and 10:04:21.432 UTC. Earlier wildcard-environment HTTP400 attempts are historical and did not recur in this healthy specific-environment baseline.",
+      "actual": "The numeric message template QA quantity={quantity} total={total_cents} rendered correctly on the live pricing.py:17 staging probe. Captured locals matched quantity 2→2400, quantity 3→3600 with false discount eligibility, and quantity 4→4320 with subtotal 4800, discount 480 and true eligibility. Numeric controls were observed at 10:03:50.811, 10:04:08.659 and 10:04:21.432  UTC. Earlier wildcard-environment HTTP400 attempts are historical and did not recur in this healthy specific-environment baseline.",
       "reason": "PASS is limited to the baseline numeric template, selected file/line/environment and three captured fixture-oracle controls. Source permalink/deployed-SHA retrieval and lifecycle are separate cases.",
       "evidence": [
         "EVIDENCE.md#verified-numeric-baseline",
@@ -207,8 +207,8 @@
       "evidence_required": "V, I, T, R",
       "cleanup": "Disable experimental logpoint",
       "status": "PASS",
-      "actual": "Condition quantity==3 with COND3 applied 10:33:25; nine post-activation rows from 10:33:33\u201310:34:01 all showed quantity 3, with matching actual locals. Quantity==4/COND4 applied 10:35:03; six rows 10:35:19\u201310:35:38 all showed quantity 4 and actual locals 4800 subtotal, 480 discount,4320 total,True eligibility. The old selected COND3 capture gained OUTDATED feedback while new COND4 rows arrived.",
-      "reason": "PASS for the tested 3\u21924 predicate transition and revision feedback. These row times are UI event-list observations, not independently established execution timestamps. The earlier disabled accessibility-state interpretation was corrected by a normal supported click; conditions are operable.",
+      "actual": "Condition quantity==3 with COND3 applied 10:33:25; nine post-activation rows from 10:33:33–10:34:01 all showed quantity 3, with matching actual locals. Quantity==4/COND4 applied 10:35:03; six rows 10:35:19–10:35:38 all showed quantity 4 and actual locals 4800 subtotal, 480 discount,4320 total,True eligibility. The old selected COND3 capture gained OUTDATED feedback while new COND4 rows arrived.",
+      "reason": "PASS for the tested 3→4 predicate transition and revision feedback. These row times are UI event-list observations, not independently established execution timestamps. The earlier disabled accessibility-state interpretation was corrected by a normal supported click; conditions are operable.",
       "evidence": [
         "EVIDENCE.md#conditional-capture-controls"
       ],
@@ -253,7 +253,9 @@
       "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Try `quantity ==`, a non-Boolean condition `quantity`, an unmatched template brace, then a supported valid expression. One input at a time.",
       "remaining_gaps": [],
-      "cleanup_assessment": "Invalid draft inputs were replaced by a valid condition, and later F05/F16 revisions superseded the experiment. A global stop of the experimental session is not established; C01 remains open."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "Invalid draft inputs were replaced by a valid condition, and later F05/F16 revisions superseded the experiment. A global stop of the experimental session is not established; C01 remains open.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F05",
@@ -277,7 +279,9 @@
       "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Reference nonexistent `missing_qa_value`; separately test `isDefined(missing_qa_value)`; compare with an available local.",
       "remaining_gaps": [],
-      "cleanup_assessment": "The direct missing-local expression was superseded by valid definedness expressions and capture continued. Final disabling of the shared experimental session is still part of C01; it is not claimed here."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "The direct missing-local expression was superseded by valid definedness expressions and capture continued. Final disabling of the shared experimental session is still part of C01; it is not claimed here.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F06",
@@ -311,7 +315,7 @@
       "cleanup": "Disable method experiment",
       "status": "IN_PROGRESS",
       "actual": "A whole-function pricing.calculate_quote probe using FUNCTION returned={@return} renders a full quantity-four return dictionary: quantity 4, unit price 1200, subtotal 4800, eligibility True, discount 480 and total 4320. The pane is labeled Values on exit. Applying @return in a line-17 message instead produces an explicit Evaluation errors panel naming No such local variable: @return, with editing guidance; the recorder verifies accurate quantity-two locals totaling 2400. No explicit entry/exit selector was found in the tested manual editor, and entry capture was not executed.",
-      "reason": "Default function-exit capture, a full returned-value positive control and the method-only contextual return expression\u2019s explicit line-context error are now supported. This advances the original context matrix, but no entry-mode control ran. The absence of a selector in the inspected editor is an unresolved availability branch, not proof that entry is unsupported everywhere. Keep IN_PROGRESS rather than imply an entry/exit comparison was completed.",
+      "reason": "Default function-exit capture, a full returned-value positive control and the method-only contextual return expression’s explicit line-context error are now supported. This advances the original context matrix, but no entry-mode control ran. The absence of a selector in the inspected editor is an unresolved availability branch, not proof that entry is unsupported everywhere. Keep IN_PROGRESS rather than imply an entry/exit comparison was completed.",
       "evidence": [
         "EVIDENCE.md#later-bounded-checks",
         "EVIDENCE.md#function-exit-and-line-context",
@@ -324,7 +328,9 @@
         "Resolve entry-capture support for the available manual editor/runtime. If supported, execute the original entry control and verify that yet-unassigned locals are not fabricated; otherwise document a verified supported limitation.",
         "Complete the required entry-versus-exit comparison only if an entry route exists; do not relabel the observed default exit as entry."
       ],
-      "cleanup_assessment": "OPEN: no final stop/removal of the separate function-return and line-context experiments is established by the F13 stop of the shared complex-fixture session. C01/C02 remain open."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "OPEN: no final stop/removal of the separate function-return and line-context experiments is established by the F13 stop of the shared complex-fixture session. C01/C02 remain open.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F08",
@@ -356,22 +362,21 @@
       "evidence_required": "V, I, T, R",
       "cleanup": "Restore baseline or disable experiment",
       "status": "FINDING",
-      "actual": "Medium FUNC01: in two tabs editing the same logpoint, stored quantity == 4 remains the baseline. Tab B changes its unsaved predicate to quantity == 3 and is dirty. Tab A saves only a message-template edit. B\u2019s rendered predicate silently resets to quantity == 4 and its Apply action becomes disabled, with no visible warning/conflict text. This loss of the unsaved draft was reproduced around 13:01 and again at 13:02:52 UTC; the second repetition changes the saved message from TAB_A2 to TAB_A3.",
-      "reason": "A reproducible unsaved-draft loss is established in the two-tab branch, so F09 is FINDING with Medium FUNC01. The stored quantity-four predicate remains correct. This does not establish a conflict between two saved writes, backend capture corruption, wrong active predicate or completion of the original stale-save/reload/new-event matrix.",
+      "actual": "The known dirty-draft reset repeated: B’s unsaved STALE_B message disappeared after A saved value==2; B’s Apply became disabled. Both tabs reloaded A’s condition and the original message, with a matching newer value 2 / numeric 90002 row. The stale B save was not accepted.",
+      "reason": "Existing Medium FUNC01 remains the finding. Reload and fresh-row evidence for A’s accepted state improved, but the original conflicting accepted-saved-write branch is still incomplete. No mixed backend revision or new finding is inferred.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates",
-        "EVIDENCE.md#two-tab-unsaved-draft-loss",
-        "findings/FUNC01-unsaved-condition-reset.md"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "In tab A save a condition/template change. In stale tab B save a different field. Reload both and capture new events.",
       "remaining_gaps": [
-        "Execute the original branch in which stale tab B actually submits a different-field change after tab A saves; do not substitute unsaved-draft loss for conflicting saved-write behavior.",
-        "Reload both tabs and inspect the final accepted definition and any conflict/last-write explanation.",
-        "Capture new events after the final saved state and verify their actual active definition and values.",
-        "Restore the baseline or disable the test experiment, and verify final cleanup."
+        "Execute and inspect the original branch in which a stale different-field write is actually accepted or explicitly rejected with an understood conflict contract."
       ],
-      "cleanup_assessment": "OPEN: no final baseline restoration, test disable or global cleanup is established for the two-tab experiment. C01/C02 remain IN_PROGRESS."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "OPEN: no final baseline restoration, test disable or global cleanup is established for the two-tab experiment. C01/C02 remain IN_PROGRESS.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F10",
@@ -427,7 +432,7 @@
       "evidence_required": "V, I, T, R",
       "cleanup": "Disable again; confirm inactive",
       "status": "PASS",
-      "actual": "The previously expired session was explicitly resumed at 11:29:26 UTC. The session and probe identities were preserved, the recorder observed a fresh one-hour duration, and safe still 104 shows ACTIVE with 59 MINUTES LEFT and actual quantity 2 locals totaling 2400. The independent SDK payload timestamp check independently records a new capture at 11:29:48.334 UTC. The session was explicitly stopped at 11:30:21 and the recorder verified INACTIVE/DISABLED after reload around 11:31:40. Historical rows remain available.",
+      "actual": "The previously expired session was explicitly resumed at 11:29:26  UTC. The session and probe identities were preserved, the recorder observed a fresh one-hour duration, and safe still 104 shows ACTIVE with 59 MINUTES LEFT and actual quantity 2 locals totaling 2400. The independent SDK payload timestamp check independently records a new capture at 11:29:48.334  UTC. The session was explicitly stopped at 11:30:21 and the recorder verified INACTIVE/DISABLED after reload around 11:31:40. Historical rows remain available.",
       "reason": "The original expired-session re-enable flow, preserved identity, renewed duration, fresh capture and disable-again cleanup are supported. Prior V8 reload/direct-link checks and safe 103 establish that page navigation alone had not reactivated the expired target. This PASS does not establish an exact backend deadline or instantaneous stop.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates",
@@ -439,7 +444,7 @@
       "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Use available re-enable/extend flow; inspect new deadline and resulting IDs; generate fresh traffic.",
       "remaining_gaps": [],
-      "cleanup_assessment": "Case-specific cleanup complete as observed after reload around 11:31:40 UTC. This is not an all-session or runtime cleanup claim."
+      "cleanup_assessment": "Case-specific cleanup complete as observed after reload around 11:31:40  UTC. This is not an all-session or runtime cleanup claim."
     },
     {
       "id": "F13",
@@ -512,7 +517,7 @@
       "evidence_required": "V, I, T",
       "cleanup": "Restore or disable experiment",
       "status": "PASS",
-      "actual": "Variable capture was turned off and applied at 11:42:14 UTC. New MESSAGE_ONLY events retained the rendered message but showed Logpoint does not contain debugging information rather than a captured-locals panel. Capture was re-enabled at 11:43:25. The selected older message-only event was marked OUTDATED with guidance that future logs would contain variables. A subsequent event had actual quantity-two locals again.",
+      "actual": "Variable capture was turned off and applied at 11:42:14  UTC. New MESSAGE_ONLY events retained the rendered message but showed Logpoint does not contain debugging information rather than a captured-locals panel. Capture was re-enabled at 11:43:25. The selected older message-only event was marked OUTDATED with guidance that future logs would contain variables. A subsequent event had actual quantity-two locals again.",
       "reason": "The original off/apply/new-event/on/new-event sequence is supported. Historical event semantics are explicit: old message-only captures were not represented as retroactively gaining variables, and a newer capture displayed locals.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates",
@@ -525,7 +530,9 @@
       "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Turn variable capture off, apply, produce traffic, then turn back on and capture again. Inspect event details.",
       "remaining_gaps": [],
-      "cleanup_assessment": "Capture variables was restored, satisfying the case-specific restore-or-disable cleanup. Shared experimental-session shutdown remains open under C01."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "Capture variables was restored, satisfying the case-specific restore-or-disable cleanup. Shared experimental-session shutdown remains open under C01.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F17",
@@ -557,15 +564,20 @@
       "expected": "Disappearance and recovery are honest; restart does not resurrect expired definitions or change target mapping silently.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Leave runtime in agreed baseline state",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "The actual fixture restart stage ran 20:34:39.165902–20:34:40.568984 UTC. The same line 49 probe and numeric 90002 control recovered with a changed process generation; SDK execution 20:35:13.807 follows the stage. Received service/environment/version and source mapping remain correct. The complex line 81 definition stayed disabled before and after restart.",
+      "reason": "Process-generation change and fresh recovery are verified. The short disappearance interval and expired-definition behavior were not established; a disabled control is not substituted for an expired one. No unobserved UI-offline state is claimed.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "While session is active, stop/restart only test process, then send traffic. Compare runtime status and capture recovery.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Resolve disappearance/status behavior during a controlled stop and test an actually expired matching definition across restart."
+      ]
     },
     {
       "id": "F19",
@@ -575,15 +587,20 @@
       "expected": "Distinguishable offline/pending behavior; no fabricated capture success; recovery works without unneeded reinstall. Do not alter production log indexes.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Restore test Agent/config; verify health",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "Actual Agent stop completed 20:49:39.862471 UTC. Restore began 20:50:40.905469 and completed 20:50:43.473731 UTC. The 20:50:23.733 UI observation lies inside that real outage and still shows historical EVENTS RECEIVED without an explicit offline indicator. Fresh SDK execution 20:51:21.893 after restoration has the same application process identity and numeric 90002.",
+      "reason": "The controlled interruption and same-application capture recovery are established. The original distinguishable offline/pending feedback expectation remains under assessment. UI event-row times are not SDK execution times; no fabricated-capture, data-loss or instantaneous-propagation claim is made.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Preserve config; deliberately stop only test Agent or use approved test-only disconnected state. Restore and repeat baseline.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Assess the observed offline/pending feedback against the original expectation; do not infer an outage defect solely from a historical status label."
+      ]
     },
     {
       "id": "F20",
@@ -593,15 +610,20 @@
       "expected": "No cross-environment/version contamination; unspecified-version behavior is visible; mixed deployments are not shown as one unqualified source truth.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Stop extra fixture instance; disable experiments",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "Actual staging C1/C2 captures have distinct numeric results and exact received version/source identities. The separate production-labeled synthetic capture was not created; its submission was stopped pending explicit approval.",
+      "reason": "The version branch advances. No cross-environment capture result exists, so the original two-environment/version contamination matrix is incomplete. The label refers to a synthetic profile, not an assertion that real production data was inspected.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Target one version/environment, produce traffic in both, inspect event tags and source view; then deliberately choose the other.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Obtain the required approval and execute a genuine second-environment capture/selection control without treating SDK registration or an unsent draft as capture."
+      ]
     },
     {
       "id": "F21",
@@ -623,7 +645,9 @@
       "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Capture dummy numeric locals plus obvious dummy `password`/`accessToken` values and harmless string. Use existing mode; never lower protection for the test.",
       "remaining_gaps": [],
-      "cleanup_assessment": "OPEN: removing/disabling the redaction logpoint and restoring/removing the extra fixture has not been established. The behavioral PASS does not close original cleanup or global C01/C02. Preserve normal redaction. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "OPEN: removing/disabling the redaction logpoint and restoring/removing the extra fixture has not been established. The behavioral PASS does not close original cleanup or global C01/C02. Preserve normal redaction. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F22",
@@ -634,24 +658,22 @@
       "evidence_required": "V, I, T, H",
       "cleanup": "Disable experiment; revert fixture variant",
       "status": "IN_PROGRESS",
-      "actual": "Real run-3 complex-fixture events are captured. Typed empty list and map are visible with size 0. The recorder additionally verifies exact Unicode content and left.leaf=11 versus right.leaf=22. Nested and cyclic structures can be expanded; a long synthetic string is visible in clipped form. Bounded cycle/depth semantics remain unresolved.",
-      "reason": "The old prepared-local-only deployment blocker is obsolete because the fixture now executes and produces actual captures. The original case remains incomplete: observed expansion and values do not establish full long-string truncation/recovery, search/collapse behavior, explicit depth/cycle handling or cleanup.",
+      "actual": "Typed empty containers, nested structures, Unicode values, left/right leaves 11/22 and long-string previews were inspected. Searching leaf found five matching paths and clearing restored the empty search. The cyclic map stayed responsive through four expansions and collapsed cleanly.",
+      "reason": "These are bounded successful value-view controls. The full serialized long-string truncation metadata is not exposed by the inspected JSON Attributes view, and a cycle/depth termination bound is not established. A clipboard-reading tool limitation is not a product finding.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates",
-        "EVIDENCE.md#complex-object-display",
-        "evidence/continuation-13/fixtures-117-125/117-complex-fixture-captured-safe.png",
-        "evidence/continuation-13/fixtures-117-125/118-nested-leaf-display-safe.png",
-        "evidence/continuation-13/fixtures-117-125/119-cycle-fixture-expanded-view-safe.png"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Capture empty list/map, nested object, duplicate leaf names, long synthetic string, and bounded cyclic structure. Expand/collapse/search values.",
       "remaining_gaps": [
-        "Inspect the long string beyond its clipped preview; verify the full value or explicit size/truncation explanation without treating a partial preview as complete.",
-        "Complete and record expand/collapse/search behavior for the required collections and nested values.",
-        "Establish bounded cyclic structure handling and any depth/truncation explanation; current nested self expansion does not establish termination or truthful completeness.",
-        "Verify responsiveness during the required interaction sequence and distinguish any capture-depth limit from the rendered tree behavior."
+        "Verify explicit string/depth truncation semantics through an available supported representation; do not equate viewport clipping with payload truncation.",
+        "Establish the bounded cycle/depth limitation without inferring complete data from expandable nodes."
       ],
-      "cleanup_assessment": "OPEN: disable the complex-fixture experiment and revert/remove the fixture variant when authorized dependent tests are complete. No final restoration is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "OPEN: disable the complex-fixture experiment and revert/remove the fixture variant when authorized dependent tests are complete. No final restoration is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "F23",
@@ -661,15 +683,20 @@
       "expected": "Sampling/rate limit behavior is explained; capture count need not equal request count; application remains healthy. Avoid inferring exact per-service aggregate limits from one instance.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Stop burst; return traffic to baseline",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "The actual tiny burst ran 21:04:38.240349–21:04:38.502620 UTC: 9 of 9 data requests succeeded in 0.26 seconds, maximum 9, with application health true before and after. Before/after UI observations are retained separately.",
+      "reason": "The bounded generator and health controls succeeded. The campaign’s distributed 1.2-second-wait baseline is not the original same-target 1.1-second traffic comparison. Capture-rate/count and sampling explanations are not established, so no full-case PASS or limit estimate is inferred.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Compare normal 1.1-second traffic with a short bounded burst using a separate approved generator. Do not change the supplied script to unbounded load.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Complete the original same-target baseline comparison and assess the product’s sampling/rate-limit explanation without inferring a global limit from this small burst."
+      ]
     },
     {
       "id": "S01",
@@ -727,7 +754,9 @@
       "remaining_gaps": [
         "Finish supported current GitHub grant reauthentication and assess the private-content authorization boundary without inferring it from generic failure."
       ],
-      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "S04",
@@ -748,7 +777,9 @@
       "checkpoint_utc": "2026-10-08T18:35:49Z",
       "scope": "Map only a dedicated test instance to known B URL/SHA without granting B. Open its code from a real synthetic event; compare same-named A file.",
       "remaining_gaps": [],
-      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "S05",
@@ -769,7 +800,9 @@
       "checkpoint_utc": "2026-10-08T18:35:49Z",
       "scope": "In C2 shift the pricing lines and change a numeric marker; do not deploy C2. Open fresh C1 event/source; inspect any latest-source option separately.",
       "remaining_gaps": [],
-      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "S06",
@@ -780,19 +813,21 @@
       "evidence_required": "V, I, T, R, H",
       "cleanup": "Restore A/C1 mapping and confirm",
       "status": "IN_PROGRESS",
-      "actual": "The independent metadata variants ran and their received tags and UI outcomes were inspected. Missing metadata/SHA explicitly disclose fallback; malformed SHA has a specific diagnostic; other failures give generic guidance. Same-profile correction and source recovery on new telemetry have not run, so the full case remains incomplete.",
-      "reason": "Scoped source-phase result. Actual received metadata, event-stack observations and independent oracles are distinguished from interpretation; no new finding is added.",
+      "actual": "All six original failing profiles produced newer captures after the actual metadata-repair stage at 20:19:39.089314–20:19:47.215409 UTC. Original service/version/probe identities were preserved, received tags now show exact A/C1, and all six selected event stacks resolve C1 pricing.py:17 with quantity 3, total 3600 and unit 1200.",
+      "reason": "Same-target event-source recovery is established. Generic diagnostic specificity remains under assessment. Fresh direct navigation can retain a main-editor missing-file banner even while the selected event stack resolves C1; explicitly selecting a row shows shared C1 code without proving automatic per-target editor recovery. These two surfaces are not conflated and no new finding is asserted.",
       "evidence": [
-        "EVIDENCE.md#source-phase-metadata-controls",
-        "evidence/source-phase-177-199/manifest.json",
-        "evidence/source-phase-177-199/source-observations.json"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T18:35:49Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Independently test absent SHA, syntactically invalid SHA, valid-length nonexistent SHA, then real SHA with wrong repository. Restore exact mapping between runs.",
       "remaining_gaps": [
-        "Correct the same failing target/profile and verify exact A/C1 source on new telemetry; preserve same-target identity and isolate recovery from another healthy service."
+        "Assess the original diagnostic-specificity expectation and the shared-editor versus selected-event recovery behavior; the actual six-profile repair branch is no longer missing."
       ],
-      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "S07",
@@ -802,15 +837,20 @@
       "expected": "Source and line selection update atomically with the chosen event/version; stale code is not relabeled as the new SHA.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Stop extra version if temporary",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "Real C1 and C2 captures under the same service/staging environment have correct source SHAs, paths and values. Direct links, Back and Forward restore the exact respective captures. The retained C1→C2→C1 row-click loop ran at 21:51:26.584, 21:51:27.321 and 21:51:28.071 UTC; final settled state at 21:51:46.355 shows exact C1/line 17 and quantity 4, total 4320, unit 1200.",
+      "reason": "The navigation actions are now executed, including the rapid loop. Immediate in-flight frames briefly retain prior source/header content as selection changes; the final settled identity is correct. The original atomic-update expectation is not promoted to a blanket PASS from a correct final frame. No persistent mismatch or new product finding is established.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Show both versions under same service/environment. Switch versions quickly, back/forward, and open direct event links.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Resolve the in-flight atomic-update expectation separately from the correct settled/history/direct-link results."
+      ]
     },
     {
       "id": "S08",
@@ -820,15 +860,21 @@
       "expected": "Correct disambiguation and encoding; file/path errors are honest; line links are anchored to the right file/revision.",
       "evidence_required": "V, I, R",
       "cleanup": "Remove temporary drafts; keep approved fixture history",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "Alpha/handler.py:8 and beta/handler.py:8 captured 11011 and 22022 with distinct correct paths. The Unicode/space-path target reported installation ERROR, but independent controls show the same direct-loader module-map problem for ASCII and normal-import success for the Unicode path.",
+      "reason": "Same-basename disambiguation passed in the tested samples. The live Unicode branch is fixture-confounded, not a Datadog Unicode bug. A moved/renamed file across actual deployed revisions remains unexecuted.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Test same basename in two directories, moved/renamed file across commits, and path with spaces or non-ASCII. Select by full path.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Use an ordinary-import live fixture for the space/non-ASCII path branch.",
+        "Execute the actual historical move/rename across deployed revisions."
+      ]
     },
     {
       "id": "S09",
@@ -849,7 +895,9 @@
       "checkpoint_utc": "2026-10-08T18:35:49Z",
       "scope": "Compare canonical HTTPS URL, trailing `.git`, and supported SSH-style repository metadata, one at a time. Inspect displayed provider link.",
       "remaining_gaps": [],
-      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
+      "cleanup_assessment": "Final shutdown update: the named bounded runtimes completed owned cleanup, and the unfiltered 21:28:36 UTC inventory showed all seven known sessions inactive. The affected experimental definitions were disabled or expired. The earlier case-specific cleanup note below is historical; any requested fixture removal, settings restoration, retained-resource reconciliation or unexecuted case branch remains governed by C01/C02 and the remaining plan. This does not claim deletion or revocation of retained resources.",
+      "historical_cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02.",
+      "cleanup_assessment_updated_utc": "2026-10-08T21:51:46.355Z"
     },
     {
       "id": "S10",
@@ -1013,17 +1061,16 @@
       "evidence_required": "I, R, T; final active count",
       "cleanup": "Record remaining authorized entities explicitly",
       "status": "IN_PROGRESS",
-      "actual": "At 18:33 the grouped source session\u2019s nine probes and isolated B session\u2019s one probe were individually disabled and reloaded with inactive parents. Later unfiltered inventory showed All 6 / Active 0 / Inactive 6; the current Datadog connected app listed only repository A. Subsequent draft/filter/retained-view checks did not activate probes. The bounded runtime was still running at this checkpoint.",
-      "reason": "Final runtime termination, post-stop capture checks and whole-audit process/settings/identity/fixture/grant reconciliation remain open. A zero-active list is a dated capture inventory, not complete restoration. Further original-case work is planned.",
+      "actual": "The mixed coverage session was stopped and reloaded with all 7 probes DISABLED. The source-repair session was INACTIVE with 6 recovery definitions EXPIRED and 3 older definitions DISABLED; older controls remained inactive. A fresh post-terminal unfiltered inventory at 21:28:36 UTC showed All 7 / Active 0 / Inactive 7. Workflow Success was observed 21:20:54, duration 1h 30m 57s, and the explicit owned-runtime cleanup completion was read. No new runtime or production-labeled probe was created afterward.",
+      "reason": "Named runtime shutdown and all known session inactivity are verified. Accounts, keys, A-only integration, repository/fixture history and historical captures are intentionally retained. Keep broader original settings/resource/identity reconciliation and any remaining case-specific post-stop requirements distinct from the successful shutdown; no deletion or revocation is claimed.",
       "evidence": [
-        "EVIDENCE.md#source-phase-capture-cleanup",
-        "evidence/source-phase-177-199/205-final-six-inactive-sessions-safe.png"
+        "EVIDENCE.md#final-runtime-and-capture-state",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T18:51:18Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Final session/logpoint cleanup, direct-link state and post-stop traffic. Run-4 and later 17:22 inactive inventories are historical checkpoints; final reconciliation follows any resumed tests.",
       "remaining_gaps": [
-        "Verify the current bounded job reaches terminal state and reconcile owned runtime cleanup.",
-        "After the last planned case, reconcile all definitions, direct links, post-stop telemetry, settings, fixture history and intentionally retained assets."
+        "Finish the complete retained-resource/settings/grant/identity reconciliation required by the original case and record any deliberately retained test assets."
       ],
       "cleanup_assessment": "OPEN for final whole-audit reconciliation; run-4 terminal capture inventory is verified."
     },
@@ -1036,17 +1083,16 @@
       "evidence_required": "A, H, R; nonsecret before/after summary",
       "cleanup": "Complete authorized restorations",
       "status": "IN_PROGRESS",
-      "actual": "At 18:33 the grouped source session\u2019s nine probes and isolated B session\u2019s one probe were individually disabled and reloaded with inactive parents. Later unfiltered inventory showed All 6 / Active 0 / Inactive 6; the current Datadog connected app listed only repository A. Subsequent draft/filter/retained-view checks did not activate probes. The bounded runtime was still running at this checkpoint.",
-      "reason": "Final runtime termination, post-stop capture checks and whole-audit process/settings/identity/fixture/grant reconciliation remain open. A zero-active list is a dated capture inventory, not complete restoration. Further original-case work is planned.",
+      "actual": "The mixed coverage session was stopped and reloaded with all 7 probes DISABLED. The source-repair session was INACTIVE with 6 recovery definitions EXPIRED and 3 older definitions DISABLED; older controls remained inactive. A fresh post-terminal unfiltered inventory at 21:28:36 UTC showed All 7 / Active 0 / Inactive 7. Workflow Success was observed 21:20:54, duration 1h 30m 57s, and the explicit owned-runtime cleanup completion was read. No new runtime or production-labeled probe was created afterward.",
+      "reason": "Named runtime shutdown and all known session inactivity are verified. Accounts, keys, A-only integration, repository/fixture history and historical captures are intentionally retained. Keep broader original settings/resource/identity reconciliation and any remaining case-specific post-stop requirements distinct from the successful shutdown; no deletion or revocation is claimed.",
       "evidence": [
-        "EVIDENCE.md#source-phase-capture-cleanup",
-        "evidence/source-phase-177-199/205-final-six-inactive-sessions-safe.png"
+        "EVIDENCE.md#final-runtime-and-capture-state",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T18:51:18Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Full environment inventory and restoration; only the named stop/grant/retention checks are complete.",
       "remaining_gaps": [
-        "Verify the current bounded job reaches terminal state and reconcile owned runtime cleanup.",
-        "After the last planned case, reconcile all definitions, direct links, post-stop telemetry, settings, fixture history and intentionally retained assets."
+        "Finish the complete retained-resource/settings/grant/identity reconciliation required by the original case and record any deliberately retained test assets."
       ],
       "cleanup_assessment": "OPEN for final whole-audit reconciliation; run-4 terminal capture inventory is verified."
     },
@@ -1077,15 +1123,18 @@
       "expected": "Every event matches the executing replica and deployed commit; a service-wide current version never silently substitutes for event identity.",
       "evidence_required": "V, I, T, H; replica and SHA markers",
       "cleanup": "Stop the extra replica and disable experiments.",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "PASS",
+      "actual": "Actual C2 startup completed at 20:14:41.182422 UTC while C1 remained active. Distinct runtime processes under one mixed service/staging environment yielded payload-verified C2 execution 20:18:57.336 with unit 1300, total 3900, exact C2/pricing.py:24 and C1 execution 20:30:55.057 with unit 1200, total 3600, exact C1/pricing.py:17. Received version/repository/SHA tags agree with the selected source.",
+      "reason": "Scoped PASS for the observed real two-revision overlap and event-level value/source attribution. These are sampled captures, not exhaustive telemetry or zero-loss proof. The original target’s per-instance line-migration behavior remains separately incomplete under X05. Extra runtime processes were stopped by the verified job-owned cleanup and the session reloaded inactive.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Keep both commits active under one service/environment; give each replica a unique numeric marker; capture bounded traffic and open each event source.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": []
     },
     {
       "id": "X02",
@@ -1113,7 +1162,7 @@
       "evidence_required": "V, I, T, H",
       "cleanup": "Disable both test definitions.",
       "status": "PASS",
-      "actual": "After correcting the test template to an in-scope local, line 69 showed WAITING FOR EVENTS with one targeting instance and no events, while a separate line-9999 definition showed ERROR/NoFunctionsAtLine. A single delayed HTTP invocation then produced NEVER_CONTROL value=707 and captured never_called_local=707. SDK execution time was 13:58:26.856 UTC, within the independently checked HTTP interval 13:58:26.838546\u201313:58:26.857889; the displayed row time was separately 13:58:28.918 UTC.",
+      "actual": "After correcting the test template to an in-scope local, line 69 showed WAITING FOR EVENTS with one targeting instance and no events, while a separate line-9999 definition showed ERROR/NoFunctionsAtLine. A single delayed HTTP invocation then produced NEVER_CONTROL value=707 and captured never_called_local=707. SDK execution time was 13:58:26.856 UTC, within the independently checked HTTP interval 13:58:26.838546–13:58:26.857889; the displayed row time was separately 13:58:28.918  UTC.",
       "reason": "The no-traffic versus failed-target comparison and the required positive invocation are now complete. The actual 707 capture establishes the healthy target; WAITING FOR EVENTS and an instance count alone were not treated as installation proof. The indexed source and line-69 location were inspected separately.",
       "evidence": [
         "EVIDENCE.md#run-4-quiet-target-positive-control",
@@ -1135,7 +1184,7 @@
       "evidence_required": "V, I, T, R; separate execution, stop, and ingestion clocks",
       "cleanup": "Verify all affected entities inactive and stop traffic.",
       "status": "PASS",
-      "actual": "The last target SDK snapshot at 10:45:41.045 is distinct from its UI log-row time 10:45:43.820. The observed active\u2192expired transition was bounded 10:45:35.975\u201310:45:50.640. Historical rows remained after expiration and reload, without newer target rows by 10:47:16.596, while the control executed at 10:47:30.402.",
+      "actual": "The last target SDK snapshot at 10:45:41.045 is distinct from its UI log-row time 10:45:43.820. The observed active→expired transition was bounded 10:45:35.975–10:45:50.640. Historical rows remained after expiration and reload, without newer target rows by 10:47:16.596, while the control executed at 10:47:30.402.",
       "reason": "PASS for the tested expiry alternative and separation of captured execution time, UI event-row time and retained history. No instantaneous stop or precise propagation lag is inferred from the bounded observations.",
       "evidence": [
         "EVIDENCE.md#verified-expiry-and-control",
@@ -1152,15 +1201,20 @@
       "expected": "The system preserves correct source/target attribution or explicitly requests a new target; it never presents a different statement as the original location.",
       "evidence_required": "V, I, T, H; both commits and locations",
       "cleanup": "Restore approved baseline or document the final deployed commit; disable experiment.",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "The original unfiltered C1 pricing.py:17 target survived C2 arrival and later showed two instances. A separate C2-version-targeted pricing.py:24 probe captured the correct shifted-line source and values.",
+      "reason": "This proves the baseline and correct new-line control. It does not resolve the original line 17 target’s per-instance installation/behavior on C2, where line 17 is blank. A two-instance aggregate and separate positive probe do not prove silent relocation, rejection or an explicit retargeting explanation.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Capture baseline at C1; deploy C2; inspect installed target, displayed source, and new captures.",
-      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md.",
+      "remaining_gaps": [
+        "Inspect actual per-instance behavior of the original line17 definition on the C2 runtime, with an explicit location/rejection interpretation."
+      ]
     },
     {
       "id": "X06",
@@ -1171,8 +1225,8 @@
       "evidence_required": "V, I, T, H",
       "cleanup": "Stop traffic and remove the temporary definition/fixture variant.",
       "status": "PASS",
-      "actual": "Two sampled executions from the deployed overlapping-request fixture are associated correctly across captured locals, indexed Logs identity, request trace and source link. Sample A is pair 41/index 101, quantity 2/total 2400, overlap_confirmed=True, SDK time 12:23:34.913 UTC. Sample B is pair 53/index 202, quantity 4/total 4320, overlap_confirmed=True, SDK time 12:32:41.298 UTC. The recorder verified each indexed Logs snapshot identity and matching per-sample trace correlation, expected GET request, status 200, version 0.2.0 and the same deployed-revision source link at the intended concurrency line 79. Both samples belong to the same intended probe/session.",
-      "reason": "PASS for the original overlapping-request snapshot-association checks as sampled: each inspected snapshot has internally consistent request-specific values, trace context and deployed-revision source-link association. The samples are from different pair indices; they do not form a completely collected concurrent pair, and no exhaustive concurrency or all-request isolation result is claimed. Actual capture clears the obsolete prepared-local-only blocker. Traffic/fixture cleanup remains open; reviewed safe derivatives are now available.",
+      "actual": "Two sampled executions from the deployed overlapping-request fixture are associated correctly across captured locals, indexed Logs identity, request trace and source link. Sample A is pair 41/index 101, quantity 2/total 2400, overlap_confirmed=True, SDK time 12:23:34.913  UTC. Sample B is pair 53/index 202, quantity 4/total 4320, overlap_confirmed=True, SDK time 12:32:41.298  UTC. The recorder verified each indexed Logs snapshot identity and matching per-sample trace correlation, expected GET request, status 200, version 0.2.0 and the same deployed-revision source link at the intended concurrency line 79. Both samples belong to the same intended probe/session.",
+      "reason": "PASS for the original overlapping-request snapshot-association checks as sampled: each inspected snapshot has internally consistent request-specific values, trace context and deployed-revision source-link association. The samples are from different pair indices; they do not form a completely collected concurrent pair, and no exhaustive concurrency or all-request isolation result is claimed. Actual capture clears the obsolete prepared-local-only blocker. Later bounded-runtime and traffic shutdown are verified, and reviewed safe derivatives are available. Retained fixture/resource reconciliation remains explicit under C01/C02.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates",
         "EVIDENCE.md#sampled-overlapping-request-association",
@@ -1184,7 +1238,7 @@
       "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Send bounded overlapping requests carrying unique numeric correlation IDs; inspect local variables, trace/request context, and source per event.",
       "remaining_gaps": [],
-      "cleanup_assessment": "OPEN: stop bounded traffic and remove/disable the temporary concurrency probe/fixture when dependent QA is complete. The accidentally added adjacent-line probe is disabled and excluded; this does not establish final session/runtime cleanup. C01/C02 remain IN_PROGRESS. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
+      "cleanup_assessment": "Named bounded-runtime shutdown and all known sessions inactive were verified in the final 21:28:36 UTC inventory. The temporary fixture history is retained; full resource/settings reconciliation remains under C01/C02. This does not claim removal of retained code or historical telemetry."
     },
     {
       "id": "X07",
@@ -1195,24 +1249,18 @@
       "evidence_required": "V, I, T, H; masked or absent sensitive fields",
       "cleanup": "Remove extra fixture and logpoint; preserve normal protection.",
       "status": "IN_PROGRESS",
-      "actual": "The real complex-fixture capture now supports typed empty collections, recorder-confirmed exact Unicode content, and distinct duplicate nested leaves 11 and 22. Cyclic expansion is observed but its bounded depth/termination semantics remain unresolved. A separate redaction capture explicitly hides top-level dummy accessToken/password and the entire credentials dictionary in Targeted mode.",
-      "reason": "Actual fixture capture clears the generic prepared-local-only blocker. The original deeper adversarial-value case is still partial: Unicode content and duplicate-leaf controls do not prove every Unicode-key/value combination, and a sensitive-name dictionary redacted wholesale does not establish nested sensitive child handling under a non-sensitive parent. Cycle/depth behavior and cleanup remain open.",
+      "actual": "Observed Unicode keys/values included accented text, Japanese, emoji and a combining-accent sample. Duplicate nested leaves 11/22 and five search matches were verified; four-level cyclic expansion/collapse remained responsive. Normal Targeted protection was retained.",
+      "reason": "The Unicode/duplicate-key/view-interaction branches have stronger evidence. Exact cycle/depth bounds and nested dummy sensitive children beneath a nonsensitive parent are not fully established. Unicode source-path installation is a separate loader-confounded S08 branch.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates",
-        "EVIDENCE.md#complex-object-display",
-        "evidence/continuation-13/fixtures-117-125/117-complex-fixture-captured-safe.png",
-        "evidence/continuation-13/fixtures-117-125/118-nested-leaf-display-safe.png",
-        "evidence/continuation-13/fixtures-117-125/119-cycle-fixture-expanded-view-safe.png",
-        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
-        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png"
+        "EVIDENCE.md#coverage-phase-controls",
+        "evidence/coverage-phase-224-261/manifest.json",
+        "evidence/coverage-final-receipts/safe-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T21:51:46.355Z",
       "scope": "Exercise cyclic objects, Unicode keys/values, duplicate nested keys, and nested dummy password/accessToken identifiers without weakening redaction.",
       "remaining_gaps": [
-        "Resolve bounded cycle handling and truthful depth/truncation presentation, without inferring termination from a repeated self object.",
-        "Document exact Unicode key and value coverage; the current report confirms Unicode content but does not enumerate a separate Unicode-key control.",
-        "Capture and inspect nested dummy password/accessToken identifiers beneath a non-sensitive parent, or supply an already executed equivalent control; wholesale redaction of credentials does not substitute for this.",
-        "Complete relevant type/value, truncation and responsiveness checks at the depths actually exercised."
+        "Verify the remaining nested sensitive-name control without weakening protection.",
+        "Resolve cycle/depth truncation boundaries; do not claim exhaustive serialization from four manual expansions."
       ],
       "cleanup_assessment": "OPEN: remove the extra fixture/logpoints and preserve normal protection. No final removal/restoration is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
     },
@@ -1299,18 +1347,22 @@
     {
       "at_utc": "2026-10-08T18:51:18Z",
       "observation": "Source metadata/no-fallthrough/held-revision and URL-form controls, draft cancellation and retained-view checks reconciled. S04/S05/S09/F14 pass within original scope; S03/S06/B05/F15/F17 remain incomplete. No new finding. Grouped runtime still ongoing."
+    },
+    {
+      "at_utc": "2026-10-08T21:51:46.355Z",
+      "observation": "Actual metadata repair, C1/C2 execution, app restart, Agent outage and tiny-burst receipts reconciled. Scoped X01 passes; other original branches retain explicit limits. Rapid retained navigation settles correctly with transient prior content noted. Named runtimes and known sessions are stopped."
     }
   ],
   "status_counts": {
-    "BLOCKED": 19,
+    "BLOCKED": 11,
     "FINDING": 8,
-    "IN_PROGRESS": 12,
-    "PASS": 22,
+    "IN_PROGRESS": 19,
+    "PASS": 23,
     "PENDING": 2
   },
-  "checkpoint_type": "V11 web checkpoint through18:51:18UTC. Current runtime remains ongoing. PDF/Word retain V9. Source16 motion remains under privacy review.",
+  "checkpoint_type": "V12 consolidated evidence checkpoint through 21:51:46.355 UTC; current controlled runtimes and known capture sessions stopped. Original-case limitations remain explicit.",
   "finding_accounting": {
-    "live_cutoff_utc": "2026-10-08T18:51:18Z",
+    "live_cutoff_utc": "2026-10-08T21:51:46.355Z",
     "combined_distinct_findings_after_separate_verification": 10,
     "combined_severity": {
       "HIGH": 0,
@@ -1319,8 +1371,7 @@
     },
     "remaining_unconfirmed_topics_after_verification": 7,
     "new_finding": null,
-    "new_finding_scope": "No new confirmed finding in the source/retained-state continuation.",
-    "no_duplicate_finding": "F10 state-consistency observations do not resolve the Apply-feedback candidate."
+    "scope": "Coverage-phase controls add evidence, not additional confirmed findings. Existing FUNC01 repeats; Unicode loader confound is a test-harness limitation."
   },
   "post_cutoff_addenda": [
     {
@@ -1383,37 +1434,53 @@
       "MEDIUM": 4,
       "LOW": 5
     },
-    "documents_unchanged": true
+    "documents_unchanged": false,
+    "note": "The previously delivered V9 documents are superseded by the consolidated V12 PDF and Word report."
   },
   "remaining_work_categories": {
-    "engineerable_fixture_setup": [
-      "F18",
-      "F19",
-      "F20",
-      "F23",
-      "S07",
-      "S08",
-      "X01",
-      "X05"
-    ],
-    "independent_access_or_approval": [
+    "access_or_independent_identity": [
       "B06",
+      "S03",
       "S10",
       "S12",
       "S13",
       "S14",
       "S15",
+      "S16",
       "X08"
+    ],
+    "production_labeled_capture_approval": [
+      "F20"
     ],
     "fresh_participant": [
       "B01"
     ],
     "feature_context": [
+      "F07",
       "S17",
       "S18"
     ],
-    "mixed_environment_and_second_authorized_fork": [
+    "second_authorized_fork": [
       "X02"
+    ],
+    "remaining_executable_or_assessment_branches": [
+      "B05",
+      "B09",
+      "B10",
+      "F09",
+      "F10",
+      "F15",
+      "F17",
+      "F18",
+      "F19",
+      "F22",
+      "F23",
+      "S06",
+      "S07",
+      "S08",
+      "X05",
+      "X07",
+      "X09"
     ],
     "details": "REMAINING_WORK.md"
   }
