@@ -1,0 +1,42 @@
+{
+  "observed_utc": "2026-10-08T06:26:32.323Z",
+  "alerts": [
+    {
+      "live": null,
+      "role": "alert",
+      "text": "Live Debugger is not enabled on this service. Creating a logpoint for all environments won't enable it automatically. You can enable the service in Configuration later or select a specific environment instead.Go to Configuration"
+    }
+  ],
+  "fields": [
+    {
+      "describedby": null,
+      "errormessage": null,
+      "id": "druids_form_input-text_3571",
+      "invalid": null,
+      "label": null,
+      "labels": [],
+      "role": null,
+      "value": "17"
+    },
+    {
+      "describedby": null,
+      "errormessage": null,
+      "id": "",
+      "invalid": null,
+      "label": "Editor content;Press Alt+F1 for Accessibility Options.",
+      "labels": [],
+      "role": "textbox",
+      "value": ""
+    },
+    {
+      "describedby": null,
+      "errormessage": null,
+      "id": "",
+      "invalid": null,
+      "label": "Editor content;Press Alt+F1 for Accessibility Options.",
+      "labels": [],
+      "role": "textbox",
+      "value": "QA {quantity    "
+    }
+  ]
+}
