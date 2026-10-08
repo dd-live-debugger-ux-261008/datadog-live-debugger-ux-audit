@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "scope": "Source 09 continuation only; all earlier archives, highlights and the V6 checkpoint are unchanged.",
+  "source": {
+    "file": "onboarding-09-raw.mkv",
+    "duration_seconds": 1592.7,
+    "bytes": 39741220,
+    "sha256": "c894964abf0dd7c8ad41bb62c54f13da5319cb22e3194393ed5e76702b4d6449",
+    "utc_start": "2026-10-08T05:49:19+00:00",
+    "utc_end": "2026-10-08T06:15:51.700000+00:00",
+    "width": 1364,
+    "height": 1024,
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end), in seconds from raw source start. UTC derives from recorded start. There are no inserted transition-card durations.",
+  "retained_seconds": 1290.9,
+  "omitted_seconds": 301.8,
+  "retained": [
+    {
+      "source_start_seconds": 5.8,
+      "source_end_seconds": 116.5,
+      "utc_start": "2026-10-08T05:49:24.800000+00:00",
+      "utc_end": "2026-10-08T05:51:15.500000+00:00",
+      "duration_seconds": 110.7,
+      "title": "APM service discovery and service summary",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-09-part-01-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 110.7
+    },
+    {
+      "source_start_seconds": 150.4,
+      "source_end_seconds": 282.65,
+      "utc_start": "2026-10-08T05:51:49.400000+00:00",
+      "utc_end": "2026-10-08T05:54:01.650000+00:00",
+      "duration_seconds": 132.25,
+      "title": "Staging environment and service version menus",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-09-part-01-sanitized.mp4",
+      "output_start_seconds": 110.7,
+      "output_end_seconds": 242.95
+    },
+    {
+      "source_start_seconds": 399.85,
+      "source_end_seconds": 702.75,
+      "utc_start": "2026-10-08T05:55:58.850000+00:00",
+      "utc_end": "2026-10-08T06:01:01.750000+00:00",
+      "duration_seconds": 302.9,
+      "title": "Widen Time Frame recovers historical indexed spans",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-09-part-02-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 302.9
+    },
+    {
+      "source_start_seconds": 796.4,
+      "source_end_seconds": 963.5,
+      "utc_start": "2026-10-08T06:02:35.400000+00:00",
+      "utc_end": "2026-10-08T06:05:22.500000+00:00",
+      "duration_seconds": 167.1,
+      "title": "Historical HTTP span overview and context menu",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-09-part-02-sanitized.mp4",
+      "output_start_seconds": 302.9,
+      "output_end_seconds": 470.0
+    },
+    {
+      "source_start_seconds": 971.35,
+      "source_end_seconds": 1075.25,
+      "utc_start": "2026-10-08T06:05:30.350000+00:00",
+      "utc_end": "2026-10-08T06:07:14.250000+00:00",
+      "duration_seconds": 103.9,
+      "title": "Service resources and configuration overview",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-09-part-03-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 103.9
+    },
+    {
+      "source_start_seconds": 1118.65,
+      "source_end_seconds": 1592.7,
+      "utc_start": "2026-10-08T06:07:57.650000+00:00",
+      "utc_end": "2026-10-08T06:15:51.700000+00:00",
+      "duration_seconds": 474.05,
+      "title": "SDK configuration freshness guidance and retained wait",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-09-part-03-sanitized.mp4",
+      "output_start_seconds": 103.9,
+      "output_end_seconds": 577.95
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 5.8,
+      "duration_seconds": 5.8,
+      "utc_start": "2026-10-08T05:49:19+00:00",
+      "utc_end": "2026-10-08T05:49:24.800000+00:00",
+      "reason": "Initial recorder/tooling preparation and browser navigation; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 116.5,
+      "source_end_seconds": 150.4,
+      "duration_seconds": 33.9,
+      "utc_start": "2026-10-08T05:51:15.500000+00:00",
+      "utc_end": "2026-10-08T05:51:49.400000+00:00",
+      "reason": "GitHub report and recording archive administration; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 282.65,
+      "source_end_seconds": 399.85,
+      "duration_seconds": 117.2,
+      "utc_start": "2026-10-08T05:54:01.650000+00:00",
+      "utc_end": "2026-10-08T05:55:58.850000+00:00",
+      "reason": "GitHub recording upload, report publication and repository administration; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 702.75,
+      "source_end_seconds": 796.4,
+      "duration_seconds": 93.65,
+      "utc_start": "2026-10-08T06:01:01.750000+00:00",
+      "utc_end": "2026-10-08T06:02:35.400000+00:00",
+      "reason": "GitHub recording highlights and repository administration; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 963.5,
+      "source_end_seconds": 971.35,
+      "duration_seconds": 7.85,
+      "utc_start": "2026-10-08T06:05:22.500000+00:00",
+      "utc_end": "2026-10-08T06:05:30.350000+00:00",
+      "reason": "Brief GitHub upload/publishing tab interruption; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1075.25,
+      "source_end_seconds": 1118.65,
+      "duration_seconds": 43.4,
+      "utc_start": "2026-10-08T06:07:14.250000+00:00",
+      "utc_end": "2026-10-08T06:07:57.650000+00:00",
+      "reason": "GitHub upload commit, publishing verification and repository administration; includes privacy boundary padding."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-09-part-01-sanitized.mp4",
+      "duration_seconds": 242.95,
+      "bytes": 1455682,
+      "sha256": "4c3667045904dfff094d0deb8e74f6f89e85ebd1bd03f717027fe6781577384b",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "4859"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-09-part-02-sanitized.mp4",
+      "duration_seconds": 470.0,
+      "bytes": 4670633,
+      "sha256": "18ceb1a4033f59e1bee0b22f6e4bcde4f3d4750b8be41c8d148eb948c4818793",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "9400"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-09-part-03-sanitized.mp4",
+      "duration_seconds": 577.95,
+      "bytes": 4129017,
+      "sha256": "7412d5aee44b07ebd730c2d1cb3f2dedf6c120b9ccdefdc92472980da013be2d",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "11559"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    }
+  ],
+  "evidence_limits": [
+    "This recording demonstrates historical APM service and trace exploration. A service or historical span does not establish a running debug session, live variable capture, source integration success or successful source retrieval.",
+    "The APM environment selector offers staging. The initial 15-minute live-search view has no matching traces. Widen Time Frame changes to a historical window with 47 indexed spans; the empty initial window is not proof that ingestion never occurred.",
+    "The indexed GET /quote span has HTTP 200 status. Its private trace identifier is excluded by the crop. The motion does not visually establish every lower span-tag value read separately during the audit.",
+    "The SDK Configurations drawer states that no configuration data was detected for this service in the last 15 minutes, and advises checking the running service, instrumentation telemetry and telemetry intake accessibility. Its empty state does not establish a single root cause.",
+    "Screenshot 49 predates recording 09. Screenshots 56 and 57 were captured after recording 09 and independently show version, environment and baseline commit pixels; they are explicitly screenshot-only and are not inserted into either motion export.",
+    "All source-caption clocks are UTC reconstructed from recorder start. Datadog chart/list timestamps use the timezone displayed in the application, including UTC-07:00. Those application timestamps are not capture timestamps.",
+    "The archive retains original waiting time inside each continuous section. Every removed interval is recorded in the archive manifest. No screenshots, generated content or reconstructed UI substitute for captured motion.",
+    "All sections use source crop [252,280,1004,620], excluding browser chrome, profile/greeting regions, trace identity headers, footer/status URLs and offscreen details. Cropped-out controls or data are not evidence that they are absent in the product."
+  ],
+  "review": {
+    "source_overview_seconds": 10,
+    "source_boundary_review_fps": 2,
+    "widen_time_frame_transition_review_fps": 4,
+    "all_frame_sidebar_classification_fps": 20,
+    "output_ocr": {
+      "frames_reviewed": 323,
+      "unresolved_flags": 0
+    },
+    "representative_output_full_size_review": true,
+    "raw_source_hash_unchanged": true,
+    "decode_validation": true
+  }
+}
