@@ -1,0 +1,20 @@
+{
+  "python_version": "3.13.5",
+  "source_basename": "pricing.py",
+  "sha256": "3414cf40e6c1a4cca691ec4fe9c9657c74edede5dcb66e907c9aaa09ddf17ed4",
+  "function": "calculate_quote",
+  "ast_decorator_count": 0,
+  "line10_repr": "'\\n'",
+  "line10_linecache_truthy": true,
+  "line10_executable": false,
+  "line16_executable": false,
+  "line17_executable": true,
+  "line17_control_q4": {
+    "quantity": 4,
+    "unit_price_cents": 1200,
+    "subtotal_cents": 4800,
+    "discount_eligible": true,
+    "discount_cents": 480,
+    "total_cents": 4320
+  }
+}
