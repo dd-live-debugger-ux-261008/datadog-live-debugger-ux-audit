@@ -1,0 +1,1 @@
+The capture message visibly reads PAIR index=41 side=101 quantity=2 total=2400. The values pane shows quantity=2, rendezvous=Barrier, correlation_index=101, overlap_confirmed=True, quote=dict (size: 6), and total_cents=2400. Retrieved qa_fixture.py source at line 79 is visible. This is the sampled side-A event for pair 41.

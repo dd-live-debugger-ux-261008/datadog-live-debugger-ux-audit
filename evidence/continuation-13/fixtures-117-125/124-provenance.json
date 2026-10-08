@@ -1,0 +1,158 @@
+{
+  "id": "124",
+  "source_filename": "124-concurrent-a-trace-context.jpg",
+  "source_sha256": "7aecf638984cec4393b6144aaa0b1df57c405f6417ff79fa7ade576244b7f866",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "124-concurrent-sample-a-trace-context-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/124-concurrent-sample-a-trace-context-safe.png",
+  "safe_sha256": "bb8ef5ae4d94a885511c4e5deaca68340b3fc42ce7eafa1c9519aeeb0f57d2b4",
+  "safe_dimensions": [
+    617,
+    680
+  ],
+  "crop_source_xyxy": [
+    518,
+    36,
+    1135,
+    716
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        561,
+        155,
+        717,
+        180
+      ],
+      "output_xyxy": [
+        43,
+        119,
+        199,
+        144
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime host identity"
+    },
+    {
+      "source_xyxy": [
+        739,
+        155,
+        917,
+        180
+      ],
+      "output_xyxy": [
+        221,
+        119,
+        399,
+        144
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        823,
+        249,
+        1091,
+        274
+      ],
+      "output_xyxy": [
+        305,
+        213,
+        573,
+        238
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path tag"
+    },
+    {
+      "source_xyxy": [
+        838,
+        274,
+        1091,
+        298
+      ],
+      "output_xyxy": [
+        320,
+        238,
+        573,
+        262
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private working-directory tag"
+    },
+    {
+      "source_xyxy": [
+        596,
+        435,
+        746,
+        462
+      ],
+      "output_xyxy": [
+        78,
+        399,
+        228,
+        426
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "trace identifier and process identifier"
+    },
+    {
+      "source_xyxy": [
+        871,
+        465,
+        1107,
+        716
+      ],
+      "output_xyxy": [
+        353,
+        429,
+        589,
+        680
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "clipped trace metadata containing partial identifiers"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "2a83139c31d5c782148f25a460df71e6c866c1508e4fbdd6ce7700f8f3a271fe",
+  "safe_decoded_rgb_sha256": "77fd91328e638fb23ca3e531c093b214ab130629736a15e83ffc4e40bae59925",
+  "verified_unchanged_pixels_outside_masks": 335152,
+  "source_unchanged": true,
+  "caption": "The Logs detail view visibly shows PAIR index=41 side=101 quantity=2 total=2400. The Trace tab shows one trace, a SPAN WITH LOG label, and a GET /qa flame-graph entry with duration 729 microseconds. The event heading displays Oct 08, 2026 at 5:23:37.936 am. Runtime identities, private path tags, and trace/process identifiers are masked; clipped right-hand metadata is also masked.",
+  "visible_evidence_limits": [
+    "The event heading is a displayed UI time and is not substituted for an independently verified payload timestamp.",
+    "Exact snapshot/trace identity matching and source-link verification were separate observations, not fully visible in this still.",
+    "The clipped right-hand metadata cannot be reliably interpreted from this screenshot."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

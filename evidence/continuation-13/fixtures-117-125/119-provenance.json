@@ -1,0 +1,57 @@
+{
+  "id": "119",
+  "source_filename": "119-cyclic-depth-behavior.jpg",
+  "source_sha256": "dff7e797a4366027905ac163cc06107e14e0cd366e75fc4bf993a87c22155a0b",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "119-cycle-fixture-expanded-view-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/119-cycle-fixture-expanded-view-safe.png",
+  "safe_sha256": "4dd08392e50947ffeeb1a745344a809e1dea73a5401ac22734fbfa7fa50a3579",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "0cc7c104b5e79f093b7c48db3c84fa36a0770450259d68377136e9289f2988d7",
+  "safe_decoded_rgb_sha256": "903652a81a610cd45e363d18eb76db42a29f1c9e4420e1b80456d17eb9d6cf90",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The complex-fixture capture visibly shows a self branch, its key self, and an expanded value of dict (size: 3). Visible children include label -> synthetic-cycle and number -> 73. The next self row is clipped at the bottom. This records the displayed expansion of the cycle fixture.",
+  "visible_evidence_limits": [
+    "The still does not establish an unbounded expansion, maximum depth, object identity, or an SDK defect.",
+    "Other cycle/depth behavior requires the bounded interaction observations."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

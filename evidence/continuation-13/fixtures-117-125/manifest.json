@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "title": "Continuation 13 extension: complex fixtures, targeted redaction, and sampled concurrency",
+  "public_relative_directory": "evidence/continuation-13/fixtures-117-125/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "All rectangles are zero-based and half-open [left, top, right, bottom). Outputs use integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "8b3259113b4a9b8e328f5ccc8a0fc2919cd508b473b033a8a05af8f71f39a1ef",
+    "batch_definition_sha256": "b901d68408b03cf9edc775cdb4713fa86ab6e50064641cfa3f3377a85edf3dcb",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "117",
+      "source_filename": "117-complex-fixture-captured.jpg",
+      "source_sha256": "e4c50f6bf5362c4199f10e2f46420979dd636e91c97429913808f8ae5ef1b572",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "117-complex-fixture-captured-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/117-complex-fixture-captured-safe.png",
+      "safe_sha256": "337f09e465915a6a7f8f6ec864a649d4c16ba185a794403ab6d2e4cbaa0c45fa",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            839,
+            542,
+            997,
+            566
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            837,
+            394
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "99622e85d1003660ff8fa5c434af2730ab3eacf60502097c8cabdfc19dec3ac1",
+      "safe_decoded_rgb_sha256": "1ee1e8392c10fde1019123965c9dae00a231f922c096a552e0bd6c50376a6ce2",
+      "verified_unchanged_pixels_outside_masks": 539228,
+      "source_unchanged": true,
+      "caption": "The capture message visibly reads COMPLEX quantity=3 total=3600. Under Values for line 22, empty_list is displayed as list (size: 0), empty_map as dict (size: 0), cyclic as dict (size: 3), and nested as dict (size: 3). A long_text string is visibly shortened with an ellipsis. The source pane displays shared_leaf = {\"value\": 31} and a shared dictionary using that variable twice. The synthetic correlation identifier is masked.",
+      "visible_evidence_limits": [
+        "Unicode values are not visible in this screenshot.",
+        "The still does not establish complete long-string content, shared-object identity semantics, or maximum capture depth."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "118",
+      "source_filename": "118-nested-distinct-leaf-values.jpg",
+      "source_sha256": "f5e6feb840a1793180fd8ae6e1c4cf119bca3c6e3572c598396c6bd2168af14f",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "118-nested-leaf-display-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/118-nested-leaf-display-safe.png",
+      "safe_sha256": "ad418cd1b8eb2a737f93d1a441c11226896c45105c4b68c6108ae88b769c2783",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ae1e2414f2f574a544ac790d5a0a1604afe01ddabf2b53e0f471a34709462358",
+      "safe_decoded_rgb_sha256": "890ce1456f9371f876aea835e7fc5df60afa40e2ea6cf600d53a0052c6286c3a",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The complex-fixture capture shows an expanded dictionary leaf with value 11. A separate branch labeled right is visible with an expanded value of dict (size: 1). The next leaf row at the bottom is partly clipped. The capture message remains COMPLEX quantity=3 total=3600.",
+      "visible_evidence_limits": [
+        "The upper branch label is clipped and the right leaf row is not fully visible.",
+        "The independently observed left.leaf=11 and right.leaf=22 result is not fully pictured in this still.",
+        "No capture-depth or object-identity defect is inferred."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "119",
+      "source_filename": "119-cyclic-depth-behavior.jpg",
+      "source_sha256": "dff7e797a4366027905ac163cc06107e14e0cd366e75fc4bf993a87c22155a0b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "119-cycle-fixture-expanded-view-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/119-cycle-fixture-expanded-view-safe.png",
+      "safe_sha256": "4dd08392e50947ffeeb1a745344a809e1dea73a5401ac22734fbfa7fa50a3579",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "0cc7c104b5e79f093b7c48db3c84fa36a0770450259d68377136e9289f2988d7",
+      "safe_decoded_rgb_sha256": "903652a81a610cd45e363d18eb76db42a29f1c9e4420e1b80456d17eb9d6cf90",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The complex-fixture capture visibly shows a self branch, its key self, and an expanded value of dict (size: 3). Visible children include label -> synthetic-cycle and number -> 73. The next self row is clipped at the bottom. This records the displayed expansion of the cycle fixture.",
+      "visible_evidence_limits": [
+        "The still does not establish an unbounded expansion, maximum depth, object identity, or an SDK defect.",
+        "Other cycle/depth behavior requires the bounded interaction observations."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "120",
+      "source_filename": "120-redaction-controls-captured.jpg",
+      "source_sha256": "61cab5dd2349f719988fb3e02c4e775c9c15c3637550d004b6a6b09c64a98cd2",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "120-targeted-redaction-controls-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
+      "safe_sha256": "b049f7b0722fb7a3d8e6f6cee4f9bab2463eb665cb46907f494acf2120dcd257",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "99b1a9877ec577d32a0bb6deb54642daae06bd338e8fc802dd7c21b0b025b21b",
+      "safe_decoded_rgb_sha256": "99b1a9877ec577d32a0bb6deb54642daae06bd338e8fc802dd7c21b0b025b21b",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The capture pane shows Redaction: Targeted and visible ordinary controls bool_control=True, harmless_text=plain synthetic text, and numeric_control=90210. The names accessToken, credentials, and password appear with their types, but their values are not shown. The capture is for qa_fixture.py line 32.",
+      "visible_evidence_limits": [
+        "This image does not display the expanded redaction explanations; see screenshot 121 for the visible explanations.",
+        "The still records the displayed Targeted mode, not a history of redaction-setting changes."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "121",
+      "source_filename": "121-redaction-name-explanations.jpg",
+      "source_sha256": "17970c95dfdbcd6366df48ea1a8e81ec47455ef6343a41df0abdb1c706c5e6dc",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "121-targeted-name-redaction-explanations-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png",
+      "safe_sha256": "9d6aa213706ebacc221afa3cb18028b3ba5d4ba6754902a7edd3853934ee8026",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "5bde4a958907b0f41614c20b666fba1600a69b68c5fb4228230d2f3e73e83d2f",
+      "safe_decoded_rgb_sha256": "5bde4a958907b0f41614c20b666fba1600a69b68c5fb4228230d2f3e73e83d2f",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The capture pane remains labeled Redaction: Targeted. Expanded accessToken and credentials entries explicitly state that the value was redacted based on its name. numeric_control=90210 remains visible, and the password entry is present as type str. These are synthetic fixture fields.",
+      "visible_evidence_limits": [
+        "The password explanation is below the visible area and is not claimed as pictured.",
+        "The still does not show a settings change or establish redaction behavior for every possible value or field name."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "122",
+      "source_filename": "122-concurrent-side-a-oracle.jpg",
+      "source_sha256": "c4a8319c24cebf610551373aae7f9fc8644c7b4428bab78c698fb2943d4053a2",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "122-concurrent-sample-a-pair-41-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/122-concurrent-sample-a-pair-41-safe.png",
+      "safe_sha256": "d7ecd3d20f1449e3af7c78a51cd431c61219022cebaff288d4e7b5c015daa494",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "5b4923c92ab047bfe70bbb6483fda5a96d49e3ab1c1f7573c8bf9d1046ea3ea7",
+      "safe_decoded_rgb_sha256": "5b4923c92ab047bfe70bbb6483fda5a96d49e3ab1c1f7573c8bf9d1046ea3ea7",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The capture message visibly reads PAIR index=41 side=101 quantity=2 total=2400. The values pane shows quantity=2, rendezvous=Barrier, correlation_index=101, overlap_confirmed=True, quote=dict (size: 6), and total_cents=2400. Retrieved qa_fixture.py source at line 79 is visible. This is the sampled side-A event for pair 41.",
+      "visible_evidence_limits": [
+        "Side B from the same pair is not pictured here.",
+        "This screenshot does not establish exhaustive concurrency correctness or offscreen event identity, JSON tags, or trace metadata."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "123",
+      "source_filename": "123-concurrent-side-b-oracle.jpg",
+      "source_sha256": "4910a9835333f0d69097584a6c484ec04c92d63e99255183e2fd41b3ed34d649",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "123-concurrent-sample-b-pair-53-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/123-concurrent-sample-b-pair-53-safe.png",
+      "safe_sha256": "fbd60570eba171b06261aa08ec25028015b7c249abcbb8d53a69139a50da220d",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            839,
+            542,
+            1002,
+            566
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            842,
+            394
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "682774a0482381d2c22f5e9663b84b3246677e263116b15320fec30dc2a19ca9",
+      "safe_decoded_rgb_sha256": "f4ba7e8c3a6575980bb92c6aba5a8145e76c03a6a2e44114f9000cefeb64b3a8",
+      "verified_unchanged_pixels_outside_masks": 539108,
+      "source_unchanged": true,
+      "caption": "The capture message visibly reads PAIR index=53 side=202 quantity=4 total=4320. The values pane shows pair_index=53, quantity=4, rendezvous=Barrier, correlation_index=202, and overlap_confirmed=True. The synthetic correlation identifier is masked. This is the sampled side-B event for pair 53.",
+      "visible_evidence_limits": [
+        "The capture-pane total_cents field is below the visible area; total 4320 is visible in the log message.",
+        "This sample is from pair 53, while screenshot 122 is from pair 41; they are not a complete paired capture.",
+        "No offscreen JSON identity or trace metadata is claimed."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "124",
+      "source_filename": "124-concurrent-a-trace-context.jpg",
+      "source_sha256": "7aecf638984cec4393b6144aaa0b1df57c405f6417ff79fa7ade576244b7f866",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "124-concurrent-sample-a-trace-context-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/124-concurrent-sample-a-trace-context-safe.png",
+      "safe_sha256": "bb8ef5ae4d94a885511c4e5deaca68340b3fc42ce7eafa1c9519aeeb0f57d2b4",
+      "safe_dimensions": [
+        617,
+        680
+      ],
+      "crop_source_xyxy": [
+        518,
+        36,
+        1135,
+        716
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            561,
+            155,
+            717,
+            180
+          ],
+          "output_xyxy": [
+            43,
+            119,
+            199,
+            144
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime host identity"
+        },
+        {
+          "source_xyxy": [
+            739,
+            155,
+            917,
+            180
+          ],
+          "output_xyxy": [
+            221,
+            119,
+            399,
+            144
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            823,
+            249,
+            1091,
+            274
+          ],
+          "output_xyxy": [
+            305,
+            213,
+            573,
+            238
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path tag"
+        },
+        {
+          "source_xyxy": [
+            838,
+            274,
+            1091,
+            298
+          ],
+          "output_xyxy": [
+            320,
+            238,
+            573,
+            262
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private working-directory tag"
+        },
+        {
+          "source_xyxy": [
+            596,
+            435,
+            746,
+            462
+          ],
+          "output_xyxy": [
+            78,
+            399,
+            228,
+            426
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "trace identifier and process identifier"
+        },
+        {
+          "source_xyxy": [
+            871,
+            465,
+            1107,
+            716
+          ],
+          "output_xyxy": [
+            353,
+            429,
+            589,
+            680
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "clipped trace metadata containing partial identifiers"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "2a83139c31d5c782148f25a460df71e6c866c1508e4fbdd6ce7700f8f3a271fe",
+      "safe_decoded_rgb_sha256": "77fd91328e638fb23ca3e531c093b214ab130629736a15e83ffc4e40bae59925",
+      "verified_unchanged_pixels_outside_masks": 335152,
+      "source_unchanged": true,
+      "caption": "The Logs detail view visibly shows PAIR index=41 side=101 quantity=2 total=2400. The Trace tab shows one trace, a SPAN WITH LOG label, and a GET /qa flame-graph entry with duration 729 microseconds. The event heading displays Oct 08, 2026 at 5:23:37.936 am. Runtime identities, private path tags, and trace/process identifiers are masked; clipped right-hand metadata is also masked.",
+      "visible_evidence_limits": [
+        "The event heading is a displayed UI time and is not substituted for an independently verified payload timestamp.",
+        "Exact snapshot/trace identity matching and source-link verification were separate observations, not fully visible in this still.",
+        "The clipped right-hand metadata cannot be reliably interpreted from this screenshot."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "125",
+      "source_filename": "125-concurrent-b-trace-context.jpg",
+      "source_sha256": "108e509f02bade9e25b05d858b7127f98808c8e614126d45ad33947d641e27cc",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "125-concurrent-sample-b-trace-context-safe.png",
+      "public_relative_path": "evidence/continuation-13/fixtures-117-125/125-concurrent-sample-b-trace-context-safe.png",
+      "safe_sha256": "62b0be0be798630b59f36834aed0d47dbb9ae2c4c3eda4eb8fd69de4c575bdd1",
+      "safe_dimensions": [
+        617,
+        680
+      ],
+      "crop_source_xyxy": [
+        518,
+        36,
+        1135,
+        716
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            561,
+            155,
+            717,
+            180
+          ],
+          "output_xyxy": [
+            43,
+            119,
+            199,
+            144
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime host identity"
+        },
+        {
+          "source_xyxy": [
+            739,
+            155,
+            917,
+            180
+          ],
+          "output_xyxy": [
+            221,
+            119,
+            399,
+            144
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            823,
+            249,
+            1091,
+            274
+          ],
+          "output_xyxy": [
+            305,
+            213,
+            573,
+            238
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path tag"
+        },
+        {
+          "source_xyxy": [
+            838,
+            274,
+            1091,
+            298
+          ],
+          "output_xyxy": [
+            320,
+            238,
+            573,
+            262
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private working-directory tag"
+        },
+        {
+          "source_xyxy": [
+            596,
+            435,
+            746,
+            462
+          ],
+          "output_xyxy": [
+            78,
+            399,
+            228,
+            426
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "trace identifier and process identifier"
+        },
+        {
+          "source_xyxy": [
+            869,
+            482,
+            1082,
+            514
+          ],
+          "output_xyxy": [
+            351,
+            446,
+            564,
+            478
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity and process identifier in span metadata"
+        },
+        {
+          "source_xyxy": [
+            950,
+            580,
+            1115,
+            606
+          ],
+          "output_xyxy": [
+            432,
+            544,
+            597,
+            570
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "span identifier"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "0abce389b5505cf09fd61d5e62ab8be8b5338504c32b749c32ccc856953a1cdb",
+      "safe_decoded_rgb_sha256": "6b9cbf662c3d83c6ba198ba0086bc0e2fd9c998acdb50a6c7ce952c486055d9f",
+      "verified_unchanged_pixels_outside_masks": 383282,
+      "source_unchanged": true,
+      "caption": "The Logs detail view visibly shows PAIR index=53 side=202 quantity=4 total=4320. The Trace tab shows one trace, SPAN WITH LOG, a GET /qa flame-graph entry with duration 887 microseconds, Resource GET /qa, and Operation sample.request. The event heading displays Oct 08, 2026 at 5:32:43.957 am. Runtime identities, private path tags, trace/process identifiers, and the span ID value are masked.",
+      "visible_evidence_limits": [
+        "The UI heading is not independently verified as a payload execution timestamp.",
+        "The still does not expose every span attribute or prove offscreen JSON identity/source-link matches.",
+        "This pair-53 side-B sample and the pair-41 side-A sample do not form a complete concurrent pair."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "117-caption.txt",
+    "117-complex-fixture-captured-safe.png",
+    "117-provenance.json",
+    "118-caption.txt",
+    "118-nested-leaf-display-safe.png",
+    "118-provenance.json",
+    "119-caption.txt",
+    "119-cycle-fixture-expanded-view-safe.png",
+    "119-provenance.json",
+    "120-caption.txt",
+    "120-provenance.json",
+    "120-targeted-redaction-controls-safe.png",
+    "121-caption.txt",
+    "121-provenance.json",
+    "121-targeted-name-redaction-explanations-safe.png",
+    "122-caption.txt",
+    "122-concurrent-sample-a-pair-41-safe.png",
+    "122-provenance.json",
+    "123-caption.txt",
+    "123-concurrent-sample-b-pair-53-safe.png",
+    "123-provenance.json",
+    "124-caption.txt",
+    "124-concurrent-sample-a-trace-context-safe.png",
+    "124-provenance.json",
+    "125-caption.txt",
+    "125-concurrent-sample-b-trace-context-safe.png",
+    "125-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ]
+}

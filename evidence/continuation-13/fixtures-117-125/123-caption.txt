@@ -1,0 +1,1 @@
+The capture message visibly reads PAIR index=53 side=202 quantity=4 total=4320. The values pane shows pair_index=53, quantity=4, rendezvous=Barrier, correlation_index=202, and overlap_confirmed=True. The synthetic correlation identifier is masked. This is the sampled side-B event for pair 53.

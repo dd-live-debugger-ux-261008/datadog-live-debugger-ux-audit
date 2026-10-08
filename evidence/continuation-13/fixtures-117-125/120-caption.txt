@@ -1,0 +1,1 @@
+The capture pane shows Redaction: Targeted and visible ordinary controls bool_control=True, harmless_text=plain synthetic text, and numeric_control=90210. The names accessToken, credentials, and password appear with their types, but their values are not shown. The capture is for qa_fixture.py line 32.

@@ -1,0 +1,1 @@
+The complex-fixture capture visibly shows a self branch, its key self, and an expanded value of dict (size: 3). Visible children include label -> synthetic-cycle and number -> 73. The next self row is clipped at the bottom. This records the displayed expansion of the cycle fixture.

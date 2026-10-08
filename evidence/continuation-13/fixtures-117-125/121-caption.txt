@@ -1,0 +1,1 @@
+The capture pane remains labeled Redaction: Targeted. Expanded accessToken and credentials entries explicitly state that the value was redacted based on its name. numeric_control=90210 remains visible, and the password entry is present as type str. These are synthetic fixture fields.

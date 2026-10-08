@@ -1,0 +1,36 @@
+{
+  "id": "121",
+  "source_filename": "121-redaction-name-explanations.jpg",
+  "source_sha256": "17970c95dfdbcd6366df48ea1a8e81ec47455ef6343a41df0abdb1c706c5e6dc",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "121-targeted-name-redaction-explanations-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png",
+  "safe_sha256": "9d6aa213706ebacc221afa3cb18028b3ba5d4ba6754902a7edd3853934ee8026",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "5bde4a958907b0f41614c20b666fba1600a69b68c5fb4228230d2f3e73e83d2f",
+  "safe_decoded_rgb_sha256": "5bde4a958907b0f41614c20b666fba1600a69b68c5fb4228230d2f3e73e83d2f",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The capture pane remains labeled Redaction: Targeted. Expanded accessToken and credentials entries explicitly state that the value was redacted based on its name. numeric_control=90210 remains visible, and the password entry is present as type str. These are synthetic fixture fields.",
+  "visible_evidence_limits": [
+    "The password explanation is below the visible area and is not claimed as pictured.",
+    "The still does not show a settings change or establish redaction behavior for every possible value or field name."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

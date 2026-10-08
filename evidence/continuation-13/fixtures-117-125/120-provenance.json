@@ -1,0 +1,36 @@
+{
+  "id": "120",
+  "source_filename": "120-redaction-controls-captured.jpg",
+  "source_sha256": "61cab5dd2349f719988fb3e02c4e775c9c15c3637550d004b6a6b09c64a98cd2",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "120-targeted-redaction-controls-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
+  "safe_sha256": "b049f7b0722fb7a3d8e6f6cee4f9bab2463eb665cb46907f494acf2120dcd257",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "99b1a9877ec577d32a0bb6deb54642daae06bd338e8fc802dd7c21b0b025b21b",
+  "safe_decoded_rgb_sha256": "99b1a9877ec577d32a0bb6deb54642daae06bd338e8fc802dd7c21b0b025b21b",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The capture pane shows Redaction: Targeted and visible ordinary controls bool_control=True, harmless_text=plain synthetic text, and numeric_control=90210. The names accessToken, credentials, and password appear with their types, but their values are not shown. The capture is for qa_fixture.py line 32.",
+  "visible_evidence_limits": [
+    "This image does not display the expanded redaction explanations; see screenshot 121 for the visible explanations.",
+    "The still records the displayed Targeted mode, not a history of redaction-setting changes."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

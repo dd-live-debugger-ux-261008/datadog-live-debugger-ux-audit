@@ -1,0 +1,78 @@
+{
+  "id": "123",
+  "source_filename": "123-concurrent-side-b-oracle.jpg",
+  "source_sha256": "4910a9835333f0d69097584a6c484ec04c92d63e99255183e2fd41b3ed34d649",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "123-concurrent-sample-b-pair-53-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/123-concurrent-sample-b-pair-53-safe.png",
+  "safe_sha256": "fbd60570eba171b06261aa08ec25028015b7c249abcbb8d53a69139a50da220d",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        839,
+        542,
+        1002,
+        566
+      ],
+      "output_xyxy": [
+        679,
+        370,
+        842,
+        394
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "682774a0482381d2c22f5e9663b84b3246677e263116b15320fec30dc2a19ca9",
+  "safe_decoded_rgb_sha256": "f4ba7e8c3a6575980bb92c6aba5a8145e76c03a6a2e44114f9000cefeb64b3a8",
+  "verified_unchanged_pixels_outside_masks": 539108,
+  "source_unchanged": true,
+  "caption": "The capture message visibly reads PAIR index=53 side=202 quantity=4 total=4320. The values pane shows pair_index=53, quantity=4, rendezvous=Barrier, correlation_index=202, and overlap_confirmed=True. The synthetic correlation identifier is masked. This is the sampled side-B event for pair 53.",
+  "visible_evidence_limits": [
+    "The capture-pane total_cents field is below the visible area; total 4320 is visible in the log message.",
+    "This sample is from pair 53, while screenshot 122 is from pair 41; they are not a complete paired capture.",
+    "No offscreen JSON identity or trace metadata is claimed."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

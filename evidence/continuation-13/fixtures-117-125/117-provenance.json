@@ -1,0 +1,77 @@
+{
+  "id": "117",
+  "source_filename": "117-complex-fixture-captured.jpg",
+  "source_sha256": "e4c50f6bf5362c4199f10e2f46420979dd636e91c97429913808f8ae5ef1b572",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "117-complex-fixture-captured-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/117-complex-fixture-captured-safe.png",
+  "safe_sha256": "337f09e465915a6a7f8f6ec864a649d4c16ba185a794403ab6d2e4cbaa0c45fa",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        839,
+        542,
+        997,
+        566
+      ],
+      "output_xyxy": [
+        679,
+        370,
+        837,
+        394
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "99622e85d1003660ff8fa5c434af2730ab3eacf60502097c8cabdfc19dec3ac1",
+  "safe_decoded_rgb_sha256": "1ee1e8392c10fde1019123965c9dae00a231f922c096a552e0bd6c50376a6ce2",
+  "verified_unchanged_pixels_outside_masks": 539228,
+  "source_unchanged": true,
+  "caption": "The capture message visibly reads COMPLEX quantity=3 total=3600. Under Values for line 22, empty_list is displayed as list (size: 0), empty_map as dict (size: 0), cyclic as dict (size: 3), and nested as dict (size: 3). A long_text string is visibly shortened with an ellipsis. The source pane displays shared_leaf = {\"value\": 31} and a shared dictionary using that variable twice. The synthetic correlation identifier is masked.",
+  "visible_evidence_limits": [
+    "Unicode values are not visible in this screenshot.",
+    "The still does not establish complete long-string content, shared-object identity semantics, or maximum capture depth."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

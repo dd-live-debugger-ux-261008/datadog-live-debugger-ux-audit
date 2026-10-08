@@ -1,0 +1,58 @@
+{
+  "id": "118",
+  "source_filename": "118-nested-distinct-leaf-values.jpg",
+  "source_sha256": "f5e6feb840a1793180fd8ae6e1c4cf119bca3c6e3572c598396c6bd2168af14f",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "118-nested-leaf-display-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/118-nested-leaf-display-safe.png",
+  "safe_sha256": "ad418cd1b8eb2a737f93d1a441c11226896c45105c4b68c6108ae88b769c2783",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "ae1e2414f2f574a544ac790d5a0a1604afe01ddabf2b53e0f471a34709462358",
+  "safe_decoded_rgb_sha256": "890ce1456f9371f876aea835e7fc5df60afa40e2ea6cf600d53a0052c6286c3a",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The complex-fixture capture shows an expanded dictionary leaf with value 11. A separate branch labeled right is visible with an expanded value of dict (size: 1). The next leaf row at the bottom is partly clipped. The capture message remains COMPLEX quantity=3 total=3600.",
+  "visible_evidence_limits": [
+    "The upper branch label is clipped and the right leaf row is not fully visible.",
+    "The independently observed left.leaf=11 and right.leaf=22 result is not fully pictured in this still.",
+    "No capture-depth or object-identity defect is inferred."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

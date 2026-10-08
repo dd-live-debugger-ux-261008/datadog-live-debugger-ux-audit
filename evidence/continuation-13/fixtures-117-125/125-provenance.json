@@ -1,0 +1,178 @@
+{
+  "id": "125",
+  "source_filename": "125-concurrent-b-trace-context.jpg",
+  "source_sha256": "108e509f02bade9e25b05d858b7127f98808c8e614126d45ad33947d641e27cc",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "125-concurrent-sample-b-trace-context-safe.png",
+  "public_relative_path": "evidence/continuation-13/fixtures-117-125/125-concurrent-sample-b-trace-context-safe.png",
+  "safe_sha256": "62b0be0be798630b59f36834aed0d47dbb9ae2c4c3eda4eb8fd69de4c575bdd1",
+  "safe_dimensions": [
+    617,
+    680
+  ],
+  "crop_source_xyxy": [
+    518,
+    36,
+    1135,
+    716
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        561,
+        155,
+        717,
+        180
+      ],
+      "output_xyxy": [
+        43,
+        119,
+        199,
+        144
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime host identity"
+    },
+    {
+      "source_xyxy": [
+        739,
+        155,
+        917,
+        180
+      ],
+      "output_xyxy": [
+        221,
+        119,
+        399,
+        144
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        823,
+        249,
+        1091,
+        274
+      ],
+      "output_xyxy": [
+        305,
+        213,
+        573,
+        238
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path tag"
+    },
+    {
+      "source_xyxy": [
+        838,
+        274,
+        1091,
+        298
+      ],
+      "output_xyxy": [
+        320,
+        238,
+        573,
+        262
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private working-directory tag"
+    },
+    {
+      "source_xyxy": [
+        596,
+        435,
+        746,
+        462
+      ],
+      "output_xyxy": [
+        78,
+        399,
+        228,
+        426
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "trace identifier and process identifier"
+    },
+    {
+      "source_xyxy": [
+        869,
+        482,
+        1082,
+        514
+      ],
+      "output_xyxy": [
+        351,
+        446,
+        564,
+        478
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity and process identifier in span metadata"
+    },
+    {
+      "source_xyxy": [
+        950,
+        580,
+        1115,
+        606
+      ],
+      "output_xyxy": [
+        432,
+        544,
+        597,
+        570
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "span identifier"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "0abce389b5505cf09fd61d5e62ab8be8b5338504c32b749c32ccc856953a1cdb",
+  "safe_decoded_rgb_sha256": "6b9cbf662c3d83c6ba198ba0086bc0e2fd9c998acdb50a6c7ce952c486055d9f",
+  "verified_unchanged_pixels_outside_masks": 383282,
+  "source_unchanged": true,
+  "caption": "The Logs detail view visibly shows PAIR index=53 side=202 quantity=4 total=4320. The Trace tab shows one trace, SPAN WITH LOG, a GET /qa flame-graph entry with duration 887 microseconds, Resource GET /qa, and Operation sample.request. The event heading displays Oct 08, 2026 at 5:32:43.957 am. Runtime identities, private path tags, trace/process identifiers, and the span ID value are masked.",
+  "visible_evidence_limits": [
+    "The UI heading is not independently verified as a payload execution timestamp.",
+    "The still does not expose every span attribute or prove offscreen JSON identity/source-link matches.",
+    "This pair-53 side-B sample and the pair-41 side-A sample do not form a complete concurrent pair."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

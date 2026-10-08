@@ -1,0 +1,1 @@
+The complex-fixture capture shows an expanded dictionary leaf with value 11. A separate branch labeled right is visible with an expanded value of dict (size: 1). The next leaf row at the bottom is partly clipped. The capture message remains COMPLEX quantity=3 total=3600.
