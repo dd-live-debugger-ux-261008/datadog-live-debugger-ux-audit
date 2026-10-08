@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "scope": "Edited source 07 highlights; earlier edited exports unchanged.",
+  "source": {
+    "file": "onboarding-07-raw.mkv",
+    "duration_seconds": 2216.8,
+    "bytes": 43327985,
+    "sha256": "85fe19e7b681704e5fb68c92fb2081012152a905f33c0449b9c818db9daa2360",
+    "utc_start": "2026-10-08T04:49:33+00:00",
+    "utc_end": "2026-10-08T05:26:29.800000+00:00",
+    "width": 1364,
+    "height": 1024,
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "approved-setup-continuation-highlights.mp4",
+    "duration_seconds": 160.5,
+    "bytes": 1530501,
+    "sha256": "3e7300ea7612e56143c34a8225ecfb59ef371caf609ff8eb2a83030fd3f124fc",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "3210"
+    },
+    "audio_tracks": 0,
+    "chapter_metadata_track": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 2.5,
+      "source_end_seconds": 13,
+      "utc_start": "2026-10-08T04:49:35.500000+00:00",
+      "utc_end": "2026-10-08T04:49:46+00:00",
+      "duration_seconds": 10.5,
+      "title": "Interrupted connection recovery",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 10.5,
+      "caption": "The return from organization selection shows Get started with GitHub Apps."
+    },
+    {
+      "source_start_seconds": 39,
+      "source_end_seconds": 50,
+      "utc_start": "2026-10-08T04:50:12+00:00",
+      "utc_end": "2026-10-08T04:50:23+00:00",
+      "duration_seconds": 11,
+      "title": "Discovered service",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 10.5,
+      "output_end_seconds": 21.5,
+      "caption": "The service now appears in the New Session picker."
+    },
+    {
+      "source_start_seconds": 116.25,
+      "source_end_seconds": 125.25,
+      "utc_start": "2026-10-08T04:51:29.250000+00:00",
+      "utc_end": "2026-10-08T04:51:38.250000+00:00",
+      "duration_seconds": 9.0,
+      "title": "Wildcard environment",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 21.5,
+      "output_end_seconds": 30.5,
+      "caption": "Only the wildcard (*) environment is offered in this observed state."
+    },
+    {
+      "source_start_seconds": 187,
+      "source_end_seconds": 200,
+      "utc_start": "2026-10-08T04:52:40+00:00",
+      "utc_end": "2026-10-08T04:52:53+00:00",
+      "duration_seconds": 13,
+      "title": "Manual setup guidance",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 30.5,
+      "output_end_seconds": 43.5,
+      "caption": "The warning explains that all-environment creation will not enable this service."
+    },
+    {
+      "source_start_seconds": 309.5,
+      "source_end_seconds": 316.5,
+      "utc_start": "2026-10-08T04:54:42.500000+00:00",
+      "utc_end": "2026-10-08T04:54:49.500000+00:00",
+      "duration_seconds": 7.0,
+      "title": "Line-input draft validation: zero",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 43.5,
+      "output_end_seconds": 50.5,
+      "caption": "Line 0 keeps Start Debug Session disabled."
+    },
+    {
+      "source_start_seconds": 321.8,
+      "source_end_seconds": 327.8,
+      "utc_start": "2026-10-08T04:54:54.800000+00:00",
+      "utc_end": "2026-10-08T04:55:00.800000+00:00",
+      "duration_seconds": 6.0,
+      "title": "Line-input draft validation: negative value",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 50.5,
+      "output_end_seconds": 56.5,
+      "caption": "Line -1 appears briefly, then abc; Start Debug Session stays disabled."
+    },
+    {
+      "source_start_seconds": 332.5,
+      "source_end_seconds": 336.5,
+      "utc_start": "2026-10-08T04:55:05.500000+00:00",
+      "utc_end": "2026-10-08T04:55:09.500000+00:00",
+      "duration_seconds": 4.0,
+      "title": "Line-input draft validation: text",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 56.5,
+      "output_end_seconds": 60.5,
+      "caption": "Line abc keeps Start Debug Session disabled."
+    },
+    {
+      "source_start_seconds": 336.5,
+      "source_end_seconds": 343.5,
+      "utc_start": "2026-10-08T04:55:09.500000+00:00",
+      "utc_end": "2026-10-08T04:55:16.500000+00:00",
+      "duration_seconds": 7.0,
+      "title": "Out-of-range line accepted as a draft",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 60.5,
+      "output_end_seconds": 67.5,
+      "caption": "Line 9999 enables the draft. It is not submitted; no runtime result is claimed."
+    },
+    {
+      "source_start_seconds": 355,
+      "source_end_seconds": 367,
+      "utc_start": "2026-10-08T04:55:28+00:00",
+      "utc_end": "2026-10-08T04:55:40+00:00",
+      "duration_seconds": 12,
+      "title": "Source-unavailable guidance",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 67.5,
+      "output_end_seconds": 79.5,
+      "caption": "The expanded explanation names permissions or source tags as possible causes."
+    },
+    {
+      "source_start_seconds": 698.3,
+      "source_end_seconds": 710.3,
+      "utc_start": "2026-10-08T05:01:11.300000+00:00",
+      "utc_end": "2026-10-08T05:01:23.300000+00:00",
+      "duration_seconds": 12.0,
+      "title": "Fresh integration navigation",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 79.5,
+      "output_end_seconds": 91.5,
+      "caption": "The GitHub Apps configuration page still offers Connect GitHub Account."
+    },
+    {
+      "source_start_seconds": 1019,
+      "source_end_seconds": 1025,
+      "utc_start": "2026-10-08T05:06:32+00:00",
+      "utc_end": "2026-10-08T05:06:38+00:00",
+      "duration_seconds": 6,
+      "title": "Automatic brace closure",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 91.5,
+      "output_end_seconds": 97.5,
+      "caption": "Typing the opening brace inserts a closing brace; this first attempt is balanced."
+    },
+    {
+      "source_start_seconds": 1037,
+      "source_end_seconds": 1044,
+      "utc_start": "2026-10-08T05:06:50+00:00",
+      "utc_end": "2026-10-08T05:06:57+00:00",
+      "duration_seconds": 7,
+      "title": "Unmatched-brace rejection",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 97.5,
+      "output_end_seconds": 104.5,
+      "caption": "Removing the closing brace disables Start Debug Session."
+    },
+    {
+      "source_start_seconds": 1053,
+      "source_end_seconds": 1063,
+      "utc_start": "2026-10-08T05:07:06+00:00",
+      "utc_end": "2026-10-08T05:07:16+00:00",
+      "duration_seconds": 10,
+      "title": "Corrected-template recovery",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 104.5,
+      "output_end_seconds": 114.5,
+      "caption": "A balanced template enables Start again. These are draft checks."
+    },
+    {
+      "source_start_seconds": 1577.6,
+      "source_end_seconds": 1586.6,
+      "utc_start": "2026-10-08T05:15:50.600000+00:00",
+      "utc_end": "2026-10-08T05:15:59.600000+00:00",
+      "duration_seconds": 9.0,
+      "title": "Baseline request rejected visibly",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 114.5,
+      "output_end_seconds": 123.5,
+      "caption": "Start briefly loads, then the product shows the instrumentation-invalid error toast."
+    },
+    {
+      "source_start_seconds": 1742,
+      "source_end_seconds": 1755,
+      "utc_start": "2026-10-08T05:18:35+00:00",
+      "utc_end": "2026-10-08T05:18:48+00:00",
+      "duration_seconds": 13,
+      "title": "Fresh session inventory after rejection",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 123.5,
+      "output_end_seconds": 136.5,
+      "caption": "The session list has no results after the owner filter and other filters are reset."
+    },
+    {
+      "source_start_seconds": 1822.65,
+      "source_end_seconds": 1831.65,
+      "utc_start": "2026-10-08T05:19:55.650000+00:00",
+      "utc_end": "2026-10-08T05:20:04.650000+00:00",
+      "duration_seconds": 9.0,
+      "title": "Plain-message control rejected visibly",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 136.5,
+      "output_end_seconds": 145.5,
+      "caption": "QA baseline produces the same visible error; the cause remains unresolved."
+    },
+    {
+      "source_start_seconds": 1888.5,
+      "source_end_seconds": 1890.45,
+      "utc_start": "2026-10-08T05:21:01.500000+00:00",
+      "utc_end": "2026-10-08T05:21:03.450000+00:00",
+      "duration_seconds": 1.95,
+      "title": "Configuration recovery link",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 145.5,
+      "output_end_seconds": 147.45,
+      "caption": "Go to Configuration is opened from the existing draft."
+    },
+    {
+      "source_start_seconds": 1890.45,
+      "source_end_seconds": 1903.5,
+      "utc_start": "2026-10-08T05:21:03.450000+00:00",
+      "utc_end": "2026-10-08T05:21:16.500000+00:00",
+      "duration_seconds": 13.05,
+      "title": "Configuration navigation result",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "approved-setup-continuation-highlights.mp4",
+      "output_start_seconds": 147.45,
+      "output_end_seconds": 160.5,
+      "caption": "Source Code Integrations remains Not Connected. No successful capture is shown."
+    }
+  ],
+  "evidence_limits": [
+    "This continuation shows a discovered service and manual UI drafts, followed by two visibly rejected create requests. No successful session, captured variables, source retrieval or source mapping is demonstrated.",
+    "Both baseline and plain-message control show the real error toast: Error creating logpoint: The instrumentation is not valid, please check your configuration. The requests are not silent failures, and their underlying cause is unresolved.",
+    "Line 9999 was accepted only as a draft and was not submitted. Zero, negative and alphabetic input remained disabled. The negative entry is brief in the original motion.",
+    "The initial template attempt was automatically balanced by the editor. Removing the closing brace disabled Start; correcting the template enabled it.",
+    "The integration observation is interrupted-flow recovery after the original consent form had waited about 75 minutes. It is not evidence about fresh-install behavior. GitHub account/repository pages are withheld from this motion package.",
+    "The configuration footage shows Not Connected and the selected service. The empty-state magnifying-glass icon is not a loading spinner. The later settled No environments text was captured after this recording stopped and is not reconstructed into video.",
+    "All clocks are UTC reconstructed from the recorder start. The archived continuous sections play at original speed; omitted time is explicitly listed. No screenshots or generated/reconstructed UI substitute for motion.",
+    "Browser tabs, address/authentication URLs, desktop, account greetings, personal settings and private repository content are excluded. The bottom-left modal mask can obscure a few pixels of adjacent button edge at some modal widths; hidden pixels are not evidence that a product control is missing."
+  ],
+  "review": {
+    "source_overview_seconds": 10,
+    "source_boundary_review_fps": 2,
+    "submit_and_configuration_transition_review_fps": 4,
+    "all_frame_sidebar_classification_fps": 20,
+    "output_ocr": {
+      "frames_reviewed": 362,
+      "unresolved_flags": 0
+    },
+    "representative_output_full_size_review": true,
+    "raw_source_hash_unchanged": true,
+    "decode_validation": true
+  }
+}
