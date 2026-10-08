@@ -1,0 +1,2909 @@
+{
+  "version": 1,
+  "scope": "Recording source 14 only",
+  "source": {
+    "label": "Recording source 14",
+    "duration_seconds": 2292.45,
+    "bytes": 67223199,
+    "sha256": "bef2157135d64c00fa7f7c54d9e8ac705e938c601091e52e1aec128aeb64b5ec",
+    "utc_start": "2026-10-08T13:42:45+00:00",
+    "utc_end_derived": "2026-10-08T14:20:57.450000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "nominal_fps": 20,
+    "stored_frame_count": 45738,
+    "timestamp_gap_count": 64,
+    "maximum_adjacent_timestamp_step_seconds": 0.3,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end); original speed; no inserted title-card time. Nominal timeline indices use 20 fps; separate zero-based stored-frame ordinals follow actual PTS. UTC is reconstructed.",
+  "retained_seconds": 2153.0,
+  "omitted_seconds": 139.45,
+  "fully_obscured_retained_seconds": 15,
+  "fully_obscured_retained_intervals": [
+    {
+      "source_start_seconds": 1026,
+      "source_end_seconds": 1028,
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 326.95,
+      "output_end_seconds": 328.95,
+      "reason": "Opaque privacy guard across foreground transition"
+    },
+    {
+      "source_start_seconds": 1041,
+      "source_end_seconds": 1043,
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 341.95,
+      "output_end_seconds": 343.95,
+      "reason": "Opaque privacy guard across foreground transition"
+    },
+    {
+      "source_start_seconds": 1134,
+      "source_end_seconds": 1136,
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 434.95,
+      "output_end_seconds": 436.95,
+      "reason": "Opaque privacy guard across foreground transition"
+    },
+    {
+      "source_start_seconds": 1218,
+      "source_end_seconds": 1221,
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 518.95,
+      "output_end_seconds": 521.95,
+      "reason": "Opaque privacy guard across foreground transition"
+    },
+    {
+      "source_start_seconds": 1271,
+      "source_end_seconds": 1275,
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 571.95,
+      "output_end_seconds": 575.95,
+      "reason": "Opaque privacy guard across foreground transition"
+    },
+    {
+      "source_start_seconds": 1315,
+      "source_end_seconds": 1317,
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 15.95,
+      "output_end_seconds": 17.95,
+      "reason": "Opaque privacy guard across foreground transition"
+    }
+  ],
+  "retained": [
+    {
+      "source_start_seconds": 41,
+      "source_end_seconds": 113.4,
+      "nominal_20fps_timeline_start_index": 820,
+      "nominal_20fps_timeline_end_index_exclusive": 2268,
+      "first_stored_frame_ordinal_at_or_after_start": 816,
+      "stored_frame_end_ordinal_exclusive": 2264,
+      "duration_seconds": 72.4,
+      "utc_start_derived": "2026-10-08T13:43:26+00:00",
+      "utc_end_derived": "2026-10-08T13:44:38.400000+00:00",
+      "title": "Prepare the quiet logpoint in the stopped session",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Top source/editor region conservatively hidden along with service identity.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 72.4
+    },
+    {
+      "source_start_seconds": 133.4,
+      "source_end_seconds": 174.3,
+      "nominal_20fps_timeline_start_index": 2668,
+      "nominal_20fps_timeline_end_index_exclusive": 3486,
+      "first_stored_frame_ordinal_at_or_after_start": 2658,
+      "stored_frame_end_ordinal_exclusive": 3476,
+      "duration_seconds": 40.9,
+      "utc_start_derived": "2026-10-08T13:44:58.400000+00:00",
+      "utc_end_derived": "2026-10-08T13:45:39.300000+00:00",
+      "title": "Quiet logpoint initially shows zero instances",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 72.4,
+      "output_end_seconds": 113.3
+    },
+    {
+      "source_start_seconds": 200,
+      "source_end_seconds": 304.5,
+      "nominal_20fps_timeline_start_index": 4000,
+      "nominal_20fps_timeline_end_index_exclusive": 6090,
+      "first_stored_frame_ordinal_at_or_after_start": 3990,
+      "stored_frame_end_ordinal_exclusive": 6080,
+      "duration_seconds": 104.5,
+      "utc_start_derived": "2026-10-08T13:46:05+00:00",
+      "utc_end_derived": "2026-10-08T13:47:49.500000+00:00",
+      "title": "Configure the next manual workflow run",
+      "requested_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Drawer crop removes provider account and repository context; branch menu is partly clipped.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 113.3,
+      "output_end_seconds": 217.8
+    },
+    {
+      "source_start_seconds": 306.5,
+      "source_end_seconds": 351.0,
+      "nominal_20fps_timeline_start_index": 6130,
+      "nominal_20fps_timeline_end_index_exclusive": 7020,
+      "first_stored_frame_ordinal_at_or_after_start": 6120,
+      "stored_frame_end_ordinal_exclusive": 7010,
+      "duration_seconds": 44.5,
+      "utc_start_derived": "2026-10-08T13:47:51.500000+00:00",
+      "utc_end_derived": "2026-10-08T13:48:36+00:00",
+      "title": "Workflow queued, then in progress",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          430,
+          72
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Provider account, revision and branch summary hidden; workflow status retained.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 217.8,
+      "output_end_seconds": 262.3
+    },
+    {
+      "source_start_seconds": 354,
+      "source_end_seconds": 432,
+      "nominal_20fps_timeline_start_index": 7080,
+      "nominal_20fps_timeline_end_index_exclusive": 8640,
+      "first_stored_frame_ordinal_at_or_after_start": 7070,
+      "stored_frame_end_ordinal_exclusive": 8629,
+      "duration_seconds": 78,
+      "utc_start_derived": "2026-10-08T13:48:39+00:00",
+      "utc_end_derived": "2026-10-08T13:49:57+00:00",
+      "title": "Runner reports SDK readiness",
+      "requested_crop_source_xywh": [
+        450,
+        300,
+        780,
+        254
+      ],
+      "effective_crop_source_xywh": [
+        450,
+        300,
+        780,
+        254
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Narrow diagnostic crop excludes service identity and lower metadata; normal log refreshes retained.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 262.3,
+      "output_end_seconds": 340.3
+    },
+    {
+      "source_start_seconds": 432.6,
+      "source_end_seconds": 460.15,
+      "nominal_20fps_timeline_start_index": 8652,
+      "nominal_20fps_timeline_end_index_exclusive": 9203,
+      "first_stored_frame_ordinal_at_or_after_start": 8641,
+      "stored_frame_end_ordinal_exclusive": 9192,
+      "duration_seconds": 27.55,
+      "utc_start_derived": "2026-10-08T13:49:57.600000+00:00",
+      "utc_end_derived": "2026-10-08T13:50:25.150000+00:00",
+      "title": "Quiet probe remains without a capture",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 340.3,
+      "output_end_seconds": 367.85
+    },
+    {
+      "source_start_seconds": 462.95,
+      "source_end_seconds": 484.0,
+      "nominal_20fps_timeline_start_index": 9259,
+      "nominal_20fps_timeline_end_index_exclusive": 9680,
+      "first_stored_frame_ordinal_at_or_after_start": 9248,
+      "stored_frame_end_ordinal_exclusive": 9668,
+      "duration_seconds": 21.05,
+      "utc_start_derived": "2026-10-08T13:50:27.950000+00:00",
+      "utc_end_derived": "2026-10-08T13:50:49+00:00",
+      "title": "Reloaded session and current quiet probe",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 367.85,
+      "output_end_seconds": 388.9
+    },
+    {
+      "source_start_seconds": 484,
+      "source_end_seconds": 497.2,
+      "nominal_20fps_timeline_start_index": 9680,
+      "nominal_20fps_timeline_end_index_exclusive": 9944,
+      "first_stored_frame_ordinal_at_or_after_start": 9668,
+      "stored_frame_end_ordinal_exclusive": 9932,
+      "duration_seconds": 13.2,
+      "utc_start_derived": "2026-10-08T13:50:49+00:00",
+      "utc_end_derived": "2026-10-08T13:51:02.200000+00:00",
+      "title": "One targeting instance, still no captured event",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ],
+        [
+          276,
+          531,
+          250,
+          43
+        ],
+        [
+          519,
+          754,
+          113,
+          77
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service and creator/modifier identities in the detail card hidden.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 388.9,
+      "output_end_seconds": 402.1
+    },
+    {
+      "source_start_seconds": 498.1,
+      "source_end_seconds": 577.4,
+      "nominal_20fps_timeline_start_index": 9962,
+      "nominal_20fps_timeline_end_index_exclusive": 11548,
+      "first_stored_frame_ordinal_at_or_after_start": 9950,
+      "stored_frame_end_ordinal_exclusive": 11535,
+      "duration_seconds": 79.3,
+      "utc_start_derived": "2026-10-08T13:51:03.100000+00:00",
+      "utc_end_derived": "2026-10-08T13:52:22.400000+00:00",
+      "title": "Prepare out-of-range line 9999 control",
+      "requested_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "effective_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          174,
+          318,
+          398,
+          82
+        ],
+        [
+          151,
+          897,
+          850,
+          20
+        ],
+        [
+          151,
+          447,
+          1062,
+          276
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity, source/search results and synthetic correlation defaults hidden; line input and submission control retained.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 402.1,
+      "output_end_seconds": 481.4
+    },
+    {
+      "source_start_seconds": 578,
+      "source_end_seconds": 629,
+      "nominal_20fps_timeline_start_index": 11560,
+      "nominal_20fps_timeline_end_index_exclusive": 12580,
+      "first_stored_frame_ordinal_at_or_after_start": 11547,
+      "stored_frame_end_ordinal_exclusive": 12566,
+      "duration_seconds": 51,
+      "utc_start_derived": "2026-10-08T13:52:23+00:00",
+      "utc_end_derived": "2026-10-08T13:53:14+00:00",
+      "title": "Quiet probe alongside the line 9999 control",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 481.4,
+      "output_end_seconds": 532.4
+    },
+    {
+      "source_start_seconds": 629,
+      "source_end_seconds": 640,
+      "nominal_20fps_timeline_start_index": 12580,
+      "nominal_20fps_timeline_end_index_exclusive": 12800,
+      "first_stored_frame_ordinal_at_or_after_start": 12566,
+      "stored_frame_end_ordinal_exclusive": 12786,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T13:53:14+00:00",
+      "utc_end_derived": "2026-10-08T13:53:25+00:00",
+      "title": "Installation-error card opens and moves",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          236,
+          470,
+          468,
+          180
+        ],
+        [
+          518,
+          820,
+          177,
+          60
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Moving card header, diagnostic identifiers and path text conservatively hidden; adjacent ordinary diagnostics hidden during the transition.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 532.4,
+      "output_end_seconds": 543.4
+    },
+    {
+      "source_start_seconds": 640,
+      "source_end_seconds": 664.5,
+      "nominal_20fps_timeline_start_index": 12800,
+      "nominal_20fps_timeline_end_index_exclusive": 13290,
+      "first_stored_frame_ordinal_at_or_after_start": 12786,
+      "stored_frame_end_ordinal_exclusive": 13276,
+      "duration_seconds": 24.5,
+      "utc_start_derived": "2026-10-08T13:53:25+00:00",
+      "utc_end_derived": "2026-10-08T13:53:49.500000+00:00",
+      "title": "Line 9999 reports an explicit installation error",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          280,
+          477,
+          220,
+          37
+        ],
+        [
+          486,
+          566,
+          144,
+          25
+        ],
+        [
+          256,
+          585,
+          133,
+          25
+        ],
+        [
+          273,
+          603,
+          358,
+          25
+        ],
+        [
+          256,
+          621,
+          144,
+          25
+        ],
+        [
+          519,
+          831,
+          113,
+          45
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity, probe UUID, private source path and creator hidden; public location and error category retained.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 543.4,
+      "output_end_seconds": 567.9
+    },
+    {
+      "source_start_seconds": 665.1,
+      "source_end_seconds": 697.2,
+      "nominal_20fps_timeline_start_index": 13302,
+      "nominal_20fps_timeline_end_index_exclusive": 13944,
+      "first_stored_frame_ordinal_at_or_after_start": 13288,
+      "stored_frame_end_ordinal_exclusive": 13930,
+      "duration_seconds": 32.1,
+      "utc_start_derived": "2026-10-08T13:53:50.100000+00:00",
+      "utc_end_derived": "2026-10-08T13:54:22.200000+00:00",
+      "title": "Prepare comment-line 16 control",
+      "requested_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "effective_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          174,
+          318,
+          398,
+          82
+        ],
+        [
+          151,
+          897,
+          850,
+          20
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity and bottom browser status area hidden; actual pricing source and line16 comment retained.",
+      "output_file": "source-14-part-01-sanitized.mp4",
+      "output_start_seconds": 567.9,
+      "output_end_seconds": 600.0
+    },
+    {
+      "source_start_seconds": 697.2,
+      "source_end_seconds": 705.6,
+      "nominal_20fps_timeline_start_index": 13944,
+      "nominal_20fps_timeline_end_index_exclusive": 14112,
+      "first_stored_frame_ordinal_at_or_after_start": 13930,
+      "stored_frame_end_ordinal_exclusive": 14098,
+      "duration_seconds": 8.4,
+      "utc_start_derived": "2026-10-08T13:54:22.200000+00:00",
+      "utc_end_derived": "2026-10-08T13:54:30.600000+00:00",
+      "title": "Prepare comment-line 16 control",
+      "requested_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "effective_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          174,
+          318,
+          398,
+          82
+        ],
+        [
+          151,
+          897,
+          850,
+          20
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity and bottom browser status area hidden; actual pricing source and line16 comment retained.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 8.4
+    },
+    {
+      "source_start_seconds": 706.2,
+      "source_end_seconds": 791.85,
+      "nominal_20fps_timeline_start_index": 14124,
+      "nominal_20fps_timeline_end_index_exclusive": 15837,
+      "first_stored_frame_ordinal_at_or_after_start": 14110,
+      "stored_frame_end_ordinal_exclusive": 15823,
+      "duration_seconds": 85.65,
+      "utc_start_derived": "2026-10-08T13:54:31.200000+00:00",
+      "utc_end_derived": "2026-10-08T13:55:56.850000+00:00",
+      "title": "Comment-line control and original waiting",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 8.4,
+      "output_end_seconds": 94.05
+    },
+    {
+      "source_start_seconds": 792.5,
+      "source_end_seconds": 810.8,
+      "nominal_20fps_timeline_start_index": 15850,
+      "nominal_20fps_timeline_end_index_exclusive": 16216,
+      "first_stored_frame_ordinal_at_or_after_start": 15836,
+      "stored_frame_end_ordinal_exclusive": 16202,
+      "duration_seconds": 18.3,
+      "utc_start_derived": "2026-10-08T13:55:57.500000+00:00",
+      "utc_end_derived": "2026-10-08T13:56:15.800000+00:00",
+      "title": "Runner readiness check during the wait",
+      "requested_crop_source_xywh": [
+        450,
+        300,
+        780,
+        254
+      ],
+      "effective_crop_source_xywh": [
+        450,
+        300,
+        780,
+        254
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Narrow diagnostic crop excludes service identity and lower metadata.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 94.05,
+      "output_end_seconds": 112.35
+    },
+    {
+      "source_start_seconds": 811.4,
+      "source_end_seconds": 871.0,
+      "nominal_20fps_timeline_start_index": 16228,
+      "nominal_20fps_timeline_end_index_exclusive": 17420,
+      "first_stored_frame_ordinal_at_or_after_start": 16214,
+      "stored_frame_end_ordinal_exclusive": 17403,
+      "duration_seconds": 59.6,
+      "utc_start_derived": "2026-10-08T13:56:16.400000+00:00",
+      "utc_end_derived": "2026-10-08T13:57:16+00:00",
+      "title": "Comment-line control reports target-code guidance",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          276,
+          527,
+          323,
+          43
+        ],
+        [
+          519,
+          829,
+          177,
+          50
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Union masks protect moving card service/creator identities; some nearby ordinary labels are also hidden.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 112.35,
+      "output_end_seconds": 171.95
+    },
+    {
+      "source_start_seconds": 871,
+      "source_end_seconds": 900,
+      "nominal_20fps_timeline_start_index": 17420,
+      "nominal_20fps_timeline_end_index_exclusive": 18000,
+      "first_stored_frame_ordinal_at_or_after_start": 17403,
+      "stored_frame_end_ordinal_exclusive": 17983,
+      "duration_seconds": 29,
+      "utc_start_derived": "2026-10-08T13:57:16+00:00",
+      "utc_end_derived": "2026-10-08T13:57:45+00:00",
+      "title": "Quiet line 69 remains without an event",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 171.95,
+      "output_end_seconds": 200.95
+    },
+    {
+      "source_start_seconds": 900,
+      "source_end_seconds": 1026,
+      "nominal_20fps_timeline_start_index": 18000,
+      "nominal_20fps_timeline_end_index_exclusive": 20520,
+      "first_stored_frame_ordinal_at_or_after_start": 17983,
+      "stored_frame_end_ordinal_exclusive": 20469,
+      "duration_seconds": 126,
+      "utc_start_derived": "2026-10-08T13:57:45+00:00",
+      "utc_end_derived": "2026-10-08T13:59:51+00:00",
+      "title": "Quiet line 69 wait, received status, event row, and selected707 capture",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          928,
+          714,
+          342,
+          33
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser chrome, account/session header, global navigation, and footer are cropped out. Opaque mask covers the synthetic correlation identifier and adjacent whitespace; native text and values remain unscaled.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 200.95,
+      "output_end_seconds": 326.95
+    },
+    {
+      "source_start_seconds": 1026,
+      "source_end_seconds": 1028,
+      "nominal_20fps_timeline_start_index": 20520,
+      "nominal_20fps_timeline_end_index_exclusive": 20560,
+      "first_stored_frame_ordinal_at_or_after_start": 20469,
+      "stored_frame_end_ordinal_exclusive": 20509,
+      "duration_seconds": 2,
+      "utc_start_derived": "2026-10-08T13:59:51+00:00",
+      "utc_end_derived": "2026-10-08T13:59:53+00:00",
+      "title": "Opaque privacy guard across foreground transition",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          347,
+          1020,
+          538
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": true,
+      "additional_timed_masks_source": [],
+      "mask_note": "The entire UI is covered with an opaque mask across a browser or modal transition. Original time is retained; no foreground details are asserted.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 326.95,
+      "output_end_seconds": 328.95
+    },
+    {
+      "source_start_seconds": 1028,
+      "source_end_seconds": 1041,
+      "nominal_20fps_timeline_start_index": 20560,
+      "nominal_20fps_timeline_end_index_exclusive": 20820,
+      "first_stored_frame_ordinal_at_or_after_start": 20509,
+      "stored_frame_end_ordinal_exclusive": 20769,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T13:59:53+00:00",
+      "utc_end_derived": "2026-10-08T14:00:06+00:00",
+      "title": "Original Logs loading wait",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes browser and account chrome; the visible application body is blank while Logs loads.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 328.95,
+      "output_end_seconds": 341.95
+    },
+    {
+      "source_start_seconds": 1041,
+      "source_end_seconds": 1043,
+      "nominal_20fps_timeline_start_index": 20820,
+      "nominal_20fps_timeline_end_index_exclusive": 20860,
+      "first_stored_frame_ordinal_at_or_after_start": 20769,
+      "stored_frame_end_ordinal_exclusive": 20809,
+      "duration_seconds": 2,
+      "utc_start_derived": "2026-10-08T14:00:06+00:00",
+      "utc_end_derived": "2026-10-08T14:00:08+00:00",
+      "title": "Opaque privacy guard across foreground transition",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          347,
+          1020,
+          538
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": true,
+      "additional_timed_masks_source": [],
+      "mask_note": "The entire UI is covered with an opaque mask across a browser or modal transition. Original time is retained; no foreground details are asserted.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 341.95,
+      "output_end_seconds": 343.95
+    },
+    {
+      "source_start_seconds": 1043,
+      "source_end_seconds": 1058,
+      "nominal_20fps_timeline_start_index": 20860,
+      "nominal_20fps_timeline_end_index_exclusive": 21160,
+      "first_stored_frame_ordinal_at_or_after_start": 20809,
+      "stored_frame_end_ordinal_exclusive": 21109,
+      "duration_seconds": 15,
+      "utc_start_derived": "2026-10-08T14:00:08+00:00",
+      "utc_end_derived": "2026-10-08T14:00:23+00:00",
+      "title": "Runner reports registered SDK and running synthetic sample",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          518,
+          566,
+          390,
+          30
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes browser URL and repository context. Service identity is masked; adjacent whitespace may also be hidden. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 343.95,
+      "output_end_seconds": 358.95
+    },
+    {
+      "source_start_seconds": 1058,
+      "source_end_seconds": 1061,
+      "nominal_20fps_timeline_start_index": 21160,
+      "nominal_20fps_timeline_end_index_exclusive": 21220,
+      "first_stored_frame_ordinal_at_or_after_start": 21109,
+      "stored_frame_end_ordinal_exclusive": 21169,
+      "duration_seconds": 3,
+      "utc_start_derived": "2026-10-08T14:00:23+00:00",
+      "utc_end_derived": "2026-10-08T14:00:26+00:00",
+      "title": "Runner log refresh with identity moving through viewport",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          453,
+          298,
+          778,
+          635
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Entire moving log output is masked during auto-scroll; ordinary log lines are also hidden. Job heading and elapsed UI remain visible. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 358.95,
+      "output_end_seconds": 361.95
+    },
+    {
+      "source_start_seconds": 1061,
+      "source_end_seconds": 1066,
+      "nominal_20fps_timeline_start_index": 21220,
+      "nominal_20fps_timeline_end_index_exclusive": 21320,
+      "first_stored_frame_ordinal_at_or_after_start": 21169,
+      "stored_frame_end_ordinal_exclusive": 21269,
+      "duration_seconds": 5,
+      "utc_start_derived": "2026-10-08T14:00:26+00:00",
+      "utc_end_derived": "2026-10-08T14:00:31+00:00",
+      "title": "Runner reports registered SDK and running synthetic sample",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          518,
+          566,
+          390,
+          30
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes browser URL and repository context. Service identity is masked; adjacent whitespace may also be hidden. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 361.95,
+      "output_end_seconds": 366.95
+    },
+    {
+      "source_start_seconds": 1066,
+      "source_end_seconds": 1069,
+      "nominal_20fps_timeline_start_index": 21320,
+      "nominal_20fps_timeline_end_index_exclusive": 21380,
+      "first_stored_frame_ordinal_at_or_after_start": 21269,
+      "stored_frame_end_ordinal_exclusive": 21329,
+      "duration_seconds": 3,
+      "utc_start_derived": "2026-10-08T14:00:31+00:00",
+      "utc_end_derived": "2026-10-08T14:00:34+00:00",
+      "title": "Runner log refresh with identity moving through viewport",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          453,
+          298,
+          778,
+          635
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Entire moving log output is masked during auto-scroll; ordinary log lines are also hidden. Job heading and elapsed UI remain visible. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 366.95,
+      "output_end_seconds": 369.95
+    },
+    {
+      "source_start_seconds": 1069,
+      "source_end_seconds": 1083,
+      "nominal_20fps_timeline_start_index": 21380,
+      "nominal_20fps_timeline_end_index_exclusive": 21660,
+      "first_stored_frame_ordinal_at_or_after_start": 21329,
+      "stored_frame_end_ordinal_exclusive": 21609,
+      "duration_seconds": 14,
+      "utc_start_derived": "2026-10-08T14:00:34+00:00",
+      "utc_end_derived": "2026-10-08T14:00:48+00:00",
+      "title": "Runner reports registered SDK and running synthetic sample",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          518,
+          566,
+          390,
+          30
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes browser URL and repository context. Service identity is masked; adjacent whitespace may also be hidden. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 369.95,
+      "output_end_seconds": 383.95
+    },
+    {
+      "source_start_seconds": 1083,
+      "source_end_seconds": 1086,
+      "nominal_20fps_timeline_start_index": 21660,
+      "nominal_20fps_timeline_end_index_exclusive": 21720,
+      "first_stored_frame_ordinal_at_or_after_start": 21609,
+      "stored_frame_end_ordinal_exclusive": 21669,
+      "duration_seconds": 3,
+      "utc_start_derived": "2026-10-08T14:00:48+00:00",
+      "utc_end_derived": "2026-10-08T14:00:51+00:00",
+      "title": "Runner log refresh with identity moving through viewport",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          453,
+          298,
+          778,
+          635
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Entire moving log output is masked during auto-scroll; ordinary log lines are also hidden. Job heading and elapsed UI remain visible. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 383.95,
+      "output_end_seconds": 386.95
+    },
+    {
+      "source_start_seconds": 1086,
+      "source_end_seconds": 1096,
+      "nominal_20fps_timeline_start_index": 21720,
+      "nominal_20fps_timeline_end_index_exclusive": 21920,
+      "first_stored_frame_ordinal_at_or_after_start": 21669,
+      "stored_frame_end_ordinal_exclusive": 21869,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T14:00:51+00:00",
+      "utc_end_derived": "2026-10-08T14:01:01+00:00",
+      "title": "Runner reports registered SDK and running synthetic sample",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          518,
+          566,
+          390,
+          30
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes browser URL and repository context. Service identity is masked; adjacent whitespace may also be hidden. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 386.95,
+      "output_end_seconds": 396.95
+    },
+    {
+      "source_start_seconds": 1096,
+      "source_end_seconds": 1099,
+      "nominal_20fps_timeline_start_index": 21920,
+      "nominal_20fps_timeline_end_index_exclusive": 21980,
+      "first_stored_frame_ordinal_at_or_after_start": 21869,
+      "stored_frame_end_ordinal_exclusive": 21929,
+      "duration_seconds": 3,
+      "utc_start_derived": "2026-10-08T14:01:01+00:00",
+      "utc_end_derived": "2026-10-08T14:01:04+00:00",
+      "title": "Runner log refresh with identity moving through viewport",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          453,
+          298,
+          778,
+          635
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Entire moving log output is masked during auto-scroll; ordinary log lines are also hidden. Job heading and elapsed UI remain visible. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 396.95,
+      "output_end_seconds": 399.95
+    },
+    {
+      "source_start_seconds": 1099,
+      "source_end_seconds": 1134,
+      "nominal_20fps_timeline_start_index": 21980,
+      "nominal_20fps_timeline_end_index_exclusive": 22680,
+      "first_stored_frame_ordinal_at_or_after_start": 21929,
+      "stored_frame_end_ordinal_exclusive": 22628,
+      "duration_seconds": 35,
+      "utc_start_derived": "2026-10-08T14:01:04+00:00",
+      "utc_end_derived": "2026-10-08T14:01:39+00:00",
+      "title": "Runner one-shot HTTP observation and source revision",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser chrome and private repository URL are excluded by crop. Visible runner status contains safe counters, full source SHA, and one-shot HTTP timing. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 399.95,
+      "output_end_seconds": 434.95
+    },
+    {
+      "source_start_seconds": 1134,
+      "source_end_seconds": 1136,
+      "nominal_20fps_timeline_start_index": 22680,
+      "nominal_20fps_timeline_end_index_exclusive": 22720,
+      "first_stored_frame_ordinal_at_or_after_start": 22628,
+      "stored_frame_end_ordinal_exclusive": 22668,
+      "duration_seconds": 2,
+      "utc_start_derived": "2026-10-08T14:01:39+00:00",
+      "utc_end_derived": "2026-10-08T14:01:41+00:00",
+      "title": "Opaque privacy guard across foreground transition",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          347,
+          1020,
+          538
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": true,
+      "additional_timed_masks_source": [],
+      "mask_note": "The entire UI is covered with an opaque mask across a browser or modal transition. Original time is retained; no foreground details are asserted.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 434.95,
+      "output_end_seconds": 436.95
+    },
+    {
+      "source_start_seconds": 1136,
+      "source_end_seconds": 1218,
+      "nominal_20fps_timeline_start_index": 22720,
+      "nominal_20fps_timeline_end_index_exclusive": 24360,
+      "first_stored_frame_ordinal_at_or_after_start": 22668,
+      "stored_frame_end_ordinal_exclusive": 24307,
+      "duration_seconds": 82,
+      "utc_start_derived": "2026-10-08T14:01:41+00:00",
+      "utc_end_derived": "2026-10-08T14:03:03+00:00",
+      "title": "Indexed line 69 source and captured 707 value with original wait",
+      "requested_crop_source_xywh": [
+        616,
+        327,
+        624,
+        522
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        327,
+        624,
+        522
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          694,
+          421,
+          190,
+          30
+        ],
+        [
+          935,
+          476,
+          280,
+          48
+        ],
+        [
+          784,
+          714,
+          160,
+          33
+        ],
+        [
+          694,
+          775,
+          190,
+          31
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes search query, trace/logger/thread cards, service facets, browser chrome, and JSON payload fields. Opaque masks cover both private repository path prefixes and synthetic correlation literals/value; some adjacent source punctuation is hidden.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 436.95,
+      "output_end_seconds": 518.95
+    },
+    {
+      "source_start_seconds": 1218,
+      "source_end_seconds": 1221,
+      "nominal_20fps_timeline_start_index": 24360,
+      "nominal_20fps_timeline_end_index_exclusive": 24420,
+      "first_stored_frame_ordinal_at_or_after_start": 24307,
+      "stored_frame_end_ordinal_exclusive": 24367,
+      "duration_seconds": 3,
+      "utc_start_derived": "2026-10-08T14:03:03+00:00",
+      "utc_end_derived": "2026-10-08T14:03:06+00:00",
+      "title": "Opaque privacy guard across foreground transition",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          347,
+          1020,
+          538
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": true,
+      "additional_timed_masks_source": [],
+      "mask_note": "The entire UI is covered with an opaque mask across a browser or modal transition. Original time is retained; no foreground details are asserted.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 518.95,
+      "output_end_seconds": 521.95
+    },
+    {
+      "source_start_seconds": 1221,
+      "source_end_seconds": 1271,
+      "nominal_20fps_timeline_start_index": 24420,
+      "nominal_20fps_timeline_end_index_exclusive": 25420,
+      "first_stored_frame_ordinal_at_or_after_start": 24367,
+      "stored_frame_end_ordinal_exclusive": 25367,
+      "duration_seconds": 50,
+      "utc_start_derived": "2026-10-08T14:03:06+00:00",
+      "utc_end_derived": "2026-10-08T14:03:56+00:00",
+      "title": "Blank-line 10 selection and BLANK_LINE_CONTROL form",
+      "requested_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "effective_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes service selector, browser/account/session chrome, and background page. Source and form are genuine native-size UI; no masking within the retained form.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 521.95,
+      "output_end_seconds": 571.95
+    },
+    {
+      "source_start_seconds": 1271,
+      "source_end_seconds": 1275,
+      "nominal_20fps_timeline_start_index": 25420,
+      "nominal_20fps_timeline_end_index_exclusive": 25500,
+      "first_stored_frame_ordinal_at_or_after_start": 25367,
+      "stored_frame_end_ordinal_exclusive": 25447,
+      "duration_seconds": 4,
+      "utc_start_derived": "2026-10-08T14:03:56+00:00",
+      "utc_end_derived": "2026-10-08T14:04:00+00:00",
+      "title": "Opaque privacy guard across foreground transition",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          347,
+          1020,
+          538
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": true,
+      "additional_timed_masks_source": [],
+      "mask_note": "The entire UI is covered with an opaque mask across a browser or modal transition. Original time is retained; no foreground details are asserted.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 571.95,
+      "output_end_seconds": 575.95
+    },
+    {
+      "source_start_seconds": 1275,
+      "source_end_seconds": 1299.05,
+      "nominal_20fps_timeline_start_index": 25500,
+      "nominal_20fps_timeline_end_index_exclusive": 25981,
+      "first_stored_frame_ordinal_at_or_after_start": 25447,
+      "stored_frame_end_ordinal_exclusive": 25928,
+      "duration_seconds": 24.05,
+      "utc_start_derived": "2026-10-08T14:04:00+00:00",
+      "utc_end_derived": "2026-10-08T14:04:24.050000+00:00",
+      "title": "Valid-line 17 selection and DUP_CLICK_CONTROL form",
+      "requested_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "effective_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes service selector, browser/account/session chrome, and background page. Source and form are genuine native-size UI; no exact click gesture is asserted from this crop.",
+      "output_file": "source-14-part-02-sanitized.mp4",
+      "output_start_seconds": 575.95,
+      "output_end_seconds": 600.0
+    },
+    {
+      "source_start_seconds": 1299.05,
+      "source_end_seconds": 1315.0,
+      "nominal_20fps_timeline_start_index": 25981,
+      "nominal_20fps_timeline_end_index_exclusive": 26300,
+      "first_stored_frame_ordinal_at_or_after_start": 25928,
+      "stored_frame_end_ordinal_exclusive": 26247,
+      "duration_seconds": 15.95,
+      "utc_start_derived": "2026-10-08T14:04:24.050000+00:00",
+      "utc_end_derived": "2026-10-08T14:04:40+00:00",
+      "title": "Valid-line 17 selection and DUP_CLICK_CONTROL form",
+      "requested_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "effective_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes service selector, browser/account/session chrome, and background page. Source and form are genuine native-size UI; no exact click gesture is asserted from this crop.",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 15.95
+    },
+    {
+      "source_start_seconds": 1315,
+      "source_end_seconds": 1317,
+      "nominal_20fps_timeline_start_index": 26300,
+      "nominal_20fps_timeline_end_index_exclusive": 26340,
+      "first_stored_frame_ordinal_at_or_after_start": 26247,
+      "stored_frame_end_ordinal_exclusive": 26287,
+      "duration_seconds": 2,
+      "utc_start_derived": "2026-10-08T14:04:40+00:00",
+      "utc_end_derived": "2026-10-08T14:04:42+00:00",
+      "title": "Opaque privacy guard across foreground transition",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          347,
+          1020,
+          538
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": true,
+      "additional_timed_masks_source": [],
+      "mask_note": "The entire UI is covered with an opaque mask across a browser or modal transition. Original time is retained; no foreground details are asserted.",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 15.95,
+      "output_end_seconds": 17.95
+    },
+    {
+      "source_start_seconds": 1317,
+      "source_end_seconds": 1343,
+      "nominal_20fps_timeline_start_index": 26340,
+      "nominal_20fps_timeline_end_index_exclusive": 26860,
+      "first_stored_frame_ordinal_at_or_after_start": 26287,
+      "stored_frame_end_ordinal_exclusive": 26807,
+      "duration_seconds": 26,
+      "utc_start_derived": "2026-10-08T14:04:42+00:00",
+      "utc_end_derived": "2026-10-08T14:05:08+00:00",
+      "title": "Session returns after submission with twelve entries",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          928,
+          714,
+          342,
+          33
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser/account/session chrome is cropped; still-selected one-shot capture correlation identifier is masked. The visible event count may still reflect the selected subset.",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 17.95,
+      "output_end_seconds": 43.95
+    },
+    {
+      "source_start_seconds": 1343,
+      "source_end_seconds": 1360,
+      "nominal_20fps_timeline_start_index": 26860,
+      "nominal_20fps_timeline_end_index_exclusive": 27200,
+      "first_stored_frame_ordinal_at_or_after_start": 26807,
+      "stored_frame_end_ordinal_exclusive": 27147,
+      "duration_seconds": 17,
+      "utc_start_derived": "2026-10-08T14:05:08+00:00",
+      "utc_end_derived": "2026-10-08T14:05:25+00:00",
+      "title": "Session reload and twelve-entry inventory",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          256,
+          390,
+          419,
+          40
+        ],
+        [
+          928,
+          714,
+          342,
+          33
+        ],
+        [
+          681,
+          487,
+          591,
+          44
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Broad mask hides the service identity when the group heading loads, also hiding the ordinary top logpoint row in some frames. Correlation value remains masked through retained capture selection. The clipped source strip during reload is also fully masked, including ordinary adjacent text.",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 43.95,
+      "output_end_seconds": 60.95
+    },
+    {
+      "source_start_seconds": 1360,
+      "source_end_seconds": 1600,
+      "nominal_20fps_timeline_start_index": 27200,
+      "nominal_20fps_timeline_end_index_exclusive": 32000,
+      "first_stored_frame_ordinal_at_or_after_start": 27147,
+      "stored_frame_end_ordinal_exclusive": 31943,
+      "duration_seconds": 240,
+      "utc_start_derived": "2026-10-08T14:05:25+00:00",
+      "utc_end_derived": "2026-10-08T14:09:25+00:00",
+      "title": "Valid-line 17 events, selected time-window changes, and captured numeric values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser/account/session chrome and footer are cropped. The pricing source, numeric events, and values are safe. The empty selected time window is retained as observation only; it does not establish a Pause defect.",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 60.95,
+      "output_end_seconds": 300.95
+    },
+    {
+      "source_start_seconds": 1600,
+      "source_end_seconds": 1890,
+      "nominal_20fps_timeline_start_index": 32000,
+      "nominal_20fps_timeline_end_index_exclusive": 37800,
+      "first_stored_frame_ordinal_at_or_after_start": 31943,
+      "stored_frame_end_ordinal_exclusive": 37729,
+      "duration_seconds": 290,
+      "utc_start_derived": "2026-10-08T14:09:25+00:00",
+      "utc_end_derived": "2026-10-08T14:14:15+00:00",
+      "title": "Live event navigation and clean Pause control",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 300.95,
+      "output_end_seconds": 590.95
+    },
+    {
+      "source_start_seconds": 1890,
+      "source_end_seconds": 1899.05,
+      "nominal_20fps_timeline_start_index": 37800,
+      "nominal_20fps_timeline_end_index_exclusive": 37981,
+      "first_stored_frame_ordinal_at_or_after_start": 37729,
+      "stored_frame_end_ordinal_exclusive": 37910,
+      "duration_seconds": 9.05,
+      "utc_start_derived": "2026-10-08T14:14:15+00:00",
+      "utc_end_derived": "2026-10-08T14:14:24.050000+00:00",
+      "title": "Blank-line error card opens",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          236,
+          451,
+          468,
+          56
+        ],
+        [
+          236,
+          546,
+          468,
+          82
+        ],
+        [
+          519,
+          827,
+          177,
+          54
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Broad moving-card guards hide identity, probe UUID and private path, with some ordinary diagnostic text also hidden.",
+      "output_file": "source-14-part-03-sanitized.mp4",
+      "output_start_seconds": 590.95,
+      "output_end_seconds": 600.0
+    },
+    {
+      "source_start_seconds": 1899.05,
+      "source_end_seconds": 1925.0,
+      "nominal_20fps_timeline_start_index": 37981,
+      "nominal_20fps_timeline_end_index_exclusive": 38500,
+      "first_stored_frame_ordinal_at_or_after_start": 37910,
+      "stored_frame_end_ordinal_exclusive": 38423,
+      "duration_seconds": 25.95,
+      "utc_start_derived": "2026-10-08T14:14:24.050000+00:00",
+      "utc_end_derived": "2026-10-08T14:14:50+00:00",
+      "title": "Blank-line error card opens",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          236,
+          451,
+          468,
+          56
+        ],
+        [
+          236,
+          546,
+          468,
+          82
+        ],
+        [
+          519,
+          827,
+          177,
+          54
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Broad moving-card guards hide identity, probe UUID and private path, with some ordinary diagnostic text also hidden.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 25.95
+    },
+    {
+      "source_start_seconds": 1925,
+      "source_end_seconds": 1977,
+      "nominal_20fps_timeline_start_index": 38500,
+      "nominal_20fps_timeline_end_index_exclusive": 39540,
+      "first_stored_frame_ordinal_at_or_after_start": 38423,
+      "stored_frame_end_ordinal_exclusive": 39462,
+      "duration_seconds": 52,
+      "utc_start_derived": "2026-10-08T14:14:50+00:00",
+      "utc_end_derived": "2026-10-08T14:15:42+00:00",
+      "title": "Blank-line 10 diagnostic detail",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          278,
+          459,
+          235,
+          40
+        ],
+        [
+          487,
+          550,
+          141,
+          23
+        ],
+        [
+          257,
+          567,
+          184,
+          24
+        ],
+        [
+          257,
+          586,
+          369,
+          23
+        ],
+        [
+          257,
+          605,
+          94,
+          22
+        ],
+        [
+          520,
+          831,
+          112,
+          44
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Probe identifier, private source path, service and creator hidden; unsupported-decorator guidance retained.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 25.95,
+      "output_end_seconds": 77.95
+    },
+    {
+      "source_start_seconds": 1977,
+      "source_end_seconds": 1982,
+      "nominal_20fps_timeline_start_index": 39540,
+      "nominal_20fps_timeline_end_index_exclusive": 39640,
+      "first_stored_frame_ordinal_at_or_after_start": 39462,
+      "stored_frame_end_ordinal_exclusive": 39562,
+      "duration_seconds": 5,
+      "utc_start_derived": "2026-10-08T14:15:42+00:00",
+      "utc_end_derived": "2026-10-08T14:15:47+00:00",
+      "title": "Parent-stop and editor transition",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          210,
+          38
+        ],
+        [
+          278,
+          459,
+          235,
+          40
+        ],
+        [
+          487,
+          550,
+          141,
+          23
+        ],
+        [
+          257,
+          567,
+          184,
+          24
+        ],
+        [
+          257,
+          586,
+          369,
+          23
+        ],
+        [
+          257,
+          605,
+          94,
+          22
+        ],
+        [
+          520,
+          831,
+          112,
+          44
+        ],
+        [
+          678,
+          487,
+          594,
+          45
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Conservative union mask protects changing header profile position; some status text is hidden briefly. Clipped fixture source strip hidden during tab/editor transitions.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 77.95,
+      "output_end_seconds": 82.95
+    },
+    {
+      "source_start_seconds": 1982,
+      "source_end_seconds": 2030.5,
+      "nominal_20fps_timeline_start_index": 39640,
+      "nominal_20fps_timeline_end_index_exclusive": 40610,
+      "first_stored_frame_ordinal_at_or_after_start": 39562,
+      "stored_frame_end_ordinal_exclusive": 40517,
+      "duration_seconds": 48.5,
+      "utc_start_derived": "2026-10-08T14:15:47+00:00",
+      "utc_end_derived": "2026-10-08T14:16:35.500000+00:00",
+      "title": "Inactive parent and child editor observations",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          999,
+          308,
+          108,
+          38
+        ],
+        [
+          678,
+          487,
+          594,
+          45
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": " Clipped fixture source strip hidden during tab/editor transitions.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 82.95,
+      "output_end_seconds": 131.45
+    },
+    {
+      "source_start_seconds": 2030.5,
+      "source_end_seconds": 2032.5,
+      "nominal_20fps_timeline_start_index": 40610,
+      "nominal_20fps_timeline_end_index_exclusive": 40650,
+      "first_stored_frame_ordinal_at_or_after_start": 40517,
+      "stored_frame_end_ordinal_exclusive": 40557,
+      "duration_seconds": 2.0,
+      "utc_start_derived": "2026-10-08T14:16:35.500000+00:00",
+      "utc_end_derived": "2026-10-08T14:16:37.500000+00:00",
+      "title": "Switch between child editor views",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          210,
+          38
+        ],
+        [
+          678,
+          487,
+          594,
+          45
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Header transition mask hides profile identity and some adjacent status text. Clipped fixture source strip hidden during tab/editor transitions.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 131.45,
+      "output_end_seconds": 133.45
+    },
+    {
+      "source_start_seconds": 2032.5,
+      "source_end_seconds": 2053.7,
+      "nominal_20fps_timeline_start_index": 40650,
+      "nominal_20fps_timeline_end_index_exclusive": 41074,
+      "first_stored_frame_ordinal_at_or_after_start": 40557,
+      "stored_frame_end_ordinal_exclusive": 40981,
+      "duration_seconds": 21.2,
+      "utc_start_derived": "2026-10-08T14:16:37.500000+00:00",
+      "utc_end_derived": "2026-10-08T14:16:58.700000+00:00",
+      "title": "Inactive parent before the child update appears",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          999,
+          308,
+          108,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 133.45,
+      "output_end_seconds": 154.65
+    },
+    {
+      "source_start_seconds": 2053.7,
+      "source_end_seconds": 2054.4,
+      "nominal_20fps_timeline_start_index": 41074,
+      "nominal_20fps_timeline_end_index_exclusive": 41088,
+      "first_stored_frame_ordinal_at_or_after_start": 40981,
+      "stored_frame_end_ordinal_exclusive": 40995,
+      "duration_seconds": 0.7,
+      "utc_start_derived": "2026-10-08T14:16:58.700000+00:00",
+      "utc_end_derived": "2026-10-08T14:16:59.400000+00:00",
+      "title": "Parent status changes after the update sequence",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          210,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Header transition mask hides profile identity and some adjacent status text.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 154.65,
+      "output_end_seconds": 155.35
+    },
+    {
+      "source_start_seconds": 2054.4,
+      "source_end_seconds": 2080.25,
+      "nominal_20fps_timeline_start_index": 41088,
+      "nominal_20fps_timeline_end_index_exclusive": 41605,
+      "first_stored_frame_ordinal_at_or_after_start": 40995,
+      "stored_frame_end_ordinal_exclusive": 41511,
+      "duration_seconds": 25.85,
+      "utc_start_derived": "2026-10-08T14:16:59.400000+00:00",
+      "utc_end_derived": "2026-10-08T14:17:25.250000+00:00",
+      "title": "Active parent and chosen child receives events",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          125,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 155.35,
+      "output_end_seconds": 181.2
+    },
+    {
+      "source_start_seconds": 2080.25,
+      "source_end_seconds": 2081.1,
+      "nominal_20fps_timeline_start_index": 41605,
+      "nominal_20fps_timeline_end_index_exclusive": 41622,
+      "first_stored_frame_ordinal_at_or_after_start": 41511,
+      "stored_frame_end_ordinal_exclusive": 41527,
+      "duration_seconds": 0.85,
+      "utc_start_derived": "2026-10-08T14:17:25.250000+00:00",
+      "utc_end_derived": "2026-10-08T14:17:26.100000+00:00",
+      "title": "Reload transition",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          210,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Conservative header transition mask.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 181.2,
+      "output_end_seconds": 182.05
+    },
+    {
+      "source_start_seconds": 2085.9,
+      "source_end_seconds": 2090.0,
+      "nominal_20fps_timeline_start_index": 41718,
+      "nominal_20fps_timeline_end_index_exclusive": 41800,
+      "first_stored_frame_ordinal_at_or_after_start": 41621,
+      "stored_frame_end_ordinal_exclusive": 41703,
+      "duration_seconds": 4.1,
+      "utc_start_derived": "2026-10-08T14:17:30.900000+00:00",
+      "utc_end_derived": "2026-10-08T14:17:35+00:00",
+      "title": "Session reload and original loading wait",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 182.05,
+      "output_end_seconds": 186.15
+    },
+    {
+      "source_start_seconds": 2090,
+      "source_end_seconds": 2152.7,
+      "nominal_20fps_timeline_start_index": 41800,
+      "nominal_20fps_timeline_end_index_exclusive": 43054,
+      "first_stored_frame_ordinal_at_or_after_start": 41703,
+      "stored_frame_end_ordinal_exclusive": 42955,
+      "duration_seconds": 62.7,
+      "utc_start_derived": "2026-10-08T14:17:35+00:00",
+      "utc_end_derived": "2026-10-08T14:18:37.700000+00:00",
+      "title": "Reloaded state and fresh edited-message capture",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          125,
+          38
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": " Top source region conservatively hidden across reload and later selection.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 186.15,
+      "output_end_seconds": 248.85
+    },
+    {
+      "source_start_seconds": 2152.7,
+      "source_end_seconds": 2153.4,
+      "nominal_20fps_timeline_start_index": 43054,
+      "nominal_20fps_timeline_end_index_exclusive": 43068,
+      "first_stored_frame_ordinal_at_or_after_start": 42955,
+      "stored_frame_end_ordinal_exclusive": 42969,
+      "duration_seconds": 0.7,
+      "utc_start_derived": "2026-10-08T14:18:37.700000+00:00",
+      "utc_end_derived": "2026-10-08T14:18:38.400000+00:00",
+      "title": "Final stop transition",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          210,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Conservative header transition mask.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 248.85,
+      "output_end_seconds": 249.55
+    },
+    {
+      "source_start_seconds": 2153.4,
+      "source_end_seconds": 2203.2,
+      "nominal_20fps_timeline_start_index": 43068,
+      "nominal_20fps_timeline_end_index_exclusive": 44064,
+      "first_stored_frame_ordinal_at_or_after_start": 42969,
+      "stored_frame_end_ordinal_exclusive": 43961,
+      "duration_seconds": 49.8,
+      "utc_start_derived": "2026-10-08T14:18:38.400000+00:00",
+      "utc_end_derived": "2026-10-08T14:19:28.200000+00:00",
+      "title": "Stopped session retains the selected capture",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          999,
+          308,
+          108,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 249.55,
+      "output_end_seconds": 299.35
+    },
+    {
+      "source_start_seconds": 2238.8,
+      "source_end_seconds": 2292.45,
+      "nominal_20fps_timeline_start_index": 44776,
+      "nominal_20fps_timeline_end_index_exclusive": 45849,
+      "first_stored_frame_ordinal_at_or_after_start": 44669,
+      "stored_frame_end_ordinal_exclusive": 45738,
+      "duration_seconds": 53.65,
+      "utc_start_derived": "2026-10-08T14:20:03.800000+00:00",
+      "utc_end_derived": "2026-10-08T14:20:57.450000+00:00",
+      "title": "Final session inventory and filter verification",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1004,
+        579
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1004,
+        580
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          268,
+          536,
+          655,
+          390
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Session/account/service names and profile icons hidden; filters, counts and four inactive statuses retained.",
+      "output_file": "source-14-part-04-sanitized.mp4",
+      "output_start_seconds": 299.35,
+      "output_end_seconds": 353.0
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 41,
+      "duration_seconds": 41,
+      "utc_start_derived": "2026-10-08T13:42:45+00:00",
+      "utc_end_derived": "2026-10-08T13:43:26+00:00",
+      "reason": "Opening report/publication administration, private provider identity, and session-navigation transition."
+    },
+    {
+      "source_start_seconds": 113.4,
+      "source_end_seconds": 133.4,
+      "duration_seconds": 20.0,
+      "utc_start_derived": "2026-10-08T13:44:38.400000+00:00",
+      "utc_end_derived": "2026-10-08T13:44:58.400000+00:00",
+      "reason": "Private provider workflow listing and navigation."
+    },
+    {
+      "source_start_seconds": 174.3,
+      "source_end_seconds": 200,
+      "duration_seconds": 25.7,
+      "utc_start_derived": "2026-10-08T13:45:39.300000+00:00",
+      "utc_end_derived": "2026-10-08T13:46:05+00:00",
+      "reason": "Private provider listing and transition into the workflow drawer."
+    },
+    {
+      "source_start_seconds": 304.5,
+      "source_end_seconds": 306.5,
+      "duration_seconds": 2.0,
+      "utc_start_derived": "2026-10-08T13:47:49.500000+00:00",
+      "utc_end_derived": "2026-10-08T13:47:51.500000+00:00",
+      "reason": "Workflow dispatch to run-summary transition."
+    },
+    {
+      "source_start_seconds": 351.0,
+      "source_end_seconds": 354,
+      "duration_seconds": 3.0,
+      "utc_start_derived": "2026-10-08T13:48:36+00:00",
+      "utc_end_derived": "2026-10-08T13:48:39+00:00",
+      "reason": "Job-page and log-opening layout transition."
+    },
+    {
+      "source_start_seconds": 432,
+      "source_end_seconds": 432.6,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T13:49:57+00:00",
+      "utc_end_derived": "2026-10-08T13:49:57.600000+00:00",
+      "reason": "Provider-to-debugger navigation boundary."
+    },
+    {
+      "source_start_seconds": 460.15,
+      "source_end_seconds": 462.95,
+      "duration_seconds": 2.8,
+      "utc_start_derived": "2026-10-08T13:50:25.150000+00:00",
+      "utc_end_derived": "2026-10-08T13:50:27.950000+00:00",
+      "reason": "Session reload and changing layout."
+    },
+    {
+      "source_start_seconds": 497.2,
+      "source_end_seconds": 498.1,
+      "duration_seconds": 0.9,
+      "utc_start_derived": "2026-10-08T13:51:02.200000+00:00",
+      "utc_end_derived": "2026-10-08T13:51:03.100000+00:00",
+      "reason": "Opening the new-logpoint modal."
+    },
+    {
+      "source_start_seconds": 577.4,
+      "source_end_seconds": 578,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T13:52:22.400000+00:00",
+      "utc_end_derived": "2026-10-08T13:52:23+00:00",
+      "reason": "Closing the line-9999 modal."
+    },
+    {
+      "source_start_seconds": 664.5,
+      "source_end_seconds": 665.1,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T13:53:49.500000+00:00",
+      "utc_end_derived": "2026-10-08T13:53:50.100000+00:00",
+      "reason": "Opening the comment-line modal."
+    },
+    {
+      "source_start_seconds": 705.6,
+      "source_end_seconds": 706.2,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T13:54:30.600000+00:00",
+      "utc_end_derived": "2026-10-08T13:54:31.200000+00:00",
+      "reason": "Closing the comment-line modal."
+    },
+    {
+      "source_start_seconds": 791.85,
+      "source_end_seconds": 792.5,
+      "duration_seconds": 0.65,
+      "utc_start_derived": "2026-10-08T13:55:56.850000+00:00",
+      "utc_end_derived": "2026-10-08T13:55:57.500000+00:00",
+      "reason": "Transition to the provider runner log."
+    },
+    {
+      "source_start_seconds": 810.8,
+      "source_end_seconds": 811.4,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T13:56:15.800000+00:00",
+      "utc_end_derived": "2026-10-08T13:56:16.400000+00:00",
+      "reason": "Transition back to the debugger detail card."
+    },
+    {
+      "source_start_seconds": 2081.1,
+      "source_end_seconds": 2085.9,
+      "duration_seconds": 4.8,
+      "utc_start_derived": "2026-10-08T14:17:26.100000+00:00",
+      "utc_end_derived": "2026-10-08T14:17:30.900000+00:00",
+      "reason": "Full session reload and changing page layout."
+    },
+    {
+      "source_start_seconds": 2203.2,
+      "source_end_seconds": 2238.8,
+      "duration_seconds": 35.6,
+      "utc_start_derived": "2026-10-08T14:19:28.200000+00:00",
+      "utc_end_derived": "2026-10-08T14:20:03.800000+00:00",
+      "reason": "Provider completion/post-job logs with private repository, account and artifact references, followed by inventory navigation."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-14-part-01-sanitized.mp4",
+      "duration_seconds": 600.0,
+      "bytes": 4257806,
+      "sha256": "9f29e2f05b01817f451280ee11465a9cec54dc3ff6218e875ce57f25b0470e99",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "12000"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-14-part-02-sanitized.mp4",
+      "duration_seconds": 600.0,
+      "bytes": 4484185,
+      "sha256": "342346b7b0e2f567f4e64791ed46e3ea7658d30bd91fc7666f09da45ef767ece",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "12000"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-14-part-03-sanitized.mp4",
+      "duration_seconds": 600.0,
+      "bytes": 5426672,
+      "sha256": "0328489bf2c29e35941cc3437341729752dc766577143fb226d7e8b7d86ab94e",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "12000"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-14-part-04-sanitized.mp4",
+      "duration_seconds": 353.0,
+      "bytes": 3702534,
+      "sha256": "45491057bbf77ee77424aab4eb949901233c577b2f6ffe9233fc49bbb69b5d7f",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "7060"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    }
+  ],
+  "evidence_limits": [
+    "All motion comes from recording source 14. Opaque masks, integer crops, native-scale padding, titles and captions are editorial changes. No UI was reconstructed and no still was inserted as motion.",
+    "The source declares a nominal 20 fps rate, but contains 45,738 stored frames over 2292.45 seconds. There are 64 timestamp gaps larger than 0.05 seconds, with a maximum adjacent step of 0.30 seconds. Output is constant 20 fps; existing recorded frames are held across gaps. Source PTS ranges are primary; nominal timeline indices and actual stored-frame ordinals are labeled separately.",
+    "The archive retains continuous safe sections and original waits. Every temporal omission is listed. An additional 15.00 seconds of retained time is fully privacy-obscured during moving provider/log regions and is not visible product evidence.",
+    "The manual workflow becomes queued and then in progress. The runner reports readiness and registration booleans. Those diagnostic states are distinct from a debugger capture.",
+    "Line 69 visibly moves from a zero-instance quiet state to one targeting instance while remaining WAITING FOR EVENTS with no event. WAITING alone is not proof that instrumentation installed. The line-9999 control separately reports an explicit ERROR and NoFunctionsAtLine.",
+    "The one-shot result later shows NEVER_CONTROL value=707 and never_called_local=707. The visible event-row time, SDK snapshot execution timestamp and runner HTTP timestamps are separate evidence types. The exact SDK timestamp was independently verified in the companion run evidence; it is not substituted for the event-row time in these captions.",
+    "The indexed stacktrace shows retrieved line-69 source and captured 707, with repository prefixes and synthetic correlation strings masked. Its actual line and captured value are preserved. No private repository-B access claim follows from this footage.",
+    "Pricing line 16 is visibly a comment in the draft. Its later error gives target-code-loaded guidance. Pricing line 10 is a blank-line control; its later detail card includes unsupported-decorator guidance. The caption describes the observed text, without inventing a confirmed root cause or broad installation failure.",
+    "The valid line-17 draft, pending submission state, later twelve-logpoint view and numeric capture are retained. The exact rapid double-click-plus-Return input count comes from the independent run record; cursor pixels alone do not prove that gesture count. One matching added target was independently checked after reload.",
+    "An early event-selected view is already auto-paused and must not be treated as a clean before-Pause state. The later clean no-selection Pause control preserves the recent rows. These clips do not establish a Pause defect.",
+    "The foreground shows an inactive parent, editing of SESSION_STOP_STALE, later active status and a fresh capture, then final stop. There are tab/view changes between observations. Captions preserve those boundaries and do not reconstruct hidden actions or infer the stale-editor mechanism from a single frame.",
+    "The final unfiltered inventory shows My sessions off, All 4, Active 0, Inactive 4 and four visible inactive cards. Capture history remains visible after stopping. The footage does not assert that accounts, repositories, keys or grants were deleted.",
+    "The pricing behavior is an intentionally planted application fixture bug. Captured quantities, discounts and totals do not imply a Datadog pricing defect.",
+    "UTC caption ranges are derived from the recorder start. Displayed Datadog event times use UTC-07:00. Recorder times, displayed rows, snapshot execution timestamps and HTTP times must not be treated as interchangeable.",
+    "Browser chrome, account/profile/service/session identities, private repository URLs and prefixes, trace/runtime/probe/correlation identifiers and secret-like source literals are cropped, masked or omitted. Broad masks sometimes hide adjacent ordinary text or source. Exact geometry and full-mask intervals are disclosed.",
+    "Earlier frozen media remain unchanged. Only the flat public folders are eligible for publication; raw recordings, internal journals, diagnostic contact sheets and helper scripts are excluded."
+  ],
+  "review": {
+    "source_overview_spacing_seconds": 20,
+    "dense_privacy_transition_sampling_fps": [
+      0.5,
+      1,
+      2,
+      20
+    ],
+    "full_rate_page_state_scan_fps": 20,
+    "independent_middle_interval_privacy_review": true,
+    "clip_endpoints_midpoints_reviewed": 246,
+    "output_ocr_sampled_frames": 610,
+    "unresolved_ocr_flags": 0,
+    "private_correlation_and_uuid_patterns_scanned": true,
+    "caption_and_layout_findings_resolved": true,
+    "review_is_sampled_not_a_guarantee_of_every_pixel": true,
+    "all_public_videos_decoded": true,
+    "source_hash_unchanged": true
+  }
+}
