@@ -1,0 +1,4631 @@
+{
+  "version": 1,
+  "scope": "Source 17: source/metadata controls, fixture QA, interrupted browser recovery, draft conflict, complex captures and stop state",
+  "source": {
+    "label": "Recording source 17",
+    "duration_seconds": 6141.8,
+    "bytes": 184710970,
+    "sha256": "e3460c6d3c6942375e8e88a89a9b435248a9dd3f4b87f79aa00e432cffd72552",
+    "utc_start": "2026-10-08T19:46:20+00:00",
+    "utc_end_derived": "2026-10-08T21:28:41.800000+00:00",
+    "recorder_stop_utc": "2026-10-08T21:28:41Z",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "nominal_fps": 20,
+    "stored_frame_count": 122828,
+    "adjacent_timestamp_gap_count": 4,
+    "maximum_adjacent_timestamp_step_seconds": 0.2,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end); original speed; UTC is derived. Coordinates are source xywh.",
+  "retained_seconds": 5938.45,
+  "omitted_seconds": 203.35,
+  "retained": [
+    {
+      "start": 31.5,
+      "end": 43.8,
+      "title": "Open the synthetic provider workflow",
+      "caption": "Provider workflow view; private account and run identities are masked.",
+      "crop": [
+        435,
+        290,
+        800,
+        630
+      ],
+      "masks": [
+        [
+          435,
+          420,
+          770,
+          165
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 12.3,
+      "source_start_seconds": 31.5,
+      "source_end_seconds": 43.8,
+      "duration_seconds": 12.3,
+      "utc_start_derived": "2026-10-08T19:46:51.500000+00:00",
+      "utc_end_derived": "2026-10-08T19:47:03.800000+00:00",
+      "nominal_20fps_timeline_start_index": 630,
+      "nominal_20fps_timeline_end_index_exclusive": 876,
+      "first_stored_frame_ordinal_at_or_after_start": 628,
+      "stored_frame_end_ordinal_exclusive": 874,
+      "effective_crop_source_xywh": [
+        435,
+        290,
+        800,
+        630
+      ]
+    },
+    {
+      "start": 43.8,
+      "end": 151.5,
+      "title": "Dispatch the synthetic provider workflow",
+      "caption": "The foreground selects a bounded runtime and dispatches the workflow; this is provider setup.",
+      "crop": [
+        592,
+        225,
+        674,
+        700
+      ],
+      "masks": [
+        [
+          592,
+          225,
+          203,
+          700
+        ],
+        [
+          795,
+          265,
+          170,
+          440
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 12.3,
+      "output_end_seconds": 120.0,
+      "source_start_seconds": 43.8,
+      "source_end_seconds": 151.5,
+      "duration_seconds": 107.7,
+      "utc_start_derived": "2026-10-08T19:47:03.800000+00:00",
+      "utc_end_derived": "2026-10-08T19:48:51.500000+00:00",
+      "nominal_20fps_timeline_start_index": 876,
+      "nominal_20fps_timeline_end_index_exclusive": 3030,
+      "first_stored_frame_ordinal_at_or_after_start": 874,
+      "stored_frame_end_ordinal_exclusive": 3028,
+      "effective_crop_source_xywh": [
+        592,
+        225,
+        674,
+        700
+      ]
+    },
+    {
+      "start": 151.5,
+      "end": 183.1,
+      "title": "Provider run enters progress",
+      "caption": "Queued and in-progress provider states; this is not evidence that coverage cases passed.",
+      "crop": [
+        435,
+        380,
+        800,
+        410
+      ],
+      "masks": [
+        [
+          435,
+          405,
+          530,
+          60
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 120.0,
+      "output_end_seconds": 151.6,
+      "source_start_seconds": 151.5,
+      "source_end_seconds": 183.1,
+      "duration_seconds": 31.6,
+      "utc_start_derived": "2026-10-08T19:48:51.500000+00:00",
+      "utc_end_derived": "2026-10-08T19:49:23.100000+00:00",
+      "nominal_20fps_timeline_start_index": 3030,
+      "nominal_20fps_timeline_end_index_exclusive": 3662,
+      "first_stored_frame_ordinal_at_or_after_start": 3028,
+      "stored_frame_end_ordinal_exclusive": 3660,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        800,
+        410
+      ]
+    },
+    {
+      "start": 183.1,
+      "end": 198.45,
+      "title": "Inspect synthetic runtime steps",
+      "caption": "Workflow step states are visible; account and repository chrome are cropped.",
+      "crop": [
+        435,
+        380,
+        800,
+        540
+      ],
+      "masks": [
+        [
+          435,
+          405,
+          530,
+          60
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 151.6,
+      "output_end_seconds": 166.95,
+      "source_start_seconds": 183.1,
+      "source_end_seconds": 198.45,
+      "duration_seconds": 15.35,
+      "utc_start_derived": "2026-10-08T19:49:23.100000+00:00",
+      "utc_end_derived": "2026-10-08T19:49:38.450000+00:00",
+      "nominal_20fps_timeline_start_index": 3662,
+      "nominal_20fps_timeline_end_index_exclusive": 3969,
+      "first_stored_frame_ordinal_at_or_after_start": 3660,
+      "stored_frame_end_ordinal_exclusive": 3967,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        800,
+        540
+      ]
+    },
+    {
+      "start": 198.45,
+      "end": 248,
+      "title": "Inspect the running provider job",
+      "caption": "Runtime payload identities are masked while provider step status remains visible.",
+      "crop": [
+        435,
+        260,
+        800,
+        650
+      ],
+      "masks": [
+        [
+          505,
+          298,
+          730,
+          612
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 166.95,
+      "output_end_seconds": 216.5,
+      "source_start_seconds": 198.45,
+      "source_end_seconds": 248,
+      "duration_seconds": 49.55,
+      "utc_start_derived": "2026-10-08T19:49:38.450000+00:00",
+      "utc_end_derived": "2026-10-08T19:50:28+00:00",
+      "nominal_20fps_timeline_start_index": 3969,
+      "nominal_20fps_timeline_end_index_exclusive": 4960,
+      "first_stored_frame_ordinal_at_or_after_start": 3967,
+      "stored_frame_end_ordinal_exclusive": 4958,
+      "effective_crop_source_xywh": [
+        435,
+        260,
+        800,
+        650
+      ]
+    },
+    {
+      "start": 248,
+      "end": 281.95,
+      "title": "Reload a crashed browser tab",
+      "caption": "Foreground browser error and recovery interval, at original speed.",
+      "crop": [
+        360,
+        350,
+        650,
+        240
+      ],
+      "masks": [],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 216.5,
+      "output_end_seconds": 250.45,
+      "source_start_seconds": 248,
+      "source_end_seconds": 281.95,
+      "duration_seconds": 33.95,
+      "utc_start_derived": "2026-10-08T19:50:28+00:00",
+      "utc_end_derived": "2026-10-08T19:51:01.950000+00:00",
+      "nominal_20fps_timeline_start_index": 4960,
+      "nominal_20fps_timeline_end_index_exclusive": 5639,
+      "first_stored_frame_ordinal_at_or_after_start": 4958,
+      "stored_frame_end_ordinal_exclusive": 5637,
+      "effective_crop_source_xywh": [
+        360,
+        350,
+        650,
+        240
+      ]
+    },
+    {
+      "start": 281.95,
+      "end": 323.05,
+      "title": "Open a new debugging session",
+      "caption": "Private session entries and avatars are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          265,
+          540,
+          1000,
+          340
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 250.45,
+      "output_end_seconds": 291.55,
+      "source_start_seconds": 281.95,
+      "source_end_seconds": 323.05,
+      "duration_seconds": 41.1,
+      "utc_start_derived": "2026-10-08T19:51:01.950000+00:00",
+      "utc_end_derived": "2026-10-08T19:51:43.050000+00:00",
+      "nominal_20fps_timeline_start_index": 5639,
+      "nominal_20fps_timeline_end_index_exclusive": 6461,
+      "first_stored_frame_ordinal_at_or_after_start": 5637,
+      "stored_frame_end_ordinal_exclusive": 6459,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 323.05,
+      "end": 351.2,
+      "title": "Choose the baseline environment",
+      "caption": "Service selection is masked; the environment and new-session controls remain visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          350,
+          300,
+          405,
+          365
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 291.55,
+      "output_end_seconds": 319.7,
+      "source_start_seconds": 323.05,
+      "source_end_seconds": 351.2,
+      "duration_seconds": 28.15,
+      "utc_start_derived": "2026-10-08T19:51:43.050000+00:00",
+      "utc_end_derived": "2026-10-08T19:52:11.200000+00:00",
+      "nominal_20fps_timeline_start_index": 6461,
+      "nominal_20fps_timeline_end_index_exclusive": 7024,
+      "first_stored_frame_ordinal_at_or_after_start": 6459,
+      "stored_frame_end_ordinal_exclusive": 7022,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 351.2,
+      "end": 526.65,
+      "title": "Create the C1 baseline logpoint",
+      "caption": "pricing.py line 17 and COVERAGE_C1 template; source and capture controls remain visible.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 351.2,
+          "end": 352,
+          "rect": [
+            145,
+            300,
+            610,
+            365
+          ]
+        },
+        {
+          "start": 351.2,
+          "end": 352,
+          "rect": [
+            435,
+            300,
+            570,
+            50
+          ]
+        },
+        {
+          "start": 351.2,
+          "end": 352.2,
+          "rect": [
+            250,
+            886,
+            955,
+            30
+          ]
+        }
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 319.7,
+      "output_end_seconds": 495.15,
+      "source_start_seconds": 351.2,
+      "source_end_seconds": 526.65,
+      "duration_seconds": 175.45,
+      "utc_start_derived": "2026-10-08T19:52:11.200000+00:00",
+      "utc_end_derived": "2026-10-08T19:55:06.650000+00:00",
+      "nominal_20fps_timeline_start_index": 7024,
+      "nominal_20fps_timeline_end_index_exclusive": 10533,
+      "first_stored_frame_ordinal_at_or_after_start": 7022,
+      "stored_frame_end_ordinal_exclusive": 10531,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 526.65,
+      "end": 639.45,
+      "title": "C1 baseline receives events",
+      "caption": "COVERAGE_C1 events, local values, and source/stack view are visible; receipt verification is separate.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 495.15,
+      "output_end_seconds": 607.95,
+      "source_start_seconds": 526.65,
+      "source_end_seconds": 639.45,
+      "duration_seconds": 112.8,
+      "utc_start_derived": "2026-10-08T19:55:06.650000+00:00",
+      "utc_end_derived": "2026-10-08T19:56:59.450000+00:00",
+      "nominal_20fps_timeline_start_index": 10533,
+      "nominal_20fps_timeline_end_index_exclusive": 12789,
+      "first_stored_frame_ordinal_at_or_after_start": 10531,
+      "stored_frame_end_ordinal_exclusive": 12787,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 639.45,
+      "end": 670,
+      "title": "Return to source metadata probes",
+      "caption": "Navigation and source-metadata session controls, at original speed.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 607.95,
+      "output_end_seconds": 638.5,
+      "source_start_seconds": 639.45,
+      "source_end_seconds": 670,
+      "duration_seconds": 30.55,
+      "utc_start_derived": "2026-10-08T19:56:59.450000+00:00",
+      "utc_end_derived": "2026-10-08T19:57:30+00:00",
+      "nominal_20fps_timeline_start_index": 12789,
+      "nominal_20fps_timeline_end_index_exclusive": 13400,
+      "first_stored_frame_ordinal_at_or_after_start": 12787,
+      "stored_frame_end_ordinal_exclusive": 13398,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 670,
+      "end": 776,
+      "title": "Interrupted interval: original elapsed time",
+      "caption": "19:57:30-19:59:16 UTC: the session stays visible; continuous active testing is not implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 638.5,
+      "output_end_seconds": 744.5,
+      "source_start_seconds": 670,
+      "source_end_seconds": 776,
+      "duration_seconds": 106,
+      "utc_start_derived": "2026-10-08T19:57:30+00:00",
+      "utc_end_derived": "2026-10-08T19:59:16+00:00",
+      "nominal_20fps_timeline_start_index": 13400,
+      "nominal_20fps_timeline_end_index_exclusive": 15520,
+      "first_stored_frame_ordinal_at_or_after_start": 13398,
+      "stored_frame_end_ordinal_exclusive": 15518,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 776,
+      "end": 925,
+      "title": "Enable and inspect metadata probes",
+      "caption": "Six bad-metadata conditions populate the event list; labels record UI observations only.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ],
+        [
+          785,
+          680,
+          460,
+          60
+        ]
+      ],
+      "output_file": "source-17-part-01-sanitized.mp4",
+      "output_start_seconds": 744.5,
+      "output_end_seconds": 893.5,
+      "source_start_seconds": 776,
+      "source_end_seconds": 925,
+      "duration_seconds": 149,
+      "utc_start_derived": "2026-10-08T19:59:16+00:00",
+      "utc_end_derived": "2026-10-08T20:01:45+00:00",
+      "nominal_20fps_timeline_start_index": 15520,
+      "nominal_20fps_timeline_end_index_exclusive": 18500,
+      "first_stored_frame_ordinal_at_or_after_start": 15518,
+      "stored_frame_end_ordinal_exclusive": 18498,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 925,
+      "end": 1049.45,
+      "title": "Inspect missing-source feedback",
+      "caption": "The UI shows source-not-found and missing-link messages, including the invalid SHA explanation.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          785,
+          680,
+          460,
+          60
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 124.45,
+      "source_start_seconds": 925,
+      "source_end_seconds": 1049.45,
+      "duration_seconds": 124.45,
+      "utc_start_derived": "2026-10-08T20:01:45+00:00",
+      "utc_end_derived": "2026-10-08T20:03:49.450000+00:00",
+      "nominal_20fps_timeline_start_index": 18500,
+      "nominal_20fps_timeline_end_index_exclusive": 20989,
+      "first_stored_frame_ordinal_at_or_after_start": 18498,
+      "stored_frame_end_ordinal_exclusive": 20987,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1049.45,
+      "end": 1132.1,
+      "title": "Inspect the nonexistent-SHA log",
+      "caption": "The requested-event placeholder resolves to a log and missing-link feedback. Private metadata is masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1096.8,
+          "end": 1132.1,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 124.45,
+      "output_end_seconds": 207.1,
+      "source_start_seconds": 1049.45,
+      "source_end_seconds": 1132.1,
+      "duration_seconds": 82.65,
+      "utc_start_derived": "2026-10-08T20:03:49.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:05:12.100000+00:00",
+      "nominal_20fps_timeline_start_index": 20989,
+      "nominal_20fps_timeline_end_index_exclusive": 22642,
+      "first_stored_frame_ordinal_at_or_after_start": 20987,
+      "stored_frame_end_ordinal_exclusive": 22640,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1132.1,
+      "end": 1146.85,
+      "title": "Compare source-metadata events",
+      "caption": "Return to the session and select another metadata case.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 207.1,
+      "output_end_seconds": 221.85,
+      "source_start_seconds": 1132.1,
+      "source_end_seconds": 1146.85,
+      "duration_seconds": 14.75,
+      "utc_start_derived": "2026-10-08T20:05:12.100000+00:00",
+      "utc_end_derived": "2026-10-08T20:05:26.850000+00:00",
+      "nominal_20fps_timeline_start_index": 22642,
+      "nominal_20fps_timeline_end_index_exclusive": 22937,
+      "first_stored_frame_ordinal_at_or_after_start": 22640,
+      "stored_frame_end_ordinal_exclusive": 22935,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1146.85,
+      "end": 1190.8,
+      "title": "Inspect the invalid-SHA log",
+      "caption": "Invalid-SHA event and stack feedback; private provider/repository tags are masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1159,
+          "end": 1190.8,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 221.85,
+      "output_end_seconds": 265.8,
+      "source_start_seconds": 1146.85,
+      "source_end_seconds": 1190.8,
+      "duration_seconds": 43.95,
+      "utc_start_derived": "2026-10-08T20:05:26.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:06:10.800000+00:00",
+      "nominal_20fps_timeline_start_index": 22937,
+      "nominal_20fps_timeline_end_index_exclusive": 23816,
+      "first_stored_frame_ordinal_at_or_after_start": 22935,
+      "stored_frame_end_ordinal_exclusive": 23814,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1190.8,
+      "end": 1195.45,
+      "title": "Select the missing-SHA case",
+      "caption": "Brief return to the session before inspecting its log.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 265.8,
+      "output_end_seconds": 270.45,
+      "source_start_seconds": 1190.8,
+      "source_end_seconds": 1195.45,
+      "duration_seconds": 4.65,
+      "utc_start_derived": "2026-10-08T20:06:10.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:06:15.450000+00:00",
+      "nominal_20fps_timeline_start_index": 23816,
+      "nominal_20fps_timeline_end_index_exclusive": 23909,
+      "first_stored_frame_ordinal_at_or_after_start": 23814,
+      "stored_frame_end_ordinal_exclusive": 23907,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1195.45,
+      "end": 1212.35,
+      "title": "Load the missing-SHA log search",
+      "caption": "Log search and result loading; query, host, and service identity regions are masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          795,
+          640,
+          119
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 270.45,
+      "output_end_seconds": 287.35,
+      "source_start_seconds": 1195.45,
+      "source_end_seconds": 1212.35,
+      "duration_seconds": 16.9,
+      "utc_start_derived": "2026-10-08T20:06:15.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:06:32.350000+00:00",
+      "nominal_20fps_timeline_start_index": 23909,
+      "nominal_20fps_timeline_end_index_exclusive": 24247,
+      "first_stored_frame_ordinal_at_or_after_start": 23907,
+      "stored_frame_end_ordinal_exclusive": 24245,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1212.35,
+      "end": 1250.4,
+      "title": "Inspect the missing-metadata capture",
+      "caption": "The capture tab shows the selected event and local values.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 287.35,
+      "output_end_seconds": 325.4,
+      "source_start_seconds": 1212.35,
+      "source_end_seconds": 1250.4,
+      "duration_seconds": 38.05,
+      "utc_start_derived": "2026-10-08T20:06:32.350000+00:00",
+      "utc_end_derived": "2026-10-08T20:07:10.400000+00:00",
+      "nominal_20fps_timeline_start_index": 24247,
+      "nominal_20fps_timeline_end_index_exclusive": 25008,
+      "first_stored_frame_ordinal_at_or_after_start": 24245,
+      "stored_frame_end_ordinal_exclusive": 25006,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1250.4,
+      "end": 1274.15,
+      "title": "Inspect missing-metadata source association",
+      "caption": "The log UI describes use of the latest default-branch commit; the private repository control is masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1263.6,
+          "end": 1274.15,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 325.4,
+      "output_end_seconds": 349.15,
+      "source_start_seconds": 1250.4,
+      "source_end_seconds": 1274.15,
+      "duration_seconds": 23.75,
+      "utc_start_derived": "2026-10-08T20:07:10.400000+00:00",
+      "utc_end_derived": "2026-10-08T20:07:34.150000+00:00",
+      "nominal_20fps_timeline_start_index": 25008,
+      "nominal_20fps_timeline_end_index_exclusive": 25483,
+      "first_stored_frame_ordinal_at_or_after_start": 25006,
+      "stored_frame_end_ordinal_exclusive": 25481,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1274.15,
+      "end": 1291.25,
+      "title": "Select the repository-B control",
+      "caption": "The session capture changes to the repository-B case. No case is labeled PASS.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 349.15,
+      "output_end_seconds": 366.25,
+      "source_start_seconds": 1274.15,
+      "source_end_seconds": 1291.25,
+      "duration_seconds": 17.1,
+      "utc_start_derived": "2026-10-08T20:07:34.150000+00:00",
+      "utc_end_derived": "2026-10-08T20:07:51.250000+00:00",
+      "nominal_20fps_timeline_start_index": 25483,
+      "nominal_20fps_timeline_end_index_exclusive": 25825,
+      "first_stored_frame_ordinal_at_or_after_start": 25481,
+      "stored_frame_end_ordinal_exclusive": 25823,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1291.25,
+      "end": 1356,
+      "title": "Inspect the repository-B log",
+      "caption": "Log and missing-link feedback, with private host/service/repository metadata masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1316.65,
+          "end": 1347.05,
+          "rect": [
+            615,
+            530,
+            312,
+            50
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 366.25,
+      "output_end_seconds": 431.0,
+      "source_start_seconds": 1291.25,
+      "source_end_seconds": 1356,
+      "duration_seconds": 64.75,
+      "utc_start_derived": "2026-10-08T20:07:51.250000+00:00",
+      "utc_end_derived": "2026-10-08T20:08:56+00:00",
+      "nominal_20fps_timeline_start_index": 25825,
+      "nominal_20fps_timeline_end_index_exclusive": 27120,
+      "first_stored_frame_ordinal_at_or_after_start": 25823,
+      "stored_frame_end_ordinal_exclusive": 27118,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1356,
+      "end": 1377.85,
+      "title": "Select the alternate repository-B control",
+      "caption": "Capture tab and local values for the alternate repository-B case.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 431.0,
+      "output_end_seconds": 452.85,
+      "source_start_seconds": 1356,
+      "source_end_seconds": 1377.85,
+      "duration_seconds": 21.85,
+      "utc_start_derived": "2026-10-08T20:08:56+00:00",
+      "utc_end_derived": "2026-10-08T20:09:17.850000+00:00",
+      "nominal_20fps_timeline_start_index": 27120,
+      "nominal_20fps_timeline_end_index_exclusive": 27557,
+      "first_stored_frame_ordinal_at_or_after_start": 27118,
+      "stored_frame_end_ordinal_exclusive": 27555,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1377.85,
+      "end": 1424.1,
+      "title": "Inspect the alternate repository-B log",
+      "caption": "Log and missing-link feedback, with private source metadata masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1410.4,
+          "end": 1424.1,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 452.85,
+      "output_end_seconds": 499.1,
+      "source_start_seconds": 1377.85,
+      "source_end_seconds": 1424.1,
+      "duration_seconds": 46.25,
+      "utc_start_derived": "2026-10-08T20:09:17.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:10:04.100000+00:00",
+      "nominal_20fps_timeline_start_index": 27557,
+      "nominal_20fps_timeline_end_index_exclusive": 28482,
+      "first_stored_frame_ordinal_at_or_after_start": 27555,
+      "stored_frame_end_ordinal_exclusive": 28480,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1424.1,
+      "end": 1450.9,
+      "title": "Revisit repository-B metadata",
+      "caption": "Log inspection and metadata expansion; private tags are masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1441.05,
+          "end": 1450.9,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 499.1,
+      "output_end_seconds": 525.9,
+      "source_start_seconds": 1424.1,
+      "source_end_seconds": 1450.9,
+      "duration_seconds": 26.8,
+      "utc_start_derived": "2026-10-08T20:10:04.100000+00:00",
+      "utc_end_derived": "2026-10-08T20:10:30.900000+00:00",
+      "nominal_20fps_timeline_start_index": 28482,
+      "nominal_20fps_timeline_end_index_exclusive": 29018,
+      "first_stored_frame_ordinal_at_or_after_start": 28480,
+      "stored_frame_end_ordinal_exclusive": 29016,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1450.9,
+      "end": 1490.8,
+      "title": "Inspect the missing-SHA association",
+      "caption": "The UI shows latest-commit association behavior; expanded private tags are masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1460.3,
+          "end": 1490.8,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 525.9,
+      "output_end_seconds": 565.8,
+      "source_start_seconds": 1450.9,
+      "source_end_seconds": 1490.8,
+      "duration_seconds": 39.9,
+      "utc_start_derived": "2026-10-08T20:10:30.900000+00:00",
+      "utc_end_derived": "2026-10-08T20:11:10.800000+00:00",
+      "nominal_20fps_timeline_start_index": 29018,
+      "nominal_20fps_timeline_end_index_exclusive": 29816,
+      "first_stored_frame_ordinal_at_or_after_start": 29016,
+      "stored_frame_end_ordinal_exclusive": 29814,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1490.8,
+      "end": 1499.05,
+      "title": "Return to the baseline session",
+      "caption": "C1 events remain visible while the foreground opens the next logpoint.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 565.8,
+      "output_end_seconds": 574.05,
+      "source_start_seconds": 1490.8,
+      "source_end_seconds": 1499.05,
+      "duration_seconds": 8.25,
+      "utc_start_derived": "2026-10-08T20:11:10.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:11:19.050000+00:00",
+      "nominal_20fps_timeline_start_index": 29816,
+      "nominal_20fps_timeline_end_index_exclusive": 29981,
+      "first_stored_frame_ordinal_at_or_after_start": 29814,
+      "stored_frame_end_ordinal_exclusive": 29979,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1499.05,
+      "end": 1500,
+      "title": "Open the next logpoint",
+      "caption": "Opening animation is masked for both underlying session and modal identity regions.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ],
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1499.05,
+          "end": 1500,
+          "rect": [
+            250,
+            886,
+            955,
+            30
+          ]
+        }
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 574.05,
+      "output_end_seconds": 575.0,
+      "source_start_seconds": 1499.05,
+      "source_end_seconds": 1500,
+      "duration_seconds": 0.95,
+      "utc_start_derived": "2026-10-08T20:11:19.050000+00:00",
+      "utc_end_derived": "2026-10-08T20:11:20+00:00",
+      "nominal_20fps_timeline_start_index": 29981,
+      "nominal_20fps_timeline_end_index_exclusive": 30000,
+      "first_stored_frame_ordinal_at_or_after_start": 29979,
+      "stored_frame_end_ordinal_exclusive": 29998,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1640.85,
+      "title": "Unsubmitted production-label draft",
+      "caption": "Draft only: submission was blocked and cancelled. This is not an executed production-label control.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 575.0,
+      "output_end_seconds": 715.85,
+      "source_start_seconds": 1500,
+      "source_end_seconds": 1640.85,
+      "duration_seconds": 140.85,
+      "utc_start_derived": "2026-10-08T20:11:20+00:00",
+      "utc_end_derived": "2026-10-08T20:13:40.850000+00:00",
+      "nominal_20fps_timeline_start_index": 30000,
+      "nominal_20fps_timeline_end_index_exclusive": 32817,
+      "first_stored_frame_ordinal_at_or_after_start": 29998,
+      "stored_frame_end_ordinal_exclusive": 32815,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1641.15,
+      "end": 1670.2,
+      "title": "C1 foreground after cancelling the draft",
+      "caption": "The existing C1 event list remains visible; the cancelled draft supplied no test result.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 715.85,
+      "output_end_seconds": 744.9,
+      "source_start_seconds": 1641.15,
+      "source_end_seconds": 1670.2,
+      "duration_seconds": 29.05,
+      "utc_start_derived": "2026-10-08T20:13:41.150000+00:00",
+      "utc_end_derived": "2026-10-08T20:14:10.200000+00:00",
+      "nominal_20fps_timeline_start_index": 32823,
+      "nominal_20fps_timeline_end_index_exclusive": 33404,
+      "first_stored_frame_ordinal_at_or_after_start": 32821,
+      "stored_frame_end_ordinal_exclusive": 33402,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1670.45,
+      "end": 1733.5,
+      "title": "Prepare the C2 version-targeted control",
+      "caption": "The initial C2 filter shows no matching instance; this is setup, not a capture result.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 744.9,
+      "output_end_seconds": 807.95,
+      "source_start_seconds": 1670.45,
+      "source_end_seconds": 1733.5,
+      "duration_seconds": 63.05,
+      "utc_start_derived": "2026-10-08T20:14:10.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:15:13.500000+00:00",
+      "nominal_20fps_timeline_start_index": 33409,
+      "nominal_20fps_timeline_end_index_exclusive": 34670,
+      "first_stored_frame_ordinal_at_or_after_start": 33407,
+      "stored_frame_end_ordinal_exclusive": 34668,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1758.15,
+      "end": 1781.3,
+      "title": "C2 control setup resumes",
+      "caption": "The initial version-filter draft is cancelled before a refreshed retry.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 807.95,
+      "output_end_seconds": 831.1,
+      "source_start_seconds": 1758.15,
+      "source_end_seconds": 1781.3,
+      "duration_seconds": 23.15,
+      "utc_start_derived": "2026-10-08T20:15:38.150000+00:00",
+      "utc_end_derived": "2026-10-08T20:16:01.300000+00:00",
+      "nominal_20fps_timeline_start_index": 35163,
+      "nominal_20fps_timeline_end_index_exclusive": 35626,
+      "first_stored_frame_ordinal_at_or_after_start": 35161,
+      "stored_frame_end_ordinal_exclusive": 35624,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1781.55,
+      "end": 1799.05,
+      "title": "Reload before creating the C2 control",
+      "caption": "Reload and event-list restoration are retained at original speed.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-02-sanitized.mp4",
+      "output_start_seconds": 831.1,
+      "output_end_seconds": 848.6,
+      "source_start_seconds": 1781.55,
+      "source_end_seconds": 1799.05,
+      "duration_seconds": 17.5,
+      "utc_start_derived": "2026-10-08T20:16:01.550000+00:00",
+      "utc_end_derived": "2026-10-08T20:16:19.050000+00:00",
+      "nominal_20fps_timeline_start_index": 35631,
+      "nominal_20fps_timeline_end_index_exclusive": 35981,
+      "first_stored_frame_ordinal_at_or_after_start": 35629,
+      "stored_frame_end_ordinal_exclusive": 35979,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1799.65,
+      "end": 1853.2,
+      "title": "Add C2 pricing.py line 24",
+      "caption": "Version-targeted C2 draft; capture at the shifted source line is a separate positive control.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 53.55,
+      "source_start_seconds": 1799.65,
+      "source_end_seconds": 1853.2,
+      "duration_seconds": 53.55,
+      "utc_start_derived": "2026-10-08T20:16:19.650000+00:00",
+      "utc_end_derived": "2026-10-08T20:17:13.200000+00:00",
+      "nominal_20fps_timeline_start_index": 35993,
+      "nominal_20fps_timeline_end_index_exclusive": 37064,
+      "first_stored_frame_ordinal_at_or_after_start": 35991,
+      "stored_frame_end_ordinal_exclusive": 37062,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1853.5,
+      "end": 1904.25,
+      "title": "C1 and C2 definitions coexist",
+      "caption": "The editor warns that the file changed across selected commits; event attribution is checked separately.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 53.55,
+      "output_end_seconds": 104.3,
+      "source_start_seconds": 1853.5,
+      "source_end_seconds": 1904.25,
+      "duration_seconds": 50.75,
+      "utc_start_derived": "2026-10-08T20:17:13.500000+00:00",
+      "utc_end_derived": "2026-10-08T20:18:04.250000+00:00",
+      "nominal_20fps_timeline_start_index": 37070,
+      "nominal_20fps_timeline_end_index_exclusive": 38085,
+      "first_stored_frame_ordinal_at_or_after_start": 37068,
+      "stored_frame_end_ordinal_exclusive": 38083,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1904.45,
+      "end": 1971.8,
+      "title": "Add the numeric fixture probe",
+      "caption": "Select the fixture service and line 49; service dropdown identity is opaque-masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1910,
+          "end": 1928,
+          "rect": [
+            155,
+            312,
+            440,
+            360
+          ]
+        }
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 104.3,
+      "output_end_seconds": 171.65,
+      "source_start_seconds": 1904.45,
+      "source_end_seconds": 1971.8,
+      "duration_seconds": 67.35,
+      "utc_start_derived": "2026-10-08T20:18:04.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:19:11.800000+00:00",
+      "nominal_20fps_timeline_start_index": 38089,
+      "nominal_20fps_timeline_end_index_exclusive": 39436,
+      "first_stored_frame_ordinal_at_or_after_start": 38087,
+      "stored_frame_end_ordinal_exclusive": 39434,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1972.05,
+      "end": 2056.8,
+      "title": "Inspect the real C2 capture",
+      "caption": "Selected C2 event and pricing.py line 24 source are shown; event-row clocks are UI display values.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 171.65,
+      "output_end_seconds": 256.4,
+      "source_start_seconds": 1972.05,
+      "source_end_seconds": 2056.8,
+      "duration_seconds": 84.75,
+      "utc_start_derived": "2026-10-08T20:19:12.050000+00:00",
+      "utc_end_derived": "2026-10-08T20:20:36.800000+00:00",
+      "nominal_20fps_timeline_start_index": 39441,
+      "nominal_20fps_timeline_end_index_exclusive": 41136,
+      "first_stored_frame_ordinal_at_or_after_start": 39439,
+      "stored_frame_end_ordinal_exclusive": 41134,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2056.85,
+      "end": 2086.85,
+      "title": "Wait for the C2 log detail",
+      "caption": "The log-detail panel initially reports that the requested event is not indexed.",
+      "crop": [
+        620,
+        210,
+        622,
+        690
+      ],
+      "masks": [],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 256.4,
+      "output_end_seconds": 286.4,
+      "source_start_seconds": 2056.85,
+      "source_end_seconds": 2086.85,
+      "duration_seconds": 30.0,
+      "utc_start_derived": "2026-10-08T20:20:36.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:21:06.850000+00:00",
+      "nominal_20fps_timeline_start_index": 41137,
+      "nominal_20fps_timeline_end_index_exclusive": 41737,
+      "first_stored_frame_ordinal_at_or_after_start": 41135,
+      "stored_frame_end_ordinal_exclusive": 41735,
+      "effective_crop_source_xywh": [
+        620,
+        210,
+        622,
+        690
+      ]
+    },
+    {
+      "start": 2088.1,
+      "end": 2100.95,
+      "title": "C2 source and local values",
+      "caption": "The C2 values show quantity 3, total 3900 and unit price 1300. Repository chrome is excluded.",
+      "crop": [
+        630,
+        285,
+        596,
+        552
+      ],
+      "masks": [],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 286.4,
+      "output_end_seconds": 299.25,
+      "source_start_seconds": 2088.1,
+      "source_end_seconds": 2100.95,
+      "duration_seconds": 12.85,
+      "utc_start_derived": "2026-10-08T20:21:08.100000+00:00",
+      "utc_end_derived": "2026-10-08T20:21:20.950000+00:00",
+      "nominal_20fps_timeline_start_index": 41762,
+      "nominal_20fps_timeline_end_index_exclusive": 42019,
+      "first_stored_frame_ordinal_at_or_after_start": 41760,
+      "stored_frame_end_ordinal_exclusive": 42017,
+      "effective_crop_source_xywh": [
+        630,
+        285,
+        596,
+        552
+      ]
+    },
+    {
+      "start": 2102.2,
+      "end": 2205.65,
+      "title": "Inspect six repaired metadata controls",
+      "caption": "Fresh selected event stacks resolve pricing.py line 17; a main-editor warning may remain.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 299.25,
+      "output_end_seconds": 402.7,
+      "source_start_seconds": 2102.2,
+      "source_end_seconds": 2205.65,
+      "duration_seconds": 103.45,
+      "utc_start_derived": "2026-10-08T20:21:22.200000+00:00",
+      "utc_end_derived": "2026-10-08T20:23:05.650000+00:00",
+      "nominal_20fps_timeline_start_index": 42044,
+      "nominal_20fps_timeline_end_index_exclusive": 44113,
+      "first_stored_frame_ordinal_at_or_after_start": 42042,
+      "stored_frame_end_ordinal_exclusive": 44111,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2205.7,
+      "end": 2233.8,
+      "title": "Wait for repaired-control log detail",
+      "caption": "Loading and the not-indexed placeholder are retained; metadata inspection is separate.",
+      "crop": [
+        620,
+        210,
+        622,
+        690
+      ],
+      "masks": [],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 402.7,
+      "output_end_seconds": 430.8,
+      "source_start_seconds": 2205.7,
+      "source_end_seconds": 2233.8,
+      "duration_seconds": 28.1,
+      "utc_start_derived": "2026-10-08T20:23:05.700000+00:00",
+      "utc_end_derived": "2026-10-08T20:23:33.800000+00:00",
+      "nominal_20fps_timeline_start_index": 44114,
+      "nominal_20fps_timeline_end_index_exclusive": 44676,
+      "first_stored_frame_ordinal_at_or_after_start": 44112,
+      "stored_frame_end_ordinal_exclusive": 44674,
+      "effective_crop_source_xywh": [
+        620,
+        210,
+        622,
+        690
+      ]
+    },
+    {
+      "start": 2265.65,
+      "end": 2289.55,
+      "title": "Return to the mixed-control session",
+      "caption": "Reload and selection precede a browser failure; this does not establish a backend outage.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 430.8,
+      "output_end_seconds": 454.7,
+      "source_start_seconds": 2265.65,
+      "source_end_seconds": 2289.55,
+      "duration_seconds": 23.9,
+      "utc_start_derived": "2026-10-08T20:24:05.650000+00:00",
+      "utc_end_derived": "2026-10-08T20:24:29.550000+00:00",
+      "nominal_20fps_timeline_start_index": 45313,
+      "nominal_20fps_timeline_end_index_exclusive": 45791,
+      "first_stored_frame_ordinal_at_or_after_start": 45311,
+      "stored_frame_end_ordinal_exclusive": 45789,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2289.6,
+      "end": 2436.75,
+      "title": "Browser failure and recovery attempts",
+      "caption": "Chromium error 9 / Aw Snap. This interruption does not establish a Datadog backend failure.",
+      "crop": [
+        275,
+        280,
+        800,
+        490
+      ],
+      "masks": [],
+      "browser_interruption": true,
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 454.7,
+      "output_end_seconds": 601.85,
+      "source_start_seconds": 2289.6,
+      "source_end_seconds": 2436.75,
+      "duration_seconds": 147.15,
+      "utc_start_derived": "2026-10-08T20:24:29.600000+00:00",
+      "utc_end_derived": "2026-10-08T20:26:56.750000+00:00",
+      "nominal_20fps_timeline_start_index": 45792,
+      "nominal_20fps_timeline_end_index_exclusive": 48735,
+      "first_stored_frame_ordinal_at_or_after_start": 45790,
+      "stored_frame_end_ordinal_exclusive": 48733,
+      "effective_crop_source_xywh": [
+        275,
+        280,
+        800,
+        490
+      ]
+    },
+    {
+      "start": 2436.8,
+      "end": 2453.8,
+      "title": "Session inventory during browser recovery",
+      "caption": "Recovery reaches the session inventory. Identifying row contents are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          275,
+          480,
+          820,
+          400
+        ]
+      ],
+      "browser_interruption": true,
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 601.85,
+      "output_end_seconds": 618.85,
+      "source_start_seconds": 2436.8,
+      "source_end_seconds": 2453.8,
+      "duration_seconds": 17.0,
+      "utc_start_derived": "2026-10-08T20:26:56.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:27:13.800000+00:00",
+      "nominal_20fps_timeline_start_index": 48736,
+      "nominal_20fps_timeline_end_index_exclusive": 49076,
+      "first_stored_frame_ordinal_at_or_after_start": 48734,
+      "stored_frame_end_ordinal_exclusive": 49074,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2453.9,
+      "end": 2482.2,
+      "title": "Recovered mixed-control foreground",
+      "caption": "The session returns after the browser error. A separate work interruption follows.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 618.85,
+      "output_end_seconds": 647.15,
+      "source_start_seconds": 2453.9,
+      "source_end_seconds": 2482.2,
+      "duration_seconds": 28.3,
+      "utc_start_derived": "2026-10-08T20:27:13.900000+00:00",
+      "utc_end_derived": "2026-10-08T20:27:42.200000+00:00",
+      "nominal_20fps_timeline_start_index": 49078,
+      "nominal_20fps_timeline_end_index_exclusive": 49644,
+      "first_stored_frame_ordinal_at_or_after_start": 49076,
+      "stored_frame_end_ordinal_exclusive": 49642,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2482.9,
+      "end": 2630,
+      "title": "Interrupted wait on a fixture draft",
+      "caption": "20:27:43-20:30:08 UTC includes a work interruption; continuous active testing is not implied.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "idle_archive": true,
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 647.15,
+      "output_end_seconds": 794.25,
+      "source_start_seconds": 2482.9,
+      "source_end_seconds": 2630,
+      "duration_seconds": 147.1,
+      "utc_start_derived": "2026-10-08T20:27:42.900000+00:00",
+      "utc_end_derived": "2026-10-08T20:30:10+00:00",
+      "nominal_20fps_timeline_start_index": 49658,
+      "nominal_20fps_timeline_end_index_exclusive": 52600,
+      "first_stored_frame_ordinal_at_or_after_start": 49656,
+      "stored_frame_end_ordinal_exclusive": 52597,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 2630,
+      "end": 2683.55,
+      "title": "Add the complex-value fixture probe",
+      "caption": "The fixture draft resumes; service-menu identity is masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 2644,
+          "end": 2647,
+          "rect": [
+            155,
+            312,
+            440,
+            360
+          ]
+        }
+      ],
+      "output_file": "source-17-part-03-sanitized.mp4",
+      "output_start_seconds": 794.25,
+      "output_end_seconds": 847.8,
+      "source_start_seconds": 2630,
+      "source_end_seconds": 2683.55,
+      "duration_seconds": 53.55,
+      "utc_start_derived": "2026-10-08T20:30:10+00:00",
+      "utc_end_derived": "2026-10-08T20:31:03.550000+00:00",
+      "nominal_20fps_timeline_start_index": 52600,
+      "nominal_20fps_timeline_end_index_exclusive": 53671,
+      "first_stored_frame_ordinal_at_or_after_start": 52597,
+      "stored_frame_end_ordinal_exclusive": 53668,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 2683.8,
+      "end": 2836.25,
+      "title": "Inspect C1 and complex fixture source",
+      "caption": "Selected source and numeric controls remain visible. The complex probe is then disabled.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 152.45,
+      "source_start_seconds": 2683.8,
+      "source_end_seconds": 2836.25,
+      "duration_seconds": 152.45,
+      "utc_start_derived": "2026-10-08T20:31:03.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:33:36.250000+00:00",
+      "nominal_20fps_timeline_start_index": 53676,
+      "nominal_20fps_timeline_end_index_exclusive": 56725,
+      "first_stored_frame_ordinal_at_or_after_start": 53673,
+      "stored_frame_end_ordinal_exclusive": 56722,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2836.3,
+      "end": 2846.15,
+      "title": "Wait for the pre-restart log detail",
+      "caption": "The log detail loads before the received metadata inspection.",
+      "crop": [
+        620,
+        210,
+        622,
+        690
+      ],
+      "masks": [],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 152.45,
+      "output_end_seconds": 162.3,
+      "source_start_seconds": 2836.3,
+      "source_end_seconds": 2846.15,
+      "duration_seconds": 9.85,
+      "utc_start_derived": "2026-10-08T20:33:36.300000+00:00",
+      "utc_end_derived": "2026-10-08T20:33:46.150000+00:00",
+      "nominal_20fps_timeline_start_index": 56726,
+      "nominal_20fps_timeline_end_index_exclusive": 56923,
+      "first_stored_frame_ordinal_at_or_after_start": 56723,
+      "stored_frame_end_ordinal_exclusive": 56920,
+      "effective_crop_source_xywh": [
+        620,
+        210,
+        622,
+        690
+      ]
+    },
+    {
+      "start": 2873.8,
+      "end": 2972.85,
+      "title": "Observe events around the fixture restart",
+      "caption": "Restart timing needs the runtime receipt; continued UI events alone do not prove the process restart.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 162.3,
+      "output_end_seconds": 261.35,
+      "source_start_seconds": 2873.8,
+      "source_end_seconds": 2972.85,
+      "duration_seconds": 99.05,
+      "utc_start_derived": "2026-10-08T20:34:13.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:35:52.850000+00:00",
+      "nominal_20fps_timeline_start_index": 57476,
+      "nominal_20fps_timeline_end_index_exclusive": 59457,
+      "first_stored_frame_ordinal_at_or_after_start": 57473,
+      "stored_frame_end_ordinal_exclusive": 59454,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2972.9,
+      "end": 2986.45,
+      "title": "Wait for the post-restart log detail",
+      "caption": "The post-restart detail opens. Actual captured-process values are separate evidence.",
+      "crop": [
+        620,
+        210,
+        622,
+        690
+      ],
+      "masks": [],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 261.35,
+      "output_end_seconds": 274.9,
+      "source_start_seconds": 2972.9,
+      "source_end_seconds": 2986.45,
+      "duration_seconds": 13.55,
+      "utc_start_derived": "2026-10-08T20:35:52.900000+00:00",
+      "utc_end_derived": "2026-10-08T20:36:06.450000+00:00",
+      "nominal_20fps_timeline_start_index": 59458,
+      "nominal_20fps_timeline_end_index_exclusive": 59729,
+      "first_stored_frame_ordinal_at_or_after_start": 59455,
+      "stored_frame_end_ordinal_exclusive": 59726,
+      "effective_crop_source_xywh": [
+        620,
+        210,
+        622,
+        690
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3012.3,
+      "title": "Inspect the retained value capture",
+      "caption": "Selected stack shows the synthetic value control; private repository prefixes are masked.",
+      "crop": [
+        632,
+        315,
+        596,
+        530
+      ],
+      "masks": [
+        [
+          694,
+          366,
+          215,
+          24
+        ],
+        [
+          694,
+          777,
+          215,
+          26
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 274.9,
+      "output_end_seconds": 287.2,
+      "source_start_seconds": 3000,
+      "source_end_seconds": 3012.3,
+      "duration_seconds": 12.3,
+      "utc_start_derived": "2026-10-08T20:36:20+00:00",
+      "utc_end_derived": "2026-10-08T20:36:32.300000+00:00",
+      "nominal_20fps_timeline_start_index": 60000,
+      "nominal_20fps_timeline_end_index_exclusive": 60246,
+      "first_stored_frame_ordinal_at_or_after_start": 59997,
+      "stored_frame_end_ordinal_exclusive": 60243,
+      "effective_crop_source_xywh": [
+        632,
+        315,
+        596,
+        530
+      ]
+    },
+    {
+      "start": 3012.3,
+      "end": 3068.3,
+      "title": "Return to the grouped session",
+      "caption": "Loading and the mixed-revision editor are preserved at original speed.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 287.2,
+      "output_end_seconds": 343.2,
+      "source_start_seconds": 3012.3,
+      "source_end_seconds": 3068.3,
+      "duration_seconds": 56.0,
+      "utc_start_derived": "2026-10-08T20:36:32.300000+00:00",
+      "utc_end_derived": "2026-10-08T20:37:28.300000+00:00",
+      "nominal_20fps_timeline_start_index": 60246,
+      "nominal_20fps_timeline_end_index_exclusive": 61366,
+      "first_stored_frame_ordinal_at_or_after_start": 60243,
+      "stored_frame_end_ordinal_exclusive": 61363,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3068.3,
+      "end": 3142.85,
+      "title": "Prepare the alpha path probe",
+      "caption": "Manual source-path setup is shown. Service identity is masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          310,
+          440,
+          48
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 3068.3,
+          "end": 3070,
+          "rect": [
+            150,
+            300,
+            450,
+            360
+          ]
+        },
+        {
+          "start": 3098.6,
+          "end": 3100,
+          "rect": [
+            150,
+            300,
+            450,
+            360
+          ]
+        },
+        {
+          "start": 3068.3,
+          "end": 3069.3,
+          "rect": [
+            435,
+            300,
+            570,
+            50
+          ]
+        },
+        {
+          "start": 3068.3,
+          "end": 3069.3,
+          "rect": [
+            250,
+            390,
+            435,
+            140
+          ]
+        },
+        {
+          "start": 3068.3,
+          "end": 3069.3,
+          "rect": [
+            250,
+            886,
+            955,
+            30
+          ]
+        }
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 343.2,
+      "output_end_seconds": 417.75,
+      "source_start_seconds": 3068.3,
+      "source_end_seconds": 3142.85,
+      "duration_seconds": 74.55,
+      "utc_start_derived": "2026-10-08T20:37:28.300000+00:00",
+      "utc_end_derived": "2026-10-08T20:38:42.850000+00:00",
+      "nominal_20fps_timeline_start_index": 61366,
+      "nominal_20fps_timeline_end_index_exclusive": 62857,
+      "first_stored_frame_ordinal_at_or_after_start": 61363,
+      "stored_frame_end_ordinal_exclusive": 62854,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 3143.1,
+      "end": 3181.6,
+      "title": "Alpha path probe receives events",
+      "caption": "The foreground event list includes the synthetic alpha marker.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 417.75,
+      "output_end_seconds": 456.25,
+      "source_start_seconds": 3143.1,
+      "source_end_seconds": 3181.6,
+      "duration_seconds": 38.5,
+      "utc_start_derived": "2026-10-08T20:38:43.100000+00:00",
+      "utc_end_derived": "2026-10-08T20:39:21.600000+00:00",
+      "nominal_20fps_timeline_start_index": 62862,
+      "nominal_20fps_timeline_end_index_exclusive": 63632,
+      "first_stored_frame_ordinal_at_or_after_start": 62859,
+      "stored_frame_end_ordinal_exclusive": 63629,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3181.6,
+      "end": 3237.2,
+      "title": "Prepare the beta path probe",
+      "caption": "Manual source-path setup is shown. Service identity is masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          310,
+          440,
+          48
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 3200.8,
+          "end": 3202,
+          "rect": [
+            150,
+            300,
+            450,
+            360
+          ]
+        },
+        {
+          "start": 3181.6,
+          "end": 3182.6,
+          "rect": [
+            435,
+            300,
+            570,
+            50
+          ]
+        },
+        {
+          "start": 3181.6,
+          "end": 3182.6,
+          "rect": [
+            250,
+            390,
+            435,
+            140
+          ]
+        },
+        {
+          "start": 3181.6,
+          "end": 3182.6,
+          "rect": [
+            250,
+            886,
+            955,
+            30
+          ]
+        }
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 456.25,
+      "output_end_seconds": 511.85,
+      "source_start_seconds": 3181.6,
+      "source_end_seconds": 3237.2,
+      "duration_seconds": 55.6,
+      "utc_start_derived": "2026-10-08T20:39:21.600000+00:00",
+      "utc_end_derived": "2026-10-08T20:40:17.200000+00:00",
+      "nominal_20fps_timeline_start_index": 63632,
+      "nominal_20fps_timeline_end_index_exclusive": 64744,
+      "first_stored_frame_ordinal_at_or_after_start": 63629,
+      "stored_frame_end_ordinal_exclusive": 64741,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 3237.45,
+      "end": 3257.8,
+      "title": "Beta path probe receives events",
+      "caption": "The foreground event list includes the synthetic beta marker.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 511.85,
+      "output_end_seconds": 532.2,
+      "source_start_seconds": 3237.45,
+      "source_end_seconds": 3257.8,
+      "duration_seconds": 20.35,
+      "utc_start_derived": "2026-10-08T20:40:17.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:40:37.800000+00:00",
+      "nominal_20fps_timeline_start_index": 64749,
+      "nominal_20fps_timeline_end_index_exclusive": 65156,
+      "first_stored_frame_ordinal_at_or_after_start": 64746,
+      "stored_frame_end_ordinal_exclusive": 65153,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3257.8,
+      "end": 3307.3,
+      "title": "Prepare the Unicode path probe",
+      "caption": "Manual source-path setup is shown. Service identity is masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          310,
+          440,
+          48
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 3267.5,
+          "end": 3269.2,
+          "rect": [
+            150,
+            300,
+            450,
+            360
+          ]
+        },
+        {
+          "start": 3257.8,
+          "end": 3258.8,
+          "rect": [
+            435,
+            300,
+            570,
+            50
+          ]
+        },
+        {
+          "start": 3257.8,
+          "end": 3258.8,
+          "rect": [
+            250,
+            390,
+            435,
+            140
+          ]
+        },
+        {
+          "start": 3257.8,
+          "end": 3258.8,
+          "rect": [
+            250,
+            886,
+            955,
+            30
+          ]
+        }
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 532.2,
+      "output_end_seconds": 581.7,
+      "source_start_seconds": 3257.8,
+      "source_end_seconds": 3307.3,
+      "duration_seconds": 49.5,
+      "utc_start_derived": "2026-10-08T20:40:37.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:41:27.300000+00:00",
+      "nominal_20fps_timeline_start_index": 65156,
+      "nominal_20fps_timeline_end_index_exclusive": 66146,
+      "first_stored_frame_ordinal_at_or_after_start": 65153,
+      "stored_frame_end_ordinal_exclusive": 66143,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 3307.5,
+      "end": 3545.45,
+      "title": "Inspect path-control captures and error",
+      "caption": "Alpha/beta captures and the Unicode-path application error are visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          523,
+          390,
+          47
+        ],
+        [
+          500,
+          817,
+          145,
+          55
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 581.7,
+      "output_end_seconds": 819.65,
+      "source_start_seconds": 3307.5,
+      "source_end_seconds": 3545.45,
+      "duration_seconds": 237.95,
+      "utc_start_derived": "2026-10-08T20:41:27.500000+00:00",
+      "utc_end_derived": "2026-10-08T20:45:25.450000+00:00",
+      "nominal_20fps_timeline_start_index": 66150,
+      "nominal_20fps_timeline_end_index_exclusive": 70909,
+      "first_stored_frame_ordinal_at_or_after_start": 66147,
+      "stored_frame_end_ordinal_exclusive": 70906,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3545.45,
+      "end": 3578.7,
+      "title": "Open the selected event in Logs",
+      "caption": "Loading and received log metadata remain visible; private metadata values are masked.",
+      "crop": [
+        618,
+        215,
+        628,
+        380
+      ],
+      "masks": [
+        [
+          628,
+          300,
+          402,
+          70
+        ],
+        [
+          628,
+          402,
+          598,
+          85
+        ]
+      ],
+      "output_file": "source-17-part-04-sanitized.mp4",
+      "output_start_seconds": 819.65,
+      "output_end_seconds": 852.9,
+      "source_start_seconds": 3545.45,
+      "source_end_seconds": 3578.7,
+      "duration_seconds": 33.25,
+      "utc_start_derived": "2026-10-08T20:45:25.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:45:58.700000+00:00",
+      "nominal_20fps_timeline_start_index": 70909,
+      "nominal_20fps_timeline_end_index_exclusive": 71574,
+      "first_stored_frame_ordinal_at_or_after_start": 70906,
+      "stored_frame_end_ordinal_exclusive": 71571,
+      "effective_crop_source_xywh": [
+        618,
+        215,
+        628,
+        380
+      ]
+    },
+    {
+      "start": 3580.05,
+      "end": 3949,
+      "title": "Inspect captures during the nominal Agent window",
+      "caption": "Foreground captures continue. Planned Agent timing is not proof that an outage occurred.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          495,
+          690,
+          195,
+          100
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 368.95,
+      "source_start_seconds": 3580.05,
+      "source_end_seconds": 3949,
+      "duration_seconds": 368.95,
+      "utc_start_derived": "2026-10-08T20:46:00.050000+00:00",
+      "utc_end_derived": "2026-10-08T20:52:09+00:00",
+      "nominal_20fps_timeline_start_index": 71601,
+      "nominal_20fps_timeline_end_index_exclusive": 78980,
+      "first_stored_frame_ordinal_at_or_after_start": 71598,
+      "stored_frame_end_ordinal_exclusive": 78977,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3949,
+      "end": 4012.35,
+      "title": "Open another value event in Logs",
+      "caption": "The event log is inspected. Private host, service and tag values are masked.",
+      "crop": [
+        618,
+        215,
+        628,
+        380
+      ],
+      "masks": [
+        [
+          628,
+          300,
+          402,
+          70
+        ],
+        [
+          628,
+          402,
+          598,
+          85
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 368.95,
+      "output_end_seconds": 432.3,
+      "source_start_seconds": 3949,
+      "source_end_seconds": 4012.35,
+      "duration_seconds": 63.35,
+      "utc_start_derived": "2026-10-08T20:52:09+00:00",
+      "utc_end_derived": "2026-10-08T20:53:12.350000+00:00",
+      "nominal_20fps_timeline_start_index": 78980,
+      "nominal_20fps_timeline_end_index_exclusive": 80247,
+      "first_stored_frame_ordinal_at_or_after_start": 78977,
+      "stored_frame_end_ordinal_exclusive": 80244,
+      "effective_crop_source_xywh": [
+        618,
+        215,
+        628,
+        380
+      ]
+    },
+    {
+      "start": 4012.8,
+      "end": 4040.75,
+      "title": "Inspect value source and variables",
+      "caption": "The selected stack shows value=2 and numeric_control=90002.",
+      "crop": [
+        632,
+        315,
+        596,
+        530
+      ],
+      "masks": [
+        [
+          694,
+          366,
+          215,
+          24
+        ],
+        [
+          694,
+          777,
+          215,
+          26
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 432.3,
+      "output_end_seconds": 460.25,
+      "source_start_seconds": 4012.8,
+      "source_end_seconds": 4040.75,
+      "duration_seconds": 27.95,
+      "utc_start_derived": "2026-10-08T20:53:12.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:53:40.750000+00:00",
+      "nominal_20fps_timeline_start_index": 80256,
+      "nominal_20fps_timeline_end_index_exclusive": 80815,
+      "first_stored_frame_ordinal_at_or_after_start": 80253,
+      "stored_frame_end_ordinal_exclusive": 80812,
+      "effective_crop_source_xywh": [
+        632,
+        315,
+        596,
+        530
+      ]
+    },
+    {
+      "start": 4040.75,
+      "end": 4064.45,
+      "title": "Inspect the running synthetic workflow",
+      "caption": "Provider step status is shown; it is not an application QA verdict.",
+      "crop": [
+        435,
+        380,
+        798,
+        420
+      ],
+      "masks": [],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 460.25,
+      "output_end_seconds": 483.95,
+      "source_start_seconds": 4040.75,
+      "source_end_seconds": 4064.45,
+      "duration_seconds": 23.7,
+      "utc_start_derived": "2026-10-08T20:53:40.750000+00:00",
+      "utc_end_derived": "2026-10-08T20:54:04.450000+00:00",
+      "nominal_20fps_timeline_start_index": 80815,
+      "nominal_20fps_timeline_end_index_exclusive": 81289,
+      "first_stored_frame_ordinal_at_or_after_start": 80812,
+      "stored_frame_end_ordinal_exclusive": 81286,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        798,
+        420
+      ]
+    },
+    {
+      "start": 4064.8,
+      "end": 4076.35,
+      "title": "Read the workflow phase plan",
+      "caption": "The displayed stop_agent and tiny_burst entries are planned phases, not completion receipts.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          510,
+          662,
+          715,
+          44
+        ],
+        [
+          510,
+          762,
+          715,
+          44
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 483.95,
+      "output_end_seconds": 495.5,
+      "source_start_seconds": 4064.8,
+      "source_end_seconds": 4076.35,
+      "duration_seconds": 11.55,
+      "utc_start_derived": "2026-10-08T20:54:04.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:54:16.350000+00:00",
+      "nominal_20fps_timeline_start_index": 81296,
+      "nominal_20fps_timeline_end_index_exclusive": 81527,
+      "first_stored_frame_ordinal_at_or_after_start": 81293,
+      "stored_frame_end_ordinal_exclusive": 81524,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4076.6,
+      "end": 4102.95,
+      "title": "Inspect synthetic metadata-control records",
+      "caption": "Private repository URLs are masked. The visible receipt describes a separate preflight scope.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          510,
+          348,
+          715,
+          44
+        ],
+        [
+          510,
+          448,
+          715,
+          44
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 495.5,
+      "output_end_seconds": 521.85,
+      "source_start_seconds": 4076.6,
+      "source_end_seconds": 4102.95,
+      "duration_seconds": 26.35,
+      "utc_start_derived": "2026-10-08T20:54:16.600000+00:00",
+      "utc_end_derived": "2026-10-08T20:54:42.950000+00:00",
+      "nominal_20fps_timeline_start_index": 81532,
+      "nominal_20fps_timeline_end_index_exclusive": 82059,
+      "first_stored_frame_ordinal_at_or_after_start": 81529,
+      "stored_frame_end_ordinal_exclusive": 82056,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4103.3,
+      "end": 4122.7,
+      "title": "Inspect synthetic runtime counters",
+      "caption": "Provider output shows runtime counters. No Agent-outage conclusion is implied.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          550,
+          694,
+          590,
+          34
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 521.85,
+      "output_end_seconds": 541.25,
+      "source_start_seconds": 4103.3,
+      "source_end_seconds": 4122.7,
+      "duration_seconds": 19.4,
+      "utc_start_derived": "2026-10-08T20:54:43.300000+00:00",
+      "utc_end_derived": "2026-10-08T20:55:02.700000+00:00",
+      "nominal_20fps_timeline_start_index": 82066,
+      "nominal_20fps_timeline_end_index_exclusive": 82454,
+      "first_stored_frame_ordinal_at_or_after_start": 82063,
+      "stored_frame_end_ordinal_exclusive": 82451,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4123.2,
+      "end": 4188.75,
+      "title": "Inspect repair-control records",
+      "caption": "Private service and repository strings are masked; planned-versus-actual distinctions remain open.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          550,
+          317,
+          610,
+          32
+        ],
+        [
+          510,
+          480,
+          715,
+          45
+        ],
+        [
+          510,
+          580,
+          715,
+          45
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 541.25,
+      "output_end_seconds": 606.8,
+      "source_start_seconds": 4123.2,
+      "source_end_seconds": 4188.75,
+      "duration_seconds": 65.55,
+      "utc_start_derived": "2026-10-08T20:55:03.200000+00:00",
+      "utc_end_derived": "2026-10-08T20:56:08.750000+00:00",
+      "nominal_20fps_timeline_start_index": 82464,
+      "nominal_20fps_timeline_end_index_exclusive": 83775,
+      "first_stored_frame_ordinal_at_or_after_start": 82461,
+      "stored_frame_end_ordinal_exclusive": 83772,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4189.75,
+      "end": 4221.5,
+      "title": "Find the planned Agent stop",
+      "caption": "Search finds stop_agent in planned_phases. This is not an execution receipt.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          510,
+          740,
+          715,
+          45
+        ],
+        [
+          510,
+          840,
+          715,
+          40
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 606.8,
+      "output_end_seconds": 638.55,
+      "source_start_seconds": 4189.75,
+      "source_end_seconds": 4221.5,
+      "duration_seconds": 31.75,
+      "utc_start_derived": "2026-10-08T20:56:09.750000+00:00",
+      "utc_end_derived": "2026-10-08T20:56:41.500000+00:00",
+      "nominal_20fps_timeline_start_index": 83795,
+      "nominal_20fps_timeline_end_index_exclusive": 84430,
+      "first_stored_frame_ordinal_at_or_after_start": 83792,
+      "stored_frame_end_ordinal_exclusive": 84427,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4223.5,
+      "end": 4255.4,
+      "title": "Search for the Agent restoration",
+      "caption": "The foreground search shows restore_agent with 0/0 matches; actual lifecycle remains unverified.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          510,
+          820,
+          715,
+          45
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 638.55,
+      "output_end_seconds": 670.45,
+      "source_start_seconds": 4223.5,
+      "source_end_seconds": 4255.4,
+      "duration_seconds": 31.9,
+      "utc_start_derived": "2026-10-08T20:56:43.500000+00:00",
+      "utc_end_derived": "2026-10-08T20:57:15.400000+00:00",
+      "nominal_20fps_timeline_start_index": 84470,
+      "nominal_20fps_timeline_end_index_exclusive": 85108,
+      "first_stored_frame_ordinal_at_or_after_start": 84467,
+      "stored_frame_end_ordinal_exclusive": 85105,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4255.75,
+      "end": 4273.1,
+      "title": "Return to workflow step status",
+      "caption": "The synthetic workflow is still shown in progress.",
+      "crop": [
+        435,
+        380,
+        798,
+        500
+      ],
+      "masks": [],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 670.45,
+      "output_end_seconds": 687.8,
+      "source_start_seconds": 4255.75,
+      "source_end_seconds": 4273.1,
+      "duration_seconds": 17.35,
+      "utc_start_derived": "2026-10-08T20:57:15.750000+00:00",
+      "utc_end_derived": "2026-10-08T20:57:33.100000+00:00",
+      "nominal_20fps_timeline_start_index": 85115,
+      "nominal_20fps_timeline_end_index_exclusive": 85462,
+      "first_stored_frame_ordinal_at_or_after_start": 85112,
+      "stored_frame_end_ordinal_exclusive": 85459,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        798,
+        500
+      ]
+    },
+    {
+      "start": 4273.1,
+      "end": 4312.1,
+      "title": "Return to the value stack",
+      "caption": "The retained synthetic value capture is shown again.",
+      "crop": [
+        632,
+        315,
+        596,
+        530
+      ],
+      "masks": [
+        [
+          694,
+          366,
+          215,
+          24
+        ],
+        [
+          694,
+          777,
+          215,
+          26
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 687.8,
+      "output_end_seconds": 726.8,
+      "source_start_seconds": 4273.1,
+      "source_end_seconds": 4312.1,
+      "duration_seconds": 39.0,
+      "utc_start_derived": "2026-10-08T20:57:33.100000+00:00",
+      "utc_end_derived": "2026-10-08T20:58:12.100000+00:00",
+      "nominal_20fps_timeline_start_index": 85462,
+      "nominal_20fps_timeline_end_index_exclusive": 86242,
+      "first_stored_frame_ordinal_at_or_after_start": 85459,
+      "stored_frame_end_ordinal_exclusive": 86239,
+      "effective_crop_source_xywh": [
+        632,
+        315,
+        596,
+        530
+      ]
+    },
+    {
+      "start": 4312.55,
+      "end": 4374.05,
+      "title": "Inspect retained event metadata",
+      "caption": "Private host, service and tag values are masked.",
+      "crop": [
+        618,
+        215,
+        628,
+        380
+      ],
+      "masks": [
+        [
+          628,
+          300,
+          402,
+          70
+        ],
+        [
+          628,
+          402,
+          598,
+          85
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 726.8,
+      "output_end_seconds": 788.3,
+      "source_start_seconds": 4312.55,
+      "source_end_seconds": 4374.05,
+      "duration_seconds": 61.5,
+      "utc_start_derived": "2026-10-08T20:58:12.550000+00:00",
+      "utc_end_derived": "2026-10-08T20:59:14.050000+00:00",
+      "nominal_20fps_timeline_start_index": 86251,
+      "nominal_20fps_timeline_end_index_exclusive": 87481,
+      "first_stored_frame_ordinal_at_or_after_start": 86248,
+      "stored_frame_end_ordinal_exclusive": 87478,
+      "effective_crop_source_xywh": [
+        618,
+        215,
+        628,
+        380
+      ]
+    },
+    {
+      "start": 4374.05,
+      "end": 4445,
+      "title": "Switch the main editor revision",
+      "caption": "The editor offers C1/C2 revision selection; the source warning remains visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-05-sanitized.mp4",
+      "output_start_seconds": 788.3,
+      "output_end_seconds": 859.25,
+      "source_start_seconds": 4374.05,
+      "source_end_seconds": 4445,
+      "duration_seconds": 70.95,
+      "utc_start_derived": "2026-10-08T20:59:14.050000+00:00",
+      "utc_end_derived": "2026-10-08T21:00:25+00:00",
+      "nominal_20fps_timeline_start_index": 87481,
+      "nominal_20fps_timeline_end_index_exclusive": 88900,
+      "first_stored_frame_ordinal_at_or_after_start": 87478,
+      "stored_frame_end_ordinal_exclusive": 88897,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4445,
+      "end": 4860,
+      "title": "Inspect revised source and incoming captures",
+      "caption": "Source, capture and event panes are retained. Service-list identities are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          530,
+          435,
+          176
+        ]
+      ],
+      "output_file": "source-17-part-06-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 415.0,
+      "source_start_seconds": 4445,
+      "source_end_seconds": 4860,
+      "duration_seconds": 415,
+      "utc_start_derived": "2026-10-08T21:00:25+00:00",
+      "utc_end_derived": "2026-10-08T21:07:20+00:00",
+      "nominal_20fps_timeline_start_index": 88900,
+      "nominal_20fps_timeline_end_index_exclusive": 97200,
+      "first_stored_frame_ordinal_at_or_after_start": 88897,
+      "stored_frame_end_ordinal_exclusive": 97197,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4860,
+      "end": 4876.05,
+      "title": "Prepare the unsaved STALE_B draft",
+      "caption": "The dirty STALE_B log template is visible. No stale edit acceptance is implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-06-sanitized.mp4",
+      "output_start_seconds": 415.0,
+      "output_end_seconds": 431.05,
+      "source_start_seconds": 4860,
+      "source_end_seconds": 4876.05,
+      "duration_seconds": 16.05,
+      "utc_start_derived": "2026-10-08T21:07:20+00:00",
+      "utc_end_derived": "2026-10-08T21:07:36.050000+00:00",
+      "nominal_20fps_timeline_start_index": 97200,
+      "nominal_20fps_timeline_end_index_exclusive": 97521,
+      "first_stored_frame_ordinal_at_or_after_start": 97197,
+      "stored_frame_end_ordinal_exclusive": 97518,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4876.05,
+      "end": 4928.5,
+      "title": "Save value == 2 in the other tab",
+      "caption": "The other tab retains the original log template while its condition is changed and saved.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          530,
+          435,
+          176
+        ]
+      ],
+      "output_file": "source-17-part-06-sanitized.mp4",
+      "output_start_seconds": 431.05,
+      "output_end_seconds": 483.5,
+      "source_start_seconds": 4876.05,
+      "source_end_seconds": 4928.5,
+      "duration_seconds": 52.45,
+      "utc_start_derived": "2026-10-08T21:07:36.050000+00:00",
+      "utc_end_derived": "2026-10-08T21:08:28.500000+00:00",
+      "nominal_20fps_timeline_start_index": 97521,
+      "nominal_20fps_timeline_end_index_exclusive": 98570,
+      "first_stored_frame_ordinal_at_or_after_start": 97518,
+      "stored_frame_end_ordinal_exclusive": 98567,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4928.5,
+      "end": 5131,
+      "title": "Stale editor resets after the other tab saves",
+      "caption": "STALE_B resets to the original template and value == 2; Apply is disabled. Reload is then checked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-17-part-06-sanitized.mp4",
+      "output_start_seconds": 483.5,
+      "output_end_seconds": 686.0,
+      "source_start_seconds": 4928.5,
+      "source_end_seconds": 5131,
+      "duration_seconds": 202.5,
+      "utc_start_derived": "2026-10-08T21:08:28.500000+00:00",
+      "utc_end_derived": "2026-10-08T21:11:51+00:00",
+      "nominal_20fps_timeline_start_index": 98570,
+      "nominal_20fps_timeline_end_index_exclusive": 102620,
+      "first_stored_frame_ordinal_at_or_after_start": 98567,
+      "stored_frame_end_ordinal_exclusive": 102617,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5131,
+      "end": 5379.4,
+      "title": "Inspect long strings, Unicode and cyclic values",
+      "caption": "Synthetic complex values are expanded in the capture pane. No burst receipt is established.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 5378.9,
+          "end": 5379.4,
+          "rect": [
+            995,
+            300,
+            110,
+            50
+          ]
+        }
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 248.4,
+      "source_start_seconds": 5131,
+      "source_end_seconds": 5379.4,
+      "duration_seconds": 248.4,
+      "utc_start_derived": "2026-10-08T21:11:51+00:00",
+      "utc_end_derived": "2026-10-08T21:15:59.400000+00:00",
+      "nominal_20fps_timeline_start_index": 102620,
+      "nominal_20fps_timeline_end_index_exclusive": 107588,
+      "first_stored_frame_ordinal_at_or_after_start": 102617,
+      "stored_frame_end_ordinal_exclusive": 107585,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5379.4,
+      "end": 5419.35,
+      "title": "Stop the grouped session",
+      "caption": "INACTIVE appears after the stop action; retained captures remain available.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 248.4,
+      "output_end_seconds": 288.35,
+      "source_start_seconds": 5379.4,
+      "source_end_seconds": 5419.35,
+      "duration_seconds": 39.95,
+      "utc_start_derived": "2026-10-08T21:15:59.400000+00:00",
+      "utc_end_derived": "2026-10-08T21:16:39.350000+00:00",
+      "nominal_20fps_timeline_start_index": 107588,
+      "nominal_20fps_timeline_end_index_exclusive": 108387,
+      "first_stored_frame_ordinal_at_or_after_start": 107585,
+      "stored_frame_end_ordinal_exclusive": 108384,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5419.35,
+      "end": 5466.15,
+      "title": "Inspect the inactive source session",
+      "caption": "The earlier source-metadata session is also INACTIVE with retained events.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 288.35,
+      "output_end_seconds": 335.15,
+      "source_start_seconds": 5419.35,
+      "source_end_seconds": 5466.15,
+      "duration_seconds": 46.8,
+      "utc_start_derived": "2026-10-08T21:16:39.350000+00:00",
+      "utc_end_derived": "2026-10-08T21:17:26.150000+00:00",
+      "nominal_20fps_timeline_start_index": 108387,
+      "nominal_20fps_timeline_end_index_exclusive": 109323,
+      "first_stored_frame_ordinal_at_or_after_start": 108384,
+      "stored_frame_end_ordinal_exclusive": 109320,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5466.15,
+      "end": 5570.35,
+      "title": "Review the inactive session inventory",
+      "caption": "The list shows 7 total, 0 active and 7 inactive sessions. Identities are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          270,
+          545,
+          660,
+          335
+        ]
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 335.15,
+      "output_end_seconds": 439.35,
+      "source_start_seconds": 5466.15,
+      "source_end_seconds": 5570.35,
+      "duration_seconds": 104.2,
+      "utc_start_derived": "2026-10-08T21:17:26.150000+00:00",
+      "utc_end_derived": "2026-10-08T21:19:10.350000+00:00",
+      "nominal_20fps_timeline_start_index": 109323,
+      "nominal_20fps_timeline_end_index_exclusive": 111407,
+      "first_stored_frame_ordinal_at_or_after_start": 109320,
+      "stored_frame_end_ordinal_exclusive": 111404,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5570.35,
+      "end": 5570.95,
+      "title": "Return to a retained session tab",
+      "caption": "A cached tab briefly shows prior UI state before reload; this does not prove a restart.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 439.35,
+      "output_end_seconds": 439.95,
+      "source_start_seconds": 5570.35,
+      "source_end_seconds": 5570.95,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T21:19:10.350000+00:00",
+      "utc_end_derived": "2026-10-08T21:19:10.950000+00:00",
+      "nominal_20fps_timeline_start_index": 111407,
+      "nominal_20fps_timeline_end_index_exclusive": 111419,
+      "first_stored_frame_ordinal_at_or_after_start": 111404,
+      "stored_frame_end_ordinal_exclusive": 111416,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5570.95,
+      "end": 5673.4,
+      "title": "Inspect retained captures after reload",
+      "caption": "INACTIVE and an OUTDATED selected capture are visible after reload.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 439.95,
+      "output_end_seconds": 542.4,
+      "source_start_seconds": 5570.95,
+      "source_end_seconds": 5673.4,
+      "duration_seconds": 102.45,
+      "utc_start_derived": "2026-10-08T21:19:10.950000+00:00",
+      "utc_end_derived": "2026-10-08T21:20:53.400000+00:00",
+      "nominal_20fps_timeline_start_index": 111419,
+      "nominal_20fps_timeline_end_index_exclusive": 113468,
+      "first_stored_frame_ordinal_at_or_after_start": 111416,
+      "stored_frame_end_ordinal_exclusive": 113460,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5673.4,
+      "end": 5714,
+      "title": "Inspect the completed provider workflow",
+      "caption": "GitHub reports Success and 1h30m57s duration. This is workflow status, not overall QA PASS.",
+      "crop": [
+        435,
+        240,
+        798,
+        648
+      ],
+      "masks": [
+        [
+          450,
+          280,
+          505,
+          183
+        ],
+        [
+          465,
+          813,
+          290,
+          52
+        ]
+      ],
+      "output_file": "source-17-part-07-sanitized.mp4",
+      "output_start_seconds": 542.4,
+      "output_end_seconds": 583.0,
+      "source_start_seconds": 5673.4,
+      "source_end_seconds": 5714,
+      "duration_seconds": 40.6,
+      "utc_start_derived": "2026-10-08T21:20:53.400000+00:00",
+      "utc_end_derived": "2026-10-08T21:21:34+00:00",
+      "nominal_20fps_timeline_start_index": 113468,
+      "nominal_20fps_timeline_end_index_exclusive": 114280,
+      "first_stored_frame_ordinal_at_or_after_start": 113460,
+      "stored_frame_end_ordinal_exclusive": 114272,
+      "effective_crop_source_xywh": [
+        435,
+        240,
+        798,
+        648
+      ]
+    },
+    {
+      "start": 5714,
+      "end": 6032.85,
+      "title": "Inspect the generated workflow artifact",
+      "caption": "The artifact row remains visible. Unrelated download history and account identity are masked.",
+      "crop": [
+        435,
+        240,
+        798,
+        648
+      ],
+      "masks": [
+        [
+          450,
+          280,
+          505,
+          183
+        ],
+        [
+          865,
+          170,
+          340,
+          335
+        ],
+        [
+          465,
+          813,
+          290,
+          52
+        ]
+      ],
+      "output_file": "source-17-part-08-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 318.85,
+      "source_start_seconds": 5714,
+      "source_end_seconds": 6032.85,
+      "duration_seconds": 318.85,
+      "utc_start_derived": "2026-10-08T21:21:34+00:00",
+      "utc_end_derived": "2026-10-08T21:26:52.850000+00:00",
+      "nominal_20fps_timeline_start_index": 114280,
+      "nominal_20fps_timeline_end_index_exclusive": 120657,
+      "first_stored_frame_ordinal_at_or_after_start": 114272,
+      "stored_frame_end_ordinal_exclusive": 120649,
+      "effective_crop_source_xywh": [
+        435,
+        240,
+        798,
+        648
+      ]
+    },
+    {
+      "start": 6093.25,
+      "end": 6114.2,
+      "title": "Inspect final workflow cleanup steps",
+      "caption": "Provider cleanup and artifact-upload steps are shown; no additional product conclusion is implied.",
+      "crop": [
+        435,
+        380,
+        798,
+        548
+      ],
+      "masks": [],
+      "output_file": "source-17-part-08-sanitized.mp4",
+      "output_start_seconds": 318.85,
+      "output_end_seconds": 339.8,
+      "source_start_seconds": 6093.25,
+      "source_end_seconds": 6114.2,
+      "duration_seconds": 20.95,
+      "utc_start_derived": "2026-10-08T21:27:53.250000+00:00",
+      "utc_end_derived": "2026-10-08T21:28:14.200000+00:00",
+      "nominal_20fps_timeline_start_index": 121865,
+      "nominal_20fps_timeline_end_index_exclusive": 122284,
+      "first_stored_frame_ordinal_at_or_after_start": 121857,
+      "stored_frame_end_ordinal_exclusive": 122276,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        798,
+        548
+      ]
+    },
+    {
+      "start": 6114.2,
+      "end": 6141.8,
+      "title": "Verify the final inactive session inventory",
+      "caption": "The final inventory and page reload are retained; session identities are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          270,
+          545,
+          660,
+          335
+        ]
+      ],
+      "output_file": "source-17-part-08-sanitized.mp4",
+      "output_start_seconds": 339.8,
+      "output_end_seconds": 367.4,
+      "source_start_seconds": 6114.2,
+      "source_end_seconds": 6141.8,
+      "duration_seconds": 27.6,
+      "utc_start_derived": "2026-10-08T21:28:14.200000+00:00",
+      "utc_end_derived": "2026-10-08T21:28:41.800000+00:00",
+      "nominal_20fps_timeline_start_index": 122284,
+      "nominal_20fps_timeline_end_index_exclusive": 122836,
+      "first_stored_frame_ordinal_at_or_after_start": 122276,
+      "stored_frame_end_ordinal_exclusive": 122828,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 31.5,
+      "duration_seconds": 31.5,
+      "utc_start_derived": "2026-10-08T19:46:20+00:00",
+      "utc_end_derived": "2026-10-08T19:46:51.500000+00:00",
+      "reason": "Recorder startup and private provider/account navigation before the first retained workflow view."
+    },
+    {
+      "source_start_seconds": 1640.85,
+      "source_end_seconds": 1641.15,
+      "duration_seconds": 0.3,
+      "utc_start_derived": "2026-10-08T20:13:40.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:13:41.150000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 1670.2,
+      "source_end_seconds": 1670.45,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:14:10.200000+00:00",
+      "utc_end_derived": "2026-10-08T20:14:10.450000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 1733.5,
+      "source_end_seconds": 1758.15,
+      "duration_seconds": 24.65,
+      "utc_start_derived": "2026-10-08T20:15:13.500000+00:00",
+      "utc_end_derived": "2026-10-08T20:15:38.150000+00:00",
+      "reason": "Browser tab transition and private provider runtime payload inspection."
+    },
+    {
+      "source_start_seconds": 1781.3,
+      "source_end_seconds": 1781.55,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:16:01.300000+00:00",
+      "utc_end_derived": "2026-10-08T20:16:01.550000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 1799.05,
+      "source_end_seconds": 1799.65,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T20:16:19.050000+00:00",
+      "utc_end_derived": "2026-10-08T20:16:19.650000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 1853.2,
+      "source_end_seconds": 1853.5,
+      "duration_seconds": 0.3,
+      "utc_start_derived": "2026-10-08T20:17:13.200000+00:00",
+      "utc_end_derived": "2026-10-08T20:17:13.500000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 1904.25,
+      "source_end_seconds": 1904.45,
+      "duration_seconds": 0.2,
+      "utc_start_derived": "2026-10-08T20:18:04.250000+00:00",
+      "utc_end_derived": "2026-10-08T20:18:04.450000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 1971.8,
+      "source_end_seconds": 1972.05,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:19:11.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:19:12.050000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2056.8,
+      "source_end_seconds": 2056.85,
+      "duration_seconds": 0.05,
+      "utc_start_derived": "2026-10-08T20:20:36.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:20:36.850000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2086.85,
+      "source_end_seconds": 2088.1,
+      "duration_seconds": 1.25,
+      "utc_start_derived": "2026-10-08T20:21:06.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:21:08.100000+00:00",
+      "reason": "Received metadata header and scrolling transition before the isolated C2 source pane."
+    },
+    {
+      "source_start_seconds": 2100.95,
+      "source_end_seconds": 2102.2,
+      "duration_seconds": 1.25,
+      "utc_start_derived": "2026-10-08T20:21:20.950000+00:00",
+      "utc_end_derived": "2026-10-08T20:21:22.200000+00:00",
+      "reason": "Expanded private received metadata and repository URL."
+    },
+    {
+      "source_start_seconds": 2205.65,
+      "source_end_seconds": 2205.7,
+      "duration_seconds": 0.05,
+      "utc_start_derived": "2026-10-08T20:23:05.650000+00:00",
+      "utc_end_derived": "2026-10-08T20:23:05.700000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2233.8,
+      "source_end_seconds": 2265.65,
+      "duration_seconds": 31.85,
+      "utc_start_derived": "2026-10-08T20:23:33.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:24:05.650000+00:00",
+      "reason": "Expanded private repaired-control metadata; corresponding selected source stacks are retained."
+    },
+    {
+      "source_start_seconds": 2289.55,
+      "source_end_seconds": 2289.6,
+      "duration_seconds": 0.05,
+      "utc_start_derived": "2026-10-08T20:24:29.550000+00:00",
+      "utc_end_derived": "2026-10-08T20:24:29.600000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2436.75,
+      "source_end_seconds": 2436.8,
+      "duration_seconds": 0.05,
+      "utc_start_derived": "2026-10-08T20:26:56.750000+00:00",
+      "utc_end_derived": "2026-10-08T20:26:56.800000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2453.8,
+      "source_end_seconds": 2453.9,
+      "duration_seconds": 0.1,
+      "utc_start_derived": "2026-10-08T20:27:13.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:27:13.900000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2482.2,
+      "source_end_seconds": 2482.9,
+      "duration_seconds": 0.7,
+      "utc_start_derived": "2026-10-08T20:27:42.200000+00:00",
+      "utc_end_derived": "2026-10-08T20:27:42.900000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2683.55,
+      "source_end_seconds": 2683.8,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:31:03.550000+00:00",
+      "utc_end_derived": "2026-10-08T20:31:03.800000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2836.25,
+      "source_end_seconds": 2836.3,
+      "duration_seconds": 0.05,
+      "utc_start_derived": "2026-10-08T20:33:36.250000+00:00",
+      "utc_end_derived": "2026-10-08T20:33:36.300000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2846.15,
+      "source_end_seconds": 2873.8,
+      "duration_seconds": 27.65,
+      "utc_start_derived": "2026-10-08T20:33:46.150000+00:00",
+      "utc_end_derived": "2026-10-08T20:34:13.800000+00:00",
+      "reason": "Expanded private fixture received metadata and scrolling transition."
+    },
+    {
+      "source_start_seconds": 2972.85,
+      "source_end_seconds": 2972.9,
+      "duration_seconds": 0.05,
+      "utc_start_derived": "2026-10-08T20:35:52.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:35:52.900000+00:00",
+      "reason": "Conservative scene transition or identifying/private metadata inspection; no substitute footage inserted."
+    },
+    {
+      "source_start_seconds": 2986.45,
+      "source_end_seconds": 3000,
+      "duration_seconds": 13.55,
+      "utc_start_derived": "2026-10-08T20:36:06.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:36:20+00:00",
+      "reason": "Expanded private fixture received metadata before the isolated post-restart value source pane."
+    },
+    {
+      "source_start_seconds": 3142.85,
+      "source_end_seconds": 3143.1,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:38:42.850000+00:00",
+      "utc_end_derived": "2026-10-08T20:38:43.100000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 3237.2,
+      "source_end_seconds": 3237.45,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:40:17.200000+00:00",
+      "utc_end_derived": "2026-10-08T20:40:17.450000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 3307.3,
+      "source_end_seconds": 3307.5,
+      "duration_seconds": 0.2,
+      "utc_start_derived": "2026-10-08T20:41:27.300000+00:00",
+      "utc_end_derived": "2026-10-08T20:41:27.500000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 3578.7,
+      "source_end_seconds": 3580.05,
+      "duration_seconds": 1.35,
+      "utc_start_derived": "2026-10-08T20:45:58.700000+00:00",
+      "utc_end_derived": "2026-10-08T20:46:00.050000+00:00",
+      "reason": "Expanded private tags obscure the useful foreground content."
+    },
+    {
+      "source_start_seconds": 4012.35,
+      "source_end_seconds": 4012.8,
+      "duration_seconds": 0.45,
+      "utc_start_derived": "2026-10-08T20:53:12.350000+00:00",
+      "utc_end_derived": "2026-10-08T20:53:12.800000+00:00",
+      "reason": "Expanded private tags obscure the useful foreground content."
+    },
+    {
+      "source_start_seconds": 4064.45,
+      "source_end_seconds": 4064.8,
+      "duration_seconds": 0.35,
+      "utc_start_derived": "2026-10-08T20:54:04.450000+00:00",
+      "utc_end_derived": "2026-10-08T20:54:04.800000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4076.35,
+      "source_end_seconds": 4076.6,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T20:54:16.350000+00:00",
+      "utc_end_derived": "2026-10-08T20:54:16.600000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4102.95,
+      "source_end_seconds": 4103.3,
+      "duration_seconds": 0.35,
+      "utc_start_derived": "2026-10-08T20:54:42.950000+00:00",
+      "utc_end_derived": "2026-10-08T20:54:43.300000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4122.7,
+      "source_end_seconds": 4123.2,
+      "duration_seconds": 0.5,
+      "utc_start_derived": "2026-10-08T20:55:02.700000+00:00",
+      "utc_end_derived": "2026-10-08T20:55:03.200000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4188.75,
+      "source_end_seconds": 4189.75,
+      "duration_seconds": 1.0,
+      "utc_start_derived": "2026-10-08T20:56:08.750000+00:00",
+      "utc_end_derived": "2026-10-08T20:56:09.750000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4221.5,
+      "source_end_seconds": 4223.5,
+      "duration_seconds": 2.0,
+      "utc_start_derived": "2026-10-08T20:56:41.500000+00:00",
+      "utc_end_derived": "2026-10-08T20:56:43.500000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4255.4,
+      "source_end_seconds": 4255.75,
+      "duration_seconds": 0.35,
+      "utc_start_derived": "2026-10-08T20:57:15.400000+00:00",
+      "utc_end_derived": "2026-10-08T20:57:15.750000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 4312.1,
+      "source_end_seconds": 4312.55,
+      "duration_seconds": 0.45,
+      "utc_start_derived": "2026-10-08T20:58:12.100000+00:00",
+      "utc_end_derived": "2026-10-08T20:58:12.550000+00:00",
+      "reason": "Short privacy-sensitive scroll or cross-view transition."
+    },
+    {
+      "source_start_seconds": 6032.85,
+      "source_end_seconds": 6093.25,
+      "duration_seconds": 60.4,
+      "utc_start_derived": "2026-10-08T21:26:52.850000+00:00",
+      "utc_end_derived": "2026-10-08T21:27:53.250000+00:00",
+      "reason": "Browser download history, prior downloads, and blocked private artifact URL; unrelated to product QA."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-17-part-01-sanitized.mp4",
+      "duration_seconds": 893.5,
+      "bytes": 5893743,
+      "sha256": "1bc35aff01b8af6114d2b0981fe18f68804c4cddabbec8fe5bdc05ac06f97d7a",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17870
+    },
+    {
+      "file": "source-17-part-02-sanitized.mp4",
+      "duration_seconds": 848.6,
+      "bytes": 6977897,
+      "sha256": "3fb3aeb33484ed69a1b77b5b9ad85f6749dfaf61dbadb09c34bed83265a0a925",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 16972
+    },
+    {
+      "file": "source-17-part-03-sanitized.mp4",
+      "duration_seconds": 847.8,
+      "bytes": 6411329,
+      "sha256": "2a75232677655bf3b209d63282d6e7ad82222252b30ce4fccdd301efc6e89e48",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 16956
+    },
+    {
+      "file": "source-17-part-04-sanitized.mp4",
+      "duration_seconds": 852.9,
+      "bytes": 7634246,
+      "sha256": "42b8facd673035508fe871690408974c5b7c9d8c4287ada672186819e7127855",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17058
+    },
+    {
+      "file": "source-17-part-05-sanitized.mp4",
+      "duration_seconds": 859.25,
+      "bytes": 6687059,
+      "sha256": "aab6e7b73edf7c5c97e303214eded7bee4a63374bf41952c0fa4dc96767c3384",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17185
+    },
+    {
+      "file": "source-17-part-06-sanitized.mp4",
+      "duration_seconds": 686.0,
+      "bytes": 6702381,
+      "sha256": "80a108c79e2975d0f55640cd7ea8dc26e34df3a889e13d604c48d3f7772fb4e6",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 13720
+    },
+    {
+      "file": "source-17-part-07-sanitized.mp4",
+      "duration_seconds": 583.0,
+      "bytes": 5214591,
+      "sha256": "e884beba6fed19c872b075976a9cbebea3a92bb083234a06117b7859197db401",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 11660
+    },
+    {
+      "file": "source-17-part-08-sanitized.mp4",
+      "duration_seconds": 367.4,
+      "bytes": 1350678,
+      "sha256": "1445ba6f5ea6eb509400934b0308261020509921172658e9b78a5bf956158433",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 7348
+    }
+  ],
+  "evidence_limits": [
+    "Only genuine foreground motion from source 17 is used. Edits add opaque masks, native-scale crops, padding, explanatory text and chapter cuts. There are no inserted stills, reconstructed UI, synthesized motion or speed changes.",
+    "The full source timeline is partitioned into retained and explicitly omitted intervals. The archive preserves all footage judged usable in this review. Identifying metadata-only views, private navigation, download-history screens and conservative transition margins are omitted. The highlight reel is selective.",
+    "Work interruptions were reported for 19:57:30\u201319:59:16 and 20:27:43\u201320:30:08 UTC. The video also contains idle/tool waits and browser failures. The source duration must not be described as uninterrupted active testing.",
+    "Chromium error 9 / Aw Snap and reload attempts around 20:24:30\u201320:27:14 UTC are browser-interruption evidence, not proof of a Datadog backend outage. An earlier browser error/reload is also retained where safe.",
+    "This source contains active foreground QA throughout most of the recorded window; source 16\u2019s late settled-page limitation does not apply wholesale. Only the actual captured foreground is shown; no background/direct-still evidence has been substituted.",
+    "C1 baseline, C2 shifted-line capture, six repaired selected event stacks and editor revision warnings are visible. The main editor and selected event stack can differ. These clips do not by themselves establish complete test-case passes or eliminate outstanding attribution/cleanup requirements.",
+    "The production-label draft was not submitted. Its blocked and cancelled state provides no result for that control.",
+    "Fixture restart and later capture recovery require correlation with runtime receipts. Nominal Agent-outage and burst windows, and planned_phases/stop_agent/tiny_burst declarations in provider logs, do not establish actual execution. No Agent-outage or burst PASS is asserted.",
+    "The F09 sequence shows another tab\u2019s dirty draft resetting after a remote save. It does not establish that the stale write was accepted or that a hidden backend overwrite occurred.",
+    "Unicode/cycle/empty-container observations show the captured interactions only. They do not establish a complete truncation, search/collapse or cycle-termination matrix. The Unicode-path installation error has a known direct-loader fixture confound.",
+    "INACTIVE/DISABLED states and retained historical captures are UI evidence. GitHub Success is provider-workflow status. Neither alone proves the contents of every runtime-stage or owned-process cleanup receipt.",
+    "Browser tabs, full URLs/parameters, account/avatar/session/service identities, private repository URLs, telemetry identifiers and repository-prefix values are cropped or opaque-masked. Broad masks intentionally hide adjacent ordinary UI. Synthetic revision SHAs may remain as technical evidence.",
+    "UTC labels are derived from the recorder start. Provider clocks, UI event-list display times and SDK execution timestamps are distinct evidence types. The source has four timestamp gaps above the nominal 0.05-second step, with a maximum 0.20-second step; constant-20-fps output holds recorded frames across those gaps.",
+    "Privacy verification combines sampled original-pixel and scene-change review, dense boundary checks, independent review, encoded samples, sampled OCR and complete decoding. It is sampling-based and is not a guarantee of every source pixel. Every final MP4 is silent and below 20,000,000 bytes.",
+    "Preparation is local only. Only the flat publish-archive and publish-highlights files named in the allowlist are eligible deliverables. Raw video, private images/OCR, scripts, logs and other helper files are excluded."
+  ],
+  "review": {
+    "all_public_videos_decoded": true,
+    "ocr_sampled_frames": 852,
+    "scene_triggered_ocr_frames": 1140,
+    "scene_threshold": 0.005,
+    "unresolved_ocr_flags": 0,
+    "unresolved_scene_ocr_flags": 0,
+    "independent_review": {
+      "status": "complete_with_sampling_limits",
+      "scope": "Two independent temporal privacy reviewers; separate primary encoded visual, OCR and complete decode validation.",
+      "early_source_review": {
+        "range_seconds": [
+          0,
+          1500
+        ],
+        "masked_source_samples": 158,
+        "additional_final_scene_frames": 263,
+        "initial_and_later_exposure_fixes_verified": true
+      },
+      "middle_encoded_review": {
+        "clips": 23,
+        "encoded_endpoints": 46,
+        "encoded_scene_frames": 77,
+        "piece_hashes_match": true,
+        "durations_match": true
+      },
+      "late_review": {
+        "range_seconds": [
+          3000,
+          6141.8
+        ],
+        "sanitized_source_samples": 36,
+        "targeted_encoded_frames": 59,
+        "targeted_encoded_clips": 13,
+        "piece_hashes_match": true,
+        "focus": [
+          "modal identity/footer fades",
+          "F09 dirty draft then reset",
+          "disabled Apply",
+          "INACTIVE boundary",
+          "workflow Success and cleanup wording"
+        ]
+      },
+      "primary_encoded_review": {
+        "early_piece_samples": 87,
+        "late_piece_samples": 111,
+        "highlight_piece_samples": 141,
+        "additional_corrected_early_modal_and_replacement_highlight_samples": 9,
+        "reviewed_scene_false_positive_count": 6
+      },
+      "resolved_issue_categories": [
+        "Inactive header creator position",
+        "Provider streaming payload identity",
+        "Received-log trace band",
+        "Main editor repository selector",
+        "Modal opening service/header/footer identity",
+        "Service-selection dropdown identities",
+        "View More creator/modifier popup"
+      ],
+      "unresolved_issues": [],
+      "limitations": [
+        "Visual review is sampling-based, supplemented with full-rate scene detection and OCR. It is not every-pixel review.",
+        "Case-result and runtime-stage conclusions require the separate audit evidence; the edit makes no unverified Agent/burst PASS claim."
+      ]
+    },
+    "source_hash_unchanged": true,
+    "sampling_limits_apply": true
+  }
+}

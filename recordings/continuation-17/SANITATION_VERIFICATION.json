@@ -1,0 +1,203 @@
+{
+  "source_sha256": "e3460c6d3c6942375e8e88a89a9b435248a9dd3f4b87f79aa00e432cffd72552",
+  "review": {
+    "all_public_videos_decoded": true,
+    "ocr_sampled_frames": 852,
+    "scene_triggered_ocr_frames": 1140,
+    "scene_threshold": 0.005,
+    "unresolved_ocr_flags": 0,
+    "unresolved_scene_ocr_flags": 0,
+    "independent_review": {
+      "status": "complete_with_sampling_limits",
+      "scope": "Two independent temporal privacy reviewers; separate primary encoded visual, OCR and complete decode validation.",
+      "early_source_review": {
+        "range_seconds": [
+          0,
+          1500
+        ],
+        "masked_source_samples": 158,
+        "additional_final_scene_frames": 263,
+        "initial_and_later_exposure_fixes_verified": true
+      },
+      "middle_encoded_review": {
+        "clips": 23,
+        "encoded_endpoints": 46,
+        "encoded_scene_frames": 77,
+        "piece_hashes_match": true,
+        "durations_match": true
+      },
+      "late_review": {
+        "range_seconds": [
+          3000,
+          6141.8
+        ],
+        "sanitized_source_samples": 36,
+        "targeted_encoded_frames": 59,
+        "targeted_encoded_clips": 13,
+        "piece_hashes_match": true,
+        "focus": [
+          "modal identity/footer fades",
+          "F09 dirty draft then reset",
+          "disabled Apply",
+          "INACTIVE boundary",
+          "workflow Success and cleanup wording"
+        ]
+      },
+      "primary_encoded_review": {
+        "early_piece_samples": 87,
+        "late_piece_samples": 111,
+        "highlight_piece_samples": 141,
+        "additional_corrected_early_modal_and_replacement_highlight_samples": 9,
+        "reviewed_scene_false_positive_count": 6
+      },
+      "resolved_issue_categories": [
+        "Inactive header creator position",
+        "Provider streaming payload identity",
+        "Received-log trace band",
+        "Main editor repository selector",
+        "Modal opening service/header/footer identity",
+        "Service-selection dropdown identities",
+        "View More creator/modifier popup"
+      ],
+      "unresolved_issues": [],
+      "limitations": [
+        "Visual review is sampling-based, supplemented with full-rate scene detection and OCR. It is not every-pixel review.",
+        "Case-result and runtime-stage conclusions require the separate audit evidence; the edit makes no unverified Agent/burst PASS claim."
+      ]
+    },
+    "source_hash_unchanged": true,
+    "sampling_limits_apply": true
+  },
+  "outputs": [
+    {
+      "file": "source-17-part-01-sanitized.mp4",
+      "duration_seconds": 893.5,
+      "bytes": 5893743,
+      "sha256": "1bc35aff01b8af6114d2b0981fe18f68804c4cddabbec8fe5bdc05ac06f97d7a",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17870
+    },
+    {
+      "file": "source-17-part-02-sanitized.mp4",
+      "duration_seconds": 848.6,
+      "bytes": 6977897,
+      "sha256": "3fb3aeb33484ed69a1b77b5b9ad85f6749dfaf61dbadb09c34bed83265a0a925",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 16972
+    },
+    {
+      "file": "source-17-part-03-sanitized.mp4",
+      "duration_seconds": 847.8,
+      "bytes": 6411329,
+      "sha256": "2a75232677655bf3b209d63282d6e7ad82222252b30ce4fccdd301efc6e89e48",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 16956
+    },
+    {
+      "file": "source-17-part-04-sanitized.mp4",
+      "duration_seconds": 852.9,
+      "bytes": 7634246,
+      "sha256": "42b8facd673035508fe871690408974c5b7c9d8c4287ada672186819e7127855",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17058
+    },
+    {
+      "file": "source-17-part-05-sanitized.mp4",
+      "duration_seconds": 859.25,
+      "bytes": 6687059,
+      "sha256": "aab6e7b73edf7c5c97e303214eded7bee4a63374bf41952c0fa4dc96767c3384",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17185
+    },
+    {
+      "file": "source-17-part-06-sanitized.mp4",
+      "duration_seconds": 686.0,
+      "bytes": 6702381,
+      "sha256": "80a108c79e2975d0f55640cd7ea8dc26e34df3a889e13d604c48d3f7772fb4e6",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 13720
+    },
+    {
+      "file": "source-17-part-07-sanitized.mp4",
+      "duration_seconds": 583.0,
+      "bytes": 5214591,
+      "sha256": "e884beba6fed19c872b075976a9cbebea3a92bb083234a06117b7859197db401",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 11660
+    },
+    {
+      "file": "source-17-part-08-sanitized.mp4",
+      "duration_seconds": 367.4,
+      "bytes": 1350678,
+      "sha256": "1445ba6f5ea6eb509400934b0308261020509921172658e9b78a5bf956158433",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 7348
+    },
+    {
+      "file": "coverage-controls-highlights.mp4",
+      "duration_seconds": 515.7,
+      "bytes": 6292978,
+      "sha256": "c404c4e5f0af700cf4269ea759ea0939911872b2908a31b9417788712d9ec533",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 10314
+    }
+  ],
+  "source_partition_verified": true,
+  "retained_seconds": 5938.45,
+  "omitted_seconds": 203.35,
+  "publication": "Not performed; raw footage excluded."
+}
