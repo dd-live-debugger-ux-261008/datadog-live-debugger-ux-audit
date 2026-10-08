@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "scope": "Edited source 09 highlights; earlier edited exports unchanged.",
+  "source": {
+    "file": "onboarding-09-raw.mkv",
+    "duration_seconds": 1592.7,
+    "bytes": 39741220,
+    "sha256": "c894964abf0dd7c8ad41bb62c54f13da5319cb22e3194393ed5e76702b4d6449",
+    "utc_start": "2026-10-08T05:49:19+00:00",
+    "utc_end": "2026-10-08T06:15:51.700000+00:00",
+    "width": 1364,
+    "height": 1024,
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "historical-apm-continuation-highlights.mp4",
+    "duration_seconds": 127.0,
+    "bytes": 1350104,
+    "sha256": "f969f3959beb5b7fd82111750ea39bba8625acf852cf50cd656730b83778de8b",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "2540"
+    },
+    "audio_tracks": 0,
+    "chapter_metadata_track": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 6.5,
+      "source_end_seconds": 17.5,
+      "utc_start": "2026-10-08T05:49:25.500000+00:00",
+      "utc_end": "2026-10-08T05:49:36.500000+00:00",
+      "duration_seconds": 11.0,
+      "title": "APM service discovery",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 11.0,
+      "caption": "The sample service is present in the APM service chooser."
+    },
+    {
+      "source_start_seconds": 90,
+      "source_end_seconds": 104,
+      "utc_start": "2026-10-08T05:50:49+00:00",
+      "utc_end": "2026-10-08T05:51:03+00:00",
+      "duration_seconds": 14,
+      "title": "Historical service summary",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 11.0,
+      "output_end_seconds": 25.0,
+      "caption": "The service summary shows retained request activity in its selected time window."
+    },
+    {
+      "source_start_seconds": 150.4,
+      "source_end_seconds": 160.4,
+      "utc_start": "2026-10-08T05:51:49.400000+00:00",
+      "utc_end": "2026-10-08T05:51:59.400000+00:00",
+      "duration_seconds": 10.0,
+      "title": "Staging environment is offered",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 25.0,
+      "output_end_seconds": 35.0,
+      "caption": "The APM environment menu includes staging."
+    },
+    {
+      "source_start_seconds": 174,
+      "source_end_seconds": 185,
+      "utc_start": "2026-10-08T05:52:13+00:00",
+      "utc_end": "2026-10-08T05:52:24+00:00",
+      "duration_seconds": 11,
+      "title": "Staging selection and version menu",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 35.0,
+      "output_end_seconds": 46.0,
+      "caption": "Staging is selected; the adjacent version selector can be inspected."
+    },
+    {
+      "source_start_seconds": 399.85,
+      "source_end_seconds": 413.85,
+      "utc_start": "2026-10-08T05:55:58.850000+00:00",
+      "utc_end": "2026-10-08T05:56:12.850000+00:00",
+      "duration_seconds": 14.0,
+      "title": "Widen Time Frame recovers historical spans",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 46.0,
+      "output_end_seconds": 60.0,
+      "caption": "The empty 15-minute view changes to historical search with 47 indexed spans."
+    },
+    {
+      "source_start_seconds": 679,
+      "source_end_seconds": 694,
+      "utc_start": "2026-10-08T06:00:38+00:00",
+      "utc_end": "2026-10-08T06:00:53+00:00",
+      "duration_seconds": 15,
+      "title": "Open an indexed HTTP span",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 60.0,
+      "output_end_seconds": 75.0,
+      "caption": "A retained GET /quote span opens with HTTP 200 status. Trace identity is cropped out."
+    },
+    {
+      "source_start_seconds": 797,
+      "source_end_seconds": 807,
+      "utc_start": "2026-10-08T06:02:36+00:00",
+      "utc_end": "2026-10-08T06:02:46+00:00",
+      "duration_seconds": 10,
+      "title": "Inspect a span context menu",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 75.0,
+      "output_end_seconds": 85.0,
+      "caption": "The menu exposes resource and operation actions for the historical span."
+    },
+    {
+      "source_start_seconds": 971.35,
+      "source_end_seconds": 983.35,
+      "utc_start": "2026-10-08T06:05:30.350000+00:00",
+      "utc_end": "2026-10-08T06:05:42.350000+00:00",
+      "duration_seconds": 12.0,
+      "title": "Service resource summary",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 85.0,
+      "output_end_seconds": 97.0,
+      "caption": "The service resource view loads request and latency summaries."
+    },
+    {
+      "source_start_seconds": 1038,
+      "source_end_seconds": 1050,
+      "utc_start": "2026-10-08T06:06:37+00:00",
+      "utc_end": "2026-10-08T06:06:49+00:00",
+      "duration_seconds": 12,
+      "title": "Service configuration overview",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 97.0,
+      "output_end_seconds": 109.0,
+      "caption": "Service Config opens an overview with an Add metadata prompt."
+    },
+    {
+      "source_start_seconds": 1118.65,
+      "source_end_seconds": 1136.65,
+      "utc_start": "2026-10-08T06:07:57.650000+00:00",
+      "utc_end": "2026-10-08T06:08:15.650000+00:00",
+      "duration_seconds": 18.0,
+      "title": "SDK configuration freshness guidance",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "historical-apm-continuation-highlights.mp4",
+      "output_start_seconds": 109.0,
+      "output_end_seconds": 127.0,
+      "caption": "No SDK Configuration Data explains the missing data in the last 15 minutes."
+    }
+  ],
+  "evidence_limits": [
+    "This recording demonstrates historical APM service and trace exploration. A service or historical span does not establish a running debug session, live variable capture, source integration success or successful source retrieval.",
+    "The APM environment selector offers staging. The initial 15-minute live-search view has no matching traces. Widen Time Frame changes to a historical window with 47 indexed spans; the empty initial window is not proof that ingestion never occurred.",
+    "The indexed GET /quote span has HTTP 200 status. Its private trace identifier is excluded by the crop. The motion does not visually establish every lower span-tag value read separately during the audit.",
+    "The SDK Configurations drawer states that no configuration data was detected for this service in the last 15 minutes, and advises checking the running service, instrumentation telemetry and telemetry intake accessibility. Its empty state does not establish a single root cause.",
+    "Screenshot 49 predates recording 09. Screenshots 56 and 57 were captured after recording 09 and independently show version, environment and baseline commit pixels; they are explicitly screenshot-only and are not inserted into either motion export.",
+    "All source-caption clocks are UTC reconstructed from recorder start. Datadog chart/list timestamps use the timezone displayed in the application, including UTC-07:00. Those application timestamps are not capture timestamps.",
+    "The archive retains original waiting time inside each continuous section. Every removed interval is recorded in the archive manifest. No screenshots, generated content or reconstructed UI substitute for captured motion.",
+    "All sections use source crop [252,280,1004,620], excluding browser chrome, profile/greeting regions, trace identity headers, footer/status URLs and offscreen details. Cropped-out controls or data are not evidence that they are absent in the product."
+  ],
+  "review": {
+    "source_overview_seconds": 10,
+    "source_boundary_review_fps": 2,
+    "widen_time_frame_transition_review_fps": 4,
+    "all_frame_sidebar_classification_fps": 20,
+    "output_ocr": {
+      "frames_reviewed": 323,
+      "unresolved_flags": 0
+    },
+    "representative_output_full_size_review": true,
+    "raw_source_hash_unchanged": true,
+    "decode_validation": true
+  }
+}
