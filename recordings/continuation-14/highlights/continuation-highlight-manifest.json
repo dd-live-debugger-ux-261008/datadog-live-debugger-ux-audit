@@ -1,0 +1,1171 @@
+{
+  "version": 1,
+  "source": {
+    "label": "Recording source 14",
+    "duration_seconds": 2292.45,
+    "bytes": 67223199,
+    "sha256": "bef2157135d64c00fa7f7c54d9e8ac705e938c601091e52e1aec128aeb64b5ec",
+    "utc_start": "2026-10-08T13:42:45+00:00",
+    "utc_end_derived": "2026-10-08T14:20:57.450000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "nominal_fps": 20,
+    "stored_frame_count": 45738,
+    "timestamp_gap_count": 64,
+    "maximum_adjacent_timestamp_step_seconds": 0.3,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "quiet-controls-lifecycle-highlights.mp4",
+    "duration_seconds": 288.45,
+    "bytes": 2290481,
+    "sha256": "e9691c185ae0c445f06642655999ad00760d533c310b4ea5ce0e2acffcde11b0",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "5769"
+    },
+    "audio_tracks": 0,
+    "embedded_chapters": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 146,
+      "source_end_seconds": 158,
+      "nominal_20fps_timeline_start_index": 2920,
+      "nominal_20fps_timeline_end_index_exclusive": 3160,
+      "first_stored_frame_ordinal_at_or_after_start": 2910,
+      "stored_frame_end_ordinal_exclusive": 3150,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:45:11+00:00",
+      "utc_end_derived": "2026-10-08T13:45:23+00:00",
+      "title": "Quiet logpoint, zero instances",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The line 69 control shows WAITING FOR EVENTS and zero instances; earlier event rows remain in history.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 12
+    },
+    {
+      "source_start_seconds": 279,
+      "source_end_seconds": 291,
+      "nominal_20fps_timeline_start_index": 5580,
+      "nominal_20fps_timeline_end_index_exclusive": 5820,
+      "first_stored_frame_ordinal_at_or_after_start": 5570,
+      "stored_frame_end_ordinal_exclusive": 5810,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:47:24+00:00",
+      "utc_end_derived": "2026-10-08T13:47:36+00:00",
+      "title": "Manual runtime duration is set",
+      "requested_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Drawer crop removes provider account and repository context; branch menu is partly clipped.",
+      "caption": "The workflow duration changes to 30 minutes before the run is started.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 12,
+      "output_end_seconds": 24
+    },
+    {
+      "source_start_seconds": 309,
+      "source_end_seconds": 321,
+      "nominal_20fps_timeline_start_index": 6180,
+      "nominal_20fps_timeline_end_index_exclusive": 6420,
+      "first_stored_frame_ordinal_at_or_after_start": 6170,
+      "stored_frame_end_ordinal_exclusive": 6410,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:47:54+00:00",
+      "utc_end_derived": "2026-10-08T13:48:06+00:00",
+      "title": "Queued workflow enters progress",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          430,
+          72
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Provider account, revision and branch summary hidden; workflow status retained.",
+      "caption": "The provider reports Queued, then In progress; this status alone is not a debugger capture.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 24,
+      "output_end_seconds": 36
+    },
+    {
+      "source_start_seconds": 363,
+      "source_end_seconds": 375,
+      "nominal_20fps_timeline_start_index": 7260,
+      "nominal_20fps_timeline_end_index_exclusive": 7500,
+      "first_stored_frame_ordinal_at_or_after_start": 7250,
+      "stored_frame_end_ordinal_exclusive": 7490,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:48:48+00:00",
+      "utc_end_derived": "2026-10-08T13:49:00+00:00",
+      "title": "Runner readiness telemetry",
+      "requested_crop_source_xywh": [
+        450,
+        300,
+        780,
+        254
+      ],
+      "effective_crop_source_xywh": [
+        450,
+        300,
+        780,
+        254
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Narrow diagnostic crop excludes service identity and lower metadata; normal log refreshes retained.",
+      "caption": "The runner reports sample readiness and SDK registration flags; this is diagnostic runner output.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 36,
+      "output_end_seconds": 48
+    },
+    {
+      "source_start_seconds": 485,
+      "source_end_seconds": 497,
+      "nominal_20fps_timeline_start_index": 9700,
+      "nominal_20fps_timeline_end_index_exclusive": 9940,
+      "first_stored_frame_ordinal_at_or_after_start": 9688,
+      "stored_frame_end_ordinal_exclusive": 9928,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:50:50+00:00",
+      "utc_end_derived": "2026-10-08T13:51:02+00:00",
+      "title": "Quiet logpoint, one instance",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ],
+        [
+          276,
+          531,
+          250,
+          43
+        ],
+        [
+          519,
+          754,
+          113,
+          77
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service and creator/modifier identities in the detail card hidden.",
+      "caption": "The detail card shows one targeting instance and no events captured; WAITING is not proof of installation.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 48,
+      "output_end_seconds": 60
+    },
+    {
+      "source_start_seconds": 648,
+      "source_end_seconds": 660,
+      "nominal_20fps_timeline_start_index": 12960,
+      "nominal_20fps_timeline_end_index_exclusive": 13200,
+      "first_stored_frame_ordinal_at_or_after_start": 12946,
+      "stored_frame_end_ordinal_exclusive": 13186,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:53:33+00:00",
+      "utc_end_derived": "2026-10-08T13:53:45+00:00",
+      "title": "Quiet control versus explicit line error",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          280,
+          477,
+          220,
+          37
+        ],
+        [
+          486,
+          566,
+          144,
+          25
+        ],
+        [
+          256,
+          585,
+          133,
+          25
+        ],
+        [
+          273,
+          603,
+          358,
+          25
+        ],
+        [
+          256,
+          621,
+          144,
+          25
+        ],
+        [
+          519,
+          831,
+          113,
+          45
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity, probe UUID, private source path and creator hidden; public location and error category retained.",
+      "caption": "Line 69 remains WAITING while line 9999 reports ERROR and NoFunctionsAtLine; private paths are masked.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 60,
+      "output_end_seconds": 72
+    },
+    {
+      "source_start_seconds": 689,
+      "source_end_seconds": 701,
+      "nominal_20fps_timeline_start_index": 13780,
+      "nominal_20fps_timeline_end_index_exclusive": 14020,
+      "first_stored_frame_ordinal_at_or_after_start": 13766,
+      "stored_frame_end_ordinal_exclusive": 14006,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:54:14+00:00",
+      "utc_end_derived": "2026-10-08T13:54:26+00:00",
+      "title": "Comment-line control targets line 16",
+      "requested_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "effective_crop_source_xywh": [
+        151,
+        280,
+        1062,
+        636
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          174,
+          318,
+          398,
+          82
+        ],
+        [
+          151,
+          897,
+          850,
+          20
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity and bottom browser status area hidden; actual pricing source and line16 comment retained.",
+      "caption": "The genuine source shows line 16 is a comment; the draft targets that line.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 72,
+      "output_end_seconds": 84
+    },
+    {
+      "source_start_seconds": 842,
+      "source_end_seconds": 854,
+      "nominal_20fps_timeline_start_index": 16840,
+      "nominal_20fps_timeline_end_index_exclusive": 17080,
+      "first_stored_frame_ordinal_at_or_after_start": 16823,
+      "stored_frame_end_ordinal_exclusive": 17063,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:56:47+00:00",
+      "utc_end_derived": "2026-10-08T13:56:59+00:00",
+      "title": "Comment-line installation guidance",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          276,
+          527,
+          323,
+          43
+        ],
+        [
+          519,
+          829,
+          177,
+          50
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Union masks protect moving card service/creator identities; some nearby ordinary labels are also hidden.",
+      "caption": "The card says configuration was received but not applied, and suggests checking whether code is loaded.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 84,
+      "output_end_seconds": 96
+    },
+    {
+      "source_start_seconds": 946,
+      "source_end_seconds": 959,
+      "nominal_20fps_timeline_start_index": 18920,
+      "nominal_20fps_timeline_end_index_exclusive": 19180,
+      "first_stored_frame_ordinal_at_or_after_start": 18902,
+      "stored_frame_end_ordinal_exclusive": 19161,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T13:58:31+00:00",
+      "utc_end_derived": "2026-10-08T13:58:44+00:00",
+      "title": "Quiet control receives its first event",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser/account/session chrome cropped; no secret-like source or capture value is visible in this excerpt.",
+      "caption": "The line 69 control changes from WAITING FOR EVENTS to EVENTS RECEIVED while the events area has not yet populated.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 96,
+      "output_end_seconds": 109
+    },
+    {
+      "source_start_seconds": 984,
+      "source_end_seconds": 999,
+      "nominal_20fps_timeline_start_index": 19680,
+      "nominal_20fps_timeline_end_index_exclusive": 19980,
+      "first_stored_frame_ordinal_at_or_after_start": 19661,
+      "stored_frame_end_ordinal_exclusive": 19961,
+      "duration_seconds": 15,
+      "utc_start_derived": "2026-10-08T13:59:09+00:00",
+      "utc_end_derived": "2026-10-08T13:59:24+00:00",
+      "title": "Inspect the captured 707 control value",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          928,
+          714,
+          342,
+          33
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser chrome, account/session header, global navigation, and footer are cropped out. Opaque mask covers the synthetic correlation identifier and adjacent whitespace; native text and values remain unscaled.",
+      "caption": "The event row is selected and the capture panel shows NEVER_CONTROL value=707 and never_called_local=707.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 109,
+      "output_end_seconds": 124
+    },
+    {
+      "source_start_seconds": 1100,
+      "source_end_seconds": 1112,
+      "nominal_20fps_timeline_start_index": 22000,
+      "nominal_20fps_timeline_end_index_exclusive": 22240,
+      "first_stored_frame_ordinal_at_or_after_start": 21949,
+      "stored_frame_end_ordinal_exclusive": 22189,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:01:05+00:00",
+      "utc_end_derived": "2026-10-08T14:01:17+00:00",
+      "title": "Check the separate runner HTTP observation",
+      "requested_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        175,
+        796,
+        704
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser chrome and private repository URL are excluded by crop. Visible runner status contains safe counters, full source SHA, and one-shot HTTP timing. Bottom adjacent counters excluded so the native crop fits beneath the source-time caption.",
+      "caption": "Runner output includes the deployed revision, verified one-shot HTTP status, delay and request timestamps.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 124,
+      "output_end_seconds": 136
+    },
+    {
+      "source_start_seconds": 1136,
+      "source_end_seconds": 1148,
+      "nominal_20fps_timeline_start_index": 22720,
+      "nominal_20fps_timeline_end_index_exclusive": 22960,
+      "first_stored_frame_ordinal_at_or_after_start": 22668,
+      "stored_frame_end_ordinal_exclusive": 22908,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:01:41+00:00",
+      "utc_end_derived": "2026-10-08T14:01:53+00:00",
+      "title": "Read indexed source and captured 707",
+      "requested_crop_source_xywh": [
+        616,
+        327,
+        624,
+        522
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        327,
+        624,
+        522
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          694,
+          421,
+          190,
+          30
+        ],
+        [
+          935,
+          476,
+          280,
+          48
+        ],
+        [
+          784,
+          714,
+          160,
+          33
+        ],
+        [
+          694,
+          775,
+          190,
+          31
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes search query, trace/logger/thread cards, service facets, browser chrome, and JSON payload fields. Opaque masks cover both private repository path prefixes and synthetic correlation literals/value; some adjacent source punctuation is hidden.",
+      "caption": "The indexed stacktrace shows qa_fixture.py line 69 in never_called, assignment never_called_local=707, and the captured 707 value.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 136,
+      "output_end_seconds": 148
+    },
+    {
+      "source_start_seconds": 1257,
+      "source_end_seconds": 1269,
+      "nominal_20fps_timeline_start_index": 25140,
+      "nominal_20fps_timeline_end_index_exclusive": 25380,
+      "first_stored_frame_ordinal_at_or_after_start": 25087,
+      "stored_frame_end_ordinal_exclusive": 25327,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:03:42+00:00",
+      "utc_end_derived": "2026-10-08T14:03:54+00:00",
+      "title": "Prepare a blank-line 10 control",
+      "requested_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "effective_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes service selector, browser/account/session chrome, and background page. Source and form are genuine native-size UI; no masking within the retained form.",
+      "caption": "The Add a logpoint form targets blank line 10 in pricing.py with BLANK_LINE_CONTROL.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 148,
+      "output_end_seconds": 160
+    },
+    {
+      "source_start_seconds": 1300,
+      "source_end_seconds": 1312,
+      "nominal_20fps_timeline_start_index": 26000,
+      "nominal_20fps_timeline_end_index_exclusive": 26240,
+      "first_stored_frame_ordinal_at_or_after_start": 25947,
+      "stored_frame_end_ordinal_exclusive": 26187,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:04:25+00:00",
+      "utc_end_derived": "2026-10-08T14:04:37+00:00",
+      "title": "Prepare the valid-line 17 control",
+      "requested_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "effective_crop_source_xywh": [
+        152,
+        354,
+        1060,
+        562
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Crop excludes service selector, browser/account/session chrome, and background page. Source and form are genuine native-size UI; no exact click gesture is asserted from this crop.",
+      "caption": "The form targets executable line 17 and renders DUP_CLICK_CONTROL quantity={quantity} total={total_cents}.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 160,
+      "output_end_seconds": 172
+    },
+    {
+      "source_start_seconds": 1360,
+      "source_end_seconds": 1372,
+      "nominal_20fps_timeline_start_index": 27200,
+      "nominal_20fps_timeline_end_index_exclusive": 27440,
+      "first_stored_frame_ordinal_at_or_after_start": 27147,
+      "stored_frame_end_ordinal_exclusive": 27387,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:05:25+00:00",
+      "utc_end_derived": "2026-10-08T14:05:37+00:00",
+      "title": "Valid-line 17 receives events beside blank-line error",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser/account/session chrome and footer are cropped. The pricing source, numeric events, and values are safe. The empty selected time window is retained as observation only; it does not establish a Pause defect.",
+      "caption": "pricing.py line 10 shows ERROR while line 17 shows EVENTS RECEIVED and numeric DUP_CLICK_CONTROL event rows.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 172,
+      "output_end_seconds": 184
+    },
+    {
+      "source_start_seconds": 1514,
+      "source_end_seconds": 1526,
+      "nominal_20fps_timeline_start_index": 30280,
+      "nominal_20fps_timeline_end_index_exclusive": 30520,
+      "first_stored_frame_ordinal_at_or_after_start": 30226,
+      "stored_frame_end_ordinal_exclusive": 30466,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:07:59+00:00",
+      "utc_end_derived": "2026-10-08T14:08:11+00:00",
+      "title": "Inspect valid-line 17 numeric capture",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser/account/session chrome and footer are cropped. The pricing source, numeric events, and values are safe. The empty selected time window is retained as observation only; it does not establish a Pause defect.",
+      "caption": "A selected line 17 capture shows quantity=4, subtotal_cents=4800, discount_cents=480, and total_cents=4320.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 184,
+      "output_end_seconds": 196
+    },
+    {
+      "source_start_seconds": 1815,
+      "source_end_seconds": 1827,
+      "nominal_20fps_timeline_start_index": 36300,
+      "nominal_20fps_timeline_end_index_exclusive": 36540,
+      "first_stored_frame_ordinal_at_or_after_start": 36230,
+      "stored_frame_end_ordinal_exclusive": 36470,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:13:00+00:00",
+      "utc_end_derived": "2026-10-08T14:13:12+00:00",
+      "title": "Clean Pause preserves the current rows",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "With no event selected, the clean Pause control keeps the current recent rows visible.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 196,
+      "output_end_seconds": 208
+    },
+    {
+      "source_start_seconds": 1833,
+      "source_end_seconds": 1847,
+      "nominal_20fps_timeline_start_index": 36660,
+      "nominal_20fps_timeline_end_index_exclusive": 36940,
+      "first_stored_frame_ordinal_at_or_after_start": 36590,
+      "stored_frame_end_ordinal_exclusive": 36870,
+      "duration_seconds": 14,
+      "utc_start_derived": "2026-10-08T14:13:18+00:00",
+      "utc_end_derived": "2026-10-08T14:13:32+00:00",
+      "title": "Paused rows remain available",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The paused list retains the same recent rows afterward; this control does not establish a Pause defect.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 208,
+      "output_end_seconds": 222
+    },
+    {
+      "source_start_seconds": 1930,
+      "source_end_seconds": 1943,
+      "nominal_20fps_timeline_start_index": 38600,
+      "nominal_20fps_timeline_end_index_exclusive": 38860,
+      "first_stored_frame_ordinal_at_or_after_start": 38523,
+      "stored_frame_end_ordinal_exclusive": 38783,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T14:14:55+00:00",
+      "utc_end_derived": "2026-10-08T14:15:08+00:00",
+      "title": "Blank-line 10 diagnostic",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          278,
+          459,
+          235,
+          40
+        ],
+        [
+          487,
+          550,
+          141,
+          23
+        ],
+        [
+          257,
+          567,
+          184,
+          24
+        ],
+        [
+          257,
+          586,
+          369,
+          23
+        ],
+        [
+          257,
+          605,
+          94,
+          22
+        ],
+        [
+          520,
+          831,
+          112,
+          44
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Probe identifier, private source path, service and creator hidden; unsupported-decorator guidance retained.",
+      "caption": "The line 10 card reports NoFunctionsAtLine with unsupported-decorator guidance; private identifiers are hidden.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 222,
+      "output_end_seconds": 235
+    },
+    {
+      "source_start_seconds": 2026.5,
+      "source_end_seconds": 2030.5,
+      "nominal_20fps_timeline_start_index": 40530,
+      "nominal_20fps_timeline_end_index_exclusive": 40610,
+      "first_stored_frame_ordinal_at_or_after_start": 40437,
+      "stored_frame_end_ordinal_exclusive": 40517,
+      "duration_seconds": 4.0,
+      "utc_start_derived": "2026-10-08T14:16:31.500000+00:00",
+      "utc_end_derived": "2026-10-08T14:16:35.500000+00:00",
+      "title": "Child message edited under an inactive parent",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          999,
+          308,
+          108,
+          38
+        ],
+        [
+          678,
+          487,
+          594,
+          45
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": " Lower source/control strip masked; message input remains visible.",
+      "caption": "The parent is INACTIVE as the child message is edited to SESSION_STOP_STALE.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 235,
+      "output_end_seconds": 239.0
+    },
+    {
+      "source_start_seconds": 2055,
+      "source_end_seconds": 2068,
+      "nominal_20fps_timeline_start_index": 41100,
+      "nominal_20fps_timeline_end_index_exclusive": 41360,
+      "first_stored_frame_ordinal_at_or_after_start": 41007,
+      "stored_frame_end_ordinal_exclusive": 41267,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T14:17:00+00:00",
+      "utc_end_derived": "2026-10-08T14:17:13+00:00",
+      "title": "Active state after the update sequence",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          125,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The parent is ACTIVE and the selected child progresses to EVENTS RECEIVED; no hidden action is reconstructed.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 239.0,
+      "output_end_seconds": 252.0
+    },
+    {
+      "source_start_seconds": 2140,
+      "source_end_seconds": 2152,
+      "nominal_20fps_timeline_start_index": 42800,
+      "nominal_20fps_timeline_end_index_exclusive": 43040,
+      "first_stored_frame_ordinal_at_or_after_start": 42701,
+      "stored_frame_end_ordinal_exclusive": 42941,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:18:25+00:00",
+      "utc_end_derived": "2026-10-08T14:18:37+00:00",
+      "title": "Fresh edited-message capture",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          895,
+          308,
+          125,
+          38
+        ],
+        [
+          678,
+          390,
+          594,
+          142
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": " Top source region conservatively hidden across reload and later selection.",
+      "caption": "The selected capture shows SESSION_STOP_STALE and quantity-three values; this is observed capture state.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 252.0,
+      "output_end_seconds": 264.0
+    },
+    {
+      "source_start_seconds": 2160,
+      "source_end_seconds": 2172,
+      "nominal_20fps_timeline_start_index": 43200,
+      "nominal_20fps_timeline_end_index_exclusive": 43440,
+      "first_stored_frame_ordinal_at_or_after_start": 43100,
+      "stored_frame_end_ordinal_exclusive": 43337,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T14:18:45+00:00",
+      "utc_end_derived": "2026-10-08T14:18:57+00:00",
+      "title": "Final stop keeps captured history",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          390,
+          256,
+          34
+        ],
+        [
+          432,
+          308,
+          286,
+          38
+        ],
+        [
+          999,
+          308,
+          108,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The parent is INACTIVE, visible children are disabled, and the selected capture remains available.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 264.0,
+      "output_end_seconds": 276.0
+    },
+    {
+      "source_start_seconds": 2280,
+      "source_end_seconds": 2292.45,
+      "nominal_20fps_timeline_start_index": 45600,
+      "nominal_20fps_timeline_end_index_exclusive": 45849,
+      "first_stored_frame_ordinal_at_or_after_start": 45490,
+      "stored_frame_end_ordinal_exclusive": 45738,
+      "duration_seconds": 12.45,
+      "utc_start_derived": "2026-10-08T14:20:45+00:00",
+      "utc_end_derived": "2026-10-08T14:20:57.450000+00:00",
+      "title": "Unfiltered final inventory",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1004,
+        579
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1004,
+        580
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          268,
+          536,
+          655,
+          390
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "Session/account/service names and profile icons hidden; filters, counts and four inactive statuses retained.",
+      "caption": "My sessions is off; the final inventory shows All 4, Active 0, Inactive 4 and four inactive cards.",
+      "output_file": "quiet-controls-lifecycle-highlights.mp4",
+      "output_start_seconds": 276.0,
+      "output_end_seconds": 288.45
+    }
+  ],
+  "evidence_limits": [
+    "All motion comes from recording source 14. Opaque masks, integer crops, native-scale padding, titles and captions are editorial changes. No UI was reconstructed and no still was inserted as motion.",
+    "The source declares a nominal 20 fps rate, but contains 45,738 stored frames over 2292.45 seconds. There are 64 timestamp gaps larger than 0.05 seconds, with a maximum adjacent step of 0.30 seconds. Output is constant 20 fps; existing recorded frames are held across gaps. Source PTS ranges are primary; nominal timeline indices and actual stored-frame ordinals are labeled separately.",
+    "The archive retains continuous safe sections and original waits. Every temporal omission is listed. An additional 15.00 seconds of retained time is fully privacy-obscured during moving provider/log regions and is not visible product evidence.",
+    "The manual workflow becomes queued and then in progress. The runner reports readiness and registration booleans. Those diagnostic states are distinct from a debugger capture.",
+    "Line 69 visibly moves from a zero-instance quiet state to one targeting instance while remaining WAITING FOR EVENTS with no event. WAITING alone is not proof that instrumentation installed. The line-9999 control separately reports an explicit ERROR and NoFunctionsAtLine.",
+    "The one-shot result later shows NEVER_CONTROL value=707 and never_called_local=707. The visible event-row time, SDK snapshot execution timestamp and runner HTTP timestamps are separate evidence types. The exact SDK timestamp was independently verified in the companion run evidence; it is not substituted for the event-row time in these captions.",
+    "The indexed stacktrace shows retrieved line-69 source and captured 707, with repository prefixes and synthetic correlation strings masked. Its actual line and captured value are preserved. No private repository-B access claim follows from this footage.",
+    "Pricing line 16 is visibly a comment in the draft. Its later error gives target-code-loaded guidance. Pricing line 10 is a blank-line control; its later detail card includes unsupported-decorator guidance. The caption describes the observed text, without inventing a confirmed root cause or broad installation failure.",
+    "The valid line-17 draft, pending submission state, later twelve-logpoint view and numeric capture are retained. The exact rapid double-click-plus-Return input count comes from the independent run record; cursor pixels alone do not prove that gesture count. One matching added target was independently checked after reload.",
+    "An early event-selected view is already auto-paused and must not be treated as a clean before-Pause state. The later clean no-selection Pause control preserves the recent rows. These clips do not establish a Pause defect.",
+    "The foreground shows an inactive parent, editing of SESSION_STOP_STALE, later active status and a fresh capture, then final stop. There are tab/view changes between observations. Captions preserve those boundaries and do not reconstruct hidden actions or infer the stale-editor mechanism from a single frame.",
+    "The final unfiltered inventory shows My sessions off, All 4, Active 0, Inactive 4 and four visible inactive cards. Capture history remains visible after stopping. The footage does not assert that accounts, repositories, keys or grants were deleted.",
+    "The pricing behavior is an intentionally planted application fixture bug. Captured quantities, discounts and totals do not imply a Datadog pricing defect.",
+    "UTC caption ranges are derived from the recorder start. Displayed Datadog event times use UTC-07:00. Recorder times, displayed rows, snapshot execution timestamps and HTTP times must not be treated as interchangeable.",
+    "Browser chrome, account/profile/service/session identities, private repository URLs and prefixes, trace/runtime/probe/correlation identifiers and secret-like source literals are cropped, masked or omitted. Broad masks sometimes hide adjacent ordinary text or source. Exact geometry and full-mask intervals are disclosed.",
+    "Earlier frozen media remain unchanged. Only the flat public folders are eligible for publication; raw recordings, internal journals, diagnostic contact sheets and helper scripts are excluded."
+  ],
+  "review": {
+    "source_overview_spacing_seconds": 20,
+    "dense_privacy_transition_sampling_fps": [
+      0.5,
+      1,
+      2,
+      20
+    ],
+    "full_rate_page_state_scan_fps": 20,
+    "independent_middle_interval_privacy_review": true,
+    "clip_endpoints_midpoints_reviewed": 246,
+    "output_ocr_sampled_frames": 610,
+    "unresolved_ocr_flags": 0,
+    "private_correlation_and_uuid_patterns_scanned": true,
+    "caption_and_layout_findings_resolved": true,
+    "review_is_sampled_not_a_guarantee_of_every_pixel": true,
+    "all_public_videos_decoded": true,
+    "source_hash_unchanged": true
+  }
+}
