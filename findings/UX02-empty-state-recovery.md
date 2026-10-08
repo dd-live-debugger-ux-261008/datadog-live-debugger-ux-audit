@@ -44,7 +44,7 @@ Add a contextual “Connect your first service” or prerequisite-check action b
 - Manual debugging remains visible without Source Code Integration. Source linking did not falsely block entry to the manual route.
 - Start Debug Session is correctly disabled when no service is selected.
 - Closing the modal returns to the prior page; no session was created in this check.
-- Runtime telemetry is now paused pending specific payload approval. Agent/sample processes are stopped; no runtime ingestion was proved. These setup and authorization limits are not themselves Datadog defects.
+- At the original empty-state checkpoint, runtime ingestion was not established. In the later authorized continuation, a healthy SDK runtime exposes staging and captures the expected numeric values. This does not establish that a correctly configured service was previously absent.
 - This finding is limited to the captured empty-state section and modal. It does not claim that no onboarding help exists elsewhere in Datadog.
 
 ## Later recovery checks after service discovery
@@ -52,3 +52,9 @@ Add a contextual “Connect your first service” or prerequisite-check action b
 The approved continuation did discover a service. Its wildcard-environment draft provides useful guidance that all-environment creation does not enable the service automatically, with a Go to Configuration link. This positive behavior narrows the earlier empty-account observation.
 
 Two baseline creation attempts later returned an explicit instrumentation-invalid toast and HTTP 400; the error was not silent. The offered Configuration link preserved the draft and opened service-specific setup, where live page inspection reported no environments and source integration remained unconnected. The cause of creation rejection is unresolved; runtime pause and absent source association are not established explanations. This remains a scoped recovery-guidance observation, not evidence that a fully healthy service is incorrectly absent. [Detailed timing and boundaries](../EVIDENCE.md#baseline-submission-attempts).
+
+## Later healthy baseline
+
+The hosted synthetic runtime registered the Live Debugging SDK products; staging became available and a manual session produced actual events and locals before source association was repaired. F01 subsequently verified the complete quantity 2/3/4 numeric-template controls. [Baseline evidence](../EVIDENCE.md#verified-numeric-baseline).
+
+The initial Enable logs message also gave way to populated events after visiting Logs and reloading, without a Logs setting change. This remains a separate unconfirmed observation, not another finding or proof of a Logs-configuration defect. The earlier HTTP 400 cause remains unresolved. [Unconfirmed inventory](../UNCONFIRMED_OBSERVATIONS.md).

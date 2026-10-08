@@ -35,4 +35,4 @@ A beginner can copy the onboarding example and encounter Python module troublesh
 
 Use `ddtrace-run python myapp.py` for a script, or `ddtrace-run python -m myapp` for a module. Add a quickstart smoke test that verifies successful process startup, followed by a real first-capture check.
 
-**Retest boundary:** The syntax alternatives passed locally. A corrected, instrumented end-to-end Datadog quickstart remains unverified in this checkpoint.
+**Retest boundary:** The syntax alternatives passed locally. The later hosted runtime launched with the supported script form and produced actual numeric captures, providing a live workaround control. This does not claim that the published documentation was corrected or that every quickstart step was retested. [Verified capture baseline](../EVIDENCE.md#verified-numeric-baseline).
