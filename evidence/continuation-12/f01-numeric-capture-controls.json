@@ -1,0 +1,60 @@
+{
+  "evidence_type": "normalized bounded UI observation, not original event payload",
+  "source_observation_file_sha256": "52ba05bd8179e3782c106f234e42b800339f683f0adea6ca1fbea33fcc84d107",
+  "timestamp_limit": "The UI timestamp parameter is transcribed separately from observation time; its exact event-time semantic has not been independently established. Do not equate it with capture-execution time.",
+  "tested_target": {
+    "file": "pricing.py",
+    "line": 17,
+    "environment": "staging",
+    "capture": "All variables, depth3",
+    "message_template": "QA quantity={quantity} total={total_cents}"
+  },
+  "observations": [
+    {
+      "observed_utc": "2026-10-08T10:03:50.811Z",
+      "ui_timestamp_parameter_utc": "2026-10-08T10:02:26.912Z",
+      "rendered_message": "QA quantity=3 total=3600",
+      "captured_locals": {
+        "quantity": 3,
+        "discount_cents": 0,
+        "discount_eligible": false,
+        "subtotal_cents": 3600,
+        "total_cents": 3600,
+        "unit_price_cents": 1200
+      },
+      "original_screenshot_basename": "73-numeric-template-quantity-three.jpg",
+      "source_recording": "12"
+    },
+    {
+      "observed_utc": "2026-10-08T10:04:08.659Z",
+      "ui_timestamp_parameter_utc": "2026-10-08T10:03:42.014Z",
+      "rendered_message": "QA quantity=2 total=2400",
+      "captured_locals": {
+        "quantity": 2,
+        "discount_cents": 0,
+        "discount_eligible": false,
+        "subtotal_cents": 2400,
+        "total_cents": 2400,
+        "unit_price_cents": 1200
+      },
+      "original_screenshot_basename": "74-numeric-template-quantity-two.jpg",
+      "source_recording": "12"
+    },
+    {
+      "observed_utc": "2026-10-08T10:04:21.432Z",
+      "ui_timestamp_parameter_utc": "2026-10-08T10:03:59.137Z",
+      "rendered_message": "QA quantity=4 total=4320",
+      "captured_locals": {
+        "quantity": 4,
+        "discount_cents": 480,
+        "discount_eligible": true,
+        "subtotal_cents": 4800,
+        "total_cents": 4320,
+        "unit_price_cents": 1200
+      },
+      "original_screenshot_basename": "75-numeric-template-quantity-four.jpg",
+      "source_recording": "12"
+    }
+  ],
+  "privacy_note": "Session/probe identifiers, browser URLs and raw UI snapshots omitted."
+}

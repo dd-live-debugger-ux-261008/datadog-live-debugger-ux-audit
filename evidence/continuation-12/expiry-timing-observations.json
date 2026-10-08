@@ -1,0 +1,30 @@
+{
+  "evidence_type": "Bounded rendered-UI, screenshot and actual SDK-payload observations",
+  "target": {
+    "last_active_observed_utc": "2026-10-08T10:45:35.975Z",
+    "display": "ACTIVE (1 SECOND LEFT)",
+    "first_inactive_expired_observed_utc": "2026-10-08T10:45:50.640Z",
+    "last_snapshot_timestamp_ms": 1791456341045,
+    "last_snapshot_timestamp_utc": "2026-10-08T10:45:41.045Z",
+    "latest_ui_row_timestamp_utc": "2026-10-08T10:45:43.820Z",
+    "no_newer_rows_rechecked_utc": "2026-10-08T10:47:16.596Z",
+    "reload_expired_confirmed_utc": "2026-10-08T10:49:21.580Z",
+    "fresh_direct_link_confirmation": "around 10:50 UTC; expired state and history retained"
+  },
+  "control": {
+    "later_expiring": true,
+    "snapshot_timestamp_ms": 1791456450402,
+    "snapshot_timestamp_utc": "2026-10-08T10:47:30.402Z",
+    "quantity": 4,
+    "fixture_oracle_match_verified": true
+  },
+  "observed_transition_window_seconds": 14.665,
+  "limits": [
+    "No exact internal expiration instant or instantaneous stop is inferred.",
+    "SDK snapshot timestamps, UI row timestamps and observation clocks are distinct.",
+    "Screenshots 96\u2013102 show rendered states/row times, not these offscreen JSON payload fields.",
+    "The target active-to-expired transition is not visible in the desktop recording; an already-expired after-state is retained. Screenshots, rendered-UI reads and payload observations establish the bounded transition.",
+    "No exhaustive backend absence query or deletion of historical data is claimed."
+  ],
+  "privacy": "Session, probe and snapshot identifiers and private URLs omitted."
+}
