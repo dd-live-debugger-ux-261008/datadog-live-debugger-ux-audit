@@ -50,8 +50,15 @@ Preserve dirty fields when applying remote updates. If reconciliation is necessa
 
 ## Remaining F09 scope
 
-A conflicting saved write, a stale-tab save of a different field, both-tab reload and new-capture revision checks still require their own evidence. This finding is sufficient to record F09 as FINDING for the observed dirty-draft branch; it does not mark every planned concurrency variant executed.
+Later coverage-phase checks verified both-tab reload agreement with A’s accepted condition and message, followed by a matching new row. A conflicting accepted write and stale-tab saved-write of a different field still require their own evidence; B’s Apply was disabled after its dirty draft reset. This finding is sufficient to record F09 as FINDING for the observed dirty-draft branch; it does not mark every planned concurrency variant executed.
 
 ## Foreground motion review update
 
 Source 13 foreground review shows the dirty quantity-three draft followed by a source/INSTRUMENTING view, rather than the exact quantity-four editor after-state in still 135. The movie will not be presented as a complete visible dirty-draft overwrite sequence. The reviewed before/after stills and rendered-editor chronology establish FUNC01; missing foreground steps are not reconstructed.
+
+
+## Later corroboration, 21:08–21:09 UTC
+
+The coverage phase reproduced a dirty-draft reset after A saved a condition change. B’s Apply became disabled, so a stale B write was never accepted. Reloading both tabs preserved A’s accepted condition and the original message. A later matching row was observed at 21:09:48 UTC; that is an event-list time, not an independently checked SDK execution timestamp. This corroborates the existing finding without adding a new defect or establishing saved-write corruption.
+
+[Reviewed source 17 motion and chapters](../recordings/continuation-17/highlights/CONTINUATION_HIGHLIGHTS.md) include the actual reset and disabled Apply. [Safe coverage stills and provenance](../evidence/coverage-phase-224-261/manifest.json) preserve the separate observations.
