@@ -1,0 +1,37 @@
+{
+  "id": "147",
+  "source_filename": "147-control-probe-waiting-before-one-shot.jpg",
+  "source_sha256": "7c620f92100ae6904d0c9160f3525b3d8b83876546aa2efe98127f3e9b4c2e48",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "147-waiting-zero-instances-safe.png",
+  "public_relative_path": "evidence/control-phase-147-154/147-waiting-zero-instances-safe.png",
+  "safe_sha256": "759313b772676a486e0dc521a18a55c8d22a0de0943db5ec14e34b81068e862c",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "ee8d5e619cf8901ecd30499f0e6502fe6e8f4beccaf02b15d790bc09f1013dc7",
+  "safe_decoded_rgb_sha256": "ee8d5e619cf8901ecd30499f0e6502fe6e8f4beccaf02b15d790bc09f1013dc7",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The qa_fixture.py line 69 logpoint visibly shows WAITING FOR EVENTS, 0 Instances, and No events. The event panel below contains historical rows from other logpoints within a fixed time range. This is the initial zero-instance waiting state.",
+  "visible_evidence_limits": [
+    "WAITING FOR EVENTS is not an explicit successful-installation assertion.",
+    "The historical rows do not represent a line-69 one-shot capture.",
+    "The visible source pane is a different complex-fixture location, not line 69."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

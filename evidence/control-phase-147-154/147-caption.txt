@@ -1,0 +1,1 @@
+The qa_fixture.py line 69 logpoint visibly shows WAITING FOR EVENTS, 0 Instances, and No events. The event panel below contains historical rows from other logpoints within a fixed time range. This is the initial zero-instance waiting state.

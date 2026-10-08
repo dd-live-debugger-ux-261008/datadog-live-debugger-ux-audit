@@ -1,0 +1,1 @@
+The line 69 probe now visibly shows EVENTS RECEIVED and approximately 1 event captured. The rendered message is NEVER_CONTROL value=707, and the capture pane shows never_called_local=707 with Redaction: Targeted. The one visible event row reads Oct 08 06:58:28.918 under UTC-07:00, corresponding to 13:58:28.918 UTC. The synthetic correlation identifier is masked.

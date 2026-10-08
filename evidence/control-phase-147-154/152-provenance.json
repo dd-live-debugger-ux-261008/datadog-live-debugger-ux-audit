@@ -1,0 +1,58 @@
+{
+  "id": "152",
+  "source_filename": "152-never-called-one-shot-707-capture.jpg",
+  "source_sha256": "f49dc7a3e8fbbeb476dc657419eb147dd1a7d5dea44620b318aecaf2cc8b5537",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "152-one-shot-707-capture-safe.png",
+  "public_relative_path": "evidence/control-phase-147-154/152-one-shot-707-capture-safe.png",
+  "safe_sha256": "85580544ecd18bdfc67d788ce97554c4ba70f77303692fcd89a5c1e9b57b0fe8",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        839,
+        542,
+        1005,
+        567
+      ],
+      "output_xyxy": [
+        679,
+        370,
+        845,
+        395
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "29bab10568dbe90a3fdf94dcab13f3ae3d0f45bde02e4c84da93cdc89cd06019",
+  "safe_decoded_rgb_sha256": "8359796588123a216c736a69935987a2874aad8335b12a486fb978641ae4c569",
+  "verified_unchanged_pixels_outside_masks": 544610,
+  "source_unchanged": true,
+  "caption": "The line 69 probe now visibly shows EVENTS RECEIVED and approximately 1 event captured. The rendered message is NEVER_CONTROL value=707, and the capture pane shows never_called_local=707 with Redaction: Targeted. The one visible event row reads Oct 08 06:58:28.918 under UTC-07:00, corresponding to 13:58:28.918 UTC. The synthetic correlation identifier is masked.",
+  "visible_evidence_limits": [
+    "The displayed row time is not the separately verified SDK snapshot time 1791467906856, which converts to 13:58:26.856 UTC.",
+    "The exact SDK timestamp field is not visible in this still.",
+    "The single displayed row does not by itself establish the runner HTTP request timing."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

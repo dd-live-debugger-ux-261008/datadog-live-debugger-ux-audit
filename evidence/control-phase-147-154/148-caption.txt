@@ -1,0 +1,1 @@
+The line 69 logpoint visibly shows WAITING FOR EVENTS with 1 Instance and No events. Its open detail card identifies qa_fixture.py#69, one targeting instance, no specific instance target, and No events captured. Account and runtime identities in the card are masked.

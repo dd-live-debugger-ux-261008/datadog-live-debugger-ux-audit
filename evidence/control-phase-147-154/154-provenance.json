@@ -1,0 +1,118 @@
+{
+  "id": "154",
+  "source_filename": "154-one-shot-indexed-source-and-timestamp.jpg",
+  "source_sha256": "c35986c52d0e3a01bfed047e10f362821b2d93848ddb1a1dee3ad83b41fab2d1",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "154-one-shot-source-and-captured-value-safe.png",
+  "public_relative_path": "evidence/control-phase-147-154/154-one-shot-source-and-captured-value-safe.png",
+  "safe_sha256": "01c272566be324898ef7cdc20cf8937e1415c4ec02c5a19315f7a8fe856bc2c4",
+  "safe_dimensions": [
+    617,
+    607
+  ],
+  "crop_source_xyxy": [
+    518,
+    109,
+    1135,
+    716
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        601,
+        246,
+        789,
+        271
+      ],
+      "output_xyxy": [
+        83,
+        137,
+        271,
+        162
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path prefix; qa_fixture.py retained"
+    },
+    {
+      "source_xyxy": [
+        824,
+        299,
+        1098,
+        325
+      ],
+      "output_xyxy": [
+        306,
+        190,
+        580,
+        216
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier literals in function source"
+    },
+    {
+      "source_xyxy": [
+        683,
+        535,
+        825,
+        560
+      ],
+      "output_xyxy": [
+        165,
+        426,
+        307,
+        451
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    },
+    {
+      "source_xyxy": [
+        600,
+        595,
+        789,
+        619
+      ],
+      "output_xyxy": [
+        82,
+        486,
+        271,
+        510
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path prefix; qa_app.py retained"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b2aa6ab8cc7197be4168b7fd09e8e09d2c1975847d5117e2b8fa8db85df11dfc",
+  "safe_decoded_rgb_sha256": "4de76de79e6d26897627f3ebd45a63b243f842b09d0db395a6d6b693067f7608",
+  "verified_unchanged_pixels_outside_masks": 354609,
+  "source_unchanged": true,
+  "caption": "The Logs stacktrace visibly shows qa_fixture.py line 69 in never_called, with retrieved source that assigns never_called_local=707 before returning at line 69. The values pane displays never_called_local=707 with Redaction: Targeted, and a second frame identifies qa_app.py line 75 in do_GET. The source-link control is visible. Private repository prefixes and synthetic correlation identifiers are masked. The JSON Attributes header is visible at the bottom.",
+  "visible_evidence_limits": [
+    "The JSON timestamp field is below the visible area. The exact SDK snapshot timestamp 1791467906856 (2026-10-08 13:58:26.856 UTC) was separately verified by the task owner; this screenshot does not display it.",
+    "The full deployed SHA is visible in screenshot 153, not this screenshot.",
+    "Raw snapshot/trace/thread identifiers and the private search query are excluded by the crop."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

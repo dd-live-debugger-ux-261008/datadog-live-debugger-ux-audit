@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "title": "Control phase: instance readiness, quiet probes, explicit installation errors, and one-shot capture",
+  "public_relative_directory": "evidence/control-phase-147-154/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "All rectangles are zero-based and half-open [left, top, right, bottom). Outputs use integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "0bf661ee6aa72181711aa7877a999b77b148a199c8b81b5e105c75b689836748",
+    "batch_definition_sha256": "d4c349c89647e5d1aae43241db5f776b5cbb0e395449fbad6055be546c286fe9",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "147",
+      "source_filename": "147-control-probe-waiting-before-one-shot.jpg",
+      "source_sha256": "7c620f92100ae6904d0c9160f3525b3d8b83876546aa2efe98127f3e9b4c2e48",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "147-waiting-zero-instances-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/147-waiting-zero-instances-safe.png",
+      "safe_sha256": "759313b772676a486e0dc521a18a55c8d22a0de0943db5ec14e34b81068e862c",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "ee8d5e619cf8901ecd30499f0e6502fe6e8f4beccaf02b15d790bc09f1013dc7",
+      "safe_decoded_rgb_sha256": "ee8d5e619cf8901ecd30499f0e6502fe6e8f4beccaf02b15d790bc09f1013dc7",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The qa_fixture.py line 69 logpoint visibly shows WAITING FOR EVENTS, 0 Instances, and No events. The event panel below contains historical rows from other logpoints within a fixed time range. This is the initial zero-instance waiting state.",
+      "visible_evidence_limits": [
+        "WAITING FOR EVENTS is not an explicit successful-installation assertion.",
+        "The historical rows do not represent a line-69 one-shot capture.",
+        "The visible source pane is a different complex-fixture location, not line 69."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "148",
+      "source_filename": "148-control-probe-one-instance-no-events.jpg",
+      "source_sha256": "3c35755e32013161780e33e1ff1a7a1b38288628d8fa4455780eb01f39d82d57",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "148-waiting-one-instance-no-events-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/148-waiting-one-instance-no-events-safe.png",
+      "safe_sha256": "33fbaf5ada0df3b6d159519600df9315769f32e0a85c0a925c67e2f3e4ea19ed",
+      "safe_dimensions": [
+        1036,
+        539
+      ],
+      "crop_source_xyxy": [
+        144,
+        172,
+        1180,
+        711
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            193,
+            366,
+            370,
+            394
+          ],
+          "output_xyxy": [
+            49,
+            194,
+            226,
+            222
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity in detail-card header"
+        },
+        {
+          "source_xyxy": [
+            435,
+            592,
+            525,
+            617
+          ],
+          "output_xyxy": [
+            291,
+            420,
+            381,
+            445
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator profile identity"
+        },
+        {
+          "source_xyxy": [
+            435,
+            618,
+            525,
+            644
+          ],
+          "output_xyxy": [
+            291,
+            446,
+            381,
+            472
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "modifier profile identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "762ea221fd2b82f13e37557d7e3f10546e86487dbc6ed8869a2c6e95b57fcb07",
+      "safe_decoded_rgb_sha256": "f430c53d08cf471ce92d02e4e3b8ed0383b55ae914e97d97e9ed3791040aec14",
+      "verified_unchanged_pixels_outside_masks": 548858,
+      "source_unchanged": true,
+      "caption": "The line 69 logpoint visibly shows WAITING FOR EVENTS with 1 Instance and No events. Its open detail card identifies qa_fixture.py#69, one targeting instance, no specific instance target, and No events captured. Account and runtime identities in the card are masked.",
+      "visible_evidence_limits": [
+        "The transition from zero to one visible instance is supported by comparing 147 and 148, but WAITING alone still does not prove successful probe installation.",
+        "No one-shot application capture is pictured here."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "149",
+      "source_filename": "149-quiet-versus-failed-install-control.jpg",
+      "source_sha256": "4f95000527a052ff6fc4360e90d18893c4f06651743c6287966dd2e238dea1e2",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "149-quiet-versus-explicit-install-error-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/149-quiet-versus-explicit-install-error-safe.png",
+      "safe_sha256": "f8d81196212bd58cf6ef27a6c577fceb4b24cd04313ec04d584269c154c31c66",
+      "safe_dimensions": [
+        1036,
+        582
+      ],
+      "crop_source_xyxy": [
+        144,
+        172,
+        1180,
+        754
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            193,
+            306,
+            394,
+            334
+          ],
+          "output_xyxy": [
+            49,
+            134,
+            250,
+            162
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity in error-card header"
+        },
+        {
+          "source_xyxy": [
+            398,
+            394,
+            532,
+            413
+          ],
+          "output_xyxy": [
+            254,
+            222,
+            388,
+            241
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            168,
+            412,
+            290,
+            431
+          ],
+          "output_xyxy": [
+            24,
+            240,
+            146,
+            259
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier second wrapped line"
+        },
+        {
+          "source_xyxy": [
+            185,
+            431,
+            534,
+            449
+          ],
+          "output_xyxy": [
+            41,
+            259,
+            390,
+            277
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runner/repository path first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            168,
+            448,
+            303,
+            467
+          ],
+          "output_xyxy": [
+            24,
+            276,
+            159,
+            295
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private source path second wrapped line; public location field retained"
+        },
+        {
+          "source_xyxy": [
+            435,
+            663,
+            525,
+            690
+          ],
+          "output_xyxy": [
+            291,
+            491,
+            381,
+            518
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator profile identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a990f5fca99c057ac38618e3670b38e44929f7b382b4ac2627b75ccc58bf6429",
+      "safe_decoded_rgb_sha256": "434c512ec8148d02e8b02840dfb7346c00dfccd16ebc1c249f70a9a13f368df0",
+      "verified_unchanged_pixels_outside_masks": 581301,
+      "source_unchanged": true,
+      "caption": "The quiet qa_fixture.py line 69 row remains WAITING FOR EVENTS with one instance and no events. A separate detail card for qa_fixture.py#9999 shows ERROR and reports that 1/1 instances had configuration errors, including NoFunctionsAtLine and no functions at line 9999. Probe identifiers and the private runner/repository path are masked. The source pane also shows a multiple-file-version notice with selected abbreviated commit f3b9475.",
+      "visible_evidence_limits": [
+        "The explicit line-9999 installation error is distinct from the quiet line-69 waiting state.",
+        "The selected source commit shown here must not be assumed to be the later full runtime revision.",
+        "The private path text is masked; the public location card still identifies qa_fixture.py#9999."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "150",
+      "source_filename": "150-comment-line-installation-result.jpg",
+      "source_sha256": "5f27200c5dedb3c25107bcf75087036936d85fd1f23b4092bd4f684087e56f41",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "150-line-16-target-loaded-guidance-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/150-line-16-target-loaded-guidance-safe.png",
+      "safe_sha256": "58bd5a688a729e8bbf81687e323a96c34a6c0368e09871d2f61d2c54139fee7e",
+      "safe_dimensions": [
+        1036,
+        582
+      ],
+      "crop_source_xyxy": [
+        144,
+        172,
+        1180,
+        754
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            193,
+            357,
+            394,
+            385
+          ],
+          "output_xyxy": [
+            49,
+            185,
+            250,
+            213
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity in error-card header"
+        },
+        {
+          "source_xyxy": [
+            435,
+            663,
+            525,
+            690
+          ],
+          "output_xyxy": [
+            291,
+            491,
+            381,
+            518
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator profile identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "1764dddeeb818c1b74b5ff26c3f5b0b253e11195901b9e827a76dd833c204c90",
+      "safe_decoded_rgb_sha256": "c42052c7a1769481618d7039558f83f5791cff7859356d5f9bd7b695db011c38",
+      "verified_unchanged_pixels_outside_masks": 594894,
+      "source_unchanged": true,
+      "caption": "The pricing.py line 16 logpoint visibly shows ERROR. Its detail card says that 1/1 instances received configuration but did not apply it and advises checking whether the target code is loaded. The card identifies pricing.py#16, one targeting instance, and no events captured. A separate qa_fixture.py#9999 error row and the multi-version source notice are also visible.",
+      "visible_evidence_limits": [
+        "The line-16 comment classification comes from the fixture/source controls; the comment text is not pictured in this still.",
+        "The displayed generic guidance does not establish a new defect or its cause.",
+        "The source pane is showing qa_fixture.py with selected abbreviated commit f3b9475, not the line-16 pricing.py source."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "151",
+      "source_filename": "151-live-quiet-control-before-trigger.jpg",
+      "source_sha256": "ec56cef930d336bb24d11f502c12218b0345faf7876814118fd2018368812632",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "151-live-quiet-control-before-trigger-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/151-live-quiet-control-before-trigger-safe.png",
+      "safe_sha256": "9fca239223d3e99e44a2b035abecf22054594f2a4cd70c84bce5a906a2f6a7f3",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "c40f6f45863656dc197eaeedb3bf1033368d0757f52f518014fd7eebb051cb41",
+      "safe_decoded_rgb_sha256": "c40f6f45863656dc197eaeedb3bf1033368d0757f52f518014fd7eebb051cb41",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The selected qa_fixture.py line 69 probe visibly remains WAITING FOR EVENTS with 1 Instance, No events, approximately 0 events captured, and no results in the past-hour event view. The separate line-9999 and pricing.py line-16 error rows remain visible.",
+      "visible_evidence_limits": [
+        "This is the quiet pre-trigger display, not an installation-success assertion.",
+        "The actual one-shot request and application execution are not pictured here.",
+        "The selected source commit remains abbreviated f3b9475 in a multi-version notice."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "152",
+      "source_filename": "152-never-called-one-shot-707-capture.jpg",
+      "source_sha256": "f49dc7a3e8fbbeb476dc657419eb147dd1a7d5dea44620b318aecaf2cc8b5537",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "152-one-shot-707-capture-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/152-one-shot-707-capture-safe.png",
+      "safe_sha256": "85580544ecd18bdfc67d788ce97554c4ba70f77303692fcd89a5c1e9b57b0fe8",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            839,
+            542,
+            1005,
+            567
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            845,
+            395
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "29bab10568dbe90a3fdf94dcab13f3ae3d0f45bde02e4c84da93cdc89cd06019",
+      "safe_decoded_rgb_sha256": "8359796588123a216c736a69935987a2874aad8335b12a486fb978641ae4c569",
+      "verified_unchanged_pixels_outside_masks": 544610,
+      "source_unchanged": true,
+      "caption": "The line 69 probe now visibly shows EVENTS RECEIVED and approximately 1 event captured. The rendered message is NEVER_CONTROL value=707, and the capture pane shows never_called_local=707 with Redaction: Targeted. The one visible event row reads Oct 08 06:58:28.918 under UTC-07:00, corresponding to 13:58:28.918 UTC. The synthetic correlation identifier is masked.",
+      "visible_evidence_limits": [
+        "The displayed row time is not the separately verified SDK snapshot time 1791467906856, which converts to 13:58:26.856 UTC.",
+        "The exact SDK timestamp field is not visible in this still.",
+        "The single displayed row does not by itself establish the runner HTTP request timing."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "153",
+      "source_filename": "153-one-shot-http-oracle.jpg",
+      "source_sha256": "111d538777475c65d4aa808a2e91598e37dfe7ba67b5dcc8d49d8dd11c7bdc59",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "153-runner-one-shot-http-observation-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/153-runner-one-shot-http-observation-safe.png",
+      "safe_sha256": "1c5e8072a954c3ec0c6be6b4dc2b36eebbf02629f1ece393baa611eb2bedf927",
+      "safe_dimensions": [
+        788,
+        662
+      ],
+      "crop_source_xyxy": [
+        340,
+        85,
+        1128,
+        747
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "e34076383e76f1b6a6a9938c10ac3e980a002efcd45bfe2c654d6a41ac6fc97f",
+      "safe_decoded_rgb_sha256": "e34076383e76f1b6a6a9938c10ac3e980a002efcd45bfe2c654d6a41ac6fc97f",
+      "verified_unchanged_pixels_outside_masks": 521656,
+      "source_unchanged": true,
+      "caption": "The runner status excerpt visibly prints git_sha=64581230b0e75bc0221b77b051ea53e3f7d46617. Its never_called_control object shows attempted=true, delay_seconds=600, http_oracle_verified=true, request_started_at=2026-10-08T13:58:26.838546+00:00, and request_finished_at=2026-10-08T13:58:26.857889+00:00. This is a separate runner HTTP observation.",
+      "visible_evidence_limits": [
+        "The HTTP request timestamps are not the SDK snapshot timestamp or the Datadog event-row timestamp.",
+        "The full SHA is reported by the runner here; this image alone does not prove the revision behind another source-view screenshot.",
+        "The runtime version 0.3.0 comes from task context and is not printed in this visible excerpt."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "154",
+      "source_filename": "154-one-shot-indexed-source-and-timestamp.jpg",
+      "source_sha256": "c35986c52d0e3a01bfed047e10f362821b2d93848ddb1a1dee3ad83b41fab2d1",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "154-one-shot-source-and-captured-value-safe.png",
+      "public_relative_path": "evidence/control-phase-147-154/154-one-shot-source-and-captured-value-safe.png",
+      "safe_sha256": "01c272566be324898ef7cdc20cf8937e1415c4ec02c5a19315f7a8fe856bc2c4",
+      "safe_dimensions": [
+        617,
+        607
+      ],
+      "crop_source_xyxy": [
+        518,
+        109,
+        1135,
+        716
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            601,
+            246,
+            789,
+            271
+          ],
+          "output_xyxy": [
+            83,
+            137,
+            271,
+            162
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path prefix; qa_fixture.py retained"
+        },
+        {
+          "source_xyxy": [
+            824,
+            299,
+            1098,
+            325
+          ],
+          "output_xyxy": [
+            306,
+            190,
+            580,
+            216
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literals in function source"
+        },
+        {
+          "source_xyxy": [
+            683,
+            535,
+            825,
+            560
+          ],
+          "output_xyxy": [
+            165,
+            426,
+            307,
+            451
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        },
+        {
+          "source_xyxy": [
+            600,
+            595,
+            789,
+            619
+          ],
+          "output_xyxy": [
+            82,
+            486,
+            271,
+            510
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path prefix; qa_app.py retained"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b2aa6ab8cc7197be4168b7fd09e8e09d2c1975847d5117e2b8fa8db85df11dfc",
+      "safe_decoded_rgb_sha256": "4de76de79e6d26897627f3ebd45a63b243f842b09d0db395a6d6b693067f7608",
+      "verified_unchanged_pixels_outside_masks": 354609,
+      "source_unchanged": true,
+      "caption": "The Logs stacktrace visibly shows qa_fixture.py line 69 in never_called, with retrieved source that assigns never_called_local=707 before returning at line 69. The values pane displays never_called_local=707 with Redaction: Targeted, and a second frame identifies qa_app.py line 75 in do_GET. The source-link control is visible. Private repository prefixes and synthetic correlation identifiers are masked. The JSON Attributes header is visible at the bottom.",
+      "visible_evidence_limits": [
+        "The JSON timestamp field is below the visible area. The exact SDK snapshot timestamp 1791467906856 (2026-10-08 13:58:26.856 UTC) was separately verified by the task owner; this screenshot does not display it.",
+        "The full deployed SHA is visible in screenshot 153, not this screenshot.",
+        "Raw snapshot/trace/thread identifiers and the private search query are excluded by the crop."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "147-caption.txt",
+    "147-provenance.json",
+    "147-waiting-zero-instances-safe.png",
+    "148-caption.txt",
+    "148-provenance.json",
+    "148-waiting-one-instance-no-events-safe.png",
+    "149-caption.txt",
+    "149-provenance.json",
+    "149-quiet-versus-explicit-install-error-safe.png",
+    "150-caption.txt",
+    "150-line-16-target-loaded-guidance-safe.png",
+    "150-provenance.json",
+    "151-caption.txt",
+    "151-live-quiet-control-before-trigger-safe.png",
+    "151-provenance.json",
+    "152-caption.txt",
+    "152-one-shot-707-capture-safe.png",
+    "152-provenance.json",
+    "153-caption.txt",
+    "153-provenance.json",
+    "153-runner-one-shot-http-observation-safe.png",
+    "154-caption.txt",
+    "154-one-shot-source-and-captured-value-safe.png",
+    "154-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ]
+}

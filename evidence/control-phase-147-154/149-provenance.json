@@ -1,0 +1,158 @@
+{
+  "id": "149",
+  "source_filename": "149-quiet-versus-failed-install-control.jpg",
+  "source_sha256": "4f95000527a052ff6fc4360e90d18893c4f06651743c6287966dd2e238dea1e2",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "149-quiet-versus-explicit-install-error-safe.png",
+  "public_relative_path": "evidence/control-phase-147-154/149-quiet-versus-explicit-install-error-safe.png",
+  "safe_sha256": "f8d81196212bd58cf6ef27a6c577fceb4b24cd04313ec04d584269c154c31c66",
+  "safe_dimensions": [
+    1036,
+    582
+  ],
+  "crop_source_xyxy": [
+    144,
+    172,
+    1180,
+    754
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        193,
+        306,
+        394,
+        334
+      ],
+      "output_xyxy": [
+        49,
+        134,
+        250,
+        162
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity in error-card header"
+    },
+    {
+      "source_xyxy": [
+        398,
+        394,
+        532,
+        413
+      ],
+      "output_xyxy": [
+        254,
+        222,
+        388,
+        241
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        412,
+        290,
+        431
+      ],
+      "output_xyxy": [
+        24,
+        240,
+        146,
+        259
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier second wrapped line"
+    },
+    {
+      "source_xyxy": [
+        185,
+        431,
+        534,
+        449
+      ],
+      "output_xyxy": [
+        41,
+        259,
+        390,
+        277
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runner/repository path first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        448,
+        303,
+        467
+      ],
+      "output_xyxy": [
+        24,
+        276,
+        159,
+        295
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private source path second wrapped line; public location field retained"
+    },
+    {
+      "source_xyxy": [
+        435,
+        663,
+        525,
+        690
+      ],
+      "output_xyxy": [
+        291,
+        491,
+        381,
+        518
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator profile identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a990f5fca99c057ac38618e3670b38e44929f7b382b4ac2627b75ccc58bf6429",
+  "safe_decoded_rgb_sha256": "434c512ec8148d02e8b02840dfb7346c00dfccd16ebc1c249f70a9a13f368df0",
+  "verified_unchanged_pixels_outside_masks": 581301,
+  "source_unchanged": true,
+  "caption": "The quiet qa_fixture.py line 69 row remains WAITING FOR EVENTS with one instance and no events. A separate detail card for qa_fixture.py#9999 shows ERROR and reports that 1/1 instances had configuration errors, including NoFunctionsAtLine and no functions at line 9999. Probe identifiers and the private runner/repository path are masked. The source pane also shows a multiple-file-version notice with selected abbreviated commit f3b9475.",
+  "visible_evidence_limits": [
+    "The explicit line-9999 installation error is distinct from the quiet line-69 waiting state.",
+    "The selected source commit shown here must not be assumed to be the later full runtime revision.",
+    "The private path text is masked; the public location card still identifies qa_fixture.py#9999."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

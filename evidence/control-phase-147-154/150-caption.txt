@@ -1,0 +1,1 @@
+The pricing.py line 16 logpoint visibly shows ERROR. Its detail card says that 1/1 instances received configuration but did not apply it and advises checking whether the target code is loaded. The card identifies pricing.py#16, one targeting instance, and no events captured. A separate qa_fixture.py#9999 error row and the multi-version source notice are also visible.

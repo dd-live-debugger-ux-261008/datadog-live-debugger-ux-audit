@@ -1,0 +1,1 @@
+The selected qa_fixture.py line 69 probe visibly remains WAITING FOR EVENTS with 1 Instance, No events, approximately 0 events captured, and no results in the past-hour event view. The separate line-9999 and pricing.py line-16 error rows remain visible.

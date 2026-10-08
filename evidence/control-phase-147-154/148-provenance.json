@@ -1,0 +1,97 @@
+{
+  "id": "148",
+  "source_filename": "148-control-probe-one-instance-no-events.jpg",
+  "source_sha256": "3c35755e32013161780e33e1ff1a7a1b38288628d8fa4455780eb01f39d82d57",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "148-waiting-one-instance-no-events-safe.png",
+  "public_relative_path": "evidence/control-phase-147-154/148-waiting-one-instance-no-events-safe.png",
+  "safe_sha256": "33fbaf5ada0df3b6d159519600df9315769f32e0a85c0a925c67e2f3e4ea19ed",
+  "safe_dimensions": [
+    1036,
+    539
+  ],
+  "crop_source_xyxy": [
+    144,
+    172,
+    1180,
+    711
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        193,
+        366,
+        370,
+        394
+      ],
+      "output_xyxy": [
+        49,
+        194,
+        226,
+        222
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity in detail-card header"
+    },
+    {
+      "source_xyxy": [
+        435,
+        592,
+        525,
+        617
+      ],
+      "output_xyxy": [
+        291,
+        420,
+        381,
+        445
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator profile identity"
+    },
+    {
+      "source_xyxy": [
+        435,
+        618,
+        525,
+        644
+      ],
+      "output_xyxy": [
+        291,
+        446,
+        381,
+        472
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "modifier profile identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "762ea221fd2b82f13e37557d7e3f10546e86487dbc6ed8869a2c6e95b57fcb07",
+  "safe_decoded_rgb_sha256": "f430c53d08cf471ce92d02e4e3b8ed0383b55ae914e97d97e9ed3791040aec14",
+  "verified_unchanged_pixels_outside_masks": 548858,
+  "source_unchanged": true,
+  "caption": "The line 69 logpoint visibly shows WAITING FOR EVENTS with 1 Instance and No events. Its open detail card identifies qa_fixture.py#69, one targeting instance, no specific instance target, and No events captured. Account and runtime identities in the card are masked.",
+  "visible_evidence_limits": [
+    "The transition from zero to one visible instance is supported by comparing 147 and 148, but WAITING alone still does not prove successful probe installation.",
+    "No one-shot application capture is pictured here."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

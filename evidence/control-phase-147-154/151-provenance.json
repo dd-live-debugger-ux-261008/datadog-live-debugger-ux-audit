@@ -1,0 +1,37 @@
+{
+  "id": "151",
+  "source_filename": "151-live-quiet-control-before-trigger.jpg",
+  "source_sha256": "ec56cef930d336bb24d11f502c12218b0345faf7876814118fd2018368812632",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "151-live-quiet-control-before-trigger-safe.png",
+  "public_relative_path": "evidence/control-phase-147-154/151-live-quiet-control-before-trigger-safe.png",
+  "safe_sha256": "9fca239223d3e99e44a2b035abecf22054594f2a4cd70c84bce5a906a2f6a7f3",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "c40f6f45863656dc197eaeedb3bf1033368d0757f52f518014fd7eebb051cb41",
+  "safe_decoded_rgb_sha256": "c40f6f45863656dc197eaeedb3bf1033368d0757f52f518014fd7eebb051cb41",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The selected qa_fixture.py line 69 probe visibly remains WAITING FOR EVENTS with 1 Instance, No events, approximately 0 events captured, and no results in the past-hour event view. The separate line-9999 and pricing.py line-16 error rows remain visible.",
+  "visible_evidence_limits": [
+    "This is the quiet pre-trigger display, not an installation-success assertion.",
+    "The actual one-shot request and application execution are not pictured here.",
+    "The selected source commit remains abbreviated f3b9475 in a multi-version notice."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

@@ -1,0 +1,1 @@
+The runner status excerpt visibly prints git_sha=64581230b0e75bc0221b77b051ea53e3f7d46617. Its never_called_control object shows attempted=true, delay_seconds=600, http_oracle_verified=true, request_started_at=2026-10-08T13:58:26.838546+00:00, and request_finished_at=2026-10-08T13:58:26.857889+00:00. This is a separate runner HTTP observation.
