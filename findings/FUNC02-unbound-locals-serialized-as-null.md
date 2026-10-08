@@ -38,7 +38,7 @@ These are distinct from the earlier F05 nonexistent-expression control, which co
 
 [Full-size annotated evidence](../evidence/continuation-13/locals-126-131/annotation/127-unassigned-deleted-locals-display-outlined.png) · [Full-size sanitized original](../evidence/continuation-13/locals-126-131/127-unassigned-deleted-locals-display-safe.png) · [Assigned-42 positive control](../evidence/continuation-13/locals-126-131/128-assigned-local-positive-control-safe.png) · [Branch-404 positive control](../evidence/continuation-13/locals-126-131/131-branch-assigned-display-control-safe.png)
 
-Source 13 contains the live test period; its privacy-reviewed motion export and final chapter map are pending. The screenshot claims are limited to visible states. They are not a substitute for an inspected hosted capture blob.
+Source 13 contains the live test period; its [reviewed archive](../recordings/continuation-13/CONTINUATION_RECORDING_ARCHIVE.md) and [highlight chapters](../recordings/continuation-13/highlights/CONTINUATION_HIGHLIGHTS.md) are available. The screenshot claims are limited to visible states. They are not a substitute for an inspected hosted capture blob.
 
 ## Reproduce offline
 

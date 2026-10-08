@@ -42,7 +42,7 @@ The stored condition remained correct. This finding concerns lost unsaved work; 
 
 **Evidence limits:** Apply is partly clipped by the event-pane divider in both originals. The screenshots preserve its visible styling; disabled-state confirmation and the intervening save action come from the recorder’s interaction chronology and rendered-editor observations. An accessibility snapshot briefly retained a stale value of 3 after the visible editor had changed to 4; this finding uses the rendered pixels and editor text, not that stale accessibility value. The absence of a warning was observed during the interaction, rather than inferred solely from one still.
 
-The source recording is source 13, starting at 11:18:29 UTC. The two intervals correspond to source offsets **01:42:44–01:43:30** and **01:43:57–01:44:33**. The recording was still in progress when these intervals were identified. Privacy-reviewed motion and final chapter links remain pending; these offsets are not a claim that exported video has already been reviewed or published.
+The source recording is source 13, starting at 11:18:29 UTC. The two intervals correspond to source offsets **01:42:44–01:43:30** and **01:43:57–01:44:33**. The recording was still in progress when those intervals were identified. Its [reviewed archive](../recordings/continuation-13/CONTINUATION_RECORDING_ARCHIVE.md) and [highlight chapters](../recordings/continuation-13/highlights/CONTINUATION_HIGHLIGHTS.md) are now available. Their limited foreground sequence is described below; the missing editor-overwrite transition is not reconstructed.
 
 ## Suggested improvement
 
