@@ -1,0 +1,145 @@
+{
+  "title": "Invalid log template lacks an explanatory error message.",
+  "finding": {
+    "id": "UX03",
+    "severity": "Low",
+    "status": "Confirmed visual UX finding",
+    "basis": "The supplied interaction record establishes the invalid log-template state after blur with Start disabled. The genuine captured UI shows the red input outline but no visible explanatory error message in the displayed log editor. The paired corrected draft is preserved separately in the unchanged publish-images package.",
+    "scope_limits": "This finding concerns visible draft validation and error explanation. It does not assert a screen-reader result, programmatic error association, or a global WCAG failure. The separate Line accessible-name observation remains provisional and outside this finding. No logpoint was submitted."
+  },
+  "created_utc": "2026-10-08T06:42:06Z",
+  "source": {
+    "file": "58-invalid-template-draft.png",
+    "sha256": "d0133627102058f4e4dc7145b621f19f9e350b4085f71b06d079fe30c918f30a",
+    "size_bytes": 225036,
+    "dimensions_px": [
+      1046,
+      648
+    ],
+    "actual_format": "PNG",
+    "mode": "RGB",
+    "role": "Unchanged sanitized still; referenced but not copied into this annotation folder."
+  },
+  "original_raw_lineage": {
+    "file": "58-invalid-template-programmatic-feedback.png",
+    "actual_format": "JPEG",
+    "extension_note": "The original filename ends in .png, but its encoded format is JPEG. Original bytes were preserved.",
+    "sha256": "4cc014ab7786ae0dbc548640d19df828614eeb841e5f507657d3720a83d6bfd1",
+    "size_bytes": 75675,
+    "dimensions_px": [
+      1180,
+      729
+    ],
+    "filesystem_mtime_utc": "2026-10-08T06:26:32.285084Z",
+    "filesystem_timestamp_role": "File modification time only; not an independently verified capture, UI-event, ingestion, or trace-event timestamp."
+  },
+  "prior_sanitization": {
+    "source_crop_xywh": [
+      60,
+      56,
+      1046,
+      648
+    ],
+    "masks": [],
+    "resampling": "none",
+    "original_input_format": "JPEG despite .png filename",
+    "source_pixels": "All sanitized source pixels are unchanged decoded raw-image crop pixels."
+  },
+  "annotation": {
+    "method": "Deterministic opaque rectangle overlay using Pillow ImageDraw.rectangle; no generated or reconstructed UI.",
+    "coordinate_space": "1046\u00d7648 sanitized source; top-left origin. Rectangles use [x,y,width,height] with half-open bounds unless explicitly identified as inclusive.",
+    "outer_rectangle_xywh": [
+      49,
+      404,
+      974,
+      36
+    ],
+    "inclusive_rectangle_corners_xyxy": [
+      49,
+      404,
+      1022,
+      439
+    ],
+    "stroke_width_px": 2,
+    "stroke_placement": "Entirely inside outer rectangle; axis-aligned, square corners, no antialiasing.",
+    "stroke_rgb": [
+      220,
+      0,
+      0
+    ],
+    "opacity": 1,
+    "fill": "none; interior pixels preserved",
+    "stroke_pixel_bands_xywh": [
+      [
+        49,
+        404,
+        974,
+        2
+      ],
+      [
+        49,
+        438,
+        974,
+        2
+      ],
+      [
+        49,
+        406,
+        2,
+        32
+      ],
+      [
+        1021,
+        406,
+        2,
+        32
+      ]
+    ],
+    "equivalent_raw_outer_rectangle_xywh": [
+      109,
+      460,
+      974,
+      36
+    ],
+    "purpose": "Draw attention to the affected log-template input while retaining its original red validation border.",
+    "in_image_added_text": "none; title and finding status appear only in the companion documentation."
+  },
+  "output": {
+    "file": "ux03-invalid-log-template-lacks-explanatory-error-message.png",
+    "sha256": "495c2d9774d960ce36c36e111d950bd5ee9710ec2e37a9569b2b8ecf10a65100",
+    "size_bytes": 224745,
+    "dimensions_px": [
+      1046,
+      648
+    ],
+    "actual_format": "PNG",
+    "mode": "RGB",
+    "embedded_metadata": {}
+  },
+  "verification": {
+    "changed_pixel_count": 4024,
+    "outline_pixel_count": 4024,
+    "changed_pixels_outside_outline": 0,
+    "all_pixels_outside_outline_equal_source": true,
+    "all_stroke_pixels_equal_declared_opaque_color": true,
+    "preserved_input_region_half_open_xyxy": [
+      53,
+      408,
+      1019,
+      436
+    ],
+    "genuine_existing_input_border_region_unchanged": true,
+    "source_sanitized_file_unchanged": true,
+    "original_raw_file_unchanged": true,
+    "all_frozen_publish_images_files_unchanged": true,
+    "prior_publish_images_sha256": {
+      "manifest.json": "998e438a203b13761733c4938e9532c45f1928b0870fdfef277ffd4b0e214447",
+      "58-invalid-template-draft.png": "d0133627102058f4e4dc7145b621f19f9e350b4085f71b06d079fe30c918f30a",
+      "SHA256SUMS": "98c2a1e09b7b116ae250710457fe81372c008df36ae34a4d4b9e398d50d83a81",
+      "59-corrected-template-draft.png": "7b9b3673e7829c90924b2915eb171d86d7b87ccd86b889f1b8e706c54228ed48",
+      "README.md": "d65fd329d5c33279f2212efcec780f1b86d2b2e281d2f5d768469d478d1e5f7f"
+    }
+  },
+  "provenance_caveat": "The source raw file UTC modification time records filesystem provenance only and may reflect copying or export; it is not an independently verified capture or UI-event time. The source10 motion interval (2026-10-08 06:23:43\u201306:28:13.750 UTC) and normal stop at 06:28:14 are supplied operator context. This artifact is an annotated screenshot derivative, not a motion-extracted frame.",
+  "publication": "Prepared locally; this task did not publish any files."
+}
