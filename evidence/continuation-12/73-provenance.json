@@ -1,0 +1,69 @@
+{
+  "id": "73",
+  "source_path": "73-numeric-template-quantity-three.jpg",
+  "source_sha256": "6ccb97aaa7f42951dfdc2289daaca595589deaf8be17cd67ea3ac4d16ad3d83d",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "73-numeric-template-quantity-3-safe.png",
+  "public_relative_path": "evidence/continuation-12/73-numeric-template-quantity-3-safe.png",
+  "safe_sha256": "0205a32dc0d2e0a9076b67ed0360a5a5644ca46e8cbea30b45a590e54f49054b",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity; account/session header omitted by crop"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "89afc2ee1e451f6877cdabdac2e810a9fea63a0269b565ccc4bd76370ce1817f",
+  "safe_decoded_rgb_sha256": "b289e6fc64a3cd0b103ff9cb486e0a0207fe87ef26b1dba6cda2fd4f461c011a",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "Numeric log-template control: the visible template is QA quantity={quantity} total={total_cents}. The capture panel Log Message displays QA quantity=3 total=3600; captured values show quantity=3, discount_eligible=False, discount_cents=0, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The 3600 result is the planted application bug; the intended 3240 total comes from task context and is not printed in this still. It is not a Datadog defect. The repository-source warning remains visible. The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+  "visible_template": "QA quantity={quantity} total={total_cents}",
+  "visible_capture_panel_message": "QA quantity=3 total=3600",
+  "visible_capture_values": {
+    "quantity": 3,
+    "discount_cents": 0,
+    "discount_eligible": false,
+    "subtotal_cents": 3600,
+    "total_cents": 3600,
+    "unit_price_cents": 1200
+  },
+  "time_provenance": {
+    "displayed_event_list_offset": "UTC-07:00",
+    "top_visible_event_list_timestamp": "Oct 08 03:03:44.158",
+    "selected_capture_event_timestamp_verified": false,
+    "screenshot_acquired_at_verified": false,
+    "ui_timestamp_parameter_visible": false,
+    "execution_timestamp_verified": false,
+    "limitation": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence."
+  },
+  "annotation": null
+}

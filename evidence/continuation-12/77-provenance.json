@@ -1,0 +1,50 @@
+{
+  "id": "77",
+  "source_path": "77-control-events-with-source.jpg",
+  "source_sha256": "8903f1fd5dea9792b88b1a8f51842bcf1a790c267d85b21ff516563e355f4766",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "77-control-events-with-source-safe.png",
+  "public_relative_path": "evidence/continuation-12/77-control-events-with-source-safe.png",
+  "safe_sha256": "f1130fa6d667b20159553e0d468daad77ffd32136024f918364ca586e4a75220",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "8ab32cf40d0c664e6bfc8c0cb7c33ff372cc07ede81bf06eea9bac1716379a15",
+  "safe_decoded_rgb_sha256": "80ac386c466f9282ed79cdbc300228b7a1e8f9e4168b053dfe12186a80fbf314",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The debugger simultaneously shows retrieved source around pricing.py line 17, EVENTS RECEIVED, the CONTROL numeric template, approximately 30 events captured, and rendered event messages for quantities 2, 3, and 4 with totals 2400, 3600, and 4320. Event-list timestamps use the displayed UTC-07:00 offset. They are displayed row times, not independently established screenshot-acquisition or selected-capture timestamps.",
+  "annotation": null
+}

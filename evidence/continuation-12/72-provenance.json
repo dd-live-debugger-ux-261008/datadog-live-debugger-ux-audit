@@ -1,0 +1,69 @@
+{
+  "id": "72",
+  "source_path": "72-numeric-template-quantity-four.jpg",
+  "source_sha256": "508e5fcbe0ff225f3083da51a7b336f10a43d39018080db5936d76f29301395c",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "72-numeric-template-quantity-4-safe.png",
+  "public_relative_path": "evidence/continuation-12/72-numeric-template-quantity-4-safe.png",
+  "safe_sha256": "6934cde69153b1e8dc0bbb66c99a0834d3f62d27b25c53489770412bf1a11142",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity; account/session header omitted by crop"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "94727ab183855c1baccba004946985e93f0c6f7f1725f5736132747ba05d6c39",
+  "safe_decoded_rgb_sha256": "c524a32c80e988528b41d345ed499eca95c29246b39b8de26664e8e453215a59",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "Numeric log-template control: the visible template is QA quantity={quantity} total={total_cents}. The capture panel Log Message displays QA quantity=4 total=4320; captured values show quantity=4, discount_eligible=True, discount_cents=480, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is a control capture; the image records the displayed values without establishing a new product defect. The repository-source warning remains visible. The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+  "visible_template": "QA quantity={quantity} total={total_cents}",
+  "visible_capture_panel_message": "QA quantity=4 total=4320",
+  "visible_capture_values": {
+    "quantity": 4,
+    "discount_cents": 480,
+    "discount_eligible": true,
+    "subtotal_cents": 4800,
+    "total_cents": 4320,
+    "unit_price_cents": 1200
+  },
+  "time_provenance": {
+    "displayed_event_list_offset": "UTC-07:00",
+    "top_visible_event_list_timestamp": "Oct 08 03:00:42.920",
+    "selected_capture_event_timestamp_verified": false,
+    "screenshot_acquired_at_verified": false,
+    "ui_timestamp_parameter_visible": false,
+    "execution_timestamp_verified": false,
+    "limitation": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence."
+  },
+  "annotation": null
+}

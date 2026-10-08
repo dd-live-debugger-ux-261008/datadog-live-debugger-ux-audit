@@ -1,0 +1,74 @@
+{
+  "id": "94",
+  "source_path": "94-view-in-logs-not-indexed-matching-row.jpg",
+  "source_sha256": "266e99b40b0ebe4b454bd55c9cf40e58ccc51402b6c5d50aa33c3673854fe3d0",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "94-view-in-logs-not-indexed-safe.png",
+  "public_relative_path": "evidence/continuation-12/94-view-in-logs-not-indexed-safe.png",
+  "safe_sha256": "245ec7173bac1bf0133b60dbea0375e0d0d5d04ed3b8cbb2b500c39f77a65ab3",
+  "safe_dimensions": [
+    992,
+    712
+  ],
+  "crop_source_xyxy": [
+    158,
+    35,
+    1150,
+    747
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        158,
+        35,
+        516,
+        77
+      ],
+      "output_xyxy": [
+        0,
+        0,
+        358,
+        42
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "account/profile header"
+    },
+    {
+      "source_xyxy": [
+        412,
+        183,
+        516,
+        213
+      ],
+      "output_xyxy": [
+        254,
+        148,
+        358,
+        178
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "snapshot identifier in search query"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "8117c6990c56df91e4167236a68105d773cc5667d7b7969fcd3474a41c612ae5",
+  "safe_decoded_rgb_sha256": "176c6c66903d5949f2cc9da34cbb3309c3c4952576bf044f6dc911b3e8c828f0",
+  "verified_unchanged_pixels_outside_masks": 688148,
+  "source_unchanged": true,
+  "caption": "The Logs view visibly displays \u201cThe requested event is not indexed\u201d in its detail panel while the search query targets a debugger.snapshot.id. The snapshot identifier is masked. The onboarding popover and side panel obscure the result count and row content, so this still does not independently demonstrate the reported one matching row. Recurrence on two different captures and the matching-row observation come from the task owner\u2019s run chronology. Treat this as evidence for a candidate navigation/indexing inconsistency, not a proven root cause or proof of missing event data.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+  "requested_event_not_indexed_message_visible": true,
+  "matching_result_count_independently_readable": false,
+  "repeat_occurrences_visible_in_this_still": 1
+}

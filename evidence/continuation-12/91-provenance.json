@@ -1,0 +1,51 @@
+{
+  "id": "91",
+  "source_path": "91-no-match-old-events-retained.jpg",
+  "source_sha256": "ac056af09f10af237c2ecfce6c65c4781f0f59bd650cb3d058528a6f93baa31d",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "91-no-match-retained-old-events-safe.png",
+  "public_relative_path": "evidence/continuation-12/91-no-match-retained-old-events-safe.png",
+  "safe_sha256": "943b5f56fec90e339e19af7eac38303fb1f5bbb6cdf292bd98b5fc351a104210",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "af66d98517de13c91a3b6c8d9e75014f5039f844c6051dd461ddf094531a9806",
+  "safe_decoded_rgb_sha256": "aebcc94d304d4d03cdd6664e0d0cce6101ac2eac675ade7027c4a94541f384b6",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The interface visibly retains COND4 quantity=4 total=4320 event rows and an OUTDATED capture with quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, and total_cents=4320. The no-match condition definition is not visible in this screenshot. Its prior application and the observation that no new matching events arrived come from run chronology; retained rows alone do not prove a failing condition or continued capture. The unit-price field is below the visible area.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

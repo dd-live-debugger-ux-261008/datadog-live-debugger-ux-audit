@@ -1,0 +1,2534 @@
+{
+  "schema_version": 1,
+  "purpose": "Publication-safe pixel evidence for continuation 12. Exact source screenshots and individual limits are enumerated in the image records. Prepared locally only; no publication performed.",
+  "public_relative_directory": "evidence/continuation-12/",
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Crop and mask coordinates are exact integers. No scaling, blur, reconstruction, or annotation is used.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "script_path": "build_continuation_12.py",
+    "script_sha256": "51caf6aa054149588c98017ba6bfd42c5b635c9a5d88133ce15788da6791ab03",
+    "operations": [
+      "JPEG decode to RGB",
+      "integer-coordinate crop",
+      "one solid opaque identity mask",
+      "lossless RGB PNG save"
+    ],
+    "browser_or_secret_access": false
+  },
+  "time_provenance_limit": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+  "images": [
+    {
+      "id": "72",
+      "source_path": "72-numeric-template-quantity-four.jpg",
+      "source_sha256": "508e5fcbe0ff225f3083da51a7b336f10a43d39018080db5936d76f29301395c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "72-numeric-template-quantity-4-safe.png",
+      "public_relative_path": "evidence/continuation-12/72-numeric-template-quantity-4-safe.png",
+      "safe_sha256": "6934cde69153b1e8dc0bbb66c99a0834d3f62d27b25c53489770412bf1a11142",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity; account/session header omitted by crop"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "94727ab183855c1baccba004946985e93f0c6f7f1725f5736132747ba05d6c39",
+      "safe_decoded_rgb_sha256": "c524a32c80e988528b41d345ed499eca95c29246b39b8de26664e8e453215a59",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "Numeric log-template control: the visible template is QA quantity={quantity} total={total_cents}. The capture panel Log Message displays QA quantity=4 total=4320; captured values show quantity=4, discount_eligible=True, discount_cents=480, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is a control capture; the image records the displayed values without establishing a new product defect. The repository-source warning remains visible. The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+      "visible_template": "QA quantity={quantity} total={total_cents}",
+      "visible_capture_panel_message": "QA quantity=4 total=4320",
+      "visible_capture_values": {
+        "quantity": 4,
+        "discount_cents": 480,
+        "discount_eligible": true,
+        "subtotal_cents": 4800,
+        "total_cents": 4320,
+        "unit_price_cents": 1200
+      },
+      "time_provenance": {
+        "displayed_event_list_offset": "UTC-07:00",
+        "top_visible_event_list_timestamp": "Oct 08 03:00:42.920",
+        "selected_capture_event_timestamp_verified": false,
+        "screenshot_acquired_at_verified": false,
+        "ui_timestamp_parameter_visible": false,
+        "execution_timestamp_verified": false,
+        "limitation": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence."
+      },
+      "annotation": null
+    },
+    {
+      "id": "73",
+      "source_path": "73-numeric-template-quantity-three.jpg",
+      "source_sha256": "6ccb97aaa7f42951dfdc2289daaca595589deaf8be17cd67ea3ac4d16ad3d83d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "73-numeric-template-quantity-3-safe.png",
+      "public_relative_path": "evidence/continuation-12/73-numeric-template-quantity-3-safe.png",
+      "safe_sha256": "0205a32dc0d2e0a9076b67ed0360a5a5644ca46e8cbea30b45a590e54f49054b",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity; account/session header omitted by crop"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "89afc2ee1e451f6877cdabdac2e810a9fea63a0269b565ccc4bd76370ce1817f",
+      "safe_decoded_rgb_sha256": "b289e6fc64a3cd0b103ff9cb486e0a0207fe87ef26b1dba6cda2fd4f461c011a",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "Numeric log-template control: the visible template is QA quantity={quantity} total={total_cents}. The capture panel Log Message displays QA quantity=3 total=3600; captured values show quantity=3, discount_eligible=False, discount_cents=0, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The 3600 result is the planted application bug; the intended 3240 total comes from task context and is not printed in this still. It is not a Datadog defect. The repository-source warning remains visible. The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+      "visible_template": "QA quantity={quantity} total={total_cents}",
+      "visible_capture_panel_message": "QA quantity=3 total=3600",
+      "visible_capture_values": {
+        "quantity": 3,
+        "discount_cents": 0,
+        "discount_eligible": false,
+        "subtotal_cents": 3600,
+        "total_cents": 3600,
+        "unit_price_cents": 1200
+      },
+      "time_provenance": {
+        "displayed_event_list_offset": "UTC-07:00",
+        "top_visible_event_list_timestamp": "Oct 08 03:03:44.158",
+        "selected_capture_event_timestamp_verified": false,
+        "screenshot_acquired_at_verified": false,
+        "ui_timestamp_parameter_visible": false,
+        "execution_timestamp_verified": false,
+        "limitation": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence."
+      },
+      "annotation": null
+    },
+    {
+      "id": "74",
+      "source_path": "74-numeric-template-quantity-two.jpg",
+      "source_sha256": "0ae40f71fe1fc5bffa3197f27cd09e1e188bb803267b190e89bff189bab40662",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "74-numeric-template-quantity-2-safe.png",
+      "public_relative_path": "evidence/continuation-12/74-numeric-template-quantity-2-safe.png",
+      "safe_sha256": "baf84504f0618f3345a5e1495e285b410eda50e8bfcd14b56021ef08cd3176f6",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity; account/session header omitted by crop"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "23baeceb08960176d67f2c79f693ff8e844a1f029111567e84b1abe2fe90b4c6",
+      "safe_decoded_rgb_sha256": "219486ec3050a6315940fa60ea99fa926d09b8dd0f465586446dc061ea4487f0",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "Numeric log-template control: the visible template is QA quantity={quantity} total={total_cents}. The capture panel Log Message displays QA quantity=2 total=2400; captured values show quantity=2, discount_eligible=False, discount_cents=0, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This is a control capture; the image records the displayed values without establishing a new product defect. The repository-source warning remains visible. The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+      "visible_template": "QA quantity={quantity} total={total_cents}",
+      "visible_capture_panel_message": "QA quantity=2 total=2400",
+      "visible_capture_values": {
+        "quantity": 2,
+        "discount_cents": 0,
+        "discount_eligible": false,
+        "subtotal_cents": 2400,
+        "total_cents": 2400,
+        "unit_price_cents": 1200
+      },
+      "time_provenance": {
+        "displayed_event_list_offset": "UTC-07:00",
+        "top_visible_event_list_timestamp": "Oct 08 03:04:01.246",
+        "selected_capture_event_timestamp_verified": false,
+        "screenshot_acquired_at_verified": false,
+        "ui_timestamp_parameter_visible": false,
+        "execution_timestamp_verified": false,
+        "limitation": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence."
+      },
+      "annotation": null
+    },
+    {
+      "id": "75",
+      "source_path": "75-numeric-template-quantity-four.jpg",
+      "source_sha256": "73d7dfa1887efe87e58362035d6dbc40cbd09af14ded5bab73cd3aa81720b95a",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "75-numeric-template-quantity-4-safe.png",
+      "public_relative_path": "evidence/continuation-12/75-numeric-template-quantity-4-safe.png",
+      "safe_sha256": "2f1311f8d3f3628a3523dd0e6237fbd837becd5ca0581afc356a8dba899fd00f",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity; account/session header omitted by crop"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "55d4b76227e77a2c6154864c469abf54406a2b86dc07310078dbec2926dff408",
+      "safe_decoded_rgb_sha256": "e7c665adc4b95b00b4433d59866f6f9a12f1fd4d27c8dd2af5f29f9c4229b8a7",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "Numeric log-template control: the visible template is QA quantity={quantity} total={total_cents}. The capture panel Log Message displays QA quantity=4 total=4320; captured values show quantity=4, discount_eligible=True, discount_cents=480, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is a control capture; the image records the displayed values without establishing a new product defect. The repository-source warning remains visible. The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence.",
+      "visible_template": "QA quantity={quantity} total={total_cents}",
+      "visible_capture_panel_message": "QA quantity=4 total=4320",
+      "visible_capture_values": {
+        "quantity": 4,
+        "discount_cents": 480,
+        "discount_eligible": true,
+        "subtotal_cents": 4800,
+        "total_cents": 4320,
+        "unit_price_cents": 1200
+      },
+      "time_provenance": {
+        "displayed_event_list_offset": "UTC-07:00",
+        "top_visible_event_list_timestamp": "Oct 08 03:04:15.255",
+        "selected_capture_event_timestamp_verified": false,
+        "screenshot_acquired_at_verified": false,
+        "ui_timestamp_parameter_visible": false,
+        "execution_timestamp_verified": false,
+        "limitation": "The image shows event-list timestamps in the displayed UTC-07:00 offset. A visible list-row timestamp is not verified as the capture panel event time or the time this screenshot was acquired. No URL/UI timestamp parameter is visible in the original still. Any separately recorded UI timestamp parameter is navigation/filter input, not a verified execution timestamp; execution timing requires independent run evidence."
+      },
+      "annotation": null
+    },
+    {
+      "id": "76",
+      "source_path": "76-control-template-with-source.jpg",
+      "source_sha256": "7f7c5d0d1b6353d8037ae6752f43254f653af289bccdc90d9b813576f22648fb",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "76-control-template-with-source-safe.png",
+      "public_relative_path": "evidence/continuation-12/76-control-template-with-source-safe.png",
+      "safe_sha256": "d3fe4cea01f4c363ae71f18646ae015baa89b8fba8cf5159ce42b25fa8c150c3",
+      "safe_dimensions": [
+        1062,
+        693
+      ],
+      "crop_source_xyxy": [
+        52,
+        48,
+        1114,
+        741
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            103,
+            148,
+            317,
+            171
+          ],
+          "output_xyxy": [
+            51,
+            100,
+            265,
+            123
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "43785de373e9fff1ea23a2bb6ee56931d17fcd2ab17f3ab148ef89fd60cfa8e1",
+      "safe_decoded_rgb_sha256": "3814339cccd4e90a89f7c3ff66e68c5a855f5f91b36c809e61f4f99f6069f64f",
+      "verified_unchanged_pixels_outside_masks": 731044,
+      "source_unchanged": true,
+      "caption": "The pre-submit logpoint form visibly displays retrieved pricing.py source, line 17, environment staging, the CONTROL quantity={quantity} total={total_cents} template, and capture of all variables up to 3 levels deep. The source includes discount_eligible = quantity > 3 and its explicit intentional-bug comment. The Start Debug Session button remains visible; this still records the prepared form rather than proving submission.",
+      "annotation": null
+    },
+    {
+      "id": "77",
+      "source_path": "77-control-events-with-source.jpg",
+      "source_sha256": "8903f1fd5dea9792b88b1a8f51842bcf1a790c267d85b21ff516563e355f4766",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "77-control-events-with-source-safe.png",
+      "public_relative_path": "evidence/continuation-12/77-control-events-with-source-safe.png",
+      "safe_sha256": "f1130fa6d667b20159553e0d468daad77ffd32136024f918364ca586e4a75220",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "8ab32cf40d0c664e6bfc8c0cb7c33ff372cc07ede81bf06eea9bac1716379a15",
+      "safe_decoded_rgb_sha256": "80ac386c466f9282ed79cdbc300228b7a1e8f9e4168b053dfe12186a80fbf314",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The debugger simultaneously shows retrieved source around pricing.py line 17, EVENTS RECEIVED, the CONTROL numeric template, approximately 30 events captured, and rendered event messages for quantities 2, 3, and 4 with totals 2400, 3600, and 4320. Event-list timestamps use the displayed UTC-07:00 offset. They are displayed row times, not independently established screenshot-acquisition or selected-capture timestamps.",
+      "annotation": null
+    },
+    {
+      "id": "78",
+      "source_path": "78-continuation-runtime-registered.jpg",
+      "source_sha256": "b0032292f7da8d11e7f18e43cc414fbd1cc6ef4a96b08cf153edb0fdbe9b4917",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "78-continuation-runtime-registered-safe.png",
+      "public_relative_path": "evidence/continuation-12/78-continuation-runtime-registered-safe.png",
+      "safe_sha256": "020ac1a5523307d15f5f50af0d9ac0e47e0f5ca09163a968827d6597929057c1",
+      "safe_dimensions": [
+        788,
+        662
+      ],
+      "crop_source_xyxy": [
+        340,
+        85,
+        1128,
+        747
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            733,
+            232,
+            973,
+            254
+          ],
+          "output_xyxy": [
+            393,
+            147,
+            633,
+            169
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            733,
+            468,
+            973,
+            490
+          ],
+          "output_xyxy": [
+            393,
+            383,
+            633,
+            405
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            733,
+            705,
+            973,
+            727
+          ],
+          "output_xyxy": [
+            393,
+            620,
+            633,
+            642
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a5687c81e75daeaa7105ce47e788235e0fcf0d26cf85bc7070ae73960ae18e1f",
+      "safe_decoded_rgb_sha256": "2e9531b8980145a0ead1dc6c61841cab16846f0651ec4cd96efaba5f9589b90c",
+      "verified_unchanged_pixels_outside_masks": 505816,
+      "source_unchanged": true,
+      "caption": "The visible runtime status excerpt reports live_debugging_registered=true, python_client_present=true, sdk_4_11_0_present=true, symbol_database_registered=true, sample_ready=true, and git_sha=f5061500e8bf30880aebcf7966ba64df44d2ccde. The full source revision remains visible. The complete updated_at values visible here include 2026-10-08T10:21:17.852526+00:00 and 2026-10-08T10:21:33.651416+00:00; these are runtime-status update times, not the later captured application snapshot time. This excerpt reports readiness and registration rather than independently proving an application capture.",
+      "annotation": null,
+      "visible_source_revision": "f5061500e8bf30880aebcf7966ba64df44d2ccde"
+    },
+    {
+      "id": "79",
+      "source_path": "79-post-handover-control-capture.jpg",
+      "source_sha256": "7a780aa4dae0fcbe7a3413ed877be4bc0dc0f3209d6c1b34adccbeebdb35c4d5",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "79-post-handover-control-capture-safe.png",
+      "public_relative_path": "evidence/continuation-12/79-post-handover-control-capture-safe.png",
+      "safe_sha256": "8dd821c4a2db8ce8da8839aa8c6d047c0146431d7a2b81ca8c156729208cb03b",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c13198dc6e9877dd907a6d0f3514bf12f5d133a706b707199466b3eed66e0a6a",
+      "safe_decoded_rgb_sha256": "ddbb600e093e79eb7da95326ddcfe8b33066f8ff9378b5e483a91609c57804a1",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The source-backed capture displays CONTROL quantity=3 total=3600 and all six captured values: quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, unit_price_cents=1200. Retrieved source at pricing.py line 17 and EVENTS RECEIVED remain visible. This is the planted application bug, not a Datadog defect. The task owner independently verified the actual Logs JSON snapshot timestamp as 1791455041812 (2026-10-08 10:24:01.812 UTC). That exact timestamp is not printed in this still and must be attributed to the separate Logs JSON verification, not a UI timestamp parameter or a different event-list row.",
+      "annotation": null,
+      "independent_snapshot_verification": {
+        "snapshot_timestamp_ms": 1791455041812,
+        "snapshot_timestamp_utc": "2026-10-08T10:24:01.812Z",
+        "verification_source": "Task owner reports an independent read of the actual Logs JSON snapshot timestamp and deployed source revision. This sanitization step accessed screenshots only.",
+        "visible_in_screenshot": false,
+        "ui_timestamp_parameter_is_execution_evidence": false
+      },
+      "separately_verified_source": {
+        "git_sha": "f5061500e8bf30880aebcf7966ba64df44d2ccde",
+        "file": "pricing.py",
+        "line": 17,
+        "verification_source": "Task owner independent Logs JSON/source-link inspection; full metadata not printed in this still."
+      }
+    },
+    {
+      "id": "80",
+      "source_path": "80-control-source-permalink-and-metadata.jpg",
+      "source_sha256": "2506ba2494416337a22e68c9bd9321c26896e331b71bffdc7de0a26c19d9c90c",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "80-control-source-stacktrace-safe.png",
+      "public_relative_path": "evidence/continuation-12/80-control-source-stacktrace-safe.png",
+      "safe_sha256": "b44cbbc8f1ab5439edb5facba86b34d3ba37b975a47aa045d253d524fb3198cd",
+      "safe_dimensions": [
+        619,
+        679
+      ],
+      "crop_source_xyxy": [
+        518,
+        37,
+        1137,
+        716
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            601,
+            134,
+            787,
+            157
+          ],
+          "output_xyxy": [
+            83,
+            97,
+            269,
+            120
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path prefix; pricing.py retained"
+        },
+        {
+          "source_xyxy": [
+            601,
+            594,
+            787,
+            618
+          ],
+          "output_xyxy": [
+            83,
+            557,
+            269,
+            581
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path prefix; app.py retained"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c88c9722ba7c7b1da83e267d68cea633b1132d7a3a5832ff395b6b7bbdb2413b",
+      "safe_decoded_rgb_sha256": "5383571d509c82d65dcbc12b1fd167738002e8d6e55e6e31babe0cc86a79e287",
+      "verified_unchanged_pixels_outside_masks": 411559,
+      "source_unchanged": true,
+      "caption": "The visible Logs stacktrace shows pricing.py line 17 in calculate_quote, retrieved source with line 17 highlighted, a GitHub source-link control, and quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, unit_price_cents=1200. The second frame shows app.py line 32 in do_GET; private repository prefixes are masked. The JSON Attributes header is visible at the bottom, but its timestamp and source metadata fields are offscreen. The exact snapshot timestamp 1791455041812 (2026-10-08 10:24:01.812 UTC) and full source-revision association were separately verified by the task owner in Logs JSON; this screenshot must not be cited as displaying those offscreen fields.",
+      "annotation": null,
+      "independent_snapshot_verification": {
+        "snapshot_timestamp_ms": 1791455041812,
+        "snapshot_timestamp_utc": "2026-10-08T10:24:01.812Z",
+        "verification_source": "Task owner reports an independent read of the actual Logs JSON snapshot timestamp and deployed source revision. This sanitization step accessed screenshots only.",
+        "visible_in_screenshot": false,
+        "ui_timestamp_parameter_is_execution_evidence": false
+      },
+      "separately_verified_source": {
+        "git_sha": "f5061500e8bf30880aebcf7966ba64df44d2ccde",
+        "file": "pricing.py",
+        "line": 17,
+        "verification_source": "Task owner independent Logs JSON/source-link inspection; full metadata not printed in this still."
+      },
+      "json_attribute_fields_visible": false
+    },
+    {
+      "id": "81",
+      "source_path": "81-linked-deployed-revision-pricing.jpg",
+      "source_sha256": "234055e1a948a252c4a7ea46a429480f6b9817c3b6a4f3772341939d9a07d2d2",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "81-linked-revision-pricing-safe.png",
+      "public_relative_path": "evidence/continuation-12/81-linked-revision-pricing-safe.png",
+      "safe_sha256": "d9c52e72f2f5dc5ee95c6d50990e4d634f54eb191d812c3027be91f29a5f4270",
+      "safe_dimensions": [
+        1150,
+        677
+      ],
+      "crop_source_xyxy": [
+        0,
+        0,
+        1150,
+        677
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            330,
+            12,
+            522,
+            48
+          ],
+          "output_xyxy": [
+            330,
+            12,
+            522,
+            48
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository identity"
+        },
+        {
+          "source_xyxy": [
+            342,
+            70,
+            574,
+            103
+          ],
+          "output_xyxy": [
+            342,
+            70,
+            574,
+            103
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "source-provider account identity and avatar"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "40483b95292f570654a95d2cc34b60a7921c160f16e7f40d8914732247c588af",
+      "safe_decoded_rgb_sha256": "1a3ce99f45a6a3c9d6b1a09b79e9557c3b1dd4196a661677086fcde5fb4eb232",
+      "verified_unchanged_pixels_outside_masks": 763982,
+      "source_unchanged": true,
+      "caption": "The source-provider page visibly displays pricing.py with line 17 highlighted, the intentional quantity > 3 boundary bug, and the intended discount for orders of three or more in its docstring. The revision selector visibly reads f506150. The full deployed revision f5061500e8bf30880aebcf7966ba64df44d2ccde is separately established by the task owner and is printed in screenshot 78; the full revision is not visible in this screenshot. The file-history banner separately shows abbreviated commit 78457e9, which must not be confused with the selected revision. Repository and account identities are masked.",
+      "annotation": null,
+      "visible_revision_selector": "f506150",
+      "visible_file_history_commit": "78457e9",
+      "full_revision_visible": false
+    },
+    {
+      "id": "82",
+      "source_path": "82-control-snapshot-execution-timestamp.jpg",
+      "source_sha256": "10ae1a8eeb63fdb7d43c2498937b1e3fe483b6c6412d6e479e4fb9e156567114",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "82-control-snapshot-execution-timestamp-safe.png",
+      "public_relative_path": "evidence/continuation-12/82-control-snapshot-execution-timestamp-safe.png",
+      "safe_sha256": "dccc79e0e2066b59deb7178cfdf7ff024570be784574c13eedae54547e1f7e5f",
+      "safe_dimensions": [
+        550,
+        596
+      ],
+      "crop_source_xyxy": [
+        570,
+        55,
+        1120,
+        651
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            700,
+            117,
+            998,
+            142
+          ],
+          "output_xyxy": [
+            130,
+            62,
+            428,
+            87
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "snapshot identifier"
+        },
+        {
+          "source_xyxy": [
+            670,
+            201,
+            973,
+            225
+          ],
+          "output_xyxy": [
+            100,
+            146,
+            403,
+            170
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier"
+        },
+        {
+          "source_xyxy": [
+            704,
+            255,
+            1079,
+            281
+          ],
+          "output_xyxy": [
+            134,
+            200,
+            509,
+            226
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runner/repository path first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            704,
+            282,
+            852,
+            306
+          ],
+          "output_xyxy": [
+            134,
+            227,
+            282,
+            251
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path second wrapped line; pricing.py basename retained"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "3935cd30a3a04cf57127138bd2908a1589d94151d7185040d850094400d45763",
+      "safe_decoded_rgb_sha256": "1d7a7bbfc6a681784783b9cd73d9af3e4546a29fb861b4a37ae1e8370f44114b",
+      "verified_unchanged_pixels_outside_masks": 299776,
+      "source_unchanged": true,
+      "caption": "The visible debugger.snapshot JSON tree directly shows timestamp 1791455041812, corresponding to 2026-10-08 10:24:01.812 UTC. The same visible tree shows language python, probe location basename pricing.py, line 17, probe version 0, redaction level TARGETED, and type snapshot. Snapshot/probe identifiers and private runner/repository prefixes are opaque-masked; host fields are omitted by cropping. This is screenshot evidence of the actual snapshot timestamp, rather than a UI navigation/filter timestamp parameter. Association with the quantity-three control capture is supported by the task owner\u2019s linked Logs inspection; the numeric capture values themselves are not displayed in this still.",
+      "visible_snapshot_timestamp_ms": 1791455041812,
+      "converted_snapshot_timestamp_utc": "2026-10-08T10:24:01.812Z",
+      "timestamp_field_path": "debugger.snapshot.timestamp",
+      "timestamp_directly_visible": true,
+      "timestamp_is_ui_navigation_parameter": false,
+      "visible_probe_location": {
+        "basename": "pricing.py",
+        "line": 17
+      },
+      "visible_redaction_level": "TARGETED",
+      "visible_type": "snapshot",
+      "annotation": null
+    },
+    {
+      "id": "83",
+      "source_path": "83-out-of-range-before-submit.jpg",
+      "source_sha256": "63bb915615cd77ef882206f24d29f17e11ec86f7d398cb0407e9a625f566e2e9",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "83-out-of-range-before-submit-safe.png",
+      "public_relative_path": "evidence/continuation-12/83-out-of-range-before-submit-safe.png",
+      "safe_sha256": "8078a63375a166e83fd4bf985ee78230b802d91c37226e7e06cfbfe96c76e69a",
+      "safe_dimensions": [
+        1062,
+        693
+      ],
+      "crop_source_xyxy": [
+        52,
+        48,
+        1114,
+        741
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            103,
+            148,
+            317,
+            171
+          ],
+          "output_xyxy": [
+            51,
+            100,
+            265,
+            123
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "e2a1c3154eee3ca04fad038bff767361f5ebb64e41c34f37f31e1b11bf031efd",
+      "safe_decoded_rgb_sha256": "b1100ad0dd6b7e87be4408441e2083237236840ff2b94acd48654cc825bff080",
+      "verified_unchanged_pixels_outside_masks": 731044,
+      "source_unchanged": true,
+      "caption": "The pre-submit form visibly targets pricing.py line 9999 while the retrieved source shown ends at line 24. The log message also names line 9999, and the Start Debug Session button remains available. This demonstrates the prepared out-of-range input; the runtime outcome is shown separately in screenshot 84.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "84",
+      "source_path": "84-out-of-range-runtime-error.jpg",
+      "source_sha256": "b6f6b05baf0db231c900532574c56cc195f3d7860cb4f9ed751dbeee83fc0acd",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "84-out-of-range-runtime-error-safe.png",
+      "public_relative_path": "evidence/continuation-12/84-out-of-range-runtime-error-safe.png",
+      "safe_sha256": "54135130af9b1ca5b80aec4aab4f9d2710f4596578e0561b026c5a778c3b23e1",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            651,
+            331,
+            786,
+            348
+          ],
+          "output_xyxy": [
+            491,
+            159,
+            626,
+            176
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            524,
+            349,
+            647,
+            367
+          ],
+          "output_xyxy": [
+            364,
+            177,
+            487,
+            195
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier second wrapped line"
+        },
+        {
+          "source_xyxy": [
+            523,
+            385,
+            798,
+            404
+          ],
+          "output_xyxy": [
+            363,
+            213,
+            638,
+            232
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runner/repository path first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            523,
+            404,
+            682,
+            423
+          ],
+          "output_xyxy": [
+            363,
+            232,
+            522,
+            251
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path prefix second line; pricing.py retained"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "55e8c2c255fb9099c3c7c2d332d4a5cbff65f8b6c02b25df8ba4792a277e8c17",
+      "safe_decoded_rgb_sha256": "7cf1e09244902458cb0913206ecd185dc2ab6d0599cbc6edf2c11085e8a64766",
+      "verified_unchanged_pixels_outside_masks": 530265,
+      "source_unchanged": true,
+      "caption": "The out-of-range pricing.py line 9999 logpoint visibly has ERROR status. Its tooltip states that 1/1 instances had errors applying the configuration and names NoFunctionsAtLine, with \u201cno functions at line 9999 within source file\u201d and pricing.py still readable. The probe identifier and private runner/repository path are opaque-masked. The event panel displays no results for the selected time range. This is an explicit runtime application error, rather than a silent empty-results state.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "85",
+      "source_path": "85-valid-gutter-recovery-capture.jpg",
+      "source_sha256": "146c565b231be37d888a9f413879aa7f9a709164fd79b69aa5d6eec32963c7e6",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "85-valid-line-recovery-events-safe.png",
+      "public_relative_path": "evidence/continuation-12/85-valid-line-recovery-events-safe.png",
+      "safe_sha256": "62482193d620b54b8b275b4e51a700fb23d2919f485cb69557dc5201a089d25a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "1fbb40004b39fa320b0bc41bd7ced7c4ee035f5e1c355f5a8d82a3164cb79c7e",
+      "safe_decoded_rgb_sha256": "9f83529f8659d68a58986f02a5752c062d14eafa265a4768a4dfe05a22b533ab",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The debugger shows the line 9999 logpoint still in ERROR alongside a separate pricing.py line 17 logpoint marked EVENTS RECEIVED. The event list contains rendered line 17 log messages, and the source gutter shows line 17. This supports the recovered valid-line capture state. The gesture used to create the valid gutter logpoint is run-chronology evidence, not something a still image proves.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "86",
+      "source_path": "86-condition-three-before-apply.jpg",
+      "source_sha256": "801dc35ff606ee4cea4a7925bf519fb4cb832191fd50ead78b68d74182ad4ae7",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "86-condition-three-before-apply-safe.png",
+      "public_relative_path": "evidence/continuation-12/86-condition-three-before-apply-safe.png",
+      "safe_sha256": "74900769bf3f6d0aedb2e5ece5e421a1dbe63003bcbf54f16f29baf0b21d8a3b",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c5ffa474ebd01a2c4b774ab74af8cd64a6b5374852b85380cf14b820c464e188",
+      "safe_decoded_rgb_sha256": "7449d39650dabbe1cab5097f7e8d4b406674af59425ee3fa3ceda80965618b3b",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The editable logpoint definition visibly shows the template COND3 quantity={quantity} total={total_cents} and When condition quantity == 3. Existing event rows still show the earlier generic line 17 message. This is evidence of the prepared conditional definition, not proof from this still alone that the change was applied.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "87",
+      "source_path": "87-condition-three-captured.jpg",
+      "source_sha256": "aa749efcbcd024a44b0b168b0c508aa5b94b32cb9e842dd4152acc8a958566ef",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "87-condition-three-captured-safe.png",
+      "public_relative_path": "evidence/continuation-12/87-condition-three-captured-safe.png",
+      "safe_sha256": "8a9187f11dbb156d96bccb2881ea87449e4b41d74adc01543ba6a44683166590",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "1843369f8d69470708473951a2cc63717738cc6b21982a68d449bd250a330240",
+      "safe_decoded_rgb_sha256": "34cb2e48265497662e73f1636d9e08b4bb1efe6f68143a905c5d86c71b914a5c",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The event list and capture message visibly show COND3 quantity=3 total=3600. The capture panel shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. These values support the quantity-three conditional capture. The source pane is displaying the separate line 9999 logpoint context, so that pane must not be described as the active conditional definition. The pricing discrepancy is the planted application bug, not a Datadog defect.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "88",
+      "source_path": "88-condition-revision-outdated-capture.jpg",
+      "source_sha256": "c829809eb0311941efa01a008eb15a438d46abeafce1ef9ba5792d515943fbd1",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "88-condition-revision-outdated-capture-safe.png",
+      "public_relative_path": "evidence/continuation-12/88-condition-revision-outdated-capture-safe.png",
+      "safe_sha256": "3d6008a9ebcbd805144ab0e902ddeef75a09e19f21351685fba0f9c6cffa9307",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "98a4745f5df0f80b46865f4ab7922f32adb9845173ccccecd59788174438ec08",
+      "safe_decoded_rgb_sha256": "fd9b51585ab8d26457f50cd9a416da78c36ee8d6992f2410689131d3cf11faa0",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The left event list visibly contains COND4 quantity=4 total=4320 rows while the right capture panel retains the older COND3 quantity=3 total=3600 message and labels it OUTDATED. The older visible fields are quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, and total_cents=3600; unit_price_cents is below this still. This demonstrates that the interface marks the retained capture as outdated after the condition revision. It does not show new quantity-three captures under the new condition.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "89",
+      "source_path": "89-condition-four-captured.jpg",
+      "source_sha256": "1b844b0d9045c1256adcae88e192202aa1c35a76b367d1576ea3d94e3d3550b2",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "89-condition-four-captured-safe.png",
+      "public_relative_path": "evidence/continuation-12/89-condition-four-captured-safe.png",
+      "safe_sha256": "1909c8d34d6b49036148d4682c8b4698c2304bbfeeb8a8feebd6278ccc29f25e",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "fe5e9ed7cdff9a13e67bce57696466792eb65901d4c782fff93d95e371594ebe",
+      "safe_decoded_rgb_sha256": "9c8f65c1e2c6cc03f61faea659e179d12b9a07a42ae42cd6042a81a370e62c61",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The event list and current capture message visibly show COND4 quantity=4 total=4320. Captured fields are quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is the quantity-four conditional control capture. The source pane shows the separate line 9999 context, so it is not visual evidence of the active condition text.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "90",
+      "source_path": "90-ungranted-b-not-listed.jpg",
+      "source_sha256": "4356032670b401f01eba47a132b3ca3286736282faea2fc53672200f26def3dc",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "90-repository-b-discovery-no-match-safe.png",
+      "public_relative_path": "evidence/continuation-12/90-repository-b-discovery-no-match-safe.png",
+      "safe_sha256": "56936dc1b23e31e6c14e4791b2feaaf585c10c98dc9004bb1e3b23043eec652d",
+      "safe_dimensions": [
+        1020,
+        598
+      ],
+      "crop_source_xyxy": [
+        160,
+        77,
+        1180,
+        675
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            432,
+            319,
+            632,
+            347
+          ],
+          "output_xyxy": [
+            272,
+            242,
+            472,
+            270
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "source integration account identity"
+        },
+        {
+          "source_xyxy": [
+            207,
+            419,
+            361,
+            442
+          ],
+          "output_xyxy": [
+            47,
+            342,
+            201,
+            365
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository search query"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "6cc79c8ef0cefe23f292a983e8c4e93fd60d338756859d374c8f4c300d228034",
+      "safe_decoded_rgb_sha256": "82b5db9a25fedd25a466042bd972c4dfd1762b63465c9ac4bff0e68041d7a3aa",
+      "verified_unchanged_pixels_outside_masks": 600818,
+      "source_unchanged": true,
+      "caption": "The GitHub Apps integration visibly shows Installed and repository count 1, while a search for the test repository B yields \u201cNo matching results found.\u201d Account identity and the private repository query are masked. This is a repository-discovery result only. It does not establish that source retrieval for repository B was attempted or denied and must not be treated as a source-permission enforcement proof.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "91",
+      "source_path": "91-no-match-old-events-retained.jpg",
+      "source_sha256": "ac056af09f10af237c2ecfce6c65c4781f0f59bd650cb3d058528a6f93baa31d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "91-no-match-retained-old-events-safe.png",
+      "public_relative_path": "evidence/continuation-12/91-no-match-retained-old-events-safe.png",
+      "safe_sha256": "943b5f56fec90e339e19af7eac38303fb1f5bbb6cdf292bd98b5fc351a104210",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "af66d98517de13c91a3b6c8d9e75014f5039f844c6051dd461ddf094531a9806",
+      "safe_decoded_rgb_sha256": "aebcc94d304d4d03cdd6664e0d0cce6101ac2eac675ade7027c4a94541f384b6",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The interface visibly retains COND4 quantity=4 total=4320 event rows and an OUTDATED capture with quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, and total_cents=4320. The no-match condition definition is not visible in this screenshot. Its prior application and the observation that no new matching events arrived come from run chronology; retained rows alone do not prove a failing condition or continued capture. The unit-price field is below the visible area.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "92",
+      "source_path": "92-no-match-recovery-all-quantities.jpg",
+      "source_sha256": "25451c8e85bbf074d4bd235aca3f62cbe12ba2f976c782c8b2d1dd0d7ffc10f1",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "92-condition-removal-recovery-events-safe.png",
+      "public_relative_path": "evidence/continuation-12/92-condition-removal-recovery-events-safe.png",
+      "safe_sha256": "e178810944e1ec58cf40f964beb9ae8e51dc3655fc8947a5097a50722d00dc47",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ee3e9ebb66953de794a70db3488b93595d0d79e95726378d987f2d1fad814b8e",
+      "safe_decoded_rgb_sha256": "55a26a1f35eaead8945a5298714657829ebfea52169728c9c343e956a37b9b3a",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The visible event list contains RECOVER messages for quantity 2 with total 2400, quantity 3 with total 3600, and quantity 4 with total 4320. The valid line 17 logpoint is marked EVENTS RECEIVED while the separate line 9999 logpoint remains in ERROR. This supports the recovered event stream. Removal of the no-match condition is established by the task owner\u2019s run chronology; the condition editor is not visible in this still.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "93",
+      "source_path": "93-target-five-minutes-before-expiry.jpg",
+      "source_sha256": "bfa72f895a473d9e501eff5e975eabec5caf95cbb1494970270fb0c41428bb57",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "93-target-five-minutes-remaining-safe.png",
+      "public_relative_path": "evidence/continuation-12/93-target-five-minutes-remaining-safe.png",
+      "safe_sha256": "7ee1027f71fd935a80ebb686aedb3e1b57cae86152066d2440822121e37b2a7a",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c86dac6bdcf9c9c349f5e8d310cbb1b03a6d714adcbd862a43c4e2617dfffd56",
+      "safe_decoded_rgb_sha256": "d86e0247c3f4123428bf05db3eb423e4a5517cf142c8a6de3c78d7d0a93e1b59",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The target session visibly shows ACTIVE (5 MINUTES LEFT), EVENTS RECEIVED, approximately 1K captured events, and quantity 2/3/4 messages in the event list. The capture panel shows quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is a pre-expiry displayed state. It does not itself establish the eventual expiration time or post-expiry behavior.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+    },
+    {
+      "id": "94",
+      "source_path": "94-view-in-logs-not-indexed-matching-row.jpg",
+      "source_sha256": "266e99b40b0ebe4b454bd55c9cf40e58ccc51402b6c5d50aa33c3673854fe3d0",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "94-view-in-logs-not-indexed-safe.png",
+      "public_relative_path": "evidence/continuation-12/94-view-in-logs-not-indexed-safe.png",
+      "safe_sha256": "245ec7173bac1bf0133b60dbea0375e0d0d5d04ed3b8cbb2b500c39f77a65ab3",
+      "safe_dimensions": [
+        992,
+        712
+      ],
+      "crop_source_xyxy": [
+        158,
+        35,
+        1150,
+        747
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            158,
+            35,
+            516,
+            77
+          ],
+          "output_xyxy": [
+            0,
+            0,
+            358,
+            42
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "account/profile header"
+        },
+        {
+          "source_xyxy": [
+            412,
+            183,
+            516,
+            213
+          ],
+          "output_xyxy": [
+            254,
+            148,
+            358,
+            178
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "snapshot identifier in search query"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "8117c6990c56df91e4167236a68105d773cc5667d7b7969fcd3474a41c612ae5",
+      "safe_decoded_rgb_sha256": "176c6c66903d5949f2cc9da34cbb3309c3c4952576bf044f6dc911b3e8c828f0",
+      "verified_unchanged_pixels_outside_masks": 688148,
+      "source_unchanged": true,
+      "caption": "The Logs view visibly displays \u201cThe requested event is not indexed\u201d in its detail panel while the search query targets a debugger.snapshot.id. The snapshot identifier is masked. The onboarding popover and side panel obscure the result count and row content, so this still does not independently demonstrate the reported one matching row. Recurrence on two different captures and the matching-row observation come from the task owner\u2019s run chronology. Treat this as evidence for a candidate navigation/indexing inconsistency, not a proven root cause or proof of missing event data.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "requested_event_not_indexed_message_visible": true,
+      "matching_result_count_independently_readable": false,
+      "repeat_occurrences_visible_in_this_still": 1
+    },
+    {
+      "id": "95",
+      "source_path": "95-source-branch-explains-quantity-three.jpg",
+      "source_sha256": "2f37659abc558e11d82411d21ae9713d16b18f422350e4de6c97b5aa937e66e4",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "95-source-branch-quantity-three-safe.png",
+      "public_relative_path": "evidence/continuation-12/95-source-branch-quantity-three-safe.png",
+      "safe_sha256": "b7b6ee42f002a03ce7abb69a62a12e8c43aadc5675e275d98ce1d2b37c3540f3",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "eea1e9cb83a0da206d6aa6ca237959a7b36d2e26ec7b6deb38a28b1d7d56fe5f",
+      "safe_decoded_rgb_sha256": "89b8eb212d889be1ecbca25b74489535b1736f907b96b51060325a92d6d04d40",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "The same debugger view visibly places the source condition discount_eligible = quantity > 3 and its intentional-bug comment beside a capture with quantity=3, discount_eligible=False, discount_cents=0, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The log message is CONTROL quantity=3 total=3600. This directly supports understanding the planted application boundary bug from source and captured state. It is not a Datadog pricing defect. The visible event-list row times do not independently identify the capture panel\u2019s execution timestamp.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "visible_source_condition": "discount_eligible = quantity > 3",
+      "visible_capture_values": {
+        "quantity": 3,
+        "discount_eligible": false,
+        "discount_cents": 0,
+        "subtotal_cents": 3600,
+        "total_cents": 3600,
+        "unit_price_cents": 1200
+      }
+    },
+    {
+      "id": "96",
+      "source_path": "96-target-three-minutes-before-expiry.jpg",
+      "source_sha256": "edf120474c6019c839f240f7d7e611ff940fb8244846a06acd47d615131aeab3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "96-target-two-minutes-remaining-safe.png",
+      "public_relative_path": "evidence/continuation-12/96-target-two-minutes-remaining-safe.png",
+      "safe_sha256": "bf3941fad0078fb37f41c314836ce6ec7d4e76fa81fbcd8187611f3fb994e933",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f83d517b4792f47308dabd712ffc8e6275112cea1133c9966e0762f79e43e15c",
+      "safe_decoded_rgb_sha256": "4698f6365b2c7665e1f6120d65845d1e69703b49aaf156bf5d87e59452accdd6",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The target session visibly shows ACTIVE (2 MINUTES LEFT), despite the original source filename referring to three minutes. The logpoint is marked EVENTS RECEIVED, approximately 2K events are displayed as captured, and the event list contains QA quantity 2/3/4 messages. The right capture panel displays quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is the displayed pre-expiry state, not proof of an exact expiry instant.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "target session"
+    },
+    {
+      "id": "97",
+      "source_path": "97-target-one-minute-before-expiry.jpg",
+      "source_sha256": "7348a16eaba0f1ab5d8fb8a1c13d7c5204cc7d14e7a7eaff592cad2d58130e3a",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "97-target-one-minute-remaining-safe.png",
+      "public_relative_path": "evidence/continuation-12/97-target-one-minute-remaining-safe.png",
+      "safe_sha256": "7322d04bb2e67cb8c9afaf8034fb6690c24afc155d6ba470912c22139cbe49df",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "156539da05dcdc4b12bb38e73b1b12884e337eb4b5b396a04b1e5cfcd580108c",
+      "safe_decoded_rgb_sha256": "b4ff29c06de66f3b907410cf6d25d34f133890ec66001698a82572348c5b4e4a",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The target session visibly shows ACTIVE (1 MINUTE LEFT) with EVENTS RECEIVED. The event list contains QA quantity 2/3/4 messages, and the retained capture panel displays quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is a displayed countdown state; the retained capture panel is not established as the newest event.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "target session"
+    },
+    {
+      "id": "98",
+      "source_path": "98-target-seconds-before-expiry.jpg",
+      "source_sha256": "8001952ab57d0a560fee0352c76809bcefefe7bcc6ac270a4c9cd9a5679d0c5c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "98-target-21-seconds-remaining-safe.png",
+      "public_relative_path": "evidence/continuation-12/98-target-21-seconds-remaining-safe.png",
+      "safe_sha256": "fb1eeb43593f3818f907bae990b4a5c4266ad8ee860331063f8dc95287c4f519",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "7210502dd2a6a6db3cf6630faa3493f33cc01ee8e345cb94f305da0667936d01",
+      "safe_decoded_rgb_sha256": "6c5299ec95fc666b3a214034210d57f3ecd1e1b55b0b7f6564eada0f2a38be71",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The target session visibly shows ACTIVE (21 SECONDS LEFT) with EVENTS RECEIVED. QA quantity 2/3/4 messages remain in the event list, while the retained capture panel displays quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. The countdown is visible; this still alone does not identify the exact expiration or capture execution time.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "target session"
+    },
+    {
+      "id": "99",
+      "source_path": "99-target-expiry-transition.jpg",
+      "source_sha256": "4e0d92d82505a7ff62659a378ed6f928eecaa1e656ce1f60d51b25aa6bd019c6",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "99-target-inactive-expired-safe.png",
+      "public_relative_path": "evidence/continuation-12/99-target-inactive-expired-safe.png",
+      "safe_sha256": "84d2e414d3d2a958c16df1b203aaa4c9c6ef33a0311028a32aa7642cfea8f290",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "57cecd3927ea3bea0e312060435cd335310a9120d7a149cbfb63ac4ebbad12e2",
+      "safe_decoded_rgb_sha256": "0372351a079843356a20285ea69af0f6ed5c936ce2bd0ad6d5c6447e17bad3ca",
+      "verified_unchanged_pixels_outside_masks": 569815,
+      "source_unchanged": true,
+      "caption": "The target session visibly shows INACTIVE and its pricing.py line 17 logpoint shows EXPIRED. Existing QA events and the quantity-four capture remain visible. The top visible event row reads Oct 08 03:45:43.820 in the displayed UTC-07:00 offset. The retained capture values are quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This shows the expired state with retained evidence. The top row time must not be substituted for the exact expiration time or the retained capture\u2019s independently verified execution timestamp.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "target session"
+    },
+    {
+      "id": "100",
+      "source_path": "100-control-capture-after-target-expiry.jpg",
+      "source_sha256": "fb2f12017c9e99d45a3dfa86035d74cab92648afbd4e77d355ff1e7dcb22d806",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "100-active-control-after-target-expiry-safe.png",
+      "public_relative_path": "evidence/continuation-12/100-active-control-after-target-expiry-safe.png",
+      "safe_sha256": "aaf31da6dc02ccbc2c0865dbd0acb7e1c99c8d4ebb888e9a9fa438778c132dce",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c36fe2f1894390ddb6a1a7d127d18f7045acc701a9d35a77ab87fae1d27ca284",
+      "safe_decoded_rgb_sha256": "0c6b60896c386ad44bd39943b1e1a9868e89235004f1548db84c660061e03448",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The separate control session visibly shows ACTIVE (30 MINUTES LEFT), EVENTS RECEIVED, retrieved source, and CONTROL event messages for quantities 2, 3, and 4. Its capture panel displays CONTROL quantity=4 total=4320 with quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This supports the active control-session state. Its observation after the target session expired comes from the run chronology; this image does not itself show the target session. List-row timestamps are not verified payload timestamps for the selected capture.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "separate active control session"
+    },
+    {
+      "id": "101",
+      "source_path": "101-expired-target-after-reload.jpg",
+      "source_sha256": "dc7396eed52f5ee8e2fd203ddd9a457aaf2d53bb86847f2b6bcf04c5f00741a4",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "101-expired-target-after-reload-safe.png",
+      "public_relative_path": "evidence/continuation-12/101-expired-target-after-reload-safe.png",
+      "safe_sha256": "d59abd8958d187edbeb208d2c0204d969f67d29e5e14c75edd6f3d0e2ecaa59b",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5fc5cfcf231094d03e911a7e118597a5cf5898ddded06b0d3617ced3ff1b7ef5",
+      "safe_decoded_rgb_sha256": "6ffc44b45b6d8bfb7b835b3e934603f8f7b520d31c9440747c6c74946da3226f",
+      "verified_unchanged_pixels_outside_masks": 569815,
+      "source_unchanged": true,
+      "caption": "The target session visibly remains INACTIVE with its logpoint EXPIRED and \u201cCaptured 3m ago.\u201d The time control is a fixed one-hour range, and previously captured QA rows remain visible, with top row Oct 08 03:45:43.820 in the displayed UTC-07:00 offset. The quantity-four capture panel still contains quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. The reload action is established by run chronology, not by the still image. Retained rows do not demonstrate new post-expiry capture.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "target session"
+    },
+    {
+      "id": "102",
+      "source_path": "102-expired-target-direct-link.jpg",
+      "source_sha256": "1addeb547ec7a4804d332b055b42a80d6f4ec48bf98fafe297769ef0350737c7",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "102-expired-target-direct-link-safe.png",
+      "public_relative_path": "evidence/continuation-12/102-expired-target-direct-link-safe.png",
+      "safe_sha256": "f61ac7c6e8a3408d00f3efe32466e9404ca72bcdccf89b825f78c305b5b70be7",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9e62a57d1f038161147d4713c20235f193a7de8f5692c5721981d087238a2dda",
+      "safe_decoded_rgb_sha256": "b86d364fbec58d391f29a0f191561ad5af1516fc289975d506c946cc1614673a",
+      "verified_unchanged_pixels_outside_masks": 569815,
+      "source_unchanged": true,
+      "caption": "The target session visibly shows INACTIVE, EXPIRED, and \u201cCaptured 4m ago,\u201d with a fixed one-hour event range. Previously captured QA rows remain visible; the top row is Oct 08 03:45:43.820 in the displayed UTC-07:00 offset. No capture detail panel is open. Opening this state through a direct link is established by run chronology; the private URL and direct-link navigation are not pictured. This is retained historical-event evidence, not proof of new post-expiry capture.",
+      "annotation": null,
+      "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+      "actual_json_payload_timestamp_visible": false,
+      "displayed_event_list_offset": "UTC-07:00",
+      "scope": "target session"
+    }
+  ],
+  "initial_time_provenance_limit_applies_to": [
+    "72",
+    "73",
+    "74",
+    "75"
+  ],
+  "new_independent_snapshot_verification": {
+    "snapshot_timestamp_ms": 1791455041812,
+    "snapshot_timestamp_utc": "2026-10-08T10:24:01.812Z",
+    "verification_source": "Task owner reports an independent read of the actual Logs JSON snapshot timestamp and deployed source revision. This sanitization step accessed screenshots only.",
+    "visible_in_screenshot": false,
+    "ui_timestamp_parameter_is_execution_evidence": false
+  },
+  "additions": [
+    {
+      "ids": [
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81"
+      ],
+      "script_path": "add_source_controls_76_81.py",
+      "script_sha256": "964e52fcd8ddee53d8d230219cb04b3bede62440858f62a53e09fedfbfaad704",
+      "existing_artifact_bytes_preserved_except": [
+        "manifest.json",
+        "SHA256SUMS"
+      ],
+      "operations": [
+        "JPEG decode to RGB",
+        "integer-coordinate crop without scaling",
+        "opaque identity masks",
+        "lossless RGB PNG save"
+      ],
+      "browser_or_secret_access": false,
+      "published": false
+    },
+    {
+      "ids": [
+        "82"
+      ],
+      "script_path": "add_snapshot_timestamp_82.py",
+      "script_sha256": "2a65a5bbf349a0626d1284cf0a896252603bfd1ddcc12a7d896249b311d589c1",
+      "existing_artifact_bytes_preserved_except": [
+        "manifest.json",
+        "SHA256SUMS"
+      ],
+      "operations": [
+        "JPEG decode to RGB",
+        "integer-coordinate crop without scaling",
+        "four opaque identity/path masks",
+        "lossless RGB PNG save"
+      ],
+      "browser_or_secret_access": false,
+      "published": false
+    },
+    {
+      "ids": [
+        "94",
+        "95"
+      ],
+      "script_path": "append_evidence_batch.py",
+      "script_sha256": "ce9b5804a4ed2ff1b26fa0bc47a793ec584dee3b317b9a0439bd6d752a041fd8",
+      "config_path": "94-95-batch.json",
+      "config_sha256": "bca7b44ce69e55d40cfb32ac119e0e0f62a917f5ca2401bf75428996c3ba90a7",
+      "existing_artifact_bytes_preserved_except": [
+        "manifest.json",
+        "SHA256SUMS"
+      ],
+      "operations": [
+        "JPEG decode to RGB",
+        "integer-coordinate crop without scaling",
+        "opaque identity/path masks",
+        "lossless RGB PNG save"
+      ],
+      "browser_or_secret_access": false,
+      "published": false
+    },
+    {
+      "ids": [
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "93"
+      ],
+      "script_path": "append_evidence_batch.py",
+      "script_sha256": "ce9b5804a4ed2ff1b26fa0bc47a793ec584dee3b317b9a0439bd6d752a041fd8",
+      "config_path": "83-93-batch.json",
+      "config_sha256": "850eab366ddfa9988af3accbef66c49ae674b8f5fd994701b07f5bbc56fd0bef",
+      "existing_artifact_bytes_preserved_except": [
+        "manifest.json",
+        "SHA256SUMS"
+      ],
+      "operations": [
+        "JPEG decode to RGB",
+        "integer-coordinate crop without scaling",
+        "opaque identity/path masks",
+        "lossless RGB PNG save"
+      ],
+      "browser_or_secret_access": false,
+      "published": false
+    },
+    {
+      "ids": [
+        "96",
+        "97",
+        "98",
+        "99",
+        "100",
+        "101",
+        "102"
+      ],
+      "script_path": "append_evidence_batch.py",
+      "script_sha256": "ce9b5804a4ed2ff1b26fa0bc47a793ec584dee3b317b9a0439bd6d752a041fd8",
+      "config_path": "96-102-batch.json",
+      "config_sha256": "eb1fcc6fc6317c82450e7657092dafee3e3fb1fd8ab397e02565139c3eb261d4",
+      "existing_artifact_bytes_preserved_except": [
+        "manifest.json",
+        "SHA256SUMS"
+      ],
+      "operations": [
+        "JPEG decode to RGB",
+        "integer-coordinate crop without scaling",
+        "opaque identity/path masks",
+        "lossless RGB PNG save"
+      ],
+      "browser_or_secret_access": false,
+      "published": false
+    }
+  ],
+  "direct_timestamp_evidence": {
+    "image": "82-control-snapshot-execution-timestamp-safe.png",
+    "field_path": "debugger.snapshot.timestamp",
+    "visible_value_ms": 1791455041812,
+    "converted_utc": "2026-10-08T10:24:01.812Z",
+    "supersedes_absence_of_screenshot_timestamp_evidence": true,
+    "does_not_relabel_other_images_as_showing_this_field": true
+  },
+  "derivatives": [
+    {
+      "id": "94-outlined",
+      "source_safe_image": "94-view-in-logs-not-indexed-safe.png",
+      "source_safe_sha256": "245ec7173bac1bf0133b60dbea0375e0d0d5d04ed3b8cbb2b500c39f77a65ab3",
+      "original_screenshot": "94-view-in-logs-not-indexed-matching-row.jpg",
+      "original_screenshot_sha256": "266e99b40b0ebe4b454bd55c9cf40e58ccc51402b6c5d50aa33c3673854fe3d0",
+      "path": "94-view-in-logs-not-indexed-outlined.png",
+      "public_relative_path": "evidence/continuation-12/94-view-in-logs-not-indexed-outlined.png",
+      "sha256": "aefa456d81a7b0116a8f501e72bc4ef1524861038fd38c52898c3f391839c195",
+      "dimensions": [
+        992,
+        712
+      ],
+      "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Outlines are drawn inward at 2 pixels; no text or UI is reconstructed.",
+      "original_source_crop_xyxy": [
+        158,
+        35,
+        1150,
+        747
+      ],
+      "outline_source_xyxy": [
+        [
+          540,
+          50,
+          1129,
+          99
+        ],
+        [
+          172,
+          179,
+          516,
+          217
+        ]
+      ],
+      "outline_output_xyxy": [
+        [
+          382,
+          15,
+          971,
+          64
+        ],
+        [
+          14,
+          144,
+          358,
+          182
+        ]
+      ],
+      "outline_rgb": [
+        220,
+        35,
+        35
+      ],
+      "outline_width_pixels": 2,
+      "only_outline_pixels_changed": true,
+      "source_safe_image_unchanged": true,
+      "caption": "Annotated derivative for UX04: thin outlines identify only the visible \u201cThe requested event is not indexed\u201d message and the snapshot-ID query context. The matching row/count is obscured and is not outlined or claimed to be visible. Recovery of two indexed records and verification of both exact snapshot identities are separate run observations. The supported finding is Low navigation recovery friction, not a root-cause diagnosis or proof of data loss.",
+      "finding": "UX04",
+      "severity": "Low",
+      "finding_scope": "Navigation recovery friction",
+      "matching_row_or_count_visible": false,
+      "separately_verified_indexed_snapshot_identities": 2
+    }
+  ]
+}

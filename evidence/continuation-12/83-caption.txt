@@ -1,0 +1,1 @@
+The pre-submit form visibly targets pricing.py line 9999 while the retrieved source shown ends at line 24. The log message also names line 9999, and the Start Debug Session button remains available. This demonstrates the prepared out-of-range input; the runtime outcome is shown separately in screenshot 84.

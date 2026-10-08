@@ -1,0 +1,94 @@
+{
+  "id": "102",
+  "source_path": "102-expired-target-direct-link.jpg",
+  "source_sha256": "1addeb547ec7a4804d332b055b42a80d6f4ec48bf98fafe297769ef0350737c7",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "102-expired-target-direct-link-safe.png",
+  "public_relative_path": "evidence/continuation-12/102-expired-target-direct-link-safe.png",
+  "safe_sha256": "f61ac7c6e8a3408d00f3efe32466e9404ca72bcdccf89b825f78c305b5b70be7",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        909,
+        133,
+        1008,
+        168
+      ],
+      "output_xyxy": [
+        749,
+        0,
+        848,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    },
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        86,
+        240,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "9e62a57d1f038161147d4713c20235f193a7de8f5692c5721981d087238a2dda",
+  "safe_decoded_rgb_sha256": "b86d364fbec58d391f29a0f191561ad5af1516fc289975d506c946cc1614673a",
+  "verified_unchanged_pixels_outside_masks": 569815,
+  "source_unchanged": true,
+  "caption": "The target session visibly shows INACTIVE, EXPIRED, and \u201cCaptured 4m ago,\u201d with a fixed one-hour event range. Previously captured QA rows remain visible; the top row is Oct 08 03:45:43.820 in the displayed UTC-07:00 offset. No capture detail panel is open. Opening this state through a direct link is established by run chronology; the private URL and direct-link navigation are not pictured. This is retained historical-event evidence, not proof of new post-expiry capture.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+  "actual_json_payload_timestamp_visible": false,
+  "displayed_event_list_offset": "UTC-07:00",
+  "scope": "target session"
+}

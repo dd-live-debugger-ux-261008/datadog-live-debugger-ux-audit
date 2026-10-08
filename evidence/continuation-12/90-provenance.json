@@ -1,0 +1,71 @@
+{
+  "id": "90",
+  "source_path": "90-ungranted-b-not-listed.jpg",
+  "source_sha256": "4356032670b401f01eba47a132b3ca3286736282faea2fc53672200f26def3dc",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "90-repository-b-discovery-no-match-safe.png",
+  "public_relative_path": "evidence/continuation-12/90-repository-b-discovery-no-match-safe.png",
+  "safe_sha256": "56936dc1b23e31e6c14e4791b2feaaf585c10c98dc9004bb1e3b23043eec652d",
+  "safe_dimensions": [
+    1020,
+    598
+  ],
+  "crop_source_xyxy": [
+    160,
+    77,
+    1180,
+    675
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        432,
+        319,
+        632,
+        347
+      ],
+      "output_xyxy": [
+        272,
+        242,
+        472,
+        270
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "source integration account identity"
+    },
+    {
+      "source_xyxy": [
+        207,
+        419,
+        361,
+        442
+      ],
+      "output_xyxy": [
+        47,
+        342,
+        201,
+        365
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository search query"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "6cc79c8ef0cefe23f292a983e8c4e93fd60d338756859d374c8f4c300d228034",
+  "safe_decoded_rgb_sha256": "82b5db9a25fedd25a466042bd972c4dfd1762b63465c9ac4bff0e68041d7a3aa",
+  "verified_unchanged_pixels_outside_masks": 600818,
+  "source_unchanged": true,
+  "caption": "The GitHub Apps integration visibly shows Installed and repository count 1, while a search for the test repository B yields \u201cNo matching results found.\u201d Account identity and the private repository query are masked. This is a repository-discovery result only. It does not establish that source retrieval for repository B was attempted or denied and must not be treated as a source-permission enforcement proof.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

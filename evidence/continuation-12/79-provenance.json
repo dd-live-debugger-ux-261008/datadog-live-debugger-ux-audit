@@ -1,0 +1,63 @@
+{
+  "id": "79",
+  "source_path": "79-post-handover-control-capture.jpg",
+  "source_sha256": "7a780aa4dae0fcbe7a3413ed877be4bc0dc0f3209d6c1b34adccbeebdb35c4d5",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "79-post-handover-control-capture-safe.png",
+  "public_relative_path": "evidence/continuation-12/79-post-handover-control-capture-safe.png",
+  "safe_sha256": "8dd821c4a2db8ce8da8839aa8c6d047c0146431d7a2b81ca8c156729208cb03b",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c13198dc6e9877dd907a6d0f3514bf12f5d133a706b707199466b3eed66e0a6a",
+  "safe_decoded_rgb_sha256": "ddbb600e093e79eb7da95326ddcfe8b33066f8ff9378b5e483a91609c57804a1",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The source-backed capture displays CONTROL quantity=3 total=3600 and all six captured values: quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, unit_price_cents=1200. Retrieved source at pricing.py line 17 and EVENTS RECEIVED remain visible. This is the planted application bug, not a Datadog defect. The task owner independently verified the actual Logs JSON snapshot timestamp as 1791455041812 (2026-10-08 10:24:01.812 UTC). That exact timestamp is not printed in this still and must be attributed to the separate Logs JSON verification, not a UI timestamp parameter or a different event-list row.",
+  "annotation": null,
+  "independent_snapshot_verification": {
+    "snapshot_timestamp_ms": 1791455041812,
+    "snapshot_timestamp_utc": "2026-10-08T10:24:01.812Z",
+    "verification_source": "Task owner reports an independent read of the actual Logs JSON snapshot timestamp and deployed source revision. This sanitization step accessed screenshots only.",
+    "visible_in_screenshot": false,
+    "ui_timestamp_parameter_is_execution_evidence": false
+  },
+  "separately_verified_source": {
+    "git_sha": "f5061500e8bf30880aebcf7966ba64df44d2ccde",
+    "file": "pricing.py",
+    "line": 17,
+    "verification_source": "Task owner independent Logs JSON/source-link inspection; full metadata not printed in this still."
+  }
+}

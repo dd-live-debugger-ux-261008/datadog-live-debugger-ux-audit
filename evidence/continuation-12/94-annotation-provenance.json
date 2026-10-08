@@ -1,0 +1,63 @@
+{
+  "id": "94-outlined",
+  "source_safe_image": "94-view-in-logs-not-indexed-safe.png",
+  "source_safe_sha256": "245ec7173bac1bf0133b60dbea0375e0d0d5d04ed3b8cbb2b500c39f77a65ab3",
+  "original_screenshot": "94-view-in-logs-not-indexed-matching-row.jpg",
+  "original_screenshot_sha256": "266e99b40b0ebe4b454bd55c9cf40e58ccc51402b6c5d50aa33c3673854fe3d0",
+  "path": "94-view-in-logs-not-indexed-outlined.png",
+  "public_relative_path": "evidence/continuation-12/94-view-in-logs-not-indexed-outlined.png",
+  "sha256": "aefa456d81a7b0116a8f501e72bc4ef1524861038fd38c52898c3f391839c195",
+  "dimensions": [
+    992,
+    712
+  ],
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Outlines are drawn inward at 2 pixels; no text or UI is reconstructed.",
+  "original_source_crop_xyxy": [
+    158,
+    35,
+    1150,
+    747
+  ],
+  "outline_source_xyxy": [
+    [
+      540,
+      50,
+      1129,
+      99
+    ],
+    [
+      172,
+      179,
+      516,
+      217
+    ]
+  ],
+  "outline_output_xyxy": [
+    [
+      382,
+      15,
+      971,
+      64
+    ],
+    [
+      14,
+      144,
+      358,
+      182
+    ]
+  ],
+  "outline_rgb": [
+    220,
+    35,
+    35
+  ],
+  "outline_width_pixels": 2,
+  "only_outline_pixels_changed": true,
+  "source_safe_image_unchanged": true,
+  "caption": "Annotated derivative for UX04: thin outlines identify only the visible \u201cThe requested event is not indexed\u201d message and the snapshot-ID query context. The matching row/count is obscured and is not outlined or claimed to be visible. Recovery of two indexed records and verification of both exact snapshot identities are separate run observations. The supported finding is Low navigation recovery friction, not a root-cause diagnosis or proof of data loss.",
+  "finding": "UX04",
+  "severity": "Low",
+  "finding_scope": "Navigation recovery friction",
+  "matching_row_or_count_visible": false,
+  "separately_verified_indexed_snapshot_identities": 2
+}

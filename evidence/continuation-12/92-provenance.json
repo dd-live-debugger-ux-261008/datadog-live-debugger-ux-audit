@@ -1,0 +1,51 @@
+{
+  "id": "92",
+  "source_path": "92-no-match-recovery-all-quantities.jpg",
+  "source_sha256": "25451c8e85bbf074d4bd235aca3f62cbe12ba2f976c782c8b2d1dd0d7ffc10f1",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "92-condition-removal-recovery-events-safe.png",
+  "public_relative_path": "evidence/continuation-12/92-condition-removal-recovery-events-safe.png",
+  "safe_sha256": "e178810944e1ec58cf40f964beb9ae8e51dc3655fc8947a5097a50722d00dc47",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "ee3e9ebb66953de794a70db3488b93595d0d79e95726378d987f2d1fad814b8e",
+  "safe_decoded_rgb_sha256": "55a26a1f35eaead8945a5298714657829ebfea52169728c9c343e956a37b9b3a",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The visible event list contains RECOVER messages for quantity 2 with total 2400, quantity 3 with total 3600, and quantity 4 with total 4320. The valid line 17 logpoint is marked EVENTS RECEIVED while the separate line 9999 logpoint remains in ERROR. This supports the recovered event stream. Removal of the no-match condition is established by the task owner\u2019s run chronology; the condition editor is not visible in this still.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

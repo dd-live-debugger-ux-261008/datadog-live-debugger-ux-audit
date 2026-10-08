@@ -1,0 +1,51 @@
+{
+  "id": "87",
+  "source_path": "87-condition-three-captured.jpg",
+  "source_sha256": "aa749efcbcd024a44b0b168b0c508aa5b94b32cb9e842dd4152acc8a958566ef",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "87-condition-three-captured-safe.png",
+  "public_relative_path": "evidence/continuation-12/87-condition-three-captured-safe.png",
+  "safe_sha256": "8a9187f11dbb156d96bccb2881ea87449e4b41d74adc01543ba6a44683166590",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "1843369f8d69470708473951a2cc63717738cc6b21982a68d449bd250a330240",
+  "safe_decoded_rgb_sha256": "34cb2e48265497662e73f1636d9e08b4bb1efe6f68143a905c5d86c71b914a5c",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The event list and capture message visibly show COND3 quantity=3 total=3600. The capture panel shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. These values support the quantity-three conditional capture. The source pane is displaying the separate line 9999 logpoint context, so that pane must not be described as the active conditional definition. The pricing discrepancy is the planted application bug, not a Datadog defect.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

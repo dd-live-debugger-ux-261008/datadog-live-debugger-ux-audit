@@ -1,0 +1,51 @@
+{
+  "id": "89",
+  "source_path": "89-condition-four-captured.jpg",
+  "source_sha256": "1b844b0d9045c1256adcae88e192202aa1c35a76b367d1576ea3d94e3d3550b2",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "89-condition-four-captured-safe.png",
+  "public_relative_path": "evidence/continuation-12/89-condition-four-captured-safe.png",
+  "safe_sha256": "1909c8d34d6b49036148d4682c8b4698c2304bbfeeb8a8feebd6278ccc29f25e",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "fe5e9ed7cdff9a13e67bce57696466792eb65901d4c782fff93d95e371594ebe",
+  "safe_decoded_rgb_sha256": "9c8f65c1e2c6cc03f61faea659e179d12b9a07a42ae42cd6042a81a370e62c61",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The event list and current capture message visibly show COND4 quantity=4 total=4320. Captured fields are quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is the quantity-four conditional control capture. The source pane shows the separate line 9999 context, so it is not visual evidence of the active condition text.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

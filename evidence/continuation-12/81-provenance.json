@@ -1,0 +1,73 @@
+{
+  "id": "81",
+  "source_path": "81-linked-deployed-revision-pricing.jpg",
+  "source_sha256": "234055e1a948a252c4a7ea46a429480f6b9817c3b6a4f3772341939d9a07d2d2",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "81-linked-revision-pricing-safe.png",
+  "public_relative_path": "evidence/continuation-12/81-linked-revision-pricing-safe.png",
+  "safe_sha256": "d9c52e72f2f5dc5ee95c6d50990e4d634f54eb191d812c3027be91f29a5f4270",
+  "safe_dimensions": [
+    1150,
+    677
+  ],
+  "crop_source_xyxy": [
+    0,
+    0,
+    1150,
+    677
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        330,
+        12,
+        522,
+        48
+      ],
+      "output_xyxy": [
+        330,
+        12,
+        522,
+        48
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository identity"
+    },
+    {
+      "source_xyxy": [
+        342,
+        70,
+        574,
+        103
+      ],
+      "output_xyxy": [
+        342,
+        70,
+        574,
+        103
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "source-provider account identity and avatar"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "40483b95292f570654a95d2cc34b60a7921c160f16e7f40d8914732247c588af",
+  "safe_decoded_rgb_sha256": "1a3ce99f45a6a3c9d6b1a09b79e9557c3b1dd4196a661677086fcde5fb4eb232",
+  "verified_unchanged_pixels_outside_masks": 763982,
+  "source_unchanged": true,
+  "caption": "The source-provider page visibly displays pricing.py with line 17 highlighted, the intentional quantity > 3 boundary bug, and the intended discount for orders of three or more in its docstring. The revision selector visibly reads f506150. The full deployed revision f5061500e8bf30880aebcf7966ba64df44d2ccde is separately established by the task owner and is printed in screenshot 78; the full revision is not visible in this screenshot. The file-history banner separately shows abbreviated commit 78457e9, which must not be confused with the selected revision. Repository and account identities are masked.",
+  "annotation": null,
+  "visible_revision_selector": "f506150",
+  "visible_file_history_commit": "78457e9",
+  "full_revision_visible": false
+}

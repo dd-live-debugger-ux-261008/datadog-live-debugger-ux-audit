@@ -1,0 +1,91 @@
+{
+  "id": "93",
+  "source_path": "93-target-five-minutes-before-expiry.jpg",
+  "source_sha256": "bfa72f895a473d9e501eff5e975eabec5caf95cbb1494970270fb0c41428bb57",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "93-target-five-minutes-remaining-safe.png",
+  "public_relative_path": "evidence/continuation-12/93-target-five-minutes-remaining-safe.png",
+  "safe_sha256": "7ee1027f71fd935a80ebb686aedb3e1b57cae86152066d2440822121e37b2a7a",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        807,
+        133,
+        925,
+        168
+      ],
+      "output_xyxy": [
+        647,
+        0,
+        765,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    },
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        86,
+        240,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c86dac6bdcf9c9c349f5e8d310cbb1b03a6d714adcbd862a43c4e2617dfffd56",
+  "safe_decoded_rgb_sha256": "d86e0247c3f4123428bf05db3eb423e4a5517cf142c8a6de3c78d7d0a93e1b59",
+  "verified_unchanged_pixels_outside_masks": 569150,
+  "source_unchanged": true,
+  "caption": "The target session visibly shows ACTIVE (5 MINUTES LEFT), EVENTS RECEIVED, approximately 1K captured events, and quantity 2/3/4 messages in the event list. The capture panel shows quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is a pre-expiry displayed state. It does not itself establish the eventual expiration time or post-expiry behavior.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

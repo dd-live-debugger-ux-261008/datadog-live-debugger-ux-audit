@@ -1,0 +1,84 @@
+{
+  "id": "80",
+  "source_path": "80-control-source-permalink-and-metadata.jpg",
+  "source_sha256": "2506ba2494416337a22e68c9bd9321c26896e331b71bffdc7de0a26c19d9c90c",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "80-control-source-stacktrace-safe.png",
+  "public_relative_path": "evidence/continuation-12/80-control-source-stacktrace-safe.png",
+  "safe_sha256": "b44cbbc8f1ab5439edb5facba86b34d3ba37b975a47aa045d253d524fb3198cd",
+  "safe_dimensions": [
+    619,
+    679
+  ],
+  "crop_source_xyxy": [
+    518,
+    37,
+    1137,
+    716
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        601,
+        134,
+        787,
+        157
+      ],
+      "output_xyxy": [
+        83,
+        97,
+        269,
+        120
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path prefix; pricing.py retained"
+    },
+    {
+      "source_xyxy": [
+        601,
+        594,
+        787,
+        618
+      ],
+      "output_xyxy": [
+        83,
+        557,
+        269,
+        581
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path prefix; app.py retained"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c88c9722ba7c7b1da83e267d68cea633b1132d7a3a5832ff395b6b7bbdb2413b",
+  "safe_decoded_rgb_sha256": "5383571d509c82d65dcbc12b1fd167738002e8d6e55e6e31babe0cc86a79e287",
+  "verified_unchanged_pixels_outside_masks": 411559,
+  "source_unchanged": true,
+  "caption": "The visible Logs stacktrace shows pricing.py line 17 in calculate_quote, retrieved source with line 17 highlighted, a GitHub source-link control, and quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, unit_price_cents=1200. The second frame shows app.py line 32 in do_GET; private repository prefixes are masked. The JSON Attributes header is visible at the bottom, but its timestamp and source metadata fields are offscreen. The exact snapshot timestamp 1791455041812 (2026-10-08 10:24:01.812 UTC) and full source-revision association were separately verified by the task owner in Logs JSON; this screenshot must not be cited as displaying those offscreen fields.",
+  "annotation": null,
+  "independent_snapshot_verification": {
+    "snapshot_timestamp_ms": 1791455041812,
+    "snapshot_timestamp_utc": "2026-10-08T10:24:01.812Z",
+    "verification_source": "Task owner reports an independent read of the actual Logs JSON snapshot timestamp and deployed source revision. This sanitization step accessed screenshots only.",
+    "visible_in_screenshot": false,
+    "ui_timestamp_parameter_is_execution_evidence": false
+  },
+  "separately_verified_source": {
+    "git_sha": "f5061500e8bf30880aebcf7966ba64df44d2ccde",
+    "file": "pricing.py",
+    "line": 17,
+    "verification_source": "Task owner independent Logs JSON/source-link inspection; full metadata not printed in this still."
+  },
+  "json_attribute_fields_visible": false
+}

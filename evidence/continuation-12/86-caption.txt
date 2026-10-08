@@ -1,0 +1,1 @@
+The editable logpoint definition visibly shows the template COND3 quantity={quantity} total={total_cents} and When condition quantity == 3. Existing event rows still show the earlier generic line 17 message. This is evidence of the prepared conditional definition, not proof from this still alone that the change was applied.

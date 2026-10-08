@@ -1,0 +1,51 @@
+{
+  "id": "83",
+  "source_path": "83-out-of-range-before-submit.jpg",
+  "source_sha256": "63bb915615cd77ef882206f24d29f17e11ec86f7d398cb0407e9a625f566e2e9",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "83-out-of-range-before-submit-safe.png",
+  "public_relative_path": "evidence/continuation-12/83-out-of-range-before-submit-safe.png",
+  "safe_sha256": "8078a63375a166e83fd4bf985ee78230b802d91c37226e7e06cfbfe96c76e69a",
+  "safe_dimensions": [
+    1062,
+    693
+  ],
+  "crop_source_xyxy": [
+    52,
+    48,
+    1114,
+    741
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        103,
+        148,
+        317,
+        171
+      ],
+      "output_xyxy": [
+        51,
+        100,
+        265,
+        123
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "e2a1c3154eee3ca04fad038bff767361f5ebb64e41c34f37f31e1b11bf031efd",
+  "safe_decoded_rgb_sha256": "b1100ad0dd6b7e87be4408441e2083237236840ff2b94acd48654cc825bff080",
+  "verified_unchanged_pixels_outside_masks": 731044,
+  "source_unchanged": true,
+  "caption": "The pre-submit form visibly targets pricing.py line 9999 while the retrieved source shown ends at line 24. The log message also names line 9999, and the Start Debug Session button remains available. This demonstrates the prepared out-of-range input; the runtime outcome is shown separately in screenshot 84.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

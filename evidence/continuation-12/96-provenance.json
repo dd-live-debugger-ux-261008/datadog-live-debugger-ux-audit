@@ -1,0 +1,94 @@
+{
+  "id": "96",
+  "source_path": "96-target-three-minutes-before-expiry.jpg",
+  "source_sha256": "edf120474c6019c839f240f7d7e611ff940fb8244846a06acd47d615131aeab3",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "96-target-two-minutes-remaining-safe.png",
+  "public_relative_path": "evidence/continuation-12/96-target-two-minutes-remaining-safe.png",
+  "safe_sha256": "bf3941fad0078fb37f41c314836ce6ec7d4e76fa81fbcd8187611f3fb994e933",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        807,
+        133,
+        925,
+        168
+      ],
+      "output_xyxy": [
+        647,
+        0,
+        765,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    },
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        86,
+        240,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "f83d517b4792f47308dabd712ffc8e6275112cea1133c9966e0762f79e43e15c",
+  "safe_decoded_rgb_sha256": "4698f6365b2c7665e1f6120d65845d1e69703b49aaf156bf5d87e59452accdd6",
+  "verified_unchanged_pixels_outside_masks": 569150,
+  "source_unchanged": true,
+  "caption": "The target session visibly shows ACTIVE (2 MINUTES LEFT), despite the original source filename referring to three minutes. The logpoint is marked EVENTS RECEIVED, approximately 2K events are displayed as captured, and the event list contains QA quantity 2/3/4 messages. The right capture panel displays quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. This is the displayed pre-expiry state, not proof of an exact expiry instant.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+  "actual_json_payload_timestamp_visible": false,
+  "displayed_event_list_offset": "UTC-07:00",
+  "scope": "target session"
+}

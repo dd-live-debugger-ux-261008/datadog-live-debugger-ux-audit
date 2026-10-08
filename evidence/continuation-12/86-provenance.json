@@ -1,0 +1,51 @@
+{
+  "id": "86",
+  "source_path": "86-condition-three-before-apply.jpg",
+  "source_sha256": "801dc35ff606ee4cea4a7925bf519fb4cb832191fd50ead78b68d74182ad4ae7",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "86-condition-three-before-apply-safe.png",
+  "public_relative_path": "evidence/continuation-12/86-condition-three-before-apply-safe.png",
+  "safe_sha256": "74900769bf3f6d0aedb2e5ece5e421a1dbe63003bcbf54f16f29baf0b21d8a3b",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c5ffa474ebd01a2c4b774ab74af8cd64a6b5374852b85380cf14b820c464e188",
+  "safe_decoded_rgb_sha256": "7449d39650dabbe1cab5097f7e8d4b406674af59425ee3fa3ceda80965618b3b",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The editable logpoint definition visibly shows the template COND3 quantity={quantity} total={total_cents} and When condition quantity == 3. Existing event rows still show the earlier generic line 17 message. This is evidence of the prepared conditional definition, not proof from this still alone that the change was applied.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

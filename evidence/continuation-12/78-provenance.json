@@ -1,0 +1,91 @@
+{
+  "id": "78",
+  "source_path": "78-continuation-runtime-registered.jpg",
+  "source_sha256": "b0032292f7da8d11e7f18e43cc414fbd1cc6ef4a96b08cf153edb0fdbe9b4917",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "78-continuation-runtime-registered-safe.png",
+  "public_relative_path": "evidence/continuation-12/78-continuation-runtime-registered-safe.png",
+  "safe_sha256": "020ac1a5523307d15f5f50af0d9ac0e47e0f5ca09163a968827d6597929057c1",
+  "safe_dimensions": [
+    788,
+    662
+  ],
+  "crop_source_xyxy": [
+    340,
+    85,
+    1128,
+    747
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        733,
+        232,
+        973,
+        254
+      ],
+      "output_xyxy": [
+        393,
+        147,
+        633,
+        169
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        733,
+        468,
+        973,
+        490
+      ],
+      "output_xyxy": [
+        393,
+        383,
+        633,
+        405
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        733,
+        705,
+        973,
+        727
+      ],
+      "output_xyxy": [
+        393,
+        620,
+        633,
+        642
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a5687c81e75daeaa7105ce47e788235e0fcf0d26cf85bc7070ae73960ae18e1f",
+  "safe_decoded_rgb_sha256": "2e9531b8980145a0ead1dc6c61841cab16846f0651ec4cd96efaba5f9589b90c",
+  "verified_unchanged_pixels_outside_masks": 505816,
+  "source_unchanged": true,
+  "caption": "The visible runtime status excerpt reports live_debugging_registered=true, python_client_present=true, sdk_4_11_0_present=true, symbol_database_registered=true, sample_ready=true, and git_sha=f5061500e8bf30880aebcf7966ba64df44d2ccde. The full source revision remains visible. The complete updated_at values visible here include 2026-10-08T10:21:17.852526+00:00 and 2026-10-08T10:21:33.651416+00:00; these are runtime-status update times, not the later captured application snapshot time. This excerpt reports readiness and registration rather than independently proving an application capture.",
+  "annotation": null,
+  "visible_source_revision": "f5061500e8bf30880aebcf7966ba64df44d2ccde"
+}

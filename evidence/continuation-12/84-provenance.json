@@ -1,0 +1,131 @@
+{
+  "id": "84",
+  "source_path": "84-out-of-range-runtime-error.jpg",
+  "source_sha256": "b6f6b05baf0db231c900532574c56cc195f3d7860cb4f9ed751dbeee83fc0acd",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "84-out-of-range-runtime-error-safe.png",
+  "public_relative_path": "evidence/continuation-12/84-out-of-range-runtime-error-safe.png",
+  "safe_sha256": "54135130af9b1ca5b80aec4aab4f9d2710f4596578e0561b026c5a778c3b23e1",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        651,
+        331,
+        786,
+        348
+      ],
+      "output_xyxy": [
+        491,
+        159,
+        626,
+        176
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        524,
+        349,
+        647,
+        367
+      ],
+      "output_xyxy": [
+        364,
+        177,
+        487,
+        195
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier second wrapped line"
+    },
+    {
+      "source_xyxy": [
+        523,
+        385,
+        798,
+        404
+      ],
+      "output_xyxy": [
+        363,
+        213,
+        638,
+        232
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runner/repository path first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        523,
+        404,
+        682,
+        423
+      ],
+      "output_xyxy": [
+        363,
+        232,
+        522,
+        251
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path prefix second line; pricing.py retained"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "55e8c2c255fb9099c3c7c2d332d4a5cbff65f8b6c02b25df8ba4792a277e8c17",
+  "safe_decoded_rgb_sha256": "7cf1e09244902458cb0913206ecd185dc2ab6d0599cbc6edf2c11085e8a64766",
+  "verified_unchanged_pixels_outside_masks": 530265,
+  "source_unchanged": true,
+  "caption": "The out-of-range pricing.py line 9999 logpoint visibly has ERROR status. Its tooltip states that 1/1 instances had errors applying the configuration and names NoFunctionsAtLine, with \u201cno functions at line 9999 within source file\u201d and pricing.py still readable. The probe identifier and private runner/repository path are opaque-masked. The event panel displays no results for the selected time range. This is an explicit runtime application error, rather than a silent empty-results state.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "88",
+  "source_path": "88-condition-revision-outdated-capture.jpg",
+  "source_sha256": "c829809eb0311941efa01a008eb15a438d46abeafce1ef9ba5792d515943fbd1",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "88-condition-revision-outdated-capture-safe.png",
+  "public_relative_path": "evidence/continuation-12/88-condition-revision-outdated-capture-safe.png",
+  "safe_sha256": "3d6008a9ebcbd805144ab0e902ddeef75a09e19f21351685fba0f9c6cffa9307",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "98a4745f5df0f80b46865f4ab7922f32adb9845173ccccecd59788174438ec08",
+  "safe_decoded_rgb_sha256": "fd9b51585ab8d26457f50cd9a416da78c36ee8d6992f2410689131d3cf11faa0",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The left event list visibly contains COND4 quantity=4 total=4320 rows while the right capture panel retains the older COND3 quantity=3 total=3600 message and labels it OUTDATED. The older visible fields are quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, and total_cents=3600; unit_price_cents is below this still. This demonstrates that the interface marks the retained capture as outdated after the condition revision. It does not show new quantity-three captures under the new condition.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}

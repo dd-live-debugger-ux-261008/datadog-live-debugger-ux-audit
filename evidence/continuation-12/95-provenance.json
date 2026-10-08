@@ -1,0 +1,60 @@
+{
+  "id": "95",
+  "source_path": "95-source-branch-explains-quantity-three.jpg",
+  "source_sha256": "2f37659abc558e11d82411d21ae9713d16b18f422350e4de6c97b5aa937e66e4",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "95-source-branch-quantity-three-safe.png",
+  "public_relative_path": "evidence/continuation-12/95-source-branch-quantity-three-safe.png",
+  "safe_sha256": "b7b6ee42f002a03ce7abb69a62a12e8c43aadc5675e275d98ce1d2b37c3540f3",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "eea1e9cb83a0da206d6aa6ca237959a7b36d2e26ec7b6deb38a28b1d7d56fe5f",
+  "safe_decoded_rgb_sha256": "89b8eb212d889be1ecbca25b74489535b1736f907b96b51060325a92d6d04d40",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The same debugger view visibly places the source condition discount_eligible = quantity > 3 and its intentional-bug comment beside a capture with quantity=3, discount_eligible=False, discount_cents=0, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The log message is CONTROL quantity=3 total=3600. This directly supports understanding the planted application boundary bug from source and captured state. It is not a Datadog pricing defect. The visible event-list row times do not independently identify the capture panel\u2019s execution timestamp.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available.",
+  "visible_source_condition": "discount_eligible = quantity > 3",
+  "visible_capture_values": {
+    "quantity": 3,
+    "discount_eligible": false,
+    "discount_cents": 0,
+    "subtotal_cents": 3600,
+    "total_cents": 3600,
+    "unit_price_cents": 1200
+  }
+}

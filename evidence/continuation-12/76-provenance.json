@@ -1,0 +1,50 @@
+{
+  "id": "76",
+  "source_path": "76-control-template-with-source.jpg",
+  "source_sha256": "7f7c5d0d1b6353d8037ae6752f43254f653af289bccdc90d9b813576f22648fb",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "76-control-template-with-source-safe.png",
+  "public_relative_path": "evidence/continuation-12/76-control-template-with-source-safe.png",
+  "safe_sha256": "d3fe4cea01f4c363ae71f18646ae015baa89b8fba8cf5159ce42b25fa8c150c3",
+  "safe_dimensions": [
+    1062,
+    693
+  ],
+  "crop_source_xyxy": [
+    52,
+    48,
+    1114,
+    741
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        103,
+        148,
+        317,
+        171
+      ],
+      "output_xyxy": [
+        51,
+        100,
+        265,
+        123
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "43785de373e9fff1ea23a2bb6ee56931d17fcd2ab17f3ab148ef89fd60cfa8e1",
+  "safe_decoded_rgb_sha256": "3814339cccd4e90a89f7c3ff66e68c5a855f5f91b36c809e61f4f99f6069f64f",
+  "verified_unchanged_pixels_outside_masks": 731044,
+  "source_unchanged": true,
+  "caption": "The pre-submit logpoint form visibly displays retrieved pricing.py source, line 17, environment staging, the CONTROL quantity={quantity} total={total_cents} template, and capture of all variables up to 3 levels deep. The source includes discount_eligible = quantity > 3 and its explicit intentional-bug comment. The Start Debug Session button remains visible; this still records the prepared form rather than proving submission.",
+  "annotation": null
+}

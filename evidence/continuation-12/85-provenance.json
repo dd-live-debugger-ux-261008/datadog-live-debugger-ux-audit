@@ -1,0 +1,51 @@
+{
+  "id": "85",
+  "source_path": "85-valid-gutter-recovery-capture.jpg",
+  "source_sha256": "146c565b231be37d888a9f413879aa7f9a709164fd79b69aa5d6eec32963c7e6",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "85-valid-line-recovery-events-safe.png",
+  "public_relative_path": "evidence/continuation-12/85-valid-line-recovery-events-safe.png",
+  "safe_sha256": "62482193d620b54b8b275b4e51a700fb23d2919f485cb69557dc5201a089d25a",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "1fbb40004b39fa320b0bc41bd7ced7c4ee035f5e1c355f5a8d82a3164cb79c7e",
+  "safe_decoded_rgb_sha256": "9f83529f8659d68a58986f02a5752c062d14eafa265a4768a4dfe05a22b533ab",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "The debugger shows the line 9999 logpoint still in ERROR alongside a separate pricing.py line 17 logpoint marked EVENTS RECEIVED. The event list contains rendered line 17 log messages, and the source gutter shows line 17. This supports the recovered valid-line capture state. The gesture used to create the valid gutter logpoint is run-chronology evidence, not something a still image proves.",
+  "annotation": null,
+  "execution_time_limit": "Event-list rows and UI timestamp parameters must not be presented as independently verified execution times for the capture panel. Use separate snapshot JSON evidence when available."
+}
