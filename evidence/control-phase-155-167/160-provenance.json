@@ -1,0 +1,36 @@
+{
+  "id": "160",
+  "source_filename": "160-no-selection-pause-result.jpg",
+  "source_sha256": "f51e75da4e47dd46d2e1612a4cf5f02115ca24ededfd04b7ccd5bbd624f532e8",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "160-short-pause-control-retained-rows-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/160-short-pause-control-retained-rows-safe.png",
+  "safe_sha256": "aff35954f70e9e2a32644e0d233cce4cbc1b529a874f137baf9926a5f9520c4b",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "2ad7c5f0f30cbac50880e6b387188aa042e92d3a309991c11cc135e92aa4d3b7",
+  "safe_decoded_rgb_sha256": "2ad7c5f0f30cbac50880e6b387188aa042e92d3a309991c11cc135e92aa4d3b7",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The playback tooltip now reads Play, and the range is fixed at Oct 8, 6:09 am to Oct 8, 7:10\u2026. The same visible rows remain, beginning at 07:09:55.278 and ending at 07:09:28.933, as in screenshot 159. No capture detail is selected.",
+  "visible_evidence_limits": [
+    "Together with 159, this supports retention of the displayed rows during the short clean pause control.",
+    "It does not support a confirmed Pause defect or an exhaustive statement about all event history."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

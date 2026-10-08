@@ -1,0 +1,1 @@
+The playback tooltip now reads Play, and the range is fixed at Oct 8, 6:09 am to Oct 8, 7:10…. The same visible rows remain, beginning at 07:09:55.278 and ending at 07:09:28.933, as in screenshot 159. No capture detail is selected.

@@ -1,0 +1,1 @@
+The pricing.py line 17 logpoint shows EVENTS RECEIVED. The message is DUP_CLICK_CONTROL quantity=4 total=4320, with captured quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. A separate line-10 ERROR row remains visible.

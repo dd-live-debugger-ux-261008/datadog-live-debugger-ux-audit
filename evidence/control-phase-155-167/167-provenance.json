@@ -1,0 +1,117 @@
+{
+  "id": "167",
+  "source_filename": "167-final-unfiltered-session-inventory.jpg",
+  "source_sha256": "55ba538d0f63b2e280cd6ac06dd996e6ad036da731386e78b042161cc7e3960d",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "167-final-unfiltered-session-inventory-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png",
+  "safe_sha256": "00c0d9df8dba024d4726c6a5aff792c8acb6cf815525b1680fb98eea78519106",
+  "safe_dimensions": [
+    992,
+    607
+  ],
+  "crop_source_xyxy": [
+    158,
+    126,
+    1150,
+    733
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        185,
+        385,
+        562,
+        445
+      ],
+      "output_xyxy": [
+        27,
+        259,
+        404,
+        319
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "first card session, runtime, creator, and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        185,
+        475,
+        562,
+        535
+      ],
+      "output_xyxy": [
+        27,
+        349,
+        404,
+        409
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "second card session, runtime, creator, and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        185,
+        566,
+        562,
+        625
+      ],
+      "output_xyxy": [
+        27,
+        440,
+        404,
+        499
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "third card session, runtime, creator, and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        185,
+        656,
+        562,
+        716
+      ],
+      "output_xyxy": [
+        27,
+        530,
+        404,
+        590
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "fourth card session, runtime, creator, and avatar identities"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "6b381292dc291a89d4861ed312b2e01ed811c4203e374182becca5977ce17bbc",
+  "safe_decoded_rgb_sha256": "7718c2fd5303a0ac70f84d544403e0236fd13af2138a62eef9190bf3640bd9b1",
+  "verified_unchanged_pixels_outside_masks": 512041,
+  "source_unchanged": true,
+  "caption": "The final Sessions List has My sessions off, Services and Environments set to All, Created set to All time, and no search text. It visibly shows All 4, Active 0, and Inactive 4, with four session cards each marked INACTIVE. Session titles, runtime/service names, creator identities, and avatars are masked.",
+  "visible_evidence_limits": [
+    "These are the unfiltered counts in the displayed Sessions List at this observation.",
+    "The screenshot does not establish shutdown of runtime processes, agents, or other external resources."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

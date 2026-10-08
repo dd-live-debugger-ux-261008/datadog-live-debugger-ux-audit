@@ -1,0 +1,1 @@
+A DUP_CLICK_CONTROL event is selected and its quantity-four capture is open. The event range is fixed, labeled Oct 8, 6:07 am to Oct 8, 7:08…, rather than Past 1 Hour. The top visible selected row reads Oct 08 07:07:18.700.

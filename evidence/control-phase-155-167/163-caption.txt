@@ -1,0 +1,1 @@
+The detail card identifies pricing.py#10 and reports ERROR for 1/1 instances. Its diagnostic names NoFunctionsAtLine and says the function at line 10 is likely decorated with an unsupported decorator. The card also shows one targeting instance and No events captured. Private runtime identity, probe ID, source path, and creator identity are masked.

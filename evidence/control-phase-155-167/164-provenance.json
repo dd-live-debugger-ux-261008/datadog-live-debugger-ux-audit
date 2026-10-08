@@ -1,0 +1,78 @@
+{
+  "id": "164",
+  "source_filename": "164-stale-child-edit-after-parent-stop.jpg",
+  "source_sha256": "c9801607d389b155d69a1ea2c44d3b4606fa0ceccca1cf551afff847508affdf",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "164-inactive-parent-stale-child-editor-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/164-inactive-parent-stale-child-editor-safe.png",
+  "safe_sha256": "f9c975d78428628ddc80898bb99c8d4caee3c7f4b5411c5d84522d225163cb1e",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        909,
+        133,
+        1008,
+        168
+      ],
+      "output_xyxy": [
+        749,
+        0,
+        848,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "628de3884c4f3a8176d227c27b72fe3ab3a018c61221cc21a6486470a57036e2",
+  "safe_decoded_rgb_sha256": "6b41f6b27ed33ba0cf8a110bca3028043974a86427c9063b158bf10b63a2aab5",
+  "verified_unchanged_pixels_outside_masks": 575555,
+  "source_unchanged": true,
+  "caption": "The parent session visibly shows INACTIVE, and the displayed pricing.py lines 10 and 17 are DISABLED. The editor contains SESSION_STOP_STALE quantity={quantity} total={total_cents} with all-variable capture up to 3 levels. Earlier DUP_CLICK_CONTROL rows remain visible.",
+  "visible_evidence_limits": [
+    "The parent-stop and stale-draft chronology are separate recorder observations.",
+    "The lower editor buttons are clipped.",
+    "This displayed state alone does not establish user intent or a security violation."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

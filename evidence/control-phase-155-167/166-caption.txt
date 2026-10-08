@@ -1,0 +1,1 @@
+The active session shows a capture for line 17 with message SESSION_STOP_STALE quantity=3 total=3600. Values are quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. Displayed qa_fixture.py sibling rows remain DISABLED.

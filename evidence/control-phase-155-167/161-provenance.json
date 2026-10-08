@@ -1,0 +1,36 @@
+{
+  "id": "161",
+  "source_filename": "161-clean-live-latest-before-pause.jpg",
+  "source_sha256": "98236f583967bfc7dc58a92c4706cde44c299cda55d87092ceecfb5a56c0efad",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "161-long-pause-control-live-before-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/161-long-pause-control-live-before-safe.png",
+  "safe_sha256": "7ad79d6df2073ddacd55606730a149ba005dc782ffbab4e14677ccbd47fa631e",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "bb3229a7565decb0b5898aad6bee4fafbd626531594b43d5d13a2262966827a4",
+  "safe_decoded_rgb_sha256": "bb3229a7565decb0b5898aad6bee4fafbd626531594b43d5d13a2262966827a4",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The event pane shows Past 1 Hour with a Pause tooltip and no open capture selection. Visible DUP_CLICK_CONTROL rows begin at Oct 08 07:12:40.360 and end at 07:12:12.224.",
+  "visible_evidence_limits": [
+    "This is the clean live-before state for the longer no-selection pause comparison.",
+    "The elapsed observation duration is recorder chronology, not established by the still alone."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

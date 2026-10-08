@@ -1,0 +1,1 @@
+The event pane shows Past 1 Hour with a Pause tooltip and no open capture selection. Visible DUP_CLICK_CONTROL rows begin at Oct 08 07:12:40.360 and end at 07:12:12.224.

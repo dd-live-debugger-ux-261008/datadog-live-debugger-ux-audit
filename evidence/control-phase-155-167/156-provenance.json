@@ -1,0 +1,36 @@
+{
+  "id": "156",
+  "source_filename": "156-executable-line-recovery-after-invalid-controls.jpg",
+  "source_sha256": "a4f63add02ce601516558592a0f910063926d0bbd1dd289df02f318ce6635058",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "156-valid-line-17-recovery-capture-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/156-valid-line-17-recovery-capture-safe.png",
+  "safe_sha256": "f97f28b485de45844be8b8b75bddaffaebe201c855589b13b7d5c031b0a273f9",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "b36498bcd226101cfa0ed001c74cb425735c72d400d0c8d460a588afaf2ed4fc",
+  "safe_decoded_rgb_sha256": "b36498bcd226101cfa0ed001c74cb425735c72d400d0c8d460a588afaf2ed4fc",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The pricing.py line 17 logpoint shows EVENTS RECEIVED. The message is DUP_CLICK_CONTROL quantity=4 total=4320, with captured quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. A separate line-10 ERROR row remains visible.",
+  "visible_evidence_limits": [
+    "This is the valid executable-line capture state; the preceding invalid-control actions are not pictured.",
+    "The source pane also displays a separate comment-line control, so it must not be treated as the sole source location for the selected capture."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

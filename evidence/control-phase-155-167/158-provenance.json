@@ -1,0 +1,36 @@
+{
+  "id": "158",
+  "source_filename": "158-live-recent-events-before-pause.jpg",
+  "source_sha256": "8abbe1c0806cb2f6dab53224db333a9a10ec86a520f6f44f616d819ad2d2c501",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "158-selected-event-anchored-range-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/158-selected-event-anchored-range-safe.png",
+  "safe_sha256": "d0c8c6ca20bff0f6ff1f70405ea49de76bfc601c2b6d5c95ed849897e794e8e1",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "1b33d920a8f3b3347a55e3b09e9b8dc853ae2ad6d18ec216d53debdbedcf859e",
+  "safe_decoded_rgb_sha256": "1b33d920a8f3b3347a55e3b09e9b8dc853ae2ad6d18ec216d53debdbedcf859e",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "A DUP_CLICK_CONTROL event is selected and its quantity-four capture is open. The event range is fixed, labeled Oct 8, 6:07 am to Oct 8, 7:08\u2026, rather than Past 1 Hour. The top visible selected row reads Oct 08 07:07:18.700.",
+  "visible_evidence_limits": [
+    "Despite the original filename, this event-selected, anchored state is not a clean live-before-pause control.",
+    "Its range and selected capture cannot be used alone to establish a Pause regression."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

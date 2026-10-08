@@ -1,0 +1,157 @@
+{
+  "id": "163",
+  "source_filename": "163-blank-line-installation-result.jpg",
+  "source_sha256": "3935a534d53697994e82147a1235c4423ca2633303dad9529145ed78a72355ee",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "163-line-10-unsupported-decorator-hint-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/163-line-10-unsupported-decorator-hint-safe.png",
+  "safe_sha256": "82bad0699eece5939bc8500f94b7fee0ffde340b5bb743ee8e486ededdf4758c",
+  "safe_dimensions": [
+    1036,
+    582
+  ],
+  "crop_source_xyxy": [
+    144,
+    172,
+    1180,
+    754
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        193,
+        288,
+        394,
+        317
+      ],
+      "output_xyxy": [
+        49,
+        116,
+        250,
+        145
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity in detail-card header"
+    },
+    {
+      "source_xyxy": [
+        398,
+        376,
+        534,
+        395
+      ],
+      "output_xyxy": [
+        254,
+        204,
+        390,
+        223
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        394,
+        286,
+        414
+      ],
+      "output_xyxy": [
+        24,
+        222,
+        142,
+        242
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier second wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        412,
+        534,
+        431
+      ],
+      "output_xyxy": [
+        24,
+        240,
+        390,
+        259
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private source path first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        430,
+        283,
+        449
+      ],
+      "output_xyxy": [
+        24,
+        258,
+        139,
+        277
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private source path second wrapped line; public location card retained"
+    },
+    {
+      "source_xyxy": [
+        435,
+        663,
+        525,
+        690
+      ],
+      "output_xyxy": [
+        291,
+        491,
+        381,
+        518
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator profile identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "e8a5e9816be305eca82c283b1e9a3782d333e5076cf43f190bb25be866d5b525",
+  "safe_decoded_rgb_sha256": "81f120b99010bc35e69a7c91d98509f154cf6240d5b7453dcd7b582fb44145bd",
+  "verified_unchanged_pixels_outside_masks": 580961,
+  "source_unchanged": true,
+  "caption": "The detail card identifies pricing.py#10 and reports ERROR for 1/1 instances. Its diagnostic names NoFunctionsAtLine and says the function at line 10 is likely decorated with an unsupported decorator. The card also shows one targeting instance and No events captured. Private runtime identity, probe ID, source path, and creator identity are masked.",
+  "visible_evidence_limits": [
+    "The classification of line 10 as blank within a plain undecorated function comes from separate source controls; that function definition is not visible in this still.",
+    "This image preserves the diagnostic wording without assigning a new finding, severity, or root cause."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

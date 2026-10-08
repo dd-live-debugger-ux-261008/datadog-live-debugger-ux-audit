@@ -1,0 +1,1 @@
+The visible source tabs have counts 9 and 3, and the Events heading says “from 3 of 12 logpoints.” The retained capture remains NEVER_CONTROL value=707 with never_called_local=707; its synthetic correlation identifier is masked. This records the 12-logpoint result state.

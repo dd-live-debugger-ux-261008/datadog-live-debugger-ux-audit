@@ -1,0 +1,97 @@
+{
+  "id": "165",
+  "source_filename": "165-stale-child-save-reactivates-only-child.jpg",
+  "source_sha256": "8b27fde4dc32abfc7882ab3cf82bbec881afff707251218608a28ba2511b2e09",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "165-active-session-after-stale-child-save-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/165-active-session-after-stale-child-save-safe.png",
+  "safe_sha256": "bae4201745cabf339611509b98e23f51a3c1511a850ba27bb50ed8e35b46e251",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        807,
+        133,
+        925,
+        168
+      ],
+      "output_xyxy": [
+        647,
+        0,
+        765,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    },
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        86,
+        240,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "79c94ead1b063294b82835b0d58e56587d71477ed75da9cb3c9af1554a535524",
+  "safe_decoded_rgb_sha256": "6a1b50e243bb46f959bfa12d457197e2b7679f66ca02db5068584dbfe1f96e35",
+  "verified_unchanged_pixels_outside_masks": 569150,
+  "source_unchanged": true,
+  "caption": "The session now visibly shows ACTIVE (59 MINUTES LEFT), and the Events heading is filtered to 1 of 12 logpoints. Rows render SESSION_STOP_STALE messages for quantities 2, 3, and 4. The displayed qa_fixture.py lines 22 and 32 remain DISABLED.",
+  "visible_evidence_limits": [
+    "The child Apply action and the conclusion that only line 17 reactivated come from recorder inspection; not every child row is visible here.",
+    "This is a lifecycle observation, not a security-violation finding."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

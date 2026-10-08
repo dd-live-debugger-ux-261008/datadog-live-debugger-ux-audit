@@ -1,0 +1,57 @@
+{
+  "id": "155",
+  "source_filename": "155-double-click-submit-result.jpg",
+  "source_sha256": "30623d4fb2ef99c717c95044f160397a4f7b9b769e2a689ef3d4aa095e2b493f",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "155-submit-result-twelve-logpoints-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/155-submit-result-twelve-logpoints-safe.png",
+  "safe_sha256": "fa7cd6e6a57fc7762af56d0cde4f2396a06db8f858a1286c459b31fb25eb6e59",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        839,
+        542,
+        1005,
+        567
+      ],
+      "output_xyxy": [
+        679,
+        370,
+        845,
+        395
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "fdb680255cbe2d1c7c2eaec3c3329c1921ccab78efbd47edd0a67941755c184e",
+  "safe_decoded_rgb_sha256": "1763db5eaf806316439472ddd9334143fbfe121e6a0ecde310b86d8748f16d98",
+  "verified_unchanged_pixels_outside_masks": 544610,
+  "source_unchanged": true,
+  "caption": "The visible source tabs have counts 9 and 3, and the Events heading says \u201cfrom 3 of 12 logpoints.\u201d The retained capture remains NEVER_CONTROL value=707 with never_called_local=707; its synthetic correlation identifier is masked. This records the 12-logpoint result state.",
+  "visible_evidence_limits": [
+    "The previous count of 11 and the double-click/Enter actions come from recorder chronology, not this single image.",
+    "The still alone does not establish duplicate-submission behavior."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

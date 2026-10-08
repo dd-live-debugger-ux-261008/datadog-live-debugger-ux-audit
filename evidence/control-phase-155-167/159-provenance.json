@@ -1,0 +1,36 @@
+{
+  "id": "159",
+  "source_filename": "159-live-no-selection-before-pause.jpg",
+  "source_sha256": "d7e52b545a0eb75575bdcbdffb8c3befe5d60798780ac312e5c8f39c8a36798c",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "159-short-pause-control-live-before-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/159-short-pause-control-live-before-safe.png",
+  "safe_sha256": "405f53f850daba6d7ba9d55288cfb39e3a1bf10ca6b5293e48dfb07d72a252da",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "47b17742d9dc3dfb845513cf96972df389af9551b76b9a952d53a5e1475baa8b",
+  "safe_decoded_rgb_sha256": "47b17742d9dc3dfb845513cf96972df389af9551b76b9a952d53a5e1475baa8b",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The event pane has no open capture selection, shows Past 1 Hour, and the playback control\u2019s tooltip is Pause. The visible rows begin at Oct 08 07:09:55.278 and end at 07:09:28.933, with DUP_CLICK_CONTROL messages for quantities 2, 3, and 4.",
+  "visible_evidence_limits": [
+    "This is the visible live-before state for the short no-selection pause comparison.",
+    "The row times are displayed UI timestamps, not independently verified capture payload times."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

@@ -1,0 +1,1 @@
+The event pane has no open capture selection, shows Past 1 Hour, and the playback control’s tooltip is Pause. The visible rows begin at Oct 08 07:09:55.278 and end at 07:09:28.933, with DUP_CLICK_CONTROL messages for quantities 2, 3, and 4.

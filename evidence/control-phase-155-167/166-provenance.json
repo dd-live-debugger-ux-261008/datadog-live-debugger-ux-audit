@@ -1,0 +1,98 @@
+{
+  "id": "166",
+  "source_filename": "166-stale-child-save-fresh-capture.jpg",
+  "source_sha256": "bc63999dcb7009d2fea1f576632b176bf0f4ed3195688c7cbf89b9a50a3306a3",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "166-stale-child-save-line-17-capture-safe.png",
+  "public_relative_path": "evidence/control-phase-155-167/166-stale-child-save-line-17-capture-safe.png",
+  "safe_sha256": "4213cc72c967ccd1a69b357f53233dd92cdd9c9da976c60490e088e62af65203",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        807,
+        133,
+        925,
+        168
+      ],
+      "output_xyxy": [
+        647,
+        0,
+        765,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    },
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        86,
+        240,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b1d7c73130b0f641662d9003acd0d3162e50668c3ef62a80bd832eb1b6a96e6d",
+  "safe_decoded_rgb_sha256": "8aedf9dd47018ae0fa9e3393444a9b25a1af5bb210ae5e38d38cacaf1ff89217",
+  "verified_unchanged_pixels_outside_masks": 569150,
+  "source_unchanged": true,
+  "caption": "The active session shows a capture for line 17 with message SESSION_STOP_STALE quantity=3 total=3600. Values are quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. Displayed qa_fixture.py sibling rows remain DISABLED.",
+  "visible_evidence_limits": [
+    "The displayed line-17 capture supports the result of the stale-child-save sequence, but the action and full sibling-state check are separate observations.",
+    "The source pane currently shows the separate comment-line definition.",
+    "The quantity-three pricing discrepancy is the planted application bug; no new capture-corruption or security claim is made."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

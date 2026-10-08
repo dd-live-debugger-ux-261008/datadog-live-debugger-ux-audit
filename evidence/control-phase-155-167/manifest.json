@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "title": "Control phase: submission, valid-line recovery, pause controls, diagnostics, and final inventory",
+  "public_relative_directory": "evidence/control-phase-155-167/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "All rectangles are zero-based and half-open [left, top, right, bottom). Outputs use integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "f80d2ce06da04649e6370d709172163846f8ff4a3768ebdfa7eac9c644862a50",
+    "batch_definition_sha256": "e9433e456c0a21d5f70ac23a655cb0bb2a5ad09465487282d0e96c505eb8b6a9",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "155",
+      "source_filename": "155-double-click-submit-result.jpg",
+      "source_sha256": "30623d4fb2ef99c717c95044f160397a4f7b9b769e2a689ef3d4aa095e2b493f",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "155-submit-result-twelve-logpoints-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/155-submit-result-twelve-logpoints-safe.png",
+      "safe_sha256": "fa7cd6e6a57fc7762af56d0cde4f2396a06db8f858a1286c459b31fb25eb6e59",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            839,
+            542,
+            1005,
+            567
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            845,
+            395
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "fdb680255cbe2d1c7c2eaec3c3329c1921ccab78efbd47edd0a67941755c184e",
+      "safe_decoded_rgb_sha256": "1763db5eaf806316439472ddd9334143fbfe121e6a0ecde310b86d8748f16d98",
+      "verified_unchanged_pixels_outside_masks": 544610,
+      "source_unchanged": true,
+      "caption": "The visible source tabs have counts 9 and 3, and the Events heading says \u201cfrom 3 of 12 logpoints.\u201d The retained capture remains NEVER_CONTROL value=707 with never_called_local=707; its synthetic correlation identifier is masked. This records the 12-logpoint result state.",
+      "visible_evidence_limits": [
+        "The previous count of 11 and the double-click/Enter actions come from recorder chronology, not this single image.",
+        "The still alone does not establish duplicate-submission behavior."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "156",
+      "source_filename": "156-executable-line-recovery-after-invalid-controls.jpg",
+      "source_sha256": "a4f63add02ce601516558592a0f910063926d0bbd1dd289df02f318ce6635058",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "156-valid-line-17-recovery-capture-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/156-valid-line-17-recovery-capture-safe.png",
+      "safe_sha256": "f97f28b485de45844be8b8b75bddaffaebe201c855589b13b7d5c031b0a273f9",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "b36498bcd226101cfa0ed001c74cb425735c72d400d0c8d460a588afaf2ed4fc",
+      "safe_decoded_rgb_sha256": "b36498bcd226101cfa0ed001c74cb425735c72d400d0c8d460a588afaf2ed4fc",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The pricing.py line 17 logpoint shows EVENTS RECEIVED. The message is DUP_CLICK_CONTROL quantity=4 total=4320, with captured quantity=4, discount_cents=480, discount_eligible=True, subtotal_cents=4800, total_cents=4320, and unit_price_cents=1200. A separate line-10 ERROR row remains visible.",
+      "visible_evidence_limits": [
+        "This is the valid executable-line capture state; the preceding invalid-control actions are not pictured.",
+        "The source pane also displays a separate comment-line control, so it must not be treated as the sole source location for the selected capture."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "157",
+      "source_filename": "157-pause-switches-to-older-empty-range.jpg",
+      "source_sha256": "aef024d904c7f7ec49c5ee4cf1bab1fa58d4d8eb213aedfacc8605541ce97e84",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "157-unconfirmed-empty-historical-range-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/157-unconfirmed-empty-historical-range-safe.png",
+      "safe_sha256": "7a0e582f52c3d5759d5fb9f870b1b136177b6d38b4937922a70efd713eb84a34",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "68a67e61655579730c841ae639213c341b6a77982aadf8a2fc66d91b8c0ebbb3",
+      "safe_decoded_rgb_sha256": "68a67e61655579730c841ae639213c341b6a77982aadf8a2fc66d91b8c0ebbb3",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The event pane visibly shows an empty historical range, labeled Oct 8, 6:03 am to Oct 8, 7:04\u2026, with \u201cNo results found for the selected time range\u201d and a Go to the Latest Events button. The hover tooltip reads Step back. The line 17 logpoint still shows EVENTS RECEIVED.",
+      "visible_evidence_limits": [
+        "This is an unconfirmed navigation observation, not a confirmed Pause defect.",
+        "The still does not establish which preceding action caused the displayed range."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "158",
+      "source_filename": "158-live-recent-events-before-pause.jpg",
+      "source_sha256": "8abbe1c0806cb2f6dab53224db333a9a10ec86a520f6f44f616d819ad2d2c501",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "158-selected-event-anchored-range-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/158-selected-event-anchored-range-safe.png",
+      "safe_sha256": "d0c8c6ca20bff0f6ff1f70405ea49de76bfc601c2b6d5c95ed849897e794e8e1",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "1b33d920a8f3b3347a55e3b09e9b8dc853ae2ad6d18ec216d53debdbedcf859e",
+      "safe_decoded_rgb_sha256": "1b33d920a8f3b3347a55e3b09e9b8dc853ae2ad6d18ec216d53debdbedcf859e",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "A DUP_CLICK_CONTROL event is selected and its quantity-four capture is open. The event range is fixed, labeled Oct 8, 6:07 am to Oct 8, 7:08\u2026, rather than Past 1 Hour. The top visible selected row reads Oct 08 07:07:18.700.",
+      "visible_evidence_limits": [
+        "Despite the original filename, this event-selected, anchored state is not a clean live-before-pause control.",
+        "Its range and selected capture cannot be used alone to establish a Pause regression."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "159",
+      "source_filename": "159-live-no-selection-before-pause.jpg",
+      "source_sha256": "d7e52b545a0eb75575bdcbdffb8c3befe5d60798780ac312e5c8f39c8a36798c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "159-short-pause-control-live-before-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/159-short-pause-control-live-before-safe.png",
+      "safe_sha256": "405f53f850daba6d7ba9d55288cfb39e3a1bf10ca6b5293e48dfb07d72a252da",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "47b17742d9dc3dfb845513cf96972df389af9551b76b9a952d53a5e1475baa8b",
+      "safe_decoded_rgb_sha256": "47b17742d9dc3dfb845513cf96972df389af9551b76b9a952d53a5e1475baa8b",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The event pane has no open capture selection, shows Past 1 Hour, and the playback control\u2019s tooltip is Pause. The visible rows begin at Oct 08 07:09:55.278 and end at 07:09:28.933, with DUP_CLICK_CONTROL messages for quantities 2, 3, and 4.",
+      "visible_evidence_limits": [
+        "This is the visible live-before state for the short no-selection pause comparison.",
+        "The row times are displayed UI timestamps, not independently verified capture payload times."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "160",
+      "source_filename": "160-no-selection-pause-result.jpg",
+      "source_sha256": "f51e75da4e47dd46d2e1612a4cf5f02115ca24ededfd04b7ccd5bbd624f532e8",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "160-short-pause-control-retained-rows-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/160-short-pause-control-retained-rows-safe.png",
+      "safe_sha256": "aff35954f70e9e2a32644e0d233cce4cbc1b529a874f137baf9926a5f9520c4b",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "2ad7c5f0f30cbac50880e6b387188aa042e92d3a309991c11cc135e92aa4d3b7",
+      "safe_decoded_rgb_sha256": "2ad7c5f0f30cbac50880e6b387188aa042e92d3a309991c11cc135e92aa4d3b7",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The playback tooltip now reads Play, and the range is fixed at Oct 8, 6:09 am to Oct 8, 7:10\u2026. The same visible rows remain, beginning at 07:09:55.278 and ending at 07:09:28.933, as in screenshot 159. No capture detail is selected.",
+      "visible_evidence_limits": [
+        "Together with 159, this supports retention of the displayed rows during the short clean pause control.",
+        "It does not support a confirmed Pause defect or an exhaustive statement about all event history."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "161",
+      "source_filename": "161-clean-live-latest-before-pause.jpg",
+      "source_sha256": "98236f583967bfc7dc58a92c4706cde44c299cda55d87092ceecfb5a56c0efad",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "161-long-pause-control-live-before-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/161-long-pause-control-live-before-safe.png",
+      "safe_sha256": "7ad79d6df2073ddacd55606730a149ba005dc782ffbab4e14677ccbd47fa631e",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "bb3229a7565decb0b5898aad6bee4fafbd626531594b43d5d13a2262966827a4",
+      "safe_decoded_rgb_sha256": "bb3229a7565decb0b5898aad6bee4fafbd626531594b43d5d13a2262966827a4",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The event pane shows Past 1 Hour with a Pause tooltip and no open capture selection. Visible DUP_CLICK_CONTROL rows begin at Oct 08 07:12:40.360 and end at 07:12:12.224.",
+      "visible_evidence_limits": [
+        "This is the clean live-before state for the longer no-selection pause comparison.",
+        "The elapsed observation duration is recorder chronology, not established by the still alone."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "162",
+      "source_filename": "162-clean-pause-retains-recent-events.jpg",
+      "source_sha256": "b3dba98d077ce4180e7fe7015884b9d2da4cbc6a7bdd0fc8ba1e523b19c91718",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "162-long-pause-control-retained-rows-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/162-long-pause-control-retained-rows-safe.png",
+      "safe_sha256": "fde2959de74c243f4536569f68ed3c0c34e27fb90b187caeebc1f10539afb9b1",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "2718bab932307547b615aeea755cb4fc774191729c9d7a304e39de233290fd08",
+      "safe_decoded_rgb_sha256": "2718bab932307547b615aeea755cb4fc774191729c9d7a304e39de233290fd08",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The playback tooltip reads Play, and the range is fixed at Oct 8, 6:11 am to Oct 8, 7:12\u2026. The visible rows match screenshot 161, including top 07:12:40.360 and bottom 07:12:12.224, with no open capture selection.",
+      "visible_evidence_limits": [
+        "This longer clean pause control preserves the displayed rows and does not establish a Pause defect.",
+        "The screenshot does not by itself prove the full duration or every unseen row."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "163",
+      "source_filename": "163-blank-line-installation-result.jpg",
+      "source_sha256": "3935a534d53697994e82147a1235c4423ca2633303dad9529145ed78a72355ee",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "163-line-10-unsupported-decorator-hint-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/163-line-10-unsupported-decorator-hint-safe.png",
+      "safe_sha256": "82bad0699eece5939bc8500f94b7fee0ffde340b5bb743ee8e486ededdf4758c",
+      "safe_dimensions": [
+        1036,
+        582
+      ],
+      "crop_source_xyxy": [
+        144,
+        172,
+        1180,
+        754
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            193,
+            288,
+            394,
+            317
+          ],
+          "output_xyxy": [
+            49,
+            116,
+            250,
+            145
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity in detail-card header"
+        },
+        {
+          "source_xyxy": [
+            398,
+            376,
+            534,
+            395
+          ],
+          "output_xyxy": [
+            254,
+            204,
+            390,
+            223
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            168,
+            394,
+            286,
+            414
+          ],
+          "output_xyxy": [
+            24,
+            222,
+            142,
+            242
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "probe identifier second wrapped line"
+        },
+        {
+          "source_xyxy": [
+            168,
+            412,
+            534,
+            431
+          ],
+          "output_xyxy": [
+            24,
+            240,
+            390,
+            259
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private source path first wrapped line"
+        },
+        {
+          "source_xyxy": [
+            168,
+            430,
+            283,
+            449
+          ],
+          "output_xyxy": [
+            24,
+            258,
+            139,
+            277
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private source path second wrapped line; public location card retained"
+        },
+        {
+          "source_xyxy": [
+            435,
+            663,
+            525,
+            690
+          ],
+          "output_xyxy": [
+            291,
+            491,
+            381,
+            518
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator profile identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "e8a5e9816be305eca82c283b1e9a3782d333e5076cf43f190bb25be866d5b525",
+      "safe_decoded_rgb_sha256": "81f120b99010bc35e69a7c91d98509f154cf6240d5b7453dcd7b582fb44145bd",
+      "verified_unchanged_pixels_outside_masks": 580961,
+      "source_unchanged": true,
+      "caption": "The detail card identifies pricing.py#10 and reports ERROR for 1/1 instances. Its diagnostic names NoFunctionsAtLine and says the function at line 10 is likely decorated with an unsupported decorator. The card also shows one targeting instance and No events captured. Private runtime identity, probe ID, source path, and creator identity are masked.",
+      "visible_evidence_limits": [
+        "The classification of line 10 as blank within a plain undecorated function comes from separate source controls; that function definition is not visible in this still.",
+        "This image preserves the diagnostic wording without assigning a new finding, severity, or root cause."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "164",
+      "source_filename": "164-stale-child-edit-after-parent-stop.jpg",
+      "source_sha256": "c9801607d389b155d69a1ea2c44d3b4606fa0ceccca1cf551afff847508affdf",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "164-inactive-parent-stale-child-editor-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/164-inactive-parent-stale-child-editor-safe.png",
+      "safe_sha256": "f9c975d78428628ddc80898bb99c8d4caee3c7f4b5411c5d84522d225163cb1e",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "628de3884c4f3a8176d227c27b72fe3ab3a018c61221cc21a6486470a57036e2",
+      "safe_decoded_rgb_sha256": "6b41f6b27ed33ba0cf8a110bca3028043974a86427c9063b158bf10b63a2aab5",
+      "verified_unchanged_pixels_outside_masks": 575555,
+      "source_unchanged": true,
+      "caption": "The parent session visibly shows INACTIVE, and the displayed pricing.py lines 10 and 17 are DISABLED. The editor contains SESSION_STOP_STALE quantity={quantity} total={total_cents} with all-variable capture up to 3 levels. Earlier DUP_CLICK_CONTROL rows remain visible.",
+      "visible_evidence_limits": [
+        "The parent-stop and stale-draft chronology are separate recorder observations.",
+        "The lower editor buttons are clipped.",
+        "This displayed state alone does not establish user intent or a security violation."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "165",
+      "source_filename": "165-stale-child-save-reactivates-only-child.jpg",
+      "source_sha256": "8b27fde4dc32abfc7882ab3cf82bbec881afff707251218608a28ba2511b2e09",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "165-active-session-after-stale-child-save-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/165-active-session-after-stale-child-save-safe.png",
+      "safe_sha256": "bae4201745cabf339611509b98e23f51a3c1511a850ba27bb50ed8e35b46e251",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "79c94ead1b063294b82835b0d58e56587d71477ed75da9cb3c9af1554a535524",
+      "safe_decoded_rgb_sha256": "6a1b50e243bb46f959bfa12d457197e2b7679f66ca02db5068584dbfe1f96e35",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The session now visibly shows ACTIVE (59 MINUTES LEFT), and the Events heading is filtered to 1 of 12 logpoints. Rows render SESSION_STOP_STALE messages for quantities 2, 3, and 4. The displayed qa_fixture.py lines 22 and 32 remain DISABLED.",
+      "visible_evidence_limits": [
+        "The child Apply action and the conclusion that only line 17 reactivated come from recorder inspection; not every child row is visible here.",
+        "This is a lifecycle observation, not a security-violation finding."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "166",
+      "source_filename": "166-stale-child-save-fresh-capture.jpg",
+      "source_sha256": "bc63999dcb7009d2fea1f576632b176bf0f4ed3195688c7cbf89b9a50a3306a3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "166-stale-child-save-line-17-capture-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/166-stale-child-save-line-17-capture-safe.png",
+      "safe_sha256": "4213cc72c967ccd1a69b357f53233dd92cdd9c9da976c60490e088e62af65203",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b1d7c73130b0f641662d9003acd0d3162e50668c3ef62a80bd832eb1b6a96e6d",
+      "safe_decoded_rgb_sha256": "8aedf9dd47018ae0fa9e3393444a9b25a1af5bb210ae5e38d38cacaf1ff89217",
+      "verified_unchanged_pixels_outside_masks": 569150,
+      "source_unchanged": true,
+      "caption": "The active session shows a capture for line 17 with message SESSION_STOP_STALE quantity=3 total=3600. Values are quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. Displayed qa_fixture.py sibling rows remain DISABLED.",
+      "visible_evidence_limits": [
+        "The displayed line-17 capture supports the result of the stale-child-save sequence, but the action and full sibling-state check are separate observations.",
+        "The source pane currently shows the separate comment-line definition.",
+        "The quantity-three pricing discrepancy is the planted application bug; no new capture-corruption or security claim is made."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "167",
+      "source_filename": "167-final-unfiltered-session-inventory.jpg",
+      "source_sha256": "55ba538d0f63b2e280cd6ac06dd996e6ad036da731386e78b042161cc7e3960d",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "167-final-unfiltered-session-inventory-safe.png",
+      "public_relative_path": "evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png",
+      "safe_sha256": "00c0d9df8dba024d4726c6a5aff792c8acb6cf815525b1680fb98eea78519106",
+      "safe_dimensions": [
+        992,
+        607
+      ],
+      "crop_source_xyxy": [
+        158,
+        126,
+        1150,
+        733
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            185,
+            385,
+            562,
+            445
+          ],
+          "output_xyxy": [
+            27,
+            259,
+            404,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "first card session, runtime, creator, and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            185,
+            475,
+            562,
+            535
+          ],
+          "output_xyxy": [
+            27,
+            349,
+            404,
+            409
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "second card session, runtime, creator, and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            185,
+            566,
+            562,
+            625
+          ],
+          "output_xyxy": [
+            27,
+            440,
+            404,
+            499
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "third card session, runtime, creator, and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            185,
+            656,
+            562,
+            716
+          ],
+          "output_xyxy": [
+            27,
+            530,
+            404,
+            590
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "fourth card session, runtime, creator, and avatar identities"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "6b381292dc291a89d4861ed312b2e01ed811c4203e374182becca5977ce17bbc",
+      "safe_decoded_rgb_sha256": "7718c2fd5303a0ac70f84d544403e0236fd13af2138a62eef9190bf3640bd9b1",
+      "verified_unchanged_pixels_outside_masks": 512041,
+      "source_unchanged": true,
+      "caption": "The final Sessions List has My sessions off, Services and Environments set to All, Created set to All time, and no search text. It visibly shows All 4, Active 0, and Inactive 4, with four session cards each marked INACTIVE. Session titles, runtime/service names, creator identities, and avatars are masked.",
+      "visible_evidence_limits": [
+        "These are the unfiltered counts in the displayed Sessions List at this observation.",
+        "The screenshot does not establish shutdown of runtime processes, agents, or other external resources."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "155-caption.txt",
+    "155-provenance.json",
+    "155-submit-result-twelve-logpoints-safe.png",
+    "156-caption.txt",
+    "156-provenance.json",
+    "156-valid-line-17-recovery-capture-safe.png",
+    "157-caption.txt",
+    "157-provenance.json",
+    "157-unconfirmed-empty-historical-range-safe.png",
+    "158-caption.txt",
+    "158-provenance.json",
+    "158-selected-event-anchored-range-safe.png",
+    "159-caption.txt",
+    "159-provenance.json",
+    "159-short-pause-control-live-before-safe.png",
+    "160-caption.txt",
+    "160-provenance.json",
+    "160-short-pause-control-retained-rows-safe.png",
+    "161-caption.txt",
+    "161-long-pause-control-live-before-safe.png",
+    "161-provenance.json",
+    "162-caption.txt",
+    "162-long-pause-control-retained-rows-safe.png",
+    "162-provenance.json",
+    "163-caption.txt",
+    "163-line-10-unsupported-decorator-hint-safe.png",
+    "163-provenance.json",
+    "164-caption.txt",
+    "164-inactive-parent-stale-child-editor-safe.png",
+    "164-provenance.json",
+    "165-active-session-after-stale-child-save-safe.png",
+    "165-caption.txt",
+    "165-provenance.json",
+    "166-caption.txt",
+    "166-provenance.json",
+    "166-stale-child-save-line-17-capture-safe.png",
+    "167-caption.txt",
+    "167-final-unfiltered-session-inventory-safe.png",
+    "167-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ]
+}

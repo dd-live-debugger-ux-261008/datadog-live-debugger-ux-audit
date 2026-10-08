@@ -1,0 +1,1 @@
+The parent session visibly shows INACTIVE, and the displayed pricing.py lines 10 and 17 are DISABLED. The editor contains SESSION_STOP_STALE quantity={quantity} total={total_cents} with all-variable capture up to 3 levels. Earlier DUP_CLICK_CONTROL rows remain visible.

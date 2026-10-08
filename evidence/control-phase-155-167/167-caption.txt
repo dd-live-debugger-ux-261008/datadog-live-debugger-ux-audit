@@ -1,0 +1,1 @@
+The final Sessions List has My sessions off, Services and Environments set to All, Created set to All time, and no search text. It visibly shows All 4, Active 0, and Inactive 4, with four session cards each marked INACTIVE. Session titles, runtime/service names, creator identities, and avatars are masked.
