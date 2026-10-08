@@ -1,0 +1,1 @@
+The grouped source-control session is INACTIVE after reload. The visible pricing.py logpoint is DISABLED; the source tab and Events heading both show nine logpoints. A retained SOURCE_C1 capture shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200.

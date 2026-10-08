@@ -1,0 +1,1 @@
+The received-tag list reports 16 tags. In the visible alphabetical sequence, entrypoint.workdir is immediately followed by host tags, with no git.commit.sha or git.repository_url entry between them. Runtime directory and host values are masked.

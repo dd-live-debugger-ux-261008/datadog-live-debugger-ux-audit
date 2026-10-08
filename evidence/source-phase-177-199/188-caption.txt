@@ -1,0 +1,1 @@
+Expanded received tags show git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453. The preserved original repository tag is the SCP-like SSH form git@github.com: followed by a private owner/repository and .git suffix; the private URL value is masked.

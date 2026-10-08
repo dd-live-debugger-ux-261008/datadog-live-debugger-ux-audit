@@ -1,0 +1,2567 @@
+{
+  "schema_version": 1,
+  "title": "Source metadata controls, held-C1 branch advance, isolated B control, and stopped-session verification",
+  "public_relative_directory": "evidence/source-phase-177-199/",
+  "source_still_ids": [
+    "177",
+    "178",
+    "179",
+    "180",
+    "181",
+    "182",
+    "183",
+    "184",
+    "185",
+    "186",
+    "187",
+    "188",
+    "189",
+    "190",
+    "191",
+    "192",
+    "193",
+    "194",
+    "195",
+    "196",
+    "197",
+    "198",
+    "199",
+    "201",
+    "202",
+    "203",
+    "204",
+    "205"
+  ],
+  "evidence_medium": "Direct screenshots only; no continuous foreground-video claim.",
+  "geometry_convention": "All rectangles are zero-based half-open [left, top, right, bottom). Integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "UI event-list times are retained as displayed and not substituted for verified snapshot execution times. No payload timestamp field is visible in this pack.",
+  "control_scope": "These source controls establish observations and negative controls; no newly confirmed product finding is claimed.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "0dc2cedb8bdb90a182275d7e94fe4d38d9ce90edfc2b5fabef10f8791fc3149a",
+    "batch_definition_sha256": "18731ba22048e79376182346a57bf09033b76d8ae42b3a224fd4c9bf8c68584c",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "177",
+      "source_filename": "177-c1-event-exact-source-revision.jpg",
+      "source_sha256": "3fb55bf5f8773e9ef8014c25d2d371c6251ab9da149657445c7e2e5b7f87fe31",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "177-canonical-c1-source-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/177-canonical-c1-source-safe.png",
+      "safe_sha256": "411b6d08e1a15909f5045c5171d9fe3f0dcb89f4fe3569da1cf0aa60159a144a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "e305cb264b527d0d73d5277e23e92223e0f5fe3914cc637e95cbe0ef4dda5341",
+      "safe_decoded_rgb_sha256": "68b3f1abd78b0faab5c13a607f992b773a8f1bb4502aa86666c2c2edaf836a09",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The canonical-URL C1 control displays the pricing.py line-17 stack frame and rendered source. The selected source message is SOURCE_C1.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The exact linked revision C1 (9fd3f277) was separately inspected; the hyperlink destination is not visible in this image."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "178",
+      "source_filename": "178-later-a-httpsgit-capture-source.jpg",
+      "source_sha256": "abf9ca943fce12023275d7a7d5d6d310ff97625a4abccc408dbca6b03cd10590",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "178-https-dotgit-source-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/178-https-dotgit-source-safe.png",
+      "safe_sha256": "c1ad9e17520065d7c6742026f7cfda2ed5f887492470a837a115d0b0d78876ce",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b92fd87287aa2450bd38ffd186c939cb33e4b2f43c7df9ea33d0062bdaf7d98f",
+      "safe_decoded_rgb_sha256": "63b6381ff5e417b074b29f1330b23ff32af83715be6772382e40410a60b9201c",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The HTTPS URL with a .git suffix control displays rendered pricing.py source at line 17 with message SOURCE_A_HTTPS_GIT.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "URL syntax is corroborated by the received-tags still 179. The linked C1 revision is not printed in this source pane."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "179",
+      "source_filename": "179-httpsgit-received-tags.jpg",
+      "source_sha256": "de4db539a574c6f50c83882303ee20bd75dbe9ff62d697f446798782a244c3a3",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "179-https-dotgit-received-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/179-https-dotgit-received-tags-safe.png",
+      "safe_sha256": "e6af15ad2570cb94dd0b3954f5cfe35dd97ca3a56e7b47b3349e23ccc62e1d28",
+      "safe_dimensions": [
+        563,
+        377
+      ],
+      "crop_source_xyxy": [
+        557,
+        306,
+        1120,
+        683
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            566,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            9,
+            212,
+            548,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            566,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            9,
+            295,
+            548,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            661,
+            652,
+            1105,
+            682
+          ],
+          "output_xyxy": [
+            104,
+            346,
+            548,
+            376
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "072677c0087ce4f19f83fcc0c1b7b7a59e0e68e139deb63772cbcd2392a5f690",
+      "safe_decoded_rgb_sha256": "f3869c6e65b4b026f5f71f3d90dfd4ab32a7e7b351fe8a1f05e160a939733841",
+      "verified_unchanged_pixels_outside_masks": 173598,
+      "source_unchanged": true,
+      "caption": "Expanded received tags show git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453. The preserved original repository tag uses an HTTPS GitHub URL ending in .git; its private owner and repository value are masked.",
+      "visible_evidence_limits": [
+        "The exact URL form was read from the original screenshot; the masked output does not expose the private repository slug.",
+        "This is a received-tag observation, not proof by itself that source was fetched from that revision."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "180",
+      "source_filename": "180-nonexistent-sha-manual-source-unavailable.jpg",
+      "source_sha256": "53322c1003441dea2f1d0429a2ae47947301118ddf039162f1c66ef7e322c6f3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "180-manual-line-source-unavailable-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/180-manual-line-source-unavailable-safe.png",
+      "safe_sha256": "2c39e7aef24e91b8acbb3561a294ef163b87283026a863134bdbb03e568c9265",
+      "safe_dimensions": [
+        1062,
+        692
+      ],
+      "crop_source_xyxy": [
+        59,
+        49,
+        1121,
+        741
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            78,
+            144,
+            495,
+            177
+          ],
+          "output_xyxy": [
+            19,
+            95,
+            436,
+            128
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "81555ae36877fa61b58af315861b4bac19966df1a4ac8a00ab1f0037d1f2736c",
+      "safe_decoded_rgb_sha256": "828ff2da87eac9985ec4fab775bb1f79e2245686e9acc858427ce61195c2387a",
+      "verified_unchanged_pixels_outside_masks": 721143,
+      "source_unchanged": true,
+      "caption": "The Add a logpoint dialog is configured for pricing.py line 17 with SOURCE_NONEXISTENT_SHA and all-variable capture up to three levels. The dialog shows \u201cWhy am I not seeing my code?\u201d",
+      "visible_evidence_limits": [
+        "The apparent blurred source placeholder is part of the original application UI; no blur was applied during sanitization.",
+        "This still records preparation state, not a successful submission or source-resolution outcome."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "181",
+      "source_filename": "181-missing-metadata-default-branch-fallback.jpg",
+      "source_sha256": "c84a5d0d81343bd328ec434783d91b1bc4906c2658c2bb5acd3aa3aedacc8293",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "181-missing-metadata-fallback-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/181-missing-metadata-fallback-safe.png",
+      "safe_sha256": "6230a573a0296e8ef0d5d2de6584606f46fdec4e1b9db1f87e57ebc887ecee81",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            698,
+            517,
+            1121,
+            549
+          ],
+          "output_xyxy": [
+            538,
+            345,
+            961,
+            377
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository selector"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4d7abc928143dc74f0a866e6bd09d29d230d59e9736e0d6046589922397ed437",
+      "safe_decoded_rgb_sha256": "9caeffbf914b168fbfa4e233f0f537136d0b20147927020b6a7d245d4007073a",
+      "verified_unchanged_pixels_outside_masks": 508296,
+      "source_unchanged": true,
+      "caption": "For SOURCE_MISSING_META, the stack panel explicitly says Datadog used the latest commit of the default branch to associate telemetry and source code. A pricing.py line-17 frame is present.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The repository selector is masked. The separately inspected fallback link was revision 71243517; the hash is not visible in this still."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "182",
+      "source_filename": "182-missing-sha-default-branch-fallback.jpg",
+      "source_sha256": "e2709698879e7e90959b1557ead986ea7b58184d291feb245d4b324e77b31de3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "182-missing-sha-fallback-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/182-missing-sha-fallback-safe.png",
+      "safe_sha256": "895ab04c2e7ec689b17f2727c5a2ec5796f35f6cc0775947cf0ea97166c0cc8b",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "71b546cef6b04cecde05185a79593d6db2ef9fd285f27b0c6d566fc36d1df782",
+      "safe_decoded_rgb_sha256": "78562f14a9ee09b0a6ad342b9c385fe7fdc3e4db2dbdfbff532b5af788a3d0ee",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "For SOURCE_MISSING_SHA, the stack panel displays \u201cUsing latest commit\u201d and explicitly says it used the repository default branch. A pricing.py line-17 frame and source are present.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The separately inspected fallback link was revision 71243517; the hash is not visible in this still."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "183",
+      "source_filename": "183-invalid-sha-source-result.jpg",
+      "source_sha256": "8c79f131fe682cb2eb89a3f02d5519c6a7c3c376c7256d41eb061a67f971dc3a",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "183-invalid-sha-diagnostic-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/183-invalid-sha-diagnostic-safe.png",
+      "safe_sha256": "43b0e30807ab7a40e35040451f79e5ebb281632c6a26400e5cdf9a5040910ff3",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ceb7823d1d326c4a1c577f545b304e5d598ba4c4811c62e5e1d138a9ef10f288",
+      "safe_decoded_rgb_sha256": "b4a71526d0b380bc6d896b86d7ef517bec004cb40ebda105485f3caab0ad67a4",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "SOURCE_INVALID_SHA displays a missing-link diagnostic: the tagged commit is invalid and must be a full-length SHA of 40 hexadecimal characters. The tagged value synthetic-invalid-sha is shown. Captured quantity=3 remains visible.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "This control uses a malformed non-SHA string. It is distinct from the syntactically valid 40-one nonexistent-SHA control.",
+        "The generic upper file-not-found banner is preserved separately from the specific stack-panel diagnostic."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "184",
+      "source_filename": "184-nonexistent-sha-source-result.jpg",
+      "source_sha256": "a0d12cfb50b0039bf2ba98cc16d474f4353e5a63dc679694dd60ddd8c81d1f1d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "184-nonexistent-sha-missing-link-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/184-nonexistent-sha-missing-link-safe.png",
+      "safe_sha256": "89faa997a6bb3503d02b43a4db54bc6b4f38afb9de3f4d2d3f8c97a8ca1397d8",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f9a8359ed6530f63fcf402152b1ac9ac48e25594d94393ea0ed08695c5a8225a",
+      "safe_decoded_rgb_sha256": "b103efa767b35b20c78c4519aa86645832bcb0284388e7d4c0aa4c2fb0a1b746",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "SOURCE_NONEXISTENT_SHA shows a generic \u201cMissing link to repository\u201d message and a pricing.py line-17 frame without rendered source. Captured quantity=3 and discount_cents=0 remain visible.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The 40-one received tag is shown in still 192. The generic message does not identify a particular root cause."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "185",
+      "source_filename": "185-ungranted-b-valid-b-sha-source-result.jpg",
+      "source_sha256": "4acc29d36abf345a5c29cbde24338c91f01475862b7af52a335f9855a655885c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "185-b-own-revision-missing-link-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/185-b-own-revision-missing-link-safe.png",
+      "safe_sha256": "3add5d79a231f032a20ce1b25a4daba655d34ba51f91df11070053cf883bb346",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5e46cbe5c2b272b7b320974268a74a57789e58e6767a17093f4d6f921de186cc",
+      "safe_decoded_rgb_sha256": "223698a5c8f358021d18f6994ca467b6f65ae06474fb441d714ddcfb6a823e4b",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The B-repository/own-revision control SOURCE_B_BSHA shows a generic \u201cMissing link to repository\u201d message. Captured quantity=3 and discount_cents=0 remain visible.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "Repository identity, access scope, and received revision were checked separately. This still does not by itself establish permission denial as the root cause."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "186",
+      "source_filename": "186-ungranted-b-crosspair-source-result.jpg",
+      "source_sha256": "19b21d3950a5eb49438b9ded2215e7756e7b79422a70dff863b91dd1be235c0c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "186-b-crosspair-missing-link-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/186-b-crosspair-missing-link-safe.png",
+      "safe_sha256": "b4973e9d8026f30c6d8090e1f51ab6634f7a58524ead3ad7b05c95a29c023f46",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "237100903c11702d8c730d8c44c354b2a96f1dab96f8769d2c77fd98775ba69e",
+      "safe_decoded_rgb_sha256": "8c9611fbf7faaea308a0996c57a941e5b266532bb26030591563a19edcd7b352",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The B-repository/A-revision cross-pair control SOURCE_B_ASHA shows a generic \u201cMissing link to repository\u201d message in its selected stack frame. Captured quantity=3 and discount_cents=0 remain visible.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The upper editor retains rendered source while the selected stack frame has no source. Do not conflate the editor with event-specific source resolution.",
+        "The generic banner does not identify a particular root cause."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "187",
+      "source_filename": "187-ssh-url-source-normalization.jpg",
+      "source_sha256": "b809236b688a4e7969314604c772cded1e56c521f9431bad0da825584a224a81",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "187-ssh-source-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/187-ssh-source-safe.png",
+      "safe_sha256": "fa0df9db4bb7cd0e5fca036d810a6987a9ff6fe3d34d2b6261a0da07620995ed",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "52e92059a011505bb6fd558b6102c1adcee043298d9a5777ab6d65c77ad1143f",
+      "safe_decoded_rgb_sha256": "f7afb3ee611eb6a9d20e0145eaf1fa6e2ede51fd6b5379fc09bf6137562bdbda",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The SSH-form repository control SOURCE_A_SSH displays rendered pricing.py source in the selected line-17 stack frame. The function definition and intended discount rule are visible.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The SSH repository tag is shown in still 188. The exact linked revision C1 (9fd3f277) was separately inspected."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "188",
+      "source_filename": "188-ssh-received-tags.jpg",
+      "source_sha256": "6b389e34480d6e84fceec0339619475bd6c80e44ddee8a6c6a21fc5fb051c4a3",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "188-ssh-received-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/188-ssh-received-tags-safe.png",
+      "safe_sha256": "5f79c5b74ba141c55948a9f1f63cb967ecb04b2975d27e6aaf64aeb3bb526960",
+      "safe_dimensions": [
+        546,
+        377
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        683
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            582,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            8,
+            212,
+            531,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            582,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            8,
+            295,
+            531,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            686,
+            652,
+            1105,
+            683
+          ],
+          "output_xyxy": [
+            112,
+            346,
+            531,
+            377
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "19a922558455a19309eec747abaec9c8c90252e26b2f67c6de815f4be1fe1273",
+      "safe_decoded_rgb_sha256": "65031af10663acc02fe0c08e1c19eed903e143375801de96c7153b63dc484e13",
+      "verified_unchanged_pixels_outside_masks": 168272,
+      "source_unchanged": true,
+      "caption": "Expanded received tags show git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453. The preserved original repository tag is the SCP-like SSH form git@github.com: followed by a private owner/repository and .git suffix; the private URL value is masked.",
+      "visible_evidence_limits": [
+        "Received metadata only; resolving source and repository-access scope require separate controls.",
+        "Private repository URL and runtime directory values are masked."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "189",
+      "source_filename": "189-missing-metadata-received-tags.jpg",
+      "source_sha256": "03a763ceadcffc956f9843fc23305e1b7e21284ed269b5de2989ed538df505fe",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "189-missing-metadata-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/189-missing-metadata-tags-safe.png",
+      "safe_sha256": "283e8bf82c6b2421c1b547de5c4666f02e6c08188ab2568b2e51fbcf9b9e91d5",
+      "safe_dimensions": [
+        346,
+        430
+      ],
+      "crop_source_xyxy": [
+        774,
+        306,
+        1120,
+        736
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            879,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            105,
+            212,
+            331,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory value"
+        },
+        {
+          "source_xyxy": [
+            892,
+            601,
+            1105,
+            623
+          ],
+          "output_xyxy": [
+            118,
+            295,
+            331,
+            317
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory value"
+        },
+        {
+          "source_xyxy": [
+            813,
+            629,
+            1105,
+            650
+          ],
+          "output_xyxy": [
+            39,
+            323,
+            331,
+            344
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "host identity"
+        },
+        {
+          "source_xyxy": [
+            813,
+            656,
+            1105,
+            679
+          ],
+          "output_xyxy": [
+            39,
+            350,
+            331,
+            373
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "host identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "685134aecfe50cf1413acf07c58932f920710b956db094d0b7668ce2d9bee6cb",
+      "safe_decoded_rgb_sha256": "276e3c2348809808f3b52affc4a4a70f80f6567931ff6d7f6b82c70bfb239d54",
+      "verified_unchanged_pixels_outside_masks": 126048,
+      "source_unchanged": true,
+      "caption": "The received-tag list reports 16 tags. In the visible alphabetical sequence, entrypoint.workdir is immediately followed by host tags, with no git.commit.sha or git.repository_url entry between them. Runtime directory and host values are masked.",
+      "visible_evidence_limits": [
+        "This visible tag-list portion supports the missing-Git-metadata control. The full list extends below the crop."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "190",
+      "source_filename": "190-missing-sha-received-tags.jpg",
+      "source_sha256": "c33356118786acb06b7c280104b123fc9c3e4e59f43aec59689dc6e1eafca991",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "190-missing-sha-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/190-missing-sha-tags-safe.png",
+      "safe_sha256": "d92be4a82e899f1d66e3c9e4710b7dfaee98be530882f0ebbf64d80a3c800136",
+      "safe_dimensions": [
+        546,
+        353
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        659
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            582,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            8,
+            212,
+            531,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            582,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            8,
+            295,
+            531,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            687,
+            627,
+            1105,
+            659
+          ],
+          "output_xyxy": [
+            113,
+            321,
+            531,
+            353
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9849475d480d06eb038f64310b186e24dddb00522c273ea563bfbc51567734ec",
+      "safe_decoded_rgb_sha256": "6cdc023281f5d4b77260d5742effee7b3375782a63d340f69a45814e58bc2ee9",
+      "verified_unchanged_pixels_outside_masks": 154781,
+      "source_unchanged": true,
+      "caption": "The received-tag list reports 17 tags. The visible alphabetical sequence contains git.repository_url immediately after entrypoint.workdir, with no git.commit.sha entry. The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.",
+      "visible_evidence_limits": [
+        "The URL-form statement is read from the original screenshot. The full tag list extends below the crop."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "191",
+      "source_filename": "191-invalid-sha-received-tags.jpg",
+      "source_sha256": "5e0d3d866e1cd1d9e4629683a958d08fd4a588d4780d87f7f672863b33a1bc80",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "191-invalid-sha-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/191-invalid-sha-tags-safe.png",
+      "safe_sha256": "5576f6b1dfc210d78abd1712fe7c416168fdf7281a25e05e22caf7acf1e628dc",
+      "safe_dimensions": [
+        546,
+        377
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        683
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            582,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            8,
+            212,
+            531,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            582,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            8,
+            295,
+            531,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            686,
+            652,
+            1105,
+            683
+          ],
+          "output_xyxy": [
+            112,
+            346,
+            531,
+            377
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "02b2a8a8014f4fb93bee15645d58c24f8f86d328e89f84199f7dfe35a09cf35b",
+      "safe_decoded_rgb_sha256": "df0181e61482b6f7144750674d30880f8d2218cd4177167d2a4c978e715a18fe",
+      "verified_unchanged_pixels_outside_masks": 168272,
+      "source_unchanged": true,
+      "caption": "Expanded received tags explicitly show git.commit.sha:synthetic-invalid-sha. The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.",
+      "visible_evidence_limits": [
+        "Received metadata only; resolving source and repository-access scope require separate controls.",
+        "Private repository URL and runtime directory values are masked."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "192",
+      "source_filename": "192-nonexistent-sha-received-tags.jpg",
+      "source_sha256": "4a0b5d55185f77399ab3203b0f20fda5613933c43029b0f14674e3c1c6d48c83",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "192-nonexistent-sha-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/192-nonexistent-sha-tags-safe.png",
+      "safe_sha256": "039910c230daad828c05f2b4e8f6fed2790a341088b714b948fc7258cd7d91d3",
+      "safe_dimensions": [
+        546,
+        377
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        683
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            582,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            8,
+            212,
+            531,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            582,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            8,
+            295,
+            531,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            686,
+            652,
+            1105,
+            683
+          ],
+          "output_xyxy": [
+            112,
+            346,
+            531,
+            377
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a38b2e8a98bc3f5591eae4444babf836e8db1249ba1545c13be1feceb7b7328b",
+      "safe_decoded_rgb_sha256": "4df5456a1e6c2ec3968721f7aa8b4d8ac89e65101f9f113b2b02f4b4b8b10938",
+      "verified_unchanged_pixels_outside_masks": 168272,
+      "source_unchanged": true,
+      "caption": "Expanded received tags show git.commit.sha set to 1111111111111111111111111111111111111111, a syntactically 40-character hexadecimal string used as the nonexistent-revision control. The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.",
+      "visible_evidence_limits": [
+        "Received metadata only; resolving source and repository-access scope require separate controls.",
+        "Private repository URL and runtime directory values are masked."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "193",
+      "source_filename": "193-b-valid-commit-received-tags.jpg",
+      "source_sha256": "5b9ddaed913aba6ac1ec73b11f800c6cb751674c41cb6077216ed3e83bf55e10",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "193-b-own-revision-log-result-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/193-b-own-revision-log-result-safe.png",
+      "safe_sha256": "4b3be9d6cf30cd634678cefc6de78db1b2d187acc043d259d779bc65ea1f00d0",
+      "safe_dimensions": [
+        597,
+        370
+      ],
+      "crop_source_xyxy": [
+        528,
+        304,
+        1125,
+        674
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            531,
+            439,
+            1122,
+            502
+          ],
+          "output_xyxy": [
+            3,
+            135,
+            594,
+            198
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "trace identifier, private logger path, and thread identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "62613bdb49ca7f83ce4c48646dee27a2a78a6a0c81dc1cd7ad0ee9b9cd3ce910",
+      "safe_decoded_rgb_sha256": "1d31a66be9cf84977669dbee0852c8ea080726fb7991c6bed9bbffb492677f2e",
+      "verified_unchanged_pixels_outside_masks": 183657,
+      "source_unchanged": true,
+      "caption": "The selected log message is SOURCE_B_BSHA quantity=3 total=3600. Its Stacktrace area shows the generic \u201cMissing link to repository\u201d banner.",
+      "visible_evidence_limits": [
+        "Despite the original screenshot filename, expanded received tags are not visible in this frame. It must not be used as visual proof of the B commit tag.",
+        "The generic banner alone does not identify the reason repository linking failed."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "194",
+      "source_filename": "194-b-crosspair-received-tags.jpg",
+      "source_sha256": "c4bc0b995528cae73fee2c3aafc170b7e2b383f6bd9eaa56cd12c52b704fc61f",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "194-b-crosspair-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/194-b-crosspair-tags-safe.png",
+      "safe_sha256": "0a8c9c348895ae6daa87ce29b0b3cc143968cfdfaf11c4773fc2ba8f38279c83",
+      "safe_dimensions": [
+        546,
+        395
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        701
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            582,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            8,
+            212,
+            531,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            582,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            8,
+            295,
+            531,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            686,
+            652,
+            1105,
+            701
+          ],
+          "output_xyxy": [
+            112,
+            346,
+            531,
+            395
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        },
+        {
+          "source_xyxy": [
+            580,
+            679,
+            1105,
+            701
+          ],
+          "output_xyxy": [
+            6,
+            373,
+            531,
+            395
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "wrapped private repository URL tail"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4db28b442ffc2cc50c25baa3d40589f7a3d39f33bf74b9cce4f139de02ec1861",
+      "safe_decoded_rgb_sha256": "802ad8ba5a70bfc869da43263eee4c2b5c3dbaafd7f5278d0b37523b415225af",
+      "verified_unchanged_pixels_outside_masks": 168226,
+      "source_unchanged": true,
+      "caption": "Expanded received tags show git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453 for the B-repository/A-revision cross-pair control. The original repository value identifies the private B repository using HTTPS without a .git suffix; its private value is masked.",
+      "visible_evidence_limits": [
+        "Received metadata only; resolving source and repository-access scope require separate controls.",
+        "Private repository URL and runtime directory values are masked."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "195",
+      "source_filename": "195-c1-q3-before-c2.jpg",
+      "source_sha256": "d8b49516862caa610cb7ae55433f48c7c54a7ca543568ceb44b66c05cb824c25",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "195-c1-before-c2-source-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/195-c1-before-c2-source-safe.png",
+      "safe_sha256": "8f7845185c881f39e4dfe444d39f638dc60600b999e2236cfb74a0b086c95289",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "873bca1e8cedfd93c4bbdb8a08b6d12082d0171a73e0b8ff19786e65e3634811",
+      "safe_decoded_rgb_sha256": "1a5084b60717aad5f5fecfa75657f3f24ad750ce1e8ad9d71508b661c9ad68fa",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "Before the branch-head change, SOURCE_C1 displays rendered pricing.py source at line 17 in the selected stack frame.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The selected capture values and exact linked SHA are not visible in this frame; they were inspected separately."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "196",
+      "source_filename": "196-c2-branch-head-diff.jpg",
+      "source_sha256": "14c9dc491d3a9f864c79e8787fc619da7a80df3c1a59e1f45fbd309717ab93b9",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "196-c2-branch-head-diff-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/196-c2-branch-head-diff-safe.png",
+      "safe_sha256": "6b5ab4527d7d01f7dd4e1a20717ec8af758f22264edf013594c4e08ead655f96",
+      "safe_dimensions": [
+        1131,
+        735
+      ],
+      "crop_source_xyxy": [
+        18,
+        12,
+        1149,
+        747
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            20,
+            51,
+            250,
+            89
+          ],
+          "output_xyxy": [
+            2,
+            39,
+            232,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "commit author account and avatar"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "57edf2e4903ccf7b155fcdf5e5dc21eb5b26b4f60a353c5dcbf0a0f8e87bfa18",
+      "safe_decoded_rgb_sha256": "35f68c7bd86b392b4e0afb950a0ee01c0345457762f724223541c40f792126ad",
+      "verified_unchanged_pixels_outside_masks": 822545,
+      "source_unchanged": true,
+      "caption": "Commit 2d38d91 is displayed with parent 9fd3f27 and seven added source-marker lines. Its commit description says pricing.py shifts seven lines, unit price changes to 1300, and the running workflow remains pinned to C1 with no C2 deployment started.",
+      "visible_evidence_limits": [
+        "The unit-price diff is below the captured viewport; this still shows the commit description and seven added lines, not the unit-price diff itself.",
+        "The visible line-height popover obscures part of the diff. No popover or source content was reconstructed or removed.",
+        "Runtime pinning and non-deployment are independently checked control facts; the commit prose alone does not prove execution state."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "197",
+      "source_filename": "197-c1-q3-after-c2-branch-advance.jpg",
+      "source_sha256": "4bdb90e34dae4fb7be666ef90105333ad12f49e174af5c1eb876716e5f536d2c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "197-c1-after-c2-source-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/197-c1-after-c2-source-safe.png",
+      "safe_sha256": "328f5144663d26e1869241d68c908e86e8f3cf7a5a1297954b5ffa925bf4b3f0",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "dcc68e99af84e3d9492025acf8a8069d59ef5ec169785f01a09ba134d3dbde44",
+      "safe_decoded_rgb_sha256": "a5b160c4528568683419621a6e1e3bc2bfff3b9a75b62dd8bc8fec143ce390ea",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "After the C2 branch-head change, SOURCE_C1 still displays pricing.py source at line 17 in the selected stack frame.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The value area is below the captured viewport. The independently inspected C1 unit_price_cents=1200 and SDK snapshot execution time 2026-10-08 18:21:12.263 UTC are not pictured here.",
+        "Do not use the visible event-list times as the execution time of the selected snapshot."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "198",
+      "source_filename": "198-c1-after-c2-received-tags.jpg",
+      "source_sha256": "e351f677d088e07e55a80ca79b6d473b88c5afa8420f5320fd48594ed4c4e2f7",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "198-c1-after-c2-tags-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/198-c1-after-c2-tags-safe.png",
+      "safe_sha256": "cc726ff192b807530eb28221413625dc4c527050e8a15361d69745ae3403aae3",
+      "safe_dimensions": [
+        546,
+        377
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        683
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            582,
+            518,
+            1105,
+            541
+          ],
+          "output_xyxy": [
+            8,
+            212,
+            531,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository directory"
+        },
+        {
+          "source_xyxy": [
+            582,
+            601,
+            1105,
+            625
+          ],
+          "output_xyxy": [
+            8,
+            295,
+            531,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private runtime/repository working directory"
+        },
+        {
+          "source_xyxy": [
+            686,
+            652,
+            1105,
+            683
+          ],
+          "output_xyxy": [
+            112,
+            346,
+            531,
+            377
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "7ddd4fdcd13bc8e1243a6a05ad4ed3a6694fbe9f524241898dacf1879037dac6",
+      "safe_decoded_rgb_sha256": "5f230a279ae703aafeaf65afa515e9984536013cc2c9e3f49511a61f2b5ed92d",
+      "verified_unchanged_pixels_outside_masks": 168272,
+      "source_unchanged": true,
+      "caption": "After the C2 branch-head change, expanded received tags retain git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453 (C1). The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.",
+      "visible_evidence_limits": [
+        "Received metadata only; resolving source and repository-access scope require separate controls.",
+        "Private repository URL and runtime directory values are masked."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "199",
+      "source_filename": "199-c1-source-actions-menu.jpg",
+      "source_sha256": "90e310b2e632e186e46261b22c6a0cebe777dc0d404706d761d379c449434b78",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "199-source-actions-menu-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/199-source-actions-menu-safe.png",
+      "safe_sha256": "4e4141565016099eb3d3ebf17b285f789f3ca460d62968b494a6f251baf44d39",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "21b59e6dbd958dca9a5d37e3b957edb0194d79a59514fa0f08097c8cc2e1bebb",
+      "safe_decoded_rgb_sha256": "c25ee2727d8f0cb014df9c2172135158496c4cda15510325ae5523d24c84e3e6",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The selected pricing.py line-17 frame offers View in JetBrains, View in VS Code, View in Cursor, View on GitHub, View Git blame, and View commit.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "Menu availability is shown; this still does not establish that each action was launched or worked."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "201",
+      "source_filename": "201-b-only-no-cross-profile-source.jpg",
+      "source_sha256": "85d5391654c707fddbf6d29ef4b5e9a1d417e49f329a83c0f7f0955737b3bfc3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "201-isolated-b-source-unavailable-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/201-isolated-b-source-unavailable-safe.png",
+      "safe_sha256": "e5b3f4f5157cf9f61eb5ac960c0a516e5068dbe239e09f200412d48a528cdbf1",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            416,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            416,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f7064187bfa4c63c61d9b7616714d43d7e258a0075b17960f1c708f2e397201d",
+      "safe_decoded_rgb_sha256": "4cfc6aef272e4b3e57842c15626b23229ee2c5b182fe3eb6d1f328daed2bbd30",
+      "verified_unchanged_pixels_outside_masks": 521832,
+      "source_unchanged": true,
+      "caption": "The isolated B-only session shows one logpoint. Its main editor says the file was not found, and the selected pricing.py line-17 stack frame shows a generic missing-link banner. B_ONLY_ISOLATED captures continue to arrive; the selected capture has quantity=3 and discount_cents=0.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "This removes the grouped-session editor carryover from the B-only observation. It does not independently distinguish an integration scope restriction from other repository-link failures."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "202",
+      "source_filename": "202-source-group-stopped-reloaded.jpg",
+      "source_sha256": "9d433d94cf5d1e97ec18c317df19d960e3c38e460e8eb92dcd8e877f766a3585",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "202-grouped-session-stopped-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/202-grouped-session-stopped-safe.png",
+      "safe_sha256": "b9aeb71d2df6fa2db7c6232039b0ebdb9fef9ad32d47303a50115b66711e6bad",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            644,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            484,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile account name/avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            178,
+            416,
+            213
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5ace2e4addda40a9483742f94bacf373c3492a952cf3aef24e01f1349c24ec05",
+      "safe_decoded_rgb_sha256": "7ea8fe7c9122bc6ed25fe776f5c64b3ca1776f8f0cee2a03b3bf08bc0ec01759",
+      "verified_unchanged_pixels_outside_masks": 547577,
+      "source_unchanged": true,
+      "caption": "The grouped source-control session is INACTIVE after reload. The visible pricing.py logpoint is DISABLED; the source tab and Events heading both show nine logpoints. A retained SOURCE_C1 capture shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "The other eight child states are not all visible in this still. Full group-stop validation comes from separate inspection.",
+        "Inactive session state does not prove runtime or agent shutdown."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "203",
+      "source_filename": "203-b-only-stopped-reloaded.jpg",
+      "source_sha256": "c1dc7c1fe4e2b7c86134d42eb176ab9a356dea1c814243121d021ea85db0f0f1",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "203-isolated-session-stopped-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/203-isolated-session-stopped-safe.png",
+      "safe_sha256": "607d7a4db9d3686a88a3953546a817be71d5dee208186d90b66a97eb60157f4b",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            644,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            484,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile account name/avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9ac3207200b5ba3d19a53d22863ad0fd8df74264a2f869b7fe739dd7ce029670",
+      "safe_decoded_rgb_sha256": "f4939919a4263cc92551bfaedc64a3da68e2d72e0aa2c0653f13ae8f3d868fc6",
+      "verified_unchanged_pixels_outside_masks": 561857,
+      "source_unchanged": true,
+      "caption": "The isolated B-only session is INACTIVE after reload and its single pricing.py logpoint is DISABLED. A retained B_ONLY_ISOLATED capture shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The main editor retains its file-not-found warning.",
+      "visible_evidence_limits": [
+        "Direct still only; not evidence of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent capture execution timestamps.",
+        "Inactive session state does not prove runtime or agent shutdown."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "204",
+      "source_filename": "204-current-datadog-a-only-repository.jpg",
+      "source_sha256": "8983d71759ec59f76e36cbda828e87f0f153a1d0fe251b6150c6ba4f851dba31",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "204-datadog-repository-scope-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/204-datadog-repository-scope-safe.png",
+      "safe_sha256": "f440c077d239df801be58213e0edd7b806b24ca57247f7383b5612c542882e79",
+      "safe_dimensions": [
+        1020,
+        424
+      ],
+      "crop_source_xyxy": [
+        160,
+        114,
+        1180,
+        538
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            432,
+            315,
+            632,
+            349
+          ],
+          "output_xyxy": [
+            272,
+            201,
+            472,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "GitHub account identity"
+        },
+        {
+          "source_xyxy": [
+            180,
+            487,
+            381,
+            521
+          ],
+          "output_xyxy": [
+            20,
+            373,
+            221,
+            407
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository slug"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "553edf51c174fd0ced5bdd4ece4235242225fc4831a4a62b44e658f7951981e1",
+      "safe_decoded_rgb_sha256": "670ea5961be91d59092574b824b7d53eaa11574ba50ad9df78d215479ff8167f",
+      "verified_unchanged_pixels_outside_masks": 418846,
+      "source_unchanged": true,
+      "caption": "Datadog GitHub Apps configuration shows Repositories 1 and one repository row. The account and private repository slug are masked. The preserved original row identifies the synthetic A repository.",
+      "visible_evidence_limits": [
+        "This is the current Datadog integration-side repository list. It does not verify the current GitHub App installation checkbox selection.",
+        "GitHub-side settings verification remained blocked by email reauthentication."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "205",
+      "source_filename": "205-unfiltered-all-six-sessions-inactive.jpg",
+      "source_sha256": "f6f167f710fc856037d7d4175e3fcb4c891488b761bcc5593b6219a90da69bde",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "205-final-six-inactive-sessions-safe.png",
+      "public_relative_path": "evidence/source-phase-177-199/205-final-six-inactive-sessions-safe.png",
+      "safe_sha256": "9bf4c87340e4ad2c1bd2ef121fadeeaac95f26e57662d471da234ba2546e88ce",
+      "safe_dimensions": [
+        992,
+        607
+      ],
+      "crop_source_xyxy": [
+        158,
+        126,
+        1150,
+        733
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            182,
+            383,
+            753,
+            540
+          ],
+          "output_xyxy": [
+            24,
+            257,
+            595,
+            414
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "first card private session/service/creator/avatar identities"
+        },
+        {
+          "source_xyxy": [
+            182,
+            568,
+            753,
+            629
+          ],
+          "output_xyxy": [
+            24,
+            442,
+            595,
+            503
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "second card private session/service/creator/avatar identities"
+        },
+        {
+          "source_xyxy": [
+            182,
+            658,
+            753,
+            720
+          ],
+          "output_xyxy": [
+            24,
+            532,
+            595,
+            594
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "third card private session/service/creator/avatar identities"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "97b594d18c00431705d3ef712e6b05b048187e966475387f5fa029b7eaba46d3",
+      "safe_decoded_rgb_sha256": "04170ac843536437ff3659e08307c12fca8aab7478039accc392ceeaeabfc306",
+      "verified_unchanged_pixels_outside_masks": 442264,
+      "source_unchanged": true,
+      "caption": "The final Sessions List shows All 6, Active 0, and Inactive 6, with Services and Environments set to All, Created set to All time, and an empty search. The three visible cards are all INACTIVE. Session titles, services, creator names, and avatars are masked.",
+      "visible_evidence_limits": [
+        "My sessions was verified off in the accompanying inspection; the pointer overlays the toggle in this still.",
+        "Only three of the six cards are visible in this viewport; the totals are shown by the list tabs.",
+        "This confirms session-list state, not runtime, workflow, or agent shutdown."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "177-canonical-c1-source-safe.png",
+    "177-caption.txt",
+    "177-provenance.json",
+    "178-caption.txt",
+    "178-https-dotgit-source-safe.png",
+    "178-provenance.json",
+    "179-caption.txt",
+    "179-https-dotgit-received-tags-safe.png",
+    "179-provenance.json",
+    "180-caption.txt",
+    "180-manual-line-source-unavailable-safe.png",
+    "180-provenance.json",
+    "181-caption.txt",
+    "181-missing-metadata-fallback-safe.png",
+    "181-provenance.json",
+    "182-caption.txt",
+    "182-missing-sha-fallback-safe.png",
+    "182-provenance.json",
+    "183-caption.txt",
+    "183-invalid-sha-diagnostic-safe.png",
+    "183-provenance.json",
+    "184-caption.txt",
+    "184-nonexistent-sha-missing-link-safe.png",
+    "184-provenance.json",
+    "185-b-own-revision-missing-link-safe.png",
+    "185-caption.txt",
+    "185-provenance.json",
+    "186-b-crosspair-missing-link-safe.png",
+    "186-caption.txt",
+    "186-provenance.json",
+    "187-caption.txt",
+    "187-provenance.json",
+    "187-ssh-source-safe.png",
+    "188-caption.txt",
+    "188-provenance.json",
+    "188-ssh-received-tags-safe.png",
+    "189-caption.txt",
+    "189-missing-metadata-tags-safe.png",
+    "189-provenance.json",
+    "190-caption.txt",
+    "190-missing-sha-tags-safe.png",
+    "190-provenance.json",
+    "191-caption.txt",
+    "191-invalid-sha-tags-safe.png",
+    "191-provenance.json",
+    "192-caption.txt",
+    "192-nonexistent-sha-tags-safe.png",
+    "192-provenance.json",
+    "193-b-own-revision-log-result-safe.png",
+    "193-caption.txt",
+    "193-provenance.json",
+    "194-b-crosspair-tags-safe.png",
+    "194-caption.txt",
+    "194-provenance.json",
+    "195-c1-before-c2-source-safe.png",
+    "195-caption.txt",
+    "195-provenance.json",
+    "196-c2-branch-head-diff-safe.png",
+    "196-caption.txt",
+    "196-provenance.json",
+    "197-c1-after-c2-source-safe.png",
+    "197-caption.txt",
+    "197-provenance.json",
+    "198-c1-after-c2-tags-safe.png",
+    "198-caption.txt",
+    "198-provenance.json",
+    "199-caption.txt",
+    "199-provenance.json",
+    "199-source-actions-menu-safe.png",
+    "201-caption.txt",
+    "201-isolated-b-source-unavailable-safe.png",
+    "201-provenance.json",
+    "202-caption.txt",
+    "202-grouped-session-stopped-safe.png",
+    "202-provenance.json",
+    "203-caption.txt",
+    "203-isolated-session-stopped-safe.png",
+    "203-provenance.json",
+    "204-caption.txt",
+    "204-datadog-repository-scope-safe.png",
+    "204-provenance.json",
+    "205-caption.txt",
+    "205-final-six-inactive-sessions-safe.png",
+    "205-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ],
+  "quality_assurance": {
+    "visual_inspection": "All 28 output images viewed at native pixel geometry and checked for private identifiers, evidence legibility, and masked boundaries.",
+    "ocr": "All 28 outputs scanned with Tesseract. Account, runtime, private repository, host, and UUID/correlation identifier searches returned no matches. OCR is an auxiliary check and was not used to reconstruct source content.",
+    "caption_review": "Captions distinguish visible pixels from separately checked context, and note viewport, source-carryover, timestamp, permissions, and stop-state limits.",
+    "exact_pixel_preservation_verified": true,
+    "unmasked_pixels_verified": 11763910,
+    "original_hashes_rechecked": 28,
+    "frozen": true,
+    "publication_status": "Prepared locally only; not externally published."
+  }
+}

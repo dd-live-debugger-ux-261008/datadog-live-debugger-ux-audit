@@ -1,0 +1,1 @@
+For SOURCE_MISSING_META, the stack panel explicitly says Datadog used the latest commit of the default branch to associate telemetry and source code. A pricing.py line-17 frame is present.

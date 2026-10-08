@@ -1,0 +1,78 @@
+{
+  "id": "182",
+  "source_filename": "182-missing-sha-default-branch-fallback.jpg",
+  "source_sha256": "e2709698879e7e90959b1557ead986ea7b58184d291feb245d4b324e77b31de3",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "182-missing-sha-fallback-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/182-missing-sha-fallback-safe.png",
+  "safe_sha256": "895ab04c2e7ec689b17f2727c5a2ec5796f35f6cc0775947cf0ea97166c0cc8b",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        416,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        576,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        416,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "71b546cef6b04cecde05185a79593d6db2ef9fd285f27b0c6d566fc36d1df782",
+  "safe_decoded_rgb_sha256": "78562f14a9ee09b0a6ad342b9c385fe7fdc3e4db2dbdfbff532b5af788a3d0ee",
+  "verified_unchanged_pixels_outside_masks": 521832,
+  "source_unchanged": true,
+  "caption": "For SOURCE_MISSING_SHA, the stack panel displays \u201cUsing latest commit\u201d and explicitly says it used the repository default branch. A pricing.py line-17 frame and source are present.",
+  "visible_evidence_limits": [
+    "Direct still only; not evidence of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent capture execution timestamps.",
+    "The separately inspected fallback link was revision 71243517; the hash is not visible in this still."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

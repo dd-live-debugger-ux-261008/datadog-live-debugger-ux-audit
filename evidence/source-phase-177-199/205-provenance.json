@@ -1,0 +1,98 @@
+{
+  "id": "205",
+  "source_filename": "205-unfiltered-all-six-sessions-inactive.jpg",
+  "source_sha256": "f6f167f710fc856037d7d4175e3fcb4c891488b761bcc5593b6219a90da69bde",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "205-final-six-inactive-sessions-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/205-final-six-inactive-sessions-safe.png",
+  "safe_sha256": "9bf4c87340e4ad2c1bd2ef121fadeeaac95f26e57662d471da234ba2546e88ce",
+  "safe_dimensions": [
+    992,
+    607
+  ],
+  "crop_source_xyxy": [
+    158,
+    126,
+    1150,
+    733
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        182,
+        383,
+        753,
+        540
+      ],
+      "output_xyxy": [
+        24,
+        257,
+        595,
+        414
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "first card private session/service/creator/avatar identities"
+    },
+    {
+      "source_xyxy": [
+        182,
+        568,
+        753,
+        629
+      ],
+      "output_xyxy": [
+        24,
+        442,
+        595,
+        503
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "second card private session/service/creator/avatar identities"
+    },
+    {
+      "source_xyxy": [
+        182,
+        658,
+        753,
+        720
+      ],
+      "output_xyxy": [
+        24,
+        532,
+        595,
+        594
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "third card private session/service/creator/avatar identities"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "97b594d18c00431705d3ef712e6b05b048187e966475387f5fa029b7eaba46d3",
+  "safe_decoded_rgb_sha256": "04170ac843536437ff3659e08307c12fca8aab7478039accc392ceeaeabfc306",
+  "verified_unchanged_pixels_outside_masks": 442264,
+  "source_unchanged": true,
+  "caption": "The final Sessions List shows All 6, Active 0, and Inactive 6, with Services and Environments set to All, Created set to All time, and an empty search. The three visible cards are all INACTIVE. Session titles, services, creator names, and avatars are masked.",
+  "visible_evidence_limits": [
+    "My sessions was verified off in the accompanying inspection; the pointer overlays the toggle in this still.",
+    "Only three of the six cards are visible in this viewport; the totals are shown by the list tabs.",
+    "This confirms session-list state, not runtime, workflow, or agent shutdown."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

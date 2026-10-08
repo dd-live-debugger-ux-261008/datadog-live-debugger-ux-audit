@@ -1,0 +1,78 @@
+{
+  "id": "199",
+  "source_filename": "199-c1-source-actions-menu.jpg",
+  "source_sha256": "90e310b2e632e186e46261b22c6a0cebe777dc0d404706d761d379c449434b78",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "199-source-actions-menu-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/199-source-actions-menu-safe.png",
+  "safe_sha256": "4e4141565016099eb3d3ebf17b285f789f3ca460d62968b494a6f251baf44d39",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        416,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        576,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        416,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "21b59e6dbd958dca9a5d37e3b957edb0194d79a59514fa0f08097c8cc2e1bebb",
+  "safe_decoded_rgb_sha256": "c25ee2727d8f0cb014df9c2172135158496c4cda15510325ae5523d24c84e3e6",
+  "verified_unchanged_pixels_outside_masks": 521832,
+  "source_unchanged": true,
+  "caption": "The selected pricing.py line-17 frame offers View in JetBrains, View in VS Code, View in Cursor, View on GitHub, View Git blame, and View commit.",
+  "visible_evidence_limits": [
+    "Direct still only; not evidence of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent capture execution timestamps.",
+    "Menu availability is shown; this still does not establish that each action was launched or worked."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

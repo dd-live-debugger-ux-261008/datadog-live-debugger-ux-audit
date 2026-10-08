@@ -1,0 +1,1 @@
+Before the branch-head change, SOURCE_C1 displays rendered pricing.py source at line 17 in the selected stack frame.

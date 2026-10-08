@@ -1,0 +1,77 @@
+{
+  "id": "204",
+  "source_filename": "204-current-datadog-a-only-repository.jpg",
+  "source_sha256": "8983d71759ec59f76e36cbda828e87f0f153a1d0fe251b6150c6ba4f851dba31",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "204-datadog-repository-scope-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/204-datadog-repository-scope-safe.png",
+  "safe_sha256": "f440c077d239df801be58213e0edd7b806b24ca57247f7383b5612c542882e79",
+  "safe_dimensions": [
+    1020,
+    424
+  ],
+  "crop_source_xyxy": [
+    160,
+    114,
+    1180,
+    538
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        432,
+        315,
+        632,
+        349
+      ],
+      "output_xyxy": [
+        272,
+        201,
+        472,
+        235
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "GitHub account identity"
+    },
+    {
+      "source_xyxy": [
+        180,
+        487,
+        381,
+        521
+      ],
+      "output_xyxy": [
+        20,
+        373,
+        221,
+        407
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository slug"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "553edf51c174fd0ced5bdd4ece4235242225fc4831a4a62b44e658f7951981e1",
+  "safe_decoded_rgb_sha256": "670ea5961be91d59092574b824b7d53eaa11574ba50ad9df78d215479ff8167f",
+  "verified_unchanged_pixels_outside_masks": 418846,
+  "source_unchanged": true,
+  "caption": "Datadog GitHub Apps configuration shows Repositories 1 and one repository row. The account and private repository slug are masked. The preserved original row identifies the synthetic A repository.",
+  "visible_evidence_limits": [
+    "This is the current Datadog integration-side repository list. It does not verify the current GitHub App installation checkbox selection.",
+    "GitHub-side settings verification remained blocked by email reauthentication."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

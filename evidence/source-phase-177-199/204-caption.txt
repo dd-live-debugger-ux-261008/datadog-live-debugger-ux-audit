@@ -1,0 +1,1 @@
+Datadog GitHub Apps configuration shows Repositories 1 and one repository row. The account and private repository slug are masked. The preserved original row identifies the synthetic A repository.

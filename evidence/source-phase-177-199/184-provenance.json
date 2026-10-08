@@ -1,0 +1,78 @@
+{
+  "id": "184",
+  "source_filename": "184-nonexistent-sha-source-result.jpg",
+  "source_sha256": "a0d12cfb50b0039bf2ba98cc16d474f4353e5a63dc679694dd60ddd8c81d1f1d",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "184-nonexistent-sha-missing-link-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/184-nonexistent-sha-missing-link-safe.png",
+  "safe_sha256": "89faa997a6bb3503d02b43a4db54bc6b4f38afb9de3f4d2d3f8c97a8ca1397d8",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        416,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        576,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        416,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "f9a8359ed6530f63fcf402152b1ac9ac48e25594d94393ea0ed08695c5a8225a",
+  "safe_decoded_rgb_sha256": "b103efa767b35b20c78c4519aa86645832bcb0284388e7d4c0aa4c2fb0a1b746",
+  "verified_unchanged_pixels_outside_masks": 521832,
+  "source_unchanged": true,
+  "caption": "SOURCE_NONEXISTENT_SHA shows a generic \u201cMissing link to repository\u201d message and a pricing.py line-17 frame without rendered source. Captured quantity=3 and discount_cents=0 remain visible.",
+  "visible_evidence_limits": [
+    "Direct still only; not evidence of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent capture execution timestamps.",
+    "The 40-one received tag is shown in still 192. The generic message does not identify a particular root cause."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

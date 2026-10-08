@@ -1,0 +1,1 @@
+SOURCE_NONEXISTENT_SHA shows a generic “Missing link to repository” message and a pricing.py line-17 frame without rendered source. Captured quantity=3 and discount_cents=0 remain visible.

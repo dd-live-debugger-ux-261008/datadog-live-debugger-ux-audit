@@ -1,0 +1,1 @@
+The B-repository/own-revision control SOURCE_B_BSHA shows a generic “Missing link to repository” message. Captured quantity=3 and discount_cents=0 remain visible.

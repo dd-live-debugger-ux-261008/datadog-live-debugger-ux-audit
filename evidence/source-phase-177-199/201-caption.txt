@@ -1,0 +1,1 @@
+The isolated B-only session shows one logpoint. Its main editor says the file was not found, and the selected pricing.py line-17 stack frame shows a generic missing-link banner. B_ONLY_ISOLATED captures continue to arrive; the selected capture has quantity=3 and discount_cents=0.

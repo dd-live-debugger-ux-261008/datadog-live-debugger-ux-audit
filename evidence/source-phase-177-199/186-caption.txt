@@ -1,0 +1,1 @@
+The B-repository/A-revision cross-pair control SOURCE_B_ASHA shows a generic “Missing link to repository” message in its selected stack frame. Captured quantity=3 and discount_cents=0 remain visible.

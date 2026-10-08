@@ -1,0 +1,1 @@
+The Add a logpoint dialog is configured for pricing.py line 17 with SOURCE_NONEXISTENT_SHA and all-variable capture up to three levels. The dialog shows “Why am I not seeing my code?”

@@ -1,0 +1,1 @@
+The isolated B-only session is INACTIVE after reload and its single pricing.py logpoint is DISABLED. A retained B_ONLY_ISOLATED capture shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The main editor retains its file-not-found warning.

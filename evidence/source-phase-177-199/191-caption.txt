@@ -1,0 +1,1 @@
+Expanded received tags explicitly show git.commit.sha:synthetic-invalid-sha. The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.

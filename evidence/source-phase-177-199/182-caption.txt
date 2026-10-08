@@ -1,0 +1,1 @@
+For SOURCE_MISSING_SHA, the stack panel displays “Using latest commit” and explicitly says it used the repository default branch. A pricing.py line-17 frame and source are present.

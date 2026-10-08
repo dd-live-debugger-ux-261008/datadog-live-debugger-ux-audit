@@ -1,0 +1,116 @@
+{
+  "id": "189",
+  "source_filename": "189-missing-metadata-received-tags.jpg",
+  "source_sha256": "03a763ceadcffc956f9843fc23305e1b7e21284ed269b5de2989ed538df505fe",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "189-missing-metadata-tags-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/189-missing-metadata-tags-safe.png",
+  "safe_sha256": "283e8bf82c6b2421c1b547de5c4666f02e6c08188ab2568b2e51fbcf9b9e91d5",
+  "safe_dimensions": [
+    346,
+    430
+  ],
+  "crop_source_xyxy": [
+    774,
+    306,
+    1120,
+    736
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        879,
+        518,
+        1105,
+        541
+      ],
+      "output_xyxy": [
+        105,
+        212,
+        331,
+        235
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository directory value"
+    },
+    {
+      "source_xyxy": [
+        892,
+        601,
+        1105,
+        623
+      ],
+      "output_xyxy": [
+        118,
+        295,
+        331,
+        317
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository working directory value"
+    },
+    {
+      "source_xyxy": [
+        813,
+        629,
+        1105,
+        650
+      ],
+      "output_xyxy": [
+        39,
+        323,
+        331,
+        344
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "host identity"
+    },
+    {
+      "source_xyxy": [
+        813,
+        656,
+        1105,
+        679
+      ],
+      "output_xyxy": [
+        39,
+        350,
+        331,
+        373
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "host identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "685134aecfe50cf1413acf07c58932f920710b956db094d0b7668ce2d9bee6cb",
+  "safe_decoded_rgb_sha256": "276e3c2348809808f3b52affc4a4a70f80f6567931ff6d7f6b82c70bfb239d54",
+  "verified_unchanged_pixels_outside_masks": 126048,
+  "source_unchanged": true,
+  "caption": "The received-tag list reports 16 tags. In the visible alphabetical sequence, entrypoint.workdir is immediately followed by host tags, with no git.commit.sha or git.repository_url entry between them. Runtime directory and host values are masked.",
+  "visible_evidence_limits": [
+    "This visible tag-list portion supports the missing-Git-metadata control. The full list extends below the crop."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

@@ -1,0 +1,1 @@
+After the C2 branch-head change, SOURCE_C1 still displays pricing.py source at line 17 in the selected stack frame.

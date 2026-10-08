@@ -1,0 +1,1 @@
+SOURCE_INVALID_SHA displays a missing-link diagnostic: the tagged commit is invalid and must be a full-length SHA of 40 hexadecimal characters. The tagged value synthetic-invalid-sha is shown. Captured quantity=3 remains visible.

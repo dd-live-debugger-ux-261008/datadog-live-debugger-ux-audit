@@ -1,0 +1,1 @@
+The final Sessions List shows All 6, Active 0, and Inactive 6, with Services and Environments set to All, Created set to All time, and an empty search. The three visible cards are all INACTIVE. Session titles, services, creator names, and avatars are masked.

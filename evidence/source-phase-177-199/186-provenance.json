@@ -1,0 +1,79 @@
+{
+  "id": "186",
+  "source_filename": "186-ungranted-b-crosspair-source-result.jpg",
+  "source_sha256": "19b21d3950a5eb49438b9ded2215e7756e7b79422a70dff863b91dd1be235c0c",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "186-b-crosspair-missing-link-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/186-b-crosspair-missing-link-safe.png",
+  "safe_sha256": "b4973e9d8026f30c6d8090e1f51ab6634f7a58524ead3ad7b05c95a29c023f46",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        416,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        576,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        416,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "237100903c11702d8c730d8c44c354b2a96f1dab96f8769d2c77fd98775ba69e",
+  "safe_decoded_rgb_sha256": "8c9611fbf7faaea308a0996c57a941e5b266532bb26030591563a19edcd7b352",
+  "verified_unchanged_pixels_outside_masks": 521832,
+  "source_unchanged": true,
+  "caption": "The B-repository/A-revision cross-pair control SOURCE_B_ASHA shows a generic \u201cMissing link to repository\u201d message in its selected stack frame. Captured quantity=3 and discount_cents=0 remain visible.",
+  "visible_evidence_limits": [
+    "Direct still only; not evidence of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent capture execution timestamps.",
+    "The upper editor retains rendered source while the selected stack frame has no source. Do not conflate the editor with event-specific source resolution.",
+    "The generic banner does not identify a particular root cause."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

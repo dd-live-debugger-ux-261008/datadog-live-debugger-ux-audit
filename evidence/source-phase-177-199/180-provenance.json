@@ -1,0 +1,57 @@
+{
+  "id": "180",
+  "source_filename": "180-nonexistent-sha-manual-source-unavailable.jpg",
+  "source_sha256": "53322c1003441dea2f1d0429a2ae47947301118ddf039162f1c66ef7e322c6f3",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "180-manual-line-source-unavailable-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/180-manual-line-source-unavailable-safe.png",
+  "safe_sha256": "2c39e7aef24e91b8acbb3561a294ef163b87283026a863134bdbb03e568c9265",
+  "safe_dimensions": [
+    1062,
+    692
+  ],
+  "crop_source_xyxy": [
+    59,
+    49,
+    1121,
+    741
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        78,
+        144,
+        495,
+        177
+      ],
+      "output_xyxy": [
+        19,
+        95,
+        436,
+        128
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "81555ae36877fa61b58af315861b4bac19966df1a4ac8a00ab1f0037d1f2736c",
+  "safe_decoded_rgb_sha256": "828ff2da87eac9985ec4fab775bb1f79e2245686e9acc858427ce61195c2387a",
+  "verified_unchanged_pixels_outside_masks": 721143,
+  "source_unchanged": true,
+  "caption": "The Add a logpoint dialog is configured for pricing.py line 17 with SOURCE_NONEXISTENT_SHA and all-variable capture up to three levels. The dialog shows \u201cWhy am I not seeing my code?\u201d",
+  "visible_evidence_limits": [
+    "The apparent blurred source placeholder is part of the original application UI; no blur was applied during sanitization.",
+    "This still records preparation state, not a successful submission or source-resolution outcome."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

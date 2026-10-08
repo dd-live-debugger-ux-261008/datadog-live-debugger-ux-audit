@@ -1,0 +1,26 @@
+{
+  "observed_terminal_utc": "2026-10-08T19:09:43Z",
+  "attempt": 2,
+  "job_result": "SUCCEEDED",
+  "job_duration": "1h 30m 50s",
+  "bounded_source_step_duration": "1h 30m 13s",
+  "cleanup_step_duration_seconds": 1,
+  "cleanup_text": "Job-owned grouped-source runtime cleanup completed.",
+  "post_terminal_inventory": {
+    "observed_utc": "2026-10-08T19:10:18Z",
+    "my_sessions_enabled": false,
+    "service_filter": "All",
+    "environment_filter": "All",
+    "created_filter": "All time",
+    "all_sessions": 6,
+    "active_sessions": 0,
+    "inactive_sessions": 6
+  },
+  "capture_scope": "All ten source-phase definitions were previously stopped and reloaded disabled. The six-session inventory includes prior sessions.",
+  "retained_assets": "Accounts, repositories, keys, fixture history and existing approved source grant retained; no deletion, revocation or whole-settings restoration asserted.",
+  "evidence_type": "Authenticated UI observations with private identities omitted. Raw page dumps and raw screenshots are not published.",
+  "observation_sha256": {
+    "source-run-attempt2-terminal-cleanup.txt": "fe53789fc418582defd392d6b9fc7a4c683d37a176e7cf2b5136a40b1c5079c6",
+    "source-post-terminal-unfiltered-inventory.txt": "d761ab37052d632580370ad98488cafcaeafa78d753f1bee6c44575d597fcb55"
+  }
+}

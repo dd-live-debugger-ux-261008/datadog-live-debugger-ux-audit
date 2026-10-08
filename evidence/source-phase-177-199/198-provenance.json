@@ -1,0 +1,97 @@
+{
+  "id": "198",
+  "source_filename": "198-c1-after-c2-received-tags.jpg",
+  "source_sha256": "e351f677d088e07e55a80ca79b6d473b88c5afa8420f5320fd48594ed4c4e2f7",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "198-c1-after-c2-tags-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/198-c1-after-c2-tags-safe.png",
+  "safe_sha256": "cc726ff192b807530eb28221413625dc4c527050e8a15361d69745ae3403aae3",
+  "safe_dimensions": [
+    546,
+    377
+  ],
+  "crop_source_xyxy": [
+    574,
+    306,
+    1120,
+    683
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        582,
+        518,
+        1105,
+        541
+      ],
+      "output_xyxy": [
+        8,
+        212,
+        531,
+        235
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository directory"
+    },
+    {
+      "source_xyxy": [
+        582,
+        601,
+        1105,
+        625
+      ],
+      "output_xyxy": [
+        8,
+        295,
+        531,
+        319
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository working directory"
+    },
+    {
+      "source_xyxy": [
+        686,
+        652,
+        1105,
+        683
+      ],
+      "output_xyxy": [
+        112,
+        346,
+        531,
+        377
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository URL value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "7ddd4fdcd13bc8e1243a6a05ad4ed3a6694fbe9f524241898dacf1879037dac6",
+  "safe_decoded_rgb_sha256": "5f230a279ae703aafeaf65afa515e9984536013cc2c9e3f49511a61f2b5ed92d",
+  "verified_unchanged_pixels_outside_masks": 168272,
+  "source_unchanged": true,
+  "caption": "After the C2 branch-head change, expanded received tags retain git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453 (C1). The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.",
+  "visible_evidence_limits": [
+    "Received metadata only; resolving source and repository-access scope require separate controls.",
+    "Private repository URL and runtime directory values are masked."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

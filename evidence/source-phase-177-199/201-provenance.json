@@ -1,0 +1,78 @@
+{
+  "id": "201",
+  "source_filename": "201-b-only-no-cross-profile-source.jpg",
+  "source_sha256": "85d5391654c707fddbf6d29ef4b5e9a1d417e49f329a83c0f7f0955737b3bfc3",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "201-isolated-b-source-unavailable-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/201-isolated-b-source-unavailable-safe.png",
+  "safe_sha256": "e5b3f4f5157cf9f61eb5ac960c0a516e5068dbe239e09f200412d48a528cdbf1",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        416,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        576,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        416,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "f7064187bfa4c63c61d9b7616714d43d7e258a0075b17960f1c708f2e397201d",
+  "safe_decoded_rgb_sha256": "4cfc6aef272e4b3e57842c15626b23229ee2c5b182fe3eb6d1f328daed2bbd30",
+  "verified_unchanged_pixels_outside_masks": 521832,
+  "source_unchanged": true,
+  "caption": "The isolated B-only session shows one logpoint. Its main editor says the file was not found, and the selected pricing.py line-17 stack frame shows a generic missing-link banner. B_ONLY_ISOLATED captures continue to arrive; the selected capture has quantity=3 and discount_cents=0.",
+  "visible_evidence_limits": [
+    "Direct still only; not evidence of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent capture execution timestamps.",
+    "This removes the grouped-session editor carryover from the B-only observation. It does not independently distinguish an integration scope restriction from other repository-link failures."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

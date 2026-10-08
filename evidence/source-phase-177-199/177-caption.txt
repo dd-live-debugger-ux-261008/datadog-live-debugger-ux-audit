@@ -1,0 +1,1 @@
+The canonical-URL C1 control displays the pricing.py line-17 stack frame and rendered source. The selected source message is SOURCE_C1.

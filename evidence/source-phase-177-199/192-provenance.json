@@ -1,0 +1,97 @@
+{
+  "id": "192",
+  "source_filename": "192-nonexistent-sha-received-tags.jpg",
+  "source_sha256": "4a0b5d55185f77399ab3203b0f20fda5613933c43029b0f14674e3c1c6d48c83",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "192-nonexistent-sha-tags-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/192-nonexistent-sha-tags-safe.png",
+  "safe_sha256": "039910c230daad828c05f2b4e8f6fed2790a341088b714b948fc7258cd7d91d3",
+  "safe_dimensions": [
+    546,
+    377
+  ],
+  "crop_source_xyxy": [
+    574,
+    306,
+    1120,
+    683
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        582,
+        518,
+        1105,
+        541
+      ],
+      "output_xyxy": [
+        8,
+        212,
+        531,
+        235
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository directory"
+    },
+    {
+      "source_xyxy": [
+        582,
+        601,
+        1105,
+        625
+      ],
+      "output_xyxy": [
+        8,
+        295,
+        531,
+        319
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository working directory"
+    },
+    {
+      "source_xyxy": [
+        686,
+        652,
+        1105,
+        683
+      ],
+      "output_xyxy": [
+        112,
+        346,
+        531,
+        377
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository URL value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a38b2e8a98bc3f5591eae4444babf836e8db1249ba1545c13be1feceb7b7328b",
+  "safe_decoded_rgb_sha256": "4df5456a1e6c2ec3968721f7aa8b4d8ac89e65101f9f113b2b02f4b4b8b10938",
+  "verified_unchanged_pixels_outside_masks": 168272,
+  "source_unchanged": true,
+  "caption": "Expanded received tags show git.commit.sha set to 1111111111111111111111111111111111111111, a syntactically 40-character hexadecimal string used as the nonexistent-revision control. The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.",
+  "visible_evidence_limits": [
+    "Received metadata only; resolving source and repository-access scope require separate controls.",
+    "Private repository URL and runtime directory values are masked."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

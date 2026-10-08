@@ -1,0 +1,117 @@
+{
+  "id": "194",
+  "source_filename": "194-b-crosspair-received-tags.jpg",
+  "source_sha256": "c4bc0b995528cae73fee2c3aafc170b7e2b383f6bd9eaa56cd12c52b704fc61f",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "194-b-crosspair-tags-safe.png",
+  "public_relative_path": "evidence/source-phase-177-199/194-b-crosspair-tags-safe.png",
+  "safe_sha256": "0a8c9c348895ae6daa87ce29b0b3cc143968cfdfaf11c4773fc2ba8f38279c83",
+  "safe_dimensions": [
+    546,
+    395
+  ],
+  "crop_source_xyxy": [
+    574,
+    306,
+    1120,
+    701
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        582,
+        518,
+        1105,
+        541
+      ],
+      "output_xyxy": [
+        8,
+        212,
+        531,
+        235
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository directory"
+    },
+    {
+      "source_xyxy": [
+        582,
+        601,
+        1105,
+        625
+      ],
+      "output_xyxy": [
+        8,
+        295,
+        531,
+        319
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private runtime/repository working directory"
+    },
+    {
+      "source_xyxy": [
+        686,
+        652,
+        1105,
+        701
+      ],
+      "output_xyxy": [
+        112,
+        346,
+        531,
+        395
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository URL value"
+    },
+    {
+      "source_xyxy": [
+        580,
+        679,
+        1105,
+        701
+      ],
+      "output_xyxy": [
+        6,
+        373,
+        531,
+        395
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "wrapped private repository URL tail"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "4db28b442ffc2cc50c25baa3d40589f7a3d39f33bf74b9cce4f139de02ec1861",
+  "safe_decoded_rgb_sha256": "802ad8ba5a70bfc869da43263eee4c2b5c3dbaafd7f5278d0b37523b415225af",
+  "verified_unchanged_pixels_outside_masks": 168226,
+  "source_unchanged": true,
+  "caption": "Expanded received tags show git.commit.sha 9fd3f277d9047dc8fc55d2b77ac8e375184a1453 for the B-repository/A-revision cross-pair control. The original repository value identifies the private B repository using HTTPS without a .git suffix; its private value is masked.",
+  "visible_evidence_limits": [
+    "Received metadata only; resolving source and repository-access scope require separate controls.",
+    "Private repository URL and runtime directory values are masked."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

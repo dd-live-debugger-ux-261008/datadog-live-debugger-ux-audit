@@ -1,0 +1,1 @@
+Expanded received tags show git.commit.sha set to 1111111111111111111111111111111111111111, a syntactically 40-character hexadecimal string used as the nonexistent-revision control. The original repository value is an HTTPS GitHub URL without a .git suffix; its private value is masked.

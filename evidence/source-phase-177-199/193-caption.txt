@@ -1,0 +1,1 @@
+The selected log message is SOURCE_B_BSHA quantity=3 total=3600. Its Stacktrace area shows the generic “Missing link to repository” banner.

@@ -1,0 +1,1 @@
+The selected pricing.py line-17 frame offers View in JetBrains, View in VS Code, View in Cursor, View on GitHub, View Git blame, and View commit.

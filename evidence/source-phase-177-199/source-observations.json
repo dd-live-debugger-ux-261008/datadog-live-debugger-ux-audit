@@ -1,0 +1,247 @@
+{
+  "title": "Datadog source QA observations",
+  "checkpoint_utc": "2026-10-08T18:28:00Z",
+  "state": "Ongoing run; nine synthetic profiles have actual captures; final cleanup and remaining source boundary checks are pending.",
+  "profiles": [
+    {
+      "profile": "c1-after-c2",
+      "received_tags": {
+        "git.commit.sha": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+        "git.repository_url": "A canonical HTTPS"
+      },
+      "selected_event_stack_provider_targets": [
+        {
+          "commit": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+          "file_line": "pricing.py#L17"
+        }
+      ],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": false,
+      "evidence_sha256": "022cef55461d96a78e575de4bcdf8635283181187f2ab1faa953755c0504dbc4",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "httpsgit",
+      "received_tags": {
+        "git.commit.sha": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+        "git.repository_url": "A HTTPS .git"
+      },
+      "selected_event_stack_provider_targets": [
+        {
+          "commit": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+          "file_line": "pricing.py#L17"
+        }
+      ],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": false,
+      "evidence_sha256": "0e1900cb751f14ddb12b181447fac0a5902604d0a34904e757e925acbea29b34",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "url-ssh-git",
+      "received_tags": {
+        "git.commit.sha": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+        "git.repository_url": "A SSH .git"
+      },
+      "selected_event_stack_provider_targets": [
+        {
+          "commit": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+          "file_line": "pricing.py#L17"
+        }
+      ],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": false,
+      "evidence_sha256": "a4f75cb80be0e3b943a9c528752d145adfa4c25e6cae9aef0d245640471d62d1",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "missing-metadata",
+      "received_tags": {
+        "git.commit.sha": null,
+        "git.repository_url": null
+      },
+      "selected_event_stack_provider_targets": [
+        {
+          "commit": "712435171efef64508cd48d514ac62122c8c5314",
+          "file_line": "pricing.py#L17"
+        }
+      ],
+      "explicit_default_branch_fallback_warning": true,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": false,
+      "evidence_sha256": "2759ee59e3019f7c971a79a017bc91d9c99e947232bb825ffd1992cd488d91d6",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "missing-sha",
+      "received_tags": {
+        "git.commit.sha": null,
+        "git.repository_url": "A canonical HTTPS"
+      },
+      "selected_event_stack_provider_targets": [
+        {
+          "commit": "712435171efef64508cd48d514ac62122c8c5314",
+          "file_line": "pricing.py#L17"
+        }
+      ],
+      "explicit_default_branch_fallback_warning": true,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": false,
+      "evidence_sha256": "3c7cc5c5d795c5a4b9601a9fb1a3a571bc6d9284428ec17fe1e6320777e3434e",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "invalid-sha",
+      "received_tags": {
+        "git.commit.sha": "synthetic-invalid-sha",
+        "git.repository_url": "A canonical HTTPS"
+      },
+      "selected_event_stack_provider_targets": [],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": true,
+      "generic_missing_link_heading": true,
+      "evidence_sha256": "f1a7b907cd52529dfb9849a78e0906bec2b159c6e58997aa9839b3d079d47789",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "nonexistent-sha",
+      "received_tags": {
+        "git.commit.sha": "1111111111111111111111111111111111111111",
+        "git.repository_url": "A canonical HTTPS"
+      },
+      "selected_event_stack_provider_targets": [],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": true,
+      "evidence_sha256": "9855defe3f8cdd8e13ef9a0f37e41df0404ff6e2e28c7b847cf1dd012748f25a",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "wrong-repo-a-sha",
+      "received_tags": {
+        "git.commit.sha": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+        "git.repository_url": "B canonical HTTPS"
+      },
+      "selected_event_stack_provider_targets": [],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": true,
+      "evidence_sha256": "97e2f1f5c5a9e27835100c57c49cf397c78404fbd6b4169c99b6d70846e8a2a9",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    },
+    {
+      "profile": "wrong-repo-b-sha",
+      "received_tags": {
+        "git.commit.sha": "00560ed97513a94426aec424052359d1f5f56085",
+        "git.repository_url": "B canonical HTTPS"
+      },
+      "selected_event_stack_provider_targets": [],
+      "explicit_default_branch_fallback_warning": false,
+      "specific_40_hex_warning": false,
+      "generic_missing_link_heading": true,
+      "evidence_sha256": "a09e5d4fde2afbeea29e36c38191a92eece0b2ae10186125ab35a8511f6727c3",
+      "evidence_kind": "Visible indexed-event tags and selected-event stack; recorded independently."
+    }
+  ],
+  "held_C1_challenge": {
+    "C1": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+    "C2": "2d38d91c9229ce7742b07cb219d1a667128b9d19",
+    "C2_parent": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+    "default_branch_sha": "712435171efef64508cd48d514ac62122c8c5314",
+    "default_branch_unchanged": true,
+    "C2_deployed": false,
+    "named_branch_advanced": "qa-source-group",
+    "before_selected_event_url_timestamp_ms": 1791483405012,
+    "after_selected_event_url_timestamp_ms": 1791483672263,
+    "timestamp_semantics": "Post-C2 timestamp independently verified in debugger.snapshot.timestamp payload; pre-C2 remains selected-event URL timestamp.",
+    "after_sdk_snapshot_timestamp_ms": 1791483672263,
+    "C2_remote_file_verification": "31 lines; unit1300 at18; return at24. GitHub rendered textbox text matched local source after normalizing omitted terminalLF; no raw-byte provider fetch claimed."
+  },
+  "post_C2_timestamp_proof": {
+    "attribute_path": "debugger.snapshot.timestamp",
+    "value_milliseconds": 1791483672263,
+    "utc": "2026-10-08T18:21:12.263Z",
+    "basis": "The visible JSON attributes tree places the exact value under debugger > snapshot > timestamp. This is separately verified from the selected-event URL.",
+    "source_observation_sha256": "8ae0f3272ad3ea52135a777372e31150636d601068876b5cc89a493874ca358e",
+    "private_snapshot_probe_account_repository_identifiers_omitted": true
+  },
+  "C2_provider_text_verification": {
+    "commit": "2d38d91c9229ce7742b07cb219d1a667128b9d19",
+    "parent": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+    "branch": "qa-source-group",
+    "rendered_text_length": 1474,
+    "local_file_length": 1475,
+    "rendered_text_sha256": "195b16b12c7fd3bf547c695e1cc347918f99091480d5926aac15ac13ff94cbee",
+    "local_file_sha256": "c4e5f769aa6b059cccac96a01f34e830c231b54d090b420ad2e3faabd58dfaea",
+    "comparison": "Exact match after normalizing one terminal newline; GitHub file-content textbox omits terminal LF. Raw byte download not performed.",
+    "line24": "    return {",
+    "line18": "    unit_price_cents = 1300"
+  },
+  "limits": [
+    "B URL/SHA variants execute A fixture bytes; observed no-source results are metadata-directed attempts, not authentic B deployment or proof of the authorization-decision cause.",
+    "Missing metadata/SHA explicitly warn about default-branch fallback; no silent-substitution claim.",
+    "The shared source editor must be assessed separately from the selected-event stack.",
+    "The named qa-source-group branch advanced to C2; default branch did not advance and C2 was not deployed.",
+    "Post-C2 execution timestamp is SDK-payload verified; the earlier comparison timestamp remains selected-event URL time.",
+    "Generic missing-link guidance is an observation, not a new confirmed finding.",
+    "The 31-page PDF/Word remain the separately dated V9 snapshot and public V10 findings remain unchanged."
+  ],
+  "findings_unchanged": {
+    "total": 10,
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 6
+  },
+  "reviewed_stills": {
+    "ids": [
+      "177",
+      "178",
+      "179",
+      "180",
+      "181",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186",
+      "187",
+      "188",
+      "189",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "201",
+      "202",
+      "203",
+      "204",
+      "205"
+    ],
+    "count": 28,
+    "scope": "Essential genuine screenshots with separately documented visibility limits. No payload timestamp is visible in these stills; the timestamp proof is independently recorded above."
+  },
+  "later_source_phase_cleanup": {
+    "at_utc": "2026-10-08T18:33:00Z",
+    "observed": "Grouped nine-probe and isolated one-probe sessions are inactive after reload; all ten definitions are disabled. A later unfiltered list shows All 6, Active 0 and Inactive 6.",
+    "runtime": "The bounded runtime job remains running; no new runtime is started. Final process and settings cleanup remains open."
+  },
+  "current_repository_scope": {
+    "at_utc": "2026-10-08T18:35:49Z",
+    "datadog_view": "Connected app lists one repository, A, with search clear.",
+    "provider_limit": "Current GitHub installation checkbox recheck remains behind email reauthentication. No grant change was performed."
+  },
+  "isolated_B_followup": {
+    "test": "One-profile, one-probe session removes the shared-editor ambiguity.",
+    "observed": "The main editor reports that the file was not found; the selected event stack reports a missing repository link. The genuine capture contains quantity 3, total 3600 and unit price 1200.",
+    "limit": "The process executes A fixture bytes with B metadata. No source fallback is observed in this isolated UI test; no authorization-decision cause is established."
+  }
+}
