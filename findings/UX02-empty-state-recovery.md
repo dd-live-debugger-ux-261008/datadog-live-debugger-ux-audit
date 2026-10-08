@@ -46,3 +46,9 @@ Add a contextual “Connect your first service” or prerequisite-check action b
 - Closing the modal returns to the prior page; no session was created in this check.
 - Runtime telemetry is now paused pending specific payload approval. Agent/sample processes are stopped; no runtime ingestion was proved. These setup and authorization limits are not themselves Datadog defects.
 - This finding is limited to the captured empty-state section and modal. It does not claim that no onboarding help exists elsewhere in Datadog.
+
+## Later recovery checks after service discovery
+
+The approved continuation did discover a service. Its wildcard-environment draft provides useful guidance that all-environment creation does not enable the service automatically, with a Go to Configuration link. This positive behavior narrows the earlier empty-account observation.
+
+Two baseline creation attempts later returned an explicit instrumentation-invalid toast and HTTP 400; the error was not silent. The offered Configuration link preserved the draft and opened service-specific setup, where live page inspection reported no environments and source integration remained unconnected. The cause of creation rejection is unresolved; runtime pause and absent source association are not established explanations. This remains a scoped recovery-guidance observation, not evidence that a fully healthy service is incorrectly absent. [Detailed timing and boundaries](../EVIDENCE.md#baseline-submission-attempts).
