@@ -1,6 +1,6 @@
 # Unconfirmed observations and remaining questions
 
-V10 web checkpoint through 14:20:57 UTC. These **five current topics are outside the 10 confirmed/scoped findings and all severity totals**. Historical observations retain their dates. The SDK absent-local topic was resolved in FUNC02; the distinct blank-line diagnostic is now FUNC03.
+V11 web checkpoint through 18:51:18 UTC. These **seven current topics are outside the 10 confirmed/scoped findings and all severity totals**. Historical observations retain their dates. The SDK absent-local topic was resolved in FUNC02; the distinct blank-line diagnostic is now FUNC03.
 
 | Observation | What was established | What is not established / next discriminating check |
 |---|---|---|
@@ -36,4 +36,13 @@ FUNC01's twice-reproduced unsaved-condition loss is confirmed and lives in the f
 
 ## Resolved by the separately dated SDK verification
 
-The unassigned/deleted-local topic was unconfirmed at the live cutoff. An actual installed-package reproduction in ddtrace 4.11.0 finalized at 13:15:37 UTC and was confirmed at 13:16:33 UTC. It demonstrates that unbound/deleted locals serialize with the same NoneType/isNull representation as explicit None while definedness distinguishes them. It is now [Medium FUNC02](findings/FUNC02-unbound-locals-serialized-as-null.md), outside this five-topic inventory. Hosted transport-payload attribution remains unverified; F05’s narrower original PASS is unchanged.
+The unassigned/deleted-local topic was unconfirmed at the live cutoff. An actual installed-package reproduction in ddtrace 4.11.0 finalized at 13:15:37 UTC and was confirmed at 13:16:33 UTC. It demonstrates that unbound/deleted locals serialize with the same NoneType/isNull representation as explicit None while definedness distinguishes them. It is now [Medium FUNC02](findings/FUNC02-unbound-locals-serialized-as-null.md), outside this seven-topic inventory. Hosted transport-payload attribution remains unverified; F05’s narrower original PASS is unchanged.
+
+
+## Sixth topic: generic source lookup guidance
+
+A received valid-length nonexistent revision and wrong-repository pairs show generic missing-link/configuration guidance, unlike the malformed-SHA case’s specific 40-hex diagnostic. The received inputs and positive A/C1 control are verified. Diagnostic usefulness remains under assessment; there is no new source-correctness, private-content exposure or authorization-bypass finding. Same-target metadata correction/recovery is still required by S06.
+
+## Seventh topic: sort choice after refresh
+
+In the retained-event view, explicit ascending order resets to default descending after refresh, while the selected capture identity and values remain correct. The original F17 ordering-after-refresh expectation remains unresolved. This is a scoped behavior observation, not a confirmed defect or a requirement to reactivate capture. Further testing should inspect the sort indicator and actual persistence contract.

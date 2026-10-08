@@ -1,6 +1,6 @@
 # Supplemental executed checks
 
-These **63 narrowly scoped records** are separate from the 63 original cases. U01–U57 preserve earlier dated records; U58–U63 add run-4 observations. A PASS covers only its stated scope and timestamp. Supplemental records never enlarge the original-case denominator or imply end-to-end completion. The historical U51 uncertainty was later resolved within FUNC02’s SDK scope. Historical pending statements are superseded only by explicitly dated later evidence.
+These **72 narrowly scoped records** are separate from the 63 original cases. U01–U57 preserve earlier dated records; U58–U63 add run-4 observations; U64–U72 add the source and retained-state continuation. A PASS covers only its stated scope and timestamp. Supplemental records never enlarge the original-case denominator or imply end-to-end completion. The historical U51 uncertainty was later resolved within FUNC02’s SDK scope. Historical pending statements are superseded only by explicitly dated later evidence.
 
 | Check | Result | UTC | Verified scope | Evidence |
 |---|---|---|---|---|
@@ -104,3 +104,18 @@ This addendum is outside the 13:15:00 UTC live-QA freeze and does not add or res
 | U61 Session-level disabled draft Apply | PARTIAL | About 14:16–14:18 | Parent/child consistency and fresh edited-message capture observed; intended reactivation contract and feedback unresolved. No new finding. | [Evidence](EVIDENCE.md#run-4-session-stop-and-stale-apply) |
 | U62 Clean no-selection Pause | PASS | 14:13:05–14:13:27 | Same visible recent rows retained before/after Pause. Excludes already-auto-paused selected-event comparison. | [Evidence](EVIDENCE.md#run-4-clean-pause-control) |
 | U63 Historical terminal inventory | PARTIAL | 14:20:57 | My sessions off, all filters clear, four inactive sessions and affected-session 12 disabled probes. Runtime terminal; final audit cleanup remains open after later work. | [Evidence](EVIDENCE.md#run-4-terminal-inventory) |
+
+
+## Source and retained-state continuation through 18:51:18 UTC
+
+| Check | Result | UTC | Verified scope | Evidence |
+|---|---|---|---|---|
+| U64 Repository URL forms | PASS | Before 18:35 | Received canonical HTTPS, HTTPS.git and SSH.git each resolve exact C1/line 17. Tested forms/provider only. | [Source controls](EVIDENCE.md#source-phase-metadata-controls) |
+| U65 Source metadata failure variants | PARTIAL | Before 18:35 | Missing tags explicitly disclose fallback; malformed SHA has specific validation; nonexistent/wrong-repository values give generic failure. Same-target correction/recovery remains open. | [Source controls](EVIDENCE.md#source-phase-metadata-controls) |
+| U66 Isolated B metadata request | PASS | Before 18:33 | One-profile session shows no source in main editor or event stack. A fixture bytes with B tags; no authorization-cause claim. | [Source controls](EVIDENCE.md#source-phase-metadata-controls) |
+| U67 Held C1 after branch advance | PASS | SDK 18:21:12.263 | Exact C1 source/value context survives nondeployed C2 advance; default branch unchanged; source actions inspected. | [Held revision](EVIDENCE.md#held-c1-after-named-branch-advance) |
+| U68 Unsaved dismissal routes | PASS | 18:42:30 | Seven distinct routes preserve saved identity/configuration and count without Apply. Inline and modal Escape differ. | [Retained controls](EVIDENCE.md#retained-state-and-navigation-controls) |
+| U69 Existing target identity controls | PARTIAL | Before 18:42 | No editable service/env/location fields exposed. Alternate creation/history identity remains untested. | [Retained controls](EVIDENCE.md#retained-state-and-navigation-controls) |
+| U70 Populated list filters | PARTIAL | 18:45:39 | Services/staging, facet no-match, clear and history checks; no second environment/version selector claim. | [Retained controls](EVIDENCE.md#retained-state-and-navigation-controls) |
+| U71 Retained view controls | PARTIAL | 18:51:18 | Range/pause/recovery/identity checked; ascending resets after refresh and remains under assessment. | [Retained controls](EVIDENCE.md#retained-state-and-navigation-controls) |
+| U72 Source capture inventory | PARTIAL | 18:33–18:35 | Ten new probes disabled/reloaded; unfiltered six inactive sessions; runtime still bounded and ongoing. | [Cleanup](EVIDENCE.md#source-phase-capture-cleanup) |

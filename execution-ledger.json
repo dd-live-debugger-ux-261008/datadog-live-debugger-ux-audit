@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T14:20:57Z",
+  "updated_utc": "2026-10-08T18:51:18Z",
   "cases": [
     {
       "id": "B01",
@@ -78,15 +78,20 @@
       "expected": "Selection labels remain visible; dependencies reset safely; empty results explain active filters; no silent carryover into the wrong target.",
       "evidence_required": "V; selected values at every transition",
       "cleanup": "Restore baseline filters",
-      "status": "BLOCKED",
-      "actual": "The synthetic service was discovered at 04:50:17; only the wildcard environment was selectable. Earlier empty Sessions List search/status/owner/date controls, reload persistence and Clear Filter were verified. Later historical APM navigation used the staging/version filters; widening the recent search window recovered 47 indexed spans. This is APM coverage, not populated Live Debugger result filtering.",
-      "reason": "Only one verified service/environment/version combination is established. The planned multi-value dependency checks need additional populated target combinations; empty-list filter controls were tested separately.",
+      "status": "IN_PROGRESS",
+      "actual": "Populated Sessions List service controls yielded one C1 session and two B-profile sessions. Adding staging preserved two results; a nonexistent service facet search said No matching results while the actual selected list query remained B plus staging. Clearing service then environment restored all six sessions. Back/Forward returned between the saved session and cleared list.",
+      "reason": "The earlier empty-list-only limitation is cleared. Only one actual environment was present, and no Version control was exposed on this surface. Facet-search no-match is not an empty session-result query. No two-environment or cross-version dependency result is claimed.",
       "evidence": [
-        "EVIDENCE.md#empty-session-list-controls",
-        "EVIDENCE.md#approved-setup-milestones"
+        "EVIDENCE.md#retained-state-and-navigation-controls",
+        "evidence/retained-controls-206-216/manifest.json",
+        "evidence/retained-controls-206-216/recorded-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Service/environment/version dependency test; empty-list controls are a separate partial observation."
+      "checkpoint_utc": "2026-10-08T18:51:18Z",
+      "scope": "Service/environment/version dependency test; empty-list controls are a separate partial observation.",
+      "remaining_gaps": [
+        "Add a second genuine test environment/version in the grouped fixture campaign and exercise supported selectors/dependencies.",
+        "Document the tested surface\u2019s absent version control rather than inventing a version-selection result."
+      ]
     },
     {
       "id": "B06",
@@ -464,15 +469,17 @@
       "expected": "Unsaved work is not published; saved work persists; no invisible session creation, duplicate modal, or navigation trap. Warnings, if present, are accurate.",
       "evidence_required": "V, I, R",
       "cleanup": "Cancel drafts; disable unintended test entities",
-      "status": "PENDING",
-      "actual": "Empty-service modal Close, Escape, Back, Forward, refresh and two repeated open/Close cycles recovered cleanly. Ctrl+Enter did not submit the disabled Start action. At 05:43 the edited Function draft was closed; reopening reset to Line mode with empty File/Line, retaining service/environment. The reopened draft was closed. No unsaved draft was published.",
-      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
+      "status": "PASS",
+      "actual": "Seven distinct dismissal/navigation attempts were executed on the disabled saved C1 definition: Cancel, inline Escape followed by Cancel, Back, Forward, refresh, Close of a populated new-probe modal, and modal Escape. The original saved template and verified entity identity persisted; the nine-probe count did not change. No Save or Apply was clicked.",
+      "reason": "The original case requires the established real-capture baseline and before/after count, not active collection during cancellation. Inline Escape leaves its unsaved draft open; Cancel clears it, while modal Escape closes. No publication or invisible creation occurred in the tested attempts. No live-active variant is claimed.",
       "evidence": [
-        "EVIDENCE.md#empty-modal-recovery",
-        "EVIDENCE.md#later-bounded-checks"
+        "EVIDENCE.md#retained-state-and-navigation-controls",
+        "evidence/retained-controls-206-216/manifest.json",
+        "evidence/retained-controls-206-216/recorded-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Navigation and cancellation on empty and edited drafts; saved-configuration and live-runtime variants remain pending."
+      "checkpoint_utc": "2026-10-08T18:51:18Z",
+      "scope": "Navigation and cancellation on empty and edited drafts; saved-configuration and live-runtime variants remain pending.",
+      "remaining_gaps": []
     },
     {
       "id": "F15",
@@ -482,14 +489,19 @@
       "expected": "Target identity obeys product's immutability contract; alternate creation cannot mislabel old events as belonging to a new target.",
       "evidence_required": "V, I, R",
       "cleanup": "Disable alternate test entity",
-      "status": "PENDING",
-      "actual": "No result for the planned case is established.",
-      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
+      "status": "IN_PROGRESS",
+      "actual": "The existing edit exposes message/capture settings and targeting-instance tags. Service, environment and source location are displayed without editable identity fields; clicking the service badge did not expose retargeting.",
+      "reason": "This is observed UI behavior, not proof of the full immutability contract or the supported alternate-creation branch. Earlier distinct profiles do not substitute for following that alternate flow from this existing target.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#retained-state-and-navigation-controls",
+        "evidence/retained-controls-206-216/manifest.json",
+        "evidence/retained-controls-206-216/recorded-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Attempt to edit original target service/environment/location on an existing logpoint; use the UI's supported alternate flow if blocked."
+      "checkpoint_utc": "2026-10-08T18:51:18Z",
+      "scope": "Attempt to edit original target service/environment/location on an existing logpoint; use the UI's supported alternate flow if blocked.",
+      "remaining_gaps": [
+        "Use the supported alternate-target creation flow and verify that historical events retain the original target identity."
+      ]
     },
     {
       "id": "F16",
@@ -523,14 +535,19 @@
       "expected": "Empty views and stale streams are attributable to controls; correct ordering/identity survives refresh; no duplicate rendering presented as extra execution.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Restore standard range/filters",
-      "status": "PENDING",
-      "actual": "A supplemental stream-control observation during the F07 work: using Play restored current events after a historical pause. This does not execute the full original time-range, pause/resume, sort, clear-filter and reopen sequence.",
-      "reason": "Retain PENDING for the original combined control/identity case. One recorder-reported resume recovery is a scoped positive observation; the remaining planned variants and refresh/identity checks are not established.",
+      "status": "IN_PROGRESS",
+      "actual": "On retained genuine captures in an inactive session, a verified 300000 ms five-minute range excluded the events and showed the selected-time-range empty state. View Pause/Play toggled paused state without reactivating capture. Restoring one hour recovered the events. Descending and ascending order were inspected; after selecting quantity 3 / total 3600, refresh preserved the same snapshot identity and 18 unique rendered event identities.",
+      "reason": "Retained events meet the original genuine-event precondition. Explicit ascending resets to default descending after refresh, so the original ordering-after-refresh expectation remains unresolved. This is a behavior observation without a newly confirmed finding. The failed custom-range automation preparation was not applied and is unscored.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#retained-state-and-navigation-controls",
+        "evidence/retained-controls-206-216/manifest.json",
+        "evidence/retained-controls-206-216/recorded-outcomes.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Narrow time range to exclude newest events, pause/resume stream, change sorting, clear filters, reopen event."
+      "checkpoint_utc": "2026-10-08T18:51:18Z",
+      "scope": "Narrow time range to exclude newest events, pause/resume stream, change sorting, clear filters, reopen event.",
+      "remaining_gaps": [
+        "Repeat and assess ascending/refresh behavior against the actual sort-state contract, including the displayed sort indicator."
+      ]
     },
     {
       "id": "F18",
@@ -542,12 +559,13 @@
       "cleanup": "Leave runtime in agreed baseline state",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated runtime restart permitted.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "While session is active, stop/restart only test process, then send traffic. Compare runtime status and capture recovery."
+      "scope": "While session is active, stop/restart only test process, then send traffic. Compare runtime status and capture recovery.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "F19",
@@ -559,12 +577,13 @@
       "cleanup": "Restore test Agent/config; verify health",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated forwarding failure permitted.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Preserve config; deliberately stop only test Agent or use approved test-only disconnected state. Restore and repeat baseline."
+      "scope": "Preserve config; deliberately stop only test Agent or use approved test-only disconnected state. Restore and repeat baseline.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "F20",
@@ -576,12 +595,13 @@
       "cleanup": "Stop extra fixture instance; disable experiments",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; two fixture versions/envs with distinct numeric outputs.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Target one version/environment, produce traffic in both, inspect event tags and source view; then deliberately choose the other."
+      "scope": "Target one version/environment, produce traffic in both, inspect event tags and source view; then deliberately choose the other.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "F21",
@@ -643,12 +663,13 @@
       "cleanup": "Stop burst; return traffic to baseline",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; tiny burst test approved.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Compare normal 1.1-second traffic with a short bounded burst using a separate approved generator. Do not change the supplied script to unbounded load."
+      "scope": "Compare normal 1.1-second traffic with a short bounded burst using a separate approved generator. Do not change the supplied script to unbounded load.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "S01",
@@ -693,15 +714,20 @@
       "expected": "A works; ungranted B's private source is not returned through this integration. B's failure is actionable without implying broad grants are mandatory. Repo-name discoverability alone is not source-content leakage.",
       "evidence_required": "V, I, A, R; B unique marker if exposed",
       "cleanup": "Keep B ungranted; close attempt",
-      "status": "PENDING",
-      "actual": "A-only grant and successful A source retrieval are verified. Searching the ungranted B repository in the source picker produced no match.",
-      "reason": "Discovery absence is not proof of denied private-content retrieval. The exact never-granted B file/commit request through a supported route remains pending; B has never been granted.",
+      "status": "IN_PROGRESS",
+      "actual": "The exact B metadata request and isolated editor failure are observed. Current Datadog lists only A; current GitHub installation checkbox verification remains behind reauthentication. Do not infer the underlying authorization decision or a general private-content boundary from a generic missing-source result.",
+      "reason": "Scoped source-phase result. Actual received metadata, event-stack observations and independent oracles are distinguished from interpretation; no new finding is added.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates",
-        "EVIDENCE.md#repository-boundary-limit"
+        "EVIDENCE.md#source-phase-metadata-controls",
+        "evidence/source-phase-177-199/manifest.json",
+        "evidence/source-phase-177-199/source-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Record effective A-only grant. Search B in Datadog. If B is selectable/known by URL, request its exact file/commit through supported UI. Test A as positive control."
+      "checkpoint_utc": "2026-10-08T18:35:49Z",
+      "scope": "Record effective A-only grant. Search B in Datadog. If B is selectable/known by URL, request its exact file/commit through supported UI. Test A as positive control.",
+      "remaining_gaps": [
+        "Finish supported current GitHub grant reauthentication and assess the private-content authorization boundary without inferring it from generic failure."
+      ],
+      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
     },
     {
       "id": "S04",
@@ -711,14 +737,18 @@
       "expected": "No fallthrough to A, default branch, another installation, or same-named repository without explicit correct identity. Never fetch unauthorized B contents by an alternate account.",
       "evidence_required": "V, I, A, T",
       "cleanup": "Restore test instance mapping to A; restart if needed",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved test service tagged to B.",
+      "status": "PASS",
+      "actual": "PASS for the original metadata-directed no-fallthrough experiment. A dedicated one-profile B URL/B SHA test produced genuine A-fixture captures, while both its main source editor and event stack showed no source. No A/default fallback was observed. This is not authentic B execution or proof of the authorization-decision cause.",
+      "reason": "Scoped source-phase result. Actual received metadata, event-stack observations and independent oracles are distinguished from interpretation; no new finding is added.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#source-phase-metadata-controls",
+        "evidence/source-phase-177-199/manifest.json",
+        "evidence/source-phase-177-199/source-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Map only a dedicated test instance to known B URL/SHA without granting B. Open its code from a real synthetic event; compare same-named A file."
+      "checkpoint_utc": "2026-10-08T18:35:49Z",
+      "scope": "Map only a dedicated test instance to known B URL/SHA without granting B. Open its code from a real synthetic event; compare same-named A file.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
     },
     {
       "id": "S05",
@@ -728,14 +758,18 @@
       "expected": "Runtime context stays tied to C1; latest branch must not silently replace deployed source or move a logpoint to a semantically different line.",
       "evidence_required": "V, I, T; C1/C2 evidence",
       "cleanup": "Keep approved repo history; reset UI to C1",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; A has C1 and newer C2; C1 remains deployed.",
+      "status": "PASS",
+      "actual": "PASS for held C1 after advancing the named source branch to nondeployed C2. C2 shifts seven lines and changes unit price to 1300; a payload-timestamped execution at 18:21:12.263 retains C1 line 17 and unit price 1200. The source-actions menu offered no latest-source control; C1 remained selected. Default branch was not advanced.",
+      "reason": "Scoped source-phase result. Actual received metadata, event-stack observations and independent oracles are distinguished from interpretation; no new finding is added.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#source-phase-metadata-controls",
+        "evidence/source-phase-177-199/manifest.json",
+        "evidence/source-phase-177-199/source-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "In C2 shift the pricing lines and change a numeric marker; do not deploy C2. Open fresh C1 event/source; inspect any latest-source option separately."
+      "checkpoint_utc": "2026-10-08T18:35:49Z",
+      "scope": "In C2 shift the pricing lines and change a numeric marker; do not deploy C2. Open fresh C1 event/source; inspect any latest-source option separately.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
     },
     {
       "id": "S06",
@@ -745,14 +779,20 @@
       "expected": "Distinct diagnosable failures; no misleading source success or silent substitution. Correcting metadata restores source on new telemetry.",
       "evidence_required": "V, I, T, R, H",
       "cleanup": "Restore A/C1 mapping and confirm",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; authorized fixture metadata variant.",
+      "status": "IN_PROGRESS",
+      "actual": "The independent metadata variants ran and their received tags and UI outcomes were inspected. Missing metadata/SHA explicitly disclose fallback; malformed SHA has a specific diagnostic; other failures give generic guidance. Same-profile correction and source recovery on new telemetry have not run, so the full case remains incomplete.",
+      "reason": "Scoped source-phase result. Actual received metadata, event-stack observations and independent oracles are distinguished from interpretation; no new finding is added.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#source-phase-metadata-controls",
+        "evidence/source-phase-177-199/manifest.json",
+        "evidence/source-phase-177-199/source-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Independently test absent SHA, syntactically invalid SHA, valid-length nonexistent SHA, then real SHA with wrong repository. Restore exact mapping between runs."
+      "checkpoint_utc": "2026-10-08T18:35:49Z",
+      "scope": "Independently test absent SHA, syntactically invalid SHA, valid-length nonexistent SHA, then real SHA with wrong repository. Restore exact mapping between runs.",
+      "remaining_gaps": [
+        "Correct the same failing target/profile and verify exact A/C1 source on new telemetry; preserve same-target identity and isolate recovery from another healthy service."
+      ],
+      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
     },
     {
       "id": "S07",
@@ -764,12 +804,13 @@
       "cleanup": "Stop extra version if temporary",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved A/C1 and A/C2 deployments.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Show both versions under same service/environment. Switch versions quickly, back/forward, and open direct event links."
+      "scope": "Show both versions under same service/environment. Switch versions quickly, back/forward, and open direct event links.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "S08",
@@ -781,12 +822,13 @@
       "cleanup": "Remove temporary drafts; keep approved fixture history",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2; available filename/path variants; G4 to create.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Test same basename in two directories, moved/renamed file across commits, and path with spaces or non-ASCII. Select by full path."
+      "scope": "Test same basename in two directories, moved/renamed file across commits, and path with spaces or non-ASCII. Select by full path.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "S09",
@@ -796,14 +838,18 @@
       "expected": "Documented forms normalize consistently; unsupported forms fail helpfully; credentials are never included in URLs.",
       "evidence_required": "V, I, T",
       "cleanup": "Restore canonical mapping",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; mapping variants allowed.",
+      "status": "PASS",
+      "actual": "PASS for the observed canonical HTTPS, HTTPS .git and SSH .git forms, each resolving to exact C1 and line 17. The baseline canonical mapping was not changed; the isolated variant probes were stopped and canonical source remained selected. Only these tested forms/provider are covered.",
+      "reason": "Scoped source-phase result. Actual received metadata, event-stack observations and independent oracles are distinguished from interpretation; no new finding is added.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#source-phase-metadata-controls",
+        "evidence/source-phase-177-199/manifest.json",
+        "evidence/source-phase-177-199/source-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Compare canonical HTTPS URL, trailing `.git`, and supported SSH-style repository metadata, one at a time. Inspect displayed provider link."
+      "checkpoint_utc": "2026-10-08T18:35:49Z",
+      "scope": "Compare canonical HTTPS URL, trailing `.git`, and supported SSH-style repository metadata, one at a time. Inspect displayed provider link.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "All ten source-phase experimental definitions stopped and reloaded disabled by 18:33; canonical C1 source retained. Bounded runtime termination and whole-audit restoration remain under C01/C02."
     },
     {
       "id": "S10",
@@ -967,17 +1013,17 @@
       "evidence_required": "I, R, T; final active count",
       "cleanup": "Record remaining authorized entities explicitly",
       "status": "IN_PROGRESS",
-      "actual": "Run 4 ended successfully at 14:19:29. At 14:20:57, Sessions List with My sessions off and all other filters cleared showed All 4 / Active 0 / Inactive 4; the affected session had 12 disabled probes. Accounts, repositories, keys and the A-only grant were intentionally retained. This is a historical run-4 inventory; source-integration work subsequently resumed.",
-      "reason": "The run-4 terminal inventory materially advances cleanup. Final direct-link/post-stop traffic reconciliation for the whole audit must follow the subsequent source work; zero active at an earlier time is not a current inactivity certificate.",
+      "actual": "At 18:33 the grouped source session\u2019s nine probes and isolated B session\u2019s one probe were individually disabled and reloaded with inactive parents. Later unfiltered inventory showed All 6 / Active 0 / Inactive 6; the current Datadog connected app listed only repository A. Subsequent draft/filter/retained-view checks did not activate probes. The bounded runtime was still running at this checkpoint.",
+      "reason": "Final runtime termination, post-stop capture checks and whole-audit process/settings/identity/fixture/grant reconciliation remain open. A zero-active list is a dated capture inventory, not complete restoration. Further original-case work is planned.",
       "evidence": [
-        "EVIDENCE.md#run-4-terminal-inventory",
-        "evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png"
+        "EVIDENCE.md#source-phase-capture-cleanup",
+        "evidence/source-phase-177-199/205-final-six-inactive-sessions-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T14:20:57Z",
+      "checkpoint_utc": "2026-10-08T18:51:18Z",
       "scope": "Final session/logpoint cleanup, direct-link state and post-stop traffic. Run-4 and later 17:22 inactive inventories are historical checkpoints; final reconciliation follows any resumed tests.",
       "remaining_gaps": [
-        "Reconcile any later source-phase sessions and definitions, then recheck final direct links and the active inventory.",
-        "Preserve the distinction between disabled capture and retained historical events; record post-stop traffic evidence when applicable."
+        "Verify the current bounded job reaches terminal state and reconcile owned runtime cleanup.",
+        "After the last planned case, reconcile all definitions, direct links, post-stop telemetry, settings, fixture history and intentionally retained assets."
       ],
       "cleanup_assessment": "OPEN for final whole-audit reconciliation; run-4 terminal capture inventory is verified."
     },
@@ -990,17 +1036,17 @@
       "evidence_required": "A, H, R; nonsecret before/after summary",
       "cleanup": "Complete authorized restorations",
       "status": "IN_PROGRESS",
-      "actual": "Run 4 ended successfully at 14:19:29. At 14:20:57, Sessions List with My sessions off and all other filters cleared showed All 4 / Active 0 / Inactive 4; the affected session had 12 disabled probes. Accounts, repositories, keys and the A-only grant were intentionally retained. This is a historical run-4 inventory; source-integration work subsequently resumed.",
-      "reason": "The bounded run is terminal and its retained assets are disclosed. A complete final process/settings/grant/identity/fixture inventory still follows ongoing source work; a stopped runtime alone is not proof of complete restoration.",
+      "actual": "At 18:33 the grouped source session\u2019s nine probes and isolated B session\u2019s one probe were individually disabled and reloaded with inactive parents. Later unfiltered inventory showed All 6 / Active 0 / Inactive 6; the current Datadog connected app listed only repository A. Subsequent draft/filter/retained-view checks did not activate probes. The bounded runtime was still running at this checkpoint.",
+      "reason": "Final runtime termination, post-stop capture checks and whole-audit process/settings/identity/fixture/grant reconciliation remain open. A zero-active list is a dated capture inventory, not complete restoration. Further original-case work is planned.",
       "evidence": [
-        "EVIDENCE.md#run-4-terminal-inventory",
-        "evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png"
+        "EVIDENCE.md#source-phase-capture-cleanup",
+        "evidence/source-phase-177-199/205-final-six-inactive-sessions-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T14:20:57Z",
+      "checkpoint_utc": "2026-10-08T18:51:18Z",
       "scope": "Full environment inventory and restoration; only the named stop/grant/retention checks are complete.",
       "remaining_gaps": [
-        "Reconcile subsequent runtime/source variants and their final processes, settings, grant scope, identities and fixtures.",
-        "Report intentionally retained accounts, repositories, keys and integration scope without claiming deletion or revocation."
+        "Verify the current bounded job reaches terminal state and reconcile owned runtime cleanup.",
+        "After the last planned case, reconcile all definitions, direct links, post-stop telemetry, settings, fixture history and intentionally retained assets."
       ],
       "cleanup_assessment": "OPEN for final whole-audit reconciliation; run-4 terminal capture inventory is verified."
     },
@@ -1033,12 +1079,13 @@
       "cleanup": "Stop the extra replica and disable experiments.",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; two approved test replicas at C1/C2 during a rolling deployment.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Keep both commits active under one service/environment; give each replica a unique numeric marker; capture bounded traffic and open each event source."
+      "scope": "Keep both commits active under one service/environment; give each replica a unique numeric marker; capture bounded traffic and open each event source.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "X02",
@@ -1107,12 +1154,13 @@
       "cleanup": "Restore approved baseline or document the final deployed commit; disable experiment.",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; C2 shifts the original selected statement to a new line.",
+      "reason": "Executable setup gap: the original case needs the next grouped isolated A-fixture campaign. This is not a permanent product or access blocker. Preserve the original prerequisites and execute the real deployment/restart/path/burst branch before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
       "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Capture baseline at C1; deploy C2; inspect installed target, displayed source, and new captures."
+      "scope": "Capture baseline at C1; deploy C2; inspect installed target, displayed source, and new captures.",
+      "execution_dependency": "Engineered grouped fixture run; see REMAINING_WORK.md."
     },
     {
       "id": "X06",
@@ -1247,27 +1295,31 @@
     {
       "at_utc": "2026-10-08T14:20:57Z",
       "observation": "Run4 completes X03 positive707 invocation, F08 bounded duplicate-submission control and F06 invalid-line matrix with Low FUNC03. F10 state consistency advances, but feedback remains unconfirmed; historical unfiltered terminal inventory is verified."
+    },
+    {
+      "at_utc": "2026-10-08T18:51:18Z",
+      "observation": "Source metadata/no-fallthrough/held-revision and URL-form controls, draft cancellation and retained-view checks reconciled. S04/S05/S09/F14 pass within original scope; S03/S06/B05/F15/F17 remain incomplete. No new finding. Grouped runtime still ongoing."
     }
   ],
   "status_counts": {
-    "BLOCKED": 24,
+    "BLOCKED": 19,
     "FINDING": 8,
-    "IN_PROGRESS": 7,
-    "PASS": 18,
-    "PENDING": 6
+    "IN_PROGRESS": 12,
+    "PASS": 22,
+    "PENDING": 2
   },
-  "checkpoint_type": "V10 web-only run-4 checkpoint through 2026-10-08 14:20:57 UTC. PDF and Word retain the separate V9 snapshot. Subsequent source-phase outcomes are not scored.",
+  "checkpoint_type": "V11 web checkpoint through18:51:18UTC. Current runtime remains ongoing. PDF/Word retain V9. Source16 motion remains under privacy review.",
   "finding_accounting": {
-    "live_cutoff_utc": "2026-10-08T14:20:57Z",
+    "live_cutoff_utc": "2026-10-08T18:51:18Z",
     "combined_distinct_findings_after_separate_verification": 10,
     "combined_severity": {
       "HIGH": 0,
       "MEDIUM": 4,
       "LOW": 6
     },
-    "remaining_unconfirmed_topics_after_verification": 5,
-    "new_finding": "FUNC03",
-    "new_finding_scope": "Observed blank-line diagnostic plus separately checked source/SDK provenance; rejection itself is appropriate.",
+    "remaining_unconfirmed_topics_after_verification": 7,
+    "new_finding": null,
+    "new_finding_scope": "No new confirmed finding in the source/retained-state continuation.",
     "no_duplicate_finding": "F10 state-consistency observations do not resolve the Apply-feedback candidate."
   },
   "post_cutoff_addenda": [
@@ -1298,6 +1350,21 @@
       "at_utc": "2026-10-08T17:22:00Z",
       "observation": "Recorder-verified unfiltered All 4 / Active 0 / Inactive 4, affected-session 12 probes individually DISABLED and 0 instances. Grouped-source job ended successfully at 16:33 UTC with job-owned runtime cleanup completion. C1 session draft was never submitted. Source 15 recording stopped at 17:20:52, privacy review pending. No source-case status upgrade or complete settings/grant/fixture restoration inferred.",
       "original_case_statuses_changed": false
+    },
+    {
+      "kind": "TERMINAL_RUNTIME_AND_INVENTORY",
+      "observed_terminal_utc": "2026-10-08T19:09:43Z",
+      "result": "Source-run attempt2 SUCCEEDED in1h30m50s with explicit job-owned runtime cleanup completion.",
+      "post_terminal_inventory_utc": "2026-10-08T19:10:18Z",
+      "inventory": {
+        "all": 6,
+        "active": 0,
+        "inactive": 6,
+        "my_sessions": false
+      },
+      "evidence": "evidence/source-phase-177-199/runtime-terminal-status.json",
+      "original_case_statuses_changed": false,
+      "limits": "Named bounded runtime and dated capture inventory verified; retained accounts, repositories, keys, grants and fixture history not deleted or revoked. Further original-case execution and final whole-audit reconciliation remain."
     }
   ],
   "prior_checkpoint": {
@@ -1317,5 +1384,37 @@
       "LOW": 5
     },
     "documents_unchanged": true
+  },
+  "remaining_work_categories": {
+    "engineerable_fixture_setup": [
+      "F18",
+      "F19",
+      "F20",
+      "F23",
+      "S07",
+      "S08",
+      "X01",
+      "X05"
+    ],
+    "independent_access_or_approval": [
+      "B06",
+      "S10",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "X08"
+    ],
+    "fresh_participant": [
+      "B01"
+    ],
+    "feature_context": [
+      "S17",
+      "S18"
+    ],
+    "mixed_environment_and_second_authorized_fork": [
+      "X02"
+    ],
+    "details": "REMAINING_WORK.md"
   }
 }

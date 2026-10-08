@@ -1,36 +1,28 @@
 # Datadog Live Debugger and Source Code Integration audit
 
-V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
+V11 web checkpoint: evidence through **8 October 2026, 18:51:18 UTC**. The 63 original definitions are preserved: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are outside severity totals. Further original-case work is planned; dated runtime and cleanup updates are kept separately.
 
-The new Low [FUNC03 finding](findings/FUNC03-blank-line-decorator-diagnostic.md) concerns a misleading unsupported-decorator explanation for a blank line. Valid executable-line captures work. Quiet-target recovery and the bounded duplicate-submission control also passed. The audit remains ongoing; source variants and final cleanup are not complete.
+The new source controls preserve the deployed C1 revision after a different branch advances, normalize the tested repository URL forms, and show no source fallback in an isolated B-metadata request. Unsaved dismissal/navigation controls also passed. Missing metadata explicitly warns about default-branch fallback; generic failure and sort-refresh behavior remain scoped observations, not new confirmed defects.
 
 ## Read the results
 
 - [Severity-ranked findings](findings.md#severity-ranked-finding-index), [High only](high-severity.md), [Medium](findings.md#medium-severity), [Low](findings.md#low-severity)
 - [Part 1 beginner UX](QA_MATRIX.md#track-1-complete-beginner-ux) and [Part 2 detailed functional QA](QA_MATRIX.md#track-2a-live-debugger-functional-depth)
-- [All 63 original case outcomes](QA_MATRIX.md), [separately scoped executed checks](EXECUTED_CHECKS.md), [evidence and timestamps](EVIDENCE.md)
-- [Current status and retained assets](CURRENT_STATUS.md), [unconfirmed observations](UNCONFIRMED_OBSERVATIONS.md), [safe recordings and edits](VIDEOS.md), [beginner glossary](glossary.md)
+- [All 63 original outcomes](QA_MATRIX.md), [supplemental executed records](EXECUTED_CHECKS.md), [evidence](EVIDENCE.md), [unresolved topics](UNCONFIRMED_OBSERVATIONS.md)
+- [Current state and cleanup](CURRENT_STATUS.md), [remaining execution plan](REMAINING_WORK.md), [reviewed recordings](VIDEOS.md), [glossary](glossary.md)
 
-The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
+The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live cutoff 13:15:00 UTC and separate SDK verification 13:16:33 UTC. They have not been regenerated for this web checkpoint; use these web pages for the later evidence.
 
-## What run 4 established
+## What this continuation established
 
-- F06 is FINDING: blank/comment targets were rejected and executable line 17 recovered correctly. The blank-line explanation is Low FUNC03; it does not imply that blank lines should be instrumentable.
-- X03 is PASS: the quiet target was distinguishable from a failed target and produced the expected 707 value after its single positive invocation.
-- F08 is PASS for one rapid double-click plus Return submission: one new definition, unchanged count after reload, correct captured values.
-- F10 stays IN_PROGRESS: the session-level update sequence produced coherent parent/child states and fresh captures, but the intended Apply-reactivation contract and feedback remain unresolved.
-- At 14:20:57, the unfiltered inventory showed four inactive sessions and no active session. All 12 probes in the run-4 session were disabled. Later source work makes this a historical checkpoint; C01/C02 remain open.
+- S04 passes the original metadata-directed no-fallthrough experiment: a dedicated B URL/B SHA session shows no source in either its editor or event stack. It executes A fixture bytes and does not establish the authorization-decision cause or authentic B execution.
+- S05 passes held-C1 attribution after the named branch advances to nondeployed C2. The actual SDK execution at 18:21:12.263 UTC retains C1 line 17 and unit price 1200. Default branch was unchanged.
+- S09 passes the tested canonical HTTPS, HTTPS.git and SSH.git forms, each resolving to exact C1 source.
+- F14 passes the separate dismissal/navigation attempts. Saved configuration and count persisted without publication. Inline Escape kept its draft open, which Cancel then discarded.
+- B05, F15 and F17 advance without claiming their unexecuted branches. S03’s effective-grant/private-content interpretation and S06’s same-target correction/recovery remain open.
 
-## Earlier findings and baseline retained
+## Remaining work is actionable
 
-Medium FUNC01 is twice-reproduced unsaved-draft loss. Medium FUNC02 is the measured ddtrace 4.11.0 absent-versus-None serialization defect; hosted transport-payload attribution remains unverified. The invalid Python quickstart and interrupted source-linking recovery findings also remain. All finding pages contain inline genuine screenshots with stated visibility limits.
+Eight setup-blocked cases can be engineered in one grouped A-fixture campaign: real C1/C2 deployments, two environments, path variants, controlled application/Agent restarts and a bounded burst. Additional active-session and complex-value branches can share that run. These setup gaps are not permanent access blockers. Separate identity, revocation, second-fork and feature-availability gates remain explicit in the [plan](REMAINING_WORK.md).
 
-The numeric quantity 2/3/4 controls, exact deployed-source match, conditional controls and bounded expiry/history results remain established. The quantity-three pricing error is deliberately planted in the application fixture and is not a Datadog defect. B remains ungranted; a discovery no-match is not a private-content-denial test.
-
-## Recording and evidence coverage
-
-Source 13's reviewed archive and highlights are now cataloged alongside source 14. [Source 12 and 13 timing clarifications](VIDEOS.md#recorded-timing-and-frame-interpretation) distinguish nominal timeline indices from physical stored frames; earlier videos and manifests are unchanged. No missing UI transition has been reconstructed, and screenshots are not presented as motion.
-
-## Remaining limits
-
-The original 63 definitions and cleanup requirements are preserved. Function entry, saved-write conflicts, deeper value/cycle checks, restricted identities, source-isolation variants and final all-environment cleanup remain incomplete or blocked. The later grouped source runtime was successful, but its completion alone does not pass a source-mapping case. See the dated [status](CURRENT_STATUS.md).
+All reviewed screenshots remain genuine crops/opaque masks or disclosed outlines. No missing UI transition has been reconstructed. Source 15 contains a long disclosed idle period; source 16’s finalized raw recording is awaiting privacy-reviewed export and is excluded from published media totals.

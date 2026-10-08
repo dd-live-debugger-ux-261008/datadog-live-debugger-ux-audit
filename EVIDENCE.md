@@ -1,14 +1,14 @@
 # Evidence and checkpoint scope
 
-V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
+V11 web checkpoint: evidence through **8 October 2026, 18:51:18 UTC**. The 63 original definitions are preserved: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are outside severity totals. Further original-case work is planned; dated runtime and cleanup updates are kept separately.
 
-Earlier V8/V9 sections retain their dated observations and limitations. The current run-4 sections below supersede their pending-control and inventory statements. Earlier blockers and zero-session counts do not describe the present state. The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
+Earlier V8/V9 sections retain their dated observations and limitations. Later run-4 and source-phase sections below supersede their dated pending-control and inventory statements. Earlier blockers and zero-session counts do not describe the present state. The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4, source controls and retained-state checks.
 
 ## Checkpoint and gates
 
 The initial and additional runtime approvals were received. The hosted synthetic baseline now has a registered debugger SDK client, actual numeric-template captures and a verified source match. The approved same-A-only reinstall repaired the interrupted source association. B remains private and never granted; discovery no-match is not a content-denial test. Independent role contexts and several controlled deployment/failure-injection variants remain unavailable.
 
-Current cases: 18 PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED, totaling 63. Ten distinct findings: 0 High, 4 Medium and 6 Low. Five current unconfirmed topics remain outside finding totals. [Current status](CURRENT_STATUS.md) · [Case ledger](execution-ledger.json) · [Unconfirmed inventory](UNCONFIRMED_OBSERVATIONS.md).
+Current cases: 22 PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED, totaling 63. Ten distinct findings: 0 High, 4 Medium and 6 Low. Seven current unresolved topics remain outside finding totals. [Current status](CURRENT_STATUS.md) · [Case ledger](execution-ledger.json) · [Unconfirmed inventory](UNCONFIRMED_OBSERVATIONS.md).
 
 G1 is established for the tested healthy baseline. G2 is established for A source retrieval and deployed-revision matching, with B still ungranted; the broader B retrieval boundary remains unproved. G3/G4 case-specific prerequisites must still be satisfied. Readiness, capture, source, access boundaries and cleanup are separate claims. The retained runtime/control/experimental assets are intentional; full cleanup is not certified.
 
@@ -494,3 +494,50 @@ Subsequent source-integration work resumed. A later unscored browser check at 17
 ## Current media and document boundary
 
 Sources 13 and 14 now have privacy-reviewed archives and highlights in the [video catalog](VIDEOS.md), with original-speed footage, masks/crops and omissions disclosed. Earlier source-12/13 media bytes remain unchanged; timing sidecars correct nominal-versus-stored-frame interpretation. No missing transition is reconstructed or replaced by an inserted still. The PDF/Word remain the separately dated V9 snapshot.
+
+
+## Source phase metadata controls
+
+Nine isolated synthetic profiles produced genuine captures. Indexed event tags were inspected separately from process configuration. Canonical HTTPS, trailing .git and SSH .git forms each resolved to repository A, C1 revision 9fd3f277d9047dc8fc55d2b77ac8e375184a1453, pricing.py line 17.
+
+Missing both repository/SHA tags and missing SHA alone explicitly warned that Datadog used the default branch’s latest commit, 712435171efef64508cd48d514ac62122c8c5314. This is disclosed fallback, not silent substitution. The malformed synthetic-invalid-sha value produced a specific 40-hexadecimal-character diagnostic. Valid-length nonexistent SHA and wrong-repository pairs produced generic missing-link/configuration guidance. No source-correctness or security finding is inferred from those generic failures.
+
+Both B metadata combinations were checked in received tags: B URL with B’s real SHA, and B URL with A/C1 SHA. A separate one-profile, one-probe B/B-SHA session removed shared-editor ambiguity: its main editor said the file was not found and its selected-event stack showed no repository source link. The actual process ran A fixture bytes with B metadata. This passes S04’s metadata/no-fallthrough scope, not authentic B execution or proof that authorization enforcement caused the failure. S03 remains incomplete; current provider-checkbox reauthentication is still blocked. S06 still needs correcting the same failed target and observing restored source on new telemetry.
+
+[Reviewed source screenshots and limits](evidence/source-phase-177-199/manifest.json) · [Safe received-metadata and timestamp observations](evidence/source-phase-177-199/source-observations.json).
+
+## Held C1 after named branch advance
+
+The qa-source-group branch advanced from C1 to C2 revision 2d38d91c9229ce7742b07cb219d1a667128b9d19, shifting the function seven lines and changing unit price to 1300. C2 was not deployed and the default branch did not move. GitHub rendered text matched the reviewed local C2 source after normalizing one omitted terminal linefeed; a raw-byte provider download is not claimed.
+
+A newer actual SDK execution at **18:21:12.263 UTC** remained C1 pricing.py line 17, quantity 3, subtotal/total 3600 and unit price 1200. Its debugger.snapshot.timestamp was independently inspected; the earlier 18:16:45.012 comparison remains a selected-event URL timestamp. Source actions offered editor/GitHub/blame/commit routes pointing to C1, with no latest-source control in the inspected menu; C1 was retained after dismissal. This establishes S05’s named-branch held-revision experiment, not a real C2 rollout or default-branch drift test.
+
+The after-state source still 197 does not show below-frame captured values. Still 202 shows unit price 1200; the full values and timestamp are supported by separately inspected recorded attributes. No screenshot is described as showing a field outside its frame.
+
+## Retained state and navigation controls
+
+F14’s seven separate dismissal/navigation attempts preserved the saved definition, entity identity and nine-probe count without Save or Apply. Inline Escape kept the unsaved inline draft open; Cancel then discarded it. Escape on a populated new-probe modal closed the modal. No live-active edit is claimed, and the original case does not require one.
+
+F15’s inspected editor did not expose service/environment/location retargeting. Its supported alternate-creation and historical-identity branch remains open. B05 now has populated service/staging filtering and clearing/history observations; the facet search’s No matching results did not clear or replace the actual session query. Only one real environment existed and no Version filter was exposed on that surface.
+
+F17 used retained genuine events. A verified five-minute range excluded them, viewing Pause/Play did not activate capture, and restoring one hour recovered them. Date sort and selected quantity 3/total 3600 were checked; refresh preserved the exact snapshot identity and 18 unique rendered identities. Explicit ascending returned to default descending after refresh. The original ordering-after-refresh expectation remains unresolved; no new finding is assigned. Screenshot 212’s failed custom-range preparation is excluded.
+
+[Reviewed retained-control screenshots](evidence/retained-controls-206-216/manifest.json) · [Recorded outcomes with identifiers omitted](evidence/retained-controls-206-216/recorded-outcomes.json). Still 206 does not show the unsaved draft; 209 shows the populated menu rather than the one-result selection; 211 does not show restored list filters. Their captions separate pixels from independently recorded outcomes.
+
+## Source phase capture cleanup
+
+At 18:33 UTC, nine grouped probes and the isolated B probe were individually disabled and their parent sessions reloaded inactive. The later unfiltered list had My sessions off and showed **All 6 / Active 0 / Inactive 6**. Datadog’s current repository list showed one connected repository, A, at 18:35:49 UTC. That view is distinct from the current GitHub installation checkbox, which remained behind email reauthentication. No scope change was made.
+
+The runtime continued within its approved bound at this checkpoint. Retained-view controls did not resume capture. Final process termination, post-stop telemetry and whole-audit settings/fixture/identity reconciliation remain under C01/C02. Later grouped execution is planned; this historical zero-active list is not a final completion certificate.
+
+
+## Source 16 foreground visibility boundary
+
+Initial foreground review found that approximately 18:36–18:54 UTC remains on the source-integration page. The later draft/filter/sort controls, six-session list and restored C1 view are supported by direct stills and recorded UI observations, not visible foreground movie actions. No stills will be inserted to imitate that missing motion.
+
+
+## Later terminal runtime and inventory check
+
+At **19:09:43 UTC**, source-run attempt 2 was verified **SUCCEEDED** after **1h 30m 50s**. Its cleanup step explicitly reported job-owned grouped-source runtime cleanup completed. A fresh post-terminal unfiltered list at **19:10:18 UTC** showed **All 6 / Active 0 / Inactive 6**, with My sessions off. [Safe terminal-status receipt](evidence/source-phase-177-199/runtime-terminal-status.json).
+
+This later status does not rescore the 18:51:18 case ledger. It closes the named bounded runtime, while future original-case execution and final whole-audit reconciliation remain distinct. No subsequent runtime had been started when this receipt was recorded.

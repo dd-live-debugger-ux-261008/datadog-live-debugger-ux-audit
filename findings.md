@@ -1,8 +1,8 @@
 # Datadog audit findings
 
-V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
+V11 web checkpoint: evidence through **8 October 2026, 18:51:18 UTC**. The 63 original definitions are preserved: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are outside severity totals. Further original-case work is planned; dated runtime and cleanup updates are kept separately.
 
-The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
+The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4, source controls and retained-state checks.
 
 Part 1 covers new-user usability. Part 2 covers Live Debugger and Source Code Integration QA. Both use this shared index. Historical findings retain their evidence and now include verified recovery where available.
 
@@ -58,7 +58,7 @@ Confirmed bugs have direct evidence. UX recommendations describe an improved exp
 
 ## Current scope and remaining coverage
 
-63 original cases: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. [Full outcomes](QA_MATRIX.md) and [63 supplemental records](EXECUTED_CHECKS.md) preserve exact scope. The distinct finding records are not a count of case outcomes.
+63 original cases: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. [Full outcomes](QA_MATRIX.md) and [72 supplemental records](EXECUTED_CHECKS.md) preserve exact scope. The distinct finding records are not a count of case outcomes.
 
 Numeric live capture, one exact deployed-source match, conditional controls and one bounded expiry result are verified. B discovery no-match is not a private-content-denial test. Roles, deployment variants, remaining lifecycle/cleanup checks and other listed cases remain open. The planted application pricing bug is not a Datadog finding. [Unconfirmed observations](UNCONFIRMED_OBSERVATIONS.md) are explicitly excluded from severity totals.
 

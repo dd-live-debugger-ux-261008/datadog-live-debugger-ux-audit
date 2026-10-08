@@ -1,6 +1,6 @@
 # Audit video catalog
 
-Sources 01–14 have privacy-reviewed archives and highlights cataloged below. **390:44.55 recorded = 298:03.00 retained + 92:41.55 omitted**, in **35 archive MP4s**. Ten overlapping highlights total **31:02.70** and are not extra unique coverage. Earlier source-12/13 video bytes are unchanged; timing sidecars explain nominal timeline indices versus stored frames. Stills, UI reads, payload observations and foreground motion remain distinct evidence types.
+Sources 01–15 have reviewed archives and highlights cataloged below: **538:02.60 recorded = 432:56.05 retained + 105:06.55 omitted**, in **42 archive MP4s**. Eleven overlapping highlights total **32:58.70**. Source 15 includes a disclosed 122:40.00 unchanged idle interval; retained duration is not continuous testing or all visible product evidence. Source 16 is finalized but its reviewed export remains pending and is excluded from these totals.
 
 GitHub may show a file page instead of an inline player. Use View raw or Download for MP4 playback.
 
@@ -132,8 +132,24 @@ Exact rapid-input counts come from the separate interaction record. UI row times
 
 Half-open source timestamp ranges are the primary cut references. Earlier source 12/13 source_start_frame fields are nominal 20 fps timeline indices, not stored-frame ordinals. Constant 20 fps playback holds recorded frames across gaps at original elapsed speed; no in-between UI image was generated. Every earlier sanitized video and original manifest remains unchanged.
 
-## Current overall media boundary
+## Historical media boundary through source 14
 
-Sources 01–14 total **390:44.55 recorded, 298:03.00 retained and 92:41.55 omitted**, 35 archive MP4s. Ten highlights total 31:02.70 and overlap retained footage. Retained duration includes labeled fully obscured privacy panels and is not all visible product evidence. The source 15 recording from later source work is outside these finalized totals; no reviewed export or source-case outcome is claimed for it here.
+Sources 01–14 total **390:44.55 recorded, 298:03.00 retained and 92:41.55 omitted**, 35 archive MP4s. Ten highlights total 31:02.70 and overlap retained footage. Retained duration includes labeled fully obscured privacy panels and is not all visible product evidence. At that earlier boundary, source 15 was outside the finalized totals. Its subsequent reviewed package appears below; source 16 remains excluded from the current totals.
 
 The PDF/Word retain the 31-page V9 snapshot. This current web catalog includes later reviewed motion without retroactively changing the old report’s evidence cutoff.
+
+
+## Source 15 setup interruption and recovery
+
+[Full reviewed archive and omissions](recordings/continuation-15/CONTINUATION_RECORDING_ARCHIVE.md): **147:18.05 recorded = 134:53.05 retained + 12:25.00 omitted**, in seven videos. [01:56.00 highlights and chapters](recordings/continuation-15/highlights/CONTINUATION_HIGHLIGHTS.md) overlap that archive.
+
+The source covers 14:53:34–17:20:52.05 UTC and includes **122:40.00 of unchanged idle recording**. It documents setup, interruption and recovery; that idle interval is not continuous QA and does not establish successful later source retrieval. All crops, masks, omitted intervals and sampled-review limits are in the unchanged frozen manifests.
+
+## Source 16 pending reviewed export
+
+Source 16 was finalized at 18:54:13 UTC after starting 17:24:47 UTC, with recorded duration 5366.25 seconds. Its raw bytes are private and excluded from this repository. Reviewed stills and independent observations support the current source/retained-state results; no full safe motion export is claimed until its own review and publication are complete.
+
+
+## Source 16 foreground visibility boundary
+
+Initial foreground review found that approximately 18:36–18:54 UTC remains on the source-integration page. The later draft/filter/sort controls, six-session list and restored C1 view are supported by direct stills and recorded UI observations, not visible foreground movie actions. No stills will be inserted to imitate that missing motion.

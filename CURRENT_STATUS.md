@@ -1,36 +1,27 @@
 # Audit continuation status
 
-V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
+V11 web checkpoint: evidence through **8 October 2026, 18:51:18 UTC**. The 63 original definitions are preserved: **22 scoped PASS, 8 FINDING, 12 IN_PROGRESS, 2 PENDING and 19 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are outside severity totals. Further original-case work is planned; dated runtime and cleanup updates are kept separately.
 
-## Current result
+## Latest case changes
 
-- F06 changes from PENDING to FINDING for Low [FUNC03](findings/FUNC03-blank-line-decorator-diagnostic.md).
-- F08 changes from PENDING to scoped PASS for the one-shot duplicate-submission control.
-- X03 changes from IN_PROGRESS to PASS after the actual 707 positive capture.
-- F10 remains IN_PROGRESS. State consistency was tested at individual and session scope; intended disabled-edit semantics and pre-action reactivation feedback remain unresolved. It adds no finding.
-- C01/C02 remain IN_PROGRESS. The run-4 inventory is established; final cleanup must follow later work.
+S04, S05 and S09 now have scoped PASS results for the source experiments. F14 passes the original dismissal/navigation matrix. S03 and S06 remain IN_PROGRESS; B05, F15 and F17 now also have actual partial results. All other statuses retain their original evidence, with fixture setup dependencies made explicit.
 
-All other original-case outcomes are unchanged. The 63-case denominator is preserved. There are 63 separately scoped supplemental records, including six run-4 records; those are not additional original cases. Five current unconfirmed topics remain outside finding/severity totals. The earlier never-called template setup task is resolved.
+Source-case PASS does not imply authentic B execution, a proved permission-enforcement cause, a C2 deployment, default-branch drift coverage or arbitrary URL normalization. See each row’s exact limits in the [matrix](QA_MATRIX.md).
 
-## Dated cleanup and retained state
+## Capture cleanup and runtime
 
-Run 4 ended successfully, verified at 14:19:29 UTC. At **14:20:57 UTC**, My sessions was off, service/environment filters were All, Created was All time and search was empty. The inventory showed **All 4 / Active 0 / Inactive 4**. All 12 probes in the affected session were disabled, including the quiet and failed-installation controls. Historical captures remained visible.
+At 18:33 UTC, the grouped source session’s nine probes and the isolated B session’s one probe were disabled and both parents reloaded INACTIVE. The later unfiltered list showed **All 6 / Active 0 / Inactive 6**. Subsequent draft, filter and retained-view checks did not activate collection. Current Datadog connected-repository scope showed only A at 18:35:49 UTC; GitHub’s direct installation-checkbox recheck remained behind email reauthentication. No grant change was made.
 
-Accounts, repositories, keys and the A-only source grant were intentionally retained. No deletion, revocation, broadening of access or complete settings restoration is claimed. A separate owned local setup helper was confirmed stopped at 14:53:34; that later process check does not itself close C02.
+The job was running at the 18:51:18 evidence cutoff. At **19:09:43 UTC**, source-run attempt 2 was verified **SUCCEEDED** after **1h 30m 50s**. Its cleanup step explicitly reported job-owned grouped-source runtime cleanup completed. A fresh post-terminal unfiltered list at **19:10:18 UTC** showed **All 6 / Active 0 / Inactive 6**, with My sessions off. [Safe terminal-status receipt](evidence/source-phase-177-199/runtime-terminal-status.json). Accounts, repositories, keys and approved source scope are retained. C01/C02 remain open for the final whole-audit settings, identity, fixture and post-stop telemetry reconciliation after planned execution. This verifies the named job termination and capture inventory; it does not claim deletion or revocation of retained assets.
 
-A later unscored check at **17:22 UTC** again found the unfiltered list at **All 4 / Active 0 / Inactive 4**, with all 12 probes in the affected session individually disabled and zero instances. The grouped-source job had ended successfully at 16:33 UTC and displayed job-owned runtime cleanup completion. The C1 session draft was never submitted. These observations add cleanup evidence without passing an unexecuted source case or closing the full settings/grant/fixture inventory. Source 15 was stopped at 17:20:52 and awaits privacy review; its long idle period is not claimed as continuous testing. Further controlled source work is planned.
+## Documents and recordings
 
-## Documents and evidence
+The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live cutoff 13:15:00 UTC and separate SDK verification 13:16:33 UTC. They have not been regenerated for this web checkpoint; use these web pages for the later evidence.
 
-The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
+This checkpoint adds 28 reviewed source stills and 10 retained-control stills, with per-image provenance and limitations. Screenshot 212 is excluded because its custom-range automation preparation did not apply. The source 15 reviewed archive/highlight is now cataloged; its long idle interval is explicitly not continuous testing. Source 16’s raw recording was finalized 18:54:13 UTC, but its privacy-reviewed export is pending and excluded from the catalog totals.
 
-The web checkpoint adds reviewed stills 147–167, the genuine FUNC03 annotated error, measured source/SDK provenance, source 14's safe archive and highlight, and source 12/13 timing clarification sidecars. The source-13 archive was independently verified at 8faec47 and highlights at 76d29d2. Earlier media bytes remain unchanged. The aggregate checksum manifest covers the complete assembled web payload.
+## What happens next
 
-## What remains
+[The remaining plan](REMAINING_WORK.md) prioritizes original core branches, then one grouped fixture campaign. Eight engineerable setup gaps remain distinct from genuine identity/access/feature gates. No new confirmed finding was added by this continuation.
 
-- Resolve F10's intended disabled-edit contract and pre-action feedback without inventing a new defect.
-- Finish independently observable source-mapping variants and preserve repository B's ungranted boundary.
-- Continue the original unexecuted function-entry, value, identity and permission branches only when their prerequisites and authorization exist.
-- Reconcile final session/probe direct links, traffic/runtime state, settings, fixtures, identities and intentionally retained grants/assets.
-
-[Cases](QA_MATRIX.md) · [Findings](findings.md) · [Unconfirmed topics](UNCONFIRMED_OBSERVATIONS.md) · [Evidence](EVIDENCE.md) · [Video catalog](VIDEOS.md)
+[Cases](QA_MATRIX.md) · [Findings](findings.md) · [Unresolved topics](UNCONFIRMED_OBSERVATIONS.md) · [Evidence](EVIDENCE.md) · [Recordings](VIDEOS.md)
