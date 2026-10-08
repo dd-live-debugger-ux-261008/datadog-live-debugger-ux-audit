@@ -1,0 +1,1120 @@
+{
+  "version": 1,
+  "source": {
+    "label": "Recording source 12",
+    "duration_seconds": 3050.85,
+    "bytes": 93019419,
+    "sha256": "4e9644a5979484e9ccf8c3f516e6c1756bd95179a16f1a9026881218fd2c8d03",
+    "utc_start": "2026-10-08T09:59:24+00:00",
+    "utc_end_derived": "2026-10-08T10:50:14.850000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "source-controls-expiry-highlights.mp4",
+    "duration_seconds": 284.85,
+    "bytes": 2771854,
+    "sha256": "91a1d0bb04d51812f27836484904efa9c3343894b77b8513dc6ebab3ed8de1aa",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "5697"
+    },
+    "audio_tracks": 0,
+    "embedded_chapters": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 260,
+      "source_end_seconds": 272,
+      "source_start_frame": 5200,
+      "source_end_frame_exclusive": 5440,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T10:03:44+00:00",
+      "utc_end_derived": "2026-10-08T10:03:56+00:00",
+      "title": "Numeric capture: quantity three",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "Message and locals show quantity=3, false eligibility, no discount and total=3600. This is the planted application bug.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 12
+    },
+    {
+      "source_start_seconds": 281,
+      "source_end_seconds": 289,
+      "source_start_frame": 5620,
+      "source_end_frame_exclusive": 5780,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T10:04:05+00:00",
+      "utc_end_derived": "2026-10-08T10:04:13+00:00",
+      "title": "Numeric capture: quantity two",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The selected capture shows quantity=2, subtotal=2400, discount=0 and total=2400.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 12,
+      "output_end_seconds": 20
+    },
+    {
+      "source_start_seconds": 294,
+      "source_end_seconds": 303,
+      "source_start_frame": 5880,
+      "source_end_frame_exclusive": 6060,
+      "duration_seconds": 9,
+      "utc_start_derived": "2026-10-08T10:04:18+00:00",
+      "utc_end_derived": "2026-10-08T10:04:27+00:00",
+      "title": "Numeric capture: quantity four",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The selected capture shows quantity=4, true eligibility, subtotal=4800, discount=480 and total=4320.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 20,
+      "output_end_seconds": 29
+    },
+    {
+      "source_start_seconds": 478,
+      "source_end_seconds": 484.65,
+      "source_start_frame": 9560,
+      "source_end_frame_exclusive": 9693,
+      "duration_seconds": 6.65,
+      "utc_start_derived": "2026-10-08T10:07:22+00:00",
+      "utc_end_derived": "2026-10-08T10:07:28.650000+00:00",
+      "title": "Launch the continuation runtime",
+      "requested_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "The workflow launch is recorded; its subsequent waiting and readiness states are retained in the archive.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 29,
+      "output_end_seconds": 35.65
+    },
+    {
+      "source_start_seconds": 1099,
+      "source_end_seconds": 1108,
+      "source_start_frame": 21980,
+      "source_end_frame_exclusive": 22160,
+      "duration_seconds": 9,
+      "utc_start_derived": "2026-10-08T10:17:43+00:00",
+      "utc_end_derived": "2026-10-08T10:17:52+00:00",
+      "title": "Retrieved source appears after reload",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "Actual pricing.py source replaces the earlier warning beside captured values; no source scene is reconstructed.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 35.65,
+      "output_end_seconds": 44.65
+    },
+    {
+      "source_start_seconds": 1179,
+      "source_end_seconds": 1186.7,
+      "source_start_frame": 23580,
+      "source_end_frame_exclusive": 23734,
+      "duration_seconds": 7.7,
+      "utc_start_derived": "2026-10-08T10:19:03+00:00",
+      "utc_end_derived": "2026-10-08T10:19:10.700000+00:00",
+      "title": "Prepare the source-backed control",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ],
+        [
+          144,
+          900,
+          810,
+          17
+        ]
+      ],
+      "scale": 1,
+      "caption": "The prepared control uses line 17, a numeric message template and captured variables in staging.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 44.65,
+      "output_end_seconds": 52.35
+    },
+    {
+      "source_start_seconds": 1187.2,
+      "source_end_seconds": 1193.2,
+      "source_start_frame": 23744,
+      "source_end_frame_exclusive": 23864,
+      "duration_seconds": 6.0,
+      "utc_start_derived": "2026-10-08T10:19:11.200000+00:00",
+      "utc_end_derived": "2026-10-08T10:19:17.200000+00:00",
+      "title": "Control session is created",
+      "requested_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          175,
+          284,
+          77
+        ],
+        [
+          825,
+          175,
+          447,
+          77
+        ],
+        [
+          430,
+          306,
+          277,
+          41
+        ],
+        [
+          895,
+          306,
+          205,
+          41
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The interface confirms successful creation and displays the new control session.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 52.35,
+      "output_end_seconds": 58.35
+    },
+    {
+      "source_start_seconds": 1280,
+      "source_end_seconds": 1288,
+      "source_start_frame": 25600,
+      "source_end_frame_exclusive": 25760,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T10:20:44+00:00",
+      "utc_end_derived": "2026-10-08T10:20:52+00:00",
+      "title": "Control messages arrive with source",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "CONTROL rows display quantity 2/3/4 totals of 2400/3600/4320 beside retrieved source.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 58.35,
+      "output_end_seconds": 66.35
+    },
+    {
+      "source_start_seconds": 1369,
+      "source_end_seconds": 1380,
+      "source_start_frame": 27380,
+      "source_end_frame_exclusive": 27600,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T10:22:13+00:00",
+      "utc_end_derived": "2026-10-08T10:22:24+00:00",
+      "title": "Continuation runtime status excerpt",
+      "requested_crop_source_xywh": [
+        432,
+        260,
+        788,
+        642
+      ],
+      "effective_crop_source_xywh": [
+        432,
+        260,
+        788,
+        642
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          819,
+          401,
+          260,
+          34
+        ],
+        [
+          819,
+          637,
+          260,
+          34
+        ],
+        [
+          819,
+          874,
+          260,
+          28
+        ]
+      ],
+      "scale": 1,
+      "caption": "The recorded status reports registration and readiness; a native browser menu obscures part of the original screen.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 66.35,
+      "output_end_seconds": 77.35
+    },
+    {
+      "source_start_seconds": 1508.5,
+      "source_end_seconds": 1520.5,
+      "source_start_frame": 30170,
+      "source_end_frame_exclusive": 30410,
+      "duration_seconds": 12.0,
+      "utc_start_derived": "2026-10-08T10:24:32.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:24:44.500000+00:00",
+      "title": "View in Logs: requested event not indexed",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "The detail panel displays The requested event is not indexed. The original browser menu remains visible.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 77.35,
+      "output_end_seconds": 89.35
+    },
+    {
+      "source_start_seconds": 1590,
+      "source_end_seconds": 1600,
+      "source_start_frame": 31800,
+      "source_end_frame_exclusive": 32000,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T10:25:54+00:00",
+      "utc_end_derived": "2026-10-08T10:26:04+00:00",
+      "title": "Provider source at the selected revision",
+      "requested_crop_source_xywh": [
+        108,
+        239,
+        1136,
+        606
+      ],
+      "effective_crop_source_xywh": [
+        108,
+        239,
+        1136,
+        606
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          437,
+          239,
+          245,
+          46
+        ]
+      ],
+      "scale": 1,
+      "caption": "The provider selector shows f506150 and line 17 is highlighted. The native menu obscures part of the source.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 89.35,
+      "output_end_seconds": 99.35
+    },
+    {
+      "source_start_seconds": 1718,
+      "source_end_seconds": 1727,
+      "source_start_frame": 34360,
+      "source_end_frame_exclusive": 34540,
+      "duration_seconds": 9,
+      "utc_start_derived": "2026-10-08T10:28:02+00:00",
+      "utc_end_derived": "2026-10-08T10:28:11+00:00",
+      "title": "Actual snapshot timestamp field",
+      "requested_crop_source_xywh": [
+        703,
+        732,
+        360,
+        62
+      ],
+      "effective_crop_source_xywh": [
+        703,
+        732,
+        360,
+        62
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 2,
+      "caption": "The payload timestamp is 1791455041812, corresponding to 10:24:01.812 UTC. This is not a URL filter time.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 99.35,
+      "output_end_seconds": 108.35
+    },
+    {
+      "source_start_seconds": 1808,
+      "source_end_seconds": 1821.4,
+      "source_start_frame": 36160,
+      "source_end_frame_exclusive": 36428,
+      "duration_seconds": 13.4,
+      "utc_start_derived": "2026-10-08T10:29:32+00:00",
+      "utc_end_derived": "2026-10-08T10:29:45.400000+00:00",
+      "title": "Submit the line 9999 draft",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ],
+        [
+          144,
+          900,
+          810,
+          17
+        ]
+      ],
+      "scale": 1,
+      "caption": "The draft message names line 9999 while the retrieved file ends at line 24; submission follows.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 108.35,
+      "output_end_seconds": 121.75
+    },
+    {
+      "source_start_seconds": 1922.5,
+      "source_end_seconds": 1933,
+      "source_start_frame": 38450,
+      "source_end_frame_exclusive": 38660,
+      "duration_seconds": 10.5,
+      "utc_start_derived": "2026-10-08T10:31:26.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:31:37+00:00",
+      "title": "Line 9999 reaches an error state",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          737,
+          506,
+          160,
+          18
+        ],
+        [
+          612,
+          523,
+          142,
+          20
+        ],
+        [
+          612,
+          559,
+          300,
+          40
+        ]
+      ],
+      "scale": 1,
+      "caption": "ERROR and an instance-error tooltip are visible. Private details are masked; the native menu obscures other text.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 121.75,
+      "output_end_seconds": 132.25
+    },
+    {
+      "source_start_seconds": 1954,
+      "source_end_seconds": 1976,
+      "source_start_frame": 39080,
+      "source_end_frame_exclusive": 39520,
+      "duration_seconds": 22,
+      "utc_start_derived": "2026-10-08T10:31:58+00:00",
+      "utc_end_derived": "2026-10-08T10:32:20+00:00",
+      "title": "Valid gutter logpoint recovers events",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "A separate line 17 logpoint is added and event rows appear while the line 9999 logpoint retains ERROR.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 132.25,
+      "output_end_seconds": 154.25
+    },
+    {
+      "source_start_seconds": 2102,
+      "source_end_seconds": 2112,
+      "source_start_frame": 42040,
+      "source_end_frame_exclusive": 42240,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T10:34:26+00:00",
+      "utc_end_derived": "2026-10-08T10:34:36+00:00",
+      "title": "Quantity-three conditional messages",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "COND3 quantity=3 total=3600 rows appear. The native menu obscures part of the condition editor and capture panel.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 154.25,
+      "output_end_seconds": 164.25
+    },
+    {
+      "source_start_seconds": 2167,
+      "source_end_seconds": 2177,
+      "source_start_frame": 43340,
+      "source_end_frame_exclusive": 43540,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T10:35:31+00:00",
+      "utc_end_derived": "2026-10-08T10:35:41+00:00",
+      "title": "COND4 rows beside quantity-three values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "COND4 rows appear while quantity-three values remain in the capture panel. The menu obscures the capture header.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 164.25,
+      "output_end_seconds": 174.25
+    },
+    {
+      "source_start_seconds": 2201,
+      "source_end_seconds": 2211,
+      "source_start_frame": 44020,
+      "source_end_frame_exclusive": 44220,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T10:36:05+00:00",
+      "utc_end_derived": "2026-10-08T10:36:15+00:00",
+      "title": "Quantity-four conditional values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "COND4 quantity=4 total=4320 rows and quantity-four values are visible; some upper details remain obscured.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 174.25,
+      "output_end_seconds": 184.25
+    },
+    {
+      "source_start_seconds": 2250,
+      "source_end_seconds": 2260,
+      "source_start_frame": 45000,
+      "source_end_frame_exclusive": 45200,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T10:36:54+00:00",
+      "utc_end_derived": "2026-10-08T10:37:04+00:00",
+      "title": "Retained COND4 rows and values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "COND4 rows and quantity-four values remain visible. The native menu obscures the current condition and capture header.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 184.25,
+      "output_end_seconds": 194.25
+    },
+    {
+      "source_start_seconds": 2367,
+      "source_end_seconds": 2380,
+      "source_start_frame": 47340,
+      "source_end_frame_exclusive": 47600,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T10:38:51+00:00",
+      "utc_end_derived": "2026-10-08T10:39:04+00:00",
+      "title": "RECOVER messages resume across quantities",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "RECOVER messages for quantities 2, 3 and 4 are visible. The condition editor is obscured by the native menu.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 194.25,
+      "output_end_seconds": 207.25
+    },
+    {
+      "source_start_seconds": 2476,
+      "source_end_seconds": 2488,
+      "source_start_frame": 49520,
+      "source_end_frame_exclusive": 49760,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T10:40:40+00:00",
+      "utc_end_derived": "2026-10-08T10:40:52+00:00",
+      "title": "Last foreground target view before expiry",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The target still shows ACTIVE with five minutes left. The expiry transition itself is not foreground motion.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 207.25,
+      "output_end_seconds": 219.25
+    },
+    {
+      "source_start_seconds": 2505,
+      "source_end_seconds": 2515,
+      "source_start_frame": 50100,
+      "source_end_frame_exclusive": 50300,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T10:41:09+00:00",
+      "utc_end_derived": "2026-10-08T10:41:19+00:00",
+      "title": "A later lookup repeats the not-indexed message",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "The requested-event-not-indexed message recurs. Exact snapshot-ID matching is established separately, not by this crop.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 219.25,
+      "output_end_seconds": 229.25
+    },
+    {
+      "source_start_seconds": 2772,
+      "source_end_seconds": 2783,
+      "source_start_frame": 55440,
+      "source_end_frame_exclusive": 55660,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T10:45:36+00:00",
+      "utc_end_derived": "2026-10-08T10:45:47+00:00",
+      "title": "Control remains active during the expiry window",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The control remains foreground and ACTIVE while the target expiry is observed separately in screenshots.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 229.25,
+      "output_end_seconds": 240.25
+    },
+    {
+      "source_start_seconds": 2809.9,
+      "source_end_seconds": 2821,
+      "source_start_frame": 56198,
+      "source_end_frame_exclusive": 56420,
+      "duration_seconds": 11.1,
+      "utc_start_derived": "2026-10-08T10:46:13.900000+00:00",
+      "utc_end_derived": "2026-10-08T10:46:25+00:00",
+      "title": "Target returns already expired",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The target reappears INACTIVE and EXPIRED. This is an observed after-state, not the foreground expiry transition.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 240.25,
+      "output_end_seconds": 251.35
+    },
+    {
+      "source_start_seconds": 2902.3,
+      "source_end_seconds": 2913.3,
+      "source_start_frame": 58046,
+      "source_end_frame_exclusive": 58266,
+      "duration_seconds": 11.0,
+      "utc_start_derived": "2026-10-08T10:47:46.300000+00:00",
+      "utc_end_derived": "2026-10-08T10:47:57.300000+00:00",
+      "title": "Control continues after target expiry",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The control remains ACTIVE with later event rows. Row times are not independently verified execution timestamps.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 251.35,
+      "output_end_seconds": 262.35
+    },
+    {
+      "source_start_seconds": 2963.05,
+      "source_end_seconds": 2974,
+      "source_start_frame": 59261,
+      "source_end_frame_exclusive": 59480,
+      "duration_seconds": 10.95,
+      "utc_start_derived": "2026-10-08T10:48:47.050000+00:00",
+      "utc_end_derived": "2026-10-08T10:48:58+00:00",
+      "title": "Reload preserves the expired state",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The target reloads and returns INACTIVE / EXPIRED with retained history.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 262.35,
+      "output_end_seconds": 273.3
+    },
+    {
+      "source_start_seconds": 2997.45,
+      "source_end_seconds": 3009,
+      "source_start_frame": 59949,
+      "source_end_frame_exclusive": 60180,
+      "duration_seconds": 11.55,
+      "utc_start_derived": "2026-10-08T10:49:21.450000+00:00",
+      "utc_end_derived": "2026-10-08T10:49:33+00:00",
+      "title": "Fresh direct link preserves the expired state",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "Direct-link navigation returns the same expired target and retained history; the private URL is cropped out.",
+      "output_file": "source-controls-expiry-highlights.mp4",
+      "output_start_seconds": 273.3,
+      "output_end_seconds": 284.85
+    }
+  ],
+  "evidence_limits": [
+    "All motion is genuine source 12 at original speed. Cropping, opaque privacy masks, caption bands and a disclosed 2x nearest-neighbor enlargement of the actual snapshot-timestamp field are the only editorial image changes. No obscured UI was reconstructed or replaced with a screenshot.",
+    "A native browser context menu persists over much of the later recording. It is part of the original captured desktop and obscures some controls, source and capture headers. Its presence is a recording limitation, not evidence of a Datadog defect. Reviewed screenshots can show details beyond this foreground motion.",
+    "The numeric capture panel directly shows quantity 3 with false eligibility, subtotal 3600, discount 0 and total 3600; quantity 2 has subtotal/total 2400 and discount 0; quantity 4 has true eligibility, subtotal 4800, discount 480 and total 4320. The quantity-three result is the deliberately planted application bug, not a Datadog pricing defect. The intended 3240 total is task context rather than displayed result text.",
+    "Retrieved pricing.py source, a source-backed control session and a provider source page are recorded. The provider selector shows f506150 and highlights line 17. Its separate file-history commit label must not be confused with the selected revision. The approved full source revision is visible in the runtime-status excerpt; private account and repository identities are masked.",
+    "The runtime-status excerpt reports registration and readiness, which alone do not prove a captured application event. Actual captured values and messages are shown separately.",
+    "The narrow payload crop directly displays timestamp 1791455041812, corresponding to 2026-10-08 10:24:01.812 UTC. It preserves actual pixels from the earlier Logs inspection. Other event-list/header times and URL parameters are not interchangeable with debugger snapshot execution timestamps.",
+    "Line 9999 reaches ERROR and has an instance configuration/install-failure tooltip. The native browser menu obscures the full error class and some wording, so this motion does not claim NoFunctionsAtLine is fully readable. Private probe and source-path fragments are masked. A separate valid line 17 logpoint is added and event rows appear.",
+    "COND3, COND4 and RECOVER messages and captured values are visible through the condition test sequence. The native menu obscures part of the predicate editor and OUTDATED capture header. Exact predicate 3-to-4-to-101-to-removal configuration and header details rely on separate reviewed stills/run observations where they are not readable in motion. Retained old rows alone do not establish continued matching capture or a broken condition.",
+    "The installed-repository page and a private search are retained with identities masked. A discovery no-match is not proof that private source retrieval was attempted or denied.",
+    "The requested-event-not-indexed message appears repeatedly in actual Logs navigation. Separate matching-snapshot verification establishes exact identifier equality for the investigated reproductions; the safe video crops do not independently prove that equality or a matching-row count. No identifier-format or indexing root cause is inferred.",
+    "The target is last foreground ACTIVE in source interval 2475.90\u20132495.25 seconds. The control remains foreground and active across the separately observed target expiry window. The target first returns already INACTIVE / EXPIRED at source 2809.90 seconds (10:46:13.90 reconstructed UTC). The target active-to-expired transition is not foreground motion in this recording.",
+    "The later active control and the expired target after reload and fresh direct-link navigation are recorded. Separate screenshot/payload observations bound the target expiry and compare actual execution timestamps; they are not substituted into this video. These observations do not establish instantaneous backend cessation.",
+    "Caption UTC is reconstructed from the recorder start; source offsets are authoritative for locating frames. Datadog event lists display UTC-07:00. Observation clocks, row/header times and snapshot execution times are different kinds of evidence.",
+    "Browser chrome, private URLs, account/profile/session/runtime/trace identifiers and private repository prefixes are cropped, masked or omitted. Adjacent UI can also be hidden by conservative masks. No raw recording, private journal, internal identifier, contact sheet or build script is included in either public folder.",
+    "The archive retains whole contiguous safe sections, including original waits. Every omitted source interval has a reason and timing. The highlights are a separate selected edit. Source 11 and all earlier frozen packs remain unchanged."
+  ],
+  "review": {
+    "source_overview_spacing_seconds": 15,
+    "dense_privacy_transition_sampling_fps": 2,
+    "line_error_review_sampling_fps": 1,
+    "late_header_window_edge_scan_fps": 20,
+    "clip_endpoints_midpoints_reviewed": 210,
+    "output_ocr_sampled_frames": 600,
+    "unresolved_ocr_flags": 0,
+    "approved_source_revision_excluded_from_identifier_flags": true,
+    "all_public_videos_decoded": true,
+    "source_hash_unchanged": true,
+    "targeted_sdk_tooltip_privacy_review": true
+  }
+}
