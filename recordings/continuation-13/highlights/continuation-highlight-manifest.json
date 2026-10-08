@@ -1,0 +1,1872 @@
+{
+  "version": 1,
+  "source": {
+    "label": "Recording source 13",
+    "duration_seconds": 7170.05,
+    "bytes": 250229822,
+    "sha256": "86e718bc82a5a8ce9cb97d2bc6f61ed78a44810751e0d1c7f71c29c1c8a73764",
+    "utc_start": "2026-10-08T11:18:29+00:00",
+    "utc_end_derived": "2026-10-08T13:17:59.050000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "advanced-controls-recovery-highlights.mp4",
+    "duration_seconds": 436.5,
+    "bytes": 4627850,
+    "sha256": "5ee8b7c2a6adde0abbff8500d87d61bbb2680c10f4d32a26ed028a156974f8a3",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "8730"
+    },
+    "audio_tracks": 0,
+    "embedded_chapters": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 652,
+      "source_end_seconds": 665,
+      "source_start_frame": 13040,
+      "source_end_frame_exclusive": 13300,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T11:29:21+00:00",
+      "utc_end_derived": "2026-10-08T11:29:34+00:00",
+      "title": "Explicit resume from the expired view",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          205,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The expired session is resumed. A broad mask protects the profile as the header layout changes.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 13
+    },
+    {
+      "source_start_seconds": 692,
+      "source_end_seconds": 706,
+      "source_start_frame": 13840,
+      "source_end_frame_exclusive": 14120,
+      "duration_seconds": 14,
+      "utc_start_derived": "2026-10-08T11:30:01+00:00",
+      "utc_end_derived": "2026-10-08T11:30:15+00:00",
+      "title": "Resumed session receives new values",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The active session displays EVENTS RECEIVED and a quantity-two capture with total=2400.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 13,
+      "output_end_seconds": 27
+    },
+    {
+      "source_start_seconds": 708,
+      "source_end_seconds": 719,
+      "source_start_frame": 14160,
+      "source_end_frame_exclusive": 14380,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T11:30:17+00:00",
+      "utc_end_derived": "2026-10-08T11:30:28+00:00",
+      "title": "Explicit stop retains the captured history",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          205,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The session becomes INACTIVE and the logpoint becomes DISABLED; captured values remain available.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 27,
+      "output_end_seconds": 38
+    },
+    {
+      "source_start_seconds": 998,
+      "source_end_seconds": 1009,
+      "source_start_frame": 19960,
+      "source_end_frame_exclusive": 20180,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T11:35:07+00:00",
+      "utc_end_derived": "2026-10-08T11:35:18+00:00",
+      "title": "Incomplete condition is marked invalid",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The condition quantity == displays a red validation mark while the prior event rows remain.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 38,
+      "output_end_seconds": 49
+    },
+    {
+      "source_start_seconds": 1045,
+      "source_end_seconds": 1056,
+      "source_start_frame": 20900,
+      "source_end_frame_exclusive": 21120,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T11:35:54+00:00",
+      "utc_end_derived": "2026-10-08T11:36:05+00:00",
+      "title": "Non-Boolean condition validation",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The bare quantity condition is marked invalid. Existing event rows still show the earlier definition.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 49,
+      "output_end_seconds": 60
+    },
+    {
+      "source_start_seconds": 1128,
+      "source_end_seconds": 1140,
+      "source_start_frame": 22560,
+      "source_end_frame_exclusive": 22800,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T11:37:17+00:00",
+      "utc_end_derived": "2026-10-08T11:37:29+00:00",
+      "title": "Corrected condition produces VALID2 rows",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "VALID2 quantity=2 messages appear after the valid condition correction.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 60,
+      "output_end_seconds": 72
+    },
+    {
+      "source_start_seconds": 1258,
+      "source_end_seconds": 1271,
+      "source_start_frame": 25160,
+      "source_end_frame_exclusive": 25420,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T11:39:27+00:00",
+      "utc_end_derived": "2026-10-08T11:39:40+00:00",
+      "title": "Missing local receives actionable feedback",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Evaluation errors identifies missing_qa_value and offers guidance plus Edit Logpoint to correct the expression.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 72,
+      "output_end_seconds": 85
+    },
+    {
+      "source_start_seconds": 1310,
+      "source_end_seconds": 1321,
+      "source_start_frame": 26200,
+      "source_end_frame_exclusive": 26420,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T11:40:19+00:00",
+      "utc_end_derived": "2026-10-08T11:40:30+00:00",
+      "title": "Definedness expression recovers the message",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The capture message reads DEFINED missing=False quantity=2, with normal captured values.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 85,
+      "output_end_seconds": 96
+    },
+    {
+      "source_start_seconds": 1482,
+      "source_end_seconds": 1494,
+      "source_start_frame": 29640,
+      "source_end_frame_exclusive": 29880,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T11:43:11+00:00",
+      "utc_end_derived": "2026-10-08T11:43:23+00:00",
+      "title": "Message-only capture explains missing variables",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The selected MESSAGE_ONLY event explains that this logpoint does not contain debugging information.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 96,
+      "output_end_seconds": 108
+    },
+    {
+      "source_start_seconds": 1511,
+      "source_end_seconds": 1523,
+      "source_start_frame": 30220,
+      "source_end_frame_exclusive": 30460,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T11:43:40+00:00",
+      "utc_end_derived": "2026-10-08T11:43:52+00:00",
+      "title": "Capture variables is re-enabled",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The older event stays OUTDATED while confirmation says future logs will include parameters and local variables.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 108,
+      "output_end_seconds": 120
+    },
+    {
+      "source_start_seconds": 1540,
+      "source_end_seconds": 1551,
+      "source_start_frame": 30800,
+      "source_end_frame_exclusive": 31020,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T11:44:09+00:00",
+      "utc_end_derived": "2026-10-08T11:44:20+00:00",
+      "title": "A subsequent capture includes locals",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "A MESSAGE_ONLY template event now includes quantity=2, discount=0 and total=2400 in the values pane.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 120,
+      "output_end_seconds": 131
+    },
+    {
+      "source_start_seconds": 1753,
+      "source_end_seconds": 1764,
+      "source_start_frame": 35060,
+      "source_end_frame_exclusive": 35280,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T11:47:42+00:00",
+      "utc_end_derived": "2026-10-08T11:47:53+00:00",
+      "title": "Function logpoint draft",
+      "requested_crop_source_xywh": [
+        151,
+        223,
+        1062,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        151,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          184,
+          318,
+          336,
+          34
+        ],
+        [
+          151,
+          898,
+          800,
+          19
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The draft targets calculate_quote(quantity), with METHOD quantity={quantity} and variable capture.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 131,
+      "output_end_seconds": 142
+    },
+    {
+      "source_start_seconds": 1953,
+      "source_end_seconds": 1965,
+      "source_start_frame": 39060,
+      "source_end_frame_exclusive": 39300,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T11:51:02+00:00",
+      "utc_end_derived": "2026-10-08T11:51:14+00:00",
+      "title": "Function exit includes a returned dictionary",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Values on exit shows quantity=3 and @return as a six-entry dictionary, with visible returned entries.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 142,
+      "output_end_seconds": 154
+    },
+    {
+      "source_start_seconds": 2651,
+      "source_end_seconds": 2663,
+      "source_start_frame": 53020,
+      "source_end_frame_exclusive": 53260,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:02:40+00:00",
+      "utc_end_derived": "2026-10-08T12:02:52+00:00",
+      "title": "Complex capture values populate",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          710,
+          328,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The capture opens and populates complex fixture values. Correlation identifiers are masked.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 154,
+      "output_end_seconds": 166
+    },
+    {
+      "source_start_seconds": 2880,
+      "source_end_seconds": 2892,
+      "source_start_frame": 57600,
+      "source_end_frame_exclusive": 57840,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:06:29+00:00",
+      "utc_end_derived": "2026-10-08T12:06:41+00:00",
+      "title": "Nested branch expansion",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The right branch expands; leaf 11 remains above, and the child value row remains collapsed.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 166,
+      "output_end_seconds": 178
+    },
+    {
+      "source_start_seconds": 2964,
+      "source_end_seconds": 2976,
+      "source_start_frame": 59280,
+      "source_end_frame_exclusive": 59520,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:07:53+00:00",
+      "utc_end_derived": "2026-10-08T12:08:05+00:00",
+      "title": "Cyclic dictionary expansion",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          710,
+          328,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The cyclic dictionary expands to show the displayed label and number fields. This is a bounded UI observation.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 178,
+      "output_end_seconds": 190
+    },
+    {
+      "source_start_seconds": 3716,
+      "source_end_seconds": 3728,
+      "source_start_frame": 74320,
+      "source_end_frame_exclusive": 74560,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:20:25+00:00",
+      "utc_end_derived": "2026-10-08T12:20:37+00:00",
+      "title": "Targeted redaction and ordinary controls",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Targeted redaction preserves ordinary controls while secret-named values are hidden. The fixture is synthetic.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 190,
+      "output_end_seconds": 202
+    },
+    {
+      "source_start_seconds": 3772,
+      "source_end_seconds": 3784,
+      "source_start_frame": 75440,
+      "source_end_frame_exclusive": 75680,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:21:21+00:00",
+      "utc_end_derived": "2026-10-08T12:21:33+00:00",
+      "title": "Name-based redaction explanation",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Expanding accessToken shows that its value was redacted based on the field name.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 202,
+      "output_end_seconds": 214
+    },
+    {
+      "source_start_seconds": 3964,
+      "source_end_seconds": 3976,
+      "source_start_frame": 79280,
+      "source_end_frame_exclusive": 79520,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:24:33+00:00",
+      "utc_end_derived": "2026-10-08T12:24:45+00:00",
+      "title": "Concurrent sample A values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Sample A shows pair 41, side=101, quantity=2 and total=2400. Sample B below uses a different pair index.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 214,
+      "output_end_seconds": 226
+    },
+    {
+      "source_start_seconds": 4118.9,
+      "source_end_seconds": 4130.9,
+      "source_start_frame": 82378,
+      "source_end_frame_exclusive": 82618,
+      "duration_seconds": 12.0,
+      "utc_start_derived": "2026-10-08T12:27:07.900000+00:00",
+      "utc_end_derived": "2026-10-08T12:27:19.900000+00:00",
+      "title": "Actual trace for sample A",
+      "requested_crop_source_xywh": [
+        616,
+        212,
+        630,
+        688
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        212,
+        630,
+        688
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          632,
+          291,
+          407,
+          73
+        ],
+        [
+          630,
+          366,
+          612,
+          110
+        ],
+        [
+          693,
+          610,
+          174,
+          37
+        ],
+        [
+          970,
+          662,
+          222,
+          36
+        ],
+        [
+          1047,
+          760,
+          187,
+          33
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The GET /qa trace appears for sample A, with SPAN WITH LOG and 729 microseconds displayed.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 226,
+      "output_end_seconds": 238.0
+    },
+    {
+      "source_start_seconds": 4490,
+      "source_end_seconds": 4502,
+      "source_start_frame": 89800,
+      "source_end_frame_exclusive": 90040,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T12:33:19+00:00",
+      "utc_end_derived": "2026-10-08T12:33:31+00:00",
+      "title": "Concurrent sample B values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          710,
+          328,
+          38
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Sample B shows pair 53, side=202, quantity=4 and total=4320; it is a separate sampled pair.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 238.0,
+      "output_end_seconds": 250.0
+    },
+    {
+      "source_start_seconds": 4562.35,
+      "source_end_seconds": 4574.35,
+      "source_start_frame": 91247,
+      "source_end_frame_exclusive": 91487,
+      "duration_seconds": 12.0,
+      "utc_start_derived": "2026-10-08T12:34:31.350000+00:00",
+      "utc_end_derived": "2026-10-08T12:34:43.350000+00:00",
+      "title": "Actual trace for sample B",
+      "requested_crop_source_xywh": [
+        616,
+        212,
+        630,
+        688
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        212,
+        630,
+        688
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          632,
+          291,
+          407,
+          73
+        ],
+        [
+          630,
+          366,
+          612,
+          110
+        ],
+        [
+          693,
+          610,
+          174,
+          37
+        ],
+        [
+          970,
+          662,
+          222,
+          36
+        ],
+        [
+          1047,
+          760,
+          187,
+          33
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The GET /qa trace appears for sample B, with SPAN WITH LOG and 887 microseconds displayed.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 250.0,
+      "output_end_seconds": 262.0
+    },
+    {
+      "source_start_seconds": 5650,
+      "source_end_seconds": 5660,
+      "source_start_frame": 113000,
+      "source_end_frame_exclusive": 113200,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T12:52:39+00:00",
+      "utc_end_derived": "2026-10-08T12:52:49+00:00",
+      "title": "Caught-exception values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          716,
+          230,
+          27
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The selected capture reads EXCEPTION recovered=-1. Displayed locals include ZeroDivisionError, denominator=0, and the exception text.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 262.0,
+      "output_end_seconds": 272.0
+    },
+    {
+      "source_start_seconds": 5684,
+      "source_end_seconds": 5694,
+      "source_start_frame": 113680,
+      "source_end_frame_exclusive": 113880,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T12:53:13+00:00",
+      "utc_end_derived": "2026-10-08T12:53:23+00:00",
+      "title": "Unassigned and deleted local controls",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          744,
+          230,
+          29
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "OPTIONAL assigned=False defined=False always=41. The values pane displays deleted_local=null and optional_local=null.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 272.0,
+      "output_end_seconds": 282.0
+    },
+    {
+      "source_start_seconds": 5706,
+      "source_end_seconds": 5716,
+      "source_start_frame": 114120,
+      "source_end_frame_exclusive": 114320,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T12:53:35+00:00",
+      "utc_end_derived": "2026-10-08T12:53:45+00:00",
+      "title": "Assigned-local positive control",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          744,
+          230,
+          29
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The positive control reads OPTIONAL assigned=True defined=True always=41, with optional_local=42 and deleted_local=null.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 282.0,
+      "output_end_seconds": 292.0
+    },
+    {
+      "source_start_seconds": 5810,
+      "source_end_seconds": 5818,
+      "source_start_frame": 116200,
+      "source_end_frame_exclusive": 116360,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T12:55:19+00:00",
+      "utc_end_derived": "2026-10-08T12:55:27+00:00",
+      "title": "Ordinary branch control",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          716,
+          230,
+          27
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The ordinary branch reads q=3, name=ordinary, only=False, total=3600. The values pane displays branch_only=null.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 292.0,
+      "output_end_seconds": 300.0
+    },
+    {
+      "source_start_seconds": 5825,
+      "source_end_seconds": 5833,
+      "source_start_frame": 116500,
+      "source_end_frame_exclusive": 116660,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T12:55:34+00:00",
+      "utc_end_derived": "2026-10-08T12:55:42+00:00",
+      "title": "Assigned branch control",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          716,
+          230,
+          27
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The assigned branch reads q=4, name=four, only=True, total=4320. The values pane displays branch_only=404.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 300.0,
+      "output_end_seconds": 308.0
+    },
+    {
+      "source_start_seconds": 6249,
+      "source_end_seconds": 6259.5,
+      "source_start_frame": 124980,
+      "source_end_frame_exclusive": 125190,
+      "duration_seconds": 10.5,
+      "utc_start_derived": "2026-10-08T13:02:38+00:00",
+      "utc_end_derived": "2026-10-08T13:02:48.500000+00:00",
+      "title": "Visible unsaved predicate draft",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The visible TAB_A2 editor has condition quantity == 3 and blue Apply styling.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 308.0,
+      "output_end_seconds": 318.5
+    },
+    {
+      "source_start_seconds": 6340,
+      "source_end_seconds": 6350,
+      "source_start_frame": 126800,
+      "source_end_frame_exclusive": 127000,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:04:09+00:00",
+      "utc_end_derived": "2026-10-08T13:04:19+00:00",
+      "title": "Later TAB_A3 event rows",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          929,
+          699,
+          339,
+          186
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Later TAB_A3 q=4 rows are visible. The full overwritten editor state is not shown in this motion.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 318.5,
+      "output_end_seconds": 328.5
+    },
+    {
+      "source_start_seconds": 6397,
+      "source_end_seconds": 6409,
+      "source_start_frame": 127940,
+      "source_end_frame_exclusive": 128180,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:05:06+00:00",
+      "utc_end_derived": "2026-10-08T13:05:18+00:00",
+      "title": "Observed disabled-to-instrumenting status change",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          929,
+          699,
+          339,
+          186
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The branch row changes from DISABLED to INSTRUMENTING; the stale-edit mechanism remains unconfirmed.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 328.5,
+      "output_end_seconds": 340.5
+    },
+    {
+      "source_start_seconds": 6665,
+      "source_end_seconds": 6675,
+      "source_start_frame": 133300,
+      "source_end_frame_exclusive": 133500,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:09:34+00:00",
+      "utc_end_derived": "2026-10-08T13:09:44+00:00",
+      "title": "Function return expression result",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "Function capture renders quantity=4, discount_cents=480 and total_cents=4320; Values on exit includes @return.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 340.5,
+      "output_end_seconds": 350.5
+    },
+    {
+      "source_start_seconds": 6723,
+      "source_end_seconds": 6733,
+      "source_start_frame": 134460,
+      "source_end_frame_exclusive": 134660,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:10:32+00:00",
+      "utc_end_derived": "2026-10-08T13:10:42+00:00",
+      "title": "One child disabled while siblings remain active",
+      "requested_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          929,
+          699,
+          339,
+          186
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ],
+        [
+          437,
+          306,
+          295,
+          37
+        ],
+        [
+          899,
+          306,
+          122,
+          37
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The session is ACTIVE. The visible line 44 child is DISABLED while visible sibling rows remain EVENTS RECEIVED.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 350.5,
+      "output_end_seconds": 360.5
+    },
+    {
+      "source_start_seconds": 6762,
+      "source_end_seconds": 6774,
+      "source_start_frame": 135240,
+      "source_end_frame_exclusive": 135480,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:11:11+00:00",
+      "utc_end_derived": "2026-10-08T13:11:23+00:00",
+      "title": "Line return expression reports an error",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The line logpoint shows an evaluation error for @return: No such local variable: @return, in the Log field.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 360.5,
+      "output_end_seconds": 372.5
+    },
+    {
+      "source_start_seconds": 6800,
+      "source_end_seconds": 6810,
+      "source_start_frame": 136000,
+      "source_end_frame_exclusive": 136200,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:11:49+00:00",
+      "utc_end_derived": "2026-10-08T13:11:59+00:00",
+      "title": "Stopped parent with disabled children",
+      "requested_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          929,
+          699,
+          339,
+          186
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ],
+        [
+          437,
+          306,
+          295,
+          37
+        ],
+        [
+          998,
+          306,
+          108,
+          37
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The parent session is INACTIVE, and all child rows visible in this view are DISABLED.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 372.5,
+      "output_end_seconds": 382.5
+    },
+    {
+      "source_start_seconds": 6835,
+      "source_end_seconds": 6847,
+      "source_start_frame": 136700,
+      "source_end_frame_exclusive": 136940,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:12:24+00:00",
+      "utc_end_derived": "2026-10-08T13:12:36+00:00",
+      "title": "Enable a child after the parent is stopped",
+      "requested_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          929,
+          699,
+          339,
+          186
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ],
+        [
+          437,
+          306,
+          295,
+          37
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [
+        {
+          "start": 6835,
+          "end": 6837.5,
+          "rect": [
+            998,
+            306,
+            108,
+            37
+          ],
+          "reason": "Inactive-state profile badge"
+        },
+        {
+          "start": 6837.5,
+          "end": 6838.25,
+          "rect": [
+            899,
+            306,
+            207,
+            37
+          ],
+          "reason": "Conservative guard over moving profile badge during status transition"
+        },
+        {
+          "start": 6838.25,
+          "end": 6847,
+          "rect": [
+            899,
+            306,
+            122,
+            37
+          ],
+          "reason": "Active-state profile badge"
+        }
+      ],
+      "mask_note": "",
+      "caption": "The parent changes from INACTIVE to ACTIVE; the chosen child becomes INSTRUMENTING while visible siblings stay DISABLED.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 382.5,
+      "output_end_seconds": 394.5
+    },
+    {
+      "source_start_seconds": 6850,
+      "source_end_seconds": 6860,
+      "source_start_frame": 137000,
+      "source_end_frame_exclusive": 137200,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:12:39+00:00",
+      "utc_end_derived": "2026-10-08T13:12:49+00:00",
+      "title": "Enabled child receives events",
+      "requested_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          929,
+          699,
+          339,
+          186
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ],
+        [
+          437,
+          306,
+          295,
+          37
+        ],
+        [
+          899,
+          306,
+          122,
+          37
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The chosen child now reads EVENTS RECEIVED. Visible siblings remain DISABLED and the parent session remains ACTIVE.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 394.5,
+      "output_end_seconds": 404.5
+    },
+    {
+      "source_start_seconds": 6905,
+      "source_end_seconds": 6915,
+      "source_start_frame": 138100,
+      "source_end_frame_exclusive": 138300,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:13:34+00:00",
+      "utc_end_derived": "2026-10-08T13:13:44+00:00",
+      "title": "Selected child capture with disabled siblings",
+      "requested_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        302,
+        1020,
+        584
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          716,
+          230,
+          27
+        ],
+        [
+          437,
+          306,
+          295,
+          37
+        ],
+        [
+          899,
+          306,
+          122,
+          37
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The selected line 44 capture reads EXCEPTION recovered=-1. Visible sibling rows remain DISABLED.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 404.5,
+      "output_end_seconds": 414.5
+    },
+    {
+      "source_start_seconds": 7054,
+      "source_end_seconds": 7064,
+      "source_start_frame": 141080,
+      "source_end_frame_exclusive": 141280,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T13:16:03+00:00",
+      "utc_end_derived": "2026-10-08T13:16:13+00:00",
+      "title": "Ascending historical event rows",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          930,
+          716,
+          230,
+          27
+        ],
+        [
+          681,
+          391,
+          591,
+          140
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "A historical time range is selected, with displayed EXCEPTION event rows ordered by ascending date.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 414.5,
+      "output_end_seconds": 424.5
+    },
+    {
+      "source_start_seconds": 7145,
+      "source_end_seconds": 7157,
+      "source_start_frame": 142900,
+      "source_end_frame_exclusive": 143140,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T13:17:34+00:00",
+      "utc_end_derived": "2026-10-08T13:17:46+00:00",
+      "title": "Final inventory: four inactive sessions",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        578
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        578
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          268,
+          552,
+          566,
+          371
+        ]
+      ],
+      "scale": 1,
+      "full_ui_crop_obscured": false,
+      "additional_timed_masks_source": [],
+      "mask_note": "",
+      "caption": "The session inventory shows All 4, Active 0, and Inactive 4. All four visible session cards are marked INACTIVE.",
+      "output_file": "advanced-controls-recovery-highlights.mp4",
+      "output_start_seconds": 424.5,
+      "output_end_seconds": 436.5
+    }
+  ],
+  "evidence_limits": [
+    "All motion is genuine recording source 13, at its original 20 fps and original speed. Titles/captions, opaque privacy masks, integer cropping and unscaled padding are editorial changes. No obscured UI was reconstructed, no screenshot was inserted as motion, and no original wait inside an archive section was shortened.",
+    "The archive retains continuous safe sections rather than only highlight moments. Every temporal omission is listed. It also retains 29.10 seconds of elapsed time behind a complete opaque UI mask during moving private Logs identifiers; these visibility removals are listed separately and are not presented as visible product evidence.",
+    "The browser error 9 interval from raw 5914.55 to 6032.05 seconds lasts 117.50 seconds and is retained as an explicitly labeled browser/tooling interruption. It is not classified as a Datadog evaluation error or product defect.",
+    "The expired session is visibly resumed, receives new events, and is then stopped. Retained history remains available. Source clocks identify observed frames; displayed event rows are not automatically the exact execution time of the selected capture.",
+    "Incomplete and non-Boolean conditions are visibly marked invalid; a correction is followed by VALID2 quantity=2 rows. Missing-local evaluation feedback names the expression and provides edit guidance. The definedness expression subsequently renders missing=False. These are specific observed validation/recovery behaviors, not new defect claims.",
+    "With variable capture off, the selected message-only event explains that it lacks debugging information. Re-enabling capture produces guidance about future events while the older event remains OUTDATED; a subsequent selected event includes locals. The MESSAGE_ONLY prefix is a user-written template and remains after capture is re-enabled.",
+    "Function captures expose Values on exit and @return. Later, the function @return expression renders a returned dictionary, while a line logpoint reports No such local variable for @return. The highlight omits a long preceding historical-view wait, so it must not be used to claim immediate event delivery after Apply.",
+    "Complex, nested, cyclic and Unicode fixture interactions are real recorded UI. Some lowest rows are clipped and some values/source are privacy-masked. The excerpts do not establish unbounded cycle behavior, a universal depth/string limit, shared-object identity, or a data-corruption defect.",
+    "Targeted redaction is demonstrated with synthetic fields: ordinary controls remain visible, and expansion explains that sensitive-name values were redacted based on their names. Source literals resembling secrets are conservatively hidden in the archive. No actual credential is published.",
+    "The sampled concurrent examples are sample A from pair 41 with side=101, quantity=2, total=2400, and sample B from pair 53 with side=202, quantity=4, total=4320. They are different sampled pairs, not the two members of one demonstrated concurrent pair. A/B here describe synthetic sides and do not denote repository permission scope.",
+    "Actual Trace views show GET /qa and SPAN WITH LOG for the sampled events, with displayed durations of 729 and 887 microseconds. Runtime, repository, process, span and trace identifiers are masked. The event-heading times are preserved as UI text and are not substituted for independently verified snapshot execution timestamps.",
+    "Caught-exception, optional/deleted-local and assigned-branch controls are visible. Displayed null values alone do not establish how absent and deleted variables are represented in the indexed payload.",
+    "The foreground recording shows the TAB_A2 quantity == 3 draft and blue Apply styling, then separate later TAB_A3 rows. It does not visibly expose the complete editor before/after state used to confirm the unsaved-draft loss. That confirmation relies on separately reviewed stills and run observations, which are not reconstructed into this video.",
+    "A DISABLED-to-INSTRUMENTING status change is visible after an update sequence, but the stale-edit reactivation mechanism remains unconfirmed by this evidence. Captions distinguish the observed status from a causal defect claim.",
+    "Lifecycle excerpts preserve state-specific header masks and show an inactive parent with visible disabled children, followed by child activation, an active parent and the chosen child receiving events while visible siblings remain disabled. Only visible rows are claimed; an individual frame does not enumerate every child.",
+    "Cancel/refresh typing is only partly exposed in foreground motion. Historical-range and ascending-sort states are visible. The final inventory shows All 4, Active 0 and Inactive 4, with all four visible cards marked INACTIVE.",
+    "UTC caption ranges are reconstructed from the recorder start. Datadog event lists use a displayed UTC-07:00 offset. Recording clocks, UI row/header timestamps, observer timestamps and snapshot execution timestamps are distinct evidence types.",
+    "Browser chrome, private URLs, account/profile/session/runtime/trace identifiers, repository prefixes and synthetic correlation identifier strings are cropped, masked or omitted. Conservative source/value masks also hide adjacent ordinary content. Numeric synthetic pair/side indices remain where needed for the demonstrated controls.",
+    "Earlier frozen media remain unchanged. Public folders contain only sanitized MP4s, public manifests, readable maps and checksums; no raw recording, internal journal, diagnostic contact sheet or build script is included."
+  ],
+  "review": {
+    "source_overview_spacing_seconds": 30,
+    "dense_privacy_transition_sampling_fps": [
+      1,
+      2
+    ],
+    "line_error_review_sampling_fps": 1,
+    "full_rate_page_state_scan_fps": 20,
+    "independent_fixture_and_late_privacy_review": true,
+    "clip_endpoints_midpoints_reviewed": 345,
+    "output_ocr_sampled_frames": 1675,
+    "unresolved_ocr_flags": 0,
+    "private_correlation_and_uuid_patterns_scanned": true,
+    "visual_boundary_exposures_detected_and_corrected": 4,
+    "review_is_sampled_not_a_guarantee_of_every_pixel": true,
+    "all_public_videos_decoded": true,
+    "source_hash_unchanged": true
+  }
+}
