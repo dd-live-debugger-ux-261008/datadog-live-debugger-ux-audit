@@ -1,0 +1,56 @@
+{
+  "id": "224",
+  "source_filename": "224-coverage-real-c1-source-baseline.jpg",
+  "source_sha256": "5373674a22647db68a56dad20404629ceb711bd3d792cdb0c1e4f7935061706d",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "224-real-c1-source-safe.png",
+  "safe_sha256": "44475a7b17938e549fa2121c1959df5b1ef1302efd76c368625662edbbc524ea",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "9609216bb44ce32b25424c5226d2f0391834003020aa6ed4e6b30853cdef7576",
+  "safe_decoded_rgb_sha256": "2433d1cc6d1efae83e2e18df26719ecbeafbc2e3ccd46c0315e49466736147e6",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "The C1 baseline shows a pricing.py line-17 selected stack frame and rendered source. The selected COVERAGE_C1 event-list row displays quantity=3 and total=3600. The payload identity, exact linked SHA, and SDK execution time were inspected separately and are not visible here.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

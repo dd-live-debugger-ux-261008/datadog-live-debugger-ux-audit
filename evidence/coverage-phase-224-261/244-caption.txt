@@ -1,0 +1,1 @@
+After the fixture restart observation, the selected COVERAGE_VALUE row again displays value=2 and numeric=90002 with a rendered qa_coverage_fixture.py line-49 source frame. The changed process identity and SDK snapshot time were checked separately; neither is visible here. This still alone does not establish a process restart.

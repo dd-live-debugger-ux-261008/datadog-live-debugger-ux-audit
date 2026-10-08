@@ -1,0 +1,1 @@
+Before repair, the B-repository/A-revision control SOURCE_B_ASHA displays a generic missing-link banner and an empty selected pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. The upper editor retains source, which must not be mistaken for source resolved for the selected event.

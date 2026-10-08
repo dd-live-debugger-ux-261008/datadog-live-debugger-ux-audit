@@ -1,0 +1,76 @@
+{
+  "id": "234",
+  "source_filename": "234-coverage-after-repair-missing-metadata.jpg",
+  "source_sha256": "d745279f6b35ca739507fae5a2dd8018c9ff4ef2098ee1843f33014fbcd6d896",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "234-repaired-missing-metadata-source-safe.png",
+  "safe_sha256": "836f14406c5d243c119fa5abef8b71bc6421eb696cf5d675e6612572bd1ce91c",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        255,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "99b3c6ea1be15d67dd6b315856d6421854d5f70d6441cfaf3f6594fea89a6e80",
+  "safe_decoded_rgb_sha256": "5fee57c94d3b01a8077fe5103c59f2ad48c034650f626596b8feb1be936539e8",
+  "verified_unchanged_pixels_outside_masks": 532458,
+  "source_unchanged": true,
+  "caption": "After metadata repair, SOURCE_MISSING_META displays rendered source for pricing.py line 17. The event list includes a SOURCE_MISSING_META quantity=3 row; the right end of its message is clipped by the split pane. The selected total=3600 was separately inspected. The upper logpoint list shows an older disabled control with 0 Instances, distinct from the repaired event. Exact event metadata and repair timing require the separate retained inspection.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

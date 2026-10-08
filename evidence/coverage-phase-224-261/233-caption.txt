@@ -1,0 +1,1 @@
+The real C2 control shows pricing.py line 24 in the selected stack frame. The main editor warns that the file changed across selected commits and displays commit 2d38d91. A COVERAGE_C2 event-list row shows quantity=3 and total=3900. Payload version, exact revision, SDK time, and full value panel are outside this frame.

@@ -1,0 +1,1 @@
+The alpha same-basename path control selects handler.py line 8. Its rendered source shows path_label = "alpha", numeric_marker = 11011, secondary_marker = 111, and QA_ANCHOR: path_alpha. The event list shows COVERAGE_ALPHA marker=11011. The full directory path is not printed in this viewport.

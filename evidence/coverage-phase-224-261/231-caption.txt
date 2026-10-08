@@ -1,0 +1,1 @@
+The expanded received-tag panel shows 18 tags and git.commit.sha 00560ed97513a94426aec424052359d1f5f56085 for the B-repository/own-revision control. Private repository URL and runtime directory values are masked. The control attribution comes from the retained inspection; this cropped tag list alone does not identify the selected event or prove source resolution.

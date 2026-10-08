@@ -1,0 +1,56 @@
+{
+  "id": "240",
+  "source_filename": "240-coverage-fixture-value-baseline.jpg",
+  "source_sha256": "600f81f21948a938bbc6b36a1c2ff095681fab46964301ae4d5b1e6bf88ef713",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "240-before-restart-value-safe.png",
+  "safe_sha256": "2aa7ac3c4a803f618340f3fcac605160f83bbacbd7a361781c6c7dea14dfc5e5",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "d25119cbeea8c8c15af2ec3943c649f4a898d988f65e76ab859d8ac644912c65",
+  "safe_decoded_rgb_sha256": "495dab6b4080c1c1bb4f90da4a4ba4c5d9531283b306881140711bbd920c4742",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "Before the planned fixture restart, a COVERAGE_VALUE row displays value=2 and numeric=90002. The selected value_control frame is qa_coverage_fixture.py line 49 and shows the synthetic calculation numeric_control = 90000 + value. Process identity and SDK snapshot timestamp were checked separately and are not pictured.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

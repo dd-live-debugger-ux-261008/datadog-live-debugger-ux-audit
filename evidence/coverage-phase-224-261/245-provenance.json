@@ -1,0 +1,56 @@
+{
+  "id": "245",
+  "source_filename": "245-coverage-path-alpha.jpg",
+  "source_sha256": "8e7069026ebbecefa0c59fb5d3f93e210d1ffc30d35dbd10e291e73cef952328",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "245-path-alpha-safe.png",
+  "safe_sha256": "e003604563136d9b9fd9c1d281a080e69269cdc0b11d63b519e6af8a97dcb43e",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "6219d827be409e77a031f10366208c89e3ce397a34dfa6a1fb16d556bc734a58",
+  "safe_decoded_rgb_sha256": "f19379afc7630612114e2fe863e840ed7d7effdbb473249a71f06843491b7419",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "The alpha same-basename path control selects handler.py line 8. Its rendered source shows path_label = \"alpha\", numeric_marker = 11011, secondary_marker = 111, and QA_ANCHOR: path_alpha. The event list shows COVERAGE_ALPHA marker=11011. The full directory path is not printed in this viewport.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

@@ -1,0 +1,56 @@
+{
+  "id": "243",
+  "source_filename": "243-coverage-active-and-disabled-before-restart.jpg",
+  "source_sha256": "63dcd6767b0afe52e3debfcd15867b71e4cd5f4734873f9e6153e94b74f092b9",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "243-before-restart-active-disabled-safe.png",
+  "safe_sha256": "932f08ab61345bd10feec8a56843a0bb35e1f18538244621f75885359bb3def5",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        211,
+        420,
+        234
+      ],
+      "output_xyxy": [
+        8,
+        39,
+        260,
+        62
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "9da2466a3122fe555ff03f029237e68abd12143a1f05c301d50d7f0b35ef4b70",
+  "safe_decoded_rgb_sha256": "cf3251b47ed84e9c102bd50a6e6bf271958097aa4e3a79154072ef534c503b4d",
+  "verified_unchanged_pixels_outside_masks": 542964,
+  "source_unchanged": true,
+  "caption": "Before the planned fixture restart, the visible qa_coverage_fixture.py line-49 logpoint reports EVENTS RECEIVED and the line-81 complex logpoint is DISABLED. Retained COVERAGE_COMPLEX numeric=74001 remains in the event list and its source is still inspectable. This still records application state; it does not establish the restart time.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

@@ -1,0 +1,96 @@
+{
+  "id": "231",
+  "source_filename": "231-coverage-b-metadata-before-repair.jpg",
+  "source_sha256": "dd16d4862007dc639f8f6f0cbbdb955805b272a8a077651f7f8bafc51fa99939",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "231-before-repair-b-received-tags-safe.png",
+  "safe_sha256": "ac0d8667687affecae28f242d81575ac582d03a388496ba7e943fcf08d0dc8f4",
+  "safe_dimensions": [
+    546,
+    391
+  ],
+  "crop_source_xyxy": [
+    574,
+    306,
+    1120,
+    697
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        585,
+        517,
+        1099,
+        541
+      ],
+      "output_xyxy": [
+        11,
+        211,
+        525,
+        235
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime directory value"
+    },
+    {
+      "source_xyxy": [
+        585,
+        599,
+        1099,
+        624
+      ],
+      "output_xyxy": [
+        11,
+        293,
+        525,
+        318
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime working-directory value"
+    },
+    {
+      "source_xyxy": [
+        585,
+        652,
+        1099,
+        697
+      ],
+      "output_xyxy": [
+        11,
+        346,
+        525,
+        391
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository URL"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "5e78cc2c8e5b393b3447b9bec96041d9c4a132e78ee0bed28efa502795b83751",
+  "safe_decoded_rgb_sha256": "6691b78b363caaa05a5c349fefa3fac5f84d72bb58f043170ec0932681b2a5c6",
+  "verified_unchanged_pixels_outside_masks": 165170,
+  "source_unchanged": true,
+  "caption": "The expanded received-tag panel shows 18 tags and git.commit.sha 00560ed97513a94426aec424052359d1f5f56085 for the B-repository/own-revision control. Private repository URL and runtime directory values are masked. The control attribution comes from the retained inspection; this cropped tag list alone does not identify the selected event or prove source resolution.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

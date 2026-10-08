@@ -1,0 +1,1 @@
+After repair, SOURCE_MISSING_SHA displays rendered pricing.py source in the selected line-17 stack frame. Its quantity=3 row is selected; the right end is clipped. The upper list includes older disabled controls. Exact repaired tags and selected total=3600 were inspected separately.

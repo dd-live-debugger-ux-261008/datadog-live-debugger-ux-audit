@@ -1,0 +1,56 @@
+{
+  "id": "233",
+  "source_filename": "233-coverage-real-c2-source-control.jpg",
+  "source_sha256": "c3a1171939bca384b7c285c8a3309fe69cf17ddcf0a0676065ac82f951d2b1f2",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "233-real-c2-source-safe.png",
+  "safe_sha256": "d70f467eb2a8ace2db451ba153f2fbed1dc563c61b9a00c6244d672e078b2cbe",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c1e92da18fac5087950fd932ed933d18591490d2bad62f9db4430f9f47a75149",
+  "safe_decoded_rgb_sha256": "2e30b2b0c193e98a6b24b96e651dae0902bd0b3a75604cb72cd0a9a1ca627bae",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "The real C2 control shows pricing.py line 24 in the selected stack frame. The main editor warns that the file changed across selected commits and displays commit 2d38d91. A COVERAGE_C2 event-list row shows quantity=3 and total=3900. Payload version, exact revision, SDK time, and full value panel are outside this frame.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

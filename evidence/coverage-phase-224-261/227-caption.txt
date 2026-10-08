@@ -1,0 +1,1 @@
+Before repair, SOURCE_INVALID_SHA displays a specific missing-link diagnostic: the tagged SHA is invalid and must contain 40 hexadecimal characters. The visible tagged value is synthetic-invalid-sha. A quantity=3 capture value is visible. The upper main editor also shows a file-not-found warning.

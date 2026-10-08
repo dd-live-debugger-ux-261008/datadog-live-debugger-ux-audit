@@ -1,0 +1,1 @@
+The beta same-basename path control selects handler.py line 8. Its rendered source shows path_label = "beta", numeric_marker = 22022, secondary_marker = 222, and QA_ANCHOR: path_beta. The event list shows COVERAGE_BETA marker=22022. The full directory path is not printed in this viewport.

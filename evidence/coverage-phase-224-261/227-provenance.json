@@ -1,0 +1,76 @@
+{
+  "id": "227",
+  "source_filename": "227-coverage-before-repair-invalid-sha.jpg",
+  "source_sha256": "06bfeb7f52228f4303fe0a4b45a13bdcde7e0370cac8f4dcaeb257ae29277f91",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "227-before-repair-invalid-sha-safe.png",
+  "safe_sha256": "933d03fd55744db75d2c6f4455da48b493abebf90215963ee4a2de598ba143d8",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        255,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "bd8bd425305949e803cf6493a02484ee55ed9a95b393cfe8422a4e837b8a28a9",
+  "safe_decoded_rgb_sha256": "099c2bf50846b7c8d773ead5062a6b4876fe45aa93f3dab9fdc1e3e88c6393e4",
+  "verified_unchanged_pixels_outside_masks": 532458,
+  "source_unchanged": true,
+  "caption": "Before repair, SOURCE_INVALID_SHA displays a specific missing-link diagnostic: the tagged SHA is invalid and must contain 40 hexadecimal characters. The visible tagged value is synthetic-invalid-sha. A quantity=3 capture value is visible. The upper main editor also shows a file-not-found warning.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

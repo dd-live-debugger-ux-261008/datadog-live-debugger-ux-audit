@@ -1,0 +1,56 @@
+{
+  "id": "244",
+  "source_filename": "244-coverage-fixture-after-restart.jpg",
+  "source_sha256": "e799ae2beead4287aa35d350446e080dbfb725b562238cb863d50df6ecb6e4d5",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "244-after-restart-value-safe.png",
+  "safe_sha256": "17033548632d06a173ba372f02b63415da45ebcb5425cfa370ba0fcc34bdcc28",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "ae0965dbc5fb959e57ae449789a6a4a41a1a1025e4fbc78044f7eef4911644f8",
+  "safe_decoded_rgb_sha256": "54066c7864f025aab42de21f61e35f9eb82debc28ce410edf7618b45989fbc44",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "After the fixture restart observation, the selected COVERAGE_VALUE row again displays value=2 and numeric=90002 with a rendered qa_coverage_fixture.py line-49 source frame. The changed process identity and SDK snapshot time were checked separately; neither is visible here. This still alone does not establish a process restart.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

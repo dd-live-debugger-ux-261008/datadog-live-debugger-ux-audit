@@ -1,0 +1,1 @@
+The retained generator log displays start_c2 with state "completed" at 2026-10-08T20:14:41.182422+00:00 and elapsed_traffic_seconds 1502.943. Overall state remains "running" with synthetic_requests_sent 1249. This is a C2 generator-stage receipt, not proof of a successful Datadog test case or workflow completion.

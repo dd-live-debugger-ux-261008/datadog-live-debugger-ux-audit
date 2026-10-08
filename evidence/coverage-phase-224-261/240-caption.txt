@@ -1,0 +1,1 @@
+Before the planned fixture restart, a COVERAGE_VALUE row displays value=2 and numeric=90002. The selected value_control frame is qa_coverage_fixture.py line 49 and shows the synthetic calculation numeric_control = 90000 + value. Process identity and SDK snapshot timestamp were checked separately and are not pictured.

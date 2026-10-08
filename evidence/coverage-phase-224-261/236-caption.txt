@@ -1,0 +1,1 @@
+After repair, SOURCE_INVALID_SHA has a selected quantity=3 total=3600 event-list row and rendered pricing.py line-17 stack source. The upper main editor still shows a file-not-found warning. The event-specific stack source and main-editor banner are separate visible states; this image does not by itself establish whether or when the upper editor refreshed.

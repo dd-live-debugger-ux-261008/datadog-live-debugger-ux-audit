@@ -1,0 +1,76 @@
+{
+  "id": "235",
+  "source_filename": "235-coverage-after-repair-missing-sha.jpg",
+  "source_sha256": "00150cbb6c8ba5e908c4912dacce7fbc3219f7bc72a6f04d4bdd8f516b279b0b",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "235-repaired-missing-sha-source-safe.png",
+  "safe_sha256": "6ba0ea1d0c8b86410b038b6778f0d2dd75b0363aa716b9783a0fa95dda59b568",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        255,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "d8025a0cc485f25d9c8d44d6cec981234a03eb2dd7699381d5671d6af68e135f",
+  "safe_decoded_rgb_sha256": "c30c3e8f0532775b2696a55ece392069befad5fba8192a7399a8f60a6f9e46cf",
+  "verified_unchanged_pixels_outside_masks": 532458,
+  "source_unchanged": true,
+  "caption": "After repair, SOURCE_MISSING_SHA displays rendered pricing.py source in the selected line-17 stack frame. Its quantity=3 row is selected; the right end is clipped. The upper list includes older disabled controls. Exact repaired tags and selected total=3600 were inspected separately.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

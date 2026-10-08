@@ -1,0 +1,76 @@
+{
+  "id": "238",
+  "source_filename": "238-coverage-after-repair-wrong-repo-b-sha.jpg",
+  "source_sha256": "1a2003d3518451beb020dac6f83bc991c939004dc1d2146145befb0ad94c9ad7",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "238-repaired-b-own-sha-source-safe.png",
+  "safe_sha256": "05180823c6659994a4576559a8758ec76e7abeeee6510d69b5c6b3837354170f",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        255,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b1e566082a3fb31ea945c7ef3739b8087a9616155f918b6790a018b42fead3a6",
+  "safe_decoded_rgb_sha256": "74d4aa8ad95ca06b4b6f921473847b120e7064d8f00ebf49c29fbb0329152736",
+  "verified_unchanged_pixels_outside_masks": 532458,
+  "source_unchanged": true,
+  "caption": "After repair, SOURCE_B_BSHA has a selected quantity=3 total=3600 row and rendered pricing.py line-17 stack source. The upper editor retains its file-not-found warning. This is repaired event-specific source evidence; the previous repository identity and repaired tags require separate inspection.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

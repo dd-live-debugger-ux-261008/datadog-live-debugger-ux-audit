@@ -1,0 +1,76 @@
+{
+  "id": "237",
+  "source_filename": "237-coverage-after-repair-nonexistent-sha.jpg",
+  "source_sha256": "1c2c7fe054dc4701284908ee861adaf028f37210c61dd13eaf6e2ff035d7691f",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "237-repaired-nonexistent-sha-source-safe.png",
+  "safe_sha256": "895ea958d7e690e0b8ef1dcdcb7dc450c1615cff0ed1d98dacf3b531fdeabd4a",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        255,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "45878ae313e14b37ebb2d444ea36af47034a1e7871656850439916b4d8468f26",
+  "safe_decoded_rgb_sha256": "cf8d1278637469be8f52cf09415bc09b6872402555ad2d2bb6de6ca9329d80dc",
+  "verified_unchanged_pixels_outside_masks": 532458,
+  "source_unchanged": true,
+  "caption": "After repair, SOURCE_NONEXISTENT_SHA has a selected quantity=3 total=3600 row and rendered pricing.py line-17 stack source. The upper editor is visibly blank except for line 1. Exact repaired metadata and linked revision were inspected separately.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

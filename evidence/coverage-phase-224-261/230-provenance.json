@@ -1,0 +1,76 @@
+{
+  "id": "230",
+  "source_filename": "230-coverage-before-repair-wrong-repo-a-sha.jpg",
+  "source_sha256": "21edcb1a9a6125380fe48fc71e943a32104d4bbf63d58a62a2fd8bfecd0fc0a0",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "230-before-repair-b-a-sha-safe.png",
+  "safe_sha256": "7dcb0e8ddb76c2fe2854bb5dd1a3556b8b7a346807f7ba2ed86a53f40befff51",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        238,
+        453,
+        268
+      ],
+      "output_xyxy": [
+        8,
+        66,
+        293,
+        96
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        330,
+        418,
+        354
+      ],
+      "output_xyxy": [
+        8,
+        158,
+        258,
+        182
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "baf891b23392b14f70d7d9bf0600a9ad89f72ca4b60c73f3003c40600c2d95dd",
+  "safe_decoded_rgb_sha256": "8bad12c2320e3a14d82bbc2f7bc86e2c4787f4abd955d6e07febae0c64ff9609",
+  "verified_unchanged_pixels_outside_masks": 534210,
+  "source_unchanged": true,
+  "caption": "Before repair, the B-repository/A-revision control SOURCE_B_ASHA displays a generic missing-link banner and an empty selected pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. The upper editor retains source, which must not be mistaken for source resolved for the selected event.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

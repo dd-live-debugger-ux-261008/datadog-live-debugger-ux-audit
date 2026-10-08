@@ -1,0 +1,76 @@
+{
+  "id": "236",
+  "source_filename": "236-coverage-after-repair-invalid-sha.jpg",
+  "source_sha256": "993c5646bf03d9254088e1c52ec4aac3c6486f3f625cc1457a6dca7a4a13b963",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "236-repaired-invalid-sha-source-safe.png",
+  "safe_sha256": "8c432660b51634d5d2d3f774e9928ab134ca07bab60564a20b6a94494f72e20c",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        139,
+        255,
+        174
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "9aef4fd5b5a20e375be7e58ae86ae1ebd8db8a8762b29dece3eea20ed45c09ec",
+  "safe_decoded_rgb_sha256": "3ece0886e06724838e2d8068d69ef4c5cd9fe98d9ea211fbda6313bca54f0839",
+  "verified_unchanged_pixels_outside_masks": 532458,
+  "source_unchanged": true,
+  "caption": "After repair, SOURCE_INVALID_SHA has a selected quantity=3 total=3600 event-list row and rendered pricing.py line-17 stack source. The upper main editor still shows a file-not-found warning. The event-specific stack source and main-editor banner are separate visible states; this image does not by itself establish whether or when the upper editor refreshed.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

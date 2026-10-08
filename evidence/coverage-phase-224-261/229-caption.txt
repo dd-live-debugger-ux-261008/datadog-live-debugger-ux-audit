@@ -1,0 +1,1 @@
+Before repair, the B-repository/own-revision control SOURCE_B_BSHA displays a generic missing-link banner and an empty pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. Repository scope and received revision were checked separately; this banner alone does not establish an access-denial cause.

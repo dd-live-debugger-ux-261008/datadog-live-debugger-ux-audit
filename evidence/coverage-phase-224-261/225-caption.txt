@@ -1,0 +1,1 @@
+Before repair, SOURCE_MISSING_META has a selected event-list message quantity=3 total=3600. Its stack panel says Datadog used the latest commit of the default branch to associate telemetry and source code, with rendered pricing.py source below. The private repository selector is masked. The fallback revision was checked separately and is not printed here.

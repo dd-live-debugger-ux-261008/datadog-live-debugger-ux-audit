@@ -1,0 +1,96 @@
+{
+  "id": "225",
+  "source_filename": "225-coverage-before-repair-missing-metadata.jpg",
+  "source_sha256": "7845f1b47c73b3934020c59f85086ec09fa9f3f610f547a2250593f837f40ec5",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "225-before-repair-missing-metadata-safe.png",
+  "safe_sha256": "09669e077b64b64e19fbba43e2486598d0181cbb5c45f00869d92f4b7d61fb1f",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        238,
+        453,
+        268
+      ],
+      "output_xyxy": [
+        8,
+        66,
+        293,
+        96
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        330,
+        418,
+        354
+      ],
+      "output_xyxy": [
+        8,
+        158,
+        258,
+        182
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        698,
+        517,
+        1121,
+        549
+      ],
+      "output_xyxy": [
+        538,
+        345,
+        961,
+        377
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository selector"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b9926234054644b9b3cc2a8ebf3471d3a370db44a55082af5422a051a8eae73b",
+  "safe_decoded_rgb_sha256": "cbac573c907777acd40d543ba84e3c4cf6fd9173af00e81e29aa5a6dc7e9b95f",
+  "verified_unchanged_pixels_outside_masks": 520674,
+  "source_unchanged": true,
+  "caption": "Before repair, SOURCE_MISSING_META has a selected event-list message quantity=3 total=3600. Its stack panel says Datadog used the latest commit of the default branch to associate telemetry and source code, with rendered pricing.py source below. The private repository selector is masked. The fallback revision was checked separately and is not printed here.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

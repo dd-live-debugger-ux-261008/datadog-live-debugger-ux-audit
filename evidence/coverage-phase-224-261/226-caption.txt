@@ -1,0 +1,1 @@
+Before repair, SOURCE_MISSING_SHA displays "Using latest commit" and says Datadog used the repository default branch. A pricing.py line-17 source frame is rendered. The selected row shows quantity=3; its right end is clipped by the split pane. The received-tag omission and exact fallback revision require separate retained evidence.

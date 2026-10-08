@@ -1,0 +1,1 @@
+COVERAGE_COMPLEX numeric=74001 appears in the retained event list, and the selected complex_values frame renders qa_coverage_fixture.py line 81. The synthetic source defines a self-referencing dictionary and shared leaf. The value tree is below the visible frame, so this image is not proof of any expanded leaf, truncation limit, or cycle-depth behavior.

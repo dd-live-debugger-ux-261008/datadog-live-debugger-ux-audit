@@ -1,0 +1,56 @@
+{
+  "id": "246",
+  "source_filename": "246-coverage-path-beta.jpg",
+  "source_sha256": "8faa7be27c0aa49c3277bdef333b139563444e5ab55110c3537d65337750fe83",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "246-path-beta-safe.png",
+  "safe_sha256": "3994a733cb19d8879fdd367097fe6dc0d629ac0d85a374b1537284ad6ec5ff2d",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "ec5398ece0aa19b7188ef1efa5a28b3f9cd83055580436335c4512042a3fb36e",
+  "safe_decoded_rgb_sha256": "02a95ad9421beba60a8cdb22beb2542dfc3769c3624b2e90dd6369b7becfe8b3",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "The beta same-basename path control selects handler.py line 8. Its rendered source shows path_label = \"beta\", numeric_marker = 22022, secondary_marker = 222, and QA_ANCHOR: path_beta. The event list shows COVERAGE_BETA marker=22022. The full directory path is not printed in this viewport.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

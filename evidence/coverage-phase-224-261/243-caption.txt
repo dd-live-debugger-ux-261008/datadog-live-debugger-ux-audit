@@ -1,0 +1,1 @@
+Before the planned fixture restart, the visible qa_coverage_fixture.py line-49 logpoint reports EVENTS RECEIVED and the line-81 complex logpoint is DISABLED. Retained COVERAGE_COMPLEX numeric=74001 remains in the event list and its source is still inspectable. This still records application state; it does not establish the restart time.

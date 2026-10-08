@@ -1,0 +1,1 @@
+After repair, SOURCE_B_BSHA has a selected quantity=3 total=3600 row and rendered pricing.py line-17 stack source. The upper editor retains its file-not-found warning. This is repaired event-specific source evidence; the previous repository identity and repaired tags require separate inspection.

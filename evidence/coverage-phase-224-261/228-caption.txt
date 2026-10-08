@@ -1,0 +1,1 @@
+Before repair, SOURCE_NONEXISTENT_SHA displays a generic "Missing link to repository" banner and an empty pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. The syntactically valid nonexistent 40-one SHA was verified in received tags separately; the generic message does not identify a root cause.
