@@ -1,0 +1,74 @@
+{
+  "id": "127-outlined",
+  "finding_id": "FUNC02",
+  "severity": "Medium",
+  "source_safe_filename": "127-unassigned-deleted-locals-display-safe.png",
+  "source_safe_sha256": "5b9763fb5c980316a3208ba9c5780fed39f38a2f0228d77747b4d2101122a96a",
+  "original_source_filename": "127-unassigned-and-deleted-locals.jpg",
+  "original_source_sha256": "f216d702e1d00fd01c315b00919d79b6d2093e1df5337cf2c5568b78f8483ca0",
+  "filename": "127-unassigned-deleted-locals-display-outlined.png",
+  "public_relative_path": "evidence/continuation-13/locals-126-131/annotation/127-unassigned-deleted-locals-display-outlined.png",
+  "sha256": "d269b904fd6e11fa91bce82e2bc41a4eb57fd252c184a7dafac34123c245341e",
+  "dimensions": [
+    1020,
+    538
+  ],
+  "source_crop_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "outline_output_xyxy": [
+    [
+      526,
+      279,
+      1017,
+      317
+    ],
+    [
+      547,
+      453,
+      744,
+      479
+    ],
+    [
+      547,
+      481,
+      753,
+      507
+    ]
+  ],
+  "outline_source_xyxy": [
+    [
+      686,
+      451,
+      1177,
+      489
+    ],
+    [
+      707,
+      625,
+      904,
+      651
+    ],
+    [
+      707,
+      653,
+      913,
+      679
+    ]
+  ],
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Two-pixel outlines are drawn inward and only surround the visible message and null-valued local rows.",
+  "outline_rgb": [
+    220,
+    35,
+    35
+  ],
+  "outline_width_pixels": 2,
+  "only_outline_pixels_changed": true,
+  "source_safe_image_unchanged": true,
+  "caption": "FUNC02 evidence: separate thin outlines identify the genuine visible message OPTIONAL assigned=False defined=False always=41 and the displayed deleted_local=null and optional_local=null values. No text or UI has been redrawn. The Medium finding and the ddtrace 4.11.0 offline reproduction were confirmed separately by the task owner. The hosted transport payload remains uninspected; this screenshot does not itself identify where that hosted representation originated.",
+  "hosted_transport_payload_inspected": false,
+  "offline_reproduction_basis": "Task owner confirmed an actual ddtrace 4.11.0 offline reproduction; that evidence is separate from this image."
+}
