@@ -1,0 +1,213 @@
+{
+  "source_sha256": "c48e3a15fe3d16a548bf675944e234d79d67632ad4b9f522b0bdc02e74ce2dfc",
+  "review": {
+    "all_public_videos_decoded": true,
+    "scene_triggered_ocr_frames": 946,
+    "scene_threshold": 0.005,
+    "unresolved_scene_ocr_flags": 0,
+    "highlight_specific_ocr_frames": 279,
+    "ocr_sampled_frames": 503,
+    "unresolved_ocr_flags": 0,
+    "independent_encoded_visual_review": true,
+    "independent_review_summary": {
+      "raw_review": {
+        "source_range_seconds": [
+          2380,
+          3600
+        ],
+        "coarse_frames": 165,
+        "coarse_cadence_seconds": 5,
+        "dense_boundary_frames": 63,
+        "method": "Inspected five-second contact sheets, full-resolution spot frames, and dense samples around every major observed mode transition. Full-rate scene-change scan informed cut positions; this was not a manual every-frame review.",
+        "additional_recovery_review": {
+          "range": [
+            2707.3,
+            3127.35
+          ],
+          "one_second_frames": 421,
+          "lower_scene_threshold": 0.005,
+          "observed_transitions": [
+            2824.75,
+            2824.8,
+            2911.85,
+            2937.95,
+            2938.0,
+            2970.9,
+            2980.75,
+            2981.0,
+            2989.15,
+            2989.4,
+            2999.4,
+            2999.65,
+            2999.85,
+            3011.1,
+            3011.3
+          ],
+          "omissions": [
+            [
+              2970.85,
+              2981.05
+            ],
+            [
+              2989.1,
+              3011.35
+            ]
+          ],
+          "one_second_method": "421 extracted frames screened by header-region dark-pixel threshold; flagged frames inspected visually. Complemented by full-rate0.005 scene detection and exact cut-boundary images.",
+          "fullrate_header_scan": {
+            "frames": 8401,
+            "region": [
+              100,
+              180,
+              1150,
+              140
+            ],
+            "criterion": "grayscale<170 proportion>.001 at115x14",
+            "flagged_runs": [
+              [
+                2970.9,
+                2980.75,
+                0.013043478260869565
+              ],
+              [
+                2999.65,
+                3011.3,
+                0.013043478260869565
+              ]
+            ]
+          }
+        }
+      },
+      "encoded_standard_samples": 192,
+      "encoded_special_samples": 39,
+      "unresolved_issues": []
+    },
+    "settled_final_page_structural_review": {
+      "start": 4255,
+      "end": 5366.25,
+      "frames": 22224,
+      "comparison": "Every stored frame vs first frame, grayscale reduced to 256x158; abs diff >35; 2% changed pixels flags.",
+      "max_fraction": 0.0005191851265822784
+    },
+    "source_hash_unchanged": true,
+    "sampling_limits_apply": true
+  },
+  "outputs": [
+    {
+      "file": "source-16-part-01-sanitized.mp4",
+      "duration_seconds": 597.8,
+      "bytes": 3396416,
+      "sha256": "83950241f152d949b8bc1cdaa46275c3fb4a61fe1a474810c0fd4c45642a3278",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 11956
+    },
+    {
+      "file": "source-16-part-02-sanitized.mp4",
+      "duration_seconds": 671.0,
+      "bytes": 6677975,
+      "sha256": "9796900bbefeb8eb34b29c47ffc54f05a19c32496d0cf0b9375ebf4435c6c710",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 13420
+    },
+    {
+      "file": "source-16-part-03-sanitized.mp4",
+      "duration_seconds": 896.9,
+      "bytes": 8358003,
+      "sha256": "deb72b816c4497ac1c62d05a6c86e07b9bf1d2a705dfffe712ec7e7977e91d80",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 17938
+    },
+    {
+      "file": "source-16-part-04-sanitized.mp4",
+      "duration_seconds": 752.95,
+      "bytes": 4982234,
+      "sha256": "30670c2af40baa699271ec78852e1df804b49fcdf26d0173d61f082cd3fd221c",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 15059
+    },
+    {
+      "file": "source-16-part-05-sanitized.mp4",
+      "duration_seconds": 630.0,
+      "bytes": 7991180,
+      "sha256": "e077e516ad3825c97cb83a438017589ebf37b9c7889142ce87f0b500f9e62d16",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 12600
+    },
+    {
+      "file": "source-16-part-06-sanitized.mp4",
+      "duration_seconds": 900.0,
+      "bytes": 4321233,
+      "sha256": "4e2d80e942d96773ec0977f8cc1ba3c69d5d425828178b6acb79deae25e19458",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 18000
+    },
+    {
+      "file": "source-16-part-07-sanitized.mp4",
+      "duration_seconds": 236.25,
+      "bytes": 1123551,
+      "sha256": "9fa27c1d35048dda6703e96401eddc96d103bfc336bd2d34884ae5db6310ef8b",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 4725
+    },
+    {
+      "file": "source-controls-recovery-highlights.mp4",
+      "duration_seconds": 340.0,
+      "bytes": 4554339,
+      "sha256": "31a90d5d604bd2220ce1ca6414f567e247e6c2c33cae37752e19cdc3d9d41675",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "fps": "20/1",
+      "decoded": true,
+      "audio_tracks": 0,
+      "frames": 6800
+    }
+  ],
+  "source_partition_verified": true,
+  "retained_seconds": 4684.9,
+  "omitted_seconds": 681.35,
+  "publication": "Not performed; raw footage excluded."
+}
