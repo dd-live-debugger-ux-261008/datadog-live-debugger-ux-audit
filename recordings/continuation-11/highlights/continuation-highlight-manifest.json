@@ -1,0 +1,760 @@
+{
+  "version": 1,
+  "source": {
+    "file": "onboarding-11-raw.mkv",
+    "duration_seconds": 2936.25,
+    "bytes": 70576920,
+    "sha256": "062b9d333ecfbfe613c1d87de0ef3ac06119f22a85a07ced01e116cafe494fca",
+    "utc_start": "2026-10-08T09:04:45+00:00",
+    "utc_end": "2026-10-08T09:53:41.250000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "runtime-recovery-capture-highlights.mp4",
+    "duration_seconds": 212.8,
+    "bytes": 1853422,
+    "sha256": "b2004c7a556da580daba85f74383e3eacc6a76c2e1c4811436405120cdd325f9",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "4256"
+    },
+    "audio_tracks": 0,
+    "chapter_metadata_track": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 74,
+      "source_end_seconds": 83,
+      "duration_seconds": 9,
+      "utc_start": "2026-10-08T09:05:59+00:00",
+      "utc_end": "2026-10-08T09:06:08+00:00",
+      "title": "GitHub Free overview",
+      "requested_crop_source_xywh": [
+        428,
+        368,
+        812,
+        566
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        368,
+        812,
+        566
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "The visible plan is GitHub Free at $0.00/month. Numeric Actions quota is not shown.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 9
+    },
+    {
+      "source_start_seconds": 897,
+      "source_end_seconds": 918,
+      "duration_seconds": 21,
+      "utc_start": "2026-10-08T09:19:42+00:00",
+      "utc_end": "2026-10-08T09:20:03+00:00",
+      "title": "Launch the manual runtime workflow",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        642
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        642
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          363,
+          72
+        ],
+        [
+          428,
+          902,
+          826,
+          15
+        ]
+      ],
+      "scale": 1,
+      "caption": "The manual workflow is launched for the synthetic test runtime; account identity is masked.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 9,
+      "output_end_seconds": 30
+    },
+    {
+      "source_start_seconds": 1112,
+      "source_end_seconds": 1124,
+      "duration_seconds": 12,
+      "utc_start": "2026-10-08T09:23:17+00:00",
+      "utc_end": "2026-10-08T09:23:29+00:00",
+      "title": "SDK registration status",
+      "requested_crop_source_xywh": [
+        432,
+        260,
+        788,
+        453
+      ],
+      "effective_crop_source_xywh": [
+        432,
+        260,
+        788,
+        454
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          620,
+          361,
+          330,
+          32
+        ],
+        [
+          620,
+          579,
+          330,
+          32
+        ],
+        [
+          819,
+          449,
+          250,
+          20
+        ],
+        [
+          819,
+          669,
+          250,
+          20
+        ]
+      ],
+      "scale": 1,
+      "caption": "The status excerpt reports live debugging and symbol-database registration.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 30,
+      "output_end_seconds": 42
+    },
+    {
+      "source_start_seconds": 1151,
+      "source_end_seconds": 1162.8,
+      "duration_seconds": 11.8,
+      "utc_start": "2026-10-08T09:23:56+00:00",
+      "utc_end": "2026-10-08T09:24:07.800000+00:00",
+      "title": "Staging environment appears",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          366,
+          500,
+          386,
+          173
+        ]
+      ],
+      "scale": 1,
+      "caption": "The environment menu offers staging. Runtime/service identity is masked.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 42,
+      "output_end_seconds": 53.8
+    },
+    {
+      "source_start_seconds": 1320,
+      "source_end_seconds": 1330,
+      "duration_seconds": 10,
+      "utc_start": "2026-10-08T09:26:45+00:00",
+      "utc_end": "2026-10-08T09:26:55+00:00",
+      "title": "SDK symbol choices and manual entry",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        693
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ],
+        [
+          144,
+          900,
+          810,
+          16
+        ]
+      ],
+      "scale": 1,
+      "caption": "The search offers code-location choices and a manual file/function entry route.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 53.8,
+      "output_end_seconds": 63.8
+    },
+    {
+      "source_start_seconds": 1398,
+      "source_end_seconds": 1409.9,
+      "duration_seconds": 11.9,
+      "utc_start": "2026-10-08T09:28:03+00:00",
+      "utc_end": "2026-10-08T09:28:14.900000+00:00",
+      "title": "Submit first manual session",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The logpoint targets pricing.py line 17 in staging and captures all variables up to 3 levels deep; Start Debug Session enters a loading state.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 63.8,
+      "output_end_seconds": 75.7
+    },
+    {
+      "source_start_seconds": 1409.9,
+      "source_end_seconds": 1414,
+      "duration_seconds": 4.1,
+      "utc_start": "2026-10-08T09:28:14.900000+00:00",
+      "utc_end": "2026-10-08T09:28:19+00:00",
+      "title": "Session creation confirmation",
+      "requested_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          175,
+          284,
+          77
+        ],
+        [
+          825,
+          175,
+          447,
+          77
+        ],
+        [
+          430,
+          306,
+          270,
+          41
+        ],
+        [
+          895,
+          306,
+          129,
+          41
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The interface confirms Logpoint created successfully, then displays the initial session with an Enable logs banner.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 75.7,
+      "output_end_seconds": 79.8
+    },
+    {
+      "source_start_seconds": 1414,
+      "source_end_seconds": 1424,
+      "duration_seconds": 10,
+      "utc_start": "2026-10-08T09:28:19+00:00",
+      "utc_end": "2026-10-08T09:28:29+00:00",
+      "title": "Initial Events banner",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The initial view displays No events and Enable logs, alongside a repository-source warning.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 79.8,
+      "output_end_seconds": 89.8
+    },
+    {
+      "source_start_seconds": 1498,
+      "source_end_seconds": 1508,
+      "duration_seconds": 10,
+      "utc_start": "2026-10-08T09:29:43+00:00",
+      "utc_end": "2026-10-08T09:29:53+00:00",
+      "title": "Logs already present",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1002,
+        588
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1002,
+        588
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "Log Explorer shows 45 logs and recent nonzero histogram bars. An onboarding popover partially covers the page.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 89.8,
+      "output_end_seconds": 99.8
+    },
+    {
+      "source_start_seconds": 1516,
+      "source_end_seconds": 1525,
+      "duration_seconds": 9,
+      "utc_start": "2026-10-08T09:30:01+00:00",
+      "utc_end": "2026-10-08T09:30:10+00:00",
+      "title": "Session reload reveals captured events",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "After reloading the session, EVENTS RECEIVED and event rows appear.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 99.8,
+      "output_end_seconds": 108.8
+    },
+    {
+      "source_start_seconds": 1590,
+      "source_end_seconds": 1603,
+      "duration_seconds": 13,
+      "utc_start": "2026-10-08T09:31:15+00:00",
+      "utc_end": "2026-10-08T09:31:28+00:00",
+      "title": "First visible captured values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "Captured quantity=3, false eligibility, subtotal=3600, discount=0 and total=3600. Planted application bug.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 108.8,
+      "output_end_seconds": 121.8
+    },
+    {
+      "source_start_seconds": 1758,
+      "source_end_seconds": 1768,
+      "duration_seconds": 10,
+      "utc_start": "2026-10-08T09:34:03+00:00",
+      "utc_end": "2026-10-08T09:34:13+00:00",
+      "title": "Visible session duration choices",
+      "requested_crop_source_xywh": [
+        252,
+        307,
+        1020,
+        572
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        307,
+        1020,
+        572
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          307,
+          270,
+          40
+        ],
+        [
+          895,
+          307,
+          129,
+          40
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The displayed session-duration menu offers 1 Hour, 1 Day, 2 Days and 1 Week; 1 Hour is its shortest visible option.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 121.8,
+      "output_end_seconds": 131.8
+    },
+    {
+      "source_start_seconds": 1915,
+      "source_end_seconds": 1926,
+      "duration_seconds": 11,
+      "utc_start": "2026-10-08T09:36:40+00:00",
+      "utc_end": "2026-10-08T09:36:51+00:00",
+      "title": "Quantity-two comparison",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "Another selected capture shows quantity=2, false discount eligibility, subtotal=2400, discount=0 and total=2400.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 131.8,
+      "output_end_seconds": 142.8
+    },
+    {
+      "source_start_seconds": 2437,
+      "source_end_seconds": 2456,
+      "duration_seconds": 19,
+      "utc_start": "2026-10-08T09:45:22+00:00",
+      "utc_end": "2026-10-08T09:45:41+00:00",
+      "title": "Numeric-template edit and Apply",
+      "requested_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          175,
+          284,
+          77
+        ],
+        [
+          825,
+          175,
+          447,
+          77
+        ],
+        [
+          430,
+          306,
+          270,
+          41
+        ],
+        [
+          895,
+          306,
+          129,
+          41
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "The edited numeric template is saved; the interface confirms Logpoint updated successfully.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 142.8,
+      "output_end_seconds": 161.8
+    },
+    {
+      "source_start_seconds": 2465,
+      "source_end_seconds": 2475.65,
+      "duration_seconds": 10.65,
+      "utc_start": "2026-10-08T09:45:50+00:00",
+      "utc_end": "2026-10-08T09:46:00.650000+00:00",
+      "title": "Numeric message rows appear",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "caption": "Visible rows render quantity=3 total=3600 and quantity=4 total=4320; later controls are separate.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 161.8,
+      "output_end_seconds": 172.45
+    },
+    {
+      "source_start_seconds": 2598,
+      "source_end_seconds": 2602.65,
+      "duration_seconds": 4.65,
+      "utc_start": "2026-10-08T09:48:03+00:00",
+      "utc_end": "2026-10-08T09:48:07.650000+00:00",
+      "title": "One-repository uninstall confirmation",
+      "requested_crop_source_xywh": [
+        458,
+        175,
+        448,
+        170
+      ],
+      "effective_crop_source_xywh": [
+        458,
+        175,
+        448,
+        170
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 2,
+      "caption": "The dialog names one repository. Private account/navigation transitions are omitted.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 172.45,
+      "output_end_seconds": 177.1
+    },
+    {
+      "source_start_seconds": 2662,
+      "source_end_seconds": 2670.45,
+      "duration_seconds": 8.45,
+      "utc_start": "2026-10-08T09:49:07+00:00",
+      "utc_end": "2026-10-08T09:49:15.450000+00:00",
+      "title": "Installed app list clears",
+      "requested_crop_source_xywh": [
+        428,
+        398,
+        812,
+        518
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        398,
+        812,
+        518
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "The GitHub Installed Apps view shows no installed GitHub Apps after the reset.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 177.1,
+      "output_end_seconds": 185.55
+    },
+    {
+      "source_start_seconds": 2707,
+      "source_end_seconds": 2722,
+      "duration_seconds": 15,
+      "utc_start": "2026-10-08T09:49:52+00:00",
+      "utc_end": "2026-10-08T09:50:07+00:00",
+      "title": "Restart the connection flow",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "caption": "The GitHub Apps connection prompt is opened again.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 185.55,
+      "output_end_seconds": 200.55
+    },
+    {
+      "source_start_seconds": 2924,
+      "source_end_seconds": 2936.25,
+      "duration_seconds": 12.25,
+      "utc_start": "2026-10-08T09:53:29+00:00",
+      "utc_end": "2026-10-08T09:53:41.250000+00:00",
+      "title": "One-repository draft; authorization not recorded",
+      "requested_crop_source_xywh": [
+        421,
+        224,
+        510,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        421,
+        224,
+        510,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          247,
+          498,
+          140
+        ],
+        [
+          465,
+          600,
+          450,
+          230
+        ]
+      ],
+      "scale": 1,
+      "caption": "Selected 1 repository is visible. Recording stops before Install & Authorize or OAuth completion.",
+      "output_file": "runtime-recovery-capture-highlights.mp4",
+      "output_start_seconds": 200.55,
+      "output_end_seconds": 212.8
+    }
+  ],
+  "evidence_limits": [
+    "The video demonstrates successful logpoint creation, captured event rows and captured variables. It retains the actual visible success toasts and the original transition from the initial Enable logs banner to populated events after visiting Logs and reloading the session.",
+    "Log Explorer displays 45 logs and recent nonzero histogram bars. The lack of an intervening enablement/settings change is established by the run chronology and contiguous navigation footage, not by the count alone.",
+    "The first visible locals panel appears at source 1592.10s (09:31:17.100 UTC): quantity=3, discount_eligible=False, subtotal_cents=3600, discount_cents=0, total_cents=3600 and unit_price_cents=1200. This is the deliberately planted application bug, not a Datadog pricing or capture defect. The intended total 3240 is task context, not displayed UI text.",
+    "The quantity-two comparison appears at source 1916.75s (09:36:41.750 UTC), with subtotal/total 2400 and discount 0. These source clocks identify observed UI frames; event-list timestamps may identify earlier events.",
+    "The numeric-template update success toast appears at source 2448.70s (09:45:33.700 UTC). The later source 11 rows visibly render quantity 3 total 3600 and quantity 4 total 4320. The complete later 2/3/4 message-plus-locals control sequence belongs to separate source 12 evidence.",
+    "The duration menu visibly offers 1 Hour, 1 Day, 2 Days and 1 Week. This is evidence for the displayed menu, not a universal API/product minimum.",
+    "The repository-source warning remains visible during captured values. Successful runtime capture must not be equated with successful repository-source retrieval.",
+    "The approved reset and a fresh selected-repository draft occur near the end. Recording stops at 09:53:41.25 UTC before Install & Authorize and OAuth completion at approximately 09:54\u201309:55; those later outcomes are screenshot-only and are not reconstructed here.",
+    "The billing excerpt shows GitHub Free at $0.00/month and zero displayed usage; it does not show a numeric Actions-minute allowance. The SDK excerpt reports registration booleans; registration alone is not proof of captured values.",
+    "All motion plays at original speed and includes original waiting time within every retained section. Titles, caption bands, cropping, one 2\u00d7nearest-neighbor enlargement of the uninstall dialog and opaque masks are disclosed editorial changes. No screenshot slideshow, generated image or reconstructed interaction is substituted.",
+    "The longer archive repository-selection section uses a broader privacy mask than the separately reviewed final highlight; adjacent counts/buttons are sometimes masked. Only the highlight proves the visible Selected 1 repository text.",
+    "Browser chrome, private URLs, account/repository/runtime/session/profile identities, source revisions, host rows and unreviewed raw setup diagnostics are excluded or masked. Masks conservatively cover adjacent UI; hidden areas are not evidence of absent or defective controls.",
+    "UTC captions are reconstructed from recorder start. Datadog may show UTC-07:00 event-list timestamps; those are not recording timestamps. Original raw bytes and earlier frozen media remain unchanged."
+  ],
+  "review": {
+    "source_overview_interval_seconds": 10,
+    "page_state_scan_fps": 20,
+    "setup_privacy_transition_review_fps": [
+      2,
+      4
+    ],
+    "capture_event_boundary_review_fps": 20,
+    "output_ocr": {
+      "sampled_frames": 510,
+      "unresolved_flags": 0
+    },
+    "clip_boundary_midpoint_frames": 99,
+    "full_size_key_event_review": true,
+    "sdk_identity_positions_checked_all_frames": 266,
+    "final_repository_highlight_all_frames": 245,
+    "repaired_entry_and_selector_2fps_frames": 341,
+    "late_numeric_rows_service_position_checked_all_frames": 313,
+    "all_outputs_decoded": true,
+    "raw_hash_unchanged": true,
+    "final_boundary_mask_corrections": "Expanded service mask during entry scrolling; expanded repository-selector mask in full archive; the narrower final highlight selection interval was separately reviewed."
+  }
+}
