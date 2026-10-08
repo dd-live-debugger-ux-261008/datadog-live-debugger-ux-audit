@@ -1,0 +1,2000 @@
+{
+  "version": 1,
+  "scope": "Recording source 12 only",
+  "source": {
+    "label": "Recording source 12",
+    "duration_seconds": 3050.85,
+    "bytes": 93019419,
+    "sha256": "4e9644a5979484e9ccf8c3f516e6c1756bd95179a16f1a9026881218fd2c8d03",
+    "utc_start": "2026-10-08T09:59:24+00:00",
+    "utc_end_derived": "2026-10-08T10:50:14.850000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end); original speed; no inserted title-card time. Frame indices are zero-based at 20 fps. UTC is reconstructed.",
+  "retained_seconds": 2403.2,
+  "omitted_seconds": 647.65,
+  "retained": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 48.95,
+      "source_start_frame": 0,
+      "source_end_frame_exclusive": 979,
+      "duration_seconds": 48.95,
+      "utc_start_derived": "2026-10-08T09:59:24+00:00",
+      "utc_end_derived": "2026-10-08T10:00:12.950000+00:00",
+      "title": "Billing overview at continuation start",
+      "requested_crop_source_xywh": [
+        428,
+        368,
+        812,
+        566
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        368,
+        812,
+        566
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-12-part-01-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 48.95
+    },
+    {
+      "source_start_seconds": 49.25,
+      "source_end_seconds": 396,
+      "source_start_frame": 985,
+      "source_end_frame_exclusive": 7920,
+      "duration_seconds": 346.75,
+      "utc_start_derived": "2026-10-08T10:00:13.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:06:00+00:00",
+      "title": "Numeric capture controls and original waiting interval",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-01-sanitized.mp4",
+      "output_start_seconds": 48.95,
+      "output_end_seconds": 395.7
+    },
+    {
+      "source_start_seconds": 399.5,
+      "source_end_seconds": 484.65,
+      "source_start_frame": 7990,
+      "source_end_frame_exclusive": 9693,
+      "duration_seconds": 85.15,
+      "utc_start_derived": "2026-10-08T10:06:03.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:07:28.650000+00:00",
+      "title": "Configure and launch the next runtime workflow",
+      "requested_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        794,
+        224,
+        474,
+        702
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-12-part-01-sanitized.mp4",
+      "output_start_seconds": 395.7,
+      "output_end_seconds": 480.85
+    },
+    {
+      "source_start_seconds": 485,
+      "source_end_seconds": 569.25,
+      "source_start_frame": 9700,
+      "source_end_frame_exclusive": 11385,
+      "duration_seconds": 84.25,
+      "utc_start_derived": "2026-10-08T10:07:29+00:00",
+      "utc_end_derived": "2026-10-08T10:08:53.250000+00:00",
+      "title": "Workflow queued behind the earlier runtime",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          363,
+          72
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-01-sanitized.mp4",
+      "output_start_seconds": 480.85,
+      "output_end_seconds": 565.1
+    },
+    {
+      "source_start_seconds": 746.25,
+      "source_end_seconds": 777,
+      "source_start_frame": 14925,
+      "source_end_frame_exclusive": 15540,
+      "duration_seconds": 30.75,
+      "utc_start_derived": "2026-10-08T10:11:50.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:12:21+00:00",
+      "title": "Session entry during runtime handover",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          366,
+          500,
+          386,
+          173
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 30.75
+    },
+    {
+      "source_start_seconds": 1091.25,
+      "source_end_seconds": 1117.5,
+      "source_start_frame": 21825,
+      "source_end_frame_exclusive": 22350,
+      "duration_seconds": 26.25,
+      "utc_start_derived": "2026-10-08T10:17:35.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:18:01.500000+00:00",
+      "title": "Reload reveals retrieved source beside captured values",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 30.75,
+      "output_end_seconds": 57.0
+    },
+    {
+      "source_start_seconds": 1118.8,
+      "source_end_seconds": 1186.7,
+      "source_start_frame": 22376,
+      "source_end_frame_exclusive": 23734,
+      "duration_seconds": 67.9,
+      "utc_start_derived": "2026-10-08T10:18:02.800000+00:00",
+      "utc_end_derived": "2026-10-08T10:19:10.700000+00:00",
+      "title": "Prepare the source-backed control session",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ],
+        [
+          144,
+          900,
+          810,
+          17
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 57.0,
+      "output_end_seconds": 124.9
+    },
+    {
+      "source_start_seconds": 1187.2,
+      "source_end_seconds": 1198,
+      "source_start_frame": 23744,
+      "source_end_frame_exclusive": 23960,
+      "duration_seconds": 10.8,
+      "utc_start_derived": "2026-10-08T10:19:11.200000+00:00",
+      "utc_end_derived": "2026-10-08T10:19:22+00:00",
+      "title": "Control session creation and initial empty state",
+      "requested_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        175,
+        1020,
+        704
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          252,
+          175,
+          284,
+          77
+        ],
+        [
+          825,
+          175,
+          447,
+          77
+        ],
+        [
+          430,
+          306,
+          277,
+          41
+        ],
+        [
+          895,
+          306,
+          205,
+          41
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 124.9,
+      "output_end_seconds": 135.7
+    },
+    {
+      "source_start_seconds": 1198.9,
+      "source_end_seconds": 1223,
+      "source_start_frame": 23978,
+      "source_end_frame_exclusive": 24460,
+      "duration_seconds": 24.1,
+      "utc_start_derived": "2026-10-08T10:19:22.900000+00:00",
+      "utc_end_derived": "2026-10-08T10:19:47+00:00",
+      "title": "Queued runtime status revisit",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          363,
+          72
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 135.7,
+      "output_end_seconds": 159.8
+    },
+    {
+      "source_start_seconds": 1224,
+      "source_end_seconds": 1288,
+      "source_start_frame": 24480,
+      "source_end_frame_exclusive": 25760,
+      "duration_seconds": 64,
+      "utc_start_derived": "2026-10-08T10:19:48+00:00",
+      "utc_end_derived": "2026-10-08T10:20:52+00:00",
+      "title": "Target and control observations with retrieved source",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 159.8,
+      "output_end_seconds": 223.8
+    },
+    {
+      "source_start_seconds": 1296.25,
+      "source_end_seconds": 1307.2,
+      "source_start_frame": 25925,
+      "source_end_frame_exclusive": 26144,
+      "duration_seconds": 10.95,
+      "utc_start_derived": "2026-10-08T10:21:00.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:21:11.200000+00:00",
+      "title": "Control event stream before runtime-status review",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 223.8,
+      "output_end_seconds": 234.75
+    },
+    {
+      "source_start_seconds": 1368,
+      "source_end_seconds": 1382,
+      "source_start_frame": 27360,
+      "source_end_frame_exclusive": 27640,
+      "duration_seconds": 14,
+      "utc_start_derived": "2026-10-08T10:22:12+00:00",
+      "utc_end_derived": "2026-10-08T10:22:26+00:00",
+      "title": "Continuation runtime reports registration and readiness",
+      "requested_crop_source_xywh": [
+        432,
+        260,
+        788,
+        642
+      ],
+      "effective_crop_source_xywh": [
+        432,
+        260,
+        788,
+        642
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          819,
+          401,
+          260,
+          34
+        ],
+        [
+          819,
+          637,
+          260,
+          34
+        ],
+        [
+          819,
+          874,
+          260,
+          28
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 234.75,
+      "output_end_seconds": 248.75
+    },
+    {
+      "source_start_seconds": 1384,
+      "source_end_seconds": 1485.5,
+      "source_start_frame": 27680,
+      "source_end_frame_exclusive": 29710,
+      "duration_seconds": 101.5,
+      "utc_start_derived": "2026-10-08T10:22:28+00:00",
+      "utc_end_derived": "2026-10-08T10:24:09.500000+00:00",
+      "title": "Earlier workflow completed and retained waiting",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          363,
+          72
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 248.75,
+      "output_end_seconds": 350.25
+    },
+    {
+      "source_start_seconds": 1488,
+      "source_end_seconds": 1505,
+      "source_start_frame": 29760,
+      "source_end_frame_exclusive": 30100,
+      "duration_seconds": 17,
+      "utc_start_derived": "2026-10-08T10:24:12+00:00",
+      "utc_end_derived": "2026-10-08T10:24:29+00:00",
+      "title": "Control capture before navigating to Logs",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 350.25,
+      "output_end_seconds": 367.25
+    },
+    {
+      "source_start_seconds": 1508,
+      "source_end_seconds": 1528.5,
+      "source_start_frame": 30160,
+      "source_end_frame_exclusive": 30570,
+      "duration_seconds": 20.5,
+      "utc_start_derived": "2026-10-08T10:24:32+00:00",
+      "utc_end_derived": "2026-10-08T10:24:52.500000+00:00",
+      "title": "First requested-event-not-indexed state",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-12-part-02-sanitized.mp4",
+      "output_start_seconds": 367.25,
+      "output_end_seconds": 387.75
+    },
+    {
+      "source_start_seconds": 1545,
+      "source_end_seconds": 1585.25,
+      "source_start_frame": 30900,
+      "source_end_frame_exclusive": 31705,
+      "duration_seconds": 40.25,
+      "utc_start_derived": "2026-10-08T10:25:09+00:00",
+      "utc_end_derived": "2026-10-08T10:25:49.250000+00:00",
+      "title": "Retrieved stacktrace source and captured variables in Logs",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          303,
+          640,
+          60
+        ],
+        [
+          616,
+          768,
+          640,
+          62
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 40.25
+    },
+    {
+      "source_start_seconds": 1589,
+      "source_end_seconds": 1696,
+      "source_start_frame": 31780,
+      "source_end_frame_exclusive": 33920,
+      "duration_seconds": 107,
+      "utc_start_derived": "2026-10-08T10:25:53+00:00",
+      "utc_end_derived": "2026-10-08T10:27:40+00:00",
+      "title": "Provider source at the selected revision",
+      "requested_crop_source_xywh": [
+        108,
+        239,
+        1136,
+        606
+      ],
+      "effective_crop_source_xywh": [
+        108,
+        239,
+        1136,
+        606
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          437,
+          239,
+          245,
+          46
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 40.25,
+      "output_end_seconds": 147.25
+    },
+    {
+      "source_start_seconds": 1717,
+      "source_end_seconds": 1734,
+      "source_start_frame": 34340,
+      "source_end_frame_exclusive": 34680,
+      "duration_seconds": 17,
+      "utc_start_derived": "2026-10-08T10:28:01+00:00",
+      "utc_end_derived": "2026-10-08T10:28:18+00:00",
+      "title": "Actual snapshot timestamp in the Logs payload",
+      "requested_crop_source_xywh": [
+        703,
+        732,
+        360,
+        62
+      ],
+      "effective_crop_source_xywh": [
+        703,
+        732,
+        360,
+        62
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 2,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 147.25,
+      "output_end_seconds": 164.25
+    },
+    {
+      "source_start_seconds": 1742.5,
+      "source_end_seconds": 1821.4,
+      "source_start_frame": 34850,
+      "source_end_frame_exclusive": 36428,
+      "duration_seconds": 78.9,
+      "utc_start_derived": "2026-10-08T10:28:26.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:29:45.400000+00:00",
+      "title": "Prepare and submit an out-of-range line",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ],
+        [
+          144,
+          900,
+          810,
+          17
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 164.25,
+      "output_end_seconds": 243.15
+    },
+    {
+      "source_start_seconds": 1822,
+      "source_end_seconds": 1922,
+      "source_start_frame": 36440,
+      "source_end_frame_exclusive": 38440,
+      "duration_seconds": 100,
+      "utc_start_derived": "2026-10-08T10:29:46+00:00",
+      "utc_end_derived": "2026-10-08T10:31:26+00:00",
+      "title": "Out-of-range logpoint reaches ERROR",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 243.15,
+      "output_end_seconds": 343.15
+    },
+    {
+      "source_start_seconds": 1922,
+      "source_end_seconds": 1934,
+      "source_start_frame": 38440,
+      "source_end_frame_exclusive": 38680,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T10:31:26+00:00",
+      "utc_end_derived": "2026-10-08T10:31:38+00:00",
+      "title": "Instance-error tooltip with identifiers masked",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ],
+        [
+          737,
+          506,
+          160,
+          18
+        ],
+        [
+          612,
+          523,
+          142,
+          20
+        ],
+        [
+          612,
+          559,
+          300,
+          40
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 343.15,
+      "output_end_seconds": 355.15
+    },
+    {
+      "source_start_seconds": 1934,
+      "source_end_seconds": 2272,
+      "source_start_frame": 38680,
+      "source_end_frame_exclusive": 45440,
+      "duration_seconds": 338,
+      "utc_start_derived": "2026-10-08T10:31:38+00:00",
+      "utc_end_derived": "2026-10-08T10:37:16+00:00",
+      "title": "Valid gutter recovery and conditional capture revisions",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-03-sanitized.mp4",
+      "output_start_seconds": 355.15,
+      "output_end_seconds": 693.15
+    },
+    {
+      "source_start_seconds": 2280,
+      "source_end_seconds": 2320,
+      "source_start_frame": 45600,
+      "source_end_frame_exclusive": 46400,
+      "duration_seconds": 40,
+      "utc_start_derived": "2026-10-08T10:37:24+00:00",
+      "utc_end_derived": "2026-10-08T10:38:04+00:00",
+      "title": "Installed repository discovery and search",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1020,
+        600
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1020,
+        600
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          520,
+          486,
+          210,
+          40
+        ],
+        [
+          285,
+          585,
+          440,
+          40
+        ],
+        [
+          268,
+          665,
+          430,
+          43
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 40
+    },
+    {
+      "source_start_seconds": 2331,
+      "source_end_seconds": 2400,
+      "source_start_frame": 46620,
+      "source_end_frame_exclusive": 48000,
+      "duration_seconds": 69,
+      "utc_start_derived": "2026-10-08T10:38:15+00:00",
+      "utc_end_derived": "2026-10-08T10:39:24+00:00",
+      "title": "Condition removal and recovered event stream",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        538
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 40,
+      "output_end_seconds": 109
+    },
+    {
+      "source_start_seconds": 2400,
+      "source_end_seconds": 2475.9,
+      "source_start_frame": 48000,
+      "source_end_frame_exclusive": 49518,
+      "duration_seconds": 75.9,
+      "utc_start_derived": "2026-10-08T10:39:24+00:00",
+      "utc_end_derived": "2026-10-08T10:40:39.900000+00:00",
+      "title": "Recovery session and original waiting",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 109,
+      "output_end_seconds": 184.9
+    },
+    {
+      "source_start_seconds": 2475.9,
+      "source_end_seconds": 2495.25,
+      "source_start_frame": 49518,
+      "source_end_frame_exclusive": 49905,
+      "duration_seconds": 19.35,
+      "utc_start_derived": "2026-10-08T10:40:39.900000+00:00",
+      "utc_end_derived": "2026-10-08T10:40:59.250000+00:00",
+      "title": "Target still active before expiry",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 184.9,
+      "output_end_seconds": 204.25
+    },
+    {
+      "source_start_seconds": 2495.25,
+      "source_end_seconds": 2531.0,
+      "source_start_frame": 49905,
+      "source_end_frame_exclusive": 50620,
+      "duration_seconds": 35.75,
+      "utc_start_derived": "2026-10-08T10:40:59.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:41:35+00:00",
+      "title": "Target lookup displays not indexed",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 204.25,
+      "output_end_seconds": 240.0
+    },
+    {
+      "source_start_seconds": 2531.0,
+      "source_end_seconds": 2542.4,
+      "source_start_frame": 50620,
+      "source_end_frame_exclusive": 50848,
+      "duration_seconds": 11.4,
+      "utc_start_derived": "2026-10-08T10:41:35+00:00",
+      "utc_end_derived": "2026-10-08T10:41:46.400000+00:00",
+      "title": "Target log metadata",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          293,
+          640,
+          192
+        ],
+        [
+          616,
+          609,
+          640,
+          83
+        ],
+        [
+          616,
+          770,
+          640,
+          115
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 240.0,
+      "output_end_seconds": 251.4
+    },
+    {
+      "source_start_seconds": 2542.65,
+      "source_end_seconds": 2591.1,
+      "source_start_frame": 50853,
+      "source_end_frame_exclusive": 51822,
+      "duration_seconds": 48.45,
+      "utc_start_derived": "2026-10-08T10:41:46.650000+00:00",
+      "utc_end_derived": "2026-10-08T10:42:35.100000+00:00",
+      "title": "Target source and values in Logs",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          303,
+          640,
+          60
+        ],
+        [
+          616,
+          768,
+          640,
+          62
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-04-sanitized.mp4",
+      "output_start_seconds": 251.4,
+      "output_end_seconds": 299.85
+    },
+    {
+      "source_start_seconds": 2591.1,
+      "source_end_seconds": 2809.9,
+      "source_start_frame": 51822,
+      "source_end_frame_exclusive": 56198,
+      "duration_seconds": 218.8,
+      "utc_start_derived": "2026-10-08T10:42:35.100000+00:00",
+      "utc_end_derived": "2026-10-08T10:46:13.900000+00:00",
+      "title": "Control stays active during the target expiry window",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 218.8
+    },
+    {
+      "source_start_seconds": 2809.9,
+      "source_end_seconds": 2830.8,
+      "source_start_frame": 56198,
+      "source_end_frame_exclusive": 56616,
+      "duration_seconds": 20.9,
+      "utc_start_derived": "2026-10-08T10:46:13.900000+00:00",
+      "utc_end_derived": "2026-10-08T10:46:34.800000+00:00",
+      "title": "Target returns already inactive and expired",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 218.8,
+      "output_end_seconds": 239.7
+    },
+    {
+      "source_start_seconds": 2830.8,
+      "source_end_seconds": 2859.65,
+      "source_start_frame": 56616,
+      "source_end_frame_exclusive": 57193,
+      "duration_seconds": 28.85,
+      "utc_start_derived": "2026-10-08T10:46:34.800000+00:00",
+      "utc_end_derived": "2026-10-08T10:47:03.650000+00:00",
+      "title": "Expired target lookup displays not indexed",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 239.7,
+      "output_end_seconds": 268.55
+    },
+    {
+      "source_start_seconds": 2859.65,
+      "source_end_seconds": 2870.35,
+      "source_start_frame": 57193,
+      "source_end_frame_exclusive": 57407,
+      "duration_seconds": 10.7,
+      "utc_start_derived": "2026-10-08T10:47:03.650000+00:00",
+      "utc_end_derived": "2026-10-08T10:47:14.350000+00:00",
+      "title": "Expired target log metadata",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          293,
+          640,
+          192
+        ],
+        [
+          616,
+          609,
+          640,
+          83
+        ],
+        [
+          616,
+          770,
+          640,
+          115
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 268.55,
+      "output_end_seconds": 279.25
+    },
+    {
+      "source_start_seconds": 2870.6,
+      "source_end_seconds": 2902.3,
+      "source_start_frame": 57412,
+      "source_end_frame_exclusive": 58046,
+      "duration_seconds": 31.7,
+      "utc_start_derived": "2026-10-08T10:47:14.600000+00:00",
+      "utc_end_derived": "2026-10-08T10:47:46.300000+00:00",
+      "title": "Expired target source and retained values",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          303,
+          640,
+          60
+        ],
+        [
+          616,
+          768,
+          640,
+          62
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 279.25,
+      "output_end_seconds": 310.95
+    },
+    {
+      "source_start_seconds": 2902.3,
+      "source_end_seconds": 2917.2,
+      "source_start_frame": 58046,
+      "source_end_frame_exclusive": 58344,
+      "duration_seconds": 14.9,
+      "utc_start_derived": "2026-10-08T10:47:46.300000+00:00",
+      "utc_end_derived": "2026-10-08T10:48:01.200000+00:00",
+      "title": "Control remains active after target expiry",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          895,
+          308,
+          123,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 310.95,
+      "output_end_seconds": 325.85
+    },
+    {
+      "source_start_seconds": 2917.2,
+      "source_end_seconds": 2945.0,
+      "source_start_frame": 58344,
+      "source_end_frame_exclusive": 58900,
+      "duration_seconds": 27.8,
+      "utc_start_derived": "2026-10-08T10:48:01.200000+00:00",
+      "utc_end_derived": "2026-10-08T10:48:29+00:00",
+      "title": "Later control lookup displays not indexed",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 325.85,
+      "output_end_seconds": 353.65
+    },
+    {
+      "source_start_seconds": 2945.0,
+      "source_end_seconds": 2959.85,
+      "source_start_frame": 58900,
+      "source_end_frame_exclusive": 59197,
+      "duration_seconds": 14.85,
+      "utc_start_derived": "2026-10-08T10:48:29+00:00",
+      "utc_end_derived": "2026-10-08T10:48:43.850000+00:00",
+      "title": "Later control log metadata",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          293,
+          640,
+          192
+        ],
+        [
+          616,
+          609,
+          640,
+          83
+        ],
+        [
+          616,
+          770,
+          640,
+          115
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 353.65,
+      "output_end_seconds": 368.5
+    },
+    {
+      "source_start_seconds": 2962.0,
+      "source_end_seconds": 2963.05,
+      "source_start_frame": 59240,
+      "source_end_frame_exclusive": 59261,
+      "duration_seconds": 1.05,
+      "utc_start_derived": "2026-10-08T10:48:46+00:00",
+      "utc_end_derived": "2026-10-08T10:48:47.050000+00:00",
+      "title": "Later control source and values",
+      "requested_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "effective_crop_source_xywh": [
+        616,
+        211,
+        640,
+        674
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          616,
+          303,
+          640,
+          60
+        ],
+        [
+          616,
+          768,
+          640,
+          62
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 368.5,
+      "output_end_seconds": 369.55
+    },
+    {
+      "source_start_seconds": 2963.05,
+      "source_end_seconds": 2963.4,
+      "source_start_frame": 59261,
+      "source_end_frame_exclusive": 59268,
+      "duration_seconds": 0.35,
+      "utc_start_derived": "2026-10-08T10:48:47.050000+00:00",
+      "utc_end_derived": "2026-10-08T10:48:47.400000+00:00",
+      "title": "Inactive target before reload",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 369.55,
+      "output_end_seconds": 369.9
+    },
+    {
+      "source_start_seconds": 2963.4,
+      "source_end_seconds": 2966.5,
+      "source_start_frame": 59268,
+      "source_end_frame_exclusive": 59330,
+      "duration_seconds": 3.1,
+      "utc_start_derived": "2026-10-08T10:48:47.400000+00:00",
+      "utc_end_derived": "2026-10-08T10:48:50.500000+00:00",
+      "title": "Reload the inactive target",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 369.9,
+      "output_end_seconds": 373.0
+    },
+    {
+      "source_start_seconds": 2966.5,
+      "source_end_seconds": 2997.45,
+      "source_start_frame": 59330,
+      "source_end_frame_exclusive": 59949,
+      "duration_seconds": 30.95,
+      "utc_start_derived": "2026-10-08T10:48:50.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:49:21.450000+00:00",
+      "title": "Reloaded target retains expired status",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 373.0,
+      "output_end_seconds": 403.95
+    },
+    {
+      "source_start_seconds": 2997.45,
+      "source_end_seconds": 3000.55,
+      "source_start_frame": 59949,
+      "source_end_frame_exclusive": 60011,
+      "duration_seconds": 3.1,
+      "utc_start_derived": "2026-10-08T10:49:21.450000+00:00",
+      "utc_end_derived": "2026-10-08T10:49:24.550000+00:00",
+      "title": "Fresh direct-link navigation",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 403.95,
+      "output_end_seconds": 407.05
+    },
+    {
+      "source_start_seconds": 3000.55,
+      "source_end_seconds": 3050.85,
+      "source_start_frame": 60011,
+      "source_end_frame_exclusive": 61017,
+      "duration_seconds": 50.3,
+      "utc_start_derived": "2026-10-08T10:49:24.550000+00:00",
+      "utc_end_derived": "2026-10-08T10:50:14.850000+00:00",
+      "title": "Direct-link target retains expired status and history",
+      "requested_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        308,
+        1020,
+        576
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          308,
+          280,
+          38
+        ],
+        [
+          1000,
+          308,
+          100,
+          38
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-12-part-05-sanitized.mp4",
+      "output_start_seconds": 407.05,
+      "output_end_seconds": 457.35
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 48.95,
+      "source_end_seconds": 49.25,
+      "duration_seconds": 0.3,
+      "utc_start_derived": "2026-10-08T10:00:12.950000+00:00",
+      "utc_end_derived": "2026-10-08T10:00:13.250000+00:00",
+      "reason": "Billing-to-session tab transition; conservative privacy boundary."
+    },
+    {
+      "source_start_seconds": 396,
+      "source_end_seconds": 399.5,
+      "duration_seconds": 3.5,
+      "utc_start_derived": "2026-10-08T10:06:00+00:00",
+      "utc_end_derived": "2026-10-08T10:06:03.500000+00:00",
+      "reason": "Brief raw diagnostic log and private workflow navigation before the launch drawer settles."
+    },
+    {
+      "source_start_seconds": 484.65,
+      "source_end_seconds": 485,
+      "duration_seconds": 0.35,
+      "utc_start_derived": "2026-10-08T10:07:28.650000+00:00",
+      "utc_end_derived": "2026-10-08T10:07:29+00:00",
+      "reason": "Workflow launch-to-queue transition; conservative privacy boundary."
+    },
+    {
+      "source_start_seconds": 569.25,
+      "source_end_seconds": 746.25,
+      "duration_seconds": 177.0,
+      "utc_start_derived": "2026-10-08T10:08:53.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:11:50.250000+00:00",
+      "reason": "Repository report/editor work and associated waiting outside the reviewed product views; private navigation and identity regions."
+    },
+    {
+      "source_start_seconds": 777,
+      "source_end_seconds": 1091.25,
+      "duration_seconds": 314.25,
+      "utc_start_derived": "2026-10-08T10:12:21+00:00",
+      "utc_end_derived": "2026-10-08T10:17:35.250000+00:00",
+      "reason": "Repository report authoring/administration and prolonged waiting before returning to the debugger; private navigation and identity regions."
+    },
+    {
+      "source_start_seconds": 1117.5,
+      "source_end_seconds": 1118.8,
+      "duration_seconds": 1.3,
+      "utc_start_derived": "2026-10-08T10:18:01.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:18:02.800000+00:00",
+      "reason": "Session-entry-to-modal transition with moving runtime identity."
+    },
+    {
+      "source_start_seconds": 1186.7,
+      "source_end_seconds": 1187.2,
+      "duration_seconds": 0.5,
+      "utc_start_derived": "2026-10-08T10:19:10.700000+00:00",
+      "utc_end_derived": "2026-10-08T10:19:11.200000+00:00",
+      "reason": "Modal-to-created-session transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1198,
+      "source_end_seconds": 1198.9,
+      "duration_seconds": 0.9,
+      "utc_start_derived": "2026-10-08T10:19:22+00:00",
+      "utc_end_derived": "2026-10-08T10:19:22.900000+00:00",
+      "reason": "Session-to-workflow tab transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1223,
+      "source_end_seconds": 1224,
+      "duration_seconds": 1,
+      "utc_start_derived": "2026-10-08T10:19:47+00:00",
+      "utc_end_derived": "2026-10-08T10:19:48+00:00",
+      "reason": "Workflow-to-session tab transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1288,
+      "source_end_seconds": 1296.25,
+      "duration_seconds": 8.25,
+      "utc_start_derived": "2026-10-08T10:20:52+00:00",
+      "utc_end_derived": "2026-10-08T10:21:00.250000+00:00",
+      "reason": "Expanded logpoint/runtime metadata with private identifiers."
+    },
+    {
+      "source_start_seconds": 1307.2,
+      "source_end_seconds": 1368,
+      "duration_seconds": 60.8,
+      "utc_start_derived": "2026-10-08T10:21:11.200000+00:00",
+      "utc_end_derived": "2026-10-08T10:22:12+00:00",
+      "reason": "Workflow job navigation and diagnostic output before the narrowly reviewed registration/status excerpt."
+    },
+    {
+      "source_start_seconds": 1382,
+      "source_end_seconds": 1384,
+      "duration_seconds": 2,
+      "utc_start_derived": "2026-10-08T10:22:26+00:00",
+      "utc_end_derived": "2026-10-08T10:22:28+00:00",
+      "reason": "Diagnostic-to-workflow navigation; conservative boundary padding."
+    },
+    {
+      "source_start_seconds": 1485.5,
+      "source_end_seconds": 1488,
+      "duration_seconds": 2.5,
+      "utc_start_derived": "2026-10-08T10:24:09.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:24:12+00:00",
+      "reason": "Workflow-to-control-session tab transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1505,
+      "source_end_seconds": 1508,
+      "duration_seconds": 3,
+      "utc_start_derived": "2026-10-08T10:24:29+00:00",
+      "utc_end_derived": "2026-10-08T10:24:32+00:00",
+      "reason": "Session-to-Logs loading/navigation boundary before the reviewed detail panel."
+    },
+    {
+      "source_start_seconds": 1528.5,
+      "source_end_seconds": 1545,
+      "duration_seconds": 16.5,
+      "utc_start_derived": "2026-10-08T10:24:52.500000+00:00",
+      "utc_end_derived": "2026-10-08T10:25:09+00:00",
+      "reason": "Log metadata and scrolling containing private host, service, repository, trace and thread identifiers before the stable source view."
+    },
+    {
+      "source_start_seconds": 1585.25,
+      "source_end_seconds": 1589,
+      "duration_seconds": 3.75,
+      "utc_start_derived": "2026-10-08T10:25:49.250000+00:00",
+      "utc_end_derived": "2026-10-08T10:25:53+00:00",
+      "reason": "Logs-to-provider navigation with shifting private repository/account headers."
+    },
+    {
+      "source_start_seconds": 1696,
+      "source_end_seconds": 1717,
+      "duration_seconds": 21,
+      "utc_start_derived": "2026-10-08T10:27:40+00:00",
+      "utc_end_derived": "2026-10-08T10:28:01+00:00",
+      "reason": "Provider-to-session-entry-to-Logs JSON navigation and private metadata before the narrow timestamp crop."
+    },
+    {
+      "source_start_seconds": 1734,
+      "source_end_seconds": 1742.5,
+      "duration_seconds": 8.5,
+      "utc_start_derived": "2026-10-08T10:28:18+00:00",
+      "utc_end_derived": "2026-10-08T10:28:26.500000+00:00",
+      "reason": "Private Logs JSON-to-new-logpoint modal transition and settling."
+    },
+    {
+      "source_start_seconds": 1821.4,
+      "source_end_seconds": 1822,
+      "duration_seconds": 0.6,
+      "utc_start_derived": "2026-10-08T10:29:45.400000+00:00",
+      "utc_end_derived": "2026-10-08T10:29:46+00:00",
+      "reason": "Submitted modal-to-session transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 2272,
+      "source_end_seconds": 2280,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T10:37:16+00:00",
+      "utc_end_derived": "2026-10-08T10:37:24+00:00",
+      "reason": "Session-to-integration navigation; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 2320,
+      "source_end_seconds": 2331,
+      "duration_seconds": 11,
+      "utc_start_derived": "2026-10-08T10:38:04+00:00",
+      "utc_end_derived": "2026-10-08T10:38:15+00:00",
+      "reason": "Integration-to-session tab transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 2542.4,
+      "source_end_seconds": 2542.65,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T10:41:46.400000+00:00",
+      "utc_end_derived": "2026-10-08T10:41:46.650000+00:00",
+      "reason": "Scrolling private metadata/source-path transition."
+    },
+    {
+      "source_start_seconds": 2870.35,
+      "source_end_seconds": 2870.6,
+      "duration_seconds": 0.25,
+      "utc_start_derived": "2026-10-08T10:47:14.350000+00:00",
+      "utc_end_derived": "2026-10-08T10:47:14.600000+00:00",
+      "reason": "Scrolling private metadata/source-path transition."
+    },
+    {
+      "source_start_seconds": 2959.85,
+      "source_end_seconds": 2962.0,
+      "duration_seconds": 2.15,
+      "utc_start_derived": "2026-10-08T10:48:43.850000+00:00",
+      "utc_end_derived": "2026-10-08T10:48:46+00:00",
+      "reason": "Scrolling source/JSON interaction containing moving private identifiers."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-12-part-01-sanitized.mp4",
+      "duration_seconds": 565.1,
+      "bytes": 4437757,
+      "sha256": "c4b1ec017318c343310facca9b1d8cbd9602b0a2e2817b21c0fe51d1187ee49f",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "11302"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-12-part-02-sanitized.mp4",
+      "duration_seconds": 387.75,
+      "bytes": 3290301,
+      "sha256": "c94c767b16e4ac6a334397172fb3f52723b2a26ddb09fd1f83db660ff234b9cf",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "7755"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-12-part-03-sanitized.mp4",
+      "duration_seconds": 693.15,
+      "bytes": 5595815,
+      "sha256": "7a0ba07c4e6e0dbab5949fa77ce4896e49b761c3d3f9fe652ccfb466237ecbe0",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "13863"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-12-part-04-sanitized.mp4",
+      "duration_seconds": 299.85,
+      "bytes": 2528055,
+      "sha256": "c5b9e1987b37f2ad073c555e0dd9e3934e5483732aa7bee774bca186cad537ab",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "5997"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    },
+    {
+      "file": "source-12-part-05-sanitized.mp4",
+      "duration_seconds": 457.35,
+      "bytes": 4266305,
+      "sha256": "fd00f6a4f6dd808841608dd7767437cb413456ec75aa6f1bcac8b55ce7b4ac0e",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "9147"
+      },
+      "audio_tracks": 0,
+      "embedded_chapters": true
+    }
+  ],
+  "evidence_limits": [
+    "All motion is genuine source 12 at original speed. Cropping, opaque privacy masks, caption bands and a disclosed 2x nearest-neighbor enlargement of the actual snapshot-timestamp field are the only editorial image changes. No obscured UI was reconstructed or replaced with a screenshot.",
+    "A native browser context menu persists over much of the later recording. It is part of the original captured desktop and obscures some controls, source and capture headers. Its presence is a recording limitation, not evidence of a Datadog defect. Reviewed screenshots can show details beyond this foreground motion.",
+    "The numeric capture panel directly shows quantity 3 with false eligibility, subtotal 3600, discount 0 and total 3600; quantity 2 has subtotal/total 2400 and discount 0; quantity 4 has true eligibility, subtotal 4800, discount 480 and total 4320. The quantity-three result is the deliberately planted application bug, not a Datadog pricing defect. The intended 3240 total is task context rather than displayed result text.",
+    "Retrieved pricing.py source, a source-backed control session and a provider source page are recorded. The provider selector shows f506150 and highlights line 17. Its separate file-history commit label must not be confused with the selected revision. The approved full source revision is visible in the runtime-status excerpt; private account and repository identities are masked.",
+    "The runtime-status excerpt reports registration and readiness, which alone do not prove a captured application event. Actual captured values and messages are shown separately.",
+    "The narrow payload crop directly displays timestamp 1791455041812, corresponding to 2026-10-08 10:24:01.812 UTC. It preserves actual pixels from the earlier Logs inspection. Other event-list/header times and URL parameters are not interchangeable with debugger snapshot execution timestamps.",
+    "Line 9999 reaches ERROR and has an instance configuration/install-failure tooltip. The native browser menu obscures the full error class and some wording, so this motion does not claim NoFunctionsAtLine is fully readable. Private probe and source-path fragments are masked. A separate valid line 17 logpoint is added and event rows appear.",
+    "COND3, COND4 and RECOVER messages and captured values are visible through the condition test sequence. The native menu obscures part of the predicate editor and OUTDATED capture header. Exact predicate 3-to-4-to-101-to-removal configuration and header details rely on separate reviewed stills/run observations where they are not readable in motion. Retained old rows alone do not establish continued matching capture or a broken condition.",
+    "The installed-repository page and a private search are retained with identities masked. A discovery no-match is not proof that private source retrieval was attempted or denied.",
+    "The requested-event-not-indexed message appears repeatedly in actual Logs navigation. Separate matching-snapshot verification establishes exact identifier equality for the investigated reproductions; the safe video crops do not independently prove that equality or a matching-row count. No identifier-format or indexing root cause is inferred.",
+    "The target is last foreground ACTIVE in source interval 2475.90\u20132495.25 seconds. The control remains foreground and active across the separately observed target expiry window. The target first returns already INACTIVE / EXPIRED at source 2809.90 seconds (10:46:13.90 reconstructed UTC). The target active-to-expired transition is not foreground motion in this recording.",
+    "The later active control and the expired target after reload and fresh direct-link navigation are recorded. Separate screenshot/payload observations bound the target expiry and compare actual execution timestamps; they are not substituted into this video. These observations do not establish instantaneous backend cessation.",
+    "Caption UTC is reconstructed from the recorder start; source offsets are authoritative for locating frames. Datadog event lists display UTC-07:00. Observation clocks, row/header times and snapshot execution times are different kinds of evidence.",
+    "Browser chrome, private URLs, account/profile/session/runtime/trace identifiers and private repository prefixes are cropped, masked or omitted. Adjacent UI can also be hidden by conservative masks. No raw recording, private journal, internal identifier, contact sheet or build script is included in either public folder.",
+    "The archive retains whole contiguous safe sections, including original waits. Every omitted source interval has a reason and timing. The highlights are a separate selected edit. Source 11 and all earlier frozen packs remain unchanged."
+  ],
+  "review": {
+    "source_overview_spacing_seconds": 15,
+    "dense_privacy_transition_sampling_fps": 2,
+    "line_error_review_sampling_fps": 1,
+    "late_header_window_edge_scan_fps": 20,
+    "clip_endpoints_midpoints_reviewed": 210,
+    "output_ocr_sampled_frames": 600,
+    "unresolved_ocr_flags": 0,
+    "approved_source_revision_excluded_from_identifier_flags": true,
+    "all_public_videos_decoded": true,
+    "source_hash_unchanged": true,
+    "targeted_sdk_tooltip_privacy_review": true
+  }
+}
