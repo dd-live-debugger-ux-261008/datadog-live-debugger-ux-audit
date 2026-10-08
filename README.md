@@ -1,43 +1,36 @@
 # Datadog Live Debugger and Source Code Integration audit
 
-The live-case ledger is frozen at 13:15:00 UTC with eight distinct findings. The offline ddtrace 4.11.0 verification finalized at 13:15:37 and was confirmed at 13:16:33 UTC; that separately dated addendum adds Medium FUNC02 without changing any original-case status. The combined report has nine distinct findings: 0 High, 4 Medium and 5 Low, with five remaining unconfirmed topics. See [FUNC02](findings/FUNC02-unbound-locals-serialized-as-null.md).
+V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
 
-V9 live-QA evidence checkpoint: **8 October 2026 at 13:15:00 UTC**, with a separately dated offline-verification addendum confirmed at **13:16:33 UTC**. The audit is ongoing. Frozen V8 describes the earlier 10:50:59 UTC checkpoint; later work is not retroactively attributed to that freeze.
-
-Nine distinct findings in the combined report: **0 High, 4 Medium and 5 Low**. 63 original cases: **16 scoped PASS, 7 FINDING, 8 IN_PROGRESS, 8 PENDING and 24 BLOCKED**. Five unconfirmed topics are tracked separately; the null-display topic is now confirmed within FUNC02’s SDK scope.
+The new Low [FUNC03 finding](findings/FUNC03-blank-line-decorator-diagnostic.md) concerns a misleading unsupported-decorator explanation for a blank line. Valid executable-line captures work. Quiet-target recovery and the bounded duplicate-submission control also passed. The audit remains ongoing; source variants and final cleanup are not complete.
 
 ## Read the results
 
-- [Current status and retained test assets](CURRENT_STATUS.md)
 - [Severity-ranked findings](findings.md#severity-ranked-finding-index), [High only](high-severity.md), [Medium](findings.md#medium-severity), [Low](findings.md#low-severity)
-- [All 63 case outcomes](QA_MATRIX.md), [57 separately scoped checks](EXECUTED_CHECKS.md), [evidence and timestamps](EVIDENCE.md)
-- [Unconfirmed observations](UNCONFIRMED_OBSERVATIONS.md) and [video catalog](VIDEOS.md)
-- [V9 annotated PDF](report.pdf) and [editable Word report](report.docx): the checked 31-page report covers the nine findings, frozen live-case ledger and separately dated SDK verification
-- [Beginner glossary](glossary.md)
+- [Part 1 beginner UX](QA_MATRIX.md#track-1-complete-beginner-ux) and [Part 2 detailed functional QA](QA_MATRIX.md#track-2a-live-debugger-functional-depth)
+- [All 63 original case outcomes](QA_MATRIX.md), [separately scoped executed checks](EXECUTED_CHECKS.md), [evidence and timestamps](EVIDENCE.md)
+- [Current status and retained assets](CURRENT_STATUS.md), [unconfirmed observations](UNCONFIRMED_OBSERVATIONS.md), [safe recordings and edits](VIDEOS.md), [beginner glossary](glossary.md)
 
-## New verified results since V8
+The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
 
-- [FUNC02, Medium](findings/FUNC02-unbound-locals-serialized-as-null.md): actual ddtrace 4.11.0 helpers serialize unbound/deleted locals identically to explicit None, although definedness distinguishes them. The offline result was confirmed after the live cutoff; hosted transport-payload attribution remains unverified.
+## What run 4 established
 
-- [FUNC01, Medium](findings/FUNC01-unsaved-condition-reset.md): a message-only save in one tab twice erased an unsaved condition in another tab, without an observed warning. The stored predicate remained correct; capture corruption is not established.
-- F04 completes the functional malformed-condition/correction controls and retains existing Low UX03 for unmatched-template feedback. F05 passes the exact nonexistent-name, false-definedness and available-local controls. The later unassigned/deleted-local SDK defect is a separate FUNC02 finding, confirmed after the live cutoff.
-- F12 verifies explicit resume of the expired target, preserved identity, fresh SDK-timestamped capture and stop/reload cleanup. F16 verifies message-only capture and restoration of variables in a newer event.
-- F21 passes the tested Targeted name-redaction controls. X06 passes two sampled overlapping-request association checks; the two samples came from different pairs and are not a completely collected concurrent pair.
-- F13 passes the tested individual/sibling/session hierarchy sequence. This does not establish the final all-session, runtime or settings inventory.
-- F07 and F10 are partial: function-exit and line-context controls advanced, while entry remains untested; applying a draft to an individually disabled probe reactivated it, but intended disabled-edit semantics remain unresolved.
+- F06 is FINDING: blank/comment targets were rejected and executable line 17 recovered correctly. The blank-line explanation is Low FUNC03; it does not imply that blank lines should be instrumentable.
+- X03 is PASS: the quiet target was distinguishable from a failed target and produced the expected 707 value after its single positive invocation.
+- F08 is PASS for one rapid double-click plus Return submission: one new definition, unchanged count after reload, correct captured values.
+- F10 stays IN_PROGRESS: the session-level update sequence produced coherent parent/child states and fresh captures, but the intended Apply-reactivation contract and feedback remain unresolved.
+- At 14:20:57, the unfiltered inventory showed four inactive sessions and no active session. All 12 probes in the run-4 session were disabled. Later source work makes this a historical checkpoint; C01/C02 remain open.
 
-## Established baseline retained
+## Earlier findings and baseline retained
 
-The numeric quantity 2/3/4 controls, full 24-line deployed-source match, conditional revision/no-match recovery, and bounded expiry/history controls from V8 remain established. The quantity-three boundary error is deliberately planted in the synthetic application. The approved same-A-only source-integration repair does not erase historical SCI01; B remains ungranted.
+Medium FUNC01 is twice-reproduced unsaved-draft loss. Medium FUNC02 is the measured ddtrace 4.11.0 absent-versus-None serialization defect; hosted transport-payload attribution remains unverified. The invalid Python quickstart and interrupted source-linking recovery findings also remain. All finding pages contain inline genuine screenshots with stated visibility limits.
 
-## Remaining limits and evidence availability
+The numeric quantity 2/3/4 controls, exact deployed-source match, conditional controls and bounded expiry/history results remain established. The quantity-three pricing error is deliberately planted in the application fixture and is not a Datadog defect. B remains ungranted; a discovery no-match is not a private-content-denial test.
 
-The original 63 definitions and cleanup requirements are preserved. Blank/comment-line behavior, function entry, stale saved-write variants, deeper value/cycle checks, restricted identities, source-isolation variants and several lifecycle checks remain incomplete or blocked. C01/C02 remain IN_PROGRESS; stopping one session does not prove all captures, traffic or retained settings are reconciled.
+## Recording and evidence coverage
 
-The nine-finding web checkpoint and reviewed stills 103–135 were verified at public commit `9edb46e`. This document refresh adds the checked V9 PDF/Word and reviewed stills 136–146 without changing the frozen case counts. Source 13's motion export remains separately pending.
+Source 13's reviewed archive and highlights are now cataloged alongside source 14. [Source 12 and 13 timing clarifications](VIDEOS.md#recorded-timing-and-frame-interpretation) distinguish nominal timeline indices from physical stored frames; earlier videos and manifests are unchanged. No missing UI transition has been reconstructed, and screenshots are not presented as motion.
 
-Sources 01–12 retain their finalized media totals. Source 12's eight archive files were verified at `7cdd468`, and all four highlight-package files at `9edb46e`. Source 13 began at 11:18:29 UTC and was still recording at the cutoff. A later status update confirms the raw recording is finalized; final duration, retained coverage, motion privacy review and public availability are not established here. See [exact media boundaries](VIDEOS.md).
+## Remaining limits
 
-## Later unscored status
-
-At 13:17:59 UTC, the session inventory with My sessions enabled showed All 4 / Active 0 / Inactive 4. This later observation is outside the frozen case ledger. It does not establish final runtime/traffic, fixture, settings or grant cleanup; C01/C02 retain their 13:15 IN_PROGRESS outcomes.
+The original 63 definitions and cleanup requirements are preserved. Function entry, saved-write conflicts, deeper value/cycle checks, restricted identities, source-isolation variants and final all-environment cleanup remain incomplete or blocked. The later grouped source runtime was successful, but its completion alone does not pass a source-mapping case. See the dated [status](CURRENT_STATUS.md).

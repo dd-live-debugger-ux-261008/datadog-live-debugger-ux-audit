@@ -1,14 +1,14 @@
 # Evidence and checkpoint scope
 
-The live-case ledger is frozen at 13:15:00 UTC with eight distinct findings. The offline ddtrace 4.11.0 verification finalized at 13:15:37 and was confirmed at 13:16:33 UTC; that separately dated addendum adds Medium FUNC02 without changing any original-case status. The combined report has nine distinct findings: 0 High, 4 Medium and 5 Low, with five remaining unconfirmed topics. See [FUNC02](findings/FUNC02-unbound-locals-serialized-as-null.md).
+V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
 
-V9 evidence checkpoint: 8 October 2026 at 13:15:00 UTC. Frozen V8 ended at 10:50:59 UTC; its historical sections remain dated. Earlier sections are historical observations with explicit timestamps; their old blockers and zero-session inventory do not describe the current state. This remains an ongoing audit, not end-to-end completion.
+Earlier V8/V9 sections retain their dated observations and limitations. The current run-4 sections below supersede their pending-control and inventory statements. Earlier blockers and zero-session counts do not describe the present state. The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
 
 ## Checkpoint and gates
 
 The initial and additional runtime approvals were received. The hosted synthetic baseline now has a registered debugger SDK client, actual numeric-template captures and a verified source match. The approved same-A-only reinstall repaired the interrupted source association. B remains private and never granted; discovery no-match is not a content-denial test. Independent role contexts and several controlled deployment/failure-injection variants remain unavailable.
 
-Current cases: 16 PASS, 7 FINDING, 8 IN_PROGRESS, 8 PENDING and 24 BLOCKED, totaling 63. Nine distinct findings in the combined report: 0 High, 4 Medium and 5 Low. Five current unconfirmed topics remain outside finding totals. [Current status](CURRENT_STATUS.md) · [Case ledger](execution-ledger.json) · [Unconfirmed inventory](UNCONFIRMED_OBSERVATIONS.md).
+Current cases: 18 PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED, totaling 63. Ten distinct findings: 0 High, 4 Medium and 6 Low. Five current unconfirmed topics remain outside finding totals. [Current status](CURRENT_STATUS.md) · [Case ledger](execution-ledger.json) · [Unconfirmed inventory](UNCONFIRMED_OBSERVATIONS.md).
 
 G1 is established for the tested healthy baseline. G2 is established for A source retrieval and deployed-revision matching, with B still ungranted; the broader B retrieval boundary remains unproved. G3/G4 case-specific prerequisites must still be satisfied. Readiness, capture, source, access boundaries and cleanup are separate claims. The retained runtime/control/experimental assets are intentional; full cleanup is not certified.
 
@@ -250,7 +250,7 @@ This checkpoint includes four frozen safe-still packs: 103–116 (44 allowlisted
 
 [103–116 manifest](evidence/continuation-13/manifest.json) · [117–125 manifest](evidence/continuation-13/fixtures-117-125/manifest.json) · [126–131 manifest](evidence/continuation-13/locals-126-131/manifest.json) · [132–135 manifest](evidence/continuation-13/two-tab-132-135/manifest.json).
 
-These files and V9 text are prepared locally; their public availability is not yet verified. Function/disable/hierarchy observations from later stills are attributed prose until separately reviewed safe derivatives are available. Source 13 is ongoing motion, not a finalized media package. Counts stop at 13:15:00 UTC even if work continues afterward.
+This dated V9 package was subsequently published and verified; stills 136–146 and source-13 safe motion are now also available. The following V9 case observations retain their original 13:15 cutoff. Later run-4 changes appear in their own sections below.
 
 ## Explicit resume and stop
 
@@ -415,7 +415,7 @@ The caught-exception control shows typed error/control fields in a real capture.
 
 [Caught-exception capture](evidence/continuation-13/locals-126-131/126-caught-exception-locals-safe.png) · [Unassigned/deleted display](evidence/continuation-13/locals-126-131/127-unassigned-deleted-locals-display-safe.png) · [Assigned control](evidence/continuation-13/locals-126-131/128-assigned-local-positive-control-safe.png) · [Branch-unbound control](evidence/continuation-13/locals-126-131/130-branch-unbound-display-control-safe.png) · [Branch-assigned control](evidence/continuation-13/locals-126-131/131-branch-assigned-display-control-safe.png) · [Later FUNC02 verification](findings/FUNC02-unbound-locals-serialized-as-null.md).
 
-## Remaining cleanup inventory
+## Historical cleanup inventory at the V9 cutoff
 
 The resumed original target was stopped and reloaded inactive earlier. The shared complex-fixture session completed F13’s final whole-session stop at 13:13:55 and checked children 44/54/63 were disabled. Separate function-return/line-context experiments and the full global session/probe/runtime inventory are not yet established as cleaned up.
 
@@ -433,12 +433,64 @@ An actual installed ddtrace 4.11.0 package reproduction finalized at **13:15:37 
 
 [Result](evidence/sdk-locals-4.11.0/result.json) · [Reproduction](evidence/sdk-locals-4.11.0/reproduce.py) · [Version-tagged source provenance](evidence/sdk-locals-4.11.0/source-provenance.json) · [Portable offline command](evidence/sdk-locals-4.11.0/run-offline.sh).
 
-The frozen live ledger remains 16 PASS, 7 FINDING, 24 BLOCKED, 8 PENDING and 8 IN_PROGRESS. The combined findings become nine (0 High, 4 Medium, 5 Low); the current unconfirmed inventory becomes five. The separate SDK check does not change original F05 or retrospectively convert live U51 into a pre-cutoff confirmation.
+At this V9 cutoff the live ledger was 16 PASS, 7 FINDING, 24 BLOCKED, 8 PENDING and 8 IN_PROGRESS. The separate SDK result brought that edition to nine findings (0 High, 4 Medium, 5 Low) and five unconfirmed topics. The separate SDK check does not change original F05 or retrospectively convert live U51 into a pre-cutoff confirmation.
 
 ## Later unscored cleanup and recording status
 
-At **13:17:59 UTC**, the session inventory with **My sessions enabled** showed **All 4 / Active 0 / Inactive 4**. This is a later status observation, not evidence available at the live cutoff. C01/C02 remain as originally scored at 13:15; runtime/traffic, fixture, settings and grant reconciliation are not proved by the zero-active session list alone. Source 13’s raw recording was subsequently finalized. Its exact duration, reviewed retained/withheld coverage and motion export are not established here.
+At **13:17:59 UTC**, the session inventory with **My sessions enabled** showed **All 4 / Active 0 / Inactive 4**. This is a later status observation, not evidence available at the live cutoff. C01/C02 remain as originally scored at 13:15; runtime/traffic, fixture, settings and grant reconciliation are not proved by the zero-active session list alone. Source 13’s raw recording was subsequently finalized and its reviewed archive/highlights are now linked in the video catalog. This historical inventory is superseded by the run-4 check below, which cleared My sessions.
 
 ## Later reviewed stills
 
 [Reviewed stills 136–146 and exact provenance](evidence/continuation-13/lifecycle-136-146/manifest.json) supplement the already-described controls. Still 137 shows a new STALE_EDIT row, but its selected right-hand capture is an OUTDATED older event; its locals are not attributed to the new row. Hierarchy stills show only the displayed children. [Still 146](evidence/continuation-13/lifecycle-136-146/146-filtered-session-inventory-safe.png) explicitly has My sessions enabled, so its zero-active count is not account-wide. These later image publications do not rescore the 13:15 ledger.
+
+
+## Run 4 quiet target positive control
+
+X03 is PASS. The corrected line-69 template uses the actual in-scope local. The target first shows zero instances, then one targeting instance with WAITING FOR EVENTS and no events. A separate line-9999 target shows ERROR/NoFunctionsAtLine. One delayed HTTP invocation then produces NEVER_CONTROL value=707 and captured never_called_local=707.
+
+The verified SDK execution timestamp is **13:58:26.856 UTC**. The independently checked HTTP interval is **13:58:26.838546–13:58:26.857889 UTC**; the UI row separately displays **13:58:28.918 UTC**. These clocks are not interchangeable. The actual capture supplies the positive control; waiting status alone is not proof of installed instrumentation.
+
+[Quiet versus failure still](evidence/control-phase-147-154/149-quiet-versus-explicit-install-error-safe.png) · [Captured 707](evidence/control-phase-147-154/152-one-shot-707-capture-safe.png) · [Retrieved source and 707](evidence/control-phase-147-154/154-one-shot-source-and-captured-value-safe.png) · [Source 14 chapters](recordings/continuation-14/highlights/CONTINUATION_HIGHLIGHTS.md), 00:48–02:28.
+
+## Run 4 invalid line controls
+
+F06 is FINDING, Low FUNC03. The remaining comment line 16 and blank line 10 both reject with ERROR. The blank-line detail inspected at **14:14:20 UTC** names NoFunctionsAtLine and says the function is likely decorated with an unsupported decorator. The unchanged fixture function has zero decorators. The line-17 control captures quantity 4 with subtotal 4800, discount 480, total 4320 and true eligibility.
+
+The independent local AST/bytecode check and byte-exact official ddtrace 4.11.0 source comparison support the diagnostic finding. They do not establish the hosted Python patch or a universal SDK-version claim. The rejection itself is appropriate; no silent relocation or corrupted captured value is demonstrated. Line 16's generic target-code-loaded suggestion remains an observation, not a second finding.
+
+[Full finding with inline genuine screenshot](findings/FUNC03-blank-line-decorator-diagnostic.md) · [Comment-line still](evidence/control-phase-147-154/150-line-16-target-loaded-guidance-safe.png) · [Valid recovery](evidence/control-phase-155-167/156-valid-line-17-recovery-capture-safe.png) · [Diagnostic motion](recordings/continuation-14/highlights/CONTINUATION_HIGHLIGHTS.md), 03:42–03:55.
+
+## Run 4 duplicate submission control
+
+F08 is PASS for one bounded attempted duplicate submission. Around **14:04:40 UTC**, the interaction record contains one rapid double-click on Add to Session followed by one Return while the modal was pending. The definition count changes from 11 to 12, remains 12 after reload, and the identity check finds one new matching target. The resulting line-17 probe supplies the correct quantity-four capture.
+
+[Result count](evidence/control-phase-155-167/155-submit-result-twelve-logpoints-safe.png) and [actual numeric capture](evidence/control-phase-155-167/156-valid-line-17-recovery-capture-safe.png). The still proves its visible result state; the exact input counts and reloaded identity comparison are separate recorded observations. The motion retains draft, pending and later-result views rather than claiming cursor pixels prove every input.
+
+## Run 4 session stop and stale Apply
+
+F10 remains IN_PROGRESS. The session-level sequence adds an inactive parent and disabled target with the SESSION_STOP_STALE draft, a later active parent and fresh edited-message captures, and displayed sibling children that remain disabled. The selected quantity-three capture shows total/subtotal 3600, discount 0 and false eligibility. State consistency was tested, followed by terminal stop.
+
+The question is whether Apply adequately signals renewed collection and follows the intended disabled-edit contract. That remains unresolved and adds no finding or severity. The original two-tab reload comparison and the individual-probe STALE_EDIT capture detail are not established by these later session-branch stills and remain open. Individual, session and service/environment scopes must remain distinct. The video has intervening tab/view changes; it is not an invented uninterrupted stale-editor transition.
+
+[Still 164](evidence/control-phase-155-167/164-inactive-parent-stale-child-editor-safe.png) · [Still 165](evidence/control-phase-155-167/165-active-session-after-stale-child-save-safe.png) · [Still 166](evidence/control-phase-155-167/166-stale-child-save-line-17-capture-safe.png) · [Source 14 chapters](recordings/continuation-14/highlights/CONTINUATION_HIGHLIGHTS.md), 03:55–04:36.
+
+
+## Run 4 clean Pause control
+
+The initial selected-event state was already auto-paused and is excluded from a clean Pause comparison. Later no-selection controls retained the same visible rows before and after Pause. At **14:13:05.191** and **14:13:27.564 UTC**, the first visible row remained **14:12:40.360 UTC**. This is a scoped successful control and does not establish a Pause defect.
+
+[Still 159](evidence/control-phase-155-167/159-short-pause-control-live-before-safe.png) · [Still 160](evidence/control-phase-155-167/160-short-pause-control-retained-rows-safe.png) · [Still 161](evidence/control-phase-155-167/161-long-pause-control-live-before-safe.png) · [Still 162](evidence/control-phase-155-167/162-long-pause-control-retained-rows-safe.png).
+
+
+## Run 4 terminal inventory
+
+The bounded run ended successfully, verified at **14:19:29 UTC**. At **14:20:57 UTC**, My sessions was off and the other filters were clear: **All 4 / Active 0 / Inactive 4**. All 12 probes in the affected session were disabled. Accounts, repositories, keys and the A-only grant were retained; stopping capture did not erase historical data.
+
+[Genuine unfiltered inventory](evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png) · [Recorded final inventory](recordings/continuation-14/highlights/CONTINUATION_HIGHLIGHTS.md), 04:36–04:48.45.
+
+
+Subsequent source-integration work resumed. A later unscored browser check at 17:22 UTC again showed the unfiltered four-session inventory inactive, with all 12 affected-session probes disabled and zero instances. The grouped job ended successfully at 16:33 UTC with its runtime cleanup message, while the C1 session draft was never submitted. These are attributed later checks, not new source-case results. C01/C02 remain open for whole-audit settings/grant/fixture reconciliation and further controlled work.
+
+## Current media and document boundary
+
+Sources 13 and 14 now have privacy-reviewed archives and highlights in the [video catalog](VIDEOS.md), with original-speed footage, masks/crops and omissions disclosed. Earlier source-12/13 media bytes remain unchanged; timing sidecars correct nominal-versus-stored-frame interpretation. No missing transition is reconstructed or replaced by an inserted still. The PDF/Word remain the separately dated V9 snapshot.

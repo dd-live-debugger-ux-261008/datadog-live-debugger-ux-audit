@@ -1,44 +1,36 @@
 # Audit continuation status
 
-The live-case ledger is frozen at 13:15:00 UTC with eight distinct findings. The offline ddtrace 4.11.0 verification finalized at 13:15:37 and was confirmed at 13:16:33 UTC; that separately dated addendum adds Medium FUNC02 without changing any original-case status. The combined report has nine distinct findings: 0 High, 4 Medium and 5 Low, with five remaining unconfirmed topics. See [FUNC02](findings/FUNC02-unbound-locals-serialized-as-null.md).
+V10 web checkpoint: run 4 evidence through **8 October 2026, 14:20:57 UTC**, with separately identified local SDK/source verification. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. The 63 original cases retain their definitions: **18 scoped PASS, 8 FINDING, 7 IN_PROGRESS, 6 PENDING and 24 BLOCKED**. Five unconfirmed topics remain outside severity totals.
 
-V9 evidence cutoff: **8 October 2026, 13:15:00 UTC**. The frozen V8 checkpoint ended at 10:50:59 UTC. Work can continue beyond this freeze; later outcomes are not included in these counts.
+## Current result
 
-63 original cases: **16 scoped PASS, 7 FINDING, 8 IN_PROGRESS, 8 PENDING and 24 BLOCKED**. Nine distinct findings in the combined report: **0 High, 4 Medium and 5 Low**. Five unconfirmed topics and one separate test-setup follow-up are outside finding totals. There are 57 supplemental checks; U01–U42 are preserved as historical observations.
+- F06 changes from PENDING to FINDING for Low [FUNC03](findings/FUNC03-blank-line-decorator-diagnostic.md).
+- F08 changes from PENDING to scoped PASS for the one-shot duplicate-submission control.
+- X03 changes from IN_PROGRESS to PASS after the actual 707 positive capture.
+- F10 remains IN_PROGRESS. State consistency was tested at individual and session scope; intended disabled-edit semantics and pre-action reactivation feedback remain unresolved. It adds no finding.
+- C01/C02 remain IN_PROGRESS. The run-4 inventory is established; final cleanup must follow later work.
 
-## What changed
+All other original-case outcomes are unchanged. The 63-case denominator is preserved. There are 63 separately scoped supplemental records, including six run-4 records; those are not additional original cases. Five current unconfirmed topics remain outside finding/severity totals. The earlier never-called template setup task is resolved.
 
-- F04 is FINDING for the completed functional validation matrix retaining existing Low UX03. It adds no distinct finding.
-- F09 is FINDING for new Medium [FUNC01](findings/FUNC01-unsaved-condition-reset.md), twice-reproduced unsaved-condition loss after a remote message-only save. The stored predicate remained correct; the full saved-write/reload/new-capture matrix is still incomplete.
-- F05, F12, F13, F16, F21 and X06 now have scoped PASS results. Their boundaries and cleanup obligations remain in the [case ledger](execution-ledger.json).
-- F07, F10, F22, X03 and X07 are IN_PROGRESS. Actual fixture captures clear older prepared-fixture-only blockers; they do not satisfy unexecuted branches.
+## Dated cleanup and retained state
 
-## Distinctions that matter
+Run 4 ended successfully, verified at 14:19:29 UTC. At **14:20:57 UTC**, My sessions was off, service/environment filters were All, Created was All time and search was empty. The inventory showed **All 4 / Active 0 / Inactive 4**. All 12 probes in the affected session were disabled, including the quiet and failed-installation controls. Historical captures remained visible.
 
-F05's nonexistent-name error/definedness controls differ from the later unassigned/deleted/branch-local SDK finding. The separately dated FUNC02 verification now confirms the actual ddtrace 4.11.0 helper serialization defect. Hosted transport-payload attribution remains unverified. F10 concerns individually disabled-probe draft Apply, not service/environment Disable. [Official documentation](https://docs.datadoghq.com/tracing/live_debugger/#creating-logpoints) describes instrumentation after modifications generally, without expressly settling disabled-edit semantics. F10’s reactivation-feedback candidate adds no finding or severity; FUNC02 contributes one Medium finding only in the separate offline-verification addendum.
+Accounts, repositories, keys and the A-only source grant were intentionally retained. No deletion, revocation, broadening of access or complete settings restoration is claimed. A separate owned local setup helper was confirmed stopped at 14:53:34; that later process check does not itself close C02.
 
-X06's two successful inspected samples are from different pair indices. They establish sampled local/trace/source-link association, not complete-pair collection, exhaustive isolation, zero event loss or full source-content equivalence. F21 establishes tested name-redaction behavior; deeper redaction under a non-sensitive parent belongs to unfinished X07.
+A later unscored check at **17:22 UTC** again found the unfiltered list at **All 4 / Active 0 / Inactive 4**, with all 12 probes in the affected session individually disabled and zero instances. The grouped-source job had ended successfully at 16:33 UTC and displayed job-owned runtime cleanup completion. The C1 session draft was never submitted. These observations add cleanup evidence without passing an unexecuted source case or closing the full settings/grant/fixture inventory. Source 15 was stopped at 17:20:52 and awaits privacy review; its long idle period is not claimed as continuous testing. Further controlled source work is planned.
 
-## Retained state and cleanup
+## Documents and evidence
 
-The resumed original target was stopped and reloaded inactive earlier. The shared complex-fixture session completed F13’s final whole-session stop at 13:13:55 and checked children 44/54/63 were disabled. Separate function-return/line-context experiments and the full global session/probe/runtime inventory are not yet established as cleaned up.
+The [PDF](report.pdf) and [Word report](report.docx) remain the checked **31-page V9 snapshot**, with nine findings, live-case cutoff 13:15:00 UTC and separate SDK verification confirmed 13:16:33 UTC. They have not been regenerated for this web checkpoint; use the web pages for run 4 and FUNC03.
 
-One target cleanup is confirmed; there is no reconciled final all-session/logpoint inventory, final active count, or final post-stop traffic check. Do not claim that all capture is stopped. No final runtime/settings/grant restoration can be inferred from a stopped individual session or from a recording file. Preserve the full inventory task.
+The web checkpoint adds reviewed stills 147–167, the genuine FUNC03 annotated error, measured source/SDK provenance, source 14's safe archive and highlight, and source 12/13 timing clarification sidecars. The source-13 archive was independently verified at 8faec47 and highlights at 76d29d2. Earlier media bytes remain unchanged. The aggregate checksum manifest covers the complete assembled web payload.
 
-C01/C02 remain IN_PROGRESS. At the live cutoff, the final active count, post-stop traffic, processes/runs, fixture variants, settings, integration scope and retained accounts/repositories still needed one reconciled inventory. A-only scope and normal protection must remain preserved.
+## What remains
 
-## Media and document state
-
-Reviewed safe screenshot packs 103–135 total 113 allowlisted files across four packs. The new FUNC01 page links the genuine 134/135 before/after pair with disclosed clipping and rendered-editor limits. No raw screenshots enter the checkpoint. Later hierarchy/function/disable controls are attributed observations until their safe derivatives are prepared.
-
-Sources 01–12: 233:02.05 recorded, 157:48.50 retained, 75:13.55 withheld, 21 archive MP4s; eight overlapping highlights total 18:57.75. Source 12's eight archive files are publicly verified at `7cdd468`, and its four highlight-package files at `9edb46e`. Source 13 was still recording from 11:18:29 UTC at the cutoff; no finalized duration, coverage or motion-publication claim is made.
-
-The nine-finding web checkpoint was independently verified at `9edb46e`, including all 383 payload checksums. The PDF/Word are now the checked 31-page V9 report. Reviewed stills 136–146 are added in this refresh; the aggregate checksum manifest covers the updated payload. Earlier image/media bytes remain unchanged.
+- Resolve F10's intended disabled-edit contract and pre-action feedback without inventing a new defect.
+- Finish independently observable source-mapping variants and preserve repository B's ungranted boundary.
+- Continue the original unexecuted function-entry, value, identity and permission branches only when their prerequisites and authorization exist.
+- Reconcile final session/probe direct links, traffic/runtime state, settings, fixtures, identities and intentionally retained grants/assets.
 
 [Cases](QA_MATRIX.md) · [Findings](findings.md) · [Unconfirmed topics](UNCONFIRMED_OBSERVATIONS.md) · [Evidence](EVIDENCE.md) · [Video catalog](VIDEOS.md)
-
-## Later unscored status at 13:17:59 UTC
-
-The session inventory with **My sessions enabled** showed **All 4 / Active 0 / Inactive 4**. This after-cutoff observation does not rescore C01/C02 or prove that runtime/traffic, fixture variants, settings and grants are fully reconciled. Source 13’s raw recording was subsequently finalized; its exact final duration and reviewed-motion export remain pending in this report.
-
-Additional controlled QA has resumed since the dated 13:17:59 inventory. That count is historical, not a claim that all current audit activity remains stopped. New outcomes will be reconciled in a later checkpoint.

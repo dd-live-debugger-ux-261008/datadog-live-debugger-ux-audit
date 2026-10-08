@@ -1,6 +1,6 @@
 # Audit video catalog
 
-Sources 01–12 have finalized local privacy-reviewed archives and highlights: **233:02.05 recorded, 157:48.50 retained and 75:13.55 withheld**, with **21 archive MP4s**. Eight overlapping highlights total **18:57.75** and are not added to unique retained coverage. Sources 01–12 archives are publicly verified. Source 12's four highlight-package files are also publicly verified at `9edb46e`. Stills, rendered-UI reads and payload observations are distinguished from foreground motion.
+Sources 01–14 have privacy-reviewed archives and highlights cataloged below. **390:44.55 recorded = 298:03.00 retained + 92:41.55 omitted**, in **35 archive MP4s**. Ten overlapping highlights total **31:02.70** and are not extra unique coverage. Earlier source-12/13 video bytes are unchanged; timing sidecars explain nominal timeline indices versus stored frames. Stills, UI reads, payload observations and foreground motion remain distinct evidence types.
 
 GitHub may show a file page instead of an inline player. Use View raw or Download for MP4 playback.
 
@@ -102,18 +102,38 @@ A native context menu obscures parts of the later original recording. The comple
 
 **233:02.05 recorded = 157:48.50 retained + 75:13.55 withheld** across sources 01–12, with **21 archive MP4s**. Eight edited highlights total **18:57.75**, overlapping archive footage. All 21 archive MP4s are publicly verified. All eight highlight packages, including source 12, are publicly verified. All prior filenames and hashes remain frozen. Retained duration still includes the historical 94.70 seconds of labeled opaque privacy panels. No missing recording gap or UI is reconstructed.
 
-## V9 and ongoing source 13
+## Source 13 advanced controls and recovery
 
-The scored evidence cutoff is **8 October 2026, 13:15:00 UTC**. Source 13 began at **11:18:29 UTC** and was still recording at that cutoff. No final raw duration, retained/withheld split, archive-video count, edited-highlight duration or public availability is established for source 13. The finalized totals above remain sources 01–12 only.
+Source 13 is finalized: **1:59:30.05 recorded = 1:44:21.50 retained + 15:08.55 omitted**, in ten archive MP4s. The archive was independently verified at 8faec47 and its highlight package at 76d29d2.
 
-FUNC01's observed intervals are 13:01:13–13:01:59 and 13:02:26–13:03:02 UTC, corresponding to source offsets 01:42:44–01:43:30 and 01:43:57–01:44:33. These are locator intervals in an ongoing source. Motion privacy review, export and chapter links remain pending. [The finding](findings/FUNC01-unsaved-condition-reset.md) uses the reviewed genuine before/after stills and attributed interaction observations; no still is represented as a completed video export.
+- [Complete archive and exact omissions](recordings/continuation-13/CONTINUATION_RECORDING_ARCHIVE.md)
+- [07:16.50 highlight and 39 chapters](recordings/continuation-13/highlights/CONTINUATION_HIGHLIGHTS.md)
+- [Reviewed stills 103–135](evidence/continuation-13/manifest.json) and [later stills 136–146](evidence/continuation-13/lifecycle-136-146/manifest.json)
 
-Reviewed screenshots 103–135 were verified at `9edb46e`; this refresh adds the reviewed [136–146 stills](evidence/continuation-13/lifecycle-136-146/manifest.json). They establish only their pictured states, not offscreen payload identity or a continuous motion sequence. Source 12's archive and highlights are publicly verified. The PDF/Word now contain the checked V9 report.
+FUNC01 is supported by genuine before/after stills and rendered-editor chronology. The foreground movie shows a dirty quantity-three draft followed by a source/INSTRUMENTING view, rather than the exact quantity-four editor after-state in still 135. It is not presented as a complete visible overwrite sequence. No missing view is reconstructed. Source 13 motion does not substitute for FUNC02’s independent offline SDK verification.
 
-## Later recording-status update
+## Source 14 quiet controls and lifecycle
 
-After the 13:15 live cutoff, source 13’s raw recording was finalized. Finalization alone is not a privacy-reviewed export. Its exact final duration, retained/withheld coverage and chapter map remain pending in this report; do not add it to the finalized sources 01–12 totals. The later FUNC02 finding includes an independently reproduced SDK result confirmed at 13:16:33 UTC, rather than claiming that source 13 motion establishes the offline package behavior.
+Source 14 is finalized: **38:12.45 recorded = 35:53.00 retained + 02:19.45 omitted**, in four archive MP4s. Its 04:48.45 highlight has 24 chapters and overlaps archive footage.
 
-## Foreground motion review update
+- [Complete archive, four videos and exact omissions](recordings/continuation-14/CONTINUATION_RECORDING_ARCHIVE.md)
+- [04:48.45 highlight and chapter map](recordings/continuation-14/highlights/CONTINUATION_HIGHLIGHTS.md)
+- [Control stills 147–154](evidence/control-phase-147-154/manifest.json) and [stills 155–167](evidence/control-phase-155-167/manifest.json)
 
-Source 13 foreground review shows the dirty quantity-three draft followed by a source/INSTRUMENTING view, rather than the exact quantity-four editor after-state in still 135. The movie will not be presented as a complete visible dirty-draft overwrite sequence. The reviewed before/after stills and rendered-editor chronology establish FUNC01; missing foreground steps are not reconstructed.
+Highlight guide: 00:48 quiet target; 01:00 explicit installation error; 01:36 first positive 707 event; 02:04 separate HTTP observation; 03:04 valid line 17 numeric capture; 03:16 clean Pause; 03:42 blank-line diagnostic; 03:55 inactive-parent update sequence; 04:12 fresh edited-message capture; 04:24 stop; 04:36 unfiltered final inventory.
+
+Exact rapid-input counts come from the separate interaction record. UI row times, SDK execution timestamps and HTTP times are distinct. Parent/child excerpts contain tab/view changes and do not establish an uninterrupted hidden-action sequence. Fifteen seconds of retained source 14 time are fully privacy-obscured, not visible product evidence. Accounts/repositories/keys/grants were not shown deleted by these stops.
+
+## Recorded timing and frame interpretation
+
+- [Source12 timing clarification](recordings/continuation-12/timing-clarification/SOURCE_12_TIMING_CLARIFICATION.md): 61,009 stored frames, four sparse gaps, 0.40 seconds beyond ordinary frame steps.
+- [Source 13 timing clarification](recordings/continuation-13/timing-clarification/SOURCE_13_TIMING_CLARIFICATION.md): 143,336 stored frames, 43 sparse gaps, 3.25 seconds beyond ordinary steps.
+- Source14’s own manifests already distinguish nominal indices from actual stored-frame ordinals: 45,738 frames across 2292.45 seconds, 64 sparse gaps, maximum adjacent step 0.30 seconds.
+
+Half-open source timestamp ranges are the primary cut references. Earlier source 12/13 source_start_frame fields are nominal 20 fps timeline indices, not stored-frame ordinals. Constant 20 fps playback holds recorded frames across gaps at original elapsed speed; no in-between UI image was generated. Every earlier sanitized video and original manifest remains unchanged.
+
+## Current overall media boundary
+
+Sources 01–14 total **390:44.55 recorded, 298:03.00 retained and 92:41.55 omitted**, 35 archive MP4s. Ten highlights total 31:02.70 and overlap retained footage. Retained duration includes labeled fully obscured privacy panels and is not all visible product evidence. The source 15 recording from later source work is outside these finalized totals; no reviewed export or source-case outcome is claimed for it here.
+
+The PDF/Word retain the 31-page V9 snapshot. This current web catalog includes later reviewed motion without retroactively changing the old report’s evidence cutoff.

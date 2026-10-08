@@ -1,13 +1,13 @@
 # Unconfirmed observations and remaining questions
 
-V9 evidence checkpoint: 2026-10-08 13:15:00 UTC. This current five-topic inventory is **outside the nine distinct combined findings and all severity totals**. The four V8 topics are retained below, followed by the disabled-draft candidate. Six topics were unconfirmed at the 13:15 live cutoff; the separate 13:16:33 FUNC02 verification resolves the null-display topic within its stated SDK scope. It records bounded observations that do not yet establish another product defect.
+V10 web checkpoint through 14:20:57 UTC. These **five current topics are outside the 10 confirmed/scoped findings and all severity totals**. Historical observations retain their dates. The SDK absent-local topic was resolved in FUNC02; the distinct blank-line diagnostic is now FUNC03.
 
 | Observation | What was established | What is not established / next discriminating check |
 |---|---|---|
 | Initial Enable logs state | The first successful session showed the message, while existing Logs were later visible; returning and reloading showed events without a Logs setting change. | Whether this was expected setup propagation, a stale view, or misleading guidance. Repeat on a comparable healthy new session with separate navigation and timing controls. |
 | Early wildcard HTTP 400 and recovery guidance | Two 05:15/05:19 creates, including a plain-message control, showed instrumentation-invalid toasts and HTTP 400; Configuration showed no environments. A later healthy staging baseline succeeded. | The root cause of the early rejection, whether runtime readiness was sufficient, and whether a specific-environment control at the same instant would have succeeded. Do not label this a silent failure or prove a capture defect from those attempts. |
 | Countdown and edited-child lifetime behavior | At the 10:50:59 scored-case cutoff, definition edits and later expiry were observed without a controlled Apply/deadline comparison. A later 11:33 follow-up found the older failed line-9999 probe already expired while the later-edited line-17 probe still captured and the session header showed 6 minutes. | Edits did not renew every sibling. The visible session countdown appears tied to active child lifetimes; that is an interpretation needing explanation, not a demonstrated session-wide TTL defect. The 11:33 follow-up narrows this candidate; V9 scores separately evidenced explicit-resume behavior under F12 without claiming a session-wide TTL defect. |
-| Invalid line 9999 marker near file end | The source view showed a marker near the file end while the invalid target was tested. Runtime status separately reported `NoFunctionsAtLine` ERROR. A new valid line-17 probe then captured. | No runtime relocation to another executable line is proved. Inspect selected-target identity and probe location before treating the visual marker as execution placement. Blank/comment-line behavior is still untested. |
+| Invalid line 9999 marker near file end | The source view showed a marker near the file end while the invalid target was tested. Runtime status separately reported `NoFunctionsAtLine` ERROR. A new valid line-17 probe then captured. | No runtime relocation to another executable line is proved. Inspect selected-target identity and probe location before treating the visual marker as execution placement. Run 4 separately completed blank/comment controls: no relocation was demonstrated, and the blank-line diagnostic is now Low FUNC03. The earlier visual marker-location question remains unconfirmed. |
 
 ## Relationship to frozen V8
 
@@ -22,17 +22,17 @@ Repository B discovery no-match is a coverage limitation, not proof of private-c
 
 [Confirmed/scoped findings](findings.md) · [Evidence](EVIDENCE.md) · [Current status](CURRENT_STATUS.md)
 
-## Fifth topic: Apply reactivates an individually disabled probe
+## Fifth topic: Apply reactivation feedback at individual and session scope
 
 During 13:04:34–13:05:38 UTC, both tabs showed the individual probe DISABLED. A pre-existing dirty message draft still had Apply available; applying it re-instrumented the probe and new rows appeared. The question is whether the action communicates renewed collection clearly and follows the intended disabled-edit contract. This remains **UNCONFIRMED**, without severity, a security-bypass claim or a disable-contract-violation claim.
 
-[Datadog's creating-logpoints documentation](https://docs.datadoghq.com/tracing/live_debugger/#creating-logpoints) generally describes instrumentation/capture after logpoint modifications. It does not expressly define this disabled-edit scenario. Individual, session and service/environment disable scopes must remain distinct. F13's separate hierarchy controls do not automatically settle the stale-draft contract. F10 remains IN_PROGRESS. The still showing a new row retained an older OUTDATED capture in its details pane; those locals are not attributed to the new row. Safe derivatives for this branch remain pending; no raw or invented evidence link is supplied.
+[Datadog's creating-logpoints documentation](https://docs.datadoghq.com/tracing/live_debugger/#creating-logpoints) generally describes instrumentation/capture after logpoint modifications. It does not expressly define this disabled-edit scenario. Individual, session and service/environment disable scopes must remain distinct. F13's separate hierarchy controls do not automatically settle the stale-draft contract. F10 remains IN_PROGRESS. The still showing a new row retained an older OUTDATED capture in its details pane; those locals are not attributed to the new row. Reviewed [individual-scope stills](evidence/continuation-13/lifecycle-136-146/manifest.json) and [run-4 session-scope evidence](EVIDENCE.md#run-4-session-stop-and-stale-apply) are now available. The session-level branch produced a fresh edited-message capture and coherent parent/child states. Its intended pre-action feedback remains unresolved; no security-bypass or disable-contract violation is asserted.
 
-## Separate test-setup follow-up
+## Resolved test setup
 
-The never-called probe's draft message references a name that is not in the function's scope. Correct it to an in-scope local or literal before the final authorized positive invocation. This is a setup task under X03, **not a sixth current product candidate or a finding**. [Waiting-state evidence](evidence/continuation-13/locals-126-131/129-never-called-waiting-for-events-safe.png).
+The earlier never-called template issue was corrected to an in-scope local. The actual positive invocation captured 707 and X03 now passes its stated control. This setup correction is not a product finding. [Quiet-target result](EVIDENCE.md#run-4-quiet-target-positive-control).
 
-FUNC01's twice-reproduced unsaved-condition loss is confirmed and lives in the finding inventory, not this candidate count. The current candidate inventory reflects the separately dated FUNC02 verification; the original case outcomes remain frozen at 13:15 UTC.
+FUNC01's twice-reproduced unsaved-condition loss is confirmed and lives in the finding inventory, not this candidate count. The current candidate inventory reflects the separately dated FUNC02 verification; the original definitions are preserved, with run-4 outcomes updated in the current matrix.
 
 ## Resolved by the separately dated SDK verification
 

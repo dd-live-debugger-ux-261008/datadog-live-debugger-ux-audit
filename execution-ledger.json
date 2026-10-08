@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T13:15:00Z",
+  "updated_utc": "2026-10-08T14:20:57Z",
   "cases": [
     {
       "id": "B01",
@@ -145,7 +145,7 @@
       "id": "B09",
       "priority": "P1",
       "preconditions": "G0; editable draft",
-      "steps": "Use keyboard navigation at 125–150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
+      "steps": "Use keyboard navigation at 125\u2013150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
       "expected": "Core tasks remain operable; validation is associated with its field; selected line and action buttons are discoverable. Scope this as a focused accessibility smoke test.",
       "evidence_required": "V; browser zoom; key sequence",
       "cleanup": "Reset zoom; cancel draft",
@@ -184,7 +184,7 @@
       "evidence_required": "V, I, T, H",
       "cleanup": "Retain one baseline only while dependent tests run",
       "status": "PASS",
-      "actual": "The numeric message template QA quantity={quantity} total={total_cents} rendered correctly on the live pricing.py:17 staging probe. Captured locals matched quantity 2→2400, quantity 3→3600 with false discount eligibility, and quantity 4→4320 with subtotal 4800, discount 480 and true eligibility. Numeric controls were observed at 10:03:50.811, 10:04:08.659 and 10:04:21.432 UTC. Earlier wildcard-environment HTTP400 attempts are historical and did not recur in this healthy specific-environment baseline.",
+      "actual": "The numeric message template QA quantity={quantity} total={total_cents} rendered correctly on the live pricing.py:17 staging probe. Captured locals matched quantity 2\u21922400, quantity 3\u21923600 with false discount eligibility, and quantity 4\u21924320 with subtotal 4800, discount 480 and true eligibility. Numeric controls were observed at 10:03:50.811, 10:04:08.659 and 10:04:21.432 UTC. Earlier wildcard-environment HTTP400 attempts are historical and did not recur in this healthy specific-environment baseline.",
       "reason": "PASS is limited to the baseline numeric template, selected file/line/environment and three captured fixture-oracle controls. Source permalink/deployed-SHA retrieval and lifecycle are separate cases.",
       "evidence": [
         "EVIDENCE.md#verified-numeric-baseline",
@@ -202,8 +202,8 @@
       "evidence_required": "V, I, T, R",
       "cleanup": "Disable experimental logpoint",
       "status": "PASS",
-      "actual": "Condition quantity==3 with COND3 applied 10:33:25; nine post-activation rows from 10:33:33–10:34:01 all showed quantity 3, with matching actual locals. Quantity==4/COND4 applied 10:35:03; six rows 10:35:19–10:35:38 all showed quantity 4 and actual locals 4800 subtotal, 480 discount,4320 total,True eligibility. The old selected COND3 capture gained OUTDATED feedback while new COND4 rows arrived.",
-      "reason": "PASS for the tested 3→4 predicate transition and revision feedback. These row times are UI event-list observations, not independently established execution timestamps. The earlier disabled accessibility-state interpretation was corrected by a normal supported click; conditions are operable.",
+      "actual": "Condition quantity==3 with COND3 applied 10:33:25; nine post-activation rows from 10:33:33\u201310:34:01 all showed quantity 3, with matching actual locals. Quantity==4/COND4 applied 10:35:03; six rows 10:35:19\u201310:35:38 all showed quantity 4 and actual locals 4800 subtotal, 480 discount,4320 total,True eligibility. The old selected COND3 capture gained OUTDATED feedback while new COND4 rows arrived.",
+      "reason": "PASS for the tested 3\u21924 predicate transition and revision feedback. These row times are UI event-list observations, not independently established execution timestamps. The earlier disabled accessibility-state interpretation was corrected by a normal supported click; conditions are operable.",
       "evidence": [
         "EVIDENCE.md#conditional-capture-controls"
       ],
@@ -282,15 +282,19 @@
       "expected": "Reject invalid targets or explain any runtime rejection/line relocation. Never silently claim a different active location. Valid recovery must work.",
       "evidence_required": "V; exact input and resulting line; I, R",
       "cleanup": "Remove experiments; restore line 17",
-      "status": "PENDING",
-      "actual": "Earlier draft inputs 0, -1 and abc were rejected. An isolated pricing.py:9999 probe submitted 10:29:40 became ERROR by 10:30:21; detail 10:31:26 reported 1/1 instances and NoFunctionsAtLine. A standard line 17 gutter click created a separate probe at 10:32:04; it received events by 10:32:29 and subsequent predicate captures verified actual locals.",
-      "reason": "Out-of-range runtime rejection and valid separate-probe recovery passed. Blank/comment-line behavior remains unexecuted, so the original full case stays pending.",
+      "status": "FINDING",
+      "actual": "Earlier draft inputs 0, -1 and abc were rejected, and line 9999 reported NoFunctionsAtLine. Run 4 completed comment line 16 and blank line 10: both rejected with ERROR. At 14:14:20, line 10 specifically suggested an unsupported decorator although the unchanged calculate_quote source has no decorators. The valid line-17 control captured quantity 4, subtotal 4800, discount 480, total 4320 and true eligibility.",
+      "reason": "Low FUNC03 concerns misleading diagnostic specificity, not the appropriate rejection of a non-executable line. Local source/bytecode checks confirm blank and comment lines are non-executable; the installed ddtrace 4.11.0 diagnostic source matches official tagged bytes. No silent relocation or capture corruption was demonstrated.",
       "evidence": [
-        "EVIDENCE.md#draft-validation-after-service-discovery",
-        "EVIDENCE.md#out-of-range-runtime-control"
+        "findings/FUNC03-blank-line-decorator-diagnostic.md",
+        "EVIDENCE.md#run-4-invalid-line-controls",
+        "evidence/control-phase-147-154/150-line-16-target-loaded-guidance-safe.png",
+        "evidence/control-phase-155-167/156-valid-line-17-recovery-capture-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Try line 0, -1, nonnumeric input, 9999, blank line 10, and comment line 16. Then select executable line 17."
+      "checkpoint_utc": "2026-10-08T14:20:57Z",
+      "scope": "Try line 0, -1, nonnumeric input, 9999, blank line 10, and comment line 16. Then select executable line 17.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "The affected session and all 12 probes were disabled by 14:20:57. Final whole-audit cleanup remains C01/C02."
     },
     {
       "id": "F07",
@@ -302,7 +306,7 @@
       "cleanup": "Disable method experiment",
       "status": "IN_PROGRESS",
       "actual": "A whole-function pricing.calculate_quote probe using FUNCTION returned={@return} renders a full quantity-four return dictionary: quantity 4, unit price 1200, subtotal 4800, eligibility True, discount 480 and total 4320. The pane is labeled Values on exit. Applying @return in a line-17 message instead produces an explicit Evaluation errors panel naming No such local variable: @return, with editing guidance; the recorder verifies accurate quantity-two locals totaling 2400. No explicit entry/exit selector was found in the tested manual editor, and entry capture was not executed.",
-      "reason": "Default function-exit capture, a full returned-value positive control and the method-only contextual return expression’s explicit line-context error are now supported. This advances the original context matrix, but no entry-mode control ran. The absence of a selector in the inspected editor is an unresolved availability branch, not proof that entry is unsupported everywhere. Keep IN_PROGRESS rather than imply an entry/exit comparison was completed.",
+      "reason": "Default function-exit capture, a full returned-value positive control and the method-only contextual return expression\u2019s explicit line-context error are now supported. This advances the original context matrix, but no entry-mode control ran. The absence of a selector in the inspected editor is an unresolved availability branch, not proof that entry is unsupported everywhere. Keep IN_PROGRESS rather than imply an entry/exit comparison was completed.",
       "evidence": [
         "EVIDENCE.md#later-bounded-checks",
         "EVIDENCE.md#function-exit-and-line-context",
@@ -325,14 +329,18 @@
       "expected": "A single intended submission does not silently create duplicate entities. If duplicates are a supported explicit action they must be distinguishable, not hidden.",
       "evidence_required": "V, I, R",
       "cleanup": "Disable every created test entity",
-      "status": "PENDING",
-      "actual": "No result for the planned case is established.",
-      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
+      "status": "PASS",
+      "actual": "At approximately 14:04:40, one rapid double-click on Add to Session followed by one Return while the modal was pending changed the session count from 11 to 12. Reload still showed 12, and one new matching target definition was verified. The new line-17 definition produced correct quantity-four values.",
+      "reason": "PASS for this single bounded duplicate-submission control and reloaded definition inventory. Exact click/Return counts and identity comparison are recorded interaction evidence; the still alone shows only the resulting count. This is not a general idempotency or arbitrary-load guarantee.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#run-4-duplicate-submission-control",
+        "evidence/control-phase-155-167/155-submit-result-twelve-logpoints-safe.png",
+        "evidence/control-phase-155-167/156-valid-line-17-recovery-capture-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Rapidly double-click Create/Apply once; repeat Enter once during pending state; reload and inspect list."
+      "checkpoint_utc": "2026-10-08T14:20:57Z",
+      "scope": "Rapidly double-click Create/Apply once; repeat Enter once during pending state; reload and inspect list.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "The created definition was disabled with the entire 12-probe session; final inventory at 14:20:57 showed no active session."
     },
     {
       "id": "F09",
@@ -343,7 +351,7 @@
       "evidence_required": "V, I, T, R",
       "cleanup": "Restore baseline or disable experiment",
       "status": "FINDING",
-      "actual": "Medium FUNC01: in two tabs editing the same logpoint, stored quantity == 4 remains the baseline. Tab B changes its unsaved predicate to quantity == 3 and is dirty. Tab A saves only a message-template edit. B’s rendered predicate silently resets to quantity == 4 and its Apply action becomes disabled, with no visible warning/conflict text. This loss of the unsaved draft was reproduced around 13:01 and again at 13:02:52 UTC; the second repetition changes the saved message from TAB_A2 to TAB_A3.",
+      "actual": "Medium FUNC01: in two tabs editing the same logpoint, stored quantity == 4 remains the baseline. Tab B changes its unsaved predicate to quantity == 3 and is dirty. Tab A saves only a message-template edit. B\u2019s rendered predicate silently resets to quantity == 4 and its Apply action becomes disabled, with no visible warning/conflict text. This loss of the unsaved draft was reproduced around 13:01 and again at 13:02:52 UTC; the second repetition changes the saved message from TAB_A2 to TAB_A3.",
       "reason": "A reproducible unsaved-draft loss is established in the two-tab branch, so F09 is FINDING with Medium FUNC01. The stored quantity-four predicate remains correct. This does not establish a conflict between two saved writes, backend capture corruption, wrong active predicate or completion of the original stale-save/reload/new-event matrix.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates",
@@ -369,22 +377,23 @@
       "evidence_required": "V, I, T, R",
       "cleanup": "Ensure final session and children inactive",
       "status": "IN_PROGRESS",
-      "actual": "During the 13:04:34–13:05:38 UTC recorded interval, tab A disabled the individual line-63 probe while tab B already had an unsaved message draft. Both tabs displayed DISABLED. Tab B retained an enabled Apply button; applying the draft re-instrumented the probe and a fresh STALE_EDIT quantity-four log row appeared. No session-wide or service/environment-wide disable was tested.",
-      "reason": "The individual-probe stale-draft branch has now executed and clears the no-result state. Applying a modification to a disabled probe produced renewed collection, but the available documentation does not explicitly define disabled-edit semantics. Treat reactivation-feedback as UNCONFIRMED rather than another finding. Reload and the stale session-level child-edit branch remain unfinished. The shared session was separately stopped under F13 at 13:13:55; global cleanup remains open.",
+      "actual": "The earlier individual-disable/draft-Apply branch resumed capture. Run 4 added the session-level branch: an inactive parent and disabled line-17 child were observed with the SESSION_STOP_STALE draft; the update sequence led to an active session and fresh edited-message captures. The selected quantity-three capture showed subtotal/total 3600, discount 0 and false eligibility. Displayed sibling children stayed disabled. Parent/child state consistency and terminal stop were checked.",
+      "reason": "Observed state consistency and new-event values support the executed branches. The intended disabled-edit contract and whether Apply adequately communicates renewed collection remain unresolved, so the full original case stays IN_PROGRESS. This is not a confirmed disable-bypass defect or a duplicate finding. The movie contains tab/view changes and is not presented as an uninterrupted stale-editor transition. The original two-tab reload comparison and selected individual-probe STALE_EDIT detail are not independently established by the later session-branch stills and remain gaps.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates",
-        "EVIDENCE.md#individual-disable-and-draft-apply"
+        "EVIDENCE.md#individual-disable-and-draft-apply",
+        "EVIDENCE.md#run-4-session-stop-and-stale-apply",
+        "evidence/control-phase-155-167/164-inactive-parent-stale-child-editor-safe.png",
+        "evidence/control-phase-155-167/165-active-session-after-stale-child-save-safe.png",
+        "evidence/control-phase-155-167/166-stale-child-save-line-17-capture-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T14:20:57Z",
       "scope": "Disable logpoint in A; use stale edit/re-enable UI in B; reload. Repeat session-level disable with a child logpoint.",
       "remaining_gaps": [
-        "Reload both tabs and inspect the accepted enabled/disabled state and definition.",
-        "Select the new STALE_EDIT capture and inspect its own details/identity; the existing screenshot details pane is an OUTDATED older BRANCH result.",
-        "Repeat the original session-level disable with a child logpoint and inspect parent/child behavior.",
-        "Resolve the intended disabled-edit contract and assess whether the Apply action clearly communicates renewed collection before deciding on a product finding.",
-        "After executing any remaining stale session-edit branch, restore and re-verify final inactivity; do not substitute F13’s explicit Enable path for that branch."
+        "Explicitly establish the original reload-both-tabs state/definition comparison, separate from the observed session-level capture.",
+        "Inspect the original individual-probe STALE_EDIT capture itself; the earlier still 137 selected detail was an older OUTDATED event. The later session-branch capture does not establish that earlier detail.",
+        "Resolve the intended disabled-edit contract and pre-action reactivation feedback before deciding whether the behavior is a product finding."
       ],
-      "cleanup_assessment": "The affected shared session was finally stopped under F13 at 13:13:55, with the line-63 target and checked sibling children disabled. That scoped final state is now established, but the F10 reload and stale session-level child edit branch remain untested. Global inventory remains under C01/C02."
+      "cleanup_assessment": "Final run-4 stop and unfiltered inventory at 14:20:57 showed all four sessions inactive and all 12 affected-session probes disabled. Subsequent source work means this is historical scoped cleanup, not current whole-audit completion."
     },
     {
       "id": "F11",
@@ -958,28 +967,19 @@
       "evidence_required": "I, R, T; final active count",
       "cleanup": "Record remaining authorized entities explicitly",
       "status": "IN_PROGRESS",
-      "actual": "The resumed original target was stopped and reloaded inactive earlier. The shared complex-fixture session completed F13’s final whole-session stop at 13:13:55 and checked children 44/54/63 were disabled. Separate function-return/line-context experiments and the full global session/probe/runtime inventory are not yet established as cleaned up.",
-      "reason": "One target cleanup is confirmed; there is no reconciled final all-session/logpoint inventory, final active count, or final post-stop traffic check. Do not claim that all capture is stopped.",
+      "actual": "Run 4 ended successfully at 14:19:29. At 14:20:57, Sessions List with My sessions off and all other filters cleared showed All 4 / Active 0 / Inactive 4; the affected session had 12 disabled probes. Accounts, repositories, keys and the A-only grant were intentionally retained. This is a historical run-4 inventory; source-integration work subsequently resumed.",
+      "reason": "The run-4 terminal inventory materially advances cleanup. Final direct-link/post-stop traffic reconciliation for the whole audit must follow the subsequent source work; zero active at an earlier time is not a current inactivity certificate.",
       "evidence": [
-        "EVIDENCE.md#baseline-submission-attempts",
-        "EVIDENCE.md#later-bounded-checks",
-        "EVIDENCE.md#remaining-cleanup-inventory",
-        "evidence/continuation-13/105-resumed-session-inactive-disabled-safe.png",
-        "evidence/continuation-13/115-function-logpoint-draft-safe.png",
-        "evidence/continuation-13/116-function-exit-return-capture-safe.png",
-        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
-        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png",
-        "evidence/continuation-13/fixtures-117-125/122-concurrent-sample-a-pair-41-safe.png",
-        "evidence/continuation-13/fixtures-117-125/123-concurrent-sample-b-pair-53-safe.png",
-        "evidence/continuation-13/locals-126-131/129-never-called-waiting-for-events-safe.png"
+        "EVIDENCE.md#run-4-terminal-inventory",
+        "evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
-      "scope": "Final session/logpoint cleanup, direct-link state and post-stop traffic; the original target expiry is complete, while other test assets remain active.",
+      "checkpoint_utc": "2026-10-08T14:20:57Z",
+      "scope": "Final session/logpoint cleanup, direct-link state and post-stop traffic. Run-4 and later 17:22 inactive inventories are historical checkpoints; final reconciliation follows any resumed tests.",
       "remaining_gaps": [
-        "Reconcile every created definition and session, distinguishing the shared fixture session stopped at 13:13:55 from separate function/line-return experiments and all earlier test assets.",
-        "Verify final active count, each relevant reloaded direct link, and bounded post-stop traffic."
+        "Reconcile any later source-phase sessions and definitions, then recheck final direct links and the active inventory.",
+        "Preserve the distinction between disabled capture and retained historical events; record post-stop traffic evidence when applicable."
       ],
-      "cleanup_assessment": "OPEN. The latest reviewed evidence does not establish a global terminal cleanup state."
+      "cleanup_assessment": "OPEN for final whole-audit reconciliation; run-4 terminal capture inventory is verified."
     },
     {
       "id": "C02",
@@ -990,23 +990,19 @@
       "evidence_required": "A, H, R; nonsecret before/after summary",
       "cleanup": "Complete authorized restorations",
       "status": "IN_PROGRESS",
-      "actual": "Several case-specific capture stops are verified, including the shared fixture session’s final F13 stop at 13:13:55. Runtime/traffic, fixture removal, source grants, settings and identity restoration have not received a complete before/after inventory; separate function/line-return experiments remain unclosed.",
-      "reason": "No final runtime/settings/grant restoration can be inferred from a stopped individual session or from a recording file. Preserve the full inventory task.",
+      "actual": "Run 4 ended successfully at 14:19:29. At 14:20:57, Sessions List with My sessions off and all other filters cleared showed All 4 / Active 0 / Inactive 4; the affected session had 12 disabled probes. Accounts, repositories, keys and the A-only grant were intentionally retained. This is a historical run-4 inventory; source-integration work subsequently resumed.",
+      "reason": "The bounded run is terminal and its retained assets are disclosed. A complete final process/settings/grant/identity/fixture inventory still follows ongoing source work; a stopped runtime alone is not proof of complete restoration.",
       "evidence": [
-        "EVIDENCE.md#continuation-recording-and-retained-state",
-        "EVIDENCE.md#approved-setup-milestones",
-        "EVIDENCE.md#remaining-cleanup-inventory",
-        "evidence/continuation-13/105-resumed-session-inactive-disabled-safe.png",
-        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
-        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png"
+        "EVIDENCE.md#run-4-terminal-inventory",
+        "evidence/control-phase-155-167/167-final-unfiltered-session-inventory-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T14:20:57Z",
       "scope": "Full environment inventory and restoration; only the named stop/grant/retention checks are complete.",
       "remaining_gaps": [
-        "Reconcile processes/runs, settings, source grants, identities, fixture variants and remaining authorized assets.",
-        "Report unresolved or intentionally retained changes explicitly."
+        "Reconcile subsequent runtime/source variants and their final processes, settings, grant scope, identities and fixtures.",
+        "Report intentionally retained accounts, repositories, keys and integration scope without claiming deletion or revocation."
       ],
-      "cleanup_assessment": "OPEN. No complete restoration or recurring-activity/cost inventory is established."
+      "cleanup_assessment": "OPEN for final whole-audit reconciliation; run-4 terminal capture inventory is verified."
     },
     {
       "id": "C03",
@@ -1069,23 +1065,19 @@
       "expected": "The healthy/no-traffic state is distinguishable from an uninstalled probe; the positive control produces an event.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Disable both test definitions.",
-      "status": "IN_PROGRESS",
-      "actual": "A probe targeting the never-called function at line 69 was created around 12:43 UTC. At the recorder check 12:54:53 it remained WAITING FOR EVENTS with one instance and zero events, while called siblings had fresh events. Reviewed stills 129 directly shows that waiting/no-events state. The earlier line-9999 controlled target had reported ERROR/NoFunctionsAtLine. The final healthy-function invocation has not been executed.",
-      "reason": "Actual creation and the bounded no-traffic observation clear the obsolete prepared-local-only blocker. The displayed waiting state differs from the earlier controlled installation-error state, but WAITING FOR EVENTS and an instance count are not explicit installation-success evidence. The required final invocation and resulting actual event remain untested, so this is partial progress only.",
+      "status": "PASS",
+      "actual": "After correcting the test template to an in-scope local, line 69 showed WAITING FOR EVENTS with one targeting instance and no events, while a separate line-9999 definition showed ERROR/NoFunctionsAtLine. A single delayed HTTP invocation then produced NEVER_CONTROL value=707 and captured never_called_local=707. SDK execution time was 13:58:26.856 UTC, within the independently checked HTTP interval 13:58:26.838546\u201313:58:26.857889; the displayed row time was separately 13:58:28.918 UTC.",
+      "reason": "The no-traffic versus failed-target comparison and the required positive invocation are now complete. The actual 707 capture establishes the healthy target; WAITING FOR EVENTS and an instance count alone were not treated as installation proof. The indexed source and line-69 location were inspected separately.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates",
-        "EVIDENCE.md#never-called-installation-control",
-        "evidence/continuation-13/locals-126-131/129-never-called-waiting-for-events-safe.png"
+        "EVIDENCE.md#run-4-quiet-target-positive-control",
+        "evidence/control-phase-147-154/149-quiet-versus-explicit-install-error-safe.png",
+        "evidence/control-phase-147-154/152-one-shot-707-capture-safe.png",
+        "evidence/control-phase-147-154/154-one-shot-source-and-captured-value-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "checkpoint_utc": "2026-10-08T14:20:57Z",
       "scope": "Install at the never-executed function; separately create a target known to fail installation; compare status; finally execute the healthy function once.",
-      "remaining_gaps": [
-        "Resolve the never-called probe template before invoking it: the pictured template references quantity, which is not an in-scope local/parameter of the inspected never-called fixture function. Use a valid fixture-local or literal message to avoid confounding the positive control.",
-        "Inspect available runtime/installation detail; do not promote WAITING FOR EVENTS or one instance into explicit installed/healthy proof.",
-        "Execute the healthy function once through an authorized supported route and verify the actual captured event against the fixture oracle.",
-        "Complete the state comparison after that positive event, keeping the earlier line-9999 error’s separate runtime/context and observation time explicit."
-      ],
-      "cleanup_assessment": "OPEN: disable the never-called test definition and verify the failed-installation definition remains disabled/expired. No final all-session cleanup or positive invocation is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
+      "remaining_gaps": [],
+      "cleanup_assessment": "Both test definitions were disabled with the 12-probe session, and inventory was checked at 14:20:57. The earlier invalid test template is resolved, not a product finding."
     },
     {
       "id": "X04",
@@ -1096,7 +1088,7 @@
       "evidence_required": "V, I, T, R; separate execution, stop, and ingestion clocks",
       "cleanup": "Verify all affected entities inactive and stop traffic.",
       "status": "PASS",
-      "actual": "The last target SDK snapshot at 10:45:41.045 is distinct from its UI log-row time 10:45:43.820. The observed active→expired transition was bounded 10:45:35.975–10:45:50.640. Historical rows remained after expiration and reload, without newer target rows by 10:47:16.596, while the control executed at 10:47:30.402.",
+      "actual": "The last target SDK snapshot at 10:45:41.045 is distinct from its UI log-row time 10:45:43.820. The observed active\u2192expired transition was bounded 10:45:35.975\u201310:45:50.640. Historical rows remained after expiration and reload, without newer target rows by 10:47:16.596, while the control executed at 10:47:30.402.",
       "reason": "PASS for the tested expiry alternative and separation of captured execution time, UI event-row time and retained history. No instantaneous stop or precise propagation lag is inferred from the bounded observations.",
       "evidence": [
         "EVIDENCE.md#verified-expiry-and-control",
@@ -1251,31 +1243,32 @@
     {
       "at_utc": "2026-10-08T13:15:00Z",
       "observation": "V9: explicit resume/stop, input and definedness controls, capture toggle, targeted redaction, sampled request association and hierarchy checks. FUNC01 confirms two-tab unsaved-draft loss; function-entry, stale-save and global cleanup remain incomplete."
+    },
+    {
+      "at_utc": "2026-10-08T14:20:57Z",
+      "observation": "Run4 completes X03 positive707 invocation, F08 bounded duplicate-submission control and F06 invalid-line matrix with Low FUNC03. F10 state consistency advances, but feedback remains unconfirmed; historical unfiltered terminal inventory is verified."
     }
   ],
   "status_counts": {
     "BLOCKED": 24,
-    "FINDING": 7,
-    "IN_PROGRESS": 8,
-    "PASS": 16,
-    "PENDING": 8
+    "FINDING": 8,
+    "IN_PROGRESS": 7,
+    "PASS": 18,
+    "PENDING": 6
   },
-  "checkpoint_type": "V9 evidence checkpoint; ongoing audit with original 63 cases preserved. Evidence through 2026-10-08 13:15:00 UTC only.",
+  "checkpoint_type": "V10 web-only run-4 checkpoint through 2026-10-08 14:20:57 UTC. PDF and Word retain the separate V9 snapshot. Subsequent source-phase outcomes are not scored.",
   "finding_accounting": {
-    "live_cutoff_utc": "2026-10-08T13:15:00Z",
-    "distinct_findings_at_live_cutoff": 8,
-    "severity_at_live_cutoff": {
-      "HIGH": 0,
-      "MEDIUM": 3,
-      "LOW": 5
-    },
-    "combined_distinct_findings_after_separate_verification": 9,
+    "live_cutoff_utc": "2026-10-08T14:20:57Z",
+    "combined_distinct_findings_after_separate_verification": 10,
     "combined_severity": {
       "HIGH": 0,
       "MEDIUM": 4,
-      "LOW": 5
+      "LOW": 6
     },
-    "remaining_unconfirmed_topics_after_verification": 5
+    "remaining_unconfirmed_topics_after_verification": 5,
+    "new_finding": "FUNC03",
+    "new_finding_scope": "Observed blank-line diagnostic plus separately checked source/SDK provenance; rejection itself is appropriate.",
+    "no_duplicate_finding": "F10 state-consistency observations do not resolve the Apply-feedback candidate."
   },
   "post_cutoff_addenda": [
     {
@@ -1293,6 +1286,36 @@
       "at_utc": "2026-10-08T13:17:59Z",
       "observation": "Session inventory with My sessions enabled: All 4 / Active 0 / Inactive 4. This is not an account-wide inventory. Global runtime, traffic, fixture, settings and grant cleanup not established. Source 13 raw recording subsequently finalized; exact duration and reviewed motion export pending.",
       "original_case_statuses_changed": false
+    },
+    {
+      "kind": "UNSCORED_STATUS",
+      "at_utc": "2026-10-08T17:16:00Z",
+      "observation": "The later grouped source runtime was observed terminal-successful. No new source-case outcome is inferred from runtime success; source UI checks and final cleanup remain ongoing.",
+      "original_case_statuses_changed": false
+    },
+    {
+      "kind": "UNSCORED_CLEANUP_STATUS",
+      "at_utc": "2026-10-08T17:22:00Z",
+      "observation": "Recorder-verified unfiltered All 4 / Active 0 / Inactive 4, affected-session 12 probes individually DISABLED and 0 instances. Grouped-source job ended successfully at 16:33 UTC with job-owned runtime cleanup completion. C1 session draft was never submitted. Source 15 recording stopped at 17:20:52, privacy review pending. No source-case status upgrade or complete settings/grant/fixture restoration inferred.",
+      "original_case_statuses_changed": false
     }
-  ]
+  ],
+  "prior_checkpoint": {
+    "name": "V9",
+    "live_cutoff_utc": "2026-10-08T13:15:00Z",
+    "original_status_counts": {
+      "PASS": 16,
+      "FINDING": 7,
+      "IN_PROGRESS": 8,
+      "PENDING": 8,
+      "BLOCKED": 24
+    },
+    "combined_findings": 9,
+    "severity": {
+      "HIGH": 0,
+      "MEDIUM": 4,
+      "LOW": 5
+    },
+    "documents_unchanged": true
+  }
 }
