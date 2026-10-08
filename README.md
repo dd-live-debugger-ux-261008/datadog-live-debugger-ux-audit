@@ -1,15 +1,19 @@
 # Datadog Live Debugger and Source Code Integration audit
 
-Work in progress. Last updated: 2026-10-08 03:02 UTC.
+Work in progress. Last updated: 2026-10-08 03:31 UTC.
 
 Public repository: [datadog-live-debugger-ux-audit](https://github.com/dd-live-debugger-ux-261008/datadog-live-debugger-ux-audit).
 
-This audit follows two tracks: the experience of a beginner unfamiliar with Datadog and APM, and professional QA of runtime behavior, source identity, permissions, error handling, and lifecycle.
+The report has two explicit parts, connected by one severity-ranked finding index.
+
+1. Part 1: usability study of brand-new Datadog and APM onboarding. This is a structured first-time-user walkthrough, not a recruited-participant study.
+2. Part 2: detailed professional QA of Live Debugger and Source Code Integration, including runtime behavior, source identity, permissions, error handling, and lifecycle.
 
 ## Read the current results
 
 - [Annotated report PDF](report.pdf)
 - [Editable report](report.docx)
+- [Individual finding pages with inline annotated screenshots](findings.md#severity-ranked-finding-index)
 - [Severity-ranked finding index](findings.md#severity-ranked-finding-index)
 - [High severity findings only](high-severity.md)
 - [Medium severity findings](findings.md#medium-severity)
@@ -29,9 +33,10 @@ Video chapters: 00:00 overview; 00:20 region-choice UX; 00:34 documentation navi
 - One desktop documentation layout defect was observed in two scroll positions.
 - A region-selection decision-support recommendation is recorded separately from confirmed defects.
 - A synthetic Python fixture has eight passing local tests and one intentional expected failure for its planted pricing bug.
+- First authenticated empty-state navigation was checked: manual debugging is available without source linking, missing service prevents session start, and Close returns correctly. UX02 records a recovery-guidance recommendation.
 - Authenticated product exploration is ongoing. No successful Datadog variable capture, exact deployed-source match, repository authorization boundary, or expiry test is claimed yet.
 
-The matrix contains 54 baseline cases plus nine separately labeled supplementary edge cases, all a test plan. Its case count is not the count of tests executed. Cases remain NOT RUN until evidence establishes their outcome. This repository will be updated incrementally as results become available.
+The matrix contains 54 baseline cases plus nine separately labeled supplementary edge cases, all a test plan. Its case count is not the count of tests executed. The current matrix records one scoped PASS and one LOW UX finding, two partially in progress cases, and 59 planned/not-run cases. A discovery-route pass is not a runtime-capture pass. This repository will be updated incrementally as results become available.
 
 ## Evidence conventions
 

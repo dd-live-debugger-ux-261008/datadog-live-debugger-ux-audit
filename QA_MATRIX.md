@@ -2,9 +2,79 @@
 
 Prepared: 2026-10-08 UTC. Scope: a real-browser audit using dedicated synthetic fixtures.
 
+## Execution checkpoint at 03:31 UTC
+
+The table below is the current record. The detailed baseline and supplementary sections remain the test plan. One case has a scoped PASS, one records a LOW UX recommendation, two are partially in progress, and 59 remain PLANNED / NOT RUN. A scoped navigation pass does not imply working runtime capture.
+
+| Case | Current status | Evidence or precise remaining scope |
+|---|---|---|
+| B01 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B02 | FINDING | [UX02](findings/UX02-empty-state-recovery.md): missing recovery guidance in the natural first-run empty-state sections; LOW UX recommendation. |
+| B03 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B04 | PASS | Manual-route discoverability without SCI only. [Evidence](findings/UX02-empty-state-recovery.md). No real capture pass. |
+| B05 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B06 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B07 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B08 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B09 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| B10 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F01 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F02 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F03 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F04 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F05 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F06 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F07 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F08 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F09 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F10 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F11 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F12 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F13 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F14 | IN PROGRESS | Escape, Back, Forward, refresh, saved-state and other variants remain untested. |
+| F15 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F16 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F17 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F18 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F19 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F20 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F21 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F22 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| F23 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S01 | IN PROGRESS | Grant not submitted at this checkpoint; completion, cancellation/reload and scope verification remain open. |
+| S02 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S03 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S04 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S05 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S06 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S07 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S08 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S09 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S10 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S11 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S12 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S13 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S14 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S15 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S16 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S17 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| S18 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| C01 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| C02 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| C03 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X01 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X02 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X03 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X04 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X05 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X06 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X07 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X08 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+| X09 | PLANNED | Planned. The required preconditions and exact steps are listed below; no outcome is claimed. |
+
 ## Status and purpose
 
-This is a test plan, not a record of observed defects. Every case starts **NOT RUN**. Promote a case to PASS or FAIL only with direct evidence; use BLOCKED for a missing dependency or authorization. Record a useful partial outcome without calling the entire case passed. Test priority is not defect severity.
+The detailed case sections below define the test plan; the execution checkpoint above records current outcomes. Every case starts **NOT RUN**. Promote a case to PASS or FAIL only with direct evidence; use BLOCKED for a missing dependency or authorization. Record a useful partial outcome without calling the entire case passed. Test priority is not defect severity.
 
 Two tracks run against the same journey:
 
@@ -15,7 +85,7 @@ Do not operate an existing production service, real customer data, or a shared i
 
 ## Fixture and known oracle
 
-The audit uses a synthetic Python quote service with the oracle below. The service has not yet been deployed with Datadog instrumentation.
+The audit uses a synthetic Python quote service with the oracle below. Runtime telemetry and debugger capture have not yet been verified at this checkpoint.
 
 - Python function: `pricing.calculate_quote`; file: `pricing.py`; intended capture line: **17**, the start of the return expression. Verify actual deployed line numbers before use.
 - Line 13 intentionally uses `quantity > 3`; do not fix the baseline before testing.
