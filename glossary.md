@@ -17,3 +17,6 @@
 - **Redaction:** Removing or masking selected data. A redacted value differs from a missing or unavailable value.
 
 [Back to the audit](README.md) · [Findings](findings.md)
+
+- **ARIA:** Labels, states and relationships that can help assistive technology interpret an interface. Missing one attribute alone does not prove an accessibility failure.
+- **WCAG:** Web Content Accessibility Guidelines. The focused checks in this report are not a complete conformance audit.

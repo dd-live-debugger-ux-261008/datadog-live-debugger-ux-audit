@@ -1,6 +1,6 @@
 # Datadog audit findings
 
-Overnight checkpoint. Updated 2026-10-08 05:45 UTC.
+Overnight checkpoint. Updated 2026-10-08 06:28 UTC.
 
 Part 1 covers brand-new Datadog/APM usability. Part 2 covers professional Live Debugger and Source Code Integration QA. Both use this shared index.
 
@@ -15,6 +15,7 @@ Part 1 covers brand-new Datadog/APM usability. Part 2 covers professional Live D
 | DOC02 | LOW | Confirmed layout bug | 1 | [Contents rail splits section names mid-word](findings/DOC02-documentation-navigation.md) |
 | UX01 | LOW | UX recommendation | 1 | [Permanent region choice needs decision support](findings/UX01-region-choice.md) |
 | UX02 | LOW | UX recommendation | 1 | [Empty service states do not explain setup recovery](findings/UX02-empty-state-recovery.md) |
+| UX03 | LOW | Scoped feedback issue | 1 | [Invalid log template lacks an explanatory error message](findings/UX03-invalid-log-template-feedback.md) |
 
 Every finding page contains an inline annotated screenshot, a full-size image link, the original evidence, a video link with chapter times where published, and the finding's scope and reproduction or assessment.
 
@@ -35,6 +36,8 @@ There are currently **no confirmed HIGH-severity findings** in the evidence esta
 
 - [UX02 Empty service states do not explain setup recovery](findings/UX02-empty-state-recovery.md): natural first-run no-service/no-environment views give no concrete recovery step in the captured section. [Service screenshot](evidence/annotated/UX02-empty-service-list.png) · [Setup screenshot](evidence/annotated/UX02-no-environments.png). [Authenticated video](authenticated-ui-qa-excerpt.mp4), 00:00–00:13.80 and 02:42.80–02:50.80.
 
+- [UX03 Invalid log template lacks an explanatory error message](findings/UX03-invalid-log-template-feedback.md): red-border/disabled-button validation works, but the tested state gives no explanatory syntax-error text. No screen-reader or global WCAG failure is asserted.
+
 ## Severity rubric and evidence types
 
 - HIGH: core task blocked or significant incorrect behavior with no reasonable workaround.
@@ -49,4 +52,4 @@ Fresh test accounts reached authenticated welcome/home states. Local fixture tes
 
 No successful Datadog variable capture, exact deployed-source match, repository authorization boundary, or expiry result is claimed by this checkpoint. Runtime readiness and service-process availability alone do not establish ingestion.
 
-63 original cases: 2 scoped PASS, 3 FINDING and 58 BLOCKED. [Full case outcomes](QA_MATRIX.md) and [supplemental executed checks](EXECUTED_CHECKS.md) preserve exact scope. Initial runtime/App-install approvals were received; runtime is now stopped at an additional-destination boundary, and source association is an observed interrupted-flow recovery issue. No capture, exact source mapping, repository-boundary or lifecycle result is established.
+63 original cases: 2 scoped PASS, 4 FINDING and 57 BLOCKED. [Full case outcomes](QA_MATRIX.md) and [supplemental executed checks](EXECUTED_CHECKS.md) preserve exact scope. Initial runtime/App-install approvals were received; runtime is now stopped at an additional-destination boundary, and source association is an observed interrupted-flow recovery issue. No capture, exact source mapping, repository-boundary or lifecycle result is established.

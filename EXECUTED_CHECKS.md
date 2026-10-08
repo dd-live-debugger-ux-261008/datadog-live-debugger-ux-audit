@@ -1,6 +1,6 @@
 # Supplemental executed checks
 
-These 25 narrowly scoped checks are separate from the 63 original-case outcomes. A PASS covers only the stated observation, including historical snapshots. It does not imply runtime capture or an end-to-end pass.
+These 28 narrowly scoped checks are separate from the 63 original cases. A PASS covers only its stated observation, including historical snapshots. No runtime-capture or end-to-end pass is implied.
 
 | Check | Result | UTC | Verified scope | Evidence |
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ These 25 narrowly scoped checks are separate from the 63 original-case outcomes.
 | U13 Published finding images | PASS | Verified by 03:59 | All four finding pages rendered their inline annotated image; the UX02 original-image link opened. Publication QA, not Datadog behavior. | [Evidence](findings.md#severity-ranked-finding-index) |
 | U14 Temporary helper shutdown | PASS | 04:22:42 | Two completed local setup helpers stopped; each shows zero remaining owned processes. Private configuration retained without inspection. | [Evidence](EVIDENCE.md#final-state) |
 | U15 Service discovery | PASS | 04:50:17 | The synthetic sample became selectable; only wildcard environment was offered. No session or capture. | [Evidence](EVIDENCE.md#approved-setup-milestones) |
-| U16 Runtime prerequisite snapshots | PASS | 04:47:03; 04:54:47 | Agent/trace/SDK readiness and RC enabled/key-authorized were verified at these instants; later scope stop means this is not current liveness. | [Evidence](EVIDENCE.md#approved-setup-milestones) |
+| U16 Agent and sample snapshots | PASS | 04:47:03; 04:54:47 | Local Agent intake/sample startup and Agent RC org/key authorization verified at these instants. Debugger SDK client registration and current liveness remain unverified. | [Evidence](EVIDENCE.md#approved-setup-milestones) |
 | U17 A-only installed scope | PASS | 04:51:29; 05:06:05 | GitHub installation plus persisted one-repository selection verified, identified privately as A. B created afterward remains ungranted. Datadog association failed. | [Evidence](evidence/38-a-only-after-b-created-public.png) |
 | U18 Wildcard setup warning | PASS | 04:53:17 | Manual draft explains all-environment creation will not auto-enable the service and offers Configuration or a specific environment. | [Evidence](evidence/33-service-all-environments-warning-public.png) |
 | U19 Invalid line draft controls | PASS | 04:54–04:55 | Line 0, -1 and abc kept Start disabled; 9999 enabled an unsubmitted draft and 17 restored the baseline. No runtime target validation. | [Evidence](evidence/34-line-zero-validation-public.png) |
@@ -29,3 +29,6 @@ These 25 narrowly scoped checks are separate from the 63 original-case outcomes.
 | U23 Python Function draft | PASS | 05:39:50 | Function mode accepts Module pricing and Function calculate_quote as an enabled draft. No submit or entry/exit capture. | [Evidence](evidence/48-python-function-draft-public.png) |
 | U24 Edited draft cancellation | PASS | 05:43 | Closing and reopening resets to Line mode and empty File/Line, retaining service/environment. No unsaved draft was published; reopened draft closed. | [Evidence](EVIDENCE.md#later-bounded-checks) |
 | U25 Latest zero inventory | PASS | By 05:45 | After rejected creates and draft cancellation, All 0 / Active 0 / Inactive 0 remained. A-only installation unchanged; active lifecycle semantics untested. | [Evidence](EVIDENCE.md#later-bounded-checks) |
+| U26 Historical APM ingestion | PASS | 05:49–06:21 | 47 indexed spans recovered; an actual old span carries HTTP 200, Python, staging, version 0.1.0 and the baseline commit. No debugger capture or source retrieval. | [Evidence](evidence/continuation-09/57-screenshot-only-ingested-env-commit.png) |
+| U27 APM time-window recovery | PASS | 05:55–06:21 | Empty recent search offered a wider timeframe; one-hour history recovered spans. This is APM search behavior, not debugger result filtering. | [Evidence](evidence/continuation-09/53-historical-search-47-spans.png) |
+| U28 SDK freshness guidance | PASS | By 06:15 | SDK Configurations states no data detected in the last 15 minutes and suggests runtime, telemetry and intake checks. Stopped runtime is compatible; no registration-failure conclusion. | [Evidence](evidence/continuation-09/55-sdk-no-recent-config.png) |

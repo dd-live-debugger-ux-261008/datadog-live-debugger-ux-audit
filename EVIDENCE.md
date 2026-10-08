@@ -1,10 +1,10 @@
 # Evidence and checkpoint scope
 
-Checkpoint: 8 October 2026 at 05:45 UTC (01:45 America/New_York). Earlier inventory and recordings retain their stated timestamps. This is a resumable overnight checkpoint. It is not a completed end-to-end debugger audit.
+Checkpoint: 8 October 2026 at 06:28 UTC (02:28 America/New_York). Earlier inventory and recordings retain their stated timestamps. This is a resumable overnight checkpoint. It is not a completed end-to-end debugger audit.
 
 ## Checkpoint and gates
 
-The specified runtime payload and official GitHub App installation restricted to A were approved at 04:45:46 UTC. Brief runtime readiness and Remote Configuration snapshots were verified, and the service became discoverable. The runtime then stopped at an additional telemetry-destination approval boundary despite LLM-disabled settings. No debugger event was captured. GitHub installation and user authorization are verified, but Datadog source association remains unconnected after the interrupted flow and fresh-context retries. B exists and remains private and ungranted. Independent roles and several controlled deployment variants are still unavailable.
+The specified runtime payload and official GitHub App installation restricted to A were approved at 04:45:46 UTC. Brief local Agent intake/sample startup and Agent Remote Configuration authorization snapshots were verified, and the service became discoverable. The runtime then stopped at an additional telemetry-destination approval boundary despite LLM-disabled settings. No debugger event was captured. GitHub installation and user authorization are verified, but Datadog source association remains unconnected after the interrupted flow and fresh-context retries. B exists and remains private and ungranted. Independent roles and several controlled deployment variants are still unavailable.
 
 Earlier Remote Configuration eligibility was unknown with unresolved connectivity; it was not established as disabled or misconfigured. Later readiness snapshots supersede that uncertainty only at their own timestamps. Audit locator/recording failures and additional-destination restrictions are separate from Datadog product findings.
 
@@ -115,3 +115,17 @@ The draft's Go to Configuration link opened a new tab while retaining the draft.
 - Runtime source configuration explicitly supplies the intended service, staging environment and version 0.1.0. Static SDK registration/settings checks do not prove actual SDK registration or ingested environment tags; no wrong-flag explanation is inferred.
 
 These checks are screenshot/live-inspection evidence after recording 07 stopped. Source 08 is 42.05 seconds of tooling preparation only; no reset footage. [Complete recorded-source catalog](VIDEOS.md).
+
+## Historical APM ingestion and freshness
+
+The runtime stayed stopped. Widening an empty recent APM search recovered 47 indexed spans. An inspected GET /quote span from 04:54:43 UTC reports HTTP 200, language Python, env staging, version 0.1.0 and the baseline A commit. These are ingested tags, not merely configured metadata. [Indexed results](evidence/continuation-09/53-historical-search-47-spans.png) · [Actual version tag](evidence/continuation-09/56-screenshot-only-ingested-version.png) · [Actual env and commit](evidence/continuation-09/57-screenshot-only-ingested-env-commit.png).
+
+The tag stills 56/57 were captured after source 09 stopped, and are not reconstructed into that motion. Image 54 shows a span overview, not the below-fold tags. Some UI time controls display UTC-07:00; report clocks are UTC. Historical APM ingestion proves neither current process liveness nor source retrieval or a debugger logpoint capture. No span-specific debugger action or Code Origin section was found in the inspected span view; this alone is not a feature defect.
+
+[SDK Configurations](evidence/continuation-09/55-sdk-no-recent-config.png) explicitly states no configuration data detected in the last 15 minutes, with runtime, instrumentation telemetry and intake guidance. That freshness window is compatible with the stopped runtime. SDK Remote Configuration client registration remains unverified. Earlier broad “SDK readiness” wording should be read narrowly as local sample startup and Agent-side status, not registered debugger clients.
+
+## Template error feedback inspection
+
+At 06:25–06:28, an unmatched template disabled Start and gained a red border after blur. No text explaining that syntax error was observed in the view or recorded accessibility snapshot. The inspected textarea's error-related ARIA attributes were absent. Correcting the brace removed the border and enabled Start; no submission occurred. [UX03](findings/UX03-invalid-log-template-feedback.md) records this Low scoped feedback issue and its positive control. A Line naming concern remains provisional, because the archived attributes do not establish the computed name. No screen-reader run or global WCAG conclusion is claimed.
+
+Source09 historical APM motion and source 10 feedback motion have separately reviewed archives/highlights. All ten recorded sources are accounted in [VIDEOS.md](VIDEOS.md). Source10 ended 06:28:13.75; the draft was closed and no session/logpoint was created. Current runtime and source-association blockers are unchanged.
