@@ -1,0 +1,2346 @@
+{
+  "version": 1,
+  "source": {
+    "label": "Recording source 17",
+    "duration_seconds": 6141.8,
+    "bytes": 184710970,
+    "sha256": "e3460c6d3c6942375e8e88a89a9b435248a9dd3f4b87f79aa00e432cffd72552",
+    "utc_start": "2026-10-08T19:46:20+00:00",
+    "utc_end_derived": "2026-10-08T21:28:41.800000+00:00",
+    "recorder_stop_utc": "2026-10-08T21:28:41Z",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "nominal_fps": 20,
+    "stored_frame_count": 122828,
+    "adjacent_timestamp_gap_count": 4,
+    "maximum_adjacent_timestamp_step_seconds": 0.2,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "coverage-controls-highlights.mp4",
+    "duration_seconds": 515.7,
+    "bytes": 6292978,
+    "sha256": "c404c4e5f0af700cf4269ea759ea0939911872b2908a31b9417788712d9ec533",
+    "dimensions": [
+      1280,
+      900
+    ],
+    "fps": "20/1",
+    "decoded": true,
+    "audio_tracks": 0,
+    "frames": 10314
+  },
+  "chapters": [
+    {
+      "start": 151.5,
+      "end": 164,
+      "title": "Provider run enters progress",
+      "caption": "Queued and in-progress provider states; this is not evidence that coverage cases passed.",
+      "crop": [
+        435,
+        380,
+        800,
+        410
+      ],
+      "masks": [
+        [
+          435,
+          405,
+          530,
+          60
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 12.5,
+      "source_start_seconds": 151.5,
+      "source_end_seconds": 164,
+      "duration_seconds": 12.5,
+      "utc_start_derived": "2026-10-08T19:48:51.500000+00:00",
+      "utc_end_derived": "2026-10-08T19:49:04+00:00",
+      "nominal_20fps_timeline_start_index": 3030,
+      "nominal_20fps_timeline_end_index_exclusive": 3280,
+      "first_stored_frame_ordinal_at_or_after_start": 3028,
+      "stored_frame_end_ordinal_exclusive": 3278,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        800,
+        410
+      ]
+    },
+    {
+      "start": 510,
+      "end": 526.65,
+      "title": "Create the C1 baseline logpoint",
+      "caption": "pricing.py line 17 and COVERAGE_C1 template; source and capture controls remain visible.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 351.2,
+          "end": 352,
+          "rect": [
+            145,
+            300,
+            610,
+            365
+          ]
+        },
+        {
+          "start": 351.2,
+          "end": 352,
+          "rect": [
+            435,
+            300,
+            570,
+            50
+          ]
+        },
+        {
+          "start": 351.2,
+          "end": 352.2,
+          "rect": [
+            250,
+            886,
+            955,
+            30
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 12.5,
+      "output_end_seconds": 29.15,
+      "source_start_seconds": 510,
+      "source_end_seconds": 526.65,
+      "duration_seconds": 16.65,
+      "utc_start_derived": "2026-10-08T19:54:50+00:00",
+      "utc_end_derived": "2026-10-08T19:55:06.650000+00:00",
+      "nominal_20fps_timeline_start_index": 10200,
+      "nominal_20fps_timeline_end_index_exclusive": 10533,
+      "first_stored_frame_ordinal_at_or_after_start": 10198,
+      "stored_frame_end_ordinal_exclusive": 10531,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 600,
+      "end": 620,
+      "title": "C1 baseline receives events",
+      "caption": "COVERAGE_C1 events, local values, and source/stack view are visible; receipt verification is separate.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 29.15,
+      "output_end_seconds": 49.15,
+      "source_start_seconds": 600,
+      "source_end_seconds": 620,
+      "duration_seconds": 20,
+      "utc_start_derived": "2026-10-08T19:56:20+00:00",
+      "utc_end_derived": "2026-10-08T19:56:40+00:00",
+      "nominal_20fps_timeline_start_index": 12000,
+      "nominal_20fps_timeline_end_index_exclusive": 12400,
+      "first_stored_frame_ordinal_at_or_after_start": 11998,
+      "stored_frame_end_ordinal_exclusive": 12398,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 680,
+      "end": 685,
+      "title": "Interrupted interval: original elapsed time",
+      "caption": "19:57:30-19:59:16 UTC: the session stays visible; continuous active testing is not implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 49.15,
+      "output_end_seconds": 54.15,
+      "source_start_seconds": 680,
+      "source_end_seconds": 685,
+      "duration_seconds": 5,
+      "utc_start_derived": "2026-10-08T19:57:40+00:00",
+      "utc_end_derived": "2026-10-08T19:57:45+00:00",
+      "nominal_20fps_timeline_start_index": 13600,
+      "nominal_20fps_timeline_end_index_exclusive": 13700,
+      "first_stored_frame_ordinal_at_or_after_start": 13598,
+      "stored_frame_end_ordinal_exclusive": 13698,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 890,
+      "end": 902,
+      "title": "Enable and inspect metadata probes",
+      "caption": "Six bad-metadata conditions populate the event list; labels record UI observations only.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ],
+        [
+          785,
+          680,
+          460,
+          60
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 54.15,
+      "output_end_seconds": 66.15,
+      "source_start_seconds": 890,
+      "source_end_seconds": 902,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T20:01:10+00:00",
+      "utc_end_derived": "2026-10-08T20:01:22+00:00",
+      "nominal_20fps_timeline_start_index": 17800,
+      "nominal_20fps_timeline_end_index_exclusive": 18040,
+      "first_stored_frame_ordinal_at_or_after_start": 17798,
+      "stored_frame_end_ordinal_exclusive": 18038,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 925,
+      "end": 935,
+      "title": "Inspect missing-source feedback",
+      "caption": "The UI shows source-not-found and missing-link messages, including the invalid SHA explanation.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          785,
+          680,
+          460,
+          60
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 66.15,
+      "output_end_seconds": 76.15,
+      "source_start_seconds": 925,
+      "source_end_seconds": 935,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:01:45+00:00",
+      "utc_end_derived": "2026-10-08T20:01:55+00:00",
+      "nominal_20fps_timeline_start_index": 18500,
+      "nominal_20fps_timeline_end_index_exclusive": 18700,
+      "first_stored_frame_ordinal_at_or_after_start": 18498,
+      "stored_frame_end_ordinal_exclusive": 18698,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 965,
+      "end": 975,
+      "title": "Inspect missing-source feedback",
+      "caption": "The UI shows source-not-found and missing-link messages, including the invalid SHA explanation.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          785,
+          680,
+          460,
+          60
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 76.15,
+      "output_end_seconds": 86.15,
+      "source_start_seconds": 965,
+      "source_end_seconds": 975,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:02:25+00:00",
+      "utc_end_derived": "2026-10-08T20:02:35+00:00",
+      "nominal_20fps_timeline_start_index": 19300,
+      "nominal_20fps_timeline_end_index_exclusive": 19500,
+      "first_stored_frame_ordinal_at_or_after_start": 19298,
+      "stored_frame_end_ordinal_exclusive": 19498,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1035,
+      "end": 1045,
+      "title": "Inspect missing-source feedback",
+      "caption": "The UI shows source-not-found and missing-link messages, including the invalid SHA explanation.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          785,
+          680,
+          460,
+          60
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 86.15,
+      "output_end_seconds": 96.15,
+      "source_start_seconds": 1035,
+      "source_end_seconds": 1045,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:03:35+00:00",
+      "utc_end_derived": "2026-10-08T20:03:45+00:00",
+      "nominal_20fps_timeline_start_index": 20700,
+      "nominal_20fps_timeline_end_index_exclusive": 20900,
+      "first_stored_frame_ordinal_at_or_after_start": 20698,
+      "stored_frame_end_ordinal_exclusive": 20898,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 1085,
+      "end": 1095,
+      "title": "Inspect the nonexistent-SHA log",
+      "caption": "The requested-event placeholder resolves to a log and missing-link feedback. Private metadata is masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1096.8,
+          "end": 1132.1,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 96.15,
+      "output_end_seconds": 106.15,
+      "source_start_seconds": 1085,
+      "source_end_seconds": 1095,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:04:25+00:00",
+      "utc_end_derived": "2026-10-08T20:04:35+00:00",
+      "nominal_20fps_timeline_start_index": 21700,
+      "nominal_20fps_timeline_end_index_exclusive": 21900,
+      "first_stored_frame_ordinal_at_or_after_start": 21698,
+      "stored_frame_end_ordinal_exclusive": 21898,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1255.8,
+      "end": 1263.6,
+      "title": "Inspect missing-metadata source association",
+      "caption": "The log UI describes use of the latest default-branch commit; the private repository control is masked.",
+      "crop": [
+        615,
+        210,
+        640,
+        704
+      ],
+      "masks": [
+        [
+          615,
+          295,
+          640,
+          188
+        ],
+        [
+          615,
+          610,
+          640,
+          80
+        ],
+        [
+          630,
+          862,
+          615,
+          52
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1263.6,
+          "end": 1274.15,
+          "rect": [
+            670,
+            785,
+            585,
+            129
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 106.15,
+      "output_end_seconds": 113.95,
+      "source_start_seconds": 1255.8,
+      "source_end_seconds": 1263.6,
+      "duration_seconds": 7.8,
+      "utc_start_derived": "2026-10-08T20:07:15.800000+00:00",
+      "utc_end_derived": "2026-10-08T20:07:23.600000+00:00",
+      "nominal_20fps_timeline_start_index": 25116,
+      "nominal_20fps_timeline_end_index_exclusive": 25272,
+      "first_stored_frame_ordinal_at_or_after_start": 25114,
+      "stored_frame_end_ordinal_exclusive": 25270,
+      "effective_crop_source_xywh": [
+        615,
+        210,
+        640,
+        704
+      ]
+    },
+    {
+      "start": 1570,
+      "end": 1576,
+      "title": "Unsubmitted production-label draft",
+      "caption": "Draft only: submission was blocked and cancelled. This is not an executed production-label control.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 113.95,
+      "output_end_seconds": 119.95,
+      "source_start_seconds": 1570,
+      "source_end_seconds": 1576,
+      "duration_seconds": 6,
+      "utc_start_derived": "2026-10-08T20:12:30+00:00",
+      "utc_end_derived": "2026-10-08T20:12:36+00:00",
+      "nominal_20fps_timeline_start_index": 31400,
+      "nominal_20fps_timeline_end_index_exclusive": 31520,
+      "first_stored_frame_ordinal_at_or_after_start": 31398,
+      "stored_frame_end_ordinal_exclusive": 31518,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 1841,
+      "end": 1853.2,
+      "title": "Add C2 pricing.py line 24",
+      "caption": "Version-targeted C2 draft; capture at the shifted source line is a separate positive control.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 119.95,
+      "output_end_seconds": 132.15,
+      "source_start_seconds": 1841,
+      "source_end_seconds": 1853.2,
+      "duration_seconds": 12.2,
+      "utc_start_derived": "2026-10-08T20:17:01+00:00",
+      "utc_end_derived": "2026-10-08T20:17:13.200000+00:00",
+      "nominal_20fps_timeline_start_index": 36820,
+      "nominal_20fps_timeline_end_index_exclusive": 37064,
+      "first_stored_frame_ordinal_at_or_after_start": 36818,
+      "stored_frame_end_ordinal_exclusive": 37062,
+      "effective_crop_source_xywh": [
+        145,
+        282,
+        1060,
+        634
+      ]
+    },
+    {
+      "start": 2020,
+      "end": 2040,
+      "title": "Inspect the real C2 capture",
+      "caption": "Selected C2 event and pricing.py line 24 source are shown; event-row clocks are UI display values.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 132.15,
+      "output_end_seconds": 152.15,
+      "source_start_seconds": 2020,
+      "source_end_seconds": 2040,
+      "duration_seconds": 20,
+      "utc_start_derived": "2026-10-08T20:20:00+00:00",
+      "utc_end_derived": "2026-10-08T20:20:20+00:00",
+      "nominal_20fps_timeline_start_index": 40400,
+      "nominal_20fps_timeline_end_index_exclusive": 40800,
+      "first_stored_frame_ordinal_at_or_after_start": 40398,
+      "stored_frame_end_ordinal_exclusive": 40798,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2090,
+      "end": 2100,
+      "title": "C2 source and local values",
+      "caption": "The C2 values show quantity 3, total 3900 and unit price 1300. Repository chrome is excluded.",
+      "crop": [
+        630,
+        285,
+        596,
+        552
+      ],
+      "masks": [],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 152.15,
+      "output_end_seconds": 162.15,
+      "source_start_seconds": 2090,
+      "source_end_seconds": 2100,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:21:10+00:00",
+      "utc_end_derived": "2026-10-08T20:21:20+00:00",
+      "nominal_20fps_timeline_start_index": 41800,
+      "nominal_20fps_timeline_end_index_exclusive": 42000,
+      "first_stored_frame_ordinal_at_or_after_start": 41798,
+      "stored_frame_end_ordinal_exclusive": 41998,
+      "effective_crop_source_xywh": [
+        630,
+        285,
+        596,
+        552
+      ]
+    },
+    {
+      "start": 2153,
+      "end": 2163,
+      "title": "Inspect six repaired metadata controls",
+      "caption": "Fresh selected event stacks resolve pricing.py line 17; a main-editor warning may remain.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 162.15,
+      "output_end_seconds": 172.15,
+      "source_start_seconds": 2153,
+      "source_end_seconds": 2163,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:22:13+00:00",
+      "utc_end_derived": "2026-10-08T20:22:23+00:00",
+      "nominal_20fps_timeline_start_index": 43060,
+      "nominal_20fps_timeline_end_index_exclusive": 43260,
+      "first_stored_frame_ordinal_at_or_after_start": 43058,
+      "stored_frame_end_ordinal_exclusive": 43258,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2170,
+      "end": 2180,
+      "title": "Inspect six repaired metadata controls",
+      "caption": "Fresh selected event stacks resolve pricing.py line 17; a main-editor warning may remain.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 172.15,
+      "output_end_seconds": 182.15,
+      "source_start_seconds": 2170,
+      "source_end_seconds": 2180,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:22:30+00:00",
+      "utc_end_derived": "2026-10-08T20:22:40+00:00",
+      "nominal_20fps_timeline_start_index": 43400,
+      "nominal_20fps_timeline_end_index_exclusive": 43600,
+      "first_stored_frame_ordinal_at_or_after_start": 43398,
+      "stored_frame_end_ordinal_exclusive": 43598,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2190,
+      "end": 2200,
+      "title": "Inspect six repaired metadata controls",
+      "caption": "Fresh selected event stacks resolve pricing.py line 17; a main-editor warning may remain.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 182.15,
+      "output_end_seconds": 192.15,
+      "source_start_seconds": 2190,
+      "source_end_seconds": 2200,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:22:50+00:00",
+      "utc_end_derived": "2026-10-08T20:23:00+00:00",
+      "nominal_20fps_timeline_start_index": 43800,
+      "nominal_20fps_timeline_end_index_exclusive": 44000,
+      "first_stored_frame_ordinal_at_or_after_start": 43798,
+      "stored_frame_end_ordinal_exclusive": 43998,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2300,
+      "end": 2307,
+      "title": "Browser failure and recovery attempts",
+      "caption": "Chromium error 9 / Aw Snap. This interruption does not establish a Datadog backend failure.",
+      "crop": [
+        275,
+        280,
+        800,
+        490
+      ],
+      "masks": [],
+      "browser_interruption": true,
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 192.15,
+      "output_end_seconds": 199.15,
+      "source_start_seconds": 2300,
+      "source_end_seconds": 2307,
+      "duration_seconds": 7,
+      "utc_start_derived": "2026-10-08T20:24:40+00:00",
+      "utc_end_derived": "2026-10-08T20:24:47+00:00",
+      "nominal_20fps_timeline_start_index": 46000,
+      "nominal_20fps_timeline_end_index_exclusive": 46140,
+      "first_stored_frame_ordinal_at_or_after_start": 45998,
+      "stored_frame_end_ordinal_exclusive": 46138,
+      "effective_crop_source_xywh": [
+        275,
+        280,
+        800,
+        490
+      ]
+    },
+    {
+      "start": 2767,
+      "end": 2780,
+      "title": "Inspect C1 and complex fixture source",
+      "caption": "Selected source and numeric controls remain visible. The complex probe is then disabled.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 199.15,
+      "output_end_seconds": 212.15,
+      "source_start_seconds": 2767,
+      "source_end_seconds": 2780,
+      "duration_seconds": 13,
+      "utc_start_derived": "2026-10-08T20:32:27+00:00",
+      "utc_end_derived": "2026-10-08T20:32:40+00:00",
+      "nominal_20fps_timeline_start_index": 55340,
+      "nominal_20fps_timeline_end_index_exclusive": 55600,
+      "first_stored_frame_ordinal_at_or_after_start": 55337,
+      "stored_frame_end_ordinal_exclusive": 55597,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 2960,
+      "end": 2972,
+      "title": "Observe events around the fixture restart",
+      "caption": "Restart timing needs the runtime receipt; continued UI events alone do not prove the process restart.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 212.15,
+      "output_end_seconds": 224.15,
+      "source_start_seconds": 2960,
+      "source_end_seconds": 2972,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T20:35:40+00:00",
+      "utc_end_derived": "2026-10-08T20:35:52+00:00",
+      "nominal_20fps_timeline_start_index": 59200,
+      "nominal_20fps_timeline_end_index_exclusive": 59440,
+      "first_stored_frame_ordinal_at_or_after_start": 59197,
+      "stored_frame_end_ordinal_exclusive": 59437,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3001,
+      "end": 3011,
+      "title": "Inspect the retained value capture",
+      "caption": "Selected stack shows the synthetic value control; private repository prefixes are masked.",
+      "crop": [
+        632,
+        315,
+        596,
+        530
+      ],
+      "masks": [
+        [
+          694,
+          366,
+          215,
+          24
+        ],
+        [
+          694,
+          777,
+          215,
+          26
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 224.15,
+      "output_end_seconds": 234.15,
+      "source_start_seconds": 3001,
+      "source_end_seconds": 3011,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:36:21+00:00",
+      "utc_end_derived": "2026-10-08T20:36:31+00:00",
+      "nominal_20fps_timeline_start_index": 60020,
+      "nominal_20fps_timeline_end_index_exclusive": 60220,
+      "first_stored_frame_ordinal_at_or_after_start": 60017,
+      "stored_frame_end_ordinal_exclusive": 60217,
+      "effective_crop_source_xywh": [
+        632,
+        315,
+        596,
+        530
+      ]
+    },
+    {
+      "start": 3382,
+      "end": 3392,
+      "title": "Inspect path-control captures and error",
+      "caption": "Alpha/beta captures and the Unicode-path application error are visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          523,
+          390,
+          47
+        ],
+        [
+          500,
+          817,
+          145,
+          55
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 234.15,
+      "output_end_seconds": 244.15,
+      "source_start_seconds": 3382,
+      "source_end_seconds": 3392,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:42:42+00:00",
+      "utc_end_derived": "2026-10-08T20:42:52+00:00",
+      "nominal_20fps_timeline_start_index": 67640,
+      "nominal_20fps_timeline_end_index_exclusive": 67840,
+      "first_stored_frame_ordinal_at_or_after_start": 67637,
+      "stored_frame_end_ordinal_exclusive": 67837,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3418,
+      "end": 3428,
+      "title": "Inspect path-control captures and error",
+      "caption": "Alpha/beta captures and the Unicode-path application error are visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          523,
+          390,
+          47
+        ],
+        [
+          500,
+          817,
+          145,
+          55
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 244.15,
+      "output_end_seconds": 254.15,
+      "source_start_seconds": 3418,
+      "source_end_seconds": 3428,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:43:18+00:00",
+      "utc_end_derived": "2026-10-08T20:43:28+00:00",
+      "nominal_20fps_timeline_start_index": 68360,
+      "nominal_20fps_timeline_end_index_exclusive": 68560,
+      "first_stored_frame_ordinal_at_or_after_start": 68357,
+      "stored_frame_end_ordinal_exclusive": 68557,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3490,
+      "end": 3500,
+      "title": "Inspect path-control captures and error",
+      "caption": "Alpha/beta captures and the Unicode-path application error are visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          523,
+          390,
+          47
+        ],
+        [
+          500,
+          817,
+          145,
+          55
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 254.15,
+      "output_end_seconds": 264.15,
+      "source_start_seconds": 3490,
+      "source_end_seconds": 3500,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:44:30+00:00",
+      "utc_end_derived": "2026-10-08T20:44:40+00:00",
+      "nominal_20fps_timeline_start_index": 69800,
+      "nominal_20fps_timeline_end_index_exclusive": 70000,
+      "first_stored_frame_ordinal_at_or_after_start": 69797,
+      "stored_frame_end_ordinal_exclusive": 69997,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3795,
+      "end": 3805,
+      "title": "Inspect captures during the nominal Agent window",
+      "caption": "Foreground captures continue. Planned Agent timing is not proof that an outage occurred.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          495,
+          690,
+          195,
+          100
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 264.15,
+      "output_end_seconds": 274.15,
+      "source_start_seconds": 3795,
+      "source_end_seconds": 3805,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:49:35+00:00",
+      "utc_end_derived": "2026-10-08T20:49:45+00:00",
+      "nominal_20fps_timeline_start_index": 75900,
+      "nominal_20fps_timeline_end_index_exclusive": 76100,
+      "first_stored_frame_ordinal_at_or_after_start": 75897,
+      "stored_frame_end_ordinal_exclusive": 76097,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 3920,
+      "end": 3930,
+      "title": "Inspect captures during the nominal Agent window",
+      "caption": "Foreground captures continue. Planned Agent timing is not proof that an outage occurred.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          495,
+          690,
+          195,
+          100
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 274.15,
+      "output_end_seconds": 284.15,
+      "source_start_seconds": 3920,
+      "source_end_seconds": 3930,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:51:40+00:00",
+      "utc_end_derived": "2026-10-08T20:51:50+00:00",
+      "nominal_20fps_timeline_start_index": 78400,
+      "nominal_20fps_timeline_end_index_exclusive": 78600,
+      "first_stored_frame_ordinal_at_or_after_start": 78397,
+      "stored_frame_end_ordinal_exclusive": 78597,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4015,
+      "end": 4027,
+      "title": "Inspect value source and variables",
+      "caption": "The selected stack shows value=2 and numeric_control=90002.",
+      "crop": [
+        632,
+        315,
+        596,
+        530
+      ],
+      "masks": [
+        [
+          694,
+          366,
+          215,
+          24
+        ],
+        [
+          694,
+          777,
+          215,
+          26
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 284.15,
+      "output_end_seconds": 296.15,
+      "source_start_seconds": 4015,
+      "source_end_seconds": 4027,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T20:53:15+00:00",
+      "utc_end_derived": "2026-10-08T20:53:27+00:00",
+      "nominal_20fps_timeline_start_index": 80300,
+      "nominal_20fps_timeline_end_index_exclusive": 80540,
+      "first_stored_frame_ordinal_at_or_after_start": 80297,
+      "stored_frame_end_ordinal_exclusive": 80537,
+      "effective_crop_source_xywh": [
+        632,
+        315,
+        596,
+        530
+      ]
+    },
+    {
+      "start": 4195,
+      "end": 4205,
+      "title": "Find the planned Agent stop",
+      "caption": "Search finds stop_agent in planned_phases. This is not an execution receipt.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          510,
+          740,
+          715,
+          45
+        ],
+        [
+          510,
+          840,
+          715,
+          40
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 296.15,
+      "output_end_seconds": 306.15,
+      "source_start_seconds": 4195,
+      "source_end_seconds": 4205,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T20:56:15+00:00",
+      "utc_end_derived": "2026-10-08T20:56:25+00:00",
+      "nominal_20fps_timeline_start_index": 83900,
+      "nominal_20fps_timeline_end_index_exclusive": 84100,
+      "first_stored_frame_ordinal_at_or_after_start": 83897,
+      "stored_frame_end_ordinal_exclusive": 84097,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4230,
+      "end": 4238,
+      "title": "Search for the Agent restoration",
+      "caption": "The foreground search shows restore_agent with 0/0 matches; actual lifecycle remains unverified.",
+      "crop": [
+        450,
+        200,
+        780,
+        680
+      ],
+      "masks": [
+        [
+          510,
+          820,
+          715,
+          45
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 306.15,
+      "output_end_seconds": 314.15,
+      "source_start_seconds": 4230,
+      "source_end_seconds": 4238,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T20:56:50+00:00",
+      "utc_end_derived": "2026-10-08T20:56:58+00:00",
+      "nominal_20fps_timeline_start_index": 84600,
+      "nominal_20fps_timeline_end_index_exclusive": 84760,
+      "first_stored_frame_ordinal_at_or_after_start": 84597,
+      "stored_frame_end_ordinal_exclusive": 84757,
+      "effective_crop_source_xywh": [
+        450,
+        200,
+        780,
+        680
+      ]
+    },
+    {
+      "start": 4385,
+      "end": 4405,
+      "title": "Switch the main editor revision",
+      "caption": "The editor offers C1/C2 revision selection; the source warning remains visible.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 314.15,
+      "output_end_seconds": 334.15,
+      "source_start_seconds": 4385,
+      "source_end_seconds": 4405,
+      "duration_seconds": 20,
+      "utc_start_derived": "2026-10-08T20:59:25+00:00",
+      "utc_end_derived": "2026-10-08T20:59:45+00:00",
+      "nominal_20fps_timeline_start_index": 87700,
+      "nominal_20fps_timeline_end_index_exclusive": 88100,
+      "first_stored_frame_ordinal_at_or_after_start": 87697,
+      "stored_frame_end_ordinal_exclusive": 88097,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4688,
+      "end": 4698,
+      "title": "Observe the nominal burst window",
+      "caption": "Before/after the planned burst time. Actual generator receipt and burst completion remain unverified.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          530,
+          435,
+          176
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 334.15,
+      "output_end_seconds": 344.15,
+      "source_start_seconds": 4688,
+      "source_end_seconds": 4698,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:04:28+00:00",
+      "utc_end_derived": "2026-10-08T21:04:38+00:00",
+      "nominal_20fps_timeline_start_index": 93760,
+      "nominal_20fps_timeline_end_index_exclusive": 93960,
+      "first_stored_frame_ordinal_at_or_after_start": 93757,
+      "stored_frame_end_ordinal_exclusive": 93957,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4703,
+      "end": 4713,
+      "title": "Observe the nominal burst window",
+      "caption": "Before/after the planned burst time. Actual generator receipt and burst completion remain unverified.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          530,
+          435,
+          176
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 344.15,
+      "output_end_seconds": 354.15,
+      "source_start_seconds": 4703,
+      "source_end_seconds": 4713,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:04:43+00:00",
+      "utc_end_derived": "2026-10-08T21:04:53+00:00",
+      "nominal_20fps_timeline_start_index": 94060,
+      "nominal_20fps_timeline_end_index_exclusive": 94260,
+      "first_stored_frame_ordinal_at_or_after_start": 94057,
+      "stored_frame_end_ordinal_exclusive": 94257,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4868,
+      "end": 4876.05,
+      "title": "Prepare the unsaved STALE_B draft",
+      "caption": "The dirty STALE_B log template is visible. No stale edit acceptance is implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 354.15,
+      "output_end_seconds": 362.2,
+      "source_start_seconds": 4868,
+      "source_end_seconds": 4876.05,
+      "duration_seconds": 8.05,
+      "utc_start_derived": "2026-10-08T21:07:28+00:00",
+      "utc_end_derived": "2026-10-08T21:07:36.050000+00:00",
+      "nominal_20fps_timeline_start_index": 97360,
+      "nominal_20fps_timeline_end_index_exclusive": 97521,
+      "first_stored_frame_ordinal_at_or_after_start": 97357,
+      "stored_frame_end_ordinal_exclusive": 97518,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4923.5,
+      "end": 4928.5,
+      "title": "Save value == 2 in the other tab",
+      "caption": "The other tab retains the original log template while its condition is changed and saved.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          250,
+          530,
+          435,
+          176
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 362.2,
+      "output_end_seconds": 367.2,
+      "source_start_seconds": 4923.5,
+      "source_end_seconds": 4928.5,
+      "duration_seconds": 5.0,
+      "utc_start_derived": "2026-10-08T21:08:23.500000+00:00",
+      "utc_end_derived": "2026-10-08T21:08:28.500000+00:00",
+      "nominal_20fps_timeline_start_index": 98470,
+      "nominal_20fps_timeline_end_index_exclusive": 98570,
+      "first_stored_frame_ordinal_at_or_after_start": 98467,
+      "stored_frame_end_ordinal_exclusive": 98567,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4928.5,
+      "end": 4947.5,
+      "title": "Stale editor resets after the other tab saves",
+      "caption": "STALE_B resets to the original template and value == 2; Apply is disabled. Reload is then checked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 367.2,
+      "output_end_seconds": 386.2,
+      "source_start_seconds": 4928.5,
+      "source_end_seconds": 4947.5,
+      "duration_seconds": 19.0,
+      "utc_start_derived": "2026-10-08T21:08:28.500000+00:00",
+      "utc_end_derived": "2026-10-08T21:08:47.500000+00:00",
+      "nominal_20fps_timeline_start_index": 98570,
+      "nominal_20fps_timeline_end_index_exclusive": 98950,
+      "first_stored_frame_ordinal_at_or_after_start": 98567,
+      "stored_frame_end_ordinal_exclusive": 98947,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 4966,
+      "end": 4980,
+      "title": "Stale editor resets after the other tab saves",
+      "caption": "STALE_B resets to the original template and value == 2; Apply is disabled. Reload is then checked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 386.2,
+      "output_end_seconds": 400.2,
+      "source_start_seconds": 4966,
+      "source_end_seconds": 4980,
+      "duration_seconds": 14,
+      "utc_start_derived": "2026-10-08T21:09:06+00:00",
+      "utc_end_derived": "2026-10-08T21:09:20+00:00",
+      "nominal_20fps_timeline_start_index": 99320,
+      "nominal_20fps_timeline_end_index_exclusive": 99600,
+      "first_stored_frame_ordinal_at_or_after_start": 99317,
+      "stored_frame_end_ordinal_exclusive": 99597,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5003.5,
+      "end": 5014,
+      "title": "Stale editor resets after the other tab saves",
+      "caption": "STALE_B resets to the original template and value == 2; Apply is disabled. Reload is then checked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 400.2,
+      "output_end_seconds": 410.7,
+      "source_start_seconds": 5003.5,
+      "source_end_seconds": 5014,
+      "duration_seconds": 10.5,
+      "utc_start_derived": "2026-10-08T21:09:43.500000+00:00",
+      "utc_end_derived": "2026-10-08T21:09:54+00:00",
+      "nominal_20fps_timeline_start_index": 100070,
+      "nominal_20fps_timeline_end_index_exclusive": 100280,
+      "first_stored_frame_ordinal_at_or_after_start": 100067,
+      "stored_frame_end_ordinal_exclusive": 100277,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5155,
+      "end": 5170,
+      "title": "Inspect long strings, Unicode and cyclic values",
+      "caption": "Synthetic complex values are expanded in the capture pane. No burst receipt is established.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 5378.9,
+          "end": 5379.4,
+          "rect": [
+            995,
+            300,
+            110,
+            50
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 410.7,
+      "output_end_seconds": 425.7,
+      "source_start_seconds": 5155,
+      "source_end_seconds": 5170,
+      "duration_seconds": 15,
+      "utc_start_derived": "2026-10-08T21:12:15+00:00",
+      "utc_end_derived": "2026-10-08T21:12:30+00:00",
+      "nominal_20fps_timeline_start_index": 103100,
+      "nominal_20fps_timeline_end_index_exclusive": 103400,
+      "first_stored_frame_ordinal_at_or_after_start": 103097,
+      "stored_frame_end_ordinal_exclusive": 103397,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5190,
+      "end": 5200,
+      "title": "Inspect long strings, Unicode and cyclic values",
+      "caption": "Synthetic complex values are expanded in the capture pane. No burst receipt is established.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 5378.9,
+          "end": 5379.4,
+          "rect": [
+            995,
+            300,
+            110,
+            50
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 425.7,
+      "output_end_seconds": 435.7,
+      "source_start_seconds": 5190,
+      "source_end_seconds": 5200,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:12:50+00:00",
+      "utc_end_derived": "2026-10-08T21:13:00+00:00",
+      "nominal_20fps_timeline_start_index": 103800,
+      "nominal_20fps_timeline_end_index_exclusive": 104000,
+      "first_stored_frame_ordinal_at_or_after_start": 103797,
+      "stored_frame_end_ordinal_exclusive": 103997,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5260,
+      "end": 5270,
+      "title": "Inspect long strings, Unicode and cyclic values",
+      "caption": "Synthetic complex values are expanded in the capture pane. No burst receipt is established.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 5378.9,
+          "end": 5379.4,
+          "rect": [
+            995,
+            300,
+            110,
+            50
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 435.7,
+      "output_end_seconds": 445.7,
+      "source_start_seconds": 5260,
+      "source_end_seconds": 5270,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:14:00+00:00",
+      "utc_end_derived": "2026-10-08T21:14:10+00:00",
+      "nominal_20fps_timeline_start_index": 105200,
+      "nominal_20fps_timeline_end_index_exclusive": 105400,
+      "first_stored_frame_ordinal_at_or_after_start": 105197,
+      "stored_frame_end_ordinal_exclusive": 105397,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5345,
+      "end": 5355,
+      "title": "Inspect long strings, Unicode and cyclic values",
+      "caption": "Synthetic complex values are expanded in the capture pane. No burst receipt is established.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 5378.9,
+          "end": 5379.4,
+          "rect": [
+            995,
+            300,
+            110,
+            50
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 445.7,
+      "output_end_seconds": 455.7,
+      "source_start_seconds": 5345,
+      "source_end_seconds": 5355,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:15:25+00:00",
+      "utc_end_derived": "2026-10-08T21:15:35+00:00",
+      "nominal_20fps_timeline_start_index": 106900,
+      "nominal_20fps_timeline_end_index_exclusive": 107100,
+      "first_stored_frame_ordinal_at_or_after_start": 106897,
+      "stored_frame_end_ordinal_exclusive": 107097,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5373,
+      "end": 5379.4,
+      "title": "Inspect long strings, Unicode and cyclic values",
+      "caption": "Synthetic complex values are expanded in the capture pane. No burst receipt is established.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 5378.9,
+          "end": 5379.4,
+          "rect": [
+            995,
+            300,
+            110,
+            50
+          ]
+        }
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 455.7,
+      "output_end_seconds": 462.1,
+      "source_start_seconds": 5373,
+      "source_end_seconds": 5379.4,
+      "duration_seconds": 6.4,
+      "utc_start_derived": "2026-10-08T21:15:53+00:00",
+      "utc_end_derived": "2026-10-08T21:15:59.400000+00:00",
+      "nominal_20fps_timeline_start_index": 107460,
+      "nominal_20fps_timeline_end_index_exclusive": 107588,
+      "first_stored_frame_ordinal_at_or_after_start": 107457,
+      "stored_frame_end_ordinal_exclusive": 107585,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5379.4,
+      "end": 5390,
+      "title": "Stop the grouped session",
+      "caption": "INACTIVE appears after the stop action; retained captures remain available.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 462.1,
+      "output_end_seconds": 472.7,
+      "source_start_seconds": 5379.4,
+      "source_end_seconds": 5390,
+      "duration_seconds": 10.6,
+      "utc_start_derived": "2026-10-08T21:15:59.400000+00:00",
+      "utc_end_derived": "2026-10-08T21:16:10+00:00",
+      "nominal_20fps_timeline_start_index": 107588,
+      "nominal_20fps_timeline_end_index_exclusive": 107800,
+      "first_stored_frame_ordinal_at_or_after_start": 107585,
+      "stored_frame_end_ordinal_exclusive": 107797,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5490,
+      "end": 5500,
+      "title": "Review the inactive session inventory",
+      "caption": "The list shows 7 total, 0 active and 7 inactive sessions. Identities are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          270,
+          545,
+          660,
+          335
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 472.7,
+      "output_end_seconds": 482.7,
+      "source_start_seconds": 5490,
+      "source_end_seconds": 5500,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:17:50+00:00",
+      "utc_end_derived": "2026-10-08T21:18:00+00:00",
+      "nominal_20fps_timeline_start_index": 109800,
+      "nominal_20fps_timeline_end_index_exclusive": 110000,
+      "first_stored_frame_ordinal_at_or_after_start": 109797,
+      "stored_frame_end_ordinal_exclusive": 109997,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    },
+    {
+      "start": 5680,
+      "end": 5695,
+      "title": "Inspect the completed provider workflow",
+      "caption": "GitHub reports Success and 1h30m57s duration. This is workflow status, not overall QA PASS.",
+      "crop": [
+        435,
+        240,
+        798,
+        648
+      ],
+      "masks": [
+        [
+          450,
+          280,
+          505,
+          183
+        ],
+        [
+          465,
+          813,
+          290,
+          52
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 482.7,
+      "output_end_seconds": 497.7,
+      "source_start_seconds": 5680,
+      "source_end_seconds": 5695,
+      "duration_seconds": 15,
+      "utc_start_derived": "2026-10-08T21:21:00+00:00",
+      "utc_end_derived": "2026-10-08T21:21:15+00:00",
+      "nominal_20fps_timeline_start_index": 113600,
+      "nominal_20fps_timeline_end_index_exclusive": 113900,
+      "first_stored_frame_ordinal_at_or_after_start": 113592,
+      "stored_frame_end_ordinal_exclusive": 113892,
+      "effective_crop_source_xywh": [
+        435,
+        240,
+        798,
+        648
+      ]
+    },
+    {
+      "start": 6100,
+      "end": 6110,
+      "title": "Inspect final workflow cleanup steps",
+      "caption": "Provider cleanup and artifact-upload steps are shown; no additional product conclusion is implied.",
+      "crop": [
+        435,
+        380,
+        798,
+        548
+      ],
+      "masks": [],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 497.7,
+      "output_end_seconds": 507.7,
+      "source_start_seconds": 6100,
+      "source_end_seconds": 6110,
+      "duration_seconds": 10,
+      "utc_start_derived": "2026-10-08T21:28:00+00:00",
+      "utc_end_derived": "2026-10-08T21:28:10+00:00",
+      "nominal_20fps_timeline_start_index": 122000,
+      "nominal_20fps_timeline_end_index_exclusive": 122200,
+      "first_stored_frame_ordinal_at_or_after_start": 121992,
+      "stored_frame_end_ordinal_exclusive": 122192,
+      "effective_crop_source_xywh": [
+        435,
+        380,
+        798,
+        548
+      ]
+    },
+    {
+      "start": 6115,
+      "end": 6123,
+      "title": "Verify the final inactive session inventory",
+      "caption": "The final inventory and page reload are retained; session identities are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          270,
+          545,
+          660,
+          335
+        ]
+      ],
+      "output_file": "coverage-controls-highlights.mp4",
+      "output_start_seconds": 507.7,
+      "output_end_seconds": 515.7,
+      "source_start_seconds": 6115,
+      "source_end_seconds": 6123,
+      "duration_seconds": 8,
+      "utc_start_derived": "2026-10-08T21:28:15+00:00",
+      "utc_end_derived": "2026-10-08T21:28:23+00:00",
+      "nominal_20fps_timeline_start_index": 122300,
+      "nominal_20fps_timeline_end_index_exclusive": 122460,
+      "first_stored_frame_ordinal_at_or_after_start": 122292,
+      "stored_frame_end_ordinal_exclusive": 122452,
+      "effective_crop_source_xywh": [
+        250,
+        300,
+        1020,
+        580
+      ]
+    }
+  ],
+  "evidence_limits": [
+    "Only genuine foreground motion from source 17 is used. Edits add opaque masks, native-scale crops, padding, explanatory text and chapter cuts. There are no inserted stills, reconstructed UI, synthesized motion or speed changes.",
+    "The full source timeline is partitioned into retained and explicitly omitted intervals. The archive preserves all footage judged usable in this review. Identifying metadata-only views, private navigation, download-history screens and conservative transition margins are omitted. The highlight reel is selective.",
+    "Work interruptions were reported for 19:57:30\u201319:59:16 and 20:27:43\u201320:30:08 UTC. The video also contains idle/tool waits and browser failures. The source duration must not be described as uninterrupted active testing.",
+    "Chromium error 9 / Aw Snap and reload attempts around 20:24:30\u201320:27:14 UTC are browser-interruption evidence, not proof of a Datadog backend outage. An earlier browser error/reload is also retained where safe.",
+    "This source contains active foreground QA throughout most of the recorded window; source 16\u2019s late settled-page limitation does not apply wholesale. Only the actual captured foreground is shown; no background/direct-still evidence has been substituted.",
+    "C1 baseline, C2 shifted-line capture, six repaired selected event stacks and editor revision warnings are visible. The main editor and selected event stack can differ. These clips do not by themselves establish complete test-case passes or eliminate outstanding attribution/cleanup requirements.",
+    "The production-label draft was not submitted. Its blocked and cancelled state provides no result for that control.",
+    "Fixture restart and later capture recovery require correlation with runtime receipts. Nominal Agent-outage and burst windows, and planned_phases/stop_agent/tiny_burst declarations in provider logs, do not establish actual execution. No Agent-outage or burst PASS is asserted.",
+    "The F09 sequence shows another tab\u2019s dirty draft resetting after a remote save. It does not establish that the stale write was accepted or that a hidden backend overwrite occurred.",
+    "Unicode/cycle/empty-container observations show the captured interactions only. They do not establish a complete truncation, search/collapse or cycle-termination matrix. The Unicode-path installation error has a known direct-loader fixture confound.",
+    "INACTIVE/DISABLED states and retained historical captures are UI evidence. GitHub Success is provider-workflow status. Neither alone proves the contents of every runtime-stage or owned-process cleanup receipt.",
+    "Browser tabs, full URLs/parameters, account/avatar/session/service identities, private repository URLs, telemetry identifiers and repository-prefix values are cropped or opaque-masked. Broad masks intentionally hide adjacent ordinary UI. Synthetic revision SHAs may remain as technical evidence.",
+    "UTC labels are derived from the recorder start. Provider clocks, UI event-list display times and SDK execution timestamps are distinct evidence types. The source has four timestamp gaps above the nominal 0.05-second step, with a maximum 0.20-second step; constant-20-fps output holds recorded frames across those gaps.",
+    "Privacy verification combines sampled original-pixel and scene-change review, dense boundary checks, independent review, encoded samples, sampled OCR and complete decoding. It is sampling-based and is not a guarantee of every source pixel. Every final MP4 is silent and below 20,000,000 bytes.",
+    "Preparation is local only. Only the flat publish-archive and publish-highlights files named in the allowlist are eligible deliverables. Raw video, private images/OCR, scripts, logs and other helper files are excluded."
+  ],
+  "review": {
+    "all_public_videos_decoded": true,
+    "ocr_sampled_frames": 852,
+    "scene_triggered_ocr_frames": 1140,
+    "scene_threshold": 0.005,
+    "unresolved_ocr_flags": 0,
+    "unresolved_scene_ocr_flags": 0,
+    "independent_review": {
+      "status": "complete_with_sampling_limits",
+      "scope": "Two independent temporal privacy reviewers; separate primary encoded visual, OCR and complete decode validation.",
+      "early_source_review": {
+        "range_seconds": [
+          0,
+          1500
+        ],
+        "masked_source_samples": 158,
+        "additional_final_scene_frames": 263,
+        "initial_and_later_exposure_fixes_verified": true
+      },
+      "middle_encoded_review": {
+        "clips": 23,
+        "encoded_endpoints": 46,
+        "encoded_scene_frames": 77,
+        "piece_hashes_match": true,
+        "durations_match": true
+      },
+      "late_review": {
+        "range_seconds": [
+          3000,
+          6141.8
+        ],
+        "sanitized_source_samples": 36,
+        "targeted_encoded_frames": 59,
+        "targeted_encoded_clips": 13,
+        "piece_hashes_match": true,
+        "focus": [
+          "modal identity/footer fades",
+          "F09 dirty draft then reset",
+          "disabled Apply",
+          "INACTIVE boundary",
+          "workflow Success and cleanup wording"
+        ]
+      },
+      "primary_encoded_review": {
+        "early_piece_samples": 87,
+        "late_piece_samples": 111,
+        "highlight_piece_samples": 141,
+        "additional_corrected_early_modal_and_replacement_highlight_samples": 9,
+        "reviewed_scene_false_positive_count": 6
+      },
+      "resolved_issue_categories": [
+        "Inactive header creator position",
+        "Provider streaming payload identity",
+        "Received-log trace band",
+        "Main editor repository selector",
+        "Modal opening service/header/footer identity",
+        "Service-selection dropdown identities",
+        "View More creator/modifier popup"
+      ],
+      "unresolved_issues": [],
+      "limitations": [
+        "Visual review is sampling-based, supplemented with full-rate scene detection and OCR. It is not every-pixel review.",
+        "Case-result and runtime-stage conclusions require the separate audit evidence; the edit makes no unverified Agent/burst PASS claim."
+      ]
+    },
+    "source_hash_unchanged": true,
+    "sampling_limits_apply": true
+  }
+}
