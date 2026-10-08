@@ -1,0 +1,97 @@
+{
+  "id": "259",
+  "source_filename": "259-coverage-mixed-session-stopped.jpg",
+  "source_sha256": "7e28acb108e3b48f220f1474f5c18ecbd5d0907b74d463872483dc7077ad3bf5",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "259-mixed-session-stopped-safe.png",
+  "safe_sha256": "75c0dcd7045f4a2d05d5b4f4b9e726cb5cfcea6812bb78699ae07cf85a124744",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        714,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        554,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session title"
+    },
+    {
+      "source_xyxy": [
+        909,
+        133,
+        1008,
+        168
+      ],
+      "output_xyxy": [
+        749,
+        0,
+        848,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator account and avatar"
+    },
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        85,
+        255,
+        116
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c4e1c9be706667c19c0bbbb3e3b37f9ea03777d6a96ca8861fc4fe03666247dd",
+  "safe_decoded_rgb_sha256": "fd896fe2a6e66c32bf8ed40928e601079d00223e5f5fbc5ea4877690c4d51fd8",
+  "verified_unchanged_pixels_outside_masks": 564398,
+  "source_unchanged": true,
+  "caption": "The mixed coverage session is INACTIVE. The two visible pricing.py logpoints, lines 17 and 24, are DISABLED, and the Events heading lists seven logpoints. The retained complex capture remains inspectable with at255, at256, at2880, and at300 strings displayed with ellipses and an empty list of size 0. All seven disabled children were checked separately; only two child states are visible. UI ellipses alone do not establish SDK truncation.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image.",
+    "Inactive session state does not establish workflow, runtime, or Agent shutdown."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

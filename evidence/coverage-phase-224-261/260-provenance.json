@@ -1,0 +1,117 @@
+{
+  "id": "260",
+  "source_filename": "260-coverage-metadata-probes-expired.jpg",
+  "source_sha256": "71cd5fdd8a9f1cd99cf493cd3f276c1f7f594d65b523896be6536ed0b0727b06",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "260-metadata-session-inactive-safe.png",
+  "safe_sha256": "c335114259de5388c3089332f76eb8665ba9b8965e29a08e629c06de97200d8e",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        714,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        554,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session title"
+    },
+    {
+      "source_xyxy": [
+        909,
+        133,
+        1008,
+        168
+      ],
+      "output_xyxy": [
+        749,
+        0,
+        848,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator account and avatar"
+    },
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        85,
+        255,
+        116
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        415,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        178,
+        255,
+        213
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "c1723942240b44a8f291402b8d5f4853b2bc40940c5d169df0a29c723ee4b353",
+  "safe_decoded_rgb_sha256": "8e5946109733ac38980900cdd23cabcaa4374cf60cb255812d78c078df499881",
+  "verified_unchanged_pixels_outside_masks": 555753,
+  "source_unchanged": true,
+  "caption": "The source-metadata session is INACTIVE and its Events heading lists nine logpoints. The visible older pricing.py line-17 control is DISABLED with 0 Instances. Retained source-control messages remain in the event list. The six repaired probes being EXPIRED and three older controls being DISABLED were checked separately; the six EXPIRED states are not visible in this frame.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image.",
+    "Inactive session state does not establish workflow, runtime, or Agent shutdown."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

@@ -1,0 +1,97 @@
+{
+  "id": "261",
+  "source_filename": "261-coverage-all-seven-sessions-inactive.jpg",
+  "source_sha256": "04e4d9820897c35da5ce744e2c5c3d43146905a978c022092c4f8604d606c99e",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "261-all-seven-sessions-inactive-safe.png",
+  "safe_sha256": "7620e1c4388529043dac44ff90023d615f7e244c2f369a56df0a88d9aaf652bc",
+  "safe_dimensions": [
+    992,
+    621
+  ],
+  "crop_source_xyxy": [
+    158,
+    126,
+    1150,
+    747
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        182,
+        383,
+        791,
+        465
+      ],
+      "output_xyxy": [
+        24,
+        257,
+        633,
+        339
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session, service, creator and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        182,
+        487,
+        799,
+        645
+      ],
+      "output_xyxy": [
+        24,
+        361,
+        641,
+        519
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session, service, creator and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        182,
+        678,
+        759,
+        743
+      ],
+      "output_xyxy": [
+        24,
+        552,
+        601,
+        617
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session, service, creator and avatar identities"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "2a63ec6d4588ff718038f797990fbc255a3a98e52c09906dbd3b647d5a1aa283",
+  "safe_decoded_rgb_sha256": "2dd02fb4cd3cf956f29b90177199182b87ea30ca28c8fafe672f63fb7a66f9c2",
+  "verified_unchanged_pixels_outside_masks": 431103,
+  "source_unchanged": true,
+  "caption": "The final Sessions List shows All 7, Active 0, and Inactive 7, with Services and Environments set to All, Created set to All time, and an empty search. The three visible cards are INACTIVE. My sessions was separately verified off; the pointer overlaps the toggle here. These totals establish session-list state, not workflow, runtime, or Agent shutdown.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image.",
+    "Only three of the seven session cards are visible."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

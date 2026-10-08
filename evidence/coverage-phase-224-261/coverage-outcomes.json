@@ -1,0 +1,95 @@
+{
+  "cutoff_utc": "2026-10-08T21:51:46.355Z",
+  "actual_stage_receipts": {
+    "source": "GitHub completed bounded step whitelisted printed status; native screenshots",
+    "observed_utc": "2026-10-08T21:44:14.419Z",
+    "repair_metadata": {
+      "started": "2026-10-08T20:19:39.089314Z",
+      "completed": "2026-10-08T20:19:47.215409Z"
+    },
+    "restart_fixture": {
+      "started": "2026-10-08T20:34:39.165902Z",
+      "completed": "2026-10-08T20:34:40.568984Z"
+    },
+    "stop_agent": {
+      "started": "2026-10-08T20:49:39.279613Z",
+      "completed": "2026-10-08T20:49:39.862471Z"
+    },
+    "restore_agent": {
+      "started": "2026-10-08T20:50:40.905469Z",
+      "completed": "2026-10-08T20:50:43.473731Z"
+    },
+    "start_c2": {
+      "started": "2026-10-08T20:14:38.440219Z",
+      "completed": "2026-10-08T20:14:41.182422Z"
+    },
+    "tiny_burst": {
+      "started": "2026-10-08T21:04:38.240349Z",
+      "completed": "2026-10-08T21:04:38.502620Z"
+    }
+  },
+  "actual_bounded_burst": {
+    "observed_utc": "2026-10-08T21:42:33.910Z",
+    "data_requests_attempted": 9,
+    "data_requests_succeeded": 9,
+    "elapsed_seconds": 0.26,
+    "health_before": true,
+    "health_after": true,
+    "maximum_data_requests": 9,
+    "skipped_for_failed_initial_health": false,
+    "capture_rate_or_count_not_asserted": true,
+    "source": "GitHub completed bounded step safe printed status, screenshot"
+  },
+  "source_repair": "All six original profile/probe identities preserved; corrected received A/C1 tags and exact selected-event source links observed. Main-editor automatic recovery remains a separate limitation.",
+  "revision_controls": {
+    "C1": {
+      "sha": "9fd3f277d9047dc8fc55d2b77ac8e375184a1453",
+      "line": 17,
+      "sdk_timestamp_ms": 1791491455057,
+      "unit_price": 1200,
+      "total": 3600
+    },
+    "C2": {
+      "sha": "2d38d91c9229ce7742b07cb219d1a667128b9d19",
+      "line": 24,
+      "sdk_timestamp_ms": 1791490737336,
+      "unit_price": 1300,
+      "total": 3900
+    }
+  },
+  "restart": {
+    "same_probe_verified": true,
+    "process_generation_changed": true,
+    "before_sdk_timestamp_ms": 1791491022452,
+    "after_sdk_timestamp_ms": 1791491713807,
+    "numeric_control": 90002,
+    "disabled_complex_stayed_disabled": true
+  },
+  "agent_recovery": {
+    "same_app_process_verified": true,
+    "after_restore_sdk_timestamp_ms": 1791492681893,
+    "numeric_control": 90002,
+    "offline_feedback": "No explicit offline indication observed during the verified outage; historical EVENTS RECEIVED remained."
+  },
+  "cleanup": {
+    "terminal_observed_utc": "2026-10-08T21:20:54Z",
+    "duration": "1h 30m 57s",
+    "result": "SUCCESS",
+    "owned_cleanup": "Owned coverage runtime cleanup completed.",
+    "post_terminal_inventory_utc": "2026-10-08T21:28:36Z",
+    "all": 7,
+    "active": 0,
+    "inactive": 7,
+    "my_sessions": false,
+    "coverage_probes_disabled": 7,
+    "source_repair_probes_expired": 6,
+    "source_session_older_probes_disabled": 3
+  },
+  "limits": [
+    "Production-labeled synthetic probe never created; explicit approval pending.",
+    "Unicode path failure is a loader/module-map test-harness confound also reproduced with ASCII; no Unicode product bug.",
+    "Underlying received string-truncation flags are unverified; four cycle expansions do not prove a termination bound.",
+    "F09 accepted stale saved-write branch was not executed.",
+    "Rapid navigation has correct settled identities but transient prior content; no atomic-every-frame guarantee."
+  ]
+}

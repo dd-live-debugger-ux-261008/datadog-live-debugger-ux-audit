@@ -1,0 +1,1 @@
+Before the nominal Agent outage, the selected COVERAGE_VALUE capture visibly contains value=2, bool_control=True, numeric_control=90002, and text_control="synthetic-value-control". The event list continues to show fixture and path messages. Agent process state and exact stage timing are not shown in this still.

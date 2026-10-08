@@ -1,0 +1,56 @@
+{
+  "id": "251",
+  "source_filename": "251-coverage-agent-after-nominal-restore.jpg",
+  "source_sha256": "dc8d176f6923639ca1dec80aaf49b802a2861607bf4f70e3516b8ea1fc154216",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "251-after-nominal-agent-restore-safe.png",
+  "safe_sha256": "258b8adcc882b2f7e99e55ff5adc2cf9b8a90df8744a0965ca27e7fc51958c8a",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "cc09f00936670e16db8e9048af1ab52375bbdac3c23f39c5707f0731959081dc",
+  "safe_decoded_rgb_sha256": "23b30fc74401d39ef32aa9d6408c629a042aefde0f01fdcf5af3a1e533c943e3",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "After the nominal restore window, the event list includes COVERAGE_VALUE rows at 13:50:54.532, 13:50:51.891, and 13:50:49.523, plus later path-control rows. The upper UI reports approximately 157 captures. The right panel still shows the retained value=2/numeric=90002 capture; it is not visual proof of a newly selected restored-process payload. Exact Agent stage timing requires separate receipts.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

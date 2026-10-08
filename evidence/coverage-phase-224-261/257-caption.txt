@@ -1,0 +1,1 @@
+The retained complex capture visibly shows numeric_control=74001, shared as a dictionary of size 2, shared_leaf as a dictionary of size 1, and unicode_map as a dictionary of size 4. One expanded Unicode entry is visible: café maps to crème brûlée. Other Unicode entries and duplicate leaf values are outside this viewport; their values cannot be inferred from this image.

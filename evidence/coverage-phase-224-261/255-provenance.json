@@ -1,0 +1,76 @@
+{
+  "id": "255",
+  "source_filename": "255-coverage-burst-after-nominal-burst.jpg",
+  "source_sha256": "53bfa24e47ce2227bfc8bd9c1ce10fcbef37d297a390f8d507a2627f49b5d6be",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "255-after-nominal-burst-safe.png",
+  "safe_sha256": "d6f0d7fd8c8c95aee5dfb7443b17579bb96224fe5ef6a1ee65cee711cb698ab2",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        366,
+        415,
+        400
+      ],
+      "output_xyxy": [
+        8,
+        194,
+        255,
+        228
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "d357999e74d6bdc0baf8a4f86fcaf8f4968e777449fb0ed9f82d4edc97c840f7",
+  "safe_decoded_rgb_sha256": "95991f9c12166ef2d64880459395e576302be090cf10e1558d5dca74af2e0c46",
+  "verified_unchanged_pixels_outside_masks": 532705,
+  "source_unchanged": true,
+  "caption": "After the nominal burst window, the visible event list includes COVERAGE_VALUE value=4 at 14:04:43.060 and value=2 at 14:04:38.887 and 14:04:37.235; the upper UI reports approximately 27 captures. The selected retained log message remains value=2 numeric=90002. Actual burst receipts are needed before claiming a burst occurred or evaluating sampling or loss.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

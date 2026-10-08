@@ -1,0 +1,56 @@
+{
+  "id": "250",
+  "source_filename": "250-coverage-agent-during-nominal-outage.jpg",
+  "source_sha256": "ae54bb01df79c00b4f978c9e7e66cec5f318a294f945efd5403771b0b927b39a",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "250-during-nominal-agent-outage-safe.png",
+  "safe_sha256": "51857b7d7b9618cf6691692563b7bfc9bf482064f702c158b0a8d43f160487b6",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "bf8203cece864478a18cea09a46b347d8df0cf4a562043ea1e0cfaa286e04c44",
+  "safe_decoded_rgb_sha256": "7465421082e8a35a9adae473b1edf64978035f6c807fb8dce30f9a2ff9e5bad9",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "During the nominal outage window, the visible latest COVERAGE_VALUE rows are at 13:49:40.078 and 13:49:38.037, and the upper UI reports approximately 156 captured events. The retained value=2/numeric=90002 panel remains open. This still does not establish that the Agent was stopped; actual stage receipts are required. The separately recorded observation time is 20:50:23.733 UTC.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

@@ -1,0 +1,2788 @@
+{
+  "schema_version": 1,
+  "title": "Coverage-phase direct screenshot evidence",
+  "evidence_medium": "Direct screenshots only; no continuous foreground-video claim.",
+  "geometry_convention": "Zero-based half-open integer [left, top, right, bottom) crops and solid opaque masks only. No scaling, blur, UI reconstruction, or annotation.",
+  "interpretation_limits": [
+    "No new finding is claimed by this pack.",
+    "Agent outage and burst labels are nominal until separate actual stage receipts establish the timing.",
+    "Workflow SUCCESS is not evidence that a test case succeeded.",
+    "No production-labeled probe was authorized or created; the denied draft is not a product outcome.",
+    "The Unicode-path installation error has a direct-loader/SDK-module-map confound reproduced on an ASCII control; no Unicode defect is claimed.",
+    "The F09 stale save was not accepted; the known dirty-draft loss repeated.",
+    "Screenshot 223 is an unsent draft and screenshot 241 is a cloud-browser error; both are excluded."
+  ],
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "94ff80ae9f0cdf99c9272e203f12a9ed1c815ec65aa514c6f05bb38772420591",
+    "batch_definition_sha256": "219b83951ad5da9f47add505ce1d5c1193d9ddc3ea76820f519c3cc590a05934",
+    "format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "browser_access": false,
+    "external_publication": false
+  },
+  "images": [
+    {
+      "id": "222",
+      "source_filename": "222-coverage-traffic-clock.jpg",
+      "source_sha256": "392f2b3630e8339db75c4931948df5d09b47498297c9333b4c4d02e7c47e2918",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "222-traffic-start-clock-safe.png",
+      "safe_sha256": "86c103e8ee3b0c2363af86c367d7b91315850eb81ba6b58f0c16269c39f76b6b",
+      "safe_dimensions": [
+        754,
+        145
+      ],
+      "crop_source_xyxy": [
+        356,
+        299,
+        1110,
+        444
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "3395b6b6a60bf971cc43ddaabbaa41dd85626f38895ed4a84034f6b4cd1785e0",
+      "safe_decoded_rgb_sha256": "3395b6b6a60bf971cc43ddaabbaa41dd85626f38895ed4a84034f6b4cd1785e0",
+      "verified_unchanged_pixels_outside_masks": 109330,
+      "source_unchanged": true,
+      "caption": "The retained runtime log shows state \"running\", an empty stage_events array, synthetic_requests_sent 26, traffic_started_at 2026-10-08T19:49:38.239425+00:00, and updated_at 2026-10-08T19:50:09.275720+00:00. This establishes the displayed generator clock, not the completion of later stages or any test-case outcome.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image.",
+        "Runtime log screenshot; no Datadog capture payload is shown."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "224",
+      "source_filename": "224-coverage-real-c1-source-baseline.jpg",
+      "source_sha256": "5373674a22647db68a56dad20404629ceb711bd3d792cdb0c1e4f7935061706d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "224-real-c1-source-safe.png",
+      "safe_sha256": "44475a7b17938e549fa2121c1959df5b1ef1302efd76c368625662edbbc524ea",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9609216bb44ce32b25424c5226d2f0391834003020aa6ed4e6b30853cdef7576",
+      "safe_decoded_rgb_sha256": "2433d1cc6d1efae83e2e18df26719ecbeafbc2e3ccd46c0315e49466736147e6",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "The C1 baseline shows a pricing.py line-17 selected stack frame and rendered source. The selected COVERAGE_C1 event-list row displays quantity=3 and total=3600. The payload identity, exact linked SHA, and SDK execution time were inspected separately and are not visible here.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "225",
+      "source_filename": "225-coverage-before-repair-missing-metadata.jpg",
+      "source_sha256": "7845f1b47c73b3934020c59f85086ec09fa9f3f610f547a2250593f837f40ec5",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "225-before-repair-missing-metadata-safe.png",
+      "safe_sha256": "09669e077b64b64e19fbba43e2486598d0181cbb5c45f00869d92f4b7d61fb1f",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            238,
+            453,
+            268
+          ],
+          "output_xyxy": [
+            8,
+            66,
+            293,
+            96
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            330,
+            418,
+            354
+          ],
+          "output_xyxy": [
+            8,
+            158,
+            258,
+            182
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            698,
+            517,
+            1121,
+            549
+          ],
+          "output_xyxy": [
+            538,
+            345,
+            961,
+            377
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository selector"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b9926234054644b9b3cc2a8ebf3471d3a370db44a55082af5422a051a8eae73b",
+      "safe_decoded_rgb_sha256": "cbac573c907777acd40d543ba84e3c4cf6fd9173af00e81e29aa5a6dc7e9b95f",
+      "verified_unchanged_pixels_outside_masks": 520674,
+      "source_unchanged": true,
+      "caption": "Before repair, SOURCE_MISSING_META has a selected event-list message quantity=3 total=3600. Its stack panel says Datadog used the latest commit of the default branch to associate telemetry and source code, with rendered pricing.py source below. The private repository selector is masked. The fallback revision was checked separately and is not printed here.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "226",
+      "source_filename": "226-coverage-before-repair-missing-sha.jpg",
+      "source_sha256": "e762bf4b6ce694ae1d024a4184da4b767d089926b81ab452bb515e0f6d973953",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "226-before-repair-missing-sha-safe.png",
+      "safe_sha256": "a26b9153081e5838cbed1562d287268e2d75a6168ef7ce9852460a8a576f9535",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            238,
+            453,
+            268
+          ],
+          "output_xyxy": [
+            8,
+            66,
+            293,
+            96
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            330,
+            418,
+            354
+          ],
+          "output_xyxy": [
+            8,
+            158,
+            258,
+            182
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "dea7d3b8e6aea825b9362724fb1f5a8442d14b07f32b745226395e06f24f83dd",
+      "safe_decoded_rgb_sha256": "db74025a702d59e45d7c952254a76e07314e8b7d00c668ddc000bc6c6e7d96c0",
+      "verified_unchanged_pixels_outside_masks": 534210,
+      "source_unchanged": true,
+      "caption": "Before repair, SOURCE_MISSING_SHA displays \"Using latest commit\" and says Datadog used the repository default branch. A pricing.py line-17 source frame is rendered. The selected row shows quantity=3; its right end is clipped by the split pane. The received-tag omission and exact fallback revision require separate retained evidence.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "227",
+      "source_filename": "227-coverage-before-repair-invalid-sha.jpg",
+      "source_sha256": "06bfeb7f52228f4303fe0a4b45a13bdcde7e0370cac8f4dcaeb257ae29277f91",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "227-before-repair-invalid-sha-safe.png",
+      "safe_sha256": "933d03fd55744db75d2c6f4455da48b493abebf90215963ee4a2de598ba143d8",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "bd8bd425305949e803cf6493a02484ee55ed9a95b393cfe8422a4e837b8a28a9",
+      "safe_decoded_rgb_sha256": "099c2bf50846b7c8d773ead5062a6b4876fe45aa93f3dab9fdc1e3e88c6393e4",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "Before repair, SOURCE_INVALID_SHA displays a specific missing-link diagnostic: the tagged SHA is invalid and must contain 40 hexadecimal characters. The visible tagged value is synthetic-invalid-sha. A quantity=3 capture value is visible. The upper main editor also shows a file-not-found warning.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "228",
+      "source_filename": "228-coverage-before-repair-nonexistent-sha.jpg",
+      "source_sha256": "66781b5f6f153dc37a29537285754faa76757e6ec934a02cf2262b60d35b63c8",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "228-before-repair-nonexistent-sha-safe.png",
+      "safe_sha256": "b835c5f43895d0fae106a4a54c23e12925726a3bed989f6df1c95f5aec9f1998",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            238,
+            453,
+            268
+          ],
+          "output_xyxy": [
+            8,
+            66,
+            293,
+            96
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            330,
+            418,
+            354
+          ],
+          "output_xyxy": [
+            8,
+            158,
+            258,
+            182
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "81eb4fc911990508e8e6197bcf6e5a876f56262c94de64709ddd1435e474e44b",
+      "safe_decoded_rgb_sha256": "080860d540cac730e14a1b0665d6386df680651acf0165cdf89eb0d081f06ebd",
+      "verified_unchanged_pixels_outside_masks": 534210,
+      "source_unchanged": true,
+      "caption": "Before repair, SOURCE_NONEXISTENT_SHA displays a generic \"Missing link to repository\" banner and an empty pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. The syntactically valid nonexistent 40-one SHA was verified in received tags separately; the generic message does not identify a root cause.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "229",
+      "source_filename": "229-coverage-before-repair-wrong-repo-b-sha.jpg",
+      "source_sha256": "eac33bc0249115bcf905ea9f7aa300c6207c69cdec1fc616aeb60e3000078613",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "229-before-repair-b-own-sha-safe.png",
+      "safe_sha256": "fd0fb3d5a177c658a8514ef9e9f6e9c2cb2211e9fd5ce00a6cbf7bbb4aff76ae",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            238,
+            453,
+            268
+          ],
+          "output_xyxy": [
+            8,
+            66,
+            293,
+            96
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            330,
+            418,
+            354
+          ],
+          "output_xyxy": [
+            8,
+            158,
+            258,
+            182
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c0f5cc5f268e89ea2a6078fb4266d3525481872f299cd9323161e33bd52755b1",
+      "safe_decoded_rgb_sha256": "9b1e1c6ab3c6d5e0cd32c99505c96b6233363c5415250c458c61738aa6b72a5a",
+      "verified_unchanged_pixels_outside_masks": 534210,
+      "source_unchanged": true,
+      "caption": "Before repair, the B-repository/own-revision control SOURCE_B_BSHA displays a generic missing-link banner and an empty pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. Repository scope and received revision were checked separately; this banner alone does not establish an access-denial cause.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "230",
+      "source_filename": "230-coverage-before-repair-wrong-repo-a-sha.jpg",
+      "source_sha256": "21edcb1a9a6125380fe48fc71e943a32104d4bbf63d58a62a2fd8bfecd0fc0a0",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "230-before-repair-b-a-sha-safe.png",
+      "safe_sha256": "7dcb0e8ddb76c2fe2854bb5dd1a3556b8b7a346807f7ba2ed86a53f40befff51",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            238,
+            453,
+            268
+          ],
+          "output_xyxy": [
+            8,
+            66,
+            293,
+            96
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            330,
+            418,
+            354
+          ],
+          "output_xyxy": [
+            8,
+            158,
+            258,
+            182
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "baf891b23392b14f70d7d9bf0600a9ad89f72ca4b60c73f3003c40600c2d95dd",
+      "safe_decoded_rgb_sha256": "8bad12c2320e3a14d82bbc2f7bc86e2c4787f4abd955d6e07febae0c64ff9609",
+      "verified_unchanged_pixels_outside_masks": 534210,
+      "source_unchanged": true,
+      "caption": "Before repair, the B-repository/A-revision control SOURCE_B_ASHA displays a generic missing-link banner and an empty selected pricing.py line-17 source frame. Captured quantity=3 and discount_cents=0 are visible. The upper editor retains source, which must not be mistaken for source resolved for the selected event.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "231",
+      "source_filename": "231-coverage-b-metadata-before-repair.jpg",
+      "source_sha256": "dd16d4862007dc639f8f6f0cbbdb955805b272a8a077651f7f8bafc51fa99939",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "231-before-repair-b-received-tags-safe.png",
+      "safe_sha256": "ac0d8667687affecae28f242d81575ac582d03a388496ba7e943fcf08d0dc8f4",
+      "safe_dimensions": [
+        546,
+        391
+      ],
+      "crop_source_xyxy": [
+        574,
+        306,
+        1120,
+        697
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            585,
+            517,
+            1099,
+            541
+          ],
+          "output_xyxy": [
+            11,
+            211,
+            525,
+            235
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime directory value"
+        },
+        {
+          "source_xyxy": [
+            585,
+            599,
+            1099,
+            624
+          ],
+          "output_xyxy": [
+            11,
+            293,
+            525,
+            318
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime working-directory value"
+        },
+        {
+          "source_xyxy": [
+            585,
+            652,
+            1099,
+            697
+          ],
+          "output_xyxy": [
+            11,
+            346,
+            525,
+            391
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository URL"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5e78cc2c8e5b393b3447b9bec96041d9c4a132e78ee0bed28efa502795b83751",
+      "safe_decoded_rgb_sha256": "6691b78b363caaa05a5c349fefa3fac5f84d72bb58f043170ec0932681b2a5c6",
+      "verified_unchanged_pixels_outside_masks": 165170,
+      "source_unchanged": true,
+      "caption": "The expanded received-tag panel shows 18 tags and git.commit.sha 00560ed97513a94426aec424052359d1f5f56085 for the B-repository/own-revision control. Private repository URL and runtime directory values are masked. The control attribution comes from the retained inspection; this cropped tag list alone does not identify the selected event or prove source resolution.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "232",
+      "source_filename": "232-coverage-c2-stage-completed.png",
+      "source_sha256": "20d8844f5b37aae0fdb895c0d8c652248aad53c14bb52ca95b1a64d5f61b0559",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "232-c2-stage-clock-safe.png",
+      "safe_sha256": "fc24463f13d73137066c4416d5b8eed921faec68f5bb5d126461b4aacfd4d4b9",
+      "safe_dimensions": [
+        766,
+        365
+      ],
+      "crop_source_xyxy": [
+        452,
+        260,
+        1218,
+        625
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "3db43106e8e11d7aaf29dc8975c4754733d9b68fdecb142d3a74bff23e3db847",
+      "safe_decoded_rgb_sha256": "3db43106e8e11d7aaf29dc8975c4754733d9b68fdecb142d3a74bff23e3db847",
+      "verified_unchanged_pixels_outside_masks": 279590,
+      "source_unchanged": true,
+      "caption": "The retained generator log displays start_c2 with state \"completed\" at 2026-10-08T20:14:41.182422+00:00 and elapsed_traffic_seconds 1502.943. Overall state remains \"running\" with synthetic_requests_sent 1249. This is a C2 generator-stage receipt, not proof of a successful Datadog test case or workflow completion.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image.",
+        "The source image is PNG. Browser chrome and raw URL are excluded by the crop."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "233",
+      "source_filename": "233-coverage-real-c2-source-control.jpg",
+      "source_sha256": "c3a1171939bca384b7c285c8a3309fe69cf17ddcf0a0676065ac82f951d2b1f2",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "233-real-c2-source-safe.png",
+      "safe_sha256": "d70f467eb2a8ace2db451ba153f2fbed1dc563c61b9a00c6244d672e078b2cbe",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c1e92da18fac5087950fd932ed933d18591490d2bad62f9db4430f9f47a75149",
+      "safe_decoded_rgb_sha256": "2e30b2b0c193e98a6b24b96e651dae0902bd0b3a75604cb72cd0a9a1ca627bae",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "The real C2 control shows pricing.py line 24 in the selected stack frame. The main editor warns that the file changed across selected commits and displays commit 2d38d91. A COVERAGE_C2 event-list row shows quantity=3 and total=3900. Payload version, exact revision, SDK time, and full value panel are outside this frame.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "234",
+      "source_filename": "234-coverage-after-repair-missing-metadata.jpg",
+      "source_sha256": "d745279f6b35ca739507fae5a2dd8018c9ff4ef2098ee1843f33014fbcd6d896",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "234-repaired-missing-metadata-source-safe.png",
+      "safe_sha256": "836f14406c5d243c119fa5abef8b71bc6421eb696cf5d675e6612572bd1ce91c",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "99b3c6ea1be15d67dd6b315856d6421854d5f70d6441cfaf3f6594fea89a6e80",
+      "safe_decoded_rgb_sha256": "5fee57c94d3b01a8077fe5103c59f2ad48c034650f626596b8feb1be936539e8",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "After metadata repair, SOURCE_MISSING_META displays rendered source for pricing.py line 17. The event list includes a SOURCE_MISSING_META quantity=3 row; the right end of its message is clipped by the split pane. The selected total=3600 was separately inspected. The upper logpoint list shows an older disabled control with 0 Instances, distinct from the repaired event. Exact event metadata and repair timing require the separate retained inspection.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "235",
+      "source_filename": "235-coverage-after-repair-missing-sha.jpg",
+      "source_sha256": "00150cbb6c8ba5e908c4912dacce7fbc3219f7bc72a6f04d4bdd8f516b279b0b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "235-repaired-missing-sha-source-safe.png",
+      "safe_sha256": "6ba0ea1d0c8b86410b038b6778f0d2dd75b0363aa716b9783a0fa95dda59b568",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "d8025a0cc485f25d9c8d44d6cec981234a03eb2dd7699381d5671d6af68e135f",
+      "safe_decoded_rgb_sha256": "c30c3e8f0532775b2696a55ece392069befad5fba8192a7399a8f60a6f9e46cf",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "After repair, SOURCE_MISSING_SHA displays rendered pricing.py source in the selected line-17 stack frame. Its quantity=3 row is selected; the right end is clipped. The upper list includes older disabled controls. Exact repaired tags and selected total=3600 were inspected separately.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "236",
+      "source_filename": "236-coverage-after-repair-invalid-sha.jpg",
+      "source_sha256": "993c5646bf03d9254088e1c52ec4aac3c6486f3f625cc1457a6dca7a4a13b963",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "236-repaired-invalid-sha-source-safe.png",
+      "safe_sha256": "8c432660b51634d5d2d3f774e9928ab134ca07bab60564a20b6a94494f72e20c",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9aef4fd5b5a20e375be7e58ae86ae1ebd8db8a8762b29dece3eea20ed45c09ec",
+      "safe_decoded_rgb_sha256": "3ece0886e06724838e2d8068d69ef4c5cd9fe98d9ea211fbda6313bca54f0839",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "After repair, SOURCE_INVALID_SHA has a selected quantity=3 total=3600 event-list row and rendered pricing.py line-17 stack source. The upper main editor still shows a file-not-found warning. The event-specific stack source and main-editor banner are separate visible states; this image does not by itself establish whether or when the upper editor refreshed.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "237",
+      "source_filename": "237-coverage-after-repair-nonexistent-sha.jpg",
+      "source_sha256": "1c2c7fe054dc4701284908ee861adaf028f37210c61dd13eaf6e2ff035d7691f",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "237-repaired-nonexistent-sha-source-safe.png",
+      "safe_sha256": "895ea958d7e690e0b8ef1dcdcb7dc450c1615cff0ed1d98dacf3b531fdeabd4a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "45878ae313e14b37ebb2d444ea36af47034a1e7871656850439916b4d8468f26",
+      "safe_decoded_rgb_sha256": "cf8d1278637469be8f52cf09415bc09b6872402555ad2d2bb6de6ca9329d80dc",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "After repair, SOURCE_NONEXISTENT_SHA has a selected quantity=3 total=3600 row and rendered pricing.py line-17 stack source. The upper editor is visibly blank except for line 1. Exact repaired metadata and linked revision were inspected separately.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "238",
+      "source_filename": "238-coverage-after-repair-wrong-repo-b-sha.jpg",
+      "source_sha256": "1a2003d3518451beb020dac6f83bc991c939004dc1d2146145befb0ad94c9ad7",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "238-repaired-b-own-sha-source-safe.png",
+      "safe_sha256": "05180823c6659994a4576559a8758ec76e7abeeee6510d69b5c6b3837354170f",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b1e566082a3fb31ea945c7ef3739b8087a9616155f918b6790a018b42fead3a6",
+      "safe_decoded_rgb_sha256": "74d4aa8ad95ca06b4b6f921473847b120e7064d8f00ebf49c29fbb0329152736",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "After repair, SOURCE_B_BSHA has a selected quantity=3 total=3600 row and rendered pricing.py line-17 stack source. The upper editor retains its file-not-found warning. This is repaired event-specific source evidence; the previous repository identity and repaired tags require separate inspection.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "239",
+      "source_filename": "239-coverage-after-repair-wrong-repo-a-sha.jpg",
+      "source_sha256": "cba24d8d54dafe5fe906681f7914b08df64a25483adc8f8778657fb2b14184a3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "239-repaired-b-a-sha-source-safe.png",
+      "safe_sha256": "0f1d065d95da1ff637345e92292db8e326a8daa6955c589d23f526047e549025",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            139,
+            255,
+            174
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a8a72c3022f6d2125e911f2ddda9aab313a94ee6507d9aaf46f8448326da4e05",
+      "safe_decoded_rgb_sha256": "7c9edb0bad92cbf560e9e1cbdae1e9a68fd7534c615ff13c99b93f7e934d791e",
+      "verified_unchanged_pixels_outside_masks": 532458,
+      "source_unchanged": true,
+      "caption": "After repair, SOURCE_B_ASHA has a selected quantity=3 total=3600 row and rendered pricing.py line-17 stack source. The upper editor also shows source. The exact repaired received tags were checked separately and are not printed in this image.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "240",
+      "source_filename": "240-coverage-fixture-value-baseline.jpg",
+      "source_sha256": "600f81f21948a938bbc6b36a1c2ff095681fab46964301ae4d5b1e6bf88ef713",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "240-before-restart-value-safe.png",
+      "safe_sha256": "2aa7ac3c4a803f618340f3fcac605160f83bbacbd7a361781c6c7dea14dfc5e5",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "d25119cbeea8c8c15af2ec3943c649f4a898d988f65e76ab859d8ac644912c65",
+      "safe_decoded_rgb_sha256": "495dab6b4080c1c1bb4f90da4a4ba4c5d9531283b306881140711bbd920c4742",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "Before the planned fixture restart, a COVERAGE_VALUE row displays value=2 and numeric=90002. The selected value_control frame is qa_coverage_fixture.py line 49 and shows the synthetic calculation numeric_control = 90000 + value. Process identity and SDK snapshot timestamp were checked separately and are not pictured.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "242",
+      "source_filename": "242-coverage-complex-captured.jpg",
+      "source_sha256": "5ac28719c541009ad2385d89fa3557a398db090281a04c06b475d1eb72c4881d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "242-complex-source-captured-safe.png",
+      "safe_sha256": "dfdd3acc2b484d62d621a99bef6a161416d9f592b6f8d1f31ea538baf5307565",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "33fc7eb2f1fc7a7f8bd2bd40304087ad37941663e3037ffe146d8f494e5f394f",
+      "safe_decoded_rgb_sha256": "7fb3e0cabb72d912f5d1562f323d3033883cbf0304cbd1af32e58cfd0943dc5a",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "COVERAGE_COMPLEX numeric=74001 appears in the retained event list, and the selected complex_values frame renders qa_coverage_fixture.py line 81. The synthetic source defines a self-referencing dictionary and shared leaf. The value tree is below the visible frame, so this image is not proof of any expanded leaf, truncation limit, or cycle-depth behavior.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "243",
+      "source_filename": "243-coverage-active-and-disabled-before-restart.jpg",
+      "source_sha256": "63dcd6767b0afe52e3debfcd15867b71e4cd5f4734873f9e6153e94b74f092b9",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "243-before-restart-active-disabled-safe.png",
+      "safe_sha256": "932f08ab61345bd10feec8a56843a0bb35e1f18538244621f75885359bb3def5",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            211,
+            420,
+            234
+          ],
+          "output_xyxy": [
+            8,
+            39,
+            260,
+            62
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9da2466a3122fe555ff03f029237e68abd12143a1f05c301d50d7f0b35ef4b70",
+      "safe_decoded_rgb_sha256": "cf3251b47ed84e9c102bd50a6e6bf271958097aa4e3a79154072ef534c503b4d",
+      "verified_unchanged_pixels_outside_masks": 542964,
+      "source_unchanged": true,
+      "caption": "Before the planned fixture restart, the visible qa_coverage_fixture.py line-49 logpoint reports EVENTS RECEIVED and the line-81 complex logpoint is DISABLED. Retained COVERAGE_COMPLEX numeric=74001 remains in the event list and its source is still inspectable. This still records application state; it does not establish the restart time.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "244",
+      "source_filename": "244-coverage-fixture-after-restart.jpg",
+      "source_sha256": "e799ae2beead4287aa35d350446e080dbfb725b562238cb863d50df6ecb6e4d5",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "244-after-restart-value-safe.png",
+      "safe_sha256": "17033548632d06a173ba372f02b63415da45ebcb5425cfa370ba0fcc34bdcc28",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ae0965dbc5fb959e57ae449789a6a4a41a1a1025e4fbc78044f7eef4911644f8",
+      "safe_decoded_rgb_sha256": "54066c7864f025aab42de21f61e35f9eb82debc28ce410edf7618b45989fbc44",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "After the fixture restart observation, the selected COVERAGE_VALUE row again displays value=2 and numeric=90002 with a rendered qa_coverage_fixture.py line-49 source frame. The changed process identity and SDK snapshot time were checked separately; neither is visible here. This still alone does not establish a process restart.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "245",
+      "source_filename": "245-coverage-path-alpha.jpg",
+      "source_sha256": "8e7069026ebbecefa0c59fb5d3f93e210d1ffc30d35dbd10e291e73cef952328",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "245-path-alpha-safe.png",
+      "safe_sha256": "e003604563136d9b9fd9c1d281a080e69269cdc0b11d63b519e6af8a97dcb43e",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "6219d827be409e77a031f10366208c89e3ce397a34dfa6a1fb16d556bc734a58",
+      "safe_decoded_rgb_sha256": "f19379afc7630612114e2fe863e840ed7d7effdbb473249a71f06843491b7419",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "The alpha same-basename path control selects handler.py line 8. Its rendered source shows path_label = \"alpha\", numeric_marker = 11011, secondary_marker = 111, and QA_ANCHOR: path_alpha. The event list shows COVERAGE_ALPHA marker=11011. The full directory path is not printed in this viewport.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "246",
+      "source_filename": "246-coverage-path-beta.jpg",
+      "source_sha256": "8faa7be27c0aa49c3277bdef333b139563444e5ab55110c3537d65337750fe83",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "246-path-beta-safe.png",
+      "safe_sha256": "3994a733cb19d8879fdd367097fe6dc0d629ac0d85a374b1537284ad6ec5ff2d",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ec5398ece0aa19b7188ef1efa5a28b3f9cd83055580436335c4512042a3fb36e",
+      "safe_decoded_rgb_sha256": "02a95ad9421beba60a8cdb22beb2542dfc3769c3624b2e90dd6369b7becfe8b3",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "The beta same-basename path control selects handler.py line 8. Its rendered source shows path_label = \"beta\", numeric_marker = 22022, secondary_marker = 222, and QA_ANCHOR: path_beta. The event list shows COVERAGE_BETA marker=22022. The full directory path is not printed in this viewport.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "247",
+      "source_filename": "247-coverage-unicode-path-install-error.jpg",
+      "source_sha256": "9f9c431c32199ca41348a5b827f63eb3ae8d8c131b2b2ea851e9b013299be9c1",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "247-unicode-path-error-confounded-safe.png",
+      "safe_sha256": "2235f9a53c3245c7e2a88450d07829f736d37aac6caca9c2bbd25de79d7e849e",
+      "safe_dimensions": [
+        1036,
+        538
+      ],
+      "crop_source_xyxy": [
+        144,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            158,
+            349,
+            394,
+            392
+          ],
+          "output_xyxy": [
+            14,
+            177,
+            250,
+            220
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity in details"
+        },
+        {
+          "source_xyxy": [
+            432,
+            660,
+            530,
+            696
+          ],
+          "output_xyxy": [
+            288,
+            488,
+            386,
+            524
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator account and avatar"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f9bc86439aa4dfc6245e9ce8e2046b317ac1ff44d9937fc3eb934f9d88484e0d",
+      "safe_decoded_rgb_sha256": "85d20dab28a4fad879183483b766da30e98ed0bb506511ec01f6459077691a1b",
+      "verified_unchanged_pixels_outside_masks": 543692,
+      "source_unchanged": true,
+      "caption": "The Unicode-path control at \u6771\u4eac handler.py line 9 shows ERROR, 1 Instance, and No events. The details say one instance received configuration but did not apply it and advise checking whether target code is loaded. The visible synthetic directory is qa_paths/unicod\u00e9 space/. The selected event/source underneath is still the beta control. An independently reproduced ASCII direct-loader/SDK-module-map control establishes a confound; this is not a confirmed Unicode-path defect.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "248",
+      "source_filename": "248-coverage-before-agent-outage.jpg",
+      "source_sha256": "cc1ccfbe4388f9f389f1fe5665866b217c96968e20f55311e61325ccf6b76bd9",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "248-before-agent-outage-values-safe.png",
+      "safe_sha256": "04c84911b13387a37d4da6a1333d4a76c973be31de7eb35b81de279edff975c5",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "9fc8d70ae5e5716df727a2ff81500804dd87c33212ae45f5f6c2cfa586cc5826",
+      "safe_decoded_rgb_sha256": "dc0ef775a32abcea6778549b356e08df27a448a68258f6956dbe0b95118a0522",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "Before the nominal Agent outage, the selected COVERAGE_VALUE capture visibly contains value=2, bool_control=True, numeric_control=90002, and text_control=\"synthetic-value-control\". The event list continues to show fixture and path messages. Agent process state and exact stage timing are not shown in this still.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "249",
+      "source_filename": "249-coverage-agent-immediately-before.jpg",
+      "source_sha256": "c9f6748ef4f4567a8cd464b4b17fc46f7f0e6392670b8641ca9e0990a6e3e9e8",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "249-immediately-before-nominal-agent-outage-safe.png",
+      "safe_sha256": "a4e5a81732dafea3fd0a8c4ea6a3d8783c8a6b4b64fd0fcd236b26f4af563cc9",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4644acd06942c260729c45fd8f217b4578372ebedaaf6c8ed4bae935d13a9307",
+      "safe_decoded_rgb_sha256": "a41cf5d9eba93bb6bac5c69532fc5e23687159e1c9f436a1a260b700285642e8",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "Immediately before the nominal Agent outage, the event list shows COVERAGE_VALUE rows at displayed 13:49:08.570, 13:49:05.173, and 13:49:03.857; the upper UI reports approximately 152 captured events. A retained value=2/numeric=90002 capture remains visible. The observation was recorded separately at 20:49:24.182 UTC; that observation timestamp and Agent process state are not printed here.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "250",
+      "source_filename": "250-coverage-agent-during-nominal-outage.jpg",
+      "source_sha256": "ae54bb01df79c00b4f978c9e7e66cec5f318a294f945efd5403771b0b927b39a",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "250-during-nominal-agent-outage-safe.png",
+      "safe_sha256": "51857b7d7b9618cf6691692563b7bfc9bf482064f702c158b0a8d43f160487b6",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "bf8203cece864478a18cea09a46b347d8df0cf4a562043ea1e0cfaa286e04c44",
+      "safe_decoded_rgb_sha256": "7465421082e8a35a9adae473b1edf64978035f6c807fb8dce30f9a2ff9e5bad9",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "During the nominal outage window, the visible latest COVERAGE_VALUE rows are at 13:49:40.078 and 13:49:38.037, and the upper UI reports approximately 156 captured events. The retained value=2/numeric=90002 panel remains open. This still does not establish that the Agent was stopped; actual stage receipts are required. The separately recorded observation time is 20:50:23.733 UTC.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "251",
+      "source_filename": "251-coverage-agent-after-nominal-restore.jpg",
+      "source_sha256": "dc8d176f6923639ca1dec80aaf49b802a2861607bf4f70e3516b8ea1fc154216",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "251-after-nominal-agent-restore-safe.png",
+      "safe_sha256": "258b8adcc882b2f7e99e55ff5adc2cf9b8a90df8744a0965ca27e7fc51958c8a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "cc09f00936670e16db8e9048af1ab52375bbdac3c23f39c5707f0731959081dc",
+      "safe_decoded_rgb_sha256": "23b30fc74401d39ef32aa9d6408c629a042aefde0f01fdcf5af3a1e533c943e3",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "After the nominal restore window, the event list includes COVERAGE_VALUE rows at 13:50:54.532, 13:50:51.891, and 13:50:49.523, plus later path-control rows. The upper UI reports approximately 157 captures. The right panel still shows the retained value=2/numeric=90002 capture; it is not visual proof of a newly selected restored-process payload. Exact Agent stage timing requires separate receipts.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "252",
+      "source_filename": "252-coverage-main-editor-c2-selected.jpg",
+      "source_sha256": "2e85b27896b71adbff1101aa75a4112c17cb550ec2a545e78f0d495db7da0275",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "252-main-editor-c2-selection-safe.png",
+      "safe_sha256": "4125bebd8f201fe7f609bf1c0712e1256abca3e2cccf835dda7672659f8e4905",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            366,
+            415,
+            400
+          ],
+          "output_xyxy": [
+            8,
+            194,
+            255,
+            228
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c08278b78986858f51aecf38193148f4b4bb1437d52dcebab38abc739441920a",
+      "safe_decoded_rgb_sha256": "63fb7ac553507a33c93518a107ca220d4d4605a6a108232158aa1cfb287b4977",
+      "verified_unchanged_pixels_outside_masks": 532705,
+      "source_unchanged": true,
+      "caption": "The main editor is explicitly set to commit 2d38d91 and warns that the file changed across selected commits. It shows COVERAGE_C2 at pricing.py line 24. The visible child list includes pricing.py lines 17 and 24 plus an active value control and a DISABLED complex control. This editor choice is distinct from a snapshot-specific source revision.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "253",
+      "source_filename": "253-coverage-main-editor-c1-restored.jpg",
+      "source_sha256": "152bc59edbc60b6a930cca0be79f0583d6d38accf8bac18bcd4f61f4bba755a3",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "253-main-editor-c1-restored-safe.png",
+      "safe_sha256": "09b11e35dbfa4d73f9f78ed524a019e20e662931bb6fd7560fe1079eed8ef947",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            366,
+            415,
+            400
+          ],
+          "output_xyxy": [
+            8,
+            194,
+            255,
+            228
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "7fccee12019ccfbf59f584e503df419573762fc94b16680f856631356518ae45",
+      "safe_decoded_rgb_sha256": "19bbb04df69a2110186774f94eacda99e10037a537cc856d175babbba86452d6",
+      "verified_unchanged_pixels_outside_masks": 532705,
+      "source_unchanged": true,
+      "caption": "The main editor is restored to commit 9fd3f27 with COVERAGE_C1 at pricing.py line 17. The changed-across-commits notice remains visible. This demonstrates an explicit editor selection; it does not establish that the editor selection changes any retained snapshot identity.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "254",
+      "source_filename": "254-coverage-burst-before.jpg",
+      "source_sha256": "d5a6313cd7b96d09b499ea8d29cb4996f2c9395544088e63487c1332a1de9afa",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "254-before-nominal-burst-safe.png",
+      "safe_sha256": "9ff37aba3745061b3a58df78e897f1991c9cde359c537f9a1535d6bcd2f49f3e",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            366,
+            415,
+            400
+          ],
+          "output_xyxy": [
+            8,
+            194,
+            255,
+            228
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "6ba96a08b5e0d82badcb5546516d9d8a7a408c58611d3b99426d3f83c09dbce2",
+      "safe_decoded_rgb_sha256": "dcbaef414b9d6656a48d089f70e8c18175f658a12ae943b52394bb69e3e6a25d",
+      "verified_unchanged_pixels_outside_masks": 532705,
+      "source_unchanged": true,
+      "caption": "Before the nominal burst, the event list includes COVERAGE_VALUE values 4, 3, and 2 around displayed 14:03:33 to 14:03:28; the upper UI reports approximately 21 captures. The selected retained log message is value=2 numeric=90002. The separately recorded observation is 21:03:48.446 UTC. No burst throughput, sampling, or loss conclusion follows from this still.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "255",
+      "source_filename": "255-coverage-burst-after-nominal-burst.jpg",
+      "source_sha256": "53bfa24e47ce2227bfc8bd9c1ce10fcbef37d297a390f8d507a2627f49b5d6be",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "255-after-nominal-burst-safe.png",
+      "safe_sha256": "d6f0d7fd8c8c95aee5dfb7443b17579bb96224fe5ef6a1ee65cee711cb698ab2",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            366,
+            415,
+            400
+          ],
+          "output_xyxy": [
+            8,
+            194,
+            255,
+            228
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "d357999e74d6bdc0baf8a4f86fcaf8f4968e777449fb0ed9f82d4edc97c840f7",
+      "safe_decoded_rgb_sha256": "95991f9c12166ef2d64880459395e576302be090cf10e1558d5dca74af2e0c46",
+      "verified_unchanged_pixels_outside_masks": 532705,
+      "source_unchanged": true,
+      "caption": "After the nominal burst window, the visible event list includes COVERAGE_VALUE value=4 at 14:04:43.060 and value=2 at 14:04:38.887 and 14:04:37.235; the upper UI reports approximately 27 captures. The selected retained log message remains value=2 numeric=90002. Actual burst receipts are needed before claiming a burst occurred or evaluating sampling or loss.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "256",
+      "source_filename": "256-f09-stale-save-final-definition.jpg",
+      "source_sha256": "976a1a791b24486820401c3a61990c82e136d134fd0aac6d3025b74eb2021345",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "256-f09-final-definition-observation-safe.png",
+      "safe_sha256": "facd82c79ae8092292f2a6b5c87ee1f07491cc33ba630a9c657c5037f14c6e7b",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c3baf2cfe476ed5c15b617c9dda54f1209b85249c2cdac1a44748423b94340a3",
+      "safe_decoded_rgb_sha256": "368631dfa2635db1d8ff307fe043fa53ee839ffc719984a8e72e568793ba56dc",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "After the two-tab control, the main editor has a visibly truncated When value condition, and the retained capture is marked OUTDATED while showing value=2, bool_control=True, numeric_control=90002, and the original synthetic text control. Separate two-tab inspection established that value==2 and the original message survived both reloads, while the other dirty draft reset before Apply could save. No accepted stale-save overwrite is proven by this still.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "257",
+      "source_filename": "257-coverage-complex-expanded-values.jpg",
+      "source_sha256": "697c26439fc49993a8a93ff7e8887187be98f4e49b3aaa8f9adb5315e920ec01",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "257-complex-unicode-visible-value-safe.png",
+      "safe_sha256": "8d114a4bb52fb7e92a28ea30ac7ebc97462551a6a8e1752a8100d7b504af462d",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "2a3b98cde0c0dfc46ac122373bbb946b00293ae07803f0f6d69d1a3d231cabef",
+      "safe_decoded_rgb_sha256": "40031d0ba286b2618d750ef5c8d6bc1104402cd92836feafb3021a20737f51fe",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "The retained complex capture visibly shows numeric_control=74001, shared as a dictionary of size 2, shared_leaf as a dictionary of size 1, and unicode_map as a dictionary of size 4. One expanded Unicode entry is visible: caf\u00e9 maps to cr\u00e8me br\u00fbl\u00e9e. Other Unicode entries and duplicate leaf values are outside this viewport; their values cannot be inferred from this image.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "258",
+      "source_filename": "258-coverage-cycle-depth-and-duplicate-leaves.jpg",
+      "source_sha256": "1b28cd40d7e68baf7a007bbd8ad7c22c4b4c69ceb020445bac9eb60baf0f3dfb",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "258-complex-cycle-visible-expansion-safe.png",
+      "safe_sha256": "978a7a3fd91d94fa3e2ebebab88062260ce92137ed14e3709805808315b34c77",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            46,
+            255,
+            77
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "2a7ba83727a263a1fd6ccf9c398be3fd6250cdb42e2ff3abbb8fb3477014b7b1",
+      "safe_decoded_rgb_sha256": "8ea14cbbbe40f5238537c292e59f28e63c88a31bd3a31303b0edde7f07ed1419",
+      "verified_unchanged_pixels_outside_masks": 541103,
+      "source_unchanged": true,
+      "caption": "The retained complex capture shows a cycle expansion with label=\"synthetic-cycle\", number=73, and a self entry whose value is another dictionary of size 3. The view is clipped before deeper structure. Despite the original filename, duplicate leaves are not visible here. No full cycle-depth or SDK truncation claim is supported by this viewport alone.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "259",
+      "source_filename": "259-coverage-mixed-session-stopped.jpg",
+      "source_sha256": "7e28acb108e3b48f220f1474f5c18ecbd5d0907b74d463872483dc7077ad3bf5",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "259-mixed-session-stopped-safe.png",
+      "safe_sha256": "75c0dcd7045f4a2d05d5b4f4b9e726cb5cfcea6812bb78699ae07cf85a124744",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            714,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            554,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator account and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            255,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c4e1c9be706667c19c0bbbb3e3b37f9ea03777d6a96ca8861fc4fe03666247dd",
+      "safe_decoded_rgb_sha256": "fd896fe2a6e66c32bf8ed40928e601079d00223e5f5fbc5ea4877690c4d51fd8",
+      "verified_unchanged_pixels_outside_masks": 564398,
+      "source_unchanged": true,
+      "caption": "The mixed coverage session is INACTIVE. The two visible pricing.py logpoints, lines 17 and 24, are DISABLED, and the Events heading lists seven logpoints. The retained complex capture remains inspectable with at255, at256, at2880, and at300 strings displayed with ellipses and an empty list of size 0. All seven disabled children were checked separately; only two child states are visible. UI ellipses alone do not establish SDK truncation.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image.",
+        "Inactive session state does not establish workflow, runtime, or Agent shutdown."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "260",
+      "source_filename": "260-coverage-metadata-probes-expired.jpg",
+      "source_sha256": "71cd5fdd8a9f1cd99cf493cd3f276c1f7f594d65b523896be6536ed0b0727b06",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "260-metadata-session-inactive-safe.png",
+      "safe_sha256": "c335114259de5388c3089332f76eb8665ba9b8965e29a08e629c06de97200d8e",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            714,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            554,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator account and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            415,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            255,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            415,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            178,
+            255,
+            213
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "c1723942240b44a8f291402b8d5f4853b2bc40940c5d169df0a29c723ee4b353",
+      "safe_decoded_rgb_sha256": "8e5946109733ac38980900cdd23cabcaa4374cf60cb255812d78c078df499881",
+      "verified_unchanged_pixels_outside_masks": 555753,
+      "source_unchanged": true,
+      "caption": "The source-metadata session is INACTIVE and its Events heading lists nine logpoints. The visible older pricing.py line-17 control is DISABLED with 0 Instances. Retained source-control messages remain in the event list. The six repaired probes being EXPIRED and three older controls being DISABLED were checked separately; the six EXPIRED states are not visible in this frame.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image.",
+        "Inactive session state does not establish workflow, runtime, or Agent shutdown."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    },
+    {
+      "id": "261",
+      "source_filename": "261-coverage-all-seven-sessions-inactive.jpg",
+      "source_sha256": "04e4d9820897c35da5ce744e2c5c3d43146905a978c022092c4f8604d606c99e",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "261-all-seven-sessions-inactive-safe.png",
+      "safe_sha256": "7620e1c4388529043dac44ff90023d615f7e244c2f369a56df0a88d9aaf652bc",
+      "safe_dimensions": [
+        992,
+        621
+      ],
+      "crop_source_xyxy": [
+        158,
+        126,
+        1150,
+        747
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            182,
+            383,
+            791,
+            465
+          ],
+          "output_xyxy": [
+            24,
+            257,
+            633,
+            339
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session, service, creator and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            182,
+            487,
+            799,
+            645
+          ],
+          "output_xyxy": [
+            24,
+            361,
+            641,
+            519
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session, service, creator and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            182,
+            678,
+            759,
+            743
+          ],
+          "output_xyxy": [
+            24,
+            552,
+            601,
+            617
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session, service, creator and avatar identities"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "2a63ec6d4588ff718038f797990fbc255a3a98e52c09906dbd3b647d5a1aa283",
+      "safe_decoded_rgb_sha256": "2dd02fb4cd3cf956f29b90177199182b87ea30ca28c8fafe672f63fb7a66f9c2",
+      "verified_unchanged_pixels_outside_masks": 431103,
+      "source_unchanged": true,
+      "caption": "The final Sessions List shows All 7, Active 0, and Inactive 7, with Services and Environments set to All, Created set to All time, and an empty search. The three visible cards are INACTIVE. My sessions was separately verified off; the pointer overlaps the toggle here. These totals establish session-list state, not workflow, runtime, or Agent shutdown.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not proof of continuous foreground recording.",
+        "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+        "Values, identity fields, payload timestamps, and hyperlink destinations below or outside this viewport are not visual evidence in this image.",
+        "Only three of the seven session cards are visible."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+    }
+  ],
+  "public_file_allowlist": [
+    "222-caption.txt",
+    "222-provenance.json",
+    "222-traffic-start-clock-safe.png",
+    "224-caption.txt",
+    "224-provenance.json",
+    "224-real-c1-source-safe.png",
+    "225-before-repair-missing-metadata-safe.png",
+    "225-caption.txt",
+    "225-provenance.json",
+    "226-before-repair-missing-sha-safe.png",
+    "226-caption.txt",
+    "226-provenance.json",
+    "227-before-repair-invalid-sha-safe.png",
+    "227-caption.txt",
+    "227-provenance.json",
+    "228-before-repair-nonexistent-sha-safe.png",
+    "228-caption.txt",
+    "228-provenance.json",
+    "229-before-repair-b-own-sha-safe.png",
+    "229-caption.txt",
+    "229-provenance.json",
+    "230-before-repair-b-a-sha-safe.png",
+    "230-caption.txt",
+    "230-provenance.json",
+    "231-before-repair-b-received-tags-safe.png",
+    "231-caption.txt",
+    "231-provenance.json",
+    "232-c2-stage-clock-safe.png",
+    "232-caption.txt",
+    "232-provenance.json",
+    "233-caption.txt",
+    "233-provenance.json",
+    "233-real-c2-source-safe.png",
+    "234-caption.txt",
+    "234-provenance.json",
+    "234-repaired-missing-metadata-source-safe.png",
+    "235-caption.txt",
+    "235-provenance.json",
+    "235-repaired-missing-sha-source-safe.png",
+    "236-caption.txt",
+    "236-provenance.json",
+    "236-repaired-invalid-sha-source-safe.png",
+    "237-caption.txt",
+    "237-provenance.json",
+    "237-repaired-nonexistent-sha-source-safe.png",
+    "238-caption.txt",
+    "238-provenance.json",
+    "238-repaired-b-own-sha-source-safe.png",
+    "239-caption.txt",
+    "239-provenance.json",
+    "239-repaired-b-a-sha-source-safe.png",
+    "240-before-restart-value-safe.png",
+    "240-caption.txt",
+    "240-provenance.json",
+    "242-caption.txt",
+    "242-complex-source-captured-safe.png",
+    "242-provenance.json",
+    "243-before-restart-active-disabled-safe.png",
+    "243-caption.txt",
+    "243-provenance.json",
+    "244-after-restart-value-safe.png",
+    "244-caption.txt",
+    "244-provenance.json",
+    "245-caption.txt",
+    "245-path-alpha-safe.png",
+    "245-provenance.json",
+    "246-caption.txt",
+    "246-path-beta-safe.png",
+    "246-provenance.json",
+    "247-caption.txt",
+    "247-provenance.json",
+    "247-unicode-path-error-confounded-safe.png",
+    "248-before-agent-outage-values-safe.png",
+    "248-caption.txt",
+    "248-provenance.json",
+    "249-caption.txt",
+    "249-immediately-before-nominal-agent-outage-safe.png",
+    "249-provenance.json",
+    "250-caption.txt",
+    "250-during-nominal-agent-outage-safe.png",
+    "250-provenance.json",
+    "251-after-nominal-agent-restore-safe.png",
+    "251-caption.txt",
+    "251-provenance.json",
+    "252-caption.txt",
+    "252-main-editor-c2-selection-safe.png",
+    "252-provenance.json",
+    "253-caption.txt",
+    "253-main-editor-c1-restored-safe.png",
+    "253-provenance.json",
+    "254-before-nominal-burst-safe.png",
+    "254-caption.txt",
+    "254-provenance.json",
+    "255-after-nominal-burst-safe.png",
+    "255-caption.txt",
+    "255-provenance.json",
+    "256-caption.txt",
+    "256-f09-final-definition-observation-safe.png",
+    "256-provenance.json",
+    "257-caption.txt",
+    "257-complex-unicode-visible-value-safe.png",
+    "257-provenance.json",
+    "258-caption.txt",
+    "258-complex-cycle-visible-expansion-safe.png",
+    "258-provenance.json",
+    "259-caption.txt",
+    "259-mixed-session-stopped-safe.png",
+    "259-provenance.json",
+    "260-caption.txt",
+    "260-metadata-session-inactive-safe.png",
+    "260-provenance.json",
+    "261-all-seven-sessions-inactive-safe.png",
+    "261-caption.txt",
+    "261-provenance.json",
+    "ALLOWLIST.txt",
+    "SHA256SUMS",
+    "manifest.json"
+  ],
+  "quality_assurance": {
+    "visual_inspection": "All 38 safe outputs viewed at native geometry and checked for private identifiers, evidence legibility, and mask boundaries.",
+    "ocr": "Tesseract text reviewed; account, repository, runtime, URL, and UUID/correlation pattern leak scan found no matches. OCR is auxiliary and did not reconstruct content.",
+    "caption_review": "Visible fields and separately inspected facts are distinguished; event-list time is not substituted for SDK execution time.",
+    "exact_pixel_preservation_verified": true,
+    "unmasked_pixels_verified": 19282982,
+    "original_hashes_rechecked": 38,
+    "frozen": true,
+    "publication_status": "Prepared locally only. No browser or external publication."
+  }
+}

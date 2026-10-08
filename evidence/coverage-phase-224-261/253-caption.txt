@@ -1,0 +1,1 @@
+The main editor is restored to commit 9fd3f27 with COVERAGE_C1 at pricing.py line 17. The changed-across-commits notice remains visible. This demonstrates an explicit editor selection; it does not establish that the editor selection changes any retained snapshot identity.

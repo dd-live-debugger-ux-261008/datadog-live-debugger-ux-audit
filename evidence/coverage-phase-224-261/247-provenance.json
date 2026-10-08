@@ -1,0 +1,76 @@
+{
+  "id": "247",
+  "source_filename": "247-coverage-unicode-path-install-error.jpg",
+  "source_sha256": "9f9c431c32199ca41348a5b827f63eb3ae8d8c131b2b2ea851e9b013299be9c1",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "247-unicode-path-error-confounded-safe.png",
+  "safe_sha256": "2235f9a53c3245c7e2a88450d07829f736d37aac6caca9c2bbd25de79d7e849e",
+  "safe_dimensions": [
+    1036,
+    538
+  ],
+  "crop_source_xyxy": [
+    144,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        158,
+        349,
+        394,
+        392
+      ],
+      "output_xyxy": [
+        14,
+        177,
+        250,
+        220
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity in details"
+    },
+    {
+      "source_xyxy": [
+        432,
+        660,
+        530,
+        696
+      ],
+      "output_xyxy": [
+        288,
+        488,
+        386,
+        524
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator account and avatar"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "f9bc86439aa4dfc6245e9ce8e2046b317ac1ff44d9937fc3eb934f9d88484e0d",
+  "safe_decoded_rgb_sha256": "85d20dab28a4fad879183483b766da30e98ed0bb506511ec01f6459077691a1b",
+  "verified_unchanged_pixels_outside_masks": 543692,
+  "source_unchanged": true,
+  "caption": "The Unicode-path control at \u6771\u4eac handler.py line 9 shows ERROR, 1 Instance, and No events. The details say one instance received configuration but did not apply it and advise checking whether target code is loaded. The visible synthetic directory is qa_paths/unicod\u00e9 space/. The selected event/source underneath is still the beta control. An independently reproduced ASCII direct-loader/SDK-module-map control establishes a confound; this is not a confirmed Unicode-path defect.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

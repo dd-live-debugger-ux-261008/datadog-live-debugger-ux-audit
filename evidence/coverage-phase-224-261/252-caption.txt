@@ -1,0 +1,1 @@
+The main editor is explicitly set to commit 2d38d91 and warns that the file changed across selected commits. It shows COVERAGE_C2 at pricing.py line 24. The visible child list includes pricing.py lines 17 and 24 plus an active value control and a DISABLED complex control. This editor choice is distinct from a snapshot-specific source revision.

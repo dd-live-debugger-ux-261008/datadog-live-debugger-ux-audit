@@ -1,0 +1,56 @@
+{
+  "id": "257",
+  "source_filename": "257-coverage-complex-expanded-values.jpg",
+  "source_sha256": "697c26439fc49993a8a93ff7e8887187be98f4e49b3aaa8f9adb5315e920ec01",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "257-complex-unicode-visible-value-safe.png",
+  "safe_sha256": "8d114a4bb52fb7e92a28ea30ac7ebc97462551a6a8e1752a8100d7b504af462d",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "2a3b98cde0c0dfc46ac122373bbb946b00293ae07803f0f6d69d1a3d231cabef",
+  "safe_decoded_rgb_sha256": "40031d0ba286b2618d750ef5c8d6bc1104402cd92836feafb3021a20737f51fe",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "The retained complex capture visibly shows numeric_control=74001, shared as a dictionary of size 2, shared_leaf as a dictionary of size 1, and unicode_map as a dictionary of size 4. One expanded Unicode entry is visible: caf\u00e9 maps to cr\u00e8me br\u00fbl\u00e9e. Other Unicode entries and duplicate leaf values are outside this viewport; their values cannot be inferred from this image.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

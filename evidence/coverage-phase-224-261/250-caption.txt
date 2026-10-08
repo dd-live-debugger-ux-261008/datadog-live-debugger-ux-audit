@@ -1,0 +1,1 @@
+During the nominal outage window, the visible latest COVERAGE_VALUE rows are at 13:49:40.078 and 13:49:38.037, and the upper UI reports approximately 156 captured events. The retained value=2/numeric=90002 panel remains open. This still does not establish that the Agent was stopped; actual stage receipts are required. The separately recorded observation time is 20:50:23.733 UTC.

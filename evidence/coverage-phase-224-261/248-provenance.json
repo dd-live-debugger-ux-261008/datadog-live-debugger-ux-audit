@@ -1,0 +1,56 @@
+{
+  "id": "248",
+  "source_filename": "248-coverage-before-agent-outage.jpg",
+  "source_sha256": "cc1ccfbe4388f9f389f1fe5665866b217c96968e20f55311e61325ccf6b76bd9",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "248-before-agent-outage-values-safe.png",
+  "safe_sha256": "04c84911b13387a37d4da6a1333d4a76c973be31de7eb35b81de279edff975c5",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        218,
+        415,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        46,
+        255,
+        77
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "9fc8d70ae5e5716df727a2ff81500804dd87c33212ae45f5f6c2cfa586cc5826",
+  "safe_decoded_rgb_sha256": "dc0ef775a32abcea6778549b356e08df27a448a68258f6956dbe0b95118a0522",
+  "verified_unchanged_pixels_outside_masks": 541103,
+  "source_unchanged": true,
+  "caption": "Before the nominal Agent outage, the selected COVERAGE_VALUE capture visibly contains value=2, bool_control=True, numeric_control=90002, and text_control=\"synthetic-value-control\". The event list continues to show fixture and path messages. Agent process state and exact stage timing are not shown in this still.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not proof of continuous foreground recording.",
+    "Displayed event-list times are UI values, not independent SDK snapshot execution timestamps.",
+    "Payload identity fields, exact hyperlink destinations, and values below or outside this viewport are not visual evidence in this image."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false
+}

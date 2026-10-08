@@ -1,0 +1,1 @@
+After the nominal burst window, the visible event list includes COVERAGE_VALUE value=4 at 14:04:43.060 and value=2 at 14:04:38.887 and 14:04:37.235; the upper UI reports approximately 27 captures. The selected retained log message remains value=2 numeric=90002. Actual burst receipts are needed before claiming a burst occurred or evaluating sampling or loss.

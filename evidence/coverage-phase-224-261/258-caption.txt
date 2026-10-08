@@ -1,0 +1,1 @@
+The retained complex capture shows a cycle expansion with label="synthetic-cycle", number=73, and a self entry whose value is another dictionary of size 3. The view is clipped before deeper structure. Despite the original filename, duplicate leaves are not visible here. No full cycle-depth or SDK truncation claim is supported by this viewport alone.

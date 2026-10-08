@@ -1,0 +1,1 @@
+Before the nominal burst, the event list includes COVERAGE_VALUE values 4, 3, and 2 around displayed 14:03:33 to 14:03:28; the upper UI reports approximately 21 captures. The selected retained log message is value=2 numeric=90002. The separately recorded observation is 21:03:48.446 UTC. No burst throughput, sampling, or loss conclusion follows from this still.

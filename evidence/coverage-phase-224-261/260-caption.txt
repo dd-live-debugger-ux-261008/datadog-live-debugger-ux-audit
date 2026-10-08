@@ -1,0 +1,1 @@
+The source-metadata session is INACTIVE and its Events heading lists nine logpoints. The visible older pricing.py line-17 control is DISABLED with 0 Instances. Retained source-control messages remain in the event list. The six repaired probes being EXPIRED and three older controls being DISABLED were checked separately; the six EXPIRED states are not visible in this frame.

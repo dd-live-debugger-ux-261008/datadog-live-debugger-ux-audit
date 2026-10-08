@@ -1,0 +1,1 @@
+The final Sessions List shows All 7, Active 0, and Inactive 7, with Services and Environments set to All, Created set to All time, and an empty search. The three visible cards are INACTIVE. My sessions was separately verified off; the pointer overlaps the toggle here. These totals establish session-list state, not workflow, runtime, or Agent shutdown.
