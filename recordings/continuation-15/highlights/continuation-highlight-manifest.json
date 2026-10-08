@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "source": {
+    "label": "Recording source 15",
+    "duration_seconds": 8838.05,
+    "bytes": 124852083,
+    "sha256": "673b0007e3385c0af9d01f9856dfe6e13cb637d8c559dc74c459791aa029722f",
+    "utc_start": "2026-10-08T14:53:34+00:00",
+    "utc_end_derived": "2026-10-08T17:20:52.050000+00:00",
+    "recorder_stop_utc": "2026-10-08T17:20:52Z",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "nominal_fps": 20,
+    "stored_frame_count": 176604,
+    "timestamp_gap_count": 105,
+    "maximum_adjacent_timestamp_step_seconds": 0.4,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "source-setup-interruption-highlights.mp4",
+    "duration_seconds": 116.0,
+    "bytes": 590830,
+    "sha256": "634172b653c9fcdf86e4cfdfb327715caf3963acf2db83a96a7e3a60d857470a",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 900,
+      "r_frame_rate": "20/1",
+      "nb_frames": "2320"
+    },
+    "audio_tracks": 0,
+    "embedded_chapters": true,
+    "decode_verified": true
+  },
+  "chapters": [
+    {
+      "source_start_seconds": 551,
+      "source_end_seconds": 563,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T15:02:45+00:00",
+      "utc_end_derived": "2026-10-08T15:02:57+00:00",
+      "nominal_20fps_timeline_start_index": 11020,
+      "nominal_20fps_timeline_end_index_exclusive": 11260,
+      "first_stored_frame_ordinal_at_or_after_start": 10962,
+      "stored_frame_end_ordinal_exclusive": 11202,
+      "title": "Grouped runtime dispatch",
+      "caption": "The run uses a 90-minute duration; the submission control becomes disabled.",
+      "requested_crop_source_xywh": [
+        796,
+        225,
+        472,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        796,
+        225,
+        472,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          796,
+          225,
+          472,
+          86
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Drawer-only crop removes provider identity; selected branch is hidden.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 12
+    },
+    {
+      "source_start_seconds": 579,
+      "source_end_seconds": 591,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T15:03:13+00:00",
+      "utc_end_derived": "2026-10-08T15:03:25+00:00",
+      "nominal_20fps_timeline_start_index": 11580,
+      "nominal_20fps_timeline_end_index_exclusive": 11820,
+      "first_stored_frame_ordinal_at_or_after_start": 11522,
+      "stored_frame_end_ordinal_exclusive": 11762,
+      "title": "Provider 404 after dispatch",
+      "caption": "The provider displays a 404 page before the later In progress summary.",
+      "requested_crop_source_xywh": [
+        92,
+        276,
+        1180,
+        390
+      ],
+      "effective_crop_source_xywh": [
+        92,
+        276,
+        1180,
+        390
+      ],
+      "opaque_masks_source_xywh": [],
+      "additional_timed_masks_source": [],
+      "mask_note": "Public error illustration crop excludes account, repository and browser address bar.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 12,
+      "output_end_seconds": 24
+    },
+    {
+      "source_start_seconds": 607,
+      "source_end_seconds": 619,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T15:03:41+00:00",
+      "utc_end_derived": "2026-10-08T15:03:53+00:00",
+      "nominal_20fps_timeline_start_index": 12140,
+      "nominal_20fps_timeline_end_index_exclusive": 12380,
+      "first_stored_frame_ordinal_at_or_after_start": 12082,
+      "stored_frame_end_ordinal_exclusive": 12321,
+      "title": "Grouped run is In progress",
+      "caption": "The provider reports In progress; this status does not establish a debugger capture.",
+      "requested_crop_source_xywh": [
+        436,
+        381,
+        812,
+        408
+      ],
+      "effective_crop_source_xywh": [
+        436,
+        381,
+        812,
+        408
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          448,
+          398,
+          440,
+          63
+        ],
+        [
+          452,
+          568,
+          230,
+          42
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Triggering account, commit, branch and workflow filename hidden; provider status and generic job status retained.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 24,
+      "output_end_seconds": 36
+    },
+    {
+      "source_start_seconds": 685,
+      "source_end_seconds": 697,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T15:04:59+00:00",
+      "utc_end_derived": "2026-10-08T15:05:11+00:00",
+      "nominal_20fps_timeline_start_index": 13700,
+      "nominal_20fps_timeline_end_index_exclusive": 13940,
+      "first_stored_frame_ordinal_at_or_after_start": 13641,
+      "stored_frame_end_ordinal_exclusive": 13881,
+      "title": "Runner telemetry reports readiness",
+      "caption": "Runner telemetry shows trace_intake_ready and symbol_database_registered true in this sample.",
+      "requested_crop_source_xywh": [
+        450,
+        192,
+        780,
+        516
+      ],
+      "effective_crop_source_xywh": [
+        450,
+        192,
+        780,
+        516
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          518,
+          508,
+          712,
+          48
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Browser/account/repository context excluded by crop. Service and version identifier lines are opaque; ordinary metadata booleans, request count and runner timestamps remain.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 36,
+      "output_end_seconds": 48
+    },
+    {
+      "source_start_seconds": 985,
+      "source_end_seconds": 997,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T15:09:59+00:00",
+      "utc_end_derived": "2026-10-08T15:10:11+00:00",
+      "nominal_20fps_timeline_start_index": 19700,
+      "nominal_20fps_timeline_end_index_exclusive": 19940,
+      "first_stored_frame_ordinal_at_or_after_start": 19630,
+      "stored_frame_end_ordinal_exclusive": 19870,
+      "title": "Source-test setup reaches the debugger",
+      "caption": "A staged service is selected. Its identity is masked; this is setup, not a completed source-case result.",
+      "requested_crop_source_xywh": [
+        252,
+        296,
+        1000,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        296,
+        1000,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          370,
+          305,
+          385,
+          340
+        ],
+        [
+          252,
+          905,
+          1000,
+          19
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Service field and its entire open dropdown are opaque-masked; browser/account/sidebar are outside crop. Nearby ordinary product text is also hidden.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 48,
+      "output_end_seconds": 60
+    },
+    {
+      "source_start_seconds": 1106,
+      "source_end_seconds": 1124,
+      "duration_seconds": 18,
+      "utc_start_derived": "2026-10-08T15:12:00+00:00",
+      "utc_end_derived": "2026-10-08T15:12:18+00:00",
+      "nominal_20fps_timeline_start_index": 22120,
+      "nominal_20fps_timeline_end_index_exclusive": 22480,
+      "first_stored_frame_ordinal_at_or_after_start": 22050,
+      "stored_frame_end_ordinal_exclusive": 22410,
+      "title": "File-name draft remains incomplete",
+      "caption": "pricing.py is entered, but no line is supplied and Start Debug Session remains disabled.",
+      "requested_crop_source_xywh": [
+        136,
+        223,
+        1076,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        136,
+        223,
+        1076,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          152,
+          318,
+          422,
+          34
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity field hidden; browser, account and sidebar outside crop.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 60,
+      "output_end_seconds": 78
+    },
+    {
+      "source_start_seconds": 8480,
+      "source_end_seconds": 8492,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T17:14:54+00:00",
+      "utc_end_derived": "2026-10-08T17:15:06+00:00",
+      "nominal_20fps_timeline_start_index": 169600,
+      "nominal_20fps_timeline_end_index_exclusive": 169840,
+      "first_stored_frame_ordinal_at_or_after_start": 169444,
+      "stored_frame_end_ordinal_exclusive": 169684,
+      "title": "Same unsubmitted draft after the long idle gap",
+      "caption": "More than two hours separate the draft excerpts. Continued recording is not continuous active testing.",
+      "requested_crop_source_xywh": [
+        136,
+        223,
+        1076,
+        694
+      ],
+      "effective_crop_source_xywh": [
+        136,
+        223,
+        1076,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          152,
+          318,
+          422,
+          34
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Service identity field hidden; full original-time modal interval retained.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": true,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 78,
+      "output_end_seconds": 90
+    },
+    {
+      "source_start_seconds": 8755,
+      "source_end_seconds": 8767,
+      "duration_seconds": 12,
+      "utc_start_derived": "2026-10-08T17:19:29+00:00",
+      "utc_end_derived": "2026-10-08T17:19:41+00:00",
+      "nominal_20fps_timeline_start_index": 175100,
+      "nominal_20fps_timeline_end_index_exclusive": 175340,
+      "first_stored_frame_ordinal_at_or_after_start": 174943,
+      "stored_frame_end_ordinal_exclusive": 175183,
+      "title": "Debugger reopened after recovery",
+      "caption": "The entry page returns after browser recovery. No source-case pass or debugger capture is established.",
+      "requested_crop_source_xywh": [
+        252,
+        296,
+        1000,
+        628
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        296,
+        1000,
+        628
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          370,
+          305,
+          385,
+          340
+        ],
+        [
+          252,
+          905,
+          1000,
+          19
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Conservative service/dropdown mask retained; browser/account/sidebar cropped.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 90,
+      "output_end_seconds": 102
+    },
+    {
+      "source_start_seconds": 8810,
+      "source_end_seconds": 8824,
+      "duration_seconds": 14,
+      "utc_start_derived": "2026-10-08T17:20:24+00:00",
+      "utc_end_derived": "2026-10-08T17:20:38+00:00",
+      "nominal_20fps_timeline_start_index": 176200,
+      "nominal_20fps_timeline_end_index_exclusive": 176480,
+      "first_stored_frame_ordinal_at_or_after_start": 176043,
+      "stored_frame_end_ordinal_exclusive": 176323,
+      "title": "Filtered inventory: four inactive sessions",
+      "caption": "My sessions is ON. All 4, Active 0 and Inactive 4 describe this filtered view only.",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1000,
+        578
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1000,
+        578
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          268,
+          536,
+          665,
+          389
+        ],
+        [
+          252,
+          908,
+          1000,
+          17
+        ]
+      ],
+      "additional_timed_masks_source": [],
+      "mask_note": "Session, service, creator names and profile icons hidden; status/counts and My sessions toggle retained.",
+      "full_ui_crop_obscured": false,
+      "idle_archive": false,
+      "output_file": "source-setup-interruption-highlights.mp4",
+      "output_start_seconds": 102,
+      "output_end_seconds": 116
+    }
+  ],
+  "evidence_limits": [
+    "All UI motion comes from source 15. Only opaque privacy masks, native-scale crops, common padding, chapter titles and explanatory captions are added. No UI reconstruction, fabricated motion, inserted still image, or speed-up is used.",
+    "The source covers 147 minutes 18.05 seconds, but this is not 147 minutes of active testing. Raw seconds 1140\u20138500 (derived UTC 15:12:34\u201317:15:14) are 122 minutes 40 seconds of a nearly unchanged, unsubmitted file-name draft. The complete interval is retained in five explicitly labeled idle-archive videos. The highlight edit jumps across that gap.",
+    "The browser draft shows pricing.py in the file-name search, no chosen line and a disabled Start Debug Session button. It does not establish source retrieval, instrumented capture, completed source-case PASS, or a product defect. A nearly unchanged screen does not on its own prove an application hang.",
+    "The foreground provider briefly shows a 404 after dispatch, then shows the grouped workflow In progress. Neither status establishes a debugger capture or the ultimate workflow outcome.",
+    "Runner log samples show synthetic request counts and readiness booleans. They are diagnostic telemetry. The visible symbol_database_registered value changes across samples; no blanket registration-success conclusion follows.",
+    "The final recorded session inventory has My sessions ON and shows All 4, Active 0, Inactive 4. It is a filtered inventory. Later unfiltered inventory and child-disable checks are outside this recording and are not substituted into the footage.",
+    "Browser chrome, account and repository identifiers, service/session/profile identities, source URLs, token-bearing or private regions are cropped, opaque-masked, or omitted. Broad masks sometimes hide ordinary adjacent product text. Scrolling-log intervals whose crop is fully hidden are individually disclosed and provide no visible product evidence.",
+    "Every temporal omission is listed, including opening publication/repository administration, navigation/layout changes, and the browser-recovery new-tab/address-bar interval. These exclusions are not represented as successful tests.",
+    "The source declares nominal 20 fps but contains 176604 stored frames. It has 105 adjacent PTS gaps above 0.05 seconds, maximum 0.4 seconds. Constant-20-fps output holds existing recorded frames across those gaps. Source PTS and stored-frame ordinals are distinct from nominal 20-fps indices.",
+    "UTC labels are reconstructed from the recorder start. Provider timestamps, product event-row times, and recorder UTC are different evidence types.",
+    "Privacy review includes sampled OCR, dense transition and endpoint inspection, and structural comparison of every stored frame in the long unchanged interval at reduced resolution. This review is not a guarantee of every source pixel. All public videos decode and the raw source checksum remains unchanged.",
+    "Only the listed flat public folders are eligible for publication. Raw recordings, private review frames/OCR, scripts and working logs are excluded. This package preparation performs no external publication."
+  ],
+  "review": {
+    "independent_early_interval_review": true,
+    "independent_final_encoded_visual_review": {
+      "clips": 15,
+      "samples": 54,
+      "unresolved_issues": 0,
+      "sampling_limits_apply": true
+    },
+    "active_and_recovery_precrop_ocr_frames": 179,
+    "output_ocr_sampled_frames": 390,
+    "output_endpoint_midpoint_frames": 117,
+    "unresolved_ocr_flags": 0,
+    "long_unchanged_interval_structural_check": {
+      "source_start": 1140,
+      "source_end": 8500,
+      "stored_frames_checked": 147114,
+      "comparison_dimensions": [
+        268,
+        174
+      ],
+      "maximum_mean_abs_difference": 0.006540572997083547,
+      "maximum_pixels_difference_gt25": 4,
+      "structural_anomaly_threshold": {
+        "mean_abs_difference": 2,
+        "pixels_difference_gt25": 700
+      },
+      "limitation": "All stored frames compared at reduced resolution. Structural stability supports sampling but is not proof of every source pixel or source retrieval."
+    },
+    "all_public_videos_decoded": true,
+    "source_hash_unchanged": true,
+    "review_is_sampled_not_a_guarantee_of_every_pixel": true
+  }
+}
