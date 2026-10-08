@@ -1,0 +1,35 @@
+{
+  "evidence_type": "safe_fields_reported_by_browser_recorder_from_live_GitHub_Actions_output",
+  "observed_snapshot_utc": "2026-10-08T09:20:37.055079+00:00",
+  "deployment_git_sha": "f5061500e8bf30880aebcf7966ba64df44d2ccde",
+  "state": "running",
+  "sample_ready": true,
+  "synthetic_requests_sent_at_snapshot": 14,
+  "later_observed_request_count": 79,
+  "agent_remote_configuration": {
+    "org_status_known": true,
+    "api_key_status_known": true,
+    "org_enabled": true,
+    "api_key_authorized": true
+  },
+  "sdk_remote_configuration": {
+    "matching_sample_client_count": 1,
+    "python_client_present": true,
+    "sdk_4_11_0_present": true,
+    "live_debugging_registered": true,
+    "symbol_database_registered": true
+  },
+  "agent_package_version": "7.84.2",
+  "sdk_version": "4.11.0",
+  "python_requested_series": "3.13",
+  "python_exact_patch": "not_yet_retrieved",
+  "service": "live-debugger-onboarding-sample",
+  "env": "staging",
+  "application_version": "0.1.0",
+  "baseline_hashes_enforced_before_runtime": {
+    "app.py": "748a1032a072168fbe8fa61b8eb330a5eb07b182750dfcd572299f2b1e6b3128",
+    "pricing.py": "3414cf40e6c1a4cca691ec4fe9c9657c74edede5dcb66e907c9aaa09ddf17ed4"
+  },
+  "boundary": "SDK client/product registration observed through Agent active-client state; actual logpoint capture not established by this evidence.",
+  "publication_note": "A bounded field extraction from observed Actions output, not an original runtime log or proof of captured debugger values. Private repository/run identifiers are omitted."
+}
