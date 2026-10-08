@@ -1,0 +1,14 @@
+[
+  {
+    "official_url": "https://raw.githubusercontent.com/DataDog/dd-trace-py/v4.11.0/ddtrace/debugging/_safety.py",
+    "retrieved": true,
+    "official_sha256": "b143433011976416337413e53be18921be0a8c625c8339b1aa3604b5b00ec4ff",
+    "installed_matches_official": true
+  },
+  {
+    "official_url": "https://raw.githubusercontent.com/DataDog/dd-trace-py/v4.11.0/ddtrace/debugging/_signal/utils.py",
+    "retrieved": true,
+    "official_sha256": "a952f392c6b4dd1e1484622941cef12ab4a485024cf873a1b789d7e801f51cb6",
+    "installed_matches_official": true
+  }
+]

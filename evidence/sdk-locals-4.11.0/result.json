@@ -1,0 +1,87 @@
+{
+  "package": "ddtrace",
+  "version": "4.11.0",
+  "python_version": "3.13.5",
+  "helper_source_sha256": {
+    "_safety.py": "b143433011976416337413e53be18921be0a8c625c8339b1aa3604b5b00ec4ff",
+    "utils.py": "a952f392c6b4dd1e1484622941cef12ab4a485024cf873a1b789d7e801f51cb6"
+  },
+  "unassigned_control": {
+    "assigned": {
+      "present_in_frame_locals": true,
+      "sdk_local_is_none": false,
+      "sdk_isDefined": true,
+      "sdk_serialized": {
+        "type": "int",
+        "value": "42"
+      }
+    },
+    "explicit_none": {
+      "present_in_frame_locals": true,
+      "sdk_local_is_none": true,
+      "sdk_isDefined": true,
+      "sdk_serialized": {
+        "type": "NoneType",
+        "isNull": true
+      }
+    },
+    "unbound": {
+      "present_in_frame_locals": false,
+      "sdk_local_is_none": true,
+      "sdk_isDefined": false,
+      "sdk_serialized": {
+        "type": "NoneType",
+        "isNull": true
+      }
+    },
+    "deleted": {
+      "present_in_frame_locals": false,
+      "sdk_local_is_none": true,
+      "sdk_isDefined": false,
+      "sdk_serialized": {
+        "type": "NoneType",
+        "isNull": true
+      }
+    }
+  },
+  "assigned_control": {
+    "assigned": {
+      "present_in_frame_locals": true,
+      "sdk_local_is_none": false,
+      "sdk_isDefined": true,
+      "sdk_serialized": {
+        "type": "int",
+        "value": "42"
+      }
+    },
+    "explicit_none": {
+      "present_in_frame_locals": true,
+      "sdk_local_is_none": true,
+      "sdk_isDefined": true,
+      "sdk_serialized": {
+        "type": "NoneType",
+        "isNull": true
+      }
+    },
+    "unbound": {
+      "present_in_frame_locals": true,
+      "sdk_local_is_none": false,
+      "sdk_isDefined": true,
+      "sdk_serialized": {
+        "type": "int",
+        "value": "99"
+      }
+    },
+    "deleted": {
+      "present_in_frame_locals": false,
+      "sdk_local_is_none": true,
+      "sdk_isDefined": false,
+      "sdk_serialized": {
+        "type": "NoneType",
+        "isNull": true
+      }
+    }
+  },
+  "blocked_network_or_subprocess_attempts": 0,
+  "scope": "Actual SDK helper calls only; socket/subprocess audit guard installed before SDK import; SDK telemetry/tracing/RC disabled in clean environment. No hosted capture payload inspected."
+}
