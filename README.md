@@ -12,7 +12,7 @@ Nine distinct findings in the combined report: **0 High, 4 Medium and 5 Low**. 6
 - [Severity-ranked findings](findings.md#severity-ranked-finding-index), [High only](high-severity.md), [Medium](findings.md#medium-severity), [Low](findings.md#low-severity)
 - [All 63 case outcomes](QA_MATRIX.md), [57 separately scoped checks](EXECUTED_CHECKS.md), [evidence and timestamps](EVIDENCE.md)
 - [Unconfirmed observations](UNCONFIRMED_OBSERVATIONS.md) and [video catalog](VIDEOS.md)
-- [Earlier V8 annotated PDF](report.pdf) and [earlier V8 editable Word report](report.docx): both retain the 10:50:59 UTC V8 snapshot with seven findings until separately regenerated
+- [V9 annotated PDF](report.pdf) and [editable Word report](report.docx): the checked 31-page report covers the nine findings, frozen live-case ledger and separately dated SDK verification
 - [Beginner glossary](glossary.md)
 
 ## New verified results since V8
@@ -34,9 +34,9 @@ The numeric quantity 2/3/4 controls, full 24-line deployed-source match, conditi
 
 The original 63 definitions and cleanup requirements are preserved. Blank/comment-line behavior, function entry, stale saved-write variants, deeper value/cycle checks, restricted identities, source-isolation variants and several lifecycle checks remain incomplete or blocked. C01/C02 remain IN_PROGRESS; stopping one session does not prove all captures, traffic or retained settings are reconciled.
 
-Reviewed stills 103–135 and the new finding page are prepared in this checkpoint. Later controls described in prose have no invented screenshot or video links while their safe derivatives remain pending. No public upload of V9 or its new evidence is implied by this prepared directory.
+The nine-finding web checkpoint and reviewed stills 103–135 were verified at public commit `9edb46e`. This document refresh adds the checked V9 PDF/Word and reviewed stills 136–146 without changing the frozen case counts. Source 13's motion export remains separately pending.
 
-Sources 01–12 retain their finalized media totals. Source 12's eight archive files were publicly verified at commit `7cdd468`; four highlight-package files remain pending publication verification. Source 13 began at 11:18:29 UTC and was still recording at the cutoff. A later status update confirms the raw recording is finalized; final duration, retained coverage, motion privacy review and public availability are not established here. See [exact media boundaries](VIDEOS.md).
+Sources 01–12 retain their finalized media totals. Source 12's eight archive files were verified at `7cdd468`, and all four highlight-package files at `9edb46e`. Source 13 began at 11:18:29 UTC and was still recording at the cutoff. A later status update confirms the raw recording is finalized; final duration, retained coverage, motion privacy review and public availability are not established here. See [exact media boundaries](VIDEOS.md).
 
 ## Later unscored status
 

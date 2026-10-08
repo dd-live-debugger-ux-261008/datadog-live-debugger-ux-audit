@@ -8,7 +8,7 @@ Part 1 covers new-user usability. Part 2 covers Live Debugger and Source Code In
 
 ## Severity ranked finding index
 
-[High only](high-severity.md) · [Medium](#medium-severity) · [Low](#low-severity) · [Beginner glossary](glossary.md) · [Earlier V8 annotated report](report.pdf)
+[High only](high-severity.md) · [Medium](#medium-severity) · [Low](#low-severity) · [Beginner glossary](glossary.md) · [V9 annotated report](report.pdf)
 
 | ID | Severity | Type | Part | Finding and online evidence |
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ Part 1 covers new-user usability. Part 2 covers Live Debugger and Source Code In
 | UX03 | LOW | Scoped feedback issue | 1 | [Invalid log template lacks an explanatory error message](findings/UX03-invalid-log-template-feedback.md) |
 | UX04 | LOW | Scoped navigation recovery issue | 1 | [View in Logs opens a not-indexed pane for a recoverable indexed snapshot](findings/UX04-view-in-logs-event-link.md) |
 
-Every finding page links genuine screenshot evidence and its scope. Motion is linked where privacy-reviewed footage is available. UX04's matching row/count is not visible in its annotated still; exact identity matches and row-click recovery were verified separately. The source 12 archive is publicly verified at commit `7cdd468`; its reviewed highlight package remains pending publication verification. Its transition limits are documented in the video catalog.
+Every finding page links genuine screenshot evidence and its scope. Motion is linked where privacy-reviewed footage is available. UX04's matching row/count is not visible in its annotated still; exact identity matches and row-click recovery were verified separately. The source 12 archive is publicly verified at `7cdd468` and its reviewed highlight package at `9edb46e`. Its transition limits are documented in the video catalog.
 
 ## High severity
 
@@ -61,4 +61,4 @@ Numeric live capture, one exact deployed-source match, conditional controls and 
 
 ## V9 evidence boundary
 
-F04 and B09 both refer to existing UX03; this is not a second finding. FUNC01 is the only new confirmed finding within the 13:15 live cutoff. The separate 13:16:33 offline-verification addendum confirms Medium FUNC02. Disabled-draft reactivation remains unconfirmed without severity. V9 text/stills are prepared without a new public-availability claim. The PDF/Word remain dated V8 until separately regenerated.
+F04 and B09 both refer to existing UX03; this is not a second finding. FUNC01 is the only new confirmed finding within the 13:15 live cutoff. The separate 13:16:33 offline-verification addendum confirms Medium FUNC02. Disabled-draft reactivation remains unconfirmed without severity. The nine-finding web checkpoint was verified at `9edb46e`; this refresh adds the checked 31-page V9 PDF/Word and later reviewed stills.

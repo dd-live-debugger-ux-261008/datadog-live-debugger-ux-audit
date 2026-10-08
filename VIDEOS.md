@@ -1,6 +1,6 @@
 # Audit video catalog
 
-Sources 01–12 have finalized local privacy-reviewed archives and highlights: **233:02.05 recorded, 157:48.50 retained and 75:13.55 withheld**, with **21 archive MP4s**. Eight overlapping highlights total **18:57.75** and are not added to unique retained coverage. Sources 01–12 archives are publicly verified. Source 12's four highlight-package files remain pending publication verification. Stills, rendered-UI reads and payload observations are distinguished from foreground motion.
+Sources 01–12 have finalized local privacy-reviewed archives and highlights: **233:02.05 recorded, 157:48.50 retained and 75:13.55 withheld**, with **21 archive MP4s**. Eight overlapping highlights total **18:57.75** and are not added to unique retained coverage. Sources 01–12 archives are publicly verified. Source 12's four highlight-package files are also publicly verified at `9edb46e`. Stills, rendered-UI reads and payload observations are distinguished from foreground motion.
 
 GitHub may show a file page instead of an inline player. Use View raw or Download for MP4 playback.
 
@@ -79,7 +79,7 @@ Sources 01–11: **182:11.20 recorded = 117:45.30 retained + 64:25.90 withheld**
 
 ## Source 12 source controls and expiry after-state
 
-The source 12 media package is frozen and privacy-reviewed. **The complete safe archive is publicly verified at commit `7cdd468`; its four highlight-package files remain pending publication verification.** All eight archive files match their reviewed hashes. The highlight links below identify the prepared package, without claiming that its remote upload is verified. Media availability was checked at 12:11 UTC, after the PDF/Word freeze.
+The source 12 media package is frozen and privacy-reviewed. **The complete safe archive is publicly verified at `7cdd468`, and all four highlight-package files at `9edb46e`.** All twelve files match their reviewed hashes; archive and highlight links are available below.
 
 [Complete retained-section archive and exact omissions](recordings/continuation-12/CONTINUATION_RECORDING_ARCHIVE.md): **50:50.85 recorded, 40:03.20 retained in five MP4s and 10:47.65 omitted**.
 
@@ -100,7 +100,7 @@ A native context menu obscures parts of the later original recording. The comple
 
 ## Total reviewed coverage through source 12
 
-**233:02.05 recorded = 157:48.50 retained + 75:13.55 withheld** across sources 01–12, with **21 archive MP4s**. Eight edited highlights total **18:57.75**, overlapping archive footage. All 21 archive MP4s are publicly verified. These package totals also include source 12's locally verified highlight, whose external publication remains pending verification. All prior filenames and hashes remain frozen. Retained duration still includes the historical 94.70 seconds of labeled opaque privacy panels. No missing recording gap or UI is reconstructed.
+**233:02.05 recorded = 157:48.50 retained + 75:13.55 withheld** across sources 01–12, with **21 archive MP4s**. Eight edited highlights total **18:57.75**, overlapping archive footage. All 21 archive MP4s are publicly verified. All eight highlight packages, including source 12, are publicly verified. All prior filenames and hashes remain frozen. Retained duration still includes the historical 94.70 seconds of labeled opaque privacy panels. No missing recording gap or UI is reconstructed.
 
 ## V9 and ongoing source 13
 
@@ -108,8 +108,12 @@ The scored evidence cutoff is **8 October 2026, 13:15:00 UTC**. Source 13 began 
 
 FUNC01's observed intervals are 13:01:13–13:01:59 and 13:02:26–13:03:02 UTC, corresponding to source offsets 01:42:44–01:43:30 and 01:43:57–01:44:33. These are locator intervals in an ongoing source. Motion privacy review, export and chapter links remain pending. [The finding](findings/FUNC01-unsaved-condition-reset.md) uses the reviewed genuine before/after stills and attributed interaction observations; no still is represented as a completed video export.
 
-Reviewed screenshots 103–135 are prepared in the V9 evidence directory. Later function/disable/hierarchy observations are prose-only while safe derivatives remain pending. Neither prepared screenshots nor a running recorder establish new public media availability. Source 12's eight archive files remain verified at commit `7cdd468`; the four highlight-package files are still pending publication verification. The copied PDF/Word preserve their dated V8 content until separately refreshed.
+Reviewed screenshots 103–135 were verified at `9edb46e`; this refresh adds the reviewed [136–146 stills](evidence/continuation-13/lifecycle-136-146/manifest.json). They establish only their pictured states, not offscreen payload identity or a continuous motion sequence. Source 12's archive and highlights are publicly verified. The PDF/Word now contain the checked V9 report.
 
 ## Later recording-status update
 
 After the 13:15 live cutoff, source 13’s raw recording was finalized. Finalization alone is not a privacy-reviewed export. Its exact final duration, retained/withheld coverage and chapter map remain pending in this report; do not add it to the finalized sources 01–12 totals. The later FUNC02 finding includes an independently reproduced SDK result confirmed at 13:16:33 UTC, rather than claiming that source 13 motion establishes the offline package behavior.
+
+## Foreground motion review update
+
+Source 13 foreground review shows the dirty quantity-three draft followed by a source/INSTRUMENTING view, rather than the exact quantity-four editor after-state in still 135. The movie will not be presented as a complete visible dirty-draft overwrite sequence. The reviewed before/after stills and rendered-editor chronology establish FUNC01; missing foreground steps are not reconstructed.

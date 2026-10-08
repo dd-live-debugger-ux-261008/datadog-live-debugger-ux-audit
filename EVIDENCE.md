@@ -90,7 +90,7 @@ The authenticated excerpt shows real UI motion at normal speed. UX02 is visible 
 - 04:53:17: [Wildcard environment warning](evidence/33-service-all-environments-warning-public.png) explains that an all-environment logpoint will not enable the service automatically and provides Configuration/specific-environment guidance.
 - F06: pricing.py was added manually. 0, -1 and abc kept Start disabled. [Line 0 evidence](evidence/34-line-zero-validation-public.png), 04:54:43. [Line 9999](evidence/35-line-out-of-range-draft-public.png), 04:55:10, enabled an unsubmitted draft. Line 17 restored the target. That draft check did not test runtime installation. The later line-9999 runtime rejection is recorded below; relocation is not established.
 - 04:55:34: [Source guidance](evidence/36-source-unavailable-guidance-public.png) states the file was not found and names permissions/tags as possible causes, with Learn More. No fetched source.
-- F04: the first opening brace was automatically balanced, so it was not an invalid-input test. Deleting the closing brace produced QA quantity={quantity and [disabled Start](evidence/40-unmatched-brace-actual-public.png) at 05:06:52. [Correcting the template](evidence/41-valid-template-recovery-public.png) at 05:08:14 enabled Start. No submit occurred. Conditional-expression/runtime variants were untested at that timestamp; later valid predicate controls are recorded below, while invalid/non-Boolean variants remain pending.
+- F04: the first opening brace was automatically balanced, so it was not an invalid-input test. Deleting the closing brace produced QA quantity={quantity and [disabled Start](evidence/40-unmatched-brace-actual-public.png) at 05:06:52. [Correcting the template](evidence/41-valid-template-recovery-public.png) at 05:08:14 enabled Start. No submit occurred. Conditional-expression/runtime variants were untested at that timestamp; later valid, malformed and non-Boolean predicate controls are recorded below.
 - The earlier assessment that When was disabled was corrected by a normal supported click. In the healthy continuation the control is operable and actual predicates capture correctly. No conditional-control defect is asserted.
 
 ## Fixture integrity
@@ -242,7 +242,7 @@ At the V8 cutoff, the expired original target was not a zero-session cleanup res
 
 [Continuation 11 reviewed stills](evidence/continuation-11/README.md) and [continuation 12 reviewed stills](evidence/continuation-12/README.md) include image-level crops, opaque masks, hashes and separately disclosed annotations. No UI is reconstructed; raw journals and raw setup logs are not public artifacts.
 
-Sources 01–12 finalized local package totals: 233:02.05 recorded, 157:48.50 retained, 75:13.55 withheld; 21 archive MP4s. Eight highlights total 18:57.75, overlapping archive footage. Source 12 is 50:50.85 recorded, 40:03.20 retained and 10:47.65 omitted; its complete safe archive is publicly verified at commit `7cdd468`, while the four highlight-package files remain pending publication verification. [Video catalog](VIDEOS.md).
+Sources 01–12 finalized local package totals: 233:02.05 recorded, 157:48.50 retained, 75:13.55 withheld; 21 archive MP4s. Eight highlights total 18:57.75, overlapping archive footage. Source 12 is 50:50.85 recorded, 40:03.20 retained and 10:47.65 omitted; its complete safe archive is publicly verified at `7cdd468` and the four highlight-package files at `9edb46e`. [Video catalog](VIDEOS.md).
 
 ## V9 reviewed evidence and publication boundary
 
@@ -294,7 +294,7 @@ Cleanup: Capture variables was restored, satisfying the case-specific restore-or
 
 ## Function exit and line context
 
-Still 116 shows the earlier quantity-three exit capture and four visible return entries. The later complete quantity-four return-object check and line-context error are recorder-observed results; that earlier still is not offered as a picture of the later controls. Safe derivatives of those later states remain pending.
+Still 116 shows the earlier quantity-three exit capture and four visible return entries. The later complete quantity-four return-object check and line-context error are recorder-observed results; that earlier still is not offered as a picture of the later controls. The later [full return message](evidence/continuation-13/lifecycle-136-146/138-function-return-expression-capture-safe.png) and [line-context error](evidence/continuation-13/lifecycle-136-146/139-line-return-context-error-safe.png) now have reviewed safe stills. The return message shows all six entries; the expanded capture area is partial.
 
 F07: **IN_PROGRESS**. A whole-function pricing.calculate_quote probe using FUNCTION returned={@return} renders a full quantity-four return dictionary: quantity 4, unit price 1200, subtotal 4800, eligibility True, discount 480 and total 4320. The pane is labeled Values on exit. Applying @return in a line-17 message instead produces an explicit Evaluation errors panel naming No such local variable: @return, with editing guidance; the recorder verifies accurate quantity-two locals totaling 2400. No explicit entry/exit selector was found in the tested manual editor, and entry capture was not executed.
 
@@ -438,3 +438,7 @@ The frozen live ledger remains 16 PASS, 7 FINDING, 24 BLOCKED, 8 PENDING and 8 I
 ## Later unscored cleanup and recording status
 
 At **13:17:59 UTC**, the session inventory with **My sessions enabled** showed **All 4 / Active 0 / Inactive 4**. This is a later status observation, not evidence available at the live cutoff. C01/C02 remain as originally scored at 13:15; runtime/traffic, fixture, settings and grant reconciliation are not proved by the zero-active session list alone. Source 13’s raw recording was subsequently finalized. Its exact duration, reviewed retained/withheld coverage and motion export are not established here.
+
+## Later reviewed stills
+
+[Reviewed stills 136–146 and exact provenance](evidence/continuation-13/lifecycle-136-146/manifest.json) supplement the already-described controls. Still 137 shows a new STALE_EDIT row, but its selected right-hand capture is an OUTDATED older event; its locals are not attributed to the new row. Hierarchy stills show only the displayed children. [Still 146](evidence/continuation-13/lifecycle-136-146/146-filtered-session-inventory-safe.png) explicitly has My sessions enabled, so its zero-active count is not account-wide. These later image publications do not rescore the 13:15 ledger.

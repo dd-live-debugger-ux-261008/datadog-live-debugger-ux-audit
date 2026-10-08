@@ -31,12 +31,14 @@ C01/C02 remain IN_PROGRESS. At the live cutoff, the final active count, post-sto
 
 Reviewed safe screenshot packs 103–135 total 113 allowlisted files across four packs. The new FUNC01 page links the genuine 134/135 before/after pair with disclosed clipping and rendered-editor limits. No raw screenshots enter the checkpoint. Later hierarchy/function/disable controls are attributed observations until their safe derivatives are prepared.
 
-Sources 01–12: 233:02.05 recorded, 157:48.50 retained, 75:13.55 withheld, 21 archive MP4s; eight overlapping highlights total 18:57.75. Source 12's eight archive files are publicly verified at `7cdd468`; its four highlight-package files remain pending publication verification. Source 13 was still recording from 11:18:29 UTC at the cutoff; no finalized duration, coverage or motion-publication claim is made.
+Sources 01–12: 233:02.05 recorded, 157:48.50 retained, 75:13.55 withheld, 21 archive MP4s; eight overlapping highlights total 18:57.75. Source 12's eight archive files are publicly verified at `7cdd468`, and its four highlight-package files at `9edb46e`. Source 13 was still recording from 11:18:29 UTC at the cutoff; no finalized duration, coverage or motion-publication claim is made.
 
-This V9 text and evidence directory is prepared, not publication-verified. The copied PDF/Word remain the 10:50:59 UTC V8 snapshot with seven findings; the aggregate checksums also await refresh. Earlier finding pages and media bytes remain unchanged.
+The nine-finding web checkpoint was independently verified at `9edb46e`, including all 383 payload checksums. The PDF/Word are now the checked 31-page V9 report. Reviewed stills 136–146 are added in this refresh; the aggregate checksum manifest covers the updated payload. Earlier image/media bytes remain unchanged.
 
 [Cases](QA_MATRIX.md) · [Findings](findings.md) · [Unconfirmed topics](UNCONFIRMED_OBSERVATIONS.md) · [Evidence](EVIDENCE.md) · [Video catalog](VIDEOS.md)
 
 ## Later unscored status at 13:17:59 UTC
 
 The session inventory with **My sessions enabled** showed **All 4 / Active 0 / Inactive 4**. This after-cutoff observation does not rescore C01/C02 or prove that runtime/traffic, fixture variants, settings and grants are fully reconciled. Source 13’s raw recording was subsequently finalized; its exact final duration and reviewed-motion export remain pending in this report.
+
+Additional controlled QA has resumed since the dated 13:17:59 inventory. That count is historical, not a claim that all current audit activity remains stopped. New outcomes will be reconciled in a later checkpoint.
