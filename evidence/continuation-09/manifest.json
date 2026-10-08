@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "title": "APM continuation: privacy-safe still-image derivatives",
+  "created_utc": "2026-10-08T06:20:53Z",
+  "publication_state": "Prepared locally only; not published.",
+  "coordinate_convention": "All rectangles are [x,y,width,height] in pixels, origin at the top left; extents are half-open. Source coordinates refer to the original dimensions; output coordinates refer to the cropped derivative.",
+  "provenance_caveat": "Source filesystem modification times are retained as capture-file provenance. They can change during copying or export and are not independently verified capture times, ingestion times, or trace-event times. UI times may use another timezone (UTC-07:00 is visible in relevant captures).",
+  "privacy_treatment": "Crops omit global navigation/profile identity and unnecessary surrounding UI. Opaque black masks cover unique trace identity in image 54 and process/runtime/span values in image 56. The generic demonstration service name and environment/version query remain visible. The commit tag pixels in screenshot-only image 57 were explicitly authorized for retention and are isolated from repository/account identity. No source code or secrets were read.",
+  "evidence_limits": "Images 49–55 establish a listed APM service, staging selection, an empty visible 15-minute query, a one-hour historical result with 47 indexed spans, a historical HTTP span overview, and an empty recent SDK configuration view. Images 56–57 are separate screenshot-only captures made after the Raw09 motion recording ended; they show ingested historical span tags for version, environment, and commit. None establishes successful Live Debugger enablement, a started session, current instrumentation, or source retrieval. The Widen Time Frame interaction and Agent-last-seen eligibility statement are not shown in these stills.",
+  "files": [
+    {
+      "source": {
+        "file": "49-reopened-draft-reset.jpg",
+        "sha256": "4f0739e2ef28ce56495e32a636dc0e89e406dafc1d675cdb24c6fc632e6a4932",
+        "size_bytes": 62387,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T05:43:36.440676Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "49-reopened-draft-reset.png",
+        "sha256": "7f57c4ebea516ef2e4b61f2487573ea289879cdf5c255543ecf1ba2363407d76",
+        "size_bytes": 176381,
+        "dimensions_px": [
+          1077,
+          665
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          44,
+          48,
+          1077,
+          665
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "The reopened logpoint draft has an all-environments selection, a blank code location, and a disabled Start Debug Session button. The visible warning says Live Debugger is not enabled for this service and that creating an all-environments logpoint will not enable it automatically.",
+      "limits": "This is an unsubmitted draft. It does not show successful debugger enablement, instrumentation, a started debug session, or received snapshots.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "50-apm-service-discovered.jpg",
+        "sha256": "9cf3010f53b199070b36af65b0067380f1c3663ae5a4bd583bc08464a37e53ab",
+        "size_bytes": 65479,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T05:50:46.739928Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "50-apm-service-listed.png",
+        "sha256": "9b3f72dd53ea10561c733aad9cf713d550285a9cc57c2f7fc7c01c03a64930e0",
+        "size_bytes": 81144,
+        "dimensions_px": [
+          1020,
+          611
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          160,
+          77,
+          1020,
+          611
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "The APM service chooser lists the demonstration service. The visible Last Deploy value is 1h ago.",
+      "limits": "A service listing and relative deployment age do not prove a process is currently running or that Live Debugger is enabled.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "51-apm-staging-selected.jpg",
+        "sha256": "69e3de9477ee9211ed1818d7d2d03f490bb1dfe7b6585e15195d7037acaf5851",
+        "size_bytes": 87484,
+        "dimensions_px": [
+          1165,
+          720
+        ],
+        "filesystem_mtime_utc": "2026-10-08T05:52:22.721601Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "51-apm-staging-selected.png",
+        "sha256": "b677bd65f5d3354c9679bb57a164045cd5e734d5c460e5698c0d262cdf3377cf",
+        "size_bytes": 214446,
+        "dimensions_px": [
+          991,
+          644
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          158,
+          76,
+          991,
+          644
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "The APM service summary has env staging selected, operation sample.request, version All, and a Past 1 Hour window.",
+      "limits": "The selected environment and historical summary do not prove current instrumentation or current source-code access. The chart is partially visible and shows a loading indicator.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "52-apm-traces-initial-time-window.jpg",
+        "sha256": "4d8b3f199b89d571056ecac9afe2447cdf3aa6969beed4a358390b8c017039a3",
+        "size_bytes": 93669,
+        "dimensions_px": [
+          1165,
+          720
+        ],
+        "filesystem_mtime_utc": "2026-10-08T05:55:12.564569Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "52-live-search-15m-empty.png",
+        "sha256": "34f89545ef59e10fabf772b172c17417642b36c7f74632e5b3305c3b8b1e5dd1",
+        "size_bytes": 242728,
+        "dimensions_px": [
+          991,
+          644
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          158,
+          76,
+          991,
+          644
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "Live Search uses Past 15 Minutes and filters for staging, sample.request, the demonstration service, and version 0.1.0. The visible results are empty and the displayed rate is 0 spans/s.",
+      "limits": "This is only the selected 15-minute query window. It does not establish that no historical spans exist or that the service was never instrumented.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "53-historical-traces-recovered.jpg",
+        "sha256": "8d942f984eb95a537c68112e88182db3c358613014fa8d1cdaed54cfab554319",
+        "size_bytes": 141123,
+        "dimensions_px": [
+          1165,
+          720
+        ],
+        "filesystem_mtime_utc": "2026-10-08T05:59:26.865009Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "53-historical-search-47-spans.png",
+        "sha256": "8378aea330afd13a27f92062e3c8c47d1641e4d728e7e60abc93a5f7c4e1d04f",
+        "size_bytes": 477744,
+        "dimensions_px": [
+          991,
+          684
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          158,
+          36,
+          991,
+          684
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "Historical Search uses Past 1 Hour and displays 47 indexed spans for the demonstration service, including GET /quote entries.",
+      "limits": "This still shows the recovered historical result. It does not show the Widen Time Frame click itself, and historical spans do not prove fresh traffic or live debugger instrumentation.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "54-indexed-trace-source-tags.jpg",
+        "sha256": "59dc22bc9e60b2fa15ce5f983cf4b3fbb66b8acb7d6d207bf0434488ea4cc601",
+        "size_bytes": 93696,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T06:02:35.784133Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "54-indexed-span-overview.png",
+        "sha256": "fda17211af62ad22497a102252d026c4e113620e7f9bdf018a1369e8f0f42b69",
+        "size_bytes": 157933,
+        "dimensions_px": [
+          810,
+          689
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          354,
+          40,
+          810,
+          689
+        ],
+        "resampling": "none",
+        "masks": [
+          {
+            "source_xywh": [
+              730,
+              45,
+              312,
+              32
+            ],
+            "output_xywh": [
+              376,
+              5,
+              312,
+              32
+            ],
+            "fill_rgb": [
+              0,
+              0,
+              0
+            ],
+            "opacity": 1,
+            "reason": "Remove the trace identity header, including its unique identifier."
+          }
+        ],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "An indexed GET /quote span overview shows HTTP 200 and a 159 microsecond duration. The trace identity header is covered by an opaque black mask.",
+      "limits": "Despite the original filename, source-tag rows are not visible in this captured frame. It cannot establish a repository, commit, source retrieval, or live instrumentation.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "55-sdk-config-freshness-guidance.png",
+        "sha256": "54f19784983aa1acf7287ad96f91a6660453e772b09743c2ec91cd095b04a406",
+        "size_bytes": 94344,
+        "dimensions_px": [
+          1165,
+          720
+        ],
+        "filesystem_mtime_utc": "2026-10-08T06:15:52.269960Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "55-sdk-no-recent-config.png",
+        "sha256": "a70b4764677743bb44004484f8eb219c11f15d506a9cb9083fc9308d181346ee",
+        "size_bytes": 208555,
+        "dimensions_px": [
+          803,
+          684
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          346,
+          36,
+          803,
+          684
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "SDK Configurations shows 0 of 0 configurations and No SDK Configuration Data. Its visible guidance says no configuration data was detected for this service in the last 15 minutes, and advises checking whether the service is running, instrumentation telemetry is enabled, and the telemetry intake endpoint is accessible.",
+      "limits": "This empty SDK configuration view does not prove that a particular prerequisite failed. It does not display the separate Agent-last-seen eligibility wording or prove Live Debugger is currently enabled.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "56-ingested-version-tag.png",
+        "sha256": "c6d3ac1d9d54b743a936f77d06b3a8326af90ab298190e76464737a7dcfcb488",
+        "size_bytes": 91402,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T06:20:42.354976Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp.",
+        "capture_context": "Screenshot-only capture taken after the Raw09 motion recording ended, according to the capture sequence supplied by the recording operator. Not extracted from source09 motion."
+      },
+      "output": {
+        "file": "56-screenshot-only-ingested-version.png",
+        "sha256": "efd0d0b2fa9bcbf8802d16b220b1ae5babc9932b8dc84412da6a60b9b9ddbf3f",
+        "size_bytes": 75238,
+        "dimensions_px": [
+          810,
+          299
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          354,
+          430,
+          810,
+          299
+        ],
+        "resampling": "none",
+        "masks": [
+          {
+            "source_xywh": [
+              508,
+              546,
+              300,
+              84
+            ],
+            "output_xywh": [
+              154,
+              116,
+              300,
+              84
+            ],
+            "fill_rgb": [
+              0,
+              0,
+              0
+            ],
+            "opacity": 1,
+            "reason": "Remove the values of process_id, runtime-id, and span_id, including adjacent identifier controls."
+          }
+        ],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "Screenshot-only: a separately captured historical span detail shows version 0.1.0. Process, runtime, and span identifier values are covered by one opaque black mask.",
+      "limits": "Captured after the Raw09 motion recording ended; not a frame extracted from source09 motion. The version tag belongs to an ingested historical span and does not prove current instrumentation, a live debugger session, or source retrieval.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    },
+    {
+      "source": {
+        "file": "57-ingested-env-and-commit.png",
+        "sha256": "7d3fa3a3b9ebedb809d4409bba573d5c40af09f308b3cae3985a1a60531464bf",
+        "size_bytes": 91764,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T06:21:31.967837Z",
+        "filesystem_timestamp_role": "Capture-file modification time only; not an independently verified capture, ingestion, or trace-event timestamp.",
+        "capture_context": "Screenshot-only capture taken after the Raw09 motion recording ended, according to the capture sequence supplied by the recording operator. Not extracted from source09 motion."
+      },
+      "output": {
+        "file": "57-screenshot-only-ingested-env-commit.png",
+        "sha256": "20f4f7348e91ec26bd609227bd390626e429fa9a377ab7f0d2e40a753d2cf5ad",
+        "size_bytes": 94020,
+        "dimensions_px": [
+          810,
+          299
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          354,
+          430,
+          810,
+          299
+        ],
+        "resampling": "none",
+        "masks": [],
+        "method": "Decoded source pixels, rectangular crop, optional opaque black mask, lossless PNG encoding. No reconstructed or generated UI."
+      },
+      "caption": "Screenshot-only: a separately captured historical span detail shows env staging and the actual git.commit.sha tag pixels. The isolated view contains no repository or account identity.",
+      "limits": "Captured after the Raw09 motion recording ended; not a frame extracted from source09 motion. The commit tag was explicitly retained for this artifact. An ingested commit tag identifies historical trace metadata; it does not establish that source files were retrieved, that the currently running process uses that commit, or that Live Debugger is enabled.",
+      "verification": {
+        "unmasked_pixels_match_decoded_source": true,
+        "source_unchanged": true,
+        "no_embedded_source_metadata": true
+      }
+    }
+  ],
+  "updated_utc": "2026-10-08T06:24:11Z"
+}
