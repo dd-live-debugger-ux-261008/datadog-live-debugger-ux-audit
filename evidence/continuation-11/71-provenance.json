@@ -1,0 +1,73 @@
+{
+  "id": "71",
+  "source_path": "71-fresh-source-integration-connected.jpg",
+  "source_sha256": "967527efce8c35a53390d1b029f32ed6d6789439f82eb6ecedd3c6a13fe8c214",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "71-source-integration-installed-safe.png",
+  "safe_sha256": "cd3b914b73b722b6dc734e05149f2964b55ed50cc7bfafcf982e7d3374becb89",
+  "safe_dimensions": [
+    1020,
+    460
+  ],
+  "crop_source_xyxy": [
+    160,
+    77,
+    1180,
+    537
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        432,
+        319,
+        632,
+        347
+      ],
+      "output_xyxy": [
+        272,
+        242,
+        472,
+        270
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "source integration account identity"
+    },
+    {
+      "source_xyxy": [
+        179,
+        492,
+        337,
+        517
+      ],
+      "output_xyxy": [
+        19,
+        415,
+        177,
+        440
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository name"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "354c4cb68ad787bfd392cb33c57d526727ab835e9817bdbe44750c55917f9ed3",
+  "safe_decoded_rgb_sha256": "18864bbce634f27c27ee83c92e47f3e62e042e187a6996fdabb929c37c259845",
+  "verified_unchanged_pixels_outside_masks": 459650,
+  "source_unchanged": true,
+  "caption": "The Datadog GitHub Apps configuration page visibly shows Installed, a Repositories count of 1, and one repository row. Account and repository identities are opaque-masked. The run chronology identifies this as the post-callback state following the fresh single-repository reinstall; this still alone does not establish actual source-code retrieval. This is screenshot-only evidence: recording stopped at 09:53:41 UTC on October 8, 2026, before the OAuth callback. The post-callback state was observed at approximately 09:55 UTC according to the run chronology; no observation timestamp is printed in the still.",
+  "source_medium": "screenshot-only; not contained in the recording",
+  "chronology_source": "Task owner run chronology; times are not printed in this screenshot",
+  "recording_stopped_at_utc": "2026-10-08T09:53:41Z",
+  "approximate_observation_at_utc": "2026-10-08T09:55:00Z",
+  "source_retrieval_verified_by_this_screenshot": false
+}

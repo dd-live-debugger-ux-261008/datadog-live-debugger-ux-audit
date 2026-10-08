@@ -1,0 +1,108 @@
+{
+  "id": "62",
+  "source_path": "62-actions-runtime-sdk-registered.jpg",
+  "source_sha256": "2b67bf81be0b00d0fc61e855c7be3a06e4207247efd44cedd676029d707a0007",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "62-runtime-sdk-registration-safe.png",
+  "safe_sha256": "dde44e8d5675f24cdc15f7d725df856b50dcc652f32e1abb8d8c39b8f5794516",
+  "safe_dimensions": [
+    788,
+    453
+  ],
+  "crop_source_xyxy": [
+    340,
+    85,
+    1128,
+    538
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        535,
+        190,
+        846,
+        213
+      ],
+      "output_xyxy": [
+        195,
+        105,
+        506,
+        128
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "source revision identity"
+    },
+    {
+      "source_xyxy": [
+        535,
+        408,
+        846,
+        431
+      ],
+      "output_xyxy": [
+        195,
+        323,
+        506,
+        346
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "source revision identity"
+    },
+    {
+      "source_xyxy": [
+        733,
+        269,
+        967,
+        292
+      ],
+      "output_xyxy": [
+        393,
+        184,
+        627,
+        207
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        733,
+        487,
+        967,
+        510
+      ],
+      "output_xyxy": [
+        393,
+        402,
+        627,
+        425
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "7efacbde787c4dad636fa76857d30cfb810fafbc7dfeeb8231a6a6845f37cac2",
+  "safe_decoded_rgb_sha256": "ef6eed5db436773d3fbfcad03054b4700c10d2675bc84ceb0dfb3d7e62b5f95d",
+  "verified_unchanged_pixels_outside_masks": 331894,
+  "source_unchanged": true,
+  "caption": "Visible GitHub Actions log excerpt reports live_debugging_registered=true, python_client_present=true, sdk_4_11_0_present=true, and symbol_database_registered=true. These status booleans establish reported SDK registration in the excerpt; they are not themselves evidence of captured application values."
+}

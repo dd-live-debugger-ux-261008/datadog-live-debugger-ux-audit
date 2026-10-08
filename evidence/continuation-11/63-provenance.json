@@ -1,0 +1,48 @@
+{
+  "id": "63",
+  "source_path": "63-staging-environment-available.jpg",
+  "source_sha256": "d3ce74e907a2f3ed4b4b9ac71752e7dfd7321818791536ee782593c43174481c",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "63-staging-environment-available-safe.png",
+  "safe_sha256": "e6f482d216c9440f21008fbd2a09e18b7e1a1d0ed07f55b701f764a317d57822",
+  "safe_dimensions": [
+    990,
+    349
+  ],
+  "crop_source_xyxy": [
+    160,
+    280,
+    1150,
+    629
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        307,
+        360,
+        566,
+        386
+      ],
+      "output_xyxy": [
+        147,
+        80,
+        406,
+        106
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "4a02f60a1be4df6e70f23674c585ff165eee5f209b954e2db891726fab15beaf",
+  "safe_decoded_rgb_sha256": "98a1a413a25b1777e7fa5b2c1b6dd918c61b6ecf99a275df1e77084e3e76e5b3",
+  "verified_unchanged_pixels_outside_masks": 338776,
+  "source_unchanged": true,
+  "caption": "The new-session environment dropdown visibly offers staging, with the manual New Session control below. Runtime/service identity is masked."
+}

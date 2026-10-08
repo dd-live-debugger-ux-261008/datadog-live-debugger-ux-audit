@@ -1,0 +1,48 @@
+{
+  "id": "69",
+  "source_path": "69-quantity-two-capture.jpg",
+  "source_sha256": "f5e46e45f4ee4cc906fcefef42d6d9c021d7df5cb3e7a1df8132c0c955d4df5e",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "69-verified-quantity-two-safe.png",
+  "safe_sha256": "9b4dcfc8ce79c40d3a21902696479e19d7d9e686ba9fe8a1e08bf5c1bfa5034c",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "ee39fb384f9d4caef0c879115a8efdc81e2beb9a7bfccdfa0c2c051ce5e356de",
+  "safe_decoded_rgb_sha256": "83855f3f7c73d658679993a09a092afdaaaf4cbc58383b53d36b1efc6e4fa46c",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "Verified capture displays quantity=2, discount_eligible=False, discount_cents=0, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This is the quantity-two comparison capture."
+}

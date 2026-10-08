@@ -1,0 +1,48 @@
+{
+  "id": "65",
+  "source_path": "65-session-created-enable-logs.jpg",
+  "source_sha256": "8c2300f2919bfd7445bb3a3a53ac249c59a5e9c8140e63b8c702184ba98234ae",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "65-initial-enable-logs-state-safe.png",
+  "safe_sha256": "58a283df1b55550d6538b2eae08e6e3b3ae27f3a55b52f6bc001ba0562f76a4b",
+  "safe_dimensions": [
+    1020,
+    333
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    505
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "22046bdb0397d2a4c062dec349db652c59b08d4d3fbe04e3569bb7fd19404f95",
+  "safe_decoded_rgb_sha256": "d8aed273d438c0bdb741514f0d71945dee46ac6ba0cc8b706ba30c463908e67b",
+  "verified_unchanged_pixels_outside_masks": 333920,
+  "source_unchanged": true,
+  "caption": "The initial debugger view simultaneously shows INSTRUMENTING, No events, an Enable logs to view events banner, and a file-not-found-in-repository warning. This records the displayed state, not proof that a Logs setup change is required."
+}

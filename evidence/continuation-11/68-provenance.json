@@ -1,0 +1,88 @@
+{
+  "id": "68",
+  "source_path": "68-minimum-manual-session-duration.jpg",
+  "source_sha256": "0f8d0777e15409213aed6175d477d969760f93447ae2d3f8fc5d81f50bfab860",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "68-session-duration-menu-safe.png",
+  "safe_sha256": "f8d1e1891650efffb453583ab0d9eeb4a3a2a55f7875a8387d01e76eb788155f",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        343,
+        134,
+        607,
+        167
+      ],
+      "output_xyxy": [
+        183,
+        1,
+        447,
+        34
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        807,
+        134,
+        910,
+        167
+      ],
+      "output_xyxy": [
+        647,
+        1,
+        750,
+        34
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name and avatar"
+    },
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        86,
+        240,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "f0f79790861074ff21ef0490892c02198517d6041273d2662295e4be13a5ba9b",
+  "safe_decoded_rgb_sha256": "0e0464f4c56f2ae233a8d4d4f61be0702b07e007f2c72767266a6af5e64872b6",
+  "verified_unchanged_pixels_outside_masks": 570689,
+  "source_unchanged": true,
+  "caption": "The open Set Session Duration menu visibly offers 1 Hour, 1 Day, 2 Days, and 1 Week. The shortest displayed option is 1 Hour. The screenshot does not establish a universal API or product minimum outside this menu."
+}

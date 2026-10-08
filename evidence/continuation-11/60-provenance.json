@@ -1,0 +1,27 @@
+{
+  "id": "60",
+  "source_path": "60-actions-free-allowance.jpg",
+  "source_sha256": "a69ea74d85c865d49b51b97b27ce76a112d2bfe86f5a345148e83c97afca3e3b",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "60-github-free-plan-visible-safe.png",
+  "safe_sha256": "366a58ae388a5dbb56062a12573702f843033576365b593ad77920e1a65a755a",
+  "safe_dimensions": [
+    807,
+    554
+  ],
+  "crop_source_xyxy": [
+    330,
+    193,
+    1137,
+    747
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "e07ecfc1a03ca08ad3272af5f120b0b5b38856fcc632eb8860d0f966377cb7b5",
+  "safe_decoded_rgb_sha256": "e07ecfc1a03ca08ad3272af5f120b0b5b38856fcc632eb8860d0f966377cb7b5",
+  "verified_unchanged_pixels_outside_masks": 447078,
+  "source_unchanged": true,
+  "caption": "Visible GitHub billing overview shows current metered usage $0, current included usage $0, and a GitHub Free subscription at $0.00 per month. This screenshot does not show an Actions minute allowance or quota."
+}

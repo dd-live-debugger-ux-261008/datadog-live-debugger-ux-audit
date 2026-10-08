@@ -1,0 +1,685 @@
+{
+  "schema_version": 1,
+  "purpose": "Publication-safe pixel evidence from recovered source screenshots 60, 62\u201369, and 71; originals remain unchanged.",
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Source-coordinate and output-coordinate masks are both recorded. Cropping changes extent only. Opaque masking changes only the specified rectangles. Annotation is separate and changes only 3-pixel outline pixels.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "script_path": "build_safe_evidence.py",
+    "script_sha256": "d075395f0cfbea71b80d672ad9af429609b0a69fd53a503778b38cdd1169fc3f",
+    "operations": [
+      "JPEG decode to RGB",
+      "integer-coordinate crop, no scaling",
+      "solid opaque masks",
+      "lossless RGB PNG save",
+      "separate 67 derivative adds red outlines; never reconstruct UI"
+    ],
+    "browser_or_secret_access": false
+  },
+  "images": [
+    {
+      "id": "60",
+      "source_path": "60-actions-free-allowance.jpg",
+      "source_sha256": "a69ea74d85c865d49b51b97b27ce76a112d2bfe86f5a345148e83c97afca3e3b",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "60-github-free-plan-visible-safe.png",
+      "safe_sha256": "366a58ae388a5dbb56062a12573702f843033576365b593ad77920e1a65a755a",
+      "safe_dimensions": [
+        807,
+        554
+      ],
+      "crop_source_xyxy": [
+        330,
+        193,
+        1137,
+        747
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "e07ecfc1a03ca08ad3272af5f120b0b5b38856fcc632eb8860d0f966377cb7b5",
+      "safe_decoded_rgb_sha256": "e07ecfc1a03ca08ad3272af5f120b0b5b38856fcc632eb8860d0f966377cb7b5",
+      "verified_unchanged_pixels_outside_masks": 447078,
+      "source_unchanged": true,
+      "caption": "Visible GitHub billing overview shows current metered usage $0, current included usage $0, and a GitHub Free subscription at $0.00 per month. This screenshot does not show an Actions minute allowance or quota."
+    },
+    {
+      "id": "62",
+      "source_path": "62-actions-runtime-sdk-registered.jpg",
+      "source_sha256": "2b67bf81be0b00d0fc61e855c7be3a06e4207247efd44cedd676029d707a0007",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "62-runtime-sdk-registration-safe.png",
+      "safe_sha256": "dde44e8d5675f24cdc15f7d725df856b50dcc652f32e1abb8d8c39b8f5794516",
+      "safe_dimensions": [
+        788,
+        453
+      ],
+      "crop_source_xyxy": [
+        340,
+        85,
+        1128,
+        538
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            535,
+            190,
+            846,
+            213
+          ],
+          "output_xyxy": [
+            195,
+            105,
+            506,
+            128
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "source revision identity"
+        },
+        {
+          "source_xyxy": [
+            535,
+            408,
+            846,
+            431
+          ],
+          "output_xyxy": [
+            195,
+            323,
+            506,
+            346
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "source revision identity"
+        },
+        {
+          "source_xyxy": [
+            733,
+            269,
+            967,
+            292
+          ],
+          "output_xyxy": [
+            393,
+            184,
+            627,
+            207
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            733,
+            487,
+            967,
+            510
+          ],
+          "output_xyxy": [
+            393,
+            402,
+            627,
+            425
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "7efacbde787c4dad636fa76857d30cfb810fafbc7dfeeb8231a6a6845f37cac2",
+      "safe_decoded_rgb_sha256": "ef6eed5db436773d3fbfcad03054b4700c10d2675bc84ceb0dfb3d7e62b5f95d",
+      "verified_unchanged_pixels_outside_masks": 331894,
+      "source_unchanged": true,
+      "caption": "Visible GitHub Actions log excerpt reports live_debugging_registered=true, python_client_present=true, sdk_4_11_0_present=true, and symbol_database_registered=true. These status booleans establish reported SDK registration in the excerpt; they are not themselves evidence of captured application values."
+    },
+    {
+      "id": "63",
+      "source_path": "63-staging-environment-available.jpg",
+      "source_sha256": "d3ce74e907a2f3ed4b4b9ac71752e7dfd7321818791536ee782593c43174481c",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "63-staging-environment-available-safe.png",
+      "safe_sha256": "e6f482d216c9440f21008fbd2a09e18b7e1a1d0ed07f55b701f764a317d57822",
+      "safe_dimensions": [
+        990,
+        349
+      ],
+      "crop_source_xyxy": [
+        160,
+        280,
+        1150,
+        629
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            307,
+            360,
+            566,
+            386
+          ],
+          "output_xyxy": [
+            147,
+            80,
+            406,
+            106
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4a02f60a1be4df6e70f23674c585ff165eee5f209b954e2db891726fab15beaf",
+      "safe_decoded_rgb_sha256": "98a1a413a25b1777e7fa5b2c1b6dd918c61b6ecf99a275df1e77084e3e76e5b3",
+      "verified_unchanged_pixels_outside_masks": 338776,
+      "source_unchanged": true,
+      "caption": "The new-session environment dropdown visibly offers staging, with the manual New Session control below. Runtime/service identity is masked."
+    },
+    {
+      "id": "64",
+      "source_path": "64-live-baseline-before-submit.jpg",
+      "source_sha256": "9b9a1ee80947d30d6f030910246f4fb864c926717f58e3a7afd7a694eca43c39",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "64-logpoint-before-submit-safe.png",
+      "safe_sha256": "06596a7dc5fbe18534ec13823b3308a07fea2d8cdc308b50d7093427c550a7bd",
+      "safe_dimensions": [
+        1062,
+        693
+      ],
+      "crop_source_xyxy": [
+        52,
+        48,
+        1114,
+        741
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            103,
+            148,
+            317,
+            171
+          ],
+          "output_xyxy": [
+            51,
+            100,
+            265,
+            123
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a3d79ca76ad87220f736477bdfe0be808663fab87ac7edf72e9a78074fa2411b",
+      "safe_decoded_rgb_sha256": "1f09401a2eb84893e2756b87a46fe954c3752a7a2182483829a4b12dbcfa9a9f",
+      "verified_unchanged_pixels_outside_masks": 731044,
+      "source_unchanged": true,
+      "caption": "The pre-submit logpoint form visibly targets pricing.py line 17 in staging and requests all variables up to 3 levels deep. The Start Debug Session button is still present; the screenshot does not by itself establish submission."
+    },
+    {
+      "id": "65",
+      "source_path": "65-session-created-enable-logs.jpg",
+      "source_sha256": "8c2300f2919bfd7445bb3a3a53ac249c59a5e9c8140e63b8c702184ba98234ae",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "65-initial-enable-logs-state-safe.png",
+      "safe_sha256": "58a283df1b55550d6538b2eae08e6e3b3ae27f3a55b52f6bc001ba0562f76a4b",
+      "safe_dimensions": [
+        1020,
+        333
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        505
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "22046bdb0397d2a4c062dec349db652c59b08d4d3fbe04e3569bb7fd19404f95",
+      "safe_decoded_rgb_sha256": "d8aed273d438c0bdb741514f0d71945dee46ac6ba0cc8b706ba30c463908e67b",
+      "verified_unchanged_pixels_outside_masks": 333920,
+      "source_unchanged": true,
+      "caption": "The initial debugger view simultaneously shows INSTRUMENTING, No events, an Enable logs to view events banner, and a file-not-found-in-repository warning. This records the displayed state, not proof that a Logs setup change is required."
+    },
+    {
+      "id": "66",
+      "source_path": "66-logs-present-without-enabling.jpg",
+      "source_sha256": "91cd6cf52b902e0fe9bc03e84d3e13a29883c10a7c2467c37c2d0ae43a9c5440",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_path": "66-log-explorer-receiving-events-safe.png",
+      "safe_sha256": "6acb30e4cc49bfa0ee3bcbb0b7c0f8c19ff20597084370d40c34ab49d582f95c",
+      "safe_dimensions": [
+        992,
+        670
+      ],
+      "crop_source_xyxy": [
+        158,
+        77,
+        1150,
+        747
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            620,
+            677,
+            1150,
+            747
+          ],
+          "output_xyxy": [
+            462,
+            600,
+            992,
+            670
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime host/service identities and clipped right-hand row data"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "14ad9f495fa7551f55323876cbac736619be5ee5478aa60c0203e21888bf84c2",
+      "safe_decoded_rgb_sha256": "9c2b85221744c722a1c318cddbc28aa37a2348edadb5784c2a1d5bb0fdc2fc96",
+      "verified_unchanged_pixels_outside_masks": 627540,
+      "source_unchanged": true,
+      "caption": "Log Explorer visibly contains 45 logs and recent nonzero histogram bars. The onboarding popover partially obscures the table. This still frame confirms that logs are present; the absence of an intervening setup mutation comes from the run chronology, not the pixels alone."
+    },
+    {
+      "id": "67",
+      "source_path": "67-first-verified-quantity-three-capture.jpg",
+      "source_sha256": "4bd48aeabc1cd7628d04f99fae9c291f686fdf20438748ad19a187a644c40a30",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "67-verified-quantity-three-safe.png",
+      "safe_sha256": "527a9509761c0ddbc7e97cd45bce2ffa97808916ef26f9445cea96822ff45de7",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "d1d33e0ec83a532738005f5139a209ac489a147fcea6d31e2d6df2bbecc87524",
+      "safe_decoded_rgb_sha256": "bf10a166bd4d029f83e85f610d11eca8028839b914d3b3e403c9c4433a81ea48",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "Verified capture displays quantity=3, discount_eligible=False, discount_cents=0, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The intended application total of 3240 is task context, not text shown in the screenshot. The pricing discrepancy is the planted application bug, not a Datadog defect. EVENTS RECEIVED and the repository-source warning are also visible.",
+      "timestamp_limit": "The visible event list is around Oct 08 02:32 in the displayed UTC-07:00 offset (around 09:32 UTC). The exact timestamp of the selected capture is not printed in this still. Any separately reported first-observation time must be cited to the run chronology, not this still.",
+      "annotation": {
+        "path": "67-verified-quantity-three-red-outlines.png",
+        "sha256": "efe85219b3faef148a5a1991f80b452679e0278a8db2f403b5c7263b6c5c36a9",
+        "dimensions": [
+          1020,
+          538
+        ],
+        "source_xyxy": [
+          [
+            707,
+            541,
+            818,
+            566
+          ],
+          [
+            707,
+            597,
+            915,
+            625
+          ],
+          [
+            707,
+            652,
+            857,
+            680
+          ]
+        ],
+        "output_xyxy": [
+          [
+            547,
+            369,
+            658,
+            394
+          ],
+          [
+            547,
+            425,
+            755,
+            453
+          ],
+          [
+            547,
+            480,
+            697,
+            508
+          ]
+        ],
+        "outline_rgb": [
+          220,
+          35,
+          35
+        ],
+        "width_pixels": 3,
+        "fields": [
+          "quantity = 3",
+          "discount_eligible = False",
+          "total_cents = 3600"
+        ],
+        "only_outline_pixels_changed": true
+      }
+    },
+    {
+      "id": "68",
+      "source_path": "68-minimum-manual-session-duration.jpg",
+      "source_sha256": "0f8d0777e15409213aed6175d477d969760f93447ae2d3f8fc5d81f50bfab860",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "68-session-duration-menu-safe.png",
+      "safe_sha256": "f8d1e1891650efffb453583ab0d9eeb4a3a2a55f7875a8387d01e76eb788155f",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            343,
+            134,
+            607,
+            167
+          ],
+          "output_xyxy": [
+            183,
+            1,
+            447,
+            34
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            134,
+            910,
+            167
+          ],
+          "output_xyxy": [
+            647,
+            1,
+            750,
+            34
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name and avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f0f79790861074ff21ef0490892c02198517d6041273d2662295e4be13a5ba9b",
+      "safe_decoded_rgb_sha256": "0e0464f4c56f2ae233a8d4d4f61be0702b07e007f2c72767266a6af5e64872b6",
+      "verified_unchanged_pixels_outside_masks": 570689,
+      "source_unchanged": true,
+      "caption": "The open Set Session Duration menu visibly offers 1 Hour, 1 Day, 2 Days, and 1 Week. The shortest displayed option is 1 Hour. The screenshot does not establish a universal API or product minimum outside this menu."
+    },
+    {
+      "id": "69",
+      "source_path": "69-quantity-two-capture.jpg",
+      "source_sha256": "f5e46e45f4ee4cc906fcefef42d6d9c021d7df5cb3e7a1df8132c0c955d4df5e",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "69-verified-quantity-two-safe.png",
+      "safe_sha256": "9b4dcfc8ce79c40d3a21902696479e19d7d9e686ba9fe8a1e08bf5c1bfa5034c",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ee39fb384f9d4caef0c879115a8efdc81e2beb9a7bfccdfa0c2c051ce5e356de",
+      "safe_decoded_rgb_sha256": "83855f3f7c73d658679993a09a092afdaaaf4cbc58383b53d36b1efc6e4fa46c",
+      "verified_unchanged_pixels_outside_masks": 543020,
+      "source_unchanged": true,
+      "caption": "Verified capture displays quantity=2, discount_eligible=False, discount_cents=0, subtotal_cents=2400, total_cents=2400, and unit_price_cents=1200. This is the quantity-two comparison capture."
+    },
+    {
+      "id": "71",
+      "source_path": "71-fresh-source-integration-connected.jpg",
+      "source_sha256": "967527efce8c35a53390d1b029f32ed6d6789439f82eb6ecedd3c6a13fe8c214",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_path": "71-source-integration-installed-safe.png",
+      "safe_sha256": "cd3b914b73b722b6dc734e05149f2964b55ed50cc7bfafcf982e7d3374becb89",
+      "safe_dimensions": [
+        1020,
+        460
+      ],
+      "crop_source_xyxy": [
+        160,
+        77,
+        1180,
+        537
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            432,
+            319,
+            632,
+            347
+          ],
+          "output_xyxy": [
+            272,
+            242,
+            472,
+            270
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "source integration account identity"
+        },
+        {
+          "source_xyxy": [
+            179,
+            492,
+            337,
+            517
+          ],
+          "output_xyxy": [
+            19,
+            415,
+            177,
+            440
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository name"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "354c4cb68ad787bfd392cb33c57d526727ab835e9817bdbe44750c55917f9ed3",
+      "safe_decoded_rgb_sha256": "18864bbce634f27c27ee83c92e47f3e62e042e187a6996fdabb929c37c259845",
+      "verified_unchanged_pixels_outside_masks": 459650,
+      "source_unchanged": true,
+      "caption": "The Datadog GitHub Apps configuration page visibly shows Installed, a Repositories count of 1, and one repository row. Account and repository identities are opaque-masked. The run chronology identifies this as the post-callback state following the fresh single-repository reinstall; this still alone does not establish actual source-code retrieval. This is screenshot-only evidence: recording stopped at 09:53:41 UTC on October 8, 2026, before the OAuth callback. The post-callback state was observed at approximately 09:55 UTC according to the run chronology; no observation timestamp is printed in the still.",
+      "source_medium": "screenshot-only; not contained in the recording",
+      "chronology_source": "Task owner run chronology; times are not printed in this screenshot",
+      "recording_stopped_at_utc": "2026-10-08T09:53:41Z",
+      "approximate_observation_at_utc": "2026-10-08T09:55:00Z",
+      "source_retrieval_verified_by_this_screenshot": false
+    }
+  ],
+  "additions": [
+    {
+      "id": "71",
+      "script_path": "add_evidence_71.py",
+      "script_sha256": "d1c3d91e8ef3140e4cec30ed9ee39e0d6013cf6161f0d0c388197f52606cfa0f",
+      "existing_artifact_bytes_preserved_except": [
+        "manifest.json",
+        "SHA256SUMS"
+      ],
+      "operations": [
+        "JPEG decode to RGB",
+        "integer-coordinate crop without scaling",
+        "two opaque identity masks",
+        "lossless RGB PNG save"
+      ],
+      "browser_or_secret_access": false,
+      "published": false
+    }
+  ]
+}

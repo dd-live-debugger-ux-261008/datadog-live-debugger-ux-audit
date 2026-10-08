@@ -1,0 +1,109 @@
+{
+  "id": "67",
+  "source_path": "67-first-verified-quantity-three-capture.jpg",
+  "source_sha256": "4bd48aeabc1cd7628d04f99fae9c291f686fdf20438748ad19a187a644c40a30",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "67-verified-quantity-three-safe.png",
+  "safe_sha256": "527a9509761c0ddbc7e97cd45bce2ffa97808916ef26f9445cea96822ff45de7",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "d1d33e0ec83a532738005f5139a209ac489a147fcea6d31e2d6df2bbecc87524",
+  "safe_decoded_rgb_sha256": "bf10a166bd4d029f83e85f610d11eca8028839b914d3b3e403c9c4433a81ea48",
+  "verified_unchanged_pixels_outside_masks": 543020,
+  "source_unchanged": true,
+  "caption": "Verified capture displays quantity=3, discount_eligible=False, discount_cents=0, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200. The intended application total of 3240 is task context, not text shown in the screenshot. The pricing discrepancy is the planted application bug, not a Datadog defect. EVENTS RECEIVED and the repository-source warning are also visible.",
+  "timestamp_limit": "The visible event list is around Oct 08 02:32 in the displayed UTC-07:00 offset (around 09:32 UTC). The exact timestamp of the selected capture is not printed in this still. Any separately reported first-observation time must be cited to the run chronology, not this still.",
+  "annotation": {
+    "path": "67-verified-quantity-three-red-outlines.png",
+    "sha256": "efe85219b3faef148a5a1991f80b452679e0278a8db2f403b5c7263b6c5c36a9",
+    "dimensions": [
+      1020,
+      538
+    ],
+    "source_xyxy": [
+      [
+        707,
+        541,
+        818,
+        566
+      ],
+      [
+        707,
+        597,
+        915,
+        625
+      ],
+      [
+        707,
+        652,
+        857,
+        680
+      ]
+    ],
+    "output_xyxy": [
+      [
+        547,
+        369,
+        658,
+        394
+      ],
+      [
+        547,
+        425,
+        755,
+        453
+      ],
+      [
+        547,
+        480,
+        697,
+        508
+      ]
+    ],
+    "outline_rgb": [
+      220,
+      35,
+      35
+    ],
+    "width_pixels": 3,
+    "fields": [
+      "quantity = 3",
+      "discount_eligible = False",
+      "total_cents = 3600"
+    ],
+    "only_outline_pixels_changed": true
+  }
+}

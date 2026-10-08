@@ -1,0 +1,48 @@
+{
+  "id": "66",
+  "source_path": "66-logs-present-without-enabling.jpg",
+  "source_sha256": "91cd6cf52b902e0fe9bc03e84d3e13a29883c10a7c2467c37c2d0ae43a9c5440",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_path": "66-log-explorer-receiving-events-safe.png",
+  "safe_sha256": "6acb30e4cc49bfa0ee3bcbb0b7c0f8c19ff20597084370d40c34ab49d582f95c",
+  "safe_dimensions": [
+    992,
+    670
+  ],
+  "crop_source_xyxy": [
+    158,
+    77,
+    1150,
+    747
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        620,
+        677,
+        1150,
+        747
+      ],
+      "output_xyxy": [
+        462,
+        600,
+        992,
+        670
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime host/service identities and clipped right-hand row data"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "14ad9f495fa7551f55323876cbac736619be5ee5478aa60c0203e21888bf84c2",
+  "safe_decoded_rgb_sha256": "9c2b85221744c722a1c318cddbc28aa37a2348edadb5784c2a1d5bb0fdc2fc96",
+  "verified_unchanged_pixels_outside_masks": 627540,
+  "source_unchanged": true,
+  "caption": "Log Explorer visibly contains 45 logs and recent nonzero histogram bars. The onboarding popover partially obscures the table. This still frame confirms that logs are present; the absence of an intervening setup mutation comes from the run chronology, not the pixels alone."
+}

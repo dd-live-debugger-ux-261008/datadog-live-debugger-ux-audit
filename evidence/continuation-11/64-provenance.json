@@ -1,0 +1,48 @@
+{
+  "id": "64",
+  "source_path": "64-live-baseline-before-submit.jpg",
+  "source_sha256": "9b9a1ee80947d30d6f030910246f4fb864c926717f58e3a7afd7a694eca43c39",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_path": "64-logpoint-before-submit-safe.png",
+  "safe_sha256": "06596a7dc5fbe18534ec13823b3308a07fea2d8cdc308b50d7093427c550a7bd",
+  "safe_dimensions": [
+    1062,
+    693
+  ],
+  "crop_source_xyxy": [
+    52,
+    48,
+    1114,
+    741
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        103,
+        148,
+        317,
+        171
+      ],
+      "output_xyxy": [
+        51,
+        100,
+        265,
+        123
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a3d79ca76ad87220f736477bdfe0be808663fab87ac7edf72e9a78074fa2411b",
+  "safe_decoded_rgb_sha256": "1f09401a2eb84893e2756b87a46fe954c3752a7a2182483829a4b12dbcfa9a9f",
+  "verified_unchanged_pixels_outside_masks": 731044,
+  "source_unchanged": true,
+  "caption": "The pre-submit logpoint form visibly targets pricing.py line 17 in staging and requests all variables up to 3 levels deep. The Start Debug Session button is still present; the screenshot does not by itself establish submission."
+}
