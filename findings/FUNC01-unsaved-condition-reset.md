@@ -51,3 +51,7 @@ Preserve dirty fields when applying remote updates. If reconciliation is necessa
 ## Remaining F09 scope
 
 A conflicting saved write, a stale-tab save of a different field, both-tab reload and new-capture revision checks still require their own evidence. This finding is sufficient to record F09 as FINDING for the observed dirty-draft branch; it does not mark every planned concurrency variant executed.
+
+## Foreground motion review update
+
+Source 13 foreground review shows the dirty quantity-three draft followed by a source/INSTRUMENTING view, rather than the exact quantity-four editor after-state in still 135. The movie will not be presented as a complete visible dirty-draft overwrite sequence. The reviewed before/after stills and rendered-editor chronology establish FUNC01; missing foreground steps are not reconstructed.
