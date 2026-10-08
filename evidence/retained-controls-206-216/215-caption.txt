@@ -1,0 +1,8 @@
+F17: the Date heading carries an ascending-sort indicator. The first three visible row times are 11:29:52.346, 11:30:03.142, and 11:30:15.052. The selected retained capture shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200.
+
+Visibility limits:
+- Direct still only; no continuous foreground-video claim.
+- These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.
+- Displayed event-list times are UI values, not independently verified snapshot execution timestamps.
+- The capture identity was checked separately and is not visible in this image. Matching displayed values alone do not prove identity.
+- The Date ordering and selected values are pictured; exact snapshot identity and the 18-rendered/18-unique event-ID count are separate checks.

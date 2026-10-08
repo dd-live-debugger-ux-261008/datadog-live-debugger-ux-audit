@@ -1,0 +1,161 @@
+{
+  "id": "211",
+  "source_filename": "211-filter-controls-restored.jpg",
+  "source_sha256": "0a6c130a50a7c7088ad868d4a445a15b3d089c8af3069487e40f784bc69ecb64",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "211-routed-session-loading-context-safe.png",
+  "safe_sha256": "02b656b89b2c296837cfb1404559d2dfa6e69201457b141b54f5d12c55ba0111",
+  "safe_dimensions": [
+    1007,
+    568
+  ],
+  "crop_source_xyxy": [
+    158,
+    132,
+    1165,
+    700
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        340,
+        132,
+        640,
+        167
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        482,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session title"
+    },
+    {
+      "source_xyxy": [
+        898,
+        132,
+        999,
+        167
+      ],
+      "output_xyxy": [
+        740,
+        0,
+        841,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "person name and avatar"
+    },
+    {
+      "source_xyxy": [
+        165,
+        216,
+        480,
+        246
+      ],
+      "output_xyxy": [
+        7,
+        84,
+        322,
+        114
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    },
+    {
+      "source_xyxy": [
+        165,
+        248,
+        480,
+        278
+      ],
+      "output_xyxy": [
+        7,
+        116,
+        322,
+        146
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    },
+    {
+      "source_xyxy": [
+        165,
+        281,
+        480,
+        311
+      ],
+      "output_xyxy": [
+        7,
+        149,
+        322,
+        179
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    },
+    {
+      "source_xyxy": [
+        165,
+        314,
+        480,
+        344
+      ],
+      "output_xyxy": [
+        7,
+        182,
+        322,
+        212
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "06d8b5f5e5c25e8dafd5e0ad0db765ff7c35a201deed6180f8c78167ce7dcdc2",
+  "safe_decoded_rgb_sha256": "b1090c6d22a73274f053406a9f668250665f56962f6597e5b0af330763141849",
+  "verified_unchanged_pixels_outside_masks": 520141,
+  "verified_solid_mask_pixels": 51835,
+  "source_unchanged": true,
+  "caption": "B05 route-context still: navigation has returned to an INACTIVE session. The source tab and Events heading reference nine logpoints, the range badge reads 1h, and the event pane is empty in this captured frame.",
+  "visible_evidence_limits": [
+    "Direct still only; no continuous foreground-video claim.",
+    "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+    "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+    "Despite the original filename, the Sessions List filter controls are not visible. This still cannot prove cleared Services/Environments filters or the restored six-result list.",
+    "The blank event pane is transitional context without a no-results diagnostic; no absence-of-captures conclusion is drawn.",
+    "The fully cleared list and Back/Forward behavior were checked separately."
+  ],
+  "evidence_medium": "Direct screenshot; not continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

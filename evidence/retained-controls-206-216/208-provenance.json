@@ -1,0 +1,121 @@
+{
+  "id": "208",
+  "source_filename": "208-draft-route-controls-final-clean-state.jpg",
+  "source_sha256": "9c18a4a9071fabb1402ac441fa4f29b60a4415b0a0dc86a4b7e61c4154501a2a",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "208-saved-definition-after-draft-checks-safe.png",
+  "safe_sha256": "aef69bd6ae2eb51ff22abb4fefabb89979a511ef7606c87e6ea3b5c0989f9708",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        647,
+        169
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        487,
+        36
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session title"
+    },
+    {
+      "source_xyxy": [
+        908,
+        133,
+        1009,
+        169
+      ],
+      "output_xyxy": [
+        748,
+        0,
+        849,
+        36
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "person name and avatar"
+    },
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        8,
+        85,
+        416,
+        116
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        311,
+        576,
+        346
+      ],
+      "output_xyxy": [
+        8,
+        178,
+        416,
+        213
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "7475e3639eafb4383932189eca5ab89a2e483e1a2f39aee64d5b9b0946403ece",
+  "safe_decoded_rgb_sha256": "daf4a6e340e710868745aa413d7fafbadcfff5e0879f6fcc9f2eebd4d293adb6",
+  "verified_unchanged_pixels_outside_masks": 546996,
+  "verified_solid_mask_pixels": 41544,
+  "source_unchanged": true,
+  "caption": "F14 final-state context: the INACTIVE session shows a DISABLED logpoint and the saved SOURCE_C1 quantity={quantity} total={total_cents} definition, with all-variable capture up to three levels. The Events heading references nine logpoints and retained rows remain visible.",
+  "visible_evidence_limits": [
+    "Direct still only; no continuous foreground-video claim.",
+    "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+    "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+    "No inline editor or new-logpoint modal is open in this frame. The still does not visually establish each Cancel, Escape, Back, Forward, refresh, or modal-close transition.",
+    "Separate recorded checks distinguish inline Escape, which left its unsaved draft open, from new-modal Escape, which closed the modal. All saved-definition checks occurred while disabled.",
+    "Only the visible child logpoint state is pictured; the nine-disabled-probe result was checked separately."
+  ],
+  "evidence_medium": "Direct screenshot; not continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

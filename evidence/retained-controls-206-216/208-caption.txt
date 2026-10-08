@@ -1,0 +1,9 @@
+F14 final-state context: the INACTIVE session shows a DISABLED logpoint and the saved SOURCE_C1 quantity={quantity} total={total_cents} definition, with all-variable capture up to three levels. The Events heading references nine logpoints and retained rows remain visible.
+
+Visibility limits:
+- Direct still only; no continuous foreground-video claim.
+- These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.
+- Displayed event-list times are UI values, not independently verified snapshot execution timestamps.
+- No inline editor or new-logpoint modal is open in this frame. The still does not visually establish each Cancel, Escape, Back, Forward, refresh, or modal-close transition.
+- Separate recorded checks distinguish inline Escape, which left its unsaved draft open, from new-modal Escape, which closed the modal. All saved-definition checks occurred while disabled.
+- Only the visible child logpoint state is pictured; the nine-disabled-probe result was checked separately.

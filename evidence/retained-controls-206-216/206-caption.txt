@@ -1,0 +1,8 @@
+F14 context still: the session is INACTIVE, the visible logpoint is DISABLED, and the Events heading references nine logpoints. Source text is present while the event grid is faded beneath a loading spinner.
+
+Visibility limits:
+- Direct still only; no continuous foreground-video claim.
+- These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.
+- Displayed event-list times are UI values, not independently verified snapshot execution timestamps.
+- Despite the original filename, no unsaved draft or cancellation action is visible. This is context only, not visual proof of draft entry or discard.
+- The seven cancellation/navigation outcomes are separate recorded checks, not a continuous sequence shown by this still.

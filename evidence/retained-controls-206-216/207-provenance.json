@@ -1,0 +1,141 @@
+{
+  "id": "207",
+  "source_filename": "207-existing-target-readonly-identity.jpg",
+  "source_sha256": "a70446c342cad2a59be7d5017d3db7a7bf6e1fa5965ec1df5e318d512bffe5db",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "207-existing-target-identity-controls-safe.png",
+  "safe_sha256": "006c668e2be34e8f8b5bd232af6119eb65d4015406bde6dcebfc2361c8af18ca",
+  "safe_dimensions": [
+    1037,
+    577
+  ],
+  "crop_source_xyxy": [
+    143,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        647,
+        169
+      ],
+      "output_xyxy": [
+        199,
+        0,
+        504,
+        36
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session title"
+    },
+    {
+      "source_xyxy": [
+        908,
+        133,
+        1009,
+        169
+      ],
+      "output_xyxy": [
+        765,
+        0,
+        866,
+        36
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "person name and avatar"
+    },
+    {
+      "source_xyxy": [
+        168,
+        218,
+        576,
+        249
+      ],
+      "output_xyxy": [
+        25,
+        85,
+        433,
+        116
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity"
+    },
+    {
+      "source_xyxy": [
+        160,
+        318,
+        382,
+        351
+      ],
+      "output_xyxy": [
+        17,
+        185,
+        239,
+        218
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service identity in popover"
+    },
+    {
+      "source_xyxy": [
+        432,
+        587,
+        531,
+        641
+      ],
+      "output_xyxy": [
+        289,
+        454,
+        388,
+        508
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator/modifier names and avatars"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "5a4507bd27bbba0e12f55a20d8d56946b5a7d4acd01c06881530ce22532bdda4",
+  "safe_decoded_rgb_sha256": "ab2477b72bd8fb76c5eef39ef26077733ea0977ec52cbf35c66bad351072e4ea",
+  "verified_unchanged_pixels_outside_masks": 558413,
+  "verified_solid_mask_pixels": 39936,
+  "source_unchanged": true,
+  "caption": "F15: the existing logpoint details popover displays env:staging, DISABLED, LOCATION pricing.py#17, and TARGETING INSTANCES with one instance. The targeting-tag field and Cancel/Save controls are visible; no service, environment, or location text editor is shown in this popover.",
+  "visible_evidence_limits": [
+    "Direct still only; no continuous foreground-video claim.",
+    "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+    "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+    "This shows the existing-target surface only. It does not prove all product routes lack an identity-changing control.",
+    "The targeting-tag field is editable; service, environment, and location appear as identity/display controls. Alternate creation was not executed.",
+    "No Save action is established by this still."
+  ],
+  "evidence_medium": "Direct screenshot; not continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

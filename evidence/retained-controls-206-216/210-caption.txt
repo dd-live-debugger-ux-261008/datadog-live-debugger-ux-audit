@@ -1,0 +1,6 @@
+B05: the open Services facet displays “No matching results” while the session-list tabs still show All 2, Active 0, and Inactive 2, with two INACTIVE session cards. Private search/selection values and card identities are masked.
+
+Visibility limits:
+- The no-match message belongs to the service-option search. It is not an empty session-result set.
+- Separate inspection confirmed the underlying selected service plus staging query remained active. The masked values do not visually prove that query.
+- Only staging existed; no Version control or cross-version dependency result is claimed.

@@ -1,0 +1,1282 @@
+{
+  "schema_version": 1,
+  "title": "Inactive retained-state controls: draft cancellation, target identity, populated filters, time range and sorting",
+  "source_still_ids": [
+    "206",
+    "207",
+    "208",
+    "209",
+    "210",
+    "211",
+    "213",
+    "214",
+    "215",
+    "216"
+  ],
+  "excluded_stills": [
+    {
+      "id": "212",
+      "reason": "Failed automation preparation. The custom range did not apply; not product-behavior evidence."
+    }
+  ],
+  "geometry_convention": "Zero-based half-open [left, top, right, bottom). Integer crops and solid opaque RGB masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "evidence_medium": "Direct still screenshots only. No continuous foreground-video claim.",
+  "scope": "Read-only retained-view controls on INACTIVE sessions and DISABLED logpoints. Viewing-stream pause/play did not resume capture. No newly confirmed product finding is claimed.",
+  "timestamp_limit": "Displayed UI event-list times are retained as shown and must not be substituted for independently verified snapshot execution times. No payload execution timestamp is visible in this pack.",
+  "privacy": "Private account, person/avatar, service, session, repository, probe-ID, and snapshot-ID identities are cropped or masked wherever present. Preserved SOURCE_* and B_ONLY_ISOLATED strings are synthetic test-case message labels, not private account or snapshot identifiers.",
+  "contextual_outcomes_not_proven_by_stills_alone": {
+    "F14": "Cancel discarded an existing inline draft; inline Escape left a draft open until Cancel; Back left the editor and Forward restored the saved definition; refresh discarded the draft. Closing a populated new-logpoint modal and reopening showed blank File/Line with service/environment retained; modal Escape closed it. These checks occurred while disabled, without Save/Apply or a warning.",
+    "F15": "The existing-target popover exposed targeting-tag editing, but no editable service/environment/location control. Alternate creation was not executed.",
+    "B05": "Recorded populated-list transitions were service A:1 result; service B:2; service B plus staging:2; nonmatching service-option search with actual list query unchanged; All services plus staging:6; fully cleared:6. Only staging existed, and no Version filter was exposed.",
+    "F17": "The verified five-minute interval excluded retained events; pause/play changed the viewing stream only; one-hour restoration returned historical events. Explicit descending and ascending ordering were tested. Separate identity inspection found the same selected snapshot after refresh and 18 rendered event IDs with 18 unique IDs. Ascending reset to default descending after refresh. No resumed capture or new product finding is claimed."
+  },
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "9a344b8f610484f7bf72a3c098a42b8ca74939e279f3c4a21da03394371fe900",
+    "batch_definition_sha256": "0f575f3952cf7b2e92b2230ac9d253644f40484db95ef33197a711d263fb04c8",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "206",
+      "source_filename": "206-f14-unsaved-cancel-draft.jpg",
+      "source_sha256": "4b82475c1a24353555cac6b82290c150575690f9a4652a55e36ad6fbcb19f73b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "206-inactive-draft-check-context-safe.png",
+      "safe_sha256": "961ff9136a64618acd3fce2ddab5f1c8160dfd6826f612a0a496fdcf7053ddc0",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            487,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            748,
+            0,
+            849,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            178,
+            416,
+            213
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "af9dab4acece767a959e4a5562c18028bf80ad22ec9f2fd1bdb565f1e1875bb4",
+      "safe_decoded_rgb_sha256": "6d3e44e528db665a85166debdfeb4dd50afa06b70ee500efe3a725ec4df4088e",
+      "verified_unchanged_pixels_outside_masks": 546996,
+      "verified_solid_mask_pixels": 41544,
+      "source_unchanged": true,
+      "caption": "F14 context still: the session is INACTIVE, the visible logpoint is DISABLED, and the Events heading references nine logpoints. Source text is present while the event grid is faded beneath a loading spinner.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "Despite the original filename, no unsaved draft or cancellation action is visible. This is context only, not visual proof of draft entry or discard.",
+        "The seven cancellation/navigation outcomes are separate recorded checks, not a continuous sequence shown by this still."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "207",
+      "source_filename": "207-existing-target-readonly-identity.jpg",
+      "source_sha256": "a70446c342cad2a59be7d5017d3db7a7bf6e1fa5965ec1df5e318d512bffe5db",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "207-existing-target-identity-controls-safe.png",
+      "safe_sha256": "006c668e2be34e8f8b5bd232af6119eb65d4015406bde6dcebfc2361c8af18ca",
+      "safe_dimensions": [
+        1037,
+        577
+      ],
+      "crop_source_xyxy": [
+        143,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            199,
+            0,
+            504,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            765,
+            0,
+            866,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            25,
+            85,
+            433,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        },
+        {
+          "source_xyxy": [
+            160,
+            318,
+            382,
+            351
+          ],
+          "output_xyxy": [
+            17,
+            185,
+            239,
+            218
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity in popover"
+        },
+        {
+          "source_xyxy": [
+            432,
+            587,
+            531,
+            641
+          ],
+          "output_xyxy": [
+            289,
+            454,
+            388,
+            508
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "creator/modifier names and avatars"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5a4507bd27bbba0e12f55a20d8d56946b5a7d4acd01c06881530ce22532bdda4",
+      "safe_decoded_rgb_sha256": "ab2477b72bd8fb76c5eef39ef26077733ea0977ec52cbf35c66bad351072e4ea",
+      "verified_unchanged_pixels_outside_masks": 558413,
+      "verified_solid_mask_pixels": 39936,
+      "source_unchanged": true,
+      "caption": "F15: the existing logpoint details popover displays env:staging, DISABLED, LOCATION pricing.py#17, and TARGETING INSTANCES with one instance. The targeting-tag field and Cancel/Save controls are visible; no service, environment, or location text editor is shown in this popover.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "This shows the existing-target surface only. It does not prove all product routes lack an identity-changing control.",
+        "The targeting-tag field is editable; service, environment, and location appear as identity/display controls. Alternate creation was not executed.",
+        "No Save action is established by this still."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "208",
+      "source_filename": "208-draft-route-controls-final-clean-state.jpg",
+      "source_sha256": "9c18a4a9071fabb1402ac441fa4f29b60a4415b0a0dc86a4b7e61c4154501a2a",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "208-saved-definition-after-draft-checks-safe.png",
+      "safe_sha256": "aef69bd6ae2eb51ff22abb4fefabb89979a511ef7606c87e6ea3b5c0989f9708",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            487,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            748,
+            0,
+            849,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            311,
+            576,
+            346
+          ],
+          "output_xyxy": [
+            8,
+            178,
+            416,
+            213
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "7475e3639eafb4383932189eca5ab89a2e483e1a2f39aee64d5b9b0946403ece",
+      "safe_decoded_rgb_sha256": "daf4a6e340e710868745aa413d7fafbadcfff5e0879f6fcc9f2eebd4d293adb6",
+      "verified_unchanged_pixels_outside_masks": 546996,
+      "verified_solid_mask_pixels": 41544,
+      "source_unchanged": true,
+      "caption": "F14 final-state context: the INACTIVE session shows a DISABLED logpoint and the saved SOURCE_C1 quantity={quantity} total={total_cents} definition, with all-variable capture up to three levels. The Events heading references nine logpoints and retained rows remain visible.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "No inline editor or new-logpoint modal is open in this frame. The still does not visually establish each Cancel, Escape, Back, Forward, refresh, or modal-close transition.",
+        "Separate recorded checks distinguish inline Escape, which left its unsaved draft open, from new-modal Escape, which closed the modal. All saved-definition checks occurred while disabled.",
+        "Only the visible child logpoint state is pictured; the nine-disabled-probe result was checked separately."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "209",
+      "source_filename": "209-c1-session-filter.jpg",
+      "source_sha256": "f84abbb2824044981a5fc228ba10019cb93c847c6188d696d2ed1160e5dd238b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "209-populated-service-facet-menu-safe.png",
+      "safe_sha256": "60573fc54502d5c31ee5088b0c9b3e9ffdf6eeae7171d446304aa361470f7b7f",
+      "safe_dimensions": [
+        1004,
+        616
+      ],
+      "crop_source_xyxy": [
+        160,
+        126,
+        1164,
+        742
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            574,
+            270,
+            725,
+            521
+          ],
+          "output_xyxy": [
+            414,
+            144,
+            565,
+            395
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service option values"
+        },
+        {
+          "source_xyxy": [
+            183,
+            384,
+            546,
+            543
+          ],
+          "output_xyxy": [
+            23,
+            258,
+            386,
+            417
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "first card session/service/avatar identities"
+        },
+        {
+          "source_xyxy": [
+            529,
+            521,
+            602,
+            543
+          ],
+          "output_xyxy": [
+            369,
+            395,
+            442,
+            417
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "first card creator identity"
+        },
+        {
+          "source_xyxy": [
+            183,
+            572,
+            610,
+            632
+          ],
+          "output_xyxy": [
+            23,
+            446,
+            450,
+            506
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "second card session/service/creator/avatar identities"
+        },
+        {
+          "source_xyxy": [
+            183,
+            664,
+            610,
+            732
+          ],
+          "output_xyxy": [
+            23,
+            538,
+            450,
+            606
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "third card session/service/creator/avatar identities"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b5f8f7bed2d6da95d0fec0bae98b98ebb6aec784102f5c96877f2e8f58288e78",
+      "safe_decoded_rgb_sha256": "5c87b18f902d5204e6daceedd986b37c96bcf9b7297c837098d2dd11d4b77ec8",
+      "verified_unchanged_pixels_outside_masks": 466958,
+      "verified_solid_mask_pixels": 151506,
+      "source_unchanged": true,
+      "caption": "B05: the Sessions List has its populated Services selection menu open. All 6, Active 0, and Inactive 6 are visible, with service-option checkboxes; private option values and card identities are masked.",
+      "visible_evidence_limits": [
+        "This frame shows the populated menu before a one-result selection is visibly established. Despite the original filename, it does not show a selected control service with one result.",
+        "The recorded service-filter transitions to one and two results were checked separately.",
+        "Only staging existed in the tested data. No Version filter is exposed on this Sessions List surface, and no two-environment or cross-version dependency outcome is claimed.",
+        "Only three of six session cards are visible in the viewport."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "210",
+      "source_filename": "210-service-search-no-match.jpg",
+      "source_sha256": "151c9d1995e1eb2b8c0dbd36e8c8541a7d0926a6b8a491a15940f58f598abeda",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "210-service-facet-search-no-match-safe.png",
+      "safe_sha256": "f16569e1cd5299684627ab656fe616a08613520610a762d06a11bedc8b879887",
+      "safe_dimensions": [
+        990,
+        518
+      ],
+      "crop_source_xyxy": [
+        158,
+        125,
+        1148,
+        643
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            547,
+            235,
+            974,
+            260
+          ],
+          "output_xyxy": [
+            389,
+            110,
+            816,
+            135
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private selected service and facet-search identifier"
+        },
+        {
+          "source_xyxy": [
+            183,
+            383,
+            743,
+            539
+          ],
+          "output_xyxy": [
+            25,
+            258,
+            585,
+            414
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "first card session/service/creator/avatar identities"
+        },
+        {
+          "source_xyxy": [
+            183,
+            571,
+            605,
+            632
+          ],
+          "output_xyxy": [
+            25,
+            446,
+            447,
+            507
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "second card session/service/creator/avatar identities"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a6b377ce5defc917917a76f7119b597ef7d310f15cdde7cb8ad92c942d974a2e",
+      "safe_decoded_rgb_sha256": "3af188e7153d93a8dc959d63df59c089c8ee87c043801e1b7e89f8511af69c20",
+      "verified_unchanged_pixels_outside_masks": 389043,
+      "verified_solid_mask_pixels": 123777,
+      "source_unchanged": true,
+      "caption": "B05: the open Services facet displays \u201cNo matching results\u201d while the session-list tabs still show All 2, Active 0, and Inactive 2, with two INACTIVE session cards. Private search/selection values and card identities are masked.",
+      "visible_evidence_limits": [
+        "The no-match message belongs to the service-option search. It is not an empty session-result set.",
+        "Separate inspection confirmed the underlying selected service plus staging query remained active. The masked values do not visually prove that query.",
+        "Only staging existed; no Version control or cross-version dependency result is claimed."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "211",
+      "source_filename": "211-filter-controls-restored.jpg",
+      "source_sha256": "0a6c130a50a7c7088ad868d4a445a15b3d089c8af3069487e40f784bc69ecb64",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "211-routed-session-loading-context-safe.png",
+      "safe_sha256": "02b656b89b2c296837cfb1404559d2dfa6e69201457b141b54f5d12c55ba0111",
+      "safe_dimensions": [
+        1007,
+        568
+      ],
+      "crop_source_xyxy": [
+        158,
+        132,
+        1165,
+        700
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            340,
+            132,
+            640,
+            167
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            482,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            898,
+            132,
+            999,
+            167
+          ],
+          "output_xyxy": [
+            740,
+            0,
+            841,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            165,
+            216,
+            480,
+            246
+          ],
+          "output_xyxy": [
+            7,
+            84,
+            322,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        },
+        {
+          "source_xyxy": [
+            165,
+            248,
+            480,
+            278
+          ],
+          "output_xyxy": [
+            7,
+            116,
+            322,
+            146
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        },
+        {
+          "source_xyxy": [
+            165,
+            281,
+            480,
+            311
+          ],
+          "output_xyxy": [
+            7,
+            149,
+            322,
+            179
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        },
+        {
+          "source_xyxy": [
+            165,
+            314,
+            480,
+            344
+          ],
+          "output_xyxy": [
+            7,
+            182,
+            322,
+            212
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "06d8b5f5e5c25e8dafd5e0ad0db765ff7c35a201deed6180f8c78167ce7dcdc2",
+      "safe_decoded_rgb_sha256": "b1090c6d22a73274f053406a9f668250665f56962f6597e5b0af330763141849",
+      "verified_unchanged_pixels_outside_masks": 520141,
+      "verified_solid_mask_pixels": 51835,
+      "source_unchanged": true,
+      "caption": "B05 route-context still: navigation has returned to an INACTIVE session. The source tab and Events heading reference nine logpoints, the range badge reads 1h, and the event pane is empty in this captured frame.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "Despite the original filename, the Sessions List filter controls are not visible. This still cannot prove cleared Services/Environments filters or the restored six-result list.",
+        "The blank event pane is transitional context without a no-results diagnostic; no absence-of-captures conclusion is drawn.",
+        "The fully cleared list and Back/Forward behavior were checked separately."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "213",
+      "source_filename": "213-five-minute-exclusion-verified.jpg",
+      "source_sha256": "0e1b338c37aaf98c7c29af3d5a2c560c390f509f6a0fa19ef3932923dd6d903b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "213-five-minute-retained-event-exclusion-safe.png",
+      "safe_sha256": "9b7dfe39cdb251a3e03cacddda92c5fb4d4f6c2fa7d422ef3635de9f472e8829",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            487,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            748,
+            0,
+            849,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "075f3043a504eacbc5d6ced448eaf08e63205eb4445ab26462bf311663276abb",
+      "safe_decoded_rgb_sha256": "df3b093954af33180c20dc125ee96c4d961810589a2bd7d40285ce6e54f6274f",
+      "verified_unchanged_pixels_outside_masks": 561276,
+      "verified_solid_mask_pixels": 27264,
+      "source_unchanged": true,
+      "caption": "F17: the selected range reads 5m / Past 5 Minutes and the event grid explicitly says \u201cNo results found for the selected time range.\u201d The session is INACTIVE and its single logpoint is DISABLED. The source pane retains its file-not-found warning.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "Separate inspection verified a 300000 ms URL interval. The numeric URL interval itself is not visible here.",
+        "The visible pause button belongs to the viewing stream. This is retained-event exclusion, not resumed live capture.",
+        "The earlier custom-range preparation attempt did not apply; screenshot 212 is excluded from this pack and is not scored as product behavior."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "214",
+      "source_filename": "214-retained-event-ordering.jpg",
+      "source_sha256": "8ee9fb9ab944955cdbf630458d6794abff9bdf0d7673bda247367d02a6dc3d3b",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "214-one-hour-descending-retained-events-safe.png",
+      "safe_sha256": "459b6431c63e3bc9563a1ffe45284dffda4e08a55838cb0ed40c0de0495a9574",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            487,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            748,
+            0,
+            849,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "6ffe835d4305894d6e7e137d6d905dd7b003f6ac2bdd5df3626b25062e724f7b",
+      "safe_decoded_rgb_sha256": "5a8668716b739ab1d826eb144abcb130e5a0b51449b6ae0c673c76a4d7b0f6b5",
+      "verified_unchanged_pixels_outside_masks": 561276,
+      "verified_solid_mask_pixels": 27264,
+      "source_unchanged": true,
+      "caption": "F17: restoring Past 1 Hour displays historical B_ONLY_ISOLATED events. The Date heading carries a descending-sort indicator, and the visible rows run from 11:33:01.247 downward to earlier times. INACTIVE and DISABLED remain visible.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "This is a historical view restored from the five-minute exclusion. Rows returning does not establish new event arrival.",
+        "Only the captured viewport is shown; a complete event count cannot be inferred from it."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "215",
+      "source_filename": "215-ascending-events-and-selected-identity.jpg",
+      "source_sha256": "ba250c2fcc98d16031dfd32ae1263c7181e37b2e4034b5155b2621069cd32f2c",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "215-ascending-retained-values-safe.png",
+      "safe_sha256": "1bcbd6b97ff9ba7ca2c9370f89204bbc304350b142fbad626e055ff8f4ea4824",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            487,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            748,
+            0,
+            849,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "4ef9665af7cd10742e6c18169506fd03285d419933eab37176028dcfb470d416",
+      "safe_decoded_rgb_sha256": "6a252f8e95a897e899ef89fe414058873b146a2033b529cd1c45c6d30e366f57",
+      "verified_unchanged_pixels_outside_masks": 561276,
+      "verified_solid_mask_pixels": 27264,
+      "source_unchanged": true,
+      "caption": "F17: the Date heading carries an ascending-sort indicator. The first three visible row times are 11:29:52.346, 11:30:03.142, and 11:30:15.052. The selected retained capture shows quantity=3, discount_cents=0, discount_eligible=False, subtotal_cents=3600, total_cents=3600, and unit_price_cents=1200.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "The capture identity was checked separately and is not visible in this image. Matching displayed values alone do not prove identity.",
+        "The Date ordering and selected values are pictured; exact snapshot identity and the 18-rendered/18-unique event-ID count are separate checks."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "216",
+      "source_filename": "216-event-identity-after-refresh.jpg",
+      "source_sha256": "e2437a589b7b5d96329c64b91224064c751615354e0ffb0a3c0444031d632ab7",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "216-post-refresh-default-order-values-safe.png",
+      "safe_sha256": "3e416bfe79b672a48120feb5f5066fa9be9e753cf63daa552b9ba90f79f455f6",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            647,
+            169
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            487,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session title"
+        },
+        {
+          "source_xyxy": [
+            908,
+            133,
+            1009,
+            169
+          ],
+          "output_xyxy": [
+            748,
+            0,
+            849,
+            36
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "person name and avatar"
+        },
+        {
+          "source_xyxy": [
+            168,
+            218,
+            576,
+            249
+          ],
+          "output_xyxy": [
+            8,
+            85,
+            416,
+            116
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "f6f3769fdbf02f2e1bfc84b7c40ba91828916cb82ae2daea01828cf3b7445a4e",
+      "safe_decoded_rgb_sha256": "ba9d2dee9d385bee78cc8d50aa3b6cba93cc73065a30903ef5e991eaaa671f0d",
+      "verified_unchanged_pixels_outside_masks": 561276,
+      "verified_solid_mask_pixels": 27264,
+      "source_unchanged": true,
+      "caption": "F17 after refresh: Past 1 Hour remains selected and the Date heading has no explicit sort marker; visible historical rows are descending again. The selected retained capture still displays quantity=3 and total_cents=3600, with the same visible pricing values. INACTIVE and DISABLED remain visible.",
+      "visible_evidence_limits": [
+        "Direct still only; no continuous foreground-video claim.",
+        "These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.",
+        "Displayed event-list times are UI values, not independently verified snapshot execution timestamps.",
+        "Separate inspection established that the same selected snapshot identity survived refresh. Its private ID is not shown or reproduced here.",
+        "The earlier explicit ascending setting reset to the default/unmarked Date order; this is a recorded control observation, not a newly confirmed product finding.",
+        "The screenshot does not establish a fresh capture or reactivation."
+      ],
+      "evidence_medium": "Direct screenshot; not continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "206-caption.txt",
+    "206-inactive-draft-check-context-safe.png",
+    "206-provenance.json",
+    "207-caption.txt",
+    "207-existing-target-identity-controls-safe.png",
+    "207-provenance.json",
+    "208-caption.txt",
+    "208-provenance.json",
+    "208-saved-definition-after-draft-checks-safe.png",
+    "209-caption.txt",
+    "209-populated-service-facet-menu-safe.png",
+    "209-provenance.json",
+    "210-caption.txt",
+    "210-provenance.json",
+    "210-service-facet-search-no-match-safe.png",
+    "211-caption.txt",
+    "211-provenance.json",
+    "211-routed-session-loading-context-safe.png",
+    "213-caption.txt",
+    "213-five-minute-retained-event-exclusion-safe.png",
+    "213-provenance.json",
+    "214-caption.txt",
+    "214-one-hour-descending-retained-events-safe.png",
+    "214-provenance.json",
+    "215-ascending-retained-values-safe.png",
+    "215-caption.txt",
+    "215-provenance.json",
+    "216-caption.txt",
+    "216-post-refresh-default-order-values-safe.png",
+    "216-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ],
+  "quality_assurance": {
+    "visual_inspection": "All 10 output images inspected at native pixel geometry for identifier exposure, mask edges, evidence legibility, control state, and caption scope.",
+    "ocr": "All 10 outputs scanned with Tesseract in both default page segmentation (3) and sparse-text (11) modes. Private account/person, service, session, runtime, fixture/search, probe/snapshot, and UUID pattern searches returned no matches. OCR is an auxiliary check and was not used to reconstruct source content.",
+    "caption_review": "Each caption states visible evidence and separate limits. Filenames 206, 209, and 211 do not establish the actions their names imply; captions expressly limit those stills. Contextual outcome checks are identified separately from visible proof.",
+    "exact_pixel_preservation_verified": true,
+    "unmasked_pixels_verified": 5273651,
+    "solid_mask_pixels_verified": 559198,
+    "original_hashes_rechecked": 11,
+    "included_originals": 10,
+    "excluded_originals": 1,
+    "all_originals_unchanged": true,
+    "earlier_frozen_files_rechecked": 147,
+    "earlier_frozen_pack_unchanged": true,
+    "output_metadata": "No copied source metadata, EXIF, ICC profile, or comments.",
+    "frozen": true,
+    "frozen_utc": "2026-10-08T19:00:01.659227+00:00",
+    "publication_status": "Prepared locally only. No browser access or external publication."
+  }
+}

@@ -1,0 +1,9 @@
+F17: the selected range reads 5m / Past 5 Minutes and the event grid explicitly says “No results found for the selected time range.” The session is INACTIVE and its single logpoint is DISABLED. The source pane retains its file-not-found warning.
+
+Visibility limits:
+- Direct still only; no continuous foreground-video claim.
+- These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.
+- Displayed event-list times are UI values, not independently verified snapshot execution timestamps.
+- Separate inspection verified a 300000 ms URL interval. The numeric URL interval itself is not visible here.
+- The visible pause button belongs to the viewing stream. This is retained-event exclusion, not resumed live capture.
+- The earlier custom-range preparation attempt did not apply; screenshot 212 is excluded from this pack and is not scored as product behavior.

@@ -1,0 +1,9 @@
+F15: the existing logpoint details popover displays env:staging, DISABLED, LOCATION pricing.py#17, and TARGETING INSTANCES with one instance. The targeting-tag field and Cancel/Save controls are visible; no service, environment, or location text editor is shown in this popover.
+
+Visibility limits:
+- Direct still only; no continuous foreground-video claim.
+- These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.
+- Displayed event-list times are UI values, not independently verified snapshot execution timestamps.
+- This shows the existing-target surface only. It does not prove all product routes lack an identity-changing control.
+- The targeting-tag field is editable; service, environment, and location appear as identity/display controls. Alternate creation was not executed.
+- No Save action is established by this still.

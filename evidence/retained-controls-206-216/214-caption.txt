@@ -1,0 +1,8 @@
+F17: restoring Past 1 Hour displays historical B_ONLY_ISOLATED events. The Date heading carries a descending-sort indicator, and the visible rows run from 11:33:01.247 downward to earlier times. INACTIVE and DISABLED remain visible.
+
+Visibility limits:
+- Direct still only; no continuous foreground-video claim.
+- These checks used retained data while the session was inactive and its logpoints disabled. Viewing-stream play/pause did not resume capture.
+- Displayed event-list times are UI values, not independently verified snapshot execution timestamps.
+- This is a historical view restored from the five-minute exclusion. Rows returning does not establish new event arrival.
+- Only the captured viewport is shown; a complete event count cannot be inferred from it.

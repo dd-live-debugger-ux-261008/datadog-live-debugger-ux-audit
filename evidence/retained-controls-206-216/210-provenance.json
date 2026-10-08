@@ -1,0 +1,98 @@
+{
+  "id": "210",
+  "source_filename": "210-service-search-no-match.jpg",
+  "source_sha256": "151c9d1995e1eb2b8c0dbd36e8c8541a7d0926a6b8a491a15940f58f598abeda",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "210-service-facet-search-no-match-safe.png",
+  "safe_sha256": "f16569e1cd5299684627ab656fe616a08613520610a762d06a11bedc8b879887",
+  "safe_dimensions": [
+    990,
+    518
+  ],
+  "crop_source_xyxy": [
+    158,
+    125,
+    1148,
+    643
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        547,
+        235,
+        974,
+        260
+      ],
+      "output_xyxy": [
+        389,
+        110,
+        816,
+        135
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private selected service and facet-search identifier"
+    },
+    {
+      "source_xyxy": [
+        183,
+        383,
+        743,
+        539
+      ],
+      "output_xyxy": [
+        25,
+        258,
+        585,
+        414
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "first card session/service/creator/avatar identities"
+    },
+    {
+      "source_xyxy": [
+        183,
+        571,
+        605,
+        632
+      ],
+      "output_xyxy": [
+        25,
+        446,
+        447,
+        507
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "second card session/service/creator/avatar identities"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a6b377ce5defc917917a76f7119b597ef7d310f15cdde7cb8ad92c942d974a2e",
+  "safe_decoded_rgb_sha256": "3af188e7153d93a8dc959d63df59c089c8ee87c043801e1b7e89f8511af69c20",
+  "verified_unchanged_pixels_outside_masks": 389043,
+  "verified_solid_mask_pixels": 123777,
+  "source_unchanged": true,
+  "caption": "B05: the open Services facet displays \u201cNo matching results\u201d while the session-list tabs still show All 2, Active 0, and Inactive 2, with two INACTIVE session cards. Private search/selection values and card identities are masked.",
+  "visible_evidence_limits": [
+    "The no-match message belongs to the service-option search. It is not an empty session-result set.",
+    "Separate inspection confirmed the underlying selected service plus staging query remained active. The masked values do not visually prove that query.",
+    "Only staging existed; no Version control or cross-version dependency result is claimed."
+  ],
+  "evidence_medium": "Direct screenshot; not continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

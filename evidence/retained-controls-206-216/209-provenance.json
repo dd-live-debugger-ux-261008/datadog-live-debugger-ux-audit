@@ -1,0 +1,139 @@
+{
+  "id": "209",
+  "source_filename": "209-c1-session-filter.jpg",
+  "source_sha256": "f84abbb2824044981a5fc228ba10019cb93c847c6188d696d2ed1160e5dd238b",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "209-populated-service-facet-menu-safe.png",
+  "safe_sha256": "60573fc54502d5c31ee5088b0c9b3e9ffdf6eeae7171d446304aa361470f7b7f",
+  "safe_dimensions": [
+    1004,
+    616
+  ],
+  "crop_source_xyxy": [
+    160,
+    126,
+    1164,
+    742
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        574,
+        270,
+        725,
+        521
+      ],
+      "output_xyxy": [
+        414,
+        144,
+        565,
+        395
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service option values"
+    },
+    {
+      "source_xyxy": [
+        183,
+        384,
+        546,
+        543
+      ],
+      "output_xyxy": [
+        23,
+        258,
+        386,
+        417
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "first card session/service/avatar identities"
+    },
+    {
+      "source_xyxy": [
+        529,
+        521,
+        602,
+        543
+      ],
+      "output_xyxy": [
+        369,
+        395,
+        442,
+        417
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "first card creator identity"
+    },
+    {
+      "source_xyxy": [
+        183,
+        572,
+        610,
+        632
+      ],
+      "output_xyxy": [
+        23,
+        446,
+        450,
+        506
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "second card session/service/creator/avatar identities"
+    },
+    {
+      "source_xyxy": [
+        183,
+        664,
+        610,
+        732
+      ],
+      "output_xyxy": [
+        23,
+        538,
+        450,
+        606
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "third card session/service/creator/avatar identities"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b5f8f7bed2d6da95d0fec0bae98b98ebb6aec784102f5c96877f2e8f58288e78",
+  "safe_decoded_rgb_sha256": "5c87b18f902d5204e6daceedd986b37c96bcf9b7297c837098d2dd11d4b77ec8",
+  "verified_unchanged_pixels_outside_masks": 466958,
+  "verified_solid_mask_pixels": 151506,
+  "source_unchanged": true,
+  "caption": "B05: the Sessions List has its populated Services selection menu open. All 6, Active 0, and Inactive 6 are visible, with service-option checkboxes; private option values and card identities are masked.",
+  "visible_evidence_limits": [
+    "This frame shows the populated menu before a one-result selection is visibly established. Despite the original filename, it does not show a selected control service with one result.",
+    "The recorded service-filter transitions to one and two results were checked separately.",
+    "Only staging existed in the tested data. No Version filter is exposed on this Sessions List surface, and no two-environment or cross-version dependency outcome is claimed.",
+    "Only three of six session cards are visible in the viewport."
+  ],
+  "evidence_medium": "Direct screenshot; not continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

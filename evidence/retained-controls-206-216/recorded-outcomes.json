@@ -1,0 +1,119 @@
+{
+  "f14-draft-cancellation-outcomes": {
+    "checked_utc": "2026-10-08T18:42:30Z",
+    "case": "F14",
+    "baseline_template": "SOURCE_C1 quantity={quantity} total={total_cents}",
+    "baseline_probe_count": 9,
+    "attempts": [
+      {
+        "action": "Cancel existing edit",
+        "draft": "F14_CANCEL_UNSAVED quantity={quantity}",
+        "result": "Draft discarded; original template shown afterward; nine probes disabled."
+      },
+      {
+        "action": "Escape existing inline edit",
+        "draft": "F14_ESCAPE_UNSAVED quantity={quantity}",
+        "result": "Escape left inline draft open and unsaved; Cancel then discarded it. No publication."
+      },
+      {
+        "action": "Back during existing edit",
+        "draft": "F14_BACK_UNSAVED quantity={quantity}",
+        "result": "Returned to sessions list; unsaved text absent."
+      },
+      {
+        "action": "Forward after Back",
+        "result": "Returned to same session/probe ID; original saved template persisted, unsaved draft absent."
+      },
+      {
+        "action": "Refresh during existing edit",
+        "draft": "F14_REFRESH_UNSAVED quantity={quantity}",
+        "result": "After reload original template present, unsaved text absent, nine disabled probes, inactive session."
+      },
+      {
+        "action": "Close populated new-probe modal",
+        "draft": "F14_CLOSE_NEW_DRAFT quantity={quantity}",
+        "target": "C1/staging/pricing.py:17",
+        "result": "Reopen blank File/Line with C1/staging retained; draft absent."
+      },
+      {
+        "action": "Escape populated new-probe modal",
+        "target": "C1/staging/pricing.py:17",
+        "result": "Modal closed; nine disabled probes; session inactive."
+      }
+    ],
+    "save_or_apply_clicked": false,
+    "warning_observed": false,
+    "limits": "No cancellation attempt was a live-active edit; saved probe was already disabled. Existing inline Escape behavior differs from modal Escape."
+  },
+  "b05-populated-filter-outcomes": {
+    "case": "B05",
+    "checked_utc": "2026-10-08T18:45:39Z",
+    "surface": "Populated Live Debugger Sessions List",
+    "transitions": [
+      {
+        "service": "control-c1",
+        "env": "All",
+        "results": 1
+      },
+      {
+        "service": "wrong-repo-b-sha",
+        "env": "All",
+        "results": 2
+      },
+      {
+        "service": "wrong-repo-b-sha",
+        "env": "staging",
+        "results": 2
+      },
+      {
+        "facet_search": "qa-no-such-service-20261008",
+        "result": "No matching results; actual list query remained explicit serviceB plusstaging"
+      },
+      {
+        "service": "All",
+        "env": "staging",
+        "results": 6
+      },
+      {
+        "service": "All",
+        "env": "All",
+        "results": 6
+      }
+    ],
+    "history": "Back returned to same prior session; Forward returned to fully cleared list",
+    "limits": "Onlystaging exists; no Version filter is exposed in Sessions List. No two real environments or cross-version dependency result claimed.",
+    "probes_activated": false
+  },
+  "f17-retained-control-outcomes": {
+    "case": "F17",
+    "checked_utc": "2026-10-08T18:51:18Z",
+    "capture_state": "INACTIVE/DISABLED throughout",
+    "steps": [
+      {
+        "control": "Past5Minutes",
+        "observed": "Verified URL interval300000ms and explicit no-results-for-selected-time-range message; retained captures excluded."
+      },
+      {
+        "control": "Pause then Play viewing stream",
+        "observed": "paused=true then paused=false; session remainedINACTIVE."
+      },
+      {
+        "control": "RestorePast1Hour",
+        "observed": "Historical B_ONLY_ISOLATED captures returned."
+      },
+      {
+        "control": "Date sort",
+        "observed": "Explicit descending then ascending; ascending starts11:29:52.346,11:30:03.142,11:30:15.052PDT."
+      },
+      {
+        "control": "Select quantity3 and refresh",
+        "observed": "Snapshot[verified identifier omitted] retained, quantity3,total3600;18 rendered event IDs and18unique IDs."
+      },
+      {
+        "control": "Sort after refresh",
+        "observed": "Explicit ascending setting reset to default/unmarkedDate with descending historical rows."
+      }
+    ],
+    "limits": "Read-only retained-event sequence, not resumed live capture. No event-content filters exist on this session event grid; separate service/environment filters were cleared underB05. Initial custom-range automation attempt did not apply and is marked separately, not scored as product behavior."
+  }
+}

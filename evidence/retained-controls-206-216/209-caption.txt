@@ -1,0 +1,7 @@
+B05: the Sessions List has its populated Services selection menu open. All 6, Active 0, and Inactive 6 are visible, with service-option checkboxes; private option values and card identities are masked.
+
+Visibility limits:
+- This frame shows the populated menu before a one-result selection is visibly established. Despite the original filename, it does not show a selected control service with one result.
+- The recorded service-filter transitions to one and two results were checked separately.
+- Only staging existed in the tested data. No Version filter is exposed on this Sessions List surface, and no two-environment or cross-version dependency outcome is claimed.
+- Only three of six session cards are visible in the viewport.
