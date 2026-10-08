@@ -1,0 +1,183 @@
+{
+  "id": "163-outlined",
+  "finding_id": "FUNC03",
+  "severity": "Low",
+  "source_safe_filename": "163-line-10-unsupported-decorator-hint-safe.png",
+  "source_safe_public_relative_path": "evidence/control-phase-155-167/163-line-10-unsupported-decorator-hint-safe.png",
+  "source_safe_sha256": "82bad0699eece5939bc8500f94b7fee0ffde340b5bb743ee8e486ededdf4758c",
+  "original_source_filename": "163-blank-line-installation-result.jpg",
+  "original_source_sha256": "3935a534d53697994e82147a1235c4423ca2633303dad9529145ed78a72355ee",
+  "filename": "163-line-10-unsupported-decorator-hint-outlined.png",
+  "public_relative_path": "evidence/control-phase-155-167/annotation/163-line-10-unsupported-decorator-hint-outlined.png",
+  "sha256": "6ac0982f383c67bf63a37e949a70895cc8a1df7b9cdca0a7cbf4ffd5cc5c6163",
+  "dimensions": [
+    1036,
+    582
+  ],
+  "source_crop_xyxy": [
+    144,
+    172,
+    1180,
+    754
+  ],
+  "inherited_opaque_masks": [
+    {
+      "source_xyxy": [
+        193,
+        288,
+        394,
+        317
+      ],
+      "output_xyxy": [
+        49,
+        116,
+        250,
+        145
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity in detail-card header"
+    },
+    {
+      "source_xyxy": [
+        398,
+        376,
+        534,
+        395
+      ],
+      "output_xyxy": [
+        254,
+        204,
+        390,
+        223
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        394,
+        286,
+        414
+      ],
+      "output_xyxy": [
+        24,
+        222,
+        142,
+        242
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "probe identifier second wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        412,
+        534,
+        431
+      ],
+      "output_xyxy": [
+        24,
+        240,
+        390,
+        259
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private source path first wrapped line"
+    },
+    {
+      "source_xyxy": [
+        168,
+        430,
+        283,
+        449
+      ],
+      "output_xyxy": [
+        24,
+        258,
+        139,
+        277
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private source path second wrapped line; public location card retained"
+    },
+    {
+      "source_xyxy": [
+        435,
+        663,
+        525,
+        690
+      ],
+      "output_xyxy": [
+        291,
+        491,
+        381,
+        518
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "creator profile identity"
+    }
+  ],
+  "outline_source_xyxy": [
+    [
+      162,
+      355,
+      532,
+      472
+    ],
+    [
+      162,
+      511,
+      286,
+      540
+    ]
+  ],
+  "outline_output_xyxy": [
+    [
+      18,
+      183,
+      388,
+      300
+    ],
+    [
+      18,
+      339,
+      142,
+      368
+    ]
+  ],
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Thin two-pixel outlines are drawn inward around the visible diagnostic and location.",
+  "outline_rgb": [
+    220,
+    35,
+    35
+  ],
+  "outline_width_pixels": 2,
+  "only_outline_pixels_changed": true,
+  "source_safe_image_unchanged": true,
+  "caption": "Separate thin-outline derivative for Low FUNC03, based on the frozen safe screenshot 163. The outlines mark only the genuine NoFunctionsAtLine diagnostic, its unsupported-decorator guidance, and the pricing.py#10 location. Existing opaque identity/path masks are preserved unchanged; no UI content or causal text is reconstructed. The task owner separately verified that line 10 is blank in a plain undecorated function and that valid line 17 captures. Exact ddtrace v4.11.0 source/installed-byte comparison and the Python 3.13.5 blank/executable-line check are separate evidence. The finding concerns misleading diagnostic guidance; rejection of the invalid line is correct."
+}
