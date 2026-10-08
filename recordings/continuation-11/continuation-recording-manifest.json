@@ -1,0 +1,682 @@
+{
+  "version": 1,
+  "scope": "New source 11 continuation only; earlier frozen media and reports remain unchanged.",
+  "source": {
+    "file": "onboarding-11-raw.mkv",
+    "duration_seconds": 2936.25,
+    "bytes": 70576920,
+    "sha256": "062b9d333ecfbfe613c1d87de0ef3ac06119f22a85a07ced01e116cafe494fca",
+    "utc_start": "2026-10-08T09:04:45+00:00",
+    "utc_end": "2026-10-08T09:53:41.250000+00:00",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end); seconds from recording start. Caption clocks are reconstructed UTC. Original-speed sections, no inserted title-card time.",
+  "retained_seconds": 2041.85,
+  "omitted_seconds": 894.4,
+  "retained": [
+    {
+      "source_start_seconds": 70.5,
+      "source_end_seconds": 106.5,
+      "duration_seconds": 36.0,
+      "utc_start": "2026-10-08T09:05:55.500000+00:00",
+      "utc_end": "2026-10-08T09:06:31.500000+00:00",
+      "title": "GitHub Free billing overview",
+      "requested_crop_source_xywh": [
+        428,
+        368,
+        812,
+        566
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        368,
+        812,
+        566
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-11-part-01-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 36.0
+    },
+    {
+      "source_start_seconds": 819.9,
+      "source_end_seconds": 1023.75,
+      "duration_seconds": 203.85,
+      "utc_start": "2026-10-08T09:18:24.900000+00:00",
+      "utc_end": "2026-10-08T09:21:48.750000+00:00",
+      "title": "Manual workflow launch and retained running interval",
+      "requested_crop_source_xywh": [
+        428,
+        275,
+        826,
+        642
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        275,
+        826,
+        642
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          445,
+          406,
+          363,
+          72
+        ],
+        [
+          428,
+          902,
+          826,
+          15
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-01-sanitized.mp4",
+      "output_start_seconds": 36.0,
+      "output_end_seconds": 239.85
+    },
+    {
+      "source_start_seconds": 1112,
+      "source_end_seconds": 1125.3,
+      "duration_seconds": 13.3,
+      "utc_start": "2026-10-08T09:23:17+00:00",
+      "utc_end": "2026-10-08T09:23:30.300000+00:00",
+      "title": "Reported SDK registration status",
+      "requested_crop_source_xywh": [
+        432,
+        260,
+        788,
+        453
+      ],
+      "effective_crop_source_xywh": [
+        432,
+        260,
+        788,
+        454
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          620,
+          361,
+          330,
+          32
+        ],
+        [
+          620,
+          579,
+          330,
+          32
+        ],
+        [
+          819,
+          449,
+          250,
+          20
+        ],
+        [
+          819,
+          669,
+          250,
+          20
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-01-sanitized.mp4",
+      "output_start_seconds": 239.85,
+      "output_end_seconds": 253.15
+    },
+    {
+      "source_start_seconds": 1129.15,
+      "source_end_seconds": 1163.05,
+      "duration_seconds": 33.9,
+      "utc_start": "2026-10-08T09:23:34.150000+00:00",
+      "utc_end": "2026-10-08T09:24:08.050000+00:00",
+      "title": "Runtime service and staging environment available",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          366,
+          500,
+          386,
+          173
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-01-sanitized.mp4",
+      "output_start_seconds": 253.15,
+      "output_end_seconds": 287.05
+    },
+    {
+      "source_start_seconds": 1164,
+      "source_end_seconds": 1409.9,
+      "duration_seconds": 245.9,
+      "utc_start": "2026-10-08T09:24:09+00:00",
+      "utc_end": "2026-10-08T09:28:14.900000+00:00",
+      "title": "Manual file entry and first session submission",
+      "requested_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        693
+      ],
+      "effective_crop_source_xywh": [
+        144,
+        223,
+        1062,
+        694
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          180,
+          318,
+          335,
+          34
+        ],
+        [
+          144,
+          900,
+          810,
+          16
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-01-sanitized.mp4",
+      "output_start_seconds": 287.05,
+      "output_end_seconds": 532.95
+    },
+    {
+      "source_start_seconds": 1409.9,
+      "source_end_seconds": 1457,
+      "duration_seconds": 47.1,
+      "utc_start": "2026-10-08T09:28:14.900000+00:00",
+      "utc_end": "2026-10-08T09:29:02+00:00",
+      "title": "Initial session and Enable logs message",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-02-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 47.1
+    },
+    {
+      "source_start_seconds": 1457,
+      "source_end_seconds": 1516,
+      "duration_seconds": 59,
+      "utc_start": "2026-10-08T09:29:02+00:00",
+      "utc_end": "2026-10-08T09:30:01+00:00",
+      "title": "Logs navigation, populated Logs and session return",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1002,
+        588
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1002,
+        588
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          306,
+          270,
+          41
+        ],
+        [
+          895,
+          306,
+          129,
+          41
+        ],
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-02-sanitized.mp4",
+      "output_start_seconds": 47.1,
+      "output_end_seconds": 106.1
+    },
+    {
+      "source_start_seconds": 1516,
+      "source_end_seconds": 1915,
+      "duration_seconds": 399,
+      "utc_start": "2026-10-08T09:30:01+00:00",
+      "utc_end": "2026-10-08T09:36:40+00:00",
+      "title": "Events, first quantity-three capture and retained waiting",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-02-sanitized.mp4",
+      "output_start_seconds": 106.1,
+      "output_end_seconds": 505.1
+    },
+    {
+      "source_start_seconds": 1915,
+      "source_end_seconds": 2475.65,
+      "duration_seconds": 560.65,
+      "utc_start": "2026-10-08T09:36:40+00:00",
+      "utc_end": "2026-10-08T09:46:00.650000+00:00",
+      "title": "Quantity comparison, template update and numeric rows",
+      "requested_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        347,
+        1020,
+        532
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          260,
+          392,
+          256,
+          34
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-03-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 560.65
+    },
+    {
+      "source_start_seconds": 2477.5,
+      "source_end_seconds": 2602.65,
+      "duration_seconds": 125.15,
+      "utc_start": "2026-10-08T09:46:02.500000+00:00",
+      "utc_end": "2026-10-08T09:48:07.650000+00:00",
+      "title": "Uninstall confirmation and retained approval wait",
+      "requested_crop_source_xywh": [
+        458,
+        175,
+        448,
+        170
+      ],
+      "effective_crop_source_xywh": [
+        458,
+        175,
+        448,
+        170
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 2,
+      "output_file": "source-11-part-04-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 125.15
+    },
+    {
+      "source_start_seconds": 2604.75,
+      "source_end_seconds": 2670.45,
+      "duration_seconds": 65.7,
+      "utc_start": "2026-10-08T09:48:09.750000+00:00",
+      "utc_end": "2026-10-08T09:49:15.450000+00:00",
+      "title": "App listing during uninstall recovery",
+      "requested_crop_source_xywh": [
+        428,
+        398,
+        812,
+        518
+      ],
+      "effective_crop_source_xywh": [
+        428,
+        398,
+        812,
+        518
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-11-part-04-sanitized.mp4",
+      "output_start_seconds": 125.15,
+      "output_end_seconds": 190.85
+    },
+    {
+      "source_start_seconds": 2670.95,
+      "source_end_seconds": 2742,
+      "duration_seconds": 71.05,
+      "utc_start": "2026-10-08T09:49:15.950000+00:00",
+      "utc_end": "2026-10-08T09:50:27+00:00",
+      "title": "Fresh connection entry after uninstall",
+      "requested_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "effective_crop_source_xywh": [
+        252,
+        252,
+        1004,
+        664
+      ],
+      "opaque_masks_source_xywh": [],
+      "scale": 1,
+      "output_file": "source-11-part-04-sanitized.mp4",
+      "output_start_seconds": 190.85,
+      "output_end_seconds": 261.9
+    },
+    {
+      "source_start_seconds": 2742.5,
+      "source_end_seconds": 2787.5,
+      "duration_seconds": 45.0,
+      "utc_start": "2026-10-08T09:50:27.500000+00:00",
+      "utc_end": "2026-10-08T09:51:12.500000+00:00",
+      "title": "Fresh installation permission form",
+      "requested_crop_source_xywh": [
+        421,
+        224,
+        510,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        421,
+        224,
+        510,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          480,
+          498,
+          84
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-04-sanitized.mp4",
+      "output_start_seconds": 261.9,
+      "output_end_seconds": 306.9
+    },
+    {
+      "source_start_seconds": 2800,
+      "source_end_seconds": 2936.25,
+      "duration_seconds": 136.25,
+      "utc_start": "2026-10-08T09:51:25+00:00",
+      "utc_end": "2026-10-08T09:53:41.250000+00:00",
+      "title": "Selected-repository draft before recording stops",
+      "requested_crop_source_xywh": [
+        421,
+        224,
+        510,
+        702
+      ],
+      "effective_crop_source_xywh": [
+        421,
+        224,
+        510,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          430,
+          247,
+          498,
+          140
+        ],
+        [
+          465,
+          575,
+          450,
+          255
+        ],
+        [
+          421,
+          850,
+          510,
+          76
+        ]
+      ],
+      "scale": 1,
+      "output_file": "source-11-part-04-sanitized.mp4",
+      "output_start_seconds": 306.9,
+      "output_end_seconds": 443.15
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 70.5,
+      "duration_seconds": 70.5,
+      "utc_start": "2026-10-08T09:04:45+00:00",
+      "utc_end": "2026-10-08T09:05:55.500000+00:00",
+      "reason": "Private fixture upload, commit form and installed-app account/scope administration, including initial waiting and boundary padding."
+    },
+    {
+      "source_start_seconds": 106.5,
+      "source_end_seconds": 819.9,
+      "duration_seconds": 713.4,
+      "utc_start": "2026-10-08T09:06:31.500000+00:00",
+      "utc_end": "2026-10-08T09:18:24.900000+00:00",
+      "reason": "Private fixture/source upload, long approval/transport waiting and workflow-file authoring/commit administration, including boundary padding."
+    },
+    {
+      "source_start_seconds": 1023.75,
+      "source_end_seconds": 1112,
+      "duration_seconds": 88.25,
+      "utc_start": "2026-10-08T09:21:48.750000+00:00",
+      "utc_end": "2026-10-08T09:23:17+00:00",
+      "reason": "Raw runtime startup/diagnostic log viewing with source/runtime identifiers outside the narrowly reviewed safe status excerpt."
+    },
+    {
+      "source_start_seconds": 1125.3,
+      "source_end_seconds": 1129.15,
+      "duration_seconds": 3.85,
+      "utc_start": "2026-10-08T09:23:30.300000+00:00",
+      "utc_end": "2026-10-08T09:23:34.150000+00:00",
+      "reason": "Native tab/navigation transition from GitHub diagnostics to Datadog, including privacy padding."
+    },
+    {
+      "source_start_seconds": 1163.05,
+      "source_end_seconds": 1164,
+      "duration_seconds": 0.95,
+      "utc_start": "2026-10-08T09:24:08.050000+00:00",
+      "utc_end": "2026-10-08T09:24:09+00:00",
+      "reason": "Modal-opening transition with shifting background runtime identity; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 2475.65,
+      "source_end_seconds": 2477.5,
+      "duration_seconds": 1.85,
+      "utc_start": "2026-10-08T09:46:00.650000+00:00",
+      "utc_end": "2026-10-08T09:46:02.500000+00:00",
+      "reason": "Navigation to private GitHub installation administration before the narrowly cropped uninstall confirmation."
+    },
+    {
+      "source_start_seconds": 2602.65,
+      "source_end_seconds": 2604.75,
+      "duration_seconds": 2.1,
+      "utc_start": "2026-10-08T09:48:07.650000+00:00",
+      "utc_end": "2026-10-08T09:48:09.750000+00:00",
+      "reason": "Uninstall confirmation dismissal and private account/navigation transition to the app list, including boundary padding."
+    },
+    {
+      "source_start_seconds": 2670.45,
+      "source_end_seconds": 2670.95,
+      "duration_seconds": 0.5,
+      "utc_start": "2026-10-08T09:49:15.450000+00:00",
+      "utc_end": "2026-10-08T09:49:15.950000+00:00",
+      "reason": "GitHub app-list to Datadog connection-page tab transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 2742,
+      "source_end_seconds": 2742.5,
+      "duration_seconds": 0.5,
+      "utc_start": "2026-10-08T09:50:27+00:00",
+      "utc_end": "2026-10-08T09:50:27.500000+00:00",
+      "reason": "Datadog connection prompt to GitHub authorization-form transition; privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 2787.5,
+      "source_end_seconds": 2800,
+      "duration_seconds": 12.5,
+      "utc_start": "2026-10-08T09:51:12.500000+00:00",
+      "utc_end": "2026-10-08T09:51:25+00:00",
+      "reason": "Scrolling transition in the fresh authorization form while account identity changes vertical position; conservative privacy omission."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-11-part-01-sanitized.mp4",
+      "duration_seconds": 532.95,
+      "bytes": 2856500,
+      "sha256": "21ca67ea5ff48cc41bf6f6065df3c1d614b349de538171fb90614c513e30ab98",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "10659"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-11-part-02-sanitized.mp4",
+      "duration_seconds": 505.1,
+      "bytes": 4492135,
+      "sha256": "0803b0e2248edc3a2a87b05c8f8dca52737e4b58d2683b02e4252b312bf1eb87",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "10102"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-11-part-03-sanitized.mp4",
+      "duration_seconds": 560.65,
+      "bytes": 5056468,
+      "sha256": "1532b04132f1ca9d9f641ce407261121824868e7afd99696462c7c88ec3419e6",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "11213"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-11-part-04-sanitized.mp4",
+      "duration_seconds": 443.15,
+      "bytes": 2182140,
+      "sha256": "caf8bdbcf84629262d5d83decc30711c3ca0cfc5dc1069fa1b8ce742bde6c156",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "8863"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    }
+  ],
+  "evidence_limits": [
+    "The video demonstrates successful logpoint creation, captured event rows and captured variables. It retains the actual visible success toasts and the original transition from the initial Enable logs banner to populated events after visiting Logs and reloading the session.",
+    "Log Explorer displays 45 logs and recent nonzero histogram bars. The lack of an intervening enablement/settings change is established by the run chronology and contiguous navigation footage, not by the count alone.",
+    "The first visible locals panel appears at source 1592.10s (09:31:17.100 UTC): quantity=3, discount_eligible=False, subtotal_cents=3600, discount_cents=0, total_cents=3600 and unit_price_cents=1200. This is the deliberately planted application bug, not a Datadog pricing or capture defect. The intended total 3240 is task context, not displayed UI text.",
+    "The quantity-two comparison appears at source 1916.75s (09:36:41.750 UTC), with subtotal/total 2400 and discount 0. These source clocks identify observed UI frames; event-list timestamps may identify earlier events.",
+    "The numeric-template update success toast appears at source 2448.70s (09:45:33.700 UTC). The later source 11 rows visibly render quantity 3 total 3600 and quantity 4 total 4320. The complete later 2/3/4 message-plus-locals control sequence belongs to separate source 12 evidence.",
+    "The duration menu visibly offers 1 Hour, 1 Day, 2 Days and 1 Week. This is evidence for the displayed menu, not a universal API/product minimum.",
+    "The repository-source warning remains visible during captured values. Successful runtime capture must not be equated with successful repository-source retrieval.",
+    "The approved reset and a fresh selected-repository draft occur near the end. Recording stops at 09:53:41.25 UTC before Install & Authorize and OAuth completion at approximately 09:54\u201309:55; those later outcomes are screenshot-only and are not reconstructed here.",
+    "The billing excerpt shows GitHub Free at $0.00/month and zero displayed usage; it does not show a numeric Actions-minute allowance. The SDK excerpt reports registration booleans; registration alone is not proof of captured values.",
+    "All motion plays at original speed and includes original waiting time within every retained section. Titles, caption bands, cropping, one 2\u00d7nearest-neighbor enlargement of the uninstall dialog and opaque masks are disclosed editorial changes. No screenshot slideshow, generated image or reconstructed interaction is substituted.",
+    "The longer archive repository-selection section uses a broader privacy mask than the separately reviewed final highlight; adjacent counts/buttons are sometimes masked. Only the highlight proves the visible Selected 1 repository text.",
+    "Browser chrome, private URLs, account/repository/runtime/session/profile identities, source revisions, host rows and unreviewed raw setup diagnostics are excluded or masked. Masks conservatively cover adjacent UI; hidden areas are not evidence of absent or defective controls.",
+    "UTC captions are reconstructed from recorder start. Datadog may show UTC-07:00 event-list timestamps; those are not recording timestamps. Original raw bytes and earlier frozen media remain unchanged."
+  ],
+  "review": {
+    "source_overview_interval_seconds": 10,
+    "page_state_scan_fps": 20,
+    "setup_privacy_transition_review_fps": [
+      2,
+      4
+    ],
+    "capture_event_boundary_review_fps": 20,
+    "output_ocr": {
+      "sampled_frames": 510,
+      "unresolved_flags": 0
+    },
+    "clip_boundary_midpoint_frames": 99,
+    "full_size_key_event_review": true,
+    "sdk_identity_positions_checked_all_frames": 266,
+    "final_repository_highlight_all_frames": 245,
+    "repaired_entry_and_selector_2fps_frames": 341,
+    "late_numeric_rows_service_position_checked_all_frames": 313,
+    "all_outputs_decoded": true,
+    "raw_hash_unchanged": true,
+    "final_boundary_mask_corrections": "Expanded service mask during entry scrolling; expanded repository-selector mask in full archive; the narrower final highlight selection interval was separately reviewed."
+  }
+}
