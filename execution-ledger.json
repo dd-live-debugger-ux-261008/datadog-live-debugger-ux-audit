@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T06:28:00Z",
+  "updated_utc": "2026-10-08T13:15:00Z",
   "cases": [
     {
       "id": "B01",
@@ -15,7 +15,7 @@
       "evidence": [
         "EVIDENCE.md#informed-navigation-and-keyboard-smoke"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Blind first-user discoverability and timing. Informed navigation smoke is reported separately."
     },
     {
@@ -28,11 +28,11 @@
       "cleanup": "Cancel",
       "status": "FINDING",
       "actual": "Natural first-run service/environment empty states lack contextual recovery guidance in the captured sections. UX02 is LOW. At 05:28:43 a settled service-specific Configuration screenshot also showed no environments; the offered recovery path did not expose an enableable environment. Cause of creation rejection remains unresolved.",
-      "reason": "Other causes such as incompatible SDKs, missing rights and filtered-out configured services were not induced. No claim that a healthy service is incorrectly absent.",
+      "reason": "The earlier empty-state guidance observation remains scoped. A later healthy SDK runtime exposes staging and supports capture; the earlier lack of an environment is not established as a Datadog runtime defect.",
       "evidence": [
         "findings/UX02-empty-state-recovery.md"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Natural no-service and no-environment first-run guidance only."
     },
     {
@@ -45,11 +45,11 @@
       "cleanup": "Close setup",
       "status": "FINDING",
       "actual": "Python setup instructions were inspected. DOC01 confirms an invalid python -m myapp.py example using isolated local reproduction and two positive controls.",
-      "reason": "Isolated documentation-command result only; no end-to-end quickstart pass. Later historical APM ingestion is established separately, while live debugger capture remains unverified.",
+      "reason": "The isolated documentation-command defect remains. A later hosted baseline successfully captures synthetic values via the supported script launch form; this does not repair the published documentation.",
       "evidence": [
         "findings/DOC01-python-launch-command.md"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Python setup guidance and launch-command validity; not an end-to-end quickstart pass."
     },
     {
@@ -61,13 +61,13 @@
       "evidence_required": "V; separate routes and blocker wording",
       "cleanup": "Cancel both flows",
       "status": "PASS",
-      "actual": "Manual session entry is available without Source Code Integration; the modal requires a service and safely disables Start. The Bits preview prerequisite is visible.",
-      "reason": "PASS is limited to route and prerequisite clarity. No session start or captured values.",
+      "actual": "Manual session entry is available without Source Code Integration; the modal requires a service and safely disables Start. The Bits preview prerequisite is visible. A real manual logpoint subsequently captured values before source association was repaired, confirming the manual path is usable independently.",
+      "reason": "PASS remains limited to manual versus source-assisted entry and visible prerequisite gates. The later successful manual capture is separately scored under F01.",
       "evidence": [
         "findings/UX02-empty-state-recovery.md",
         "EVIDENCE.md#authenticated-first-run"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Manual versus source-assisted entry and visible prerequisite gates."
     },
     {
@@ -80,12 +80,12 @@
       "cleanup": "Restore baseline filters",
       "status": "BLOCKED",
       "actual": "The synthetic service was discovered at 04:50:17; only the wildcard environment was selectable. Earlier empty Sessions List search/status/owner/date controls, reload persistence and Clear Filter were verified. Later historical APM navigation used the staging/version filters; widening the recent search window recovered 47 indexed spans. This is APM coverage, not populated Live Debugger result filtering.",
-      "reason": "Two-service/environment/version dependencies and populated-result correctness remain unavailable. G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established.",
+      "reason": "Only one verified service/environment/version combination is established. The planned multi-value dependency checks need additional populated target combinations; empty-list filter controls were tested separately.",
       "evidence": [
         "EVIDENCE.md#empty-session-list-controls",
         "EVIDENCE.md#approved-setup-milestones"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Service/environment/version dependency test; empty-list controls are a separate partial observation."
     },
     {
@@ -102,7 +102,7 @@
       "evidence": [
         "EVIDENCE.md#source-integration-pre-install"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Inspect the permission/error experience using available current identity; do not alter roles."
     },
     {
@@ -113,14 +113,15 @@
       "expected": "Useful progress distinguishes configuration acceptance, runtime activation, traffic, and visible data. A green setup badge alone is not first-capture evidence.",
       "evidence_required": "V, I, T",
       "cleanup": "Keep baseline for dependent cases",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; new logpoint.",
+      "status": "PASS",
+      "actual": "Recorded first-success sequence: manual session submission around 09:28:14.9, instrumenting and initial Enable logs state, populated Logs around 09:29:43, session events after reload around 09:30:01, and first visible locals at 09:31:17.100. Actual quantity 3 values matched the fixture. No Logs settings change was performed.",
+      "reason": "Scoped PASS for the observed creation/progress/first-value walkthrough. Times include operator navigation and waiting; they are not an ingestion-latency benchmark or a blind-user study. The initial banner is a scoped observation, not an established Logs setup defect.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#recorded-first-success",
+        "recordings/continuation-11/highlights/CONTINUATION_HIGHLIGHTS.md"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Record time from creation to accepted/configured/installed/first event. At each state ask what the UI tells a novice to do or wait for."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Observed first successful manual session and the displayed progress states."
     },
     {
       "id": "B08",
@@ -130,20 +131,21 @@
       "expected": "Can connect request, location, values, and source without losing session context. Actual numeric values agree with fixture oracle.",
       "evidence_required": "V, I, T",
       "cleanup": "Return to baseline",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; first events captured.",
+      "status": "FINDING",
+      "actual": "The control snapshot and session context survived the Logs/provider visit and return. Datadog source quantity>3 beside quantity 3, false eligibility, zero discount and total 3600 explains the planted application bug. However, View in Logs twice opened a requested-event-not-indexed panel despite an indexed row with the exact same debugger.snapshot.id. Clicking the row recovered values/source/JSON. UX04 is LOW.",
+      "reason": "Positive source/value explanation and context preservation are verified. The Low finding is limited to the direct event-link recovery friction, reproduced on two exact identities; no root cause, data loss or universal indexing failure is claimed.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "findings/UX04-view-in-logs-event-link.md",
+        "EVIDENCE.md#source-value-explanation"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Find quantity 3 and inspect locals. Explain why the price is wrong using only the session UI. Follow any relevant event/source link and return."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Captured values, in-product source explanation, source/link return context and the repeated direct-event navigation issue."
     },
     {
       "id": "B09",
       "priority": "P1",
       "preconditions": "G0; editable draft",
-      "steps": "Use keyboard navigation at 125\u2013150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
+      "steps": "Use keyboard navigation at 125–150% zoom. Inspect focus visibility, labels, errors, code gutter, scroll, modal close, and long paths.",
       "expected": "Core tasks remain operable; validation is associated with its field; selected line and action buttons are discoverable. Scope this as a focused accessibility smoke test.",
       "evidence_required": "V; browser zoom; key sequence",
       "cleanup": "Reset zoom; cancel draft",
@@ -153,7 +155,7 @@
       "evidence": [
         "findings/UX03-invalid-log-template-feedback.md"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Template-error explanation in a manual draft; remaining accessibility variants explicitly untested."
     },
     {
@@ -164,13 +166,13 @@
       "expected": "A beginner can stop collection and distinguish inactive capture from retained historical logs. Scope/consequence of service-wide disable is understandable.",
       "evidence_required": "V, I, R",
       "cleanup": "Stop test capture unless needed by an active case",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; active session.",
+      "status": "IN_PROGRESS",
+      "actual": "The resume/stop sequence adds clear expired, active, and disabled session states with historical events retained. After explicit stop and reload, the session remains INACTIVE/DISABLED and old values remain inspectable.",
+      "reason": "This advances the lifecycle walkthrough, but the original session-list view, route-back-later and service-wide-disable scope checks are not all demonstrated. F12 is not substituted for the full B10 case.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "From session and list views, find expiry, manual stop, what remains visible afterward, and route back tomorrow."
     },
     {
@@ -181,14 +183,15 @@
       "expected": "A real event matches selected target/location and fixture oracle. Verify from event detail, not count or status alone.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Retain one baseline only while dependent tests run",
-      "status": "BLOCKED",
-      "actual": "Baseline submissions at 05:15:51 (numeric template) and 05:19:57 (plain QA baseline control) returned a visible instrumentation-invalid error. HTTP 400 observed, with All 0 on a fresh session list. No successful creation or event. A later historical APM check verified an ingested HTTP 200 span with staging, version 0.1.0 and the baseline commit; it is not a debugger logpoint event.",
-      "reason": "Runtime continuity and the not-enabled wildcard environment are unresolved prerequisites. Preserve this failed attempt as observed; do not infer a runtime defect without a correctly enabled target/positive control.",
+      "status": "PASS",
+      "actual": "The numeric message template QA quantity={quantity} total={total_cents} rendered correctly on the live pricing.py:17 staging probe. Captured locals matched quantity 2→2400, quantity 3→3600 with false discount eligibility, and quantity 4→4320 with subtotal 4800, discount 480 and true eligibility. Numeric controls were observed at 10:03:50.811, 10:04:08.659 and 10:04:21.432 UTC. Earlier wildcard-environment HTTP400 attempts are historical and did not recur in this healthy specific-environment baseline.",
+      "reason": "PASS is limited to the baseline numeric template, selected file/line/environment and three captured fixture-oracle controls. Source permalink/deployed-SHA retrieval and lifecycle are separate cases.",
       "evidence": [
-        "EVIDENCE.md#baseline-submission-attempts"
+        "EVIDENCE.md#verified-numeric-baseline",
+        "evidence/continuation-12/f01-numeric-capture-controls.json"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Create baseline at `pricing.py:17`; template `QA quantity={quantity} total={total_cents}`; capture numeric locals; run bounded 2/3/4 traffic."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Actual manual logpoint creation plus numeric message and captured-local checks for quantities 2, 3, 4."
     },
     {
       "id": "F02",
@@ -198,14 +201,14 @@
       "expected": "Post-activation captures match the current predicate; old events remain identifiable; unsaved edits do not masquerade as applied state.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Disable experimental logpoint",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; baseline works.",
+      "status": "PASS",
+      "actual": "Condition quantity==3 with COND3 applied 10:33:25; nine post-activation rows from 10:33:33–10:34:01 all showed quantity 3, with matching actual locals. Quantity==4/COND4 applied 10:35:03; six rows 10:35:19–10:35:38 all showed quantity 4 and actual locals 4800 subtotal, 480 discount,4320 total,True eligibility. The old selected COND3 capture gained OUTDATED feedback while new COND4 rows arrived.",
+      "reason": "PASS for the tested 3→4 predicate transition and revision feedback. These row times are UI event-list observations, not independently established execution timestamps. The earlier disabled accessibility-state interpretation was corrected by a normal supported click; conditions are operable.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#conditional-capture-controls"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Create condition `quantity == 3`; cycle 2/3/4; then change to `quantity == 4`, apply, wait for activation and repeat."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Manual predicate transitions, post-activation values and identification of retained old captures."
     },
     {
       "id": "F03",
@@ -215,14 +218,14 @@
       "expected": "No-match period remains distinguishable from a broken runtime; removing the condition restores capture without recreating the service.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Disable experiment",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1.",
+      "status": "PASS",
+      "actual": "Applied quantity==101/NOMATCH at 10:36:32. At 10:37:55 the definition remained 101 with zero NOMATCH rows and Captured 1m ago; independent baseline rows continued through 10:37:50 for 2/3/4. Removed the condition and applied RECOVER at 10:38:25. New rows resumed at 10:38:39.866(quantity 3),10:38:41.278(quantity 2),10:38:46.537(quantity 4), with expected totals.",
+      "reason": "PASS for the bounded no-match window and restored log rows with a healthy independent control. This is not a proved exhaustive indexed-backend query. Old COND4 rows remained identifiable rather than being mislabeled as new no-match captures.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#no-match-and-recovery"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Set `quantity == 101` with valid 2/3/4 traffic; then remove condition and reapply."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Valid never-match condition, independent traffic control, retained historical rows and recovery after removing the condition."
     },
     {
       "id": "F04",
@@ -232,14 +235,20 @@
       "expected": "Bad input is rejected or produces explicit evaluation/installation feedback; valid correction succeeds. No application side effect or silent valid-looking wrong result.",
       "evidence_required": "V; exact input; I/T if submitted",
       "cleanup": "Restore valid baseline; remove failed drafts",
-      "status": "BLOCKED",
-      "actual": "The editor auto-closed the first brace attempt. Removing the closing brace produced QA quantity={quantity and disabled Start; correcting to QA quantity={quantity} total={total_cents} enabled it. When was disabled in the current not-enabled wildcard-environment draft. After blur at 05:38:08, the invalid field also showed a red outline. Visual feedback was present; correction restored enabled Start. A fresh unsubmitted repeat at 06:25\u201306:28 confirmed the invalid/corrected control and produced the scoped feedback issue UX03.",
-      "reason": "Draft template rejection/correction verified. Invalid/non-Boolean condition and runtime evaluation variants remain untested; conditional editing in a correctly enabled specific environment is unavailable. G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established.",
+      "status": "FINDING",
+      "actual": "The remaining malformed-condition controls were executed separately: quantity == and bare quantity showed validation marks/red-field feedback and the recorder observed disabled Apply with Fix validation errors before saving. Correcting to quantity == 2 was applied at 11:36:30 UTC, followed by VALID2 quantity=2 rows from approximately 11:36:53. The unmatched-template rejection and valid correction were already executed in V8.",
+      "reason": "All original functional input variants now have a supported rejection/correction result. FINDING retains the existing LOW UX03 explanation/accessibility-feedback issue associated with the unmatched-template variant; it does not mean condition validation failed. No new finding or severity count is added.",
       "evidence": [
-        "EVIDENCE.md#draft-validation-after-service-discovery"
+        "EVIDENCE.md#draft-validation-after-service-discovery",
+        "EVIDENCE.md#condition-validation-and-recovery",
+        "evidence/continuation-13/106-invalid-condition-draft-safe.png",
+        "evidence/continuation-13/107-nonboolean-condition-validation-safe.png",
+        "evidence/continuation-13/108-valid-condition-correction-events-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Try `quantity ==`, a non-Boolean condition `quantity`, an unmatched template brace, then a supported valid expression. One input at a time."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Try `quantity ==`, a non-Boolean condition `quantity`, an unmatched template brace, then a supported valid expression. One input at a time.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "Invalid draft inputs were replaced by a valid condition, and later F05/F16 revisions superseded the experiment. A global stop of the experimental session is not established; C01 remains open."
     },
     {
       "id": "F05",
@@ -249,14 +258,21 @@
       "expected": "Missing data has an explicit, distinguishable result; the documented definition check is evaluated appropriately for the runtime. Do not confuse false with missing or redacted.",
       "evidence_required": "V, I, T",
       "cleanup": "Disable experiment",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1.",
+      "status": "PASS",
+      "actual": "Referencing missing_qa_value in the log message produced ERROR and an Evaluation errors panel naming No such local variable with an Edit Logpoint recovery path. Replacing the expression with isDefined(missing_qa_value) rendered False without that error panel. The subsequent control containing isDefined(quantity) rendered present=True, while the missing-local check remained False and quantity=2.",
+      "reason": "The requested absent-reference, definedness-false and available-local positive controls are all observed. Missing data is distinguishable from the Boolean False result. The exact edits are attributed to recorder chronology, while safe 109/110/112/114 directly show their rendered outcomes. This verdict is restricted to the original exact nonexistent-name/definedness/available-local controls; later unassigned, deleted and branch-only locals are a separate semantic-review candidate and do not broaden this PASS.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#missing-name-and-definedness",
+        "evidence/continuation-13/109-missing-local-actionable-error-safe.png",
+        "evidence/continuation-13/110-definedness-false-recovery-safe.png",
+        "evidence/continuation-13/112-message-only-explanation-safe.png",
+        "evidence/continuation-13/114-capture-restored-locals-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Reference nonexistent `missing_qa_value`; separately test `isDefined(missing_qa_value)`; compare with an available local."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Reference nonexistent `missing_qa_value`; separately test `isDefined(missing_qa_value)`; compare with an available local.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "The direct missing-local expression was superseded by valid definedness expressions and capture continued. Final disabling of the shared experimental session is still part of C01; it is not claimed here."
     },
     {
       "id": "F06",
@@ -266,13 +282,14 @@
       "expected": "Reject invalid targets or explain any runtime rejection/line relocation. Never silently claim a different active location. Valid recovery must work.",
       "evidence_required": "V; exact input and resulting line; I, R",
       "cleanup": "Remove experiments; restore line 17",
-      "status": "BLOCKED",
-      "actual": "For manually added pricing.py, 0, -1 and abc kept Start disabled. 9999 enabled a draft without submission. Line 17 restored the intended location.",
-      "reason": "Draft syntactic validation verified. Out-of-range installation, blank/comment-line behavior, rejection/relocation and runtime recovery remain untested. G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established.",
+      "status": "PENDING",
+      "actual": "Earlier draft inputs 0, -1 and abc were rejected. An isolated pricing.py:9999 probe submitted 10:29:40 became ERROR by 10:30:21; detail 10:31:26 reported 1/1 instances and NoFunctionsAtLine. A standard line 17 gutter click created a separate probe at 10:32:04; it received events by 10:32:29 and subsequent predicate captures verified actual locals.",
+      "reason": "Out-of-range runtime rejection and valid separate-probe recovery passed. Blank/comment-line behavior remains unexecuted, so the original full case stays pending.",
       "evidence": [
-        "EVIDENCE.md#draft-validation-after-service-discovery"
+        "EVIDENCE.md#draft-validation-after-service-discovery",
+        "EVIDENCE.md#out-of-range-runtime-control"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Try line 0, -1, nonnumeric input, 9999, blank line 10, and comment line 16. Then select executable line 17."
     },
     {
@@ -283,14 +300,22 @@
       "expected": "Context-dependent values are accurate or explicitly unavailable. Entry capture cannot imply that yet-unassigned locals have values. Unsupported context is explained.",
       "evidence_required": "V, I, T",
       "cleanup": "Disable method experiment",
-      "status": "BLOCKED",
-      "actual": "Function mode exposed Python Module and Function controls. Module pricing and Function calculate_quote enabled an unsubmitted draft at 05:39:50.",
-      "reason": "Draft control acceptance is verified. Entry/exit capture, context-dependent values and method versus line behavior still require a healthy runtime and actual events.",
+      "status": "IN_PROGRESS",
+      "actual": "A whole-function pricing.calculate_quote probe using FUNCTION returned={@return} renders a full quantity-four return dictionary: quantity 4, unit price 1200, subtotal 4800, eligibility True, discount 480 and total 4320. The pane is labeled Values on exit. Applying @return in a line-17 message instead produces an explicit Evaluation errors panel naming No such local variable: @return, with editing guidance; the recorder verifies accurate quantity-two locals totaling 2400. No explicit entry/exit selector was found in the tested manual editor, and entry capture was not executed.",
+      "reason": "Default function-exit capture, a full returned-value positive control and the method-only contextual return expression’s explicit line-context error are now supported. This advances the original context matrix, but no entry-mode control ran. The absence of a selector in the inspected editor is an unresolved availability branch, not proof that entry is unsupported everywhere. Keep IN_PROGRESS rather than imply an entry/exit comparison was completed.",
       "evidence": [
-        "EVIDENCE.md#later-bounded-checks"
+        "EVIDENCE.md#later-bounded-checks",
+        "EVIDENCE.md#function-exit-and-line-context",
+        "evidence/continuation-13/115-function-logpoint-draft-safe.png",
+        "evidence/continuation-13/116-function-exit-return-capture-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Select method `pricing.calculate_quote` where supported; compare method entry/exit capture with line 17; try method-only contextual return expression on a line."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Select method `pricing.calculate_quote` where supported; compare method entry/exit capture with line 17; try method-only contextual return expression on a line.",
+      "remaining_gaps": [
+        "Resolve entry-capture support for the available manual editor/runtime. If supported, execute the original entry control and verify that yet-unassigned locals are not fabricated; otherwise document a verified supported limitation.",
+        "Complete the required entry-versus-exit comparison only if an entry route exists; do not relabel the observed default exit as entry."
+      ],
+      "cleanup_assessment": "OPEN: no final stop/removal of the separate function-return and line-context experiments is established by the F13 stop of the shared complex-fixture session. C01/C02 remain open."
     },
     {
       "id": "F08",
@@ -300,13 +325,13 @@
       "expected": "A single intended submission does not silently create duplicate entities. If duplicates are a supported explicit action they must be distinguishable, not hidden.",
       "evidence_required": "V, I, R",
       "cleanup": "Disable every created test entity",
-      "status": "BLOCKED",
+      "status": "PENDING",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; record list count/IDs.",
+      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Rapidly double-click Create/Apply once; repeat Enter once during pending state; reload and inspect list."
     },
     {
@@ -317,14 +342,23 @@
       "expected": "No hidden lost update or mixed revision; conflict handling or last-write behavior is understandable and actual active definition matches the final display.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Restore baseline or disable experiment",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; two tabs on same logpoint.",
+      "status": "FINDING",
+      "actual": "Medium FUNC01: in two tabs editing the same logpoint, stored quantity == 4 remains the baseline. Tab B changes its unsaved predicate to quantity == 3 and is dirty. Tab A saves only a message-template edit. B’s rendered predicate silently resets to quantity == 4 and its Apply action becomes disabled, with no visible warning/conflict text. This loss of the unsaved draft was reproduced around 13:01 and again at 13:02:52 UTC; the second repetition changes the saved message from TAB_A2 to TAB_A3.",
+      "reason": "A reproducible unsaved-draft loss is established in the two-tab branch, so F09 is FINDING with Medium FUNC01. The stored quantity-four predicate remains correct. This does not establish a conflict between two saved writes, backend capture corruption, wrong active predicate or completion of the original stale-save/reload/new-event matrix.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#two-tab-unsaved-draft-loss",
+        "findings/FUNC01-unsaved-condition-reset.md"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "In tab A save a condition/template change. In stale tab B save a different field. Reload both and capture new events."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "In tab A save a condition/template change. In stale tab B save a different field. Reload both and capture new events.",
+      "remaining_gaps": [
+        "Execute the original branch in which stale tab B actually submits a different-field change after tab A saves; do not substitute unsaved-draft loss for conflicting saved-write behavior.",
+        "Reload both tabs and inspect the final accepted definition and any conflict/last-write explanation.",
+        "Capture new events after the final saved state and verify their actual active definition and values.",
+        "Restore the baseline or disable the test experiment, and verify final cleanup."
+      ],
+      "cleanup_assessment": "OPEN: no final baseline restoration, test disable or global cleanup is established for the two-tab experiment. C01/C02 remain IN_PROGRESS."
     },
     {
       "id": "F10",
@@ -334,14 +368,23 @@
       "expected": "Stale controls cannot accidentally conceal reactivation; parent/child enabled state is consistent and latest accepted action is visible.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Ensure final session and children inactive",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; active session in two tabs.",
+      "status": "IN_PROGRESS",
+      "actual": "During the 13:04:34–13:05:38 UTC recorded interval, tab A disabled the individual line-63 probe while tab B already had an unsaved message draft. Both tabs displayed DISABLED. Tab B retained an enabled Apply button; applying the draft re-instrumented the probe and a fresh STALE_EDIT quantity-four log row appeared. No session-wide or service/environment-wide disable was tested.",
+      "reason": "The individual-probe stale-draft branch has now executed and clears the no-result state. Applying a modification to a disabled probe produced renewed collection, but the available documentation does not explicitly define disabled-edit semantics. Treat reactivation-feedback as UNCONFIRMED rather than another finding. Reload and the stale session-level child-edit branch remain unfinished. The shared session was separately stopped under F13 at 13:13:55; global cleanup remains open.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#individual-disable-and-draft-apply"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Disable logpoint in A; use stale edit/re-enable UI in B; reload. Repeat session-level disable with a child logpoint."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Disable logpoint in A; use stale edit/re-enable UI in B; reload. Repeat session-level disable with a child logpoint.",
+      "remaining_gaps": [
+        "Reload both tabs and inspect the accepted enabled/disabled state and definition.",
+        "Select the new STALE_EDIT capture and inspect its own details/identity; the existing screenshot details pane is an OUTDATED older BRANCH result.",
+        "Repeat the original session-level disable with a child logpoint and inspect parent/child behavior.",
+        "Resolve the intended disabled-edit contract and assess whether the Apply action clearly communicates renewed collection before deciding on a product finding.",
+        "After executing any remaining stale session-edit branch, restore and re-verify final inactivity; do not substitute F13’s explicit Enable path for that branch."
+      ],
+      "cleanup_assessment": "The affected shared session was finally stopped under F13 at 13:13:55, with the line-63 target and checked sibling children disabled. That scoped final state is now established, but the F10 reload and stale session-level child edit branch remain untested. Global inventory remains under C01/C02."
     },
     {
       "id": "F11",
@@ -351,14 +394,15 @@
       "expected": "Expiration actually ends capture; distinguish buffered old events from new executions. Countdown/status/controls remain consistent across page reload. Quantify any propagation lag rather than assume instantaneous removal.",
       "evidence_required": "V, I, T, R, H; last execution vs expiry",
       "cleanup": "Verify inactive; stop bounded traffic",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; shortest expiry available; clock checked.",
+      "status": "PASS",
+      "actual": "Target was ACTIVE with 1 second left at 10:45:35.975 and first observed INACTIVE/EXPIRED at 10:45:50.640. Last target SDK snapshot timestamp was 10:45:41.045. No newer target row appeared at 10:47:16.596; independent later-expiring control executed at 10:47:30.402 with matching quantity 4 locals. Reload 10:49:21.580 and a fresh direct link around 10:50 preserved expired state and history.",
+      "reason": "PASS for this bounded expiry observation and independent live control. The UI transition is bounded within 14.665 seconds; no exact internal deadline or instantaneous-stop claim. The target active-to-expired transition is not visible in the desktop recording; an already-expired after-state is retained. Screenshots, rendered-UI reads and payload timestamps establish the bounded transition.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#verified-expiry-and-control",
+        "evidence/continuation-12/expiry-timing-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Record expiry time; keep traffic before and after it; leave page open, then reload and reopen direct session link. Continue until terminal state or a specific blocker."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "One-hour-menu session expiration, last execution versus UI row time, continued control capture, reload and direct-link terminal persistence."
     },
     {
       "id": "F12",
@@ -368,14 +412,20 @@
       "expected": "Explicit action has clear scope/duration; previously expired state cannot reactivate by mere page navigation; new captures are distinguishable.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Disable again; confirm inactive",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; expired session from F11.",
+      "status": "PASS",
+      "actual": "The previously expired session was explicitly resumed at 11:29:26 UTC. The session and probe identities were preserved, the recorder observed a fresh one-hour duration, and safe still 104 shows ACTIVE with 59 MINUTES LEFT and actual quantity 2 locals totaling 2400. The independent SDK payload timestamp check independently records a new capture at 11:29:48.334 UTC. The session was explicitly stopped at 11:30:21 and the recorder verified INACTIVE/DISABLED after reload around 11:31:40. Historical rows remain available.",
+      "reason": "The original expired-session re-enable flow, preserved identity, renewed duration, fresh capture and disable-again cleanup are supported. Prior V8 reload/direct-link checks and safe 103 establish that page navigation alone had not reactivated the expired target. This PASS does not establish an exact backend deadline or instantaneous stop.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#explicit-resume-and-stop",
+        "evidence/continuation-13/103-expired-session-before-resume-safe.png",
+        "evidence/continuation-13/104-resumed-session-active-capture-safe.png",
+        "evidence/continuation-13/105-resumed-session-inactive-disabled-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Use available re-enable/extend flow; inspect new deadline and resulting IDs; generate fresh traffic."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Use available re-enable/extend flow; inspect new deadline and resulting IDs; generate fresh traffic.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "Case-specific cleanup complete as observed after reload around 11:31:40 UTC. This is not an all-session or runtime cleanup claim."
     },
     {
       "id": "F13",
@@ -385,14 +435,17 @@
       "expected": "No unintended sibling/session activation; displayed hierarchy matches capture behavior.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Disable whole session",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; at least two test logpoints.",
+      "status": "PASS",
+      "actual": "The sibling/session hierarchy sequence completed before cutoff: line 44 was disabled at 13:10:25 while 54/63 continued capture; the whole session was stopped at 13:11:44 and both tabs showed INACTIVE/DISABLED. Explicit Enable logpoint for line 44 at 13:12:18 made the aggregate session ACTIVE while 54/63 remained DISABLED. A new line-44 event was displayed at 13:13:17.602. Final whole-session stop at 13:13:55 was verified as INACTIVE with 44/54/63 DISABLED.",
+      "reason": "PASS for the observed individual-disable, whole-session stop, explicit child re-enable and sibling-state sequence, with case-specific whole-session cleanup. The enabled child resumed capture without reactivating checked siblings. Aggregate ACTIVE following explicit child enable is consistent with the observed hierarchy. This is not the F10 stale session-level edit branch or a service/environment Disable test.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#individual-and-session-hierarchy"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Disable one logpoint, then whole session; attempt documented re-enable paths; inspect sibling state each time."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Disable one logpoint, then whole session; attempt documented re-enable paths; inspect sibling state each time.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "COMPLETE for this shared session as recorder-verified at 13:13:55: INACTIVE, with checked children 44/54/63 DISABLED. Other sessions/runtime/fixtures remain under C01/C02; no global cleanup claim."
     },
     {
       "id": "F14",
@@ -402,15 +455,15 @@
       "expected": "Unsaved work is not published; saved work persists; no invisible session creation, duplicate modal, or navigation trap. Warnings, if present, are accurate.",
       "evidence_required": "V, I, R",
       "cleanup": "Cancel drafts; disable unintended test entities",
-      "status": "BLOCKED",
+      "status": "PENDING",
       "actual": "Empty-service modal Close, Escape, Back, Forward, refresh and two repeated open/Close cycles recovered cleanly. Ctrl+Enter did not submit the disabled Start action. At 05:43 the edited Function draft was closed; reopening reset to Line mode with empty File/Line, retaining service/environment. The reopened draft was closed. No unsaved draft was published.",
-      "reason": "Empty and populated draft cancellation/navigation were observed. Saved-entity persistence and actual runtime state variants remain untested because creation requests failed.",
+      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
       "evidence": [
         "EVIDENCE.md#empty-modal-recovery",
         "EVIDENCE.md#later-bounded-checks"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Navigation and cancellation on an empty-service modal only; saved configuration variants blocked."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Navigation and cancellation on empty and edited drafts; saved-configuration and live-runtime variants remain pending."
     },
     {
       "id": "F15",
@@ -420,13 +473,13 @@
       "expected": "Target identity obeys product's immutability contract; alternate creation cannot mislabel old events as belonging to a new target.",
       "evidence_required": "V, I, R",
       "cleanup": "Disable alternate test entity",
-      "status": "BLOCKED",
+      "status": "PENDING",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; baseline source/target selected.",
+      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Attempt to edit original target service/environment/location on an existing logpoint; use the UI's supported alternate flow if blocked."
     },
     {
@@ -437,14 +490,21 @@
       "expected": "Each event reflects the effective definition. Historical snapshots may remain; message-only new events do not appear to contain newly captured locals.",
       "evidence_required": "V, I, T",
       "cleanup": "Restore or disable experiment",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1.",
+      "status": "PASS",
+      "actual": "Variable capture was turned off and applied at 11:42:14 UTC. New MESSAGE_ONLY events retained the rendered message but showed Logpoint does not contain debugging information rather than a captured-locals panel. Capture was re-enabled at 11:43:25. The selected older message-only event was marked OUTDATED with guidance that future logs would contain variables. A subsequent event had actual quantity-two locals again.",
+      "reason": "The original off/apply/new-event/on/new-event sequence is supported. Historical event semantics are explicit: old message-only captures were not represented as retroactively gaining variables, and a newer capture displayed locals.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#variable-capture-toggle",
+        "evidence/continuation-13/111-message-only-definition-safe.png",
+        "evidence/continuation-13/112-message-only-explanation-safe.png",
+        "evidence/continuation-13/113-capture-reenabled-future-logs-guidance-safe.png",
+        "evidence/continuation-13/114-capture-restored-locals-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Turn variable capture off, apply, produce traffic, then turn back on and capture again. Inspect event details."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Turn variable capture off, apply, produce traffic, then turn back on and capture again. Inspect event details.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "Capture variables was restored, satisfying the case-specific restore-or-disable cleanup. Shared experimental-session shutdown remains open under C01."
     },
     {
       "id": "F17",
@@ -454,13 +514,13 @@
       "expected": "Empty views and stale streams are attributable to controls; correct ordering/identity survives refresh; no duplicate rendering presented as extra execution.",
       "evidence_required": "V, I, T, R",
       "cleanup": "Restore standard range/filters",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; two genuine matching events.",
+      "status": "PENDING",
+      "actual": "A supplemental stream-control observation during the F07 work: using Play restored current events after a historical pause. This does not execute the full original time-range, pause/resume, sort, clear-filter and reopen sequence.",
+      "reason": "Retain PENDING for the original combined control/identity case. One recorder-reported resume recovery is a scoped positive observation; the remaining planned variants and refresh/identity checks are not established.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Narrow time range to exclude newest events, pause/resume stream, change sorting, clear filters, reopen event."
     },
     {
@@ -473,11 +533,11 @@
       "cleanup": "Leave runtime in agreed baseline state",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated runtime restart permitted.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated runtime restart permitted.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "While session is active, stop/restart only test process, then send traffic. Compare runtime status and capture recovery."
     },
     {
@@ -490,11 +550,11 @@
       "cleanup": "Restore test Agent/config; verify health",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated forwarding failure permitted.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; isolated forwarding failure permitted.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Preserve config; deliberately stop only test Agent or use approved test-only disconnected state. Restore and repeat baseline."
     },
     {
@@ -507,11 +567,11 @@
       "cleanup": "Stop extra fixture instance; disable experiments",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; two fixture versions/envs with distinct numeric outputs.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; two fixture versions/envs with distinct numeric outputs.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Target one version/environment, produce traffic in both, inspect event tags and source view; then deliberately choose the other."
     },
     {
@@ -522,14 +582,19 @@
       "expected": "Capture honors configured mode and sensitive identifiers. Verify masked vs absent vs unavailable presentation. Never use real credentials as canaries.",
       "evidence_required": "V, I, T; masked results only",
       "cleanup": "Remove fixture/logpoint; retain normal redaction",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; approved synthetic redaction fixture.",
+      "status": "PASS",
+      "actual": "At the real run-3 synthetic fixture line 32, event details in Targeted mode show numeric_control=90210, bool_control=True and harmless_text=plain synthetic text. The dummy accessToken and password fields remain visible as string types and credentials as a dictionary type, without their values. Expansion gives an explicit name-based-redaction explanation. The recorder reports that protection was not lowered.",
+      "reason": "The original synthetic-control redaction behavior is now executed: benign controls are readable, sensitive-name fields are explicitly redacted rather than silently missing, and the configured Targeted mode remains in effect. This is a behavioral PASS for the tested names and fixture, with required experiment removal still open under C01/C02 and reviewed safe derivatives now available. It is not a general proof of redaction at every nested depth or across protection modes.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#targeted-redaction-controls",
+        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
+        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Capture dummy numeric locals plus obvious dummy `password`/`accessToken` values and harmless string. Use existing mode; never lower protection for the test."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Capture dummy numeric locals plus obvious dummy `password`/`accessToken` values and harmless string. Use existing mode; never lower protection for the test.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "OPEN: removing/disabling the redaction logpoint and restoring/removing the extra fixture has not been established. The behavioral PASS does not close original cleanup or global C01/C02. Preserve normal redaction. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
     },
     {
       "id": "F22",
@@ -539,14 +604,25 @@
       "expected": "Truthful type/value association; truncation/depth limitations are explicit; UI stays responsive and does not imply partial data is complete.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Disable experiment; revert fixture variant",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; small extra fixture permitted.",
+      "status": "IN_PROGRESS",
+      "actual": "Real run-3 complex-fixture events are captured. Typed empty list and map are visible with size 0. The recorder additionally verifies exact Unicode content and left.leaf=11 versus right.leaf=22. Nested and cyclic structures can be expanded; a long synthetic string is visible in clipped form. Bounded cycle/depth semantics remain unresolved.",
+      "reason": "The old prepared-local-only deployment blocker is obsolete because the fixture now executes and produces actual captures. The original case remains incomplete: observed expansion and values do not establish full long-string truncation/recovery, search/collapse behavior, explicit depth/cycle handling or cleanup.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#complex-object-display",
+        "evidence/continuation-13/fixtures-117-125/117-complex-fixture-captured-safe.png",
+        "evidence/continuation-13/fixtures-117-125/118-nested-leaf-display-safe.png",
+        "evidence/continuation-13/fixtures-117-125/119-cycle-fixture-expanded-view-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Capture empty list/map, nested object, duplicate leaf names, long synthetic string, and bounded cyclic structure. Expand/collapse/search values."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Capture empty list/map, nested object, duplicate leaf names, long synthetic string, and bounded cyclic structure. Expand/collapse/search values.",
+      "remaining_gaps": [
+        "Inspect the long string beyond its clipped preview; verify the full value or explicit size/truncation explanation without treating a partial preview as complete.",
+        "Complete and record expand/collapse/search behavior for the required collections and nested values.",
+        "Establish bounded cyclic structure handling and any depth/truncation explanation; current nested self expansion does not establish termination or truthful completeness.",
+        "Verify responsiveness during the required interaction sequence and distinguish any capture-depth limit from the rendered tree behavior."
+      ],
+      "cleanup_assessment": "OPEN: disable the complex-fixture experiment and revert/remove the fixture variant when authorized dependent tests are complete. No final restoration is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
     },
     {
       "id": "F23",
@@ -558,11 +634,11 @@
       "cleanup": "Stop burst; return traffic to baseline",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; tiny burst test approved.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; tiny burst test approved.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Compare normal 1.1-second traffic with a short bounded burst using a separate approved generator. Do not change the supplied script to unbounded load."
     },
     {
@@ -574,13 +650,13 @@
       "evidence_required": "V, A, R",
       "cleanup": "Cancel or keep explicitly approved baseline",
       "status": "PASS",
-      "actual": "Pre-install explanations and cancellation/reload were verified earlier. After specific approval, GitHub installation and user authorization were verified with only A selected. Datadog did not confirm the connection.",
+      "actual": "Pre-install explanations and cancellation/reload were verified earlier. After specific approval, GitHub installation and user authorization were verified with only A selected. The initial interrupted flow did not connect; the later approved same-A-only reinstall recovered association, as recorded under S11.",
       "reason": "PASS remains scoped to the original pre-install permission/cancel checks. Post-install interrupted-flow recovery failure is recorded separately as SCI01 under S11; no retrieval or boundary pass.",
       "evidence": [
         "EVIDENCE.md#source-integration-pre-install",
         "EVIDENCE.md#approved-setup-milestones"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Pre-install permission explanations and cancel/reload preservation only."
     },
     {
@@ -591,14 +667,14 @@
       "expected": "Exact code revision and location match runtime evidence; a linked GitHub account or repository label alone is insufficient.",
       "evidence_required": "V, I, T; provider URL",
       "cleanup": "Return to session",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. Required case precondition: G2; baseline commit C1 in A deployed.",
+      "status": "PASS",
+      "actual": "An actual control event has debugger.snapshot.timestamp 1791455041812 (10:24:01.812 UTC) after runtime 2 registration. Datadog source text was visible. The rendered provider link was followed at 10:25:48 UTC to repository A, deployed revision f5061500e8bf30880aebcf7966ba64df44d2ccde, pricing.py line 17. The full 24-line file and nearby arithmetic/return keys match the unchanged deployed oracle. The older file last-change commit is distinct from the selected deployed revision.",
+      "reason": "PASS for this actual captured event and exact repository/revision/file/line/content comparison. Other revisions, path variants and B-denied retrieval remain separate tests.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#verified-deployed-source"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Open source from actual capture; compare repository owner/name, full SHA, file, line, and nearby text with deployed C1. Follow provider link."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Baseline source retrieval and followed provider link match the deployed commit and capture location."
     },
     {
       "id": "S03",
@@ -608,13 +684,14 @@
       "expected": "A works; ungranted B's private source is not returned through this integration. B's failure is actionable without implying broad grants are mandatory. Repo-name discoverability alone is not source-content leakage.",
       "evidence_required": "V, I, A, R; B unique marker if exposed",
       "cleanup": "Keep B ungranted; close attempt",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. Required case precondition: G2; app installation limited to A; B private and never granted.",
+      "status": "PENDING",
+      "actual": "A-only grant and successful A source retrieval are verified. Searching the ungranted B repository in the source picker produced no match.",
+      "reason": "Discovery absence is not proof of denied private-content retrieval. The exact never-granted B file/commit request through a supported route remains pending; B has never been granted.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#repository-boundary-limit"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Record effective A-only grant. Search B in Datadog. If B is selectable/known by URL, request its exact file/commit through supported UI. Test A as positive control."
     },
     {
@@ -627,11 +704,11 @@
       "cleanup": "Restore test instance mapping to A; restart if needed",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved test service tagged to B.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved test service tagged to B.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Map only a dedicated test instance to known B URL/SHA without granting B. Open its code from a real synthetic event; compare same-named A file."
     },
     {
@@ -644,11 +721,11 @@
       "cleanup": "Keep approved repo history; reset UI to C1",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; A has C1 and newer C2; C1 remains deployed.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; A has C1 and newer C2; C1 remains deployed.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "In C2 shift the pricing lines and change a numeric marker; do not deploy C2. Open fresh C1 event/source; inspect any latest-source option separately."
     },
     {
@@ -661,11 +738,11 @@
       "cleanup": "Restore A/C1 mapping and confirm",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; authorized fixture metadata variant.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; authorized fixture metadata variant.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Independently test absent SHA, syntactically invalid SHA, valid-length nonexistent SHA, then real SHA with wrong repository. Restore exact mapping between runs."
     },
     {
@@ -678,11 +755,11 @@
       "cleanup": "Stop extra version if temporary",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved A/C1 and A/C2 deployments.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; approved A/C1 and A/C2 deployments.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Show both versions under same service/environment. Switch versions quickly, back/forward, and open direct event links."
     },
     {
@@ -695,11 +772,11 @@
       "cleanup": "Remove temporary drafts; keep approved fixture history",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2; available filename/path variants; G4 to create.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2; available filename/path variants; G4 to create.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Test same basename in two directories, moved/renamed file across commits, and path with spaces or non-ASCII. Select by full path."
     },
     {
@@ -712,11 +789,11 @@
       "cleanup": "Restore canonical mapping",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; mapping variants allowed.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G2 + G4; mapping variants allowed.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Compare canonical HTTPS URL, trailing `.git`, and supported SSH-style repository metadata, one at a time. Inspect displayed provider link."
     },
     {
@@ -729,11 +806,11 @@
       "cleanup": "Restore only previously authorized grant if explicitly approved; otherwise leave revoked",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G2 + G3; A-only grant can be revoked safely; uncached C3/file prepared.",
+      "reason": "G3 incomplete: independent restricted test identities and the case-specific permission/revocation setup are not established. The approved A-only repair is a separate observed action. Required case precondition: G2 + G3; A-only grant can be revoked safely; uncached C3/file prepared.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Record before-state and known fetched files. Revoke A via approved flow. In old/new tabs request old source, then **fresh unfetched C3/file**; refresh integration status."
     },
     {
@@ -745,13 +822,13 @@
       "evidence_required": "V, I, A, R",
       "cleanup": "Preserve approved A-only baseline",
       "status": "FINDING",
-      "actual": "SCI01: after the installation form remained open roughly 75 minutes, authorized A-only installation returned through the Datadog organization chooser to an unconnected page. Connect retried into unchanged installed-app settings with Save disabled. Fresh catalog navigation in the verified intended site/org remained unconnected.",
-      "reason": "Observed scoped interrupted-flow recovery failure. Delay is a precondition, not proven cause. Fresh-install behavior and backend cause are unproven. Manual debugger entry remains available; no source-association workaround verified.",
+      "actual": "The original interrupted installation left Datadog unconnected and Connect retried into unchanged GitHub settings. A controlled same-scope uninstall/reinstall repaired the association: old installation removal was verified around 09:49, fresh A-only authorization completed around 09:54, and connected Datadog configuration appeared around 09:55. B remained ungranted.",
+      "reason": "SCI01 remains a scoped recovery finding, now with a verified reinstall workaround and a fresh-install positive control. The approximately 75-minute pause is a precondition, not an established cause. The callback was screenshot-only after recording 11 stopped at 09:53:41.25.",
       "evidence": [
         "findings/SCI01-interrupted-github-recovery.md"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Interrupted same-scope GitHub connection recovery; successful source retrieval remains blocked."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Interrupted source-association recovery and a controlled same-A-only reinstall; not a general fresh-install failure or an exact source-mapping verdict."
     },
     {
       "id": "S12",
@@ -763,11 +840,11 @@
       "cleanup": "Restore browser's audit identity",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G1 + G3; read-only Datadog test user exists.",
+      "reason": "G3 incomplete: independent restricted test identities and the case-specific permission/revocation setup are not established. The approved A-only repair is a separate observed action. Required case precondition: G1 + G3; read-only Datadog test user exists.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "As read-only user, inspect session and attempt create/edit/disable through UI and copied direct page link. Do not alter user roles just to make this runnable."
     },
     {
@@ -780,11 +857,11 @@
       "cleanup": "Restore only authorized baseline permissions",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G1 + G3; write access can be revoked for disposable test user.",
+      "reason": "G3 incomplete: independent restricted test identities and the case-specific permission/revocation setup are not established. The approved A-only repair is a separate observed action. Required case precondition: G1 + G3; write access can be revoked for disposable test user.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Open an editable session, revoke only that user's write capability via approved admin, then apply from stale tab and reload."
     },
     {
@@ -797,11 +874,11 @@
       "cleanup": "Restore audit identity",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G1 + G3; separate configuration-read and restricted log-data identities.",
+      "reason": "G3 incomplete: independent restricted test identities and the case-specific permission/revocation setup are not established. The approved A-only repair is a separate observed action. Required case precondition: G1 + G3; separate configuration-read and restricted log-data identities.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Open same session under both identities; test event/snapshot direct links and expand captured values."
     },
     {
@@ -814,11 +891,11 @@
       "cleanup": "Sign out of secondary identity",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G2 + G3; two users with known relevant access model.",
+      "reason": "G3 incomplete: independent restricted test identities and the case-specific permission/revocation setup are not established. The approved A-only repair is a separate observed action. Required case precondition: G2 + G3; two users with known relevant access model.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Compare source retrieval under user with GitHub access and user without it, using the same authorized Datadog org integration. First document whether access is org-integration-based or user-delegated."
     },
     {
@@ -829,13 +906,13 @@
       "expected": "No cross-org source/session disclosure; explicit org/account mismatch; recover to intended target without publishing a draft.",
       "evidence_required": "V, I, A, R",
       "cleanup": "Return to correct org; close extra tabs",
-      "status": "BLOCKED",
+      "status": "PENDING",
       "actual": "No second organization or independently authorized signed-out/deep-link identity comparison was performed.",
-      "reason": "A second authorized organization/account and a real source/session target are missing. No cross-organization isolation conclusion is possible. Required case precondition: G0; G2/G3 for second org/account.",
+      "reason": "A real session target now exists. The signed-out deep-link branch remains unexecuted; the wrong-organization branch still needs a second authorized context.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Open a verified deep link with wrong Datadog org or signed-out state; sign in/switch through supported flow. Inspect preserved redirect/context."
     },
     {
@@ -848,11 +925,11 @@
       "cleanup": "Cancel prompts; preserve mode",
       "status": "BLOCKED",
       "actual": "Bits preview gating was visible and manual debugging remained discoverable.",
-      "reason": "Strict-mode behavior, effective redaction mode and the full combination of source/preview gates were not independently established. Protection was not changed to unlock Bits. Required case precondition: G0; existing org and current redaction mode known.",
+      "reason": "The capture panel displays Targeted redaction. Strict-mode behavior and the full combination of source/preview gates have not been established. Protection was not changed merely to unlock Bits.",
       "evidence": [
         "EVIDENCE.md#authenticated-first-run"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Inspect Bits availability in Strict mode, missing-source setup, and missing preview access where naturally present. Avoid changing protection merely to unlock Bits."
     },
     {
@@ -865,11 +942,11 @@
       "cleanup": "Disable all session logpoints; no code change unless separately authorized",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. Required case precondition: G1 + G2; Bits approved and available.",
+      "reason": "Baseline source retrieval is verified; the planned Bits path still needs actual preview availability/approval. The manual baseline capture does not establish this path.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Ask why exactly three units cost 3600 instead of 3240. Inspect created logpoints, captured evidence, source SHA, and suggested explanation; disable session."
     },
     {
@@ -880,15 +957,29 @@
       "expected": "No unintended ongoing capture. Historical data is not represented as erased merely because capture stopped.",
       "evidence_required": "I, R, T; final active count",
       "cleanup": "Record remaining authorized entities explicitly",
-      "status": "BLOCKED",
-      "actual": "After both rejected creates and later draft cancellation, the final observed unfiltered inventory remained All 0 / Active 0 / Inactive 0. No successful entity creation; edited and reopened drafts were closed by 05:45. The later accessibility draft was also closed without submission at 06:28.",
-      "reason": "Zero-entity inventory verified. Active-session disable, direct-link state and post-stop traffic remain untested.",
+      "status": "IN_PROGRESS",
+      "actual": "The resumed original target was stopped and reloaded inactive earlier. The shared complex-fixture session completed F13’s final whole-session stop at 13:13:55 and checked children 44/54/63 were disabled. Separate function-return/line-context experiments and the full global session/probe/runtime inventory are not yet established as cleaned up.",
+      "reason": "One target cleanup is confirmed; there is no reconciled final all-session/logpoint inventory, final active count, or final post-stop traffic check. Do not claim that all capture is stopped.",
       "evidence": [
         "EVIDENCE.md#baseline-submission-attempts",
-        "EVIDENCE.md#later-bounded-checks"
+        "EVIDENCE.md#later-bounded-checks",
+        "EVIDENCE.md#remaining-cleanup-inventory",
+        "evidence/continuation-13/105-resumed-session-inactive-disabled-safe.png",
+        "evidence/continuation-13/115-function-logpoint-draft-safe.png",
+        "evidence/continuation-13/116-function-exit-return-capture-safe.png",
+        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
+        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png",
+        "evidence/continuation-13/fixtures-117-125/122-concurrent-sample-a-pair-41-safe.png",
+        "evidence/continuation-13/fixtures-117-125/123-concurrent-sample-b-pair-53-safe.png",
+        "evidence/continuation-13/locals-126-131/129-never-called-waiting-for-events-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Final zero-session inventory observed; full created-entity cleanup test blocked."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Final session/logpoint cleanup, direct-link state and post-stop traffic; the original target expiry is complete, while other test assets remain active.",
+      "remaining_gaps": [
+        "Reconcile every created definition and session, distinguishing the shared fixture session stopped at 13:13:55 from separate function/line-return experiments and all earlier test assets.",
+        "Verify final active count, each relevant reloaded direct link, and bounded post-stop traffic."
+      ],
+      "cleanup_assessment": "OPEN. The latest reviewed evidence does not establish a global terminal cleanup state."
     },
     {
       "id": "C02",
@@ -898,15 +989,24 @@
       "expected": "No hidden broadened access, recurring activity, cost-bearing service, or forgotten extra runtime remains. Unrestored change is reported concretely.",
       "evidence_required": "A, H, R; nonsecret before/after summary",
       "cleanup": "Complete authorized restorations",
-      "status": "BLOCKED",
-      "actual": "Earlier processes/helpers were stopped. Approved continuation briefly ran the fixture, then stopped at an additional-destination approval boundary. Official GitHub App is now installed with A-only access; B exists and remains ungranted. Accounts, repositories and approved integration are retained test assets. Later same-scope reset was not performed; the existing A-only installation remains unchanged. Drafts were closed by 05:45.",
-      "reason": "Full latest before/after settings and resource reconciliation is not complete. The older no-App-grant checkpoint must not be treated as current. No broad cleanup certification.",
+      "status": "IN_PROGRESS",
+      "actual": "Several case-specific capture stops are verified, including the shared fixture session’s final F13 stop at 13:13:55. Runtime/traffic, fixture removal, source grants, settings and identity restoration have not received a complete before/after inventory; separate function/line-return experiments remain unclosed.",
+      "reason": "No final runtime/settings/grant restoration can be inferred from a stopped individual session or from a recording file. Preserve the full inventory task.",
       "evidence": [
         "EVIDENCE.md#continuation-recording-and-retained-state",
-        "EVIDENCE.md#approved-setup-milestones"
+        "EVIDENCE.md#approved-setup-milestones",
+        "EVIDENCE.md#remaining-cleanup-inventory",
+        "evidence/continuation-13/105-resumed-session-inactive-disabled-safe.png",
+        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
+        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Full environment inventory and restoration; only the named stop/grant/retention checks are complete."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Full environment inventory and restoration; only the named stop/grant/retention checks are complete.",
+      "remaining_gaps": [
+        "Reconcile processes/runs, settings, source grants, identities, fixture variants and remaining authorized assets.",
+        "Report unresolved or intentionally retained changes explicitly."
+      ],
+      "cleanup_assessment": "OPEN. No complete restoration or recurring-activity/cost inventory is established."
     },
     {
       "id": "C03",
@@ -916,15 +1016,16 @@
       "expected": "Separate UI defect, setup/environment issue, permission boundary, unsupported feature, timing artifact, and documentation mismatch. Never claim fixed without re-test.",
       "evidence_required": "V, I, T/R as relevant; exact reproduction",
       "cleanup": "Restore baseline; finalize outcome",
-      "status": "BLOCKED",
-      "actual": "DOC01 was repeated independently with inert and guarded Python scripts. The invalid module form exits 1; script and suffix-free module forms exit 0.",
-      "reason": "Isolated reproduction and positive controls passed. The planned actual capture/source correction retest remains blocked by G1/G2; neither the Datadog wrapper nor a repaired end-to-end workflow was tested. Required case precondition: One observed failure or workaround.",
+      "status": "PASS",
+      "actual": "The invalid Python module command was reproduced independently, with working script/module controls. The hosted supported script-launch form now produces actual captures. Separately, the interrupted source association persisted through a fresh catalog retry; the approved same-scope reinstall repaired it, and actual source/provider revision/content checks passed afterward.",
+      "reason": "Scoped PASS for the documented invocation workaround and controlled source-association repair/positive-control verification. The published documentation defect is not claimed fixed, and the cause of the original connection failure remains unproven. This does not certify every later issue as repaired.",
       "evidence": [
         "findings/DOC01-python-launch-command.md",
-        "EVIDENCE.md#local-reproduction"
+        "findings/SCI01-interrupted-github-recovery.md",
+        "EVIDENCE.md#verified-deployed-source"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Reproduction of the observed documentation defect complete; live correction retest blocked."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Observed failure reproduction, nearby positive controls and verified live capture/source recovery for the stated workarounds."
     },
     {
       "id": "X01",
@@ -936,11 +1037,11 @@
       "cleanup": "Stop the extra replica and disable experiments.",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; two approved test replicas at C1/C2 during a rolling deployment.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; two approved test replicas at C1/C2 during a rolling deployment.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Keep both commits active under one service/environment; give each replica a unique numeric marker; capture bounded traffic and open each event source."
     },
     {
@@ -953,11 +1054,11 @@
       "cleanup": "Return to baseline target and stop extra deployments.",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; same service name across two test environments and two repository forks.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; same service name across two test environments and two repository forks.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Use different numeric markers; switch environment/version/repository filters quickly and open each event directly."
     },
     {
@@ -968,14 +1069,23 @@
       "expected": "The healthy/no-traffic state is distinguishable from an uninstalled probe; the positive control produces an event.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Disable both test definitions.",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; one healthy function that is never called and one controlled failed installation.",
+      "status": "IN_PROGRESS",
+      "actual": "A probe targeting the never-called function at line 69 was created around 12:43 UTC. At the recorder check 12:54:53 it remained WAITING FOR EVENTS with one instance and zero events, while called siblings had fresh events. Reviewed stills 129 directly shows that waiting/no-events state. The earlier line-9999 controlled target had reported ERROR/NoFunctionsAtLine. The final healthy-function invocation has not been executed.",
+      "reason": "Actual creation and the bounded no-traffic observation clear the obsolete prepared-local-only blocker. The displayed waiting state differs from the earlier controlled installation-error state, but WAITING FOR EVENTS and an instance count are not explicit installation-success evidence. The required final invocation and resulting actual event remain untested, so this is partial progress only.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#never-called-installation-control",
+        "evidence/continuation-13/locals-126-131/129-never-called-waiting-for-events-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Install at the never-executed function; separately create a target known to fail installation; compare status; finally execute the healthy function once."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Install at the never-executed function; separately create a target known to fail installation; compare status; finally execute the healthy function once.",
+      "remaining_gaps": [
+        "Resolve the never-called probe template before invoking it: the pictured template references quantity, which is not an in-scope local/parameter of the inspected never-called fixture function. Use a valid fixture-local or literal message to avoid confounding the positive control.",
+        "Inspect available runtime/installation detail; do not promote WAITING FOR EVENTS or one instance into explicit installed/healthy proof.",
+        "Execute the healthy function once through an authorized supported route and verify the actual captured event against the fixture oracle.",
+        "Complete the state comparison after that positive event, keeping the earlier line-9999 error’s separate runtime/context and observation time explicit."
+      ],
+      "cleanup_assessment": "OPEN: disable the never-called test definition and verify the failed-installation definition remains disabled/expired. No final all-session cleanup or positive invocation is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
     },
     {
       "id": "X04",
@@ -985,14 +1095,15 @@
       "expected": "Late ingestion of pre-stop data is distinguished from new post-stop capture; state and retained history remain understandable.",
       "evidence_required": "V, I, T, R; separate execution, stop, and ingestion clocks",
       "cleanup": "Verify all affected entities inactive and stop traffic.",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; approved deletion or shortest expiry; accurate clocks and bounded traffic.",
+      "status": "PASS",
+      "actual": "The last target SDK snapshot at 10:45:41.045 is distinct from its UI log-row time 10:45:43.820. The observed active→expired transition was bounded 10:45:35.975–10:45:50.640. Historical rows remained after expiration and reload, without newer target rows by 10:47:16.596, while the control executed at 10:47:30.402.",
+      "reason": "PASS for the tested expiry alternative and separation of captured execution time, UI event-row time and retained history. No instantaneous stop or precise propagation lag is inferred from the bounded observations.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#verified-expiry-and-control",
+        "evidence/continuation-12/expiry-timing-observations.json"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Record executions immediately before and after effective stop; inspect late arrivals and refresh/direct links. Use permitted deletion only on disposable test entities."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Expiry boundary and retained-history semantics with actual SDK timestamps and independent continuing traffic."
     },
     {
       "id": "X05",
@@ -1004,11 +1115,11 @@
       "cleanup": "Restore approved baseline or document the final deployed commit; disable experiment.",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; C2 shifts the original selected statement to a new line.",
+      "reason": "The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G2 + G4; C2 shifts the original selected statement to a new line.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Capture baseline at C1; deploy C2; inspect installed target, displayed source, and new captures."
     },
     {
@@ -1019,14 +1130,21 @@
       "expected": "Each snapshot belongs to a single correct execution; no cross-request values or wrong trace/source association.",
       "evidence_required": "V, I, T, H",
       "cleanup": "Stop traffic and remove the temporary definition/fixture variant.",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; approved tiny async fixture variant.",
+      "status": "PASS",
+      "actual": "Two sampled executions from the deployed overlapping-request fixture are associated correctly across captured locals, indexed Logs identity, request trace and source link. Sample A is pair 41/index 101, quantity 2/total 2400, overlap_confirmed=True, SDK time 12:23:34.913 UTC. Sample B is pair 53/index 202, quantity 4/total 4320, overlap_confirmed=True, SDK time 12:32:41.298 UTC. The recorder verified each indexed Logs snapshot identity and matching per-sample trace correlation, expected GET request, status 200, version 0.2.0 and the same deployed-revision source link at the intended concurrency line 79. Both samples belong to the same intended probe/session.",
+      "reason": "PASS for the original overlapping-request snapshot-association checks as sampled: each inspected snapshot has internally consistent request-specific values, trace context and deployed-revision source-link association. The samples are from different pair indices; they do not form a completely collected concurrent pair, and no exhaustive concurrency or all-request isolation result is claimed. Actual capture clears the obsolete prepared-local-only blocker. Traffic/fixture cleanup remains open; reviewed safe derivatives are now available.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#sampled-overlapping-request-association",
+        "evidence/continuation-13/fixtures-117-125/122-concurrent-sample-a-pair-41-safe.png",
+        "evidence/continuation-13/fixtures-117-125/123-concurrent-sample-b-pair-53-safe.png",
+        "evidence/continuation-13/fixtures-117-125/124-concurrent-sample-a-trace-context-safe.png",
+        "evidence/continuation-13/fixtures-117-125/125-concurrent-sample-b-trace-context-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Send bounded overlapping requests carrying unique numeric correlation IDs; inspect local variables, trace/request context, and source per event."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Send bounded overlapping requests carrying unique numeric correlation IDs; inspect local variables, trace/request context, and source per event.",
+      "remaining_gaps": [],
+      "cleanup_assessment": "OPEN: stop bounded traffic and remove/disable the temporary concurrency probe/fixture when dependent QA is complete. The accidentally added adjacent-line probe is disabled and excluded; this does not establish final session/runtime cleanup. C01/C02 remain IN_PROGRESS. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
     },
     {
       "id": "X07",
@@ -1036,14 +1154,27 @@
       "expected": "UI remains usable; type, truncation, cycle handling, and protection are truthful at every depth. Only fake canaries are used.",
       "evidence_required": "V, I, T, H; masked or absent sensitive fields",
       "cleanup": "Remove extra fixture and logpoint; preserve normal protection.",
-      "status": "BLOCKED",
-      "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. The case also needs its stated isolated deployment or failure-injection variant; prepared local fixtures alone do not satisfy that gate. Required case precondition: G1 + G4; approved small synthetic data fixture.",
+      "status": "IN_PROGRESS",
+      "actual": "The real complex-fixture capture now supports typed empty collections, recorder-confirmed exact Unicode content, and distinct duplicate nested leaves 11 and 22. Cyclic expansion is observed but its bounded depth/termination semantics remain unresolved. A separate redaction capture explicitly hides top-level dummy accessToken/password and the entire credentials dictionary in Targeted mode.",
+      "reason": "Actual fixture capture clears the generic prepared-local-only blocker. The original deeper adversarial-value case is still partial: Unicode content and duplicate-leaf controls do not prove every Unicode-key/value combination, and a sensitive-name dictionary redacted wholesale does not establish nested sensitive child handling under a non-sensitive parent. Cycle/depth behavior and cleanup remain open.",
       "evidence": [
-        "EVIDENCE.md#checkpoint-and-gates"
+        "EVIDENCE.md#checkpoint-and-gates",
+        "EVIDENCE.md#complex-object-display",
+        "evidence/continuation-13/fixtures-117-125/117-complex-fixture-captured-safe.png",
+        "evidence/continuation-13/fixtures-117-125/118-nested-leaf-display-safe.png",
+        "evidence/continuation-13/fixtures-117-125/119-cycle-fixture-expanded-view-safe.png",
+        "evidence/continuation-13/fixtures-117-125/120-targeted-redaction-controls-safe.png",
+        "evidence/continuation-13/fixtures-117-125/121-targeted-name-redaction-explanations-safe.png"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
-      "scope": "Exercise cyclic objects, Unicode keys/values, duplicate nested keys, and nested dummy password/accessToken identifiers without weakening redaction."
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
+      "scope": "Exercise cyclic objects, Unicode keys/values, duplicate nested keys, and nested dummy password/accessToken identifiers without weakening redaction.",
+      "remaining_gaps": [
+        "Resolve bounded cycle handling and truthful depth/truncation presentation, without inferring termination from a repeated self object.",
+        "Document exact Unicode key and value coverage; the current report confirms Unicode content but does not enumerate a separate Unicode-key control.",
+        "Capture and inspect nested dummy password/accessToken identifiers beneath a non-sensitive parent, or supply an already executed equivalent control; wholesale redaction of credentials does not substitute for this.",
+        "Complete relevant type/value, truncation and responsiveness checks at the depths actually exercised."
+      ],
+      "cleanup_assessment": "OPEN: remove the extra fixture/logpoints and preserve normal protection. No final removal/restoration is established. Later F13 verifies whole-session stop of the shared fixture session at 13:13:55, but does not itself establish fixture/runtime removal or every case-specific direct-link inventory check."
     },
     {
       "id": "X08",
@@ -1055,11 +1186,11 @@
       "cleanup": "Keep only the explicitly approved final grant and baseline integration.",
       "status": "BLOCKED",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. G2 incomplete: the official GitHub App is installed and user-authorized with A-only scope, but Datadog association remains unconnected after an interrupted flow and fresh-context retry. Private B exists and remains ungranted. No source mapping is established. G3 unavailable: independent test identities and the specific sandbox role/revocation changes are not established or approved. Required case precondition: G2 + G3; approved test-only access/prerequisite interruption.",
+      "reason": "G3 incomplete: independent restricted test identities and the case-specific permission/revocation setup are not established. The approved A-only repair is a separate observed action. Required case precondition: G2 + G3; approved test-only access/prerequisite interruption.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Establish source baseline; remove one permitted prerequisite or revoke A; restore only its prior authorized scope; refresh and request fresh source."
     },
     {
@@ -1070,13 +1201,13 @@
       "expected": "Events, definitions, edits, lifecycle, and counts remain attached to the correct session; one session never disables or relabels the other silently.",
       "evidence_required": "V, I, T, R; both session/logpoint IDs",
       "cleanup": "Disable both sessions and verify terminal state.",
-      "status": "BLOCKED",
+      "status": "PENDING",
       "actual": "No result for the planned case is established.",
-      "reason": "G1 incomplete: local Agent intake/sample startup and Agent Remote Configuration authorization were briefly verified, and the service was discovered. Runtime stopped after an additional LLM Observability intake destination required separate approval, despite narrowing flags. No captured debugger event is established. Required case precondition: G1; two allowed simultaneous sessions at the same file/line.",
+      "reason": "The live numeric baseline now works. This case has not yet been completed; execute the remaining original steps and evidence checks before scoring it.",
       "evidence": [
         "EVIDENCE.md#checkpoint-and-gates"
       ],
-      "checkpoint_utc": "2026-10-08T06:28:00Z",
+      "checkpoint_utc": "2026-10-08T13:15:00Z",
       "scope": "Give session one condition quantity == 3 and session two quantity == 4; generate 2/3/4 traffic; edit one, then stop/expire one while the other remains active."
     }
   ],
@@ -1096,12 +1227,72 @@
     {
       "at_utc": "2026-10-08T05:20:00Z",
       "observation": "Two baseline attempts rejected with visible instrumentation-invalid message and HTTP 400; fresh All 0. Correctly enabled target/runtime remains unverified."
+    },
+    {
+      "at_utc": "2026-10-08T09:20:37.055079Z",
+      "observation": "Hosted sample and Agent RC authorized; matching SDK client registered LIVE_DEBUGGING and LIVE_DEBUGGING_SYMBOL_DB."
+    },
+    {
+      "at_utc": "2026-10-08T09:31:26Z",
+      "observation": "First actual quantity3 captured locals matched the planted application bug oracle."
+    },
+    {
+      "at_utc": "2026-10-08T09:55:00Z",
+      "observation": "Fresh same-scope A-only reinstall reached connected source configuration; source retrieval still separate."
+    },
+    {
+      "at_utc": "2026-10-08T10:04:21.432Z",
+      "observation": "F01 numeric template and quantity 2/3/4 captured-local controls complete."
+    },
+    {
+      "at_utc": "2026-10-08T10:25:48Z",
+      "observation": "S02 followed provider link and full code comparison match deployed revision f5061500e8bf30880aebcf7966ba64df44d2ccde."
+    },
+    {
+      "at_utc": "2026-10-08T13:15:00Z",
+      "observation": "V9: explicit resume/stop, input and definedness controls, capture toggle, targeted redaction, sampled request association and hierarchy checks. FUNC01 confirms two-tab unsaved-draft loss; function-entry, stale-save and global cleanup remain incomplete."
     }
   ],
   "status_counts": {
-    "BLOCKED": 57,
-    "FINDING": 4,
-    "PASS": 2
+    "BLOCKED": 24,
+    "FINDING": 7,
+    "IN_PROGRESS": 8,
+    "PASS": 16,
+    "PENDING": 8
   },
-  "checkpoint_type": "Approved setup continuation; runtime capture still unverified"
+  "checkpoint_type": "V9 evidence checkpoint; ongoing audit with original 63 cases preserved. Evidence through 2026-10-08 13:15:00 UTC only.",
+  "finding_accounting": {
+    "live_cutoff_utc": "2026-10-08T13:15:00Z",
+    "distinct_findings_at_live_cutoff": 8,
+    "severity_at_live_cutoff": {
+      "HIGH": 0,
+      "MEDIUM": 3,
+      "LOW": 5
+    },
+    "combined_distinct_findings_after_separate_verification": 9,
+    "combined_severity": {
+      "HIGH": 0,
+      "MEDIUM": 4,
+      "LOW": 5
+    },
+    "remaining_unconfirmed_topics_after_verification": 5
+  },
+  "post_cutoff_addenda": [
+    {
+      "kind": "OFFLINE_VERIFICATION",
+      "result_finalized_utc": "2026-10-08T13:15:37Z",
+      "confirmed_utc": "2026-10-08T13:16:33Z",
+      "finding": "FUNC02",
+      "severity": "MEDIUM",
+      "original_case_statuses_changed": false,
+      "evidence": "findings/FUNC02-unbound-locals-serialized-as-null.md",
+      "scope": "Actual ddtrace 4.11.0 package helper serialization; hosted transport payload uninspected."
+    },
+    {
+      "kind": "UNSCORED_STATUS",
+      "at_utc": "2026-10-08T13:17:59Z",
+      "observation": "Session inventory with My sessions enabled: All 4 / Active 0 / Inactive 4. This is not an account-wide inventory. Global runtime, traffic, fixture, settings and grant cleanup not established. Source 13 raw recording subsequently finalized; exact duration and reviewed motion export pending.",
+      "original_case_statuses_changed": false
+    }
+  ]
 }
