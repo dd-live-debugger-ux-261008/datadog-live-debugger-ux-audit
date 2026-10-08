@@ -1,0 +1,8 @@
+For the C1 action recorded at 2026-10-08T21:51:26.584Z, the immediate screenshot retains the pricing.py #24 stack header, Values for line 24, and the C2 main-editor revision 2d38d91. The event list includes C1 quantity=4 total=4320 and C2 quantity=3 total=3900 messages. Separately recorded source links still resolve to the C2 revision. This is a sampled intermediate state, not the final settled C1 result.
+
+Limits:
+- Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.
+- The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.
+- Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.
+- Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.
+- No new product finding or persistent source-association failure is claimed.

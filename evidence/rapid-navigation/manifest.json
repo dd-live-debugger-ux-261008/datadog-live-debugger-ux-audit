@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "title": "Rapid-navigation direct screenshot evidence supplement",
+  "geometry_convention": "Zero-based half-open integer [left, top, right, bottom) crops and solid opaque masks only.",
+  "interpretation_limits": [
+    "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+    "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+    "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+    "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+    "No new product finding or persistent source-association failure is claimed.",
+    "The 1.487-second action-record span is not a measured UI settling duration.",
+    "The later settled observation does not establish a maximum transition latency or every-frame consistency.",
+    "Source-link identity was checked from recorded URLs, which are intentionally excluded from this pack."
+  ],
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "ca1263a65c9a7083ecad20ee1e19b37f04517501fde33153f0fb50c9ad98bad0",
+    "format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "browser_access": false,
+    "external_publication": false
+  },
+  "images": [
+    {
+      "id": "01",
+      "source_filename": "s07-lightweight-rapid-0-C1.png",
+      "source_sha256": "2e892e83244fe608f37dd71436fead639a82adcf4e8cb835893e1c0b86daf16e",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "01-immediate-c1-selection-safe.png",
+      "safe_sha256": "a1d881b184f4499dd42ebc276f6575a84ffbe2f39cb3f812a489d9e1a726958b",
+      "safe_dimensions": [
+        1018,
+        531
+      ],
+      "crop_source_xyxy": [
+        252,
+        348,
+        1270,
+        879
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            262,
+            396,
+            475,
+            422
+          ],
+          "output_xyxy": [
+            10,
+            48,
+            223,
+            74
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "3ce684bdd40d11eeba75277fbc40c582a94077f81e9ea4a5d8d55cb0524daa3e",
+      "safe_decoded_rgb_sha256": "b3224114b09b4da16a16db700bf8e554dd2a6eeec9fb53cc7d686466f6762582",
+      "verified_unchanged_pixels_outside_masks": 535020,
+      "source_unchanged": true,
+      "caption": "For the C1 action recorded at 2026-10-08T21:51:26.584Z, the immediate screenshot retains the pricing.py #24 stack header, Values for line 24, and the C2 main-editor revision 2d38d91. The event list includes C1 quantity=4 total=4320 and C2 quantity=3 total=3900 messages. Separately recorded source links still resolve to the C2 revision. This is a sampled intermediate state, not the final settled C1 result.",
+      "visible_evidence_limits": [
+        "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+        "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+        "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+        "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+        "No new product finding or persistent source-association failure is claimed."
+      ],
+      "captured_value_rows_visible": false,
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "02",
+      "source_filename": "s07-lightweight-rapid-1-C2.png",
+      "source_sha256": "3b627fed9f4e2cb42203e360970531c96f42152eca2bb33526423cb59d244daa",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "02-immediate-c2-selection-safe.png",
+      "safe_sha256": "f1d8d68aa5f9d9369f064d5c2e174acc3a34bf932db97e6f40a5b114ebdf3392",
+      "safe_dimensions": [
+        1018,
+        531
+      ],
+      "crop_source_xyxy": [
+        252,
+        348,
+        1270,
+        879
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            262,
+            396,
+            475,
+            422
+          ],
+          "output_xyxy": [
+            10,
+            48,
+            223,
+            74
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "a65af7bd520c6ebb0519ed9a555a3fabba3029c53d9c79cb99d2e8d6bbe1a9e1",
+      "safe_decoded_rgb_sha256": "22fa1686a602d3b3e02d1e37f03ba7cb37a0ad27c3d8dc370352d71b46158252",
+      "verified_unchanged_pixels_outside_masks": 535020,
+      "source_unchanged": true,
+      "caption": "For the C2 action recorded at 2026-10-08T21:51:27.321Z, the immediate screenshot retains the pricing.py #24 stack header while its visible code body includes the quantity > 3 calculation; the C1 event row remains highlighted. The upper editor is blank in this frame. Separately recorded source links resolve to C2. These partially updated surfaces do not establish an atomic transition.",
+      "visible_evidence_limits": [
+        "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+        "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+        "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+        "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+        "No new product finding or persistent source-association failure is claimed."
+      ],
+      "captured_value_rows_visible": false,
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "03",
+      "source_filename": "s07-lightweight-rapid-2-C1.png",
+      "source_sha256": "88e62a7c16fcb9d514d67952dd770012d4cca5c93f6ca2b08e5460204f44fff6",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "03-immediate-return-c1-safe.png",
+      "safe_sha256": "4f4e0c0993d49bc3171316e591b930ed29ae23bf6d139858e1c52d57826af580",
+      "safe_dimensions": [
+        1018,
+        531
+      ],
+      "crop_source_xyxy": [
+        252,
+        348,
+        1270,
+        879
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            262,
+            396,
+            475,
+            422
+          ],
+          "output_xyxy": [
+            10,
+            48,
+            223,
+            74
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "496aafb39b17aa0e6e3b028a241743c9ea3d5af4d7380ba314a6a78c91dc6791",
+      "safe_decoded_rgb_sha256": "631715dc07f5e93237eb97a70e2b6226f03c289d3c0df1b4a0a7773c7a24c665",
+      "verified_unchanged_pixels_outside_masks": 535020,
+      "source_unchanged": true,
+      "caption": "For the return-to-C1 action recorded at 2026-10-08T21:51:28.071Z, the immediate screenshot still shows pricing.py #24 and Values for line 24, with the C1 event row highlighted and the upper editor blank. Separately recorded source links already resolve to C1 pricing.py line 17. The screenshot and identity record therefore must not be treated as proof that every surface updated atomically.",
+      "visible_evidence_limits": [
+        "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+        "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+        "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+        "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+        "No new product finding or persistent source-association failure is claimed."
+      ],
+      "captured_value_rows_visible": false,
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "04",
+      "source_filename": "s07-lightweight-rapid-settled.png",
+      "source_sha256": "d8623e8aa23fc4bd3ca02b90e740ff070719f2b4a301f2a5b7f32db91c5ea56c",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "04-settled-c1-safe.png",
+      "safe_sha256": "e4885951dca7079ca530efeabbfde072413f06ceca5458a9539465f77aacf566",
+      "safe_dimensions": [
+        1018,
+        531
+      ],
+      "crop_source_xyxy": [
+        252,
+        348,
+        1270,
+        879
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            262,
+            396,
+            475,
+            422
+          ],
+          "output_xyxy": [
+            10,
+            48,
+            223,
+            74
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5c328ed2385b903d63ea8ec324f8edc9242482d9fad57cb97b9e9dbca661039a",
+      "safe_decoded_rgb_sha256": "436aa10d5f5283e9cd81863c5b74ac3f8ae3620179b7b4484adb8ef5e09cf6ce",
+      "verified_unchanged_pixels_outside_masks": 535020,
+      "source_unchanged": true,
+      "caption": "At the settled observation recorded at 2026-10-08T21:51:46.355Z, the main editor shows the C1 revision 9fd3f27 and COVERAGE_C1 definition. The selected stack header is pricing.py #17, its line 17 source is highlighted, and the panel says Values for line 17. The C1 event-list row shows quantity=4 total=4320. Separately recorded links and snapshot identity match the final C1 selection. The captured value rows are below the frame; their recorded values are documented separately in safe-outcomes.json.",
+      "visible_evidence_limits": [
+        "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+        "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+        "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+        "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+        "No new product finding or persistent source-association failure is claimed."
+      ],
+      "captured_value_rows_visible": false,
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    }
+  ],
+  "safe_derived_outcomes_file": "safe-outcomes.json",
+  "public_file_allowlist": [
+    "01-caption.txt",
+    "01-immediate-c1-selection-safe.png",
+    "01-provenance.json",
+    "02-caption.txt",
+    "02-immediate-c2-selection-safe.png",
+    "02-provenance.json",
+    "03-caption.txt",
+    "03-immediate-return-c1-safe.png",
+    "03-provenance.json",
+    "04-caption.txt",
+    "04-provenance.json",
+    "04-settled-c1-safe.png",
+    "ALLOWLIST.txt",
+    "README.txt",
+    "SHA256SUMS",
+    "manifest.json",
+    "safe-outcomes.json"
+  ],
+  "quality_assurance": {
+    "visual_inspection": "All four sanitized outputs were viewed at their native geometry and checked for private identifiers, legibility, and crop/mask boundaries.",
+    "ocr": "Tesseract output for every sanitized image was reviewed. Known account/repository/host/runtime/run/job identifiers, UUID/correlation patterns, URLs, and email patterns were absent. OCR is auxiliary and is not an exact transcription of the screenshots.",
+    "caption_review": "Immediate frames, source-link records, and the later settled observation are distinguished. Below-frame captured values are explicitly disclosed. No atomic-every-frame guarantee or new product finding is claimed.",
+    "exact_pixel_preservation_verified": true,
+    "unmasked_pixels_verified": 2140080,
+    "original_image_hashes_rechecked": 4,
+    "safe_outcome_source_hashes_rechecked": 2,
+    "frozen": true,
+    "publication_status": "Prepared locally only. No browser access or external publication."
+  }
+}

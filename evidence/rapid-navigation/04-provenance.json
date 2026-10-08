@@ -1,0 +1,57 @@
+{
+  "id": "04",
+  "source_filename": "s07-lightweight-rapid-settled.png",
+  "source_sha256": "d8623e8aa23fc4bd3ca02b90e740ff070719f2b4a301f2a5b7f32db91c5ea56c",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "04-settled-c1-safe.png",
+  "safe_sha256": "e4885951dca7079ca530efeabbfde072413f06ceca5458a9539465f77aacf566",
+  "safe_dimensions": [
+    1018,
+    531
+  ],
+  "crop_source_xyxy": [
+    252,
+    348,
+    1270,
+    879
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        262,
+        396,
+        475,
+        422
+      ],
+      "output_xyxy": [
+        10,
+        48,
+        223,
+        74
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "5c328ed2385b903d63ea8ec324f8edc9242482d9fad57cb97b9e9dbca661039a",
+  "safe_decoded_rgb_sha256": "436aa10d5f5283e9cd81863c5b74ac3f8ae3620179b7b4484adb8ef5e09cf6ce",
+  "verified_unchanged_pixels_outside_masks": 535020,
+  "source_unchanged": true,
+  "caption": "At the settled observation recorded at 2026-10-08T21:51:46.355Z, the main editor shows the C1 revision 9fd3f27 and COVERAGE_C1 definition. The selected stack header is pricing.py #17, its line 17 source is highlighted, and the panel says Values for line 17. The C1 event-list row shows quantity=4 total=4320. Separately recorded links and snapshot identity match the final C1 selection. The captured value rows are below the frame; their recorded values are documented separately in safe-outcomes.json.",
+  "visible_evidence_limits": [
+    "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+    "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+    "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+    "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+    "No new product finding or persistent source-association failure is claimed."
+  ],
+  "captured_value_rows_visible": false,
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

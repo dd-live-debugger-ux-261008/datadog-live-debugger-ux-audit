@@ -1,0 +1,57 @@
+{
+  "id": "03",
+  "source_filename": "s07-lightweight-rapid-2-C1.png",
+  "source_sha256": "88e62a7c16fcb9d514d67952dd770012d4cca5c93f6ca2b08e5460204f44fff6",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "03-immediate-return-c1-safe.png",
+  "safe_sha256": "4f4e0c0993d49bc3171316e591b930ed29ae23bf6d139858e1c52d57826af580",
+  "safe_dimensions": [
+    1018,
+    531
+  ],
+  "crop_source_xyxy": [
+    252,
+    348,
+    1270,
+    879
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        262,
+        396,
+        475,
+        422
+      ],
+      "output_xyxy": [
+        10,
+        48,
+        223,
+        74
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "496aafb39b17aa0e6e3b028a241743c9ea3d5af4d7380ba314a6a78c91dc6791",
+  "safe_decoded_rgb_sha256": "631715dc07f5e93237eb97a70e2b6226f03c289d3c0df1b4a0a7773c7a24c665",
+  "verified_unchanged_pixels_outside_masks": 535020,
+  "source_unchanged": true,
+  "caption": "For the return-to-C1 action recorded at 2026-10-08T21:51:28.071Z, the immediate screenshot still shows pricing.py #24 and Values for line 24, with the C1 event row highlighted and the upper editor blank. Separately recorded source links already resolve to C1 pricing.py line 17. The screenshot and identity record therefore must not be treated as proof that every surface updated atomically.",
+  "visible_evidence_limits": [
+    "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+    "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+    "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+    "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+    "No new product finding or persistent source-association failure is claimed."
+  ],
+  "captured_value_rows_visible": false,
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

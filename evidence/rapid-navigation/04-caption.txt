@@ -1,0 +1,8 @@
+At the settled observation recorded at 2026-10-08T21:51:46.355Z, the main editor shows the C1 revision 9fd3f27 and COVERAGE_C1 definition. The selected stack header is pricing.py #17, its line 17 source is highlighted, and the panel says Values for line 17. The C1 event-list row shows quantity=4 total=4320. Separately recorded links and snapshot identity match the final C1 selection. The captured value rows are below the frame; their recorded values are documented separately in safe-outcomes.json.
+
+Limits:
+- Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.
+- The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.
+- Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.
+- Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.
+- No new product finding or persistent source-association failure is claimed.

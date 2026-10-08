@@ -1,0 +1,57 @@
+{
+  "id": "02",
+  "source_filename": "s07-lightweight-rapid-1-C2.png",
+  "source_sha256": "3b627fed9f4e2cb42203e360970531c96f42152eca2bb33526423cb59d244daa",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "02-immediate-c2-selection-safe.png",
+  "safe_sha256": "f1d8d68aa5f9d9369f064d5c2e174acc3a34bf932db97e6f40a5b114ebdf3392",
+  "safe_dimensions": [
+    1018,
+    531
+  ],
+  "crop_source_xyxy": [
+    252,
+    348,
+    1270,
+    879
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        262,
+        396,
+        475,
+        422
+      ],
+      "output_xyxy": [
+        10,
+        48,
+        223,
+        74
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "a65af7bd520c6ebb0519ed9a555a3fabba3029c53d9c79cb99d2e8d6bbe1a9e1",
+  "safe_decoded_rgb_sha256": "22fa1686a602d3b3e02d1e37f03ba7cb37a0ad27c3d8dc370352d71b46158252",
+  "verified_unchanged_pixels_outside_masks": 535020,
+  "source_unchanged": true,
+  "caption": "For the C2 action recorded at 2026-10-08T21:51:27.321Z, the immediate screenshot retains the pricing.py #24 stack header while its visible code body includes the quantity > 3 calculation; the C1 event row remains highlighted. The upper editor is blank in this frame. Separately recorded source links resolve to C2. These partially updated surfaces do not establish an atomic transition.",
+  "visible_evidence_limits": [
+    "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+    "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+    "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+    "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+    "No new product finding or persistent source-association failure is claimed."
+  ],
+  "captured_value_rows_visible": false,
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

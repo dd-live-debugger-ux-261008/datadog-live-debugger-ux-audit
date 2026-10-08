@@ -1,0 +1,17 @@
+01-caption.txt
+01-immediate-c1-selection-safe.png
+01-provenance.json
+02-caption.txt
+02-immediate-c2-selection-safe.png
+02-provenance.json
+03-caption.txt
+03-immediate-return-c1-safe.png
+03-provenance.json
+04-caption.txt
+04-provenance.json
+04-settled-c1-safe.png
+ALLOWLIST.txt
+README.txt
+SHA256SUMS
+manifest.json
+safe-outcomes.json

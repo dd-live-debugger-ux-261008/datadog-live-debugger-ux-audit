@@ -1,0 +1,8 @@
+For the return-to-C1 action recorded at 2026-10-08T21:51:28.071Z, the immediate screenshot still shows pricing.py #24 and Values for line 24, with the C1 event row highlighted and the upper editor blank. Separately recorded source links already resolve to C1 pricing.py line 17. The screenshot and identity record therefore must not be treated as proof that every surface updated atomically.
+
+Limits:
+- Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.
+- The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.
+- Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.
+- Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.
+- No new product finding or persistent source-association failure is claimed.

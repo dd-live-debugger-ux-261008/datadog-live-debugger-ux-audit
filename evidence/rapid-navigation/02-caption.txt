@@ -1,0 +1,8 @@
+For the C2 action recorded at 2026-10-08T21:51:27.321Z, the immediate screenshot retains the pricing.py #24 stack header while its visible code body includes the quantity > 3 calculation; the C1 event row remains highlighted. The upper editor is blank in this frame. Separately recorded source links resolve to C2. These partially updated surfaces do not establish an atomic transition.
+
+Limits:
+- Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.
+- The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.
+- Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.
+- Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.
+- No new product finding or persistent source-association failure is claimed.

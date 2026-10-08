@@ -1,0 +1,57 @@
+{
+  "id": "01",
+  "source_filename": "s07-lightweight-rapid-0-C1.png",
+  "source_sha256": "2e892e83244fe608f37dd71436fead639a82adcf4e8cb835893e1c0b86daf16e",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "01-immediate-c1-selection-safe.png",
+  "safe_sha256": "a1d881b184f4499dd42ebc276f6575a84ffbe2f39cb3f812a489d9e1a726958b",
+  "safe_dimensions": [
+    1018,
+    531
+  ],
+  "crop_source_xyxy": [
+    252,
+    348,
+    1270,
+    879
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        262,
+        396,
+        475,
+        422
+      ],
+      "output_xyxy": [
+        10,
+        48,
+        223,
+        74
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "3ce684bdd40d11eeba75277fbc40c582a94077f81e9ea4a5d8d55cb0524daa3e",
+  "safe_decoded_rgb_sha256": "b3224114b09b4da16a16db700bf8e554dd2a6eeec9fb53cc7d686466f6762582",
+  "verified_unchanged_pixels_outside_masks": 535020,
+  "source_unchanged": true,
+  "caption": "For the C1 action recorded at 2026-10-08T21:51:26.584Z, the immediate screenshot retains the pricing.py #24 stack header, Values for line 24, and the C2 main-editor revision 2d38d91. The event list includes C1 quantity=4 total=4320 and C2 quantity=3 total=3900 messages. Separately recorded source links still resolve to the C2 revision. This is a sampled intermediate state, not the final settled C1 result.",
+  "visible_evidence_limits": [
+    "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+    "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+    "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+    "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+    "No new product finding or persistent source-association failure is claimed."
+  ],
+  "captured_value_rows_visible": false,
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

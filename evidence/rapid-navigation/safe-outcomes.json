@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "description": "Derived from existing action records and settled recorded UI text; private identities and URLs excluded.",
+  "actions": [
+    {
+      "recorded_at_utc": "2026-10-08T21:51:26.584Z",
+      "target_revision": "C1",
+      "immediate_source_link_revisions": [
+        "C2",
+        "C2"
+      ],
+      "screenshot_filename": "s07-lightweight-rapid-0-C1.png"
+    },
+    {
+      "recorded_at_utc": "2026-10-08T21:51:27.321Z",
+      "target_revision": "C2",
+      "immediate_source_link_revisions": [
+        "C2",
+        "C2"
+      ],
+      "screenshot_filename": "s07-lightweight-rapid-1-C2.png"
+    },
+    {
+      "recorded_at_utc": "2026-10-08T21:51:28.071Z",
+      "target_revision": "C1",
+      "immediate_source_link_revisions": [
+        "C1",
+        "C1"
+      ],
+      "screenshot_filename": "s07-lightweight-rapid-2-C1.png"
+    }
+  ],
+  "recorded_action_span_seconds": 1.487,
+  "settled": {
+    "observed_utc": "2026-10-08T21:51:46.355Z",
+    "source_link_revision": "C1",
+    "source_frame": "pricing.py line 17",
+    "snapshot_identity_matches_final_c1_selection": true,
+    "recorded_captured_values_below_screenshot_viewport": {
+      "quantity": 4,
+      "discount_cents": 480,
+      "discount_eligible": true,
+      "subtotal_cents": 4800,
+      "total_cents": 4320,
+      "unit_price_cents": 1200
+    },
+    "captured_value_rows_visible_in_image": false
+  },
+  "limits": [
+    "Direct still screenshot only; no continuous-video or atomic-every-frame guarantee.",
+    "The recorded action/observation timestamp is from the corresponding JSON, not printed in the screenshot.",
+    "Event-list times and messages are UI values, not independent SDK snapshot execution timestamps.",
+    "Captured value rows are below this viewport; the Values heading alone is not visual proof of those captured values.",
+    "No new product finding or persistent source-association failure is claimed.",
+    "The 1.487-second action-record span is not a measured UI settling duration.",
+    "The later settled observation does not establish a maximum transition latency or every-frame consistency.",
+    "Source-link identity was checked from recorded URLs, which are intentionally excluded from this pack."
+  ],
+  "sources": [
+    {
+      "filename": "s07-lightweight-rapid-results.json",
+      "sha256": "e0de9f7797ef146191ecf6fe69d48f9ca127fb0d1e9944797b93cc58045a928a"
+    },
+    {
+      "filename": "s07-lightweight-rapid-settled.json",
+      "sha256": "27df55cd652ee0a8dd72d64adf7b366bd17571492109d9e58d92b003c1a7a80f"
+    }
+  ]
+}
