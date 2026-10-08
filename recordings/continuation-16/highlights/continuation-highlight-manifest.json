@@ -1,0 +1,817 @@
+{
+  "version": 1,
+  "source": {
+    "label": "Recording source 16",
+    "duration_seconds": 5366.25,
+    "bytes": 153855629,
+    "sha256": "c48e3a15fe3d16a548bf675944e234d79d67632ad4b9f522b0bdc02e74ce2dfc",
+    "utc_start": "2026-10-08T17:24:47Z",
+    "utc_end_derived": "2026-10-08T18:54:13.250000+00:00",
+    "recorder_stop_utc": "2026-10-08T18:54:13Z",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "nominal_fps": 20,
+    "stored_frame_count": 107254,
+    "adjacent_timestamp_gap_count": 50,
+    "maximum_adjacent_timestamp_step_seconds": 0.35,
+    "audio_tracks": 0
+  },
+  "output": {
+    "file": "source-controls-recovery-highlights.mp4",
+    "duration_seconds": 340,
+    "bytes": 4554339,
+    "sha256": "31a90d5d604bd2220ce1ca6414f567e247e6c2c33cae37752e19cdc3d9d41675",
+    "decoded": true,
+    "dimensions": [
+      1280,
+      900
+    ],
+    "fps": 20,
+    "audio_tracks": 0,
+    "sampled_frames": 279,
+    "cadence_seconds": 2,
+    "scene_threshold": 0.005
+  },
+  "chapters": [
+    {
+      "start": 72,
+      "end": 88,
+      "title": "Prepare the canonical C1 logpoint",
+      "caption": "Unsubmitted draft: pricing.py line 17 and the SOURCE_C1 log template.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 16.0,
+      "source_start_seconds": 72,
+      "source_end_seconds": 88,
+      "utc_start_derived": "2026-10-08T17:25:59+00:00",
+      "utc_end_derived": "2026-10-08T17:26:15+00:00"
+    },
+    {
+      "start": 728,
+      "end": 742,
+      "title": "Start the first C1 session",
+      "caption": "Draft submission leads to an active session waiting for events.",
+      "crop": [
+        145,
+        300,
+        1130,
+        580
+      ],
+      "masks": [
+        [
+          145,
+          300,
+          860,
+          52
+        ],
+        [
+          145,
+          352,
+          545,
+          300
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 16.0,
+      "output_end_seconds": 30.0,
+      "source_start_seconds": 728,
+      "source_end_seconds": 742,
+      "utc_start_derived": "2026-10-08T17:36:55+00:00",
+      "utc_end_derived": "2026-10-08T17:37:09+00:00"
+    },
+    {
+      "start": 1050,
+      "end": 1062,
+      "title": "Two probes receive events",
+      "caption": "The session event list shows SOURCE_C1 and SOURCE_A_HTTPS_GIT records.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          435,
+          300,
+          570,
+          50
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 30.0,
+      "output_end_seconds": 42.0,
+      "source_start_seconds": 1050,
+      "source_end_seconds": 1062,
+      "utc_start_derived": "2026-10-08T17:42:17+00:00",
+      "utc_end_derived": "2026-10-08T17:42:29+00:00"
+    },
+    {
+      "start": 1090,
+      "end": 1097,
+      "title": "Interrupted / idle interval: original elapsed time",
+      "caption": "17:42:54-17:51:27 UTC: automated events continue; continuous active testing is not implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          435,
+          300,
+          570,
+          50
+        ]
+      ],
+      "idle_archive": true,
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 42.0,
+      "output_end_seconds": 49.0,
+      "source_start_seconds": 1090,
+      "source_end_seconds": 1097,
+      "utc_start_derived": "2026-10-08T17:42:57+00:00",
+      "utc_end_derived": "2026-10-08T17:43:04+00:00"
+    },
+    {
+      "start": 1672,
+      "end": 1708,
+      "title": "Inspect C1 and HTTPS-source captures",
+      "caption": "The recorded stack pane displays pricing.py source. Event-row times are UI values.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          435,
+          300,
+          570,
+          50
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 49.0,
+      "output_end_seconds": 85.0,
+      "source_start_seconds": 1672,
+      "source_end_seconds": 1708,
+      "utc_start_derived": "2026-10-08T17:52:39+00:00",
+      "utc_end_derived": "2026-10-08T17:53:15+00:00"
+    },
+    {
+      "start": 1900,
+      "end": 1907,
+      "title": "Manual metadata-control logpoint setup",
+      "caption": "Manual draft for the missing-metadata control; private service identity is masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 1907.0,
+          "end": 1913,
+          "rect": [
+            435,
+            300,
+            570,
+            50
+          ]
+        },
+        {
+          "start": 1907.0,
+          "end": 1913,
+          "rect": [
+            250,
+            390,
+            435,
+            140
+          ]
+        }
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 85.0,
+      "output_end_seconds": 92.0,
+      "source_start_seconds": 1900,
+      "source_end_seconds": 1907,
+      "utc_start_derived": "2026-10-08T17:56:27+00:00",
+      "utc_end_derived": "2026-10-08T17:56:34+00:00"
+    },
+    {
+      "start": 2260,
+      "end": 2280,
+      "title": "Manual metadata-control logpoint setup",
+      "caption": "The manual source-location draft is visible; private service identity is masked.",
+      "crop": [
+        145,
+        282,
+        1060,
+        634
+      ],
+      "masks": [
+        [
+          155,
+          312,
+          440,
+          45
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 92.0,
+      "output_end_seconds": 112.0,
+      "source_start_seconds": 2260,
+      "source_end_seconds": 2280,
+      "utc_start_derived": "2026-10-08T18:02:27+00:00",
+      "utc_end_derived": "2026-10-08T18:02:47+00:00"
+    },
+    {
+      "start": 2405,
+      "end": 2425,
+      "title": "Source-control outcomes before the browser interruption",
+      "caption": "Selected events show fallback, malformed/nonexistent revision diagnostics, B controls, and SSH-form source.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 2394,
+          "end": 2446,
+          "rect": [
+            780,
+            684,
+            466,
+            52
+          ]
+        }
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 112.0,
+      "output_end_seconds": 132.0,
+      "source_start_seconds": 2405,
+      "source_end_seconds": 2425,
+      "utc_start_derived": "2026-10-08T18:04:52+00:00",
+      "utc_end_derived": "2026-10-08T18:05:12+00:00"
+    },
+    {
+      "start": 2480,
+      "end": 2495,
+      "title": "Source-control outcomes before the browser interruption",
+      "caption": "Selected events show fallback, malformed/nonexistent revision diagnostics, B controls, and SSH-form source.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 2394,
+          "end": 2446,
+          "rect": [
+            780,
+            684,
+            466,
+            52
+          ]
+        }
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 132.0,
+      "output_end_seconds": 147.0,
+      "source_start_seconds": 2480,
+      "source_end_seconds": 2495,
+      "utc_start_derived": "2026-10-08T18:06:07+00:00",
+      "utc_end_derived": "2026-10-08T18:06:22+00:00"
+    },
+    {
+      "start": 2540,
+      "end": 2555,
+      "title": "Source-control outcomes before the browser interruption",
+      "caption": "Selected events show fallback, malformed/nonexistent revision diagnostics, B controls, and SSH-form source.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 2394,
+          "end": 2446,
+          "rect": [
+            780,
+            684,
+            466,
+            52
+          ]
+        }
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 147.0,
+      "output_end_seconds": 162.0,
+      "source_start_seconds": 2540,
+      "source_end_seconds": 2555,
+      "utc_start_derived": "2026-10-08T18:07:07+00:00",
+      "utc_end_derived": "2026-10-08T18:07:22+00:00"
+    },
+    {
+      "start": 2594,
+      "end": 2608,
+      "title": "SSH-form repository: received metadata",
+      "caption": "The received commit is C1; private repository URL and runtime directory values are masked.",
+      "crop": [
+        674,
+        482,
+        532,
+        382
+      ],
+      "masks": [
+        [
+          682,
+          698,
+          520,
+          27
+        ],
+        [
+          682,
+          782,
+          520,
+          28
+        ],
+        [
+          786,
+          836,
+          420,
+          28
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 162.0,
+      "output_end_seconds": 176.0,
+      "source_start_seconds": 2594,
+      "source_end_seconds": 2608,
+      "utc_start_derived": "2026-10-08T18:08:01+00:00",
+      "utc_end_derived": "2026-10-08T18:08:15+00:00"
+    },
+    {
+      "start": 2730,
+      "end": 2740,
+      "title": "Browser interruption and reload attempts",
+      "caption": "Chromium Aw Snap and reload attempts are preserved at original speed; this is not proof of backend state.",
+      "crop": [
+        250,
+        230,
+        1020,
+        650
+      ],
+      "masks": [],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 176.0,
+      "output_end_seconds": 186.0,
+      "source_start_seconds": 2730,
+      "source_end_seconds": 2740,
+      "utc_start_derived": "2026-10-08T18:10:17+00:00",
+      "utc_end_derived": "2026-10-08T18:10:27+00:00"
+    },
+    {
+      "start": 3135,
+      "end": 3150,
+      "title": "Debugger recovered: C1 before the branch-head change",
+      "caption": "The recovered debugger displays C1 source and incoming grouped-control events.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 186.0,
+      "output_end_seconds": 201.0,
+      "source_start_seconds": 3135,
+      "source_end_seconds": 3150,
+      "utc_start_derived": "2026-10-08T18:17:02+00:00",
+      "utc_end_derived": "2026-10-08T18:17:17+00:00"
+    },
+    {
+      "start": 3390,
+      "end": 3410,
+      "title": "C2 commit: seven added source-marker lines",
+      "caption": "Commit 2d38d91 has parent 9fd3f27. The commit text describes the unit-price change; that diff is below view.",
+      "crop": [
+        110,
+        280,
+        1138,
+        648
+      ],
+      "masks": [
+        [
+          110,
+          340,
+          238,
+          38
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 201.0,
+      "output_end_seconds": 221.0,
+      "source_start_seconds": 3390,
+      "source_end_seconds": 3410,
+      "utc_start_derived": "2026-10-08T18:21:17+00:00",
+      "utc_end_derived": "2026-10-08T18:21:37+00:00"
+    },
+    {
+      "start": 3425,
+      "end": 3445,
+      "title": "C1 after the C2 branch-head change",
+      "caption": "The selected C1 stack frame remains at pricing.py line 17. Event-list times are UI values, not execution timestamps.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 221.0,
+      "output_end_seconds": 241.0,
+      "source_start_seconds": 3425,
+      "source_end_seconds": 3445,
+      "utc_start_derived": "2026-10-08T18:21:52+00:00",
+      "utc_end_derived": "2026-10-08T18:22:12+00:00"
+    },
+    {
+      "start": 3556,
+      "end": 3570,
+      "title": "C1 after C2: received metadata remains C1",
+      "caption": "Received tags retain commit 9fd3f277d9047dc8fc55d2b77ac8e375184a1453; the private repository URL is masked.",
+      "crop": [
+        674,
+        482,
+        532,
+        382
+      ],
+      "masks": [
+        [
+          682,
+          698,
+          520,
+          27
+        ],
+        [
+          682,
+          782,
+          520,
+          28
+        ],
+        [
+          786,
+          836,
+          420,
+          28
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 241.0,
+      "output_end_seconds": 255.0,
+      "source_start_seconds": 3556,
+      "source_end_seconds": 3570,
+      "utc_start_derived": "2026-10-08T18:24:03+00:00",
+      "utc_end_derived": "2026-10-08T18:24:17+00:00"
+    },
+    {
+      "start": 3577,
+      "end": 3595,
+      "title": "Source actions menu",
+      "caption": "The frame offers editor, GitHub, blame, and commit actions; menu availability alone does not prove each action works.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          250,
+          390,
+          435,
+          140
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 255.0,
+      "output_end_seconds": 273.0,
+      "source_start_seconds": 3577,
+      "source_end_seconds": 3595,
+      "utc_start_derived": "2026-10-08T18:24:24+00:00",
+      "utc_end_derived": "2026-10-08T18:24:42+00:00"
+    },
+    {
+      "start": 4020,
+      "end": 4040,
+      "title": "B-only selected stack has no source",
+      "caption": "The selected stack frame shows a generic missing-link banner; this does not prove a root cause.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          250,
+          390,
+          435,
+          140
+        ],
+        [
+          435,
+          300,
+          570,
+          50
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 273.0,
+      "output_end_seconds": 293.0,
+      "source_start_seconds": 4020,
+      "source_end_seconds": 4040,
+      "utc_start_derived": "2026-10-08T18:31:47+00:00",
+      "utc_end_derived": "2026-10-08T18:32:07+00:00"
+    },
+    {
+      "start": 4088,
+      "end": 4110,
+      "title": "Isolated session stops; retained captures remain",
+      "caption": "INACTIVE state is visible. Grouped-stop validation is separate; no runtime shutdown is implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          260,
+          390,
+          410,
+          36
+        ],
+        [
+          260,
+          485,
+          410,
+          40
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 293.0,
+      "output_end_seconds": 315.0,
+      "source_start_seconds": 4088,
+      "source_end_seconds": 4110,
+      "utc_start_derived": "2026-10-08T18:32:55+00:00",
+      "utc_end_derived": "2026-10-08T18:33:17+00:00"
+    },
+    {
+      "start": 4130,
+      "end": 4145,
+      "title": "Isolated session stops; retained captures remain",
+      "caption": "INACTIVE state is visible. Grouped-stop validation is separate; no runtime shutdown is implied.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          300,
+          570,
+          50
+        ],
+        [
+          260,
+          390,
+          410,
+          36
+        ],
+        [
+          260,
+          485,
+          410,
+          40
+        ],
+        [
+          995,
+          300,
+          110,
+          50
+        ]
+      ],
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 315.0,
+      "output_end_seconds": 330.0,
+      "source_start_seconds": 4130,
+      "source_end_seconds": 4145,
+      "utc_start_derived": "2026-10-08T18:33:37+00:00",
+      "utc_end_derived": "2026-10-08T18:33:52+00:00"
+    },
+    {
+      "start": 4290,
+      "end": 4300,
+      "title": "Foreground integration page remains open",
+      "caption": "Later filters, ordering, inventory and final C1 restoration were background / direct-still evidence.",
+      "crop": [
+        250,
+        252,
+        1022,
+        628
+      ],
+      "masks": [
+        [
+          390,
+          490,
+          355,
+          40
+        ],
+        [
+          260,
+          665,
+          420,
+          40
+        ]
+      ],
+      "background_tab_boundary": true,
+      "output_file": "source-controls-recovery-highlights.mp4",
+      "output_start_seconds": 330.0,
+      "output_end_seconds": 340.0,
+      "source_start_seconds": 4290,
+      "source_end_seconds": 4300,
+      "utc_start_derived": "2026-10-08T18:36:17+00:00",
+      "utc_end_derived": "2026-10-08T18:36:27+00:00"
+    }
+  ],
+  "review": {
+    "decoded": true,
+    "sampled_frames": 279,
+    "cadence_seconds": 2,
+    "scene_threshold": 0.005,
+    "unresolved_ocr_flags": 0,
+    "independent_highlight_visual_clearance": true,
+    "source_hash_unchanged": true,
+    "sampling_limits_apply": true
+  },
+  "evidence_limits": [
+    "Only genuine foreground motion from recording source 16 is used. Edits add opaque masks, native-scale crops, padding, explanatory text and chapter cuts. There are no inserted stills, reconstructed UI, synthesized motion, or speed-ups.",
+    "The highlight edit is selective. Its chapter manifest maps every excerpt to the source recording. A separately prepared safe archive accounts for retained and omitted time; only this highlight package is cleared by this standalone manifest.",
+    "Raw 1087\u20131600 seconds (17:42:54\u201317:51:27 UTC) is an interrupted/idle interval. Automated event rows continue changing, but this must not be described as uninterrupted active testing.",
+    "Raw 2707.30\u20133127.35 seconds (18:09:54.30\u201318:16:54.35 UTC) is the Chromium Aw Snap and reload/loading window; 32.45 seconds of unrelated tab flashes are explicitly omitted. This is a browser interruption and does not by itself establish a Datadog backend outage or product defect.",
+    "An environment restart occurred around 18:30 UTC. The foreground recording continues showing the isolated session, so it is not visual proof of the restart process.",
+    "Foreground GitHub Apps configuration is retained from 18:35:17 UTC. The settled repository page remains foreground from 18:35:42 through recording end. Later draft/filter/order controls, the six-session inactive inventory, grouped-child stop checks, and final canonical-C1 restoration were background/direct-still observations; they are not presented as motion captured by this video.",
+    "The isolated B-only session visibly becomes INACTIVE and its child becomes DISABLED while historical captures remain. This does not prove the provider runtime or agent shut down. The all-ten-probes stop conclusion requires separate inspection evidence.",
+    "The C2 commit view shows seven added marker lines and commit prose describing a changed unit price and an unchanged C1 runtime. The unit-price diff is below the visible viewport. Actual runtime pinning and snapshot execution time were checked separately; commit prose and event-list display times alone do not establish those facts.",
+    "The upper editor can retain source from another control. Use the selected event stack pane to assess source availability. Generic missing-link messages do not independently distinguish repository-access scope from other source-link causes.",
+    "Browser chrome, account/profile/session/service identities, private repository URLs and runtime directory values are cropped or opaque-masked. Broad masks intentionally hide some adjacent ordinary UI. Preserved commit SHAs are technical evidence for the synthetic revision controls.",
+    "The source has 107254 stored frames and 50 adjacent timestamp gaps above the nominal 0.05 seconds, with a maximum step of 0.35 seconds. Constant-20-fps output holds existing recorded frames across gaps. Nominal timeline indices and stored-frame ordinals are different quantities.",
+    "UTC labels are derived from the recorder start. Provider timestamps, Datadog event-row display times and SDK execution timestamps are distinct evidence types.",
+    "Privacy verification includes independent encoded visual review, dense raw transition checks, 2-second encoded OCR sampling and full-rate scene-triggered OCR at threshold0.005. All flagged regions were resolved before this export. Review is sampled, not a guarantee of every pixel.",
+    "This local preparation performs no external publication. Only the four files in this highlight folder are cleared by this standalone package; raw video and private review material are excluded."
+  ]
+}
