@@ -1,0 +1,1 @@
+The top visible event row reads STALE_EDIT q=4 total=4320. The session shows ACTIVE (60 MINUTES LEFT). The right capture pane is explicitly OUTDATED and still displays the older BRANCH q=4 name=four only=True total=4320 capture, with quantity=4, branch_name=four, branch_only=404, and total_cents=4320.

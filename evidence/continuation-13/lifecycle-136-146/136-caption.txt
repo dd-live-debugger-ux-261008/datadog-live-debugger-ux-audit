@@ -1,0 +1,1 @@
+The session visibly remains ACTIVE (56 MINUTES LEFT). In the logpoint list, qa_fixture.py line 63 is DISABLED, line 54 shows EVENTS RECEIVED, and line 69 shows WAITING FOR EVENTS. The open editor shows quantity == 4, capture of all variables up to 3 levels, and a blue Apply button.

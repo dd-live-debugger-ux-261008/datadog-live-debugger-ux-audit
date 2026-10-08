@@ -1,0 +1,117 @@
+{
+  "id": "146",
+  "source_filename": "146-session-inventory-after-live-pass.jpg",
+  "source_sha256": "29ea26c1cb0a38d98d9a81e3f788de960b05b91504e10c1dd913fe5fe26813fb",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "146-filtered-session-inventory-safe.png",
+  "public_relative_path": "evidence/continuation-13/lifecycle-136-146/146-filtered-session-inventory-safe.png",
+  "safe_sha256": "b03ea79a68aee70b09d7693081271306ecd5f408b0c906eed37b4eeaa603ebb4",
+  "safe_dimensions": [
+    992,
+    607
+  ],
+  "crop_source_xyxy": [
+    158,
+    126,
+    1150,
+    733
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        185,
+        385,
+        562,
+        445
+      ],
+      "output_xyxy": [
+        27,
+        259,
+        404,
+        319
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "session title, service identity, creator name, and avatar for first card"
+    },
+    {
+      "source_xyxy": [
+        185,
+        475,
+        562,
+        535
+      ],
+      "output_xyxy": [
+        27,
+        349,
+        404,
+        409
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "session title, service identity, creator name, and avatar for second card"
+    },
+    {
+      "source_xyxy": [
+        185,
+        566,
+        562,
+        625
+      ],
+      "output_xyxy": [
+        27,
+        440,
+        404,
+        499
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "session title, service identity, creator name, and avatar for third card"
+    },
+    {
+      "source_xyxy": [
+        185,
+        656,
+        562,
+        716
+      ],
+      "output_xyxy": [
+        27,
+        530,
+        404,
+        590
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "session title, service identity, creator name, and avatar for fourth card"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b0be280e8ea0bfac88747b31cc2d53771157ba935dcda786bf892fc81b3737af",
+  "safe_decoded_rgb_sha256": "e924591e28447bade07adf770b1e1e56e621a4bdc38c6f3abffb5f7152cf4f37",
+  "verified_unchanged_pixels_outside_masks": 512041,
+  "source_unchanged": true,
+  "caption": "The Sessions List has My sessions enabled, Services and Environments set to All, and Created set to All time. Its tabs visibly show All 4, Active 0, and Inactive 4. Four session cards are visible, each marked INACTIVE. Private session titles, service names, creator names, and avatars are masked.",
+  "visible_evidence_limits": [
+    "These are counts under the displayed My sessions filter, not an unfiltered account-wide inventory.",
+    "The still does not establish runtime-process shutdown, agent cleanup, or all external resources being stopped."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

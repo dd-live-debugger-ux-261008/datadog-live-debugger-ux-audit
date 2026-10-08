@@ -1,0 +1,1 @@
+The session visibly shows INACTIVE. Displayed line 22 and line 32 logpoints are DISABLED, and historical EXCEPTION recovered=-1 rows remain available with a retained exception capture. Retrieved source and the exception type, denominator 0, and exception text remain visible.

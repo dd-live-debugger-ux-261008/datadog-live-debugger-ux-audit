@@ -1,0 +1,1 @@
+The session shows ACTIVE (59 MINUTES LEFT), and the selected line 44 child is marked EVENTS RECEIVED. Displayed sibling lines 79 and 54 are DISABLED. The visible capture message is EXCEPTION recovered=-1. Values shown include __name__=qa_fixture, @exception=ZeroDivisionError, caught_error=ZeroDivisionError, denominator=0, and exception_text=integer division or modulo by zero.

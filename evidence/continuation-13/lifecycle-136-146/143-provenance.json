@@ -1,0 +1,97 @@
+{
+  "id": "143",
+  "source_filename": "143-only-enabled-child-new-capture.jpg",
+  "source_sha256": "2491a97ef26ee82588a55713d80efd4dfbe0f481cfbe7d7eb25bc2a5ce24f987",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "143-enabled-child-exception-capture-safe.png",
+  "public_relative_path": "evidence/continuation-13/lifecycle-136-146/143-enabled-child-exception-capture-safe.png",
+  "safe_sha256": "d29ca01234b2a2e13bf5ce83805042e6b97ea220e5d83f16a9cb7b7ce89111fc",
+  "safe_dimensions": [
+    1020,
+    577
+  ],
+  "crop_source_xyxy": [
+    160,
+    133,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        342,
+        133,
+        614,
+        168
+      ],
+      "output_xyxy": [
+        182,
+        0,
+        454,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile-derived session title"
+    },
+    {
+      "source_xyxy": [
+        807,
+        133,
+        925,
+        168
+      ],
+      "output_xyxy": [
+        647,
+        0,
+        765,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "profile name/avatar"
+    },
+    {
+      "source_xyxy": [
+        839,
+        541,
+        1005,
+        567
+      ],
+      "output_xyxy": [
+        679,
+        408,
+        845,
+        434
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "72731c66f8d2604dd95ef6b1fd7e606e9c923467c58209382c241755658560ee",
+  "safe_decoded_rgb_sha256": "d7ff8b26864720b471e942ee5b2ca3ce819fd542238ee6d932f69263af054f68",
+  "verified_unchanged_pixels_outside_masks": 570574,
+  "source_unchanged": true,
+  "caption": "The session shows ACTIVE (59 MINUTES LEFT), and the selected line 44 child is marked EVENTS RECEIVED. Displayed sibling lines 79 and 54 are DISABLED. The visible capture message is EXCEPTION recovered=-1. Values shown include __name__=qa_fixture, @exception=ZeroDivisionError, caught_error=ZeroDivisionError, denominator=0, and exception_text=integer division or modulo by zero.",
+  "visible_evidence_limits": [
+    "The still supports the selected enabled-child capture and visible sibling states, not an exhaustive check of all eight children.",
+    "The recovered_value local is offscreen; -1 is visible in the message."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

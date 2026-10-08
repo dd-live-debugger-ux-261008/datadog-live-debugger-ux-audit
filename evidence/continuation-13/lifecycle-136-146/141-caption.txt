@@ -1,0 +1,1 @@
+The parent session visibly shows INACTIVE. The three displayed child logpoints, lines 79, 44, and 54, are labeled DISABLED. Historical STALE_EDIT rows and an OUTDATED BRANCH capture remain visible.

@@ -1,0 +1,1 @@
+The session is visibly ACTIVE (54 MINUTES LEFT). In the shown logpoint rows, qa_fixture.py line 44 is DISABLED while lines 79 and 54 show EVENTS RECEIVED. The right pane retains an OUTDATED BRANCH capture.

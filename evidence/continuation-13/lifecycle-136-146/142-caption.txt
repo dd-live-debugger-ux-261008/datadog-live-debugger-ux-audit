@@ -1,0 +1,1 @@
+The parent session visibly shows ACTIVE (60 MINUTES LEFT). The displayed line 44 child shows EVENTS RECEIVED, while displayed lines 79 and 54 remain DISABLED. The selected right pane still contains an OUTDATED BRANCH capture.

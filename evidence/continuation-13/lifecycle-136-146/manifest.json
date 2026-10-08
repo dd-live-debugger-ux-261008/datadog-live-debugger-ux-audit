@@ -1,0 +1,1186 @@
+{
+  "schema_version": 1,
+  "title": "Continuation 13 extension: probe lifecycle, return context, hierarchy, and final inventory",
+  "public_relative_directory": "evidence/continuation-13/lifecycle-136-146/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "All rectangles are zero-based and half-open [left, top, right, bottom). Outputs use integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "82e6c6dd5b65c4052188682d9634fa0ee47e2a49304bc57e2ce460f360e10c48",
+    "batch_definition_sha256": "bbb6c35e7a51f7e56a0b69177f342d5a1de23017f1ae5b1a747e2ffad3391264",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "136",
+      "source_filename": "136-disabled-probe-synchronized-to-stale-tab.jpg",
+      "source_sha256": "6f17955aeffcf19d81b43fd2b0a6181593071f5255cb2e8cec09a75f6f11a09a",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "136-disabled-probe-editor-state-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/136-disabled-probe-editor-state-safe.png",
+      "safe_sha256": "41ea826a2a6947b15e47d12cfb77fb35247c8ffba46b95e4a63698deeae9f776",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "2941a2ce090fa88692eeb582a8fe6ea8036f02a7c6f9c237aacfb61826263b28",
+      "safe_decoded_rgb_sha256": "27064c20a7eda60052a348ddd77d9819fcb961b61b29f368c9f377fbbf635405",
+      "verified_unchanged_pixels_outside_masks": 574890,
+      "source_unchanged": true,
+      "caption": "The session visibly remains ACTIVE (56 MINUTES LEFT). In the logpoint list, qa_fixture.py line 63 is DISABLED, line 54 shows EVENTS RECEIVED, and line 69 shows WAITING FOR EVENTS. The open editor shows quantity == 4, capture of all variables up to 3 levels, and a blue Apply button.",
+      "visible_evidence_limits": [
+        "The screenshot establishes the displayed disabled-probe/editor state; cross-tab synchronization and the action sequence require recorder chronology."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "137",
+      "source_filename": "137-stale-edit-reinstrumented-disabled-probe.jpg",
+      "source_sha256": "dcb84efdf5cef15f44c3a87d2811e45bc315b65f70c253714c025437fc07ac49",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "137-stale-edit-event-after-disabled-probe-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/137-stale-edit-event-after-disabled-probe-safe.png",
+      "safe_sha256": "9e8bf2c4e9adda0792ae4f32550490e67e78abdee9127df64cef8c5128370e3d",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            980,
+            300,
+            1095,
+            325
+          ],
+          "output_xyxy": [
+            820,
+            167,
+            935,
+            192
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literal in source"
+        },
+        {
+          "source_xyxy": [
+            839,
+            564,
+            1005,
+            590
+          ],
+          "output_xyxy": [
+            679,
+            431,
+            845,
+            457
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "18eefb1af2669ff4243bc63a7d2492bd3dbbfe54b432f9fa637d03ff786560e7",
+      "safe_decoded_rgb_sha256": "40344ee1b7b42556e12395afba454f522d495442f970fdb8e640a7aa9b4dd28f",
+      "verified_unchanged_pixels_outside_masks": 561959,
+      "source_unchanged": true,
+      "caption": "The top visible event row reads STALE_EDIT q=4 total=4320. The session shows ACTIVE (60 MINUTES LEFT). The right capture pane is explicitly OUTDATED and still displays the older BRANCH q=4 name=four only=True total=4320 capture, with quantity=4, branch_name=four, branch_only=404, and total_cents=4320.",
+      "visible_evidence_limits": [
+        "The selected outdated BRANCH capture must not be described as the new STALE_EDIT event.",
+        "The target line 63 status is offscreen; reinstrumentation after applying a stale edit is established by recorder chronology.",
+        "No separate capture-corruption or concurrent saved-write finding is inferred."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "138",
+      "source_filename": "138-function-return-expression-capture.jpg",
+      "source_sha256": "beb19375047e2c608fa10e329bd75818541f4d2f5354c69aa3c956bb6ed61c7d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "138-function-return-expression-capture-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/138-function-return-expression-capture-safe.png",
+      "safe_sha256": "8cf0494ec537d415e91d4629099873508a17faae421f60957ce9fc602ab51f5d",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "ab2b7940ae6fee5cbc61b0dae64a89abf86a7a1916aad9ca7cc5c4852f1747da",
+      "safe_decoded_rgb_sha256": "ab2b7940ae6fee5cbc61b0dae64a89abf86a7a1916aad9ca7cc5c4852f1747da",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The function logpoint pricing#calculate_quote is marked EVENTS RECEIVED. The capture message visibly renders FUNCTION returned={quantity: 4, unit_price_cents: 1200, subtotal_cents: 4800, discount_eligible: True, discount_cents: 480, total_cents: 4320}. The pane is labeled Values on exit and displays quantity=4, @return=dict (size: 6), discount_cents=480, and discount_eligible=True.",
+      "visible_evidence_limits": [
+        "All six return values are visible in the rendered message; the lower values pane is only partly visible and the @return dictionary is collapsed.",
+        "No payload timestamp is visible."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "139",
+      "source_filename": "139-line-return-context-error.jpg",
+      "source_sha256": "c8ae134770745071106bc4b355dbc86fe27c83cbdfc6f6be6638dce9687e8e38",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "139-line-return-context-error-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/139-line-return-context-error-safe.png",
+      "safe_sha256": "e58f08e571c36377fbb0a36232cd850a6a8632024ec2ea0e658cb2e693c20d7c",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "a1cf48c555650cbf5bb5e1fc35568d9ef7770a2eb5b6f15341959308a1fc4f95",
+      "safe_decoded_rgb_sha256": "a1cf48c555650cbf5bb5e1fc35568d9ef7770a2eb5b6f15341959308a1fc4f95",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The line-17 definition visibly uses LINE returned={@return} with When quantity == 2. The capture pane reports an Evaluation error for @return: \u201cNo such local variable: '@return'\u201d in the Log field, and offers Edit Logpoint with guidance to edit the template, conditions, and/or capture expressions. A LINE returned=ERROR row and visible quantity=2 and discount_cents=0 values appear below.",
+      "visible_evidence_limits": [
+        "This is the visible line-probe return-context error, distinct from the function-exit control in screenshot 138.",
+        "Additional captured variables are offscreen.",
+        "No general SDK defect is inferred from the context-specific evaluation result."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "140",
+      "source_filename": "140-one-child-disabled-siblings-active.jpg",
+      "source_sha256": "2c7023f1d1f817be46f0e4065b3c38fe37cf25597fe00a66b22c064d9f9c06fc",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "140-one-child-disabled-visible-siblings-active-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/140-one-child-disabled-visible-siblings-active-safe.png",
+      "safe_sha256": "c06dd8a31f8b5b9739ffb9b57762c89d008fcc6e86607525203ba860e2286c7f",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            980,
+            276,
+            1095,
+            301
+          ],
+          "output_xyxy": [
+            820,
+            143,
+            935,
+            168
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literal in source"
+        },
+        {
+          "source_xyxy": [
+            839,
+            564,
+            1005,
+            590
+          ],
+          "output_xyxy": [
+            679,
+            431,
+            845,
+            457
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "16123df4b974ddbd23a1cf4ba593a65f61e2336697e4fa632461ace2d52118fe",
+      "safe_decoded_rgb_sha256": "4c3dd2d5374e0b53661f6012f7ef42a15c057ccadc1c3ea90f28ecc155811ba3",
+      "verified_unchanged_pixels_outside_masks": 567699,
+      "source_unchanged": true,
+      "caption": "The session is visibly ACTIVE (54 MINUTES LEFT). In the shown logpoint rows, qa_fixture.py line 44 is DISABLED while lines 79 and 54 show EVENTS RECEIVED. The right pane retains an OUTDATED BRANCH capture.",
+      "visible_evidence_limits": [
+        "Only the displayed child rows are evidenced here; the full set of eight logpoints is not visible.",
+        "The disabled-child action and timing are separate recorder observations."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "141",
+      "source_filename": "141-session-disabled-all-children.jpg",
+      "source_sha256": "833fc8f1ab9cc87f2c6d6e7e2aa3345dce5874407d963dee00ef177ad2171b57",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "141-session-inactive-visible-children-disabled-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/141-session-inactive-visible-children-disabled-safe.png",
+      "safe_sha256": "a65d530faf820aa163656c5a390f2296357b076ab2987aa27ec5c3355fe38b84",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            980,
+            228,
+            1095,
+            253
+          ],
+          "output_xyxy": [
+            820,
+            95,
+            935,
+            120
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literal in source"
+        },
+        {
+          "source_xyxy": [
+            839,
+            564,
+            1005,
+            590
+          ],
+          "output_xyxy": [
+            679,
+            431,
+            845,
+            457
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ce77c27efa9e26ab6301d3f506806cac128a6b62eb3095e1cf2e434260ac14c3",
+      "safe_decoded_rgb_sha256": "3381920be272f7b909469af639c2d2d9678f62acbfd158709f61d828913a0721",
+      "verified_unchanged_pixels_outside_masks": 568364,
+      "source_unchanged": true,
+      "caption": "The parent session visibly shows INACTIVE. The three displayed child logpoints, lines 79, 44, and 54, are labeled DISABLED. Historical STALE_EDIT rows and an OUTDATED BRANCH capture remain visible.",
+      "visible_evidence_limits": [
+        "The remaining child rows are offscreen; disabling all children is a recorder observation rather than a claim established by this still alone.",
+        "Retained event rows are not new capture while inactive."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "142",
+      "source_filename": "142-child-enable-after-parent-stop.jpg",
+      "source_sha256": "dcc30835d21ed2abac507e97acc68a22bbf78772e1a5002e8db6bb393f609787",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "142-child-enabled-visible-siblings-disabled-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/142-child-enabled-visible-siblings-disabled-safe.png",
+      "safe_sha256": "60fd6a04a7d93ae7e5973e558e9aee2fff8e5aa0f675b14c8feac7af66ad988d",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            980,
+            252,
+            1095,
+            277
+          ],
+          "output_xyxy": [
+            820,
+            119,
+            935,
+            144
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literal in source"
+        },
+        {
+          "source_xyxy": [
+            839,
+            564,
+            1005,
+            590
+          ],
+          "output_xyxy": [
+            679,
+            431,
+            845,
+            457
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "1f9dc42b6482057223cace2d041d02e34b39d65bfa5bffae25d52858d655fcfd",
+      "safe_decoded_rgb_sha256": "1430735f76301e687453c8ed8e762b78f7f7f3f5a3a794b2047cda4527b75aaa",
+      "verified_unchanged_pixels_outside_masks": 567699,
+      "source_unchanged": true,
+      "caption": "The parent session visibly shows ACTIVE (60 MINUTES LEFT). The displayed line 44 child shows EVENTS RECEIVED, while displayed lines 79 and 54 remain DISABLED. The selected right pane still contains an OUTDATED BRANCH capture.",
+      "visible_evidence_limits": [
+        "The preceding parent-stop and child-enable actions require recorder chronology.",
+        "This image does not establish the state of every offscreen child or prove that the outdated BRANCH capture came from the enabled child."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "143",
+      "source_filename": "143-only-enabled-child-new-capture.jpg",
+      "source_sha256": "2491a97ef26ee82588a55713d80efd4dfbe0f481cfbe7d7eb25bc2a5ce24f987",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "143-enabled-child-exception-capture-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/143-enabled-child-exception-capture-safe.png",
+      "safe_sha256": "d29ca01234b2a2e13bf5ce83805042e6b97ea220e5d83f16a9cb7b7ce89111fc",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            807,
+            133,
+            925,
+            168
+          ],
+          "output_xyxy": [
+            647,
+            0,
+            765,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            839,
+            541,
+            1005,
+            567
+          ],
+          "output_xyxy": [
+            679,
+            408,
+            845,
+            434
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "72731c66f8d2604dd95ef6b1fd7e606e9c923467c58209382c241755658560ee",
+      "safe_decoded_rgb_sha256": "d7ff8b26864720b471e942ee5b2ca3ce819fd542238ee6d932f69263af054f68",
+      "verified_unchanged_pixels_outside_masks": 570574,
+      "source_unchanged": true,
+      "caption": "The session shows ACTIVE (59 MINUTES LEFT), and the selected line 44 child is marked EVENTS RECEIVED. Displayed sibling lines 79 and 54 are DISABLED. The visible capture message is EXCEPTION recovered=-1. Values shown include __name__=qa_fixture, @exception=ZeroDivisionError, caught_error=ZeroDivisionError, denominator=0, and exception_text=integer division or modulo by zero.",
+      "visible_evidence_limits": [
+        "The still supports the selected enabled-child capture and visible sibling states, not an exhaustive check of all eight children.",
+        "The recovered_value local is offscreen; -1 is visible in the message."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "144",
+      "source_filename": "144-cancel-refresh-preserves-saved-definition.jpg",
+      "source_sha256": "6c716cf826125eb25a581ae5a1c5097a72ef998f65b7dbe006d10b4ddb8ef380",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "144-inactive-state-after-cancel-refresh-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/144-inactive-state-after-cancel-refresh-safe.png",
+      "safe_sha256": "78ba8834c729360079ef2146afa975053b2b545855c4956c71f70126beeaf868",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            980,
+            266,
+            1095,
+            291
+          ],
+          "output_xyxy": [
+            820,
+            133,
+            935,
+            158
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literal in source"
+        },
+        {
+          "source_xyxy": [
+            839,
+            541,
+            1005,
+            567
+          ],
+          "output_xyxy": [
+            679,
+            408,
+            845,
+            434
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "65101566d2f720d37b1472c951e1a2c9a427a0b902b8346cf45dbe5bb74481ac",
+      "safe_decoded_rgb_sha256": "d8b2ca53643e157c150c5e4cd76ed26eaf341cd5080efb35d544bfde56a5bff0",
+      "verified_unchanged_pixels_outside_masks": 562624,
+      "source_unchanged": true,
+      "caption": "The session visibly shows INACTIVE. Displayed line 22 and line 32 logpoints are DISABLED, and historical EXCEPTION recovered=-1 rows remain available with a retained exception capture. Retrieved source and the exception type, denominator 0, and exception text remain visible.",
+      "visible_evidence_limits": [
+        "The cancel and refresh operations are recorder chronology.",
+        "The saved logpoint definition is not visible, so this still alone does not prove its exact preservation."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "145",
+      "source_filename": "145-historical-range-and-sort.jpg",
+      "source_sha256": "28e73ab16cf409e5a1cfb4b1d8e9efc94976a6ad5d762d8247fd2d870abac41d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "145-historical-range-ascending-sort-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/145-historical-range-ascending-sort-safe.png",
+      "safe_sha256": "fd02932fe8381a56b0fac6987130cfbb1a8f26e1456a4a665b84b24fac88293e",
+      "safe_dimensions": [
+        1020,
+        577
+      ],
+      "crop_source_xyxy": [
+        160,
+        133,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            342,
+            133,
+            614,
+            168
+          ],
+          "output_xyxy": [
+            182,
+            0,
+            454,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile-derived session title"
+        },
+        {
+          "source_xyxy": [
+            909,
+            133,
+            1008,
+            168
+          ],
+          "output_xyxy": [
+            749,
+            0,
+            848,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "profile name/avatar"
+        },
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            86,
+            240,
+            114
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            980,
+            266,
+            1095,
+            291
+          ],
+          "output_xyxy": [
+            820,
+            133,
+            935,
+            158
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier literal in source"
+        },
+        {
+          "source_xyxy": [
+            839,
+            541,
+            1005,
+            567
+          ],
+          "output_xyxy": [
+            679,
+            408,
+            845,
+            434
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "ec9c99b7b73fbfa5e115c2628d6446d1c271bef56e40620a3b25234913ead1f6",
+      "safe_decoded_rgb_sha256": "772ecdf83cc8b1a129cc94d8bc3e8e09ae523da0d11b4e1aacfe3ff39148fef0",
+      "verified_unchanged_pixels_outside_masks": 562624,
+      "source_unchanged": true,
+      "caption": "The inactive session displays a historical 15-minute range labeled Oct 8, 5:43 am to Oct 8, 5:58\u2026, with UTC-07:00 shown. The date column is in ascending order: visible EXCEPTION recovered=-1 rows run from 05:43:21.292 through 05:44:46.253. The retained exception capture remains available.",
+      "visible_evidence_limits": [
+        "The range label is truncated, and event rows are historical UI times rather than independently verified capture payload timestamps.",
+        "This still does not prove every event in the range is present."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "146",
+      "source_filename": "146-session-inventory-after-live-pass.jpg",
+      "source_sha256": "29ea26c1cb0a38d98d9a81e3f788de960b05b91504e10c1dd913fe5fe26813fb",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "146-filtered-session-inventory-safe.png",
+      "public_relative_path": "evidence/continuation-13/lifecycle-136-146/146-filtered-session-inventory-safe.png",
+      "safe_sha256": "b03ea79a68aee70b09d7693081271306ecd5f408b0c906eed37b4eeaa603ebb4",
+      "safe_dimensions": [
+        992,
+        607
+      ],
+      "crop_source_xyxy": [
+        158,
+        126,
+        1150,
+        733
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            185,
+            385,
+            562,
+            445
+          ],
+          "output_xyxy": [
+            27,
+            259,
+            404,
+            319
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "session title, service identity, creator name, and avatar for first card"
+        },
+        {
+          "source_xyxy": [
+            185,
+            475,
+            562,
+            535
+          ],
+          "output_xyxy": [
+            27,
+            349,
+            404,
+            409
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "session title, service identity, creator name, and avatar for second card"
+        },
+        {
+          "source_xyxy": [
+            185,
+            566,
+            562,
+            625
+          ],
+          "output_xyxy": [
+            27,
+            440,
+            404,
+            499
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "session title, service identity, creator name, and avatar for third card"
+        },
+        {
+          "source_xyxy": [
+            185,
+            656,
+            562,
+            716
+          ],
+          "output_xyxy": [
+            27,
+            530,
+            404,
+            590
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "session title, service identity, creator name, and avatar for fourth card"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "b0be280e8ea0bfac88747b31cc2d53771157ba935dcda786bf892fc81b3737af",
+      "safe_decoded_rgb_sha256": "e924591e28447bade07adf770b1e1e56e621a4bdc38c6f3abffb5f7152cf4f37",
+      "verified_unchanged_pixels_outside_masks": 512041,
+      "source_unchanged": true,
+      "caption": "The Sessions List has My sessions enabled, Services and Environments set to All, and Created set to All time. Its tabs visibly show All 4, Active 0, and Inactive 4. Four session cards are visible, each marked INACTIVE. Private session titles, service names, creator names, and avatars are masked.",
+      "visible_evidence_limits": [
+        "These are counts under the displayed My sessions filter, not an unfiltered account-wide inventory.",
+        "The still does not establish runtime-process shutdown, agent cleanup, or all external resources being stopped."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "136-caption.txt",
+    "136-disabled-probe-editor-state-safe.png",
+    "136-provenance.json",
+    "137-caption.txt",
+    "137-provenance.json",
+    "137-stale-edit-event-after-disabled-probe-safe.png",
+    "138-caption.txt",
+    "138-function-return-expression-capture-safe.png",
+    "138-provenance.json",
+    "139-caption.txt",
+    "139-line-return-context-error-safe.png",
+    "139-provenance.json",
+    "140-caption.txt",
+    "140-one-child-disabled-visible-siblings-active-safe.png",
+    "140-provenance.json",
+    "141-caption.txt",
+    "141-provenance.json",
+    "141-session-inactive-visible-children-disabled-safe.png",
+    "142-caption.txt",
+    "142-child-enabled-visible-siblings-disabled-safe.png",
+    "142-provenance.json",
+    "143-caption.txt",
+    "143-enabled-child-exception-capture-safe.png",
+    "143-provenance.json",
+    "144-caption.txt",
+    "144-inactive-state-after-cancel-refresh-safe.png",
+    "144-provenance.json",
+    "145-caption.txt",
+    "145-historical-range-ascending-sort-safe.png",
+    "145-provenance.json",
+    "146-caption.txt",
+    "146-filtered-session-inventory-safe.png",
+    "146-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ]
+}

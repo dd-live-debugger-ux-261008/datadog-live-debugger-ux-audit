@@ -1,0 +1,1 @@
+The Sessions List has My sessions enabled, Services and Environments set to All, and Created set to All time. Its tabs visibly show All 4, Active 0, and Inactive 4. Four session cards are visible, each marked INACTIVE. Private session titles, service names, creator names, and avatars are masked.
