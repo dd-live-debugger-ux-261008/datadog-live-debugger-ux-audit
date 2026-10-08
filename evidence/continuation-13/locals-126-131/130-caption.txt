@@ -1,0 +1,1 @@
+The visible message reads BRANCH q=3 name=ordinary only=False total=3600. The values pane shows quantity=3, branch_name=ordinary, branch_only=null, and total_cents=3600. Retrieved source at qa_fixture.py line 63 is visible; the synthetic correlation identifier is masked. This records the displayed branch control.

@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "title": "Continuation 13 extension: caught exceptions and local-variable controls",
+  "public_relative_directory": "evidence/continuation-13/locals-126-131/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "All rectangles are zero-based and half-open [left, top, right, bottom). Outputs use integer crops and solid opaque masks only. No scaling, blur, reconstructed UI, or annotations.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "22538d9b1d7b113437d6609353dccd25ca22e43ef6dedace7e6c21993f337460",
+    "batch_definition_sha256": "2abbfad362a977e16f827c78bc9e5783b94e68c01df4c816e69a7ceb5a45abf6",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "126",
+      "source_filename": "126-caught-exception-locals.jpg",
+      "source_sha256": "756cfd7eb491d48a20a554805cb898c6a6d293184fc39907e4cc34ced3f29753",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "126-caught-exception-locals-safe.png",
+      "public_relative_path": "evidence/continuation-13/locals-126-131/126-caught-exception-locals-safe.png",
+      "safe_sha256": "69f244cbd97b26bb4513160750173234df2459da021ef63a81134a3a4f644187",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            839,
+            542,
+            1002,
+            566
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            842,
+            394
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5cc067e74400bf9a22f434377bc689dd845c58643d72e44d5eb2bddc953e6672",
+      "safe_decoded_rgb_sha256": "b31e7638871ba5fb664f5b70cf163fee9dbc6a35ca245549f0f613d83f386fe5",
+      "verified_unchanged_pixels_outside_masks": 539108,
+      "source_unchanged": true,
+      "caption": "The capture message visibly reads EXCEPTION recovered=-1 at qa_fixture.py line 44. The values pane shows __name__=qa_fixture, @exception=ZeroDivisionError, caught_error=ZeroDivisionError, denominator=0, and exception_text=integer division or modulo by zero. The synthetic correlation identifier is masked. This records the visible caught-exception capture and message.",
+      "visible_evidence_limits": [
+        "The recovered_value local itself is below the visible area; -1 is visible in the rendered log message.",
+        "This still does not establish exception-object internals, complete stack context, or SDK behavior beyond the displayed fields."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "127",
+      "source_filename": "127-unassigned-and-deleted-locals.jpg",
+      "source_sha256": "f216d702e1d00fd01c315b00919d79b6d2093e1df5337cf2c5568b78f8483ca0",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "127-unassigned-deleted-locals-display-safe.png",
+      "public_relative_path": "evidence/continuation-13/locals-126-131/127-unassigned-deleted-locals-display-safe.png",
+      "safe_sha256": "5b9763fb5c980316a3208ba9c5780fed39f38a2f0228d77747b4d2101122a96a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            839,
+            570,
+            1002,
+            597
+          ],
+          "output_xyxy": [
+            679,
+            398,
+            842,
+            425
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "274b0858502d0a444cd2177c43e7ffd1a04ad1a8fc0f3c09d9e5f88f6a5f1d96",
+      "safe_decoded_rgb_sha256": "4b514abbf01b0674341d8cd97d1ea97aed4f2d952aa5c4bb9f05f477bb6f2643",
+      "verified_unchanged_pixels_outside_masks": 538619,
+      "source_unchanged": true,
+      "caption": "The visible message reads OPTIONAL assigned=False defined=False always=41. The values pane shows assign_optional=False, always_present=41, deleted_local=null, and optional_local=null. Retrieved source at line 54 and the abbreviated OPTIONAL template are visible; the synthetic correlation identifier is masked. This records the rendered message and displayed local values for this control.",
+      "visible_evidence_limits": [
+        "The screenshot does not distinguish all possible underlying representations of absent, deleted, and explicitly null values.",
+        "Indexed payload verification and component interpretation are separate work; no defect, cause, or severity is assigned."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "128",
+      "source_filename": "128-assigned-local-positive-control.jpg",
+      "source_sha256": "b304c65d081f3f163901c44d8b738d07b736624ac41ae7c6a1754a85affd196f",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "128-assigned-local-positive-control-safe.png",
+      "public_relative_path": "evidence/continuation-13/locals-126-131/128-assigned-local-positive-control-safe.png",
+      "safe_sha256": "fde9d91bda0ac56ee5c3006ce754854333e7059781d8e5a5d823913843be13e2",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            195,
+            219,
+            400,
+            247
+          ],
+          "output_xyxy": [
+            35,
+            47,
+            240,
+            75
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "runtime/service identity"
+        },
+        {
+          "source_xyxy": [
+            839,
+            570,
+            1002,
+            597
+          ],
+          "output_xyxy": [
+            679,
+            398,
+            842,
+            425
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5115c7f18de5e3901d94c0c205fa72513641984033d866634e5e038b4adf4209",
+      "safe_decoded_rgb_sha256": "5e64c01be74eb79ebbc36b4acc59c258acf0c6343ea5331202df8463a50bc706",
+      "verified_unchanged_pixels_outside_masks": 538619,
+      "source_unchanged": true,
+      "caption": "The visible message reads OPTIONAL assigned=True defined=True always=41. The values pane shows assign_optional=True, always_present=41, deleted_local=null, and optional_local=42. The synthetic correlation identifier is masked. This is the visible assigned-local positive control.",
+      "visible_evidence_limits": [
+        "The screenshot does not establish how unassigned or deleted values are encoded in indexed payloads.",
+        "No diagnosis or comparison beyond the displayed values is implied."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "129",
+      "source_filename": "129-never-called-installed-no-events.jpg",
+      "source_sha256": "f80cd3bd0cce419f902ea0dfb0a06be94e66622f2383778069e38e3fc099e44d",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "129-never-called-waiting-for-events-safe.png",
+      "public_relative_path": "evidence/continuation-13/locals-126-131/129-never-called-waiting-for-events-safe.png",
+      "safe_sha256": "aec607dda09a48339e74ff7d9f684921056f520b404393978a887de6831f6435",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "4256cecbcbce1908d3aa4250df981b491ad89eedcbfd89c6fae6835c30d242d9",
+      "safe_decoded_rgb_sha256": "4256cecbcbce1908d3aa4250df981b491ad89eedcbfd89c6fae6835c30d242d9",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The selected qa_fixture.py line 69 logpoint visibly shows WAITING FOR EVENTS and No events. The source pane shows the NEVER quantity={quantity} template, a never-called return case, and approximately 0 events captured. The event panel says no results were found for the selected time range.",
+      "visible_evidence_limits": [
+        "WAITING FOR EVENTS is not an explicit successful-installation confirmation.",
+        "An empty event list does not independently prove execution never occurred or identify why no events are present."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "130",
+      "source_filename": "130-branch-unbound-control.jpg",
+      "source_sha256": "5039e59ea3d4affb6c9b4b3303fc1084295e005acf21b69b2d3d8241042346f9",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "130-branch-unbound-display-control-safe.png",
+      "public_relative_path": "evidence/continuation-13/locals-126-131/130-branch-unbound-display-control-safe.png",
+      "safe_sha256": "00176369c296a7c839c462bed21f28b0bd0f148412b3a8256762dff04abafae5",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            839,
+            542,
+            1002,
+            566
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            842,
+            394
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "5508fadc5e37e76a708663d57958d741e0d70c00b14a8b5e3a570ed0e263fe33",
+      "safe_decoded_rgb_sha256": "3afa0593ba32485e8fd91db8dd7e2c6e87fa393815816ede8fe7ccd99589df90",
+      "verified_unchanged_pixels_outside_masks": 544848,
+      "source_unchanged": true,
+      "caption": "The visible message reads BRANCH q=3 name=ordinary only=False total=3600. The values pane shows quantity=3, branch_name=ordinary, branch_only=null, and total_cents=3600. Retrieved source at qa_fixture.py line 63 is visible; the synthetic correlation identifier is masked. This records the displayed branch control.",
+      "visible_evidence_limits": [
+        "The source assignment branch is outside the visible excerpt.",
+        "The still does not establish payload encoding or prove a component defect; cause and severity remain unassigned."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    },
+    {
+      "id": "131",
+      "source_filename": "131-branch-assigned-control.jpg",
+      "source_sha256": "f0a04bd29ee41e49eb97803c18ecb915a7dc27cc44d432ac6697dcf1e3649e76",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "131-branch-assigned-display-control-safe.png",
+      "public_relative_path": "evidence/continuation-13/locals-126-131/131-branch-assigned-display-control-safe.png",
+      "safe_sha256": "5919f0a0a9e68caab688ab8ceeb2b5a5ca1d9c3e68ff52b0683c282cc48652a5",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            839,
+            542,
+            1002,
+            566
+          ],
+          "output_xyxy": [
+            679,
+            370,
+            842,
+            394
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "synthetic correlation identifier value"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "40aadb42de017babcfa29ec2369042114b115dc051bdf27e8a333bc1acaaa887",
+      "safe_decoded_rgb_sha256": "5beeedb32544833ff3e2c2136692310354ae92edd6853202c3f3a06ace57273d",
+      "verified_unchanged_pixels_outside_masks": 544848,
+      "source_unchanged": true,
+      "caption": "The visible message reads BRANCH q=4 name=four only=True total=4320. The values pane shows quantity=4, branch_name=four, branch_only=404, and total_cents=4320. The synthetic correlation identifier is masked. This is the displayed assigned-branch control.",
+      "visible_evidence_limits": [
+        "The screenshot does not independently establish offscreen indexed payload fields or explain the unbound-control representation.",
+        "No defect or SDK cause is assigned."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null
+    }
+  ],
+  "public_file_allowlist": [
+    "126-caption.txt",
+    "126-caught-exception-locals-safe.png",
+    "126-provenance.json",
+    "127-caption.txt",
+    "127-provenance.json",
+    "127-unassigned-deleted-locals-display-safe.png",
+    "128-assigned-local-positive-control-safe.png",
+    "128-caption.txt",
+    "128-provenance.json",
+    "129-caption.txt",
+    "129-never-called-waiting-for-events-safe.png",
+    "129-provenance.json",
+    "130-branch-unbound-display-control-safe.png",
+    "130-caption.txt",
+    "130-provenance.json",
+    "131-branch-assigned-display-control-safe.png",
+    "131-caption.txt",
+    "131-provenance.json",
+    "SHA256SUMS",
+    "manifest.json"
+  ]
+}

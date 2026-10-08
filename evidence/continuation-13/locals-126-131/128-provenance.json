@@ -1,0 +1,77 @@
+{
+  "id": "128",
+  "source_filename": "128-assigned-local-positive-control.jpg",
+  "source_sha256": "b304c65d081f3f163901c44d8b738d07b736624ac41ae7c6a1754a85affd196f",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "128-assigned-local-positive-control-safe.png",
+  "public_relative_path": "evidence/continuation-13/locals-126-131/128-assigned-local-positive-control-safe.png",
+  "safe_sha256": "fde9d91bda0ac56ee5c3006ce754854333e7059781d8e5a5d823913843be13e2",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        839,
+        570,
+        1002,
+        597
+      ],
+      "output_xyxy": [
+        679,
+        398,
+        842,
+        425
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "5115c7f18de5e3901d94c0c205fa72513641984033d866634e5e038b4adf4209",
+  "safe_decoded_rgb_sha256": "5e64c01be74eb79ebbc36b4acc59c258acf0c6343ea5331202df8463a50bc706",
+  "verified_unchanged_pixels_outside_masks": 538619,
+  "source_unchanged": true,
+  "caption": "The visible message reads OPTIONAL assigned=True defined=True always=41. The values pane shows assign_optional=True, always_present=41, deleted_local=null, and optional_local=42. The synthetic correlation identifier is masked. This is the visible assigned-local positive control.",
+  "visible_evidence_limits": [
+    "The screenshot does not establish how unassigned or deleted values are encoded in indexed payloads.",
+    "No diagnosis or comparison beyond the displayed values is implied."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

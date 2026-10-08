@@ -1,0 +1,77 @@
+{
+  "id": "127",
+  "source_filename": "127-unassigned-and-deleted-locals.jpg",
+  "source_sha256": "f216d702e1d00fd01c315b00919d79b6d2093e1df5337cf2c5568b78f8483ca0",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "127-unassigned-deleted-locals-display-safe.png",
+  "public_relative_path": "evidence/continuation-13/locals-126-131/127-unassigned-deleted-locals-display-safe.png",
+  "safe_sha256": "5b9763fb5c980316a3208ba9c5780fed39f38a2f0228d77747b4d2101122a96a",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        195,
+        219,
+        400,
+        247
+      ],
+      "output_xyxy": [
+        35,
+        47,
+        240,
+        75
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "runtime/service identity"
+    },
+    {
+      "source_xyxy": [
+        839,
+        570,
+        1002,
+        597
+      ],
+      "output_xyxy": [
+        679,
+        398,
+        842,
+        425
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "synthetic correlation identifier value"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "274b0858502d0a444cd2177c43e7ffd1a04ad1a8fc0f3c09d9e5f88f6a5f1d96",
+  "safe_decoded_rgb_sha256": "4b514abbf01b0674341d8cd97d1ea97aed4f2d952aa5c4bb9f05f477bb6f2643",
+  "verified_unchanged_pixels_outside_masks": 538619,
+  "source_unchanged": true,
+  "caption": "The visible message reads OPTIONAL assigned=False defined=False always=41. The values pane shows assign_optional=False, always_present=41, deleted_local=null, and optional_local=null. Retrieved source at line 54 and the abbreviated OPTIONAL template are visible; the synthetic correlation identifier is masked. This records the rendered message and displayed local values for this control.",
+  "visible_evidence_limits": [
+    "The screenshot does not distinguish all possible underlying representations of absent, deleted, and explicitly null values.",
+    "Indexed payload verification and component interpretation are separate work; no defect, cause, or severity is assigned."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null
+}

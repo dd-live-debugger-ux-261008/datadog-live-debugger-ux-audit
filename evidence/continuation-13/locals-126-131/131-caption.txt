@@ -1,0 +1,1 @@
+The visible message reads BRANCH q=4 name=four only=True total=4320. The values pane shows quantity=4, branch_name=four, branch_only=404, and total_cents=4320. The synthetic correlation identifier is masked. This is the displayed assigned-branch control.

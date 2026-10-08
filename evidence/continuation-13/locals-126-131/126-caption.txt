@@ -1,0 +1,1 @@
+The capture message visibly reads EXCEPTION recovered=-1 at qa_fixture.py line 44. The values pane shows __name__=qa_fixture, @exception=ZeroDivisionError, caught_error=ZeroDivisionError, denominator=0, and exception_text=integer division or modulo by zero. The synthetic correlation identifier is masked. This records the visible caught-exception capture and message.

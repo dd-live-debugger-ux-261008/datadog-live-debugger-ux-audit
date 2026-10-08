@@ -1,0 +1,1 @@
+The selected qa_fixture.py line 69 logpoint visibly shows WAITING FOR EVENTS and No events. The source pane shows the NEVER quantity={quantity} template, a never-called return case, and approximately 0 events captured. The event panel says no results were found for the selected time range.

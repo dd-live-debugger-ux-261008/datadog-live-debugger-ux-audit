@@ -1,0 +1,1 @@
+The visible message reads OPTIONAL assigned=True defined=True always=41. The values pane shows assign_optional=True, always_present=41, deleted_local=null, and optional_local=42. The synthetic correlation identifier is masked. This is the visible assigned-local positive control.
