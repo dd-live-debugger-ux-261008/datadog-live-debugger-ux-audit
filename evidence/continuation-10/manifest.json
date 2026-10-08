@@ -1,0 +1,116 @@
+{
+  "title": "Logpoint draft validation: publication-safe stills",
+  "created_utc": "2026-10-08T06:32:28Z",
+  "status": "Prepared locally. No publication performed by this export.",
+  "source10_context": {
+    "recording_start_utc": "2026-10-08T06:23:43Z",
+    "recording_end_utc": "2026-10-08T06:28:13.750Z",
+    "normal_stop_reported_utc": "2026-10-08T06:28:14Z",
+    "provenance": "Recording interval and normal stop are supplied by the recording operator; not inferred from screenshot filesystem timestamps. These are screenshot derivatives, not frames extracted from the motion recording.",
+    "submission": "No submission occurred, according to the supplied interaction record."
+  },
+  "accessibility_scope": "A separate DOM inspection reportedly found that the Line control lacked an accessible name. These screenshots cannot independently prove accessible-name semantics, an absent programmatic error association, or a WCAG violation. This package does not label the observation as a confirmed accessibility failure.",
+  "preservation": "Only this new publication folder was written. Originals and prior frozen09/V6 media were not edited or replaced.",
+  "filesystem_timestamp_caveat": "Filesystem UTC modification times may reflect copying or export. They are not independently verified capture timestamps, nor UI-event, ingestion, or trace-event times.",
+  "assets": [
+    {
+      "source": {
+        "file": "58-invalid-template-programmatic-feedback.png",
+        "actual_format": "JPEG",
+        "extension_note": "The original filename ends in .png, but its encoded format is JPEG. Original bytes were preserved.",
+        "sha256": "4cc014ab7786ae0dbc548640d19df828614eeb841e5f507657d3720a83d6bfd1",
+        "size_bytes": 75675,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T06:26:32.285084Z",
+        "filesystem_timestamp_role": "File modification time only; not an independently verified capture, UI-event, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "58-invalid-template-draft.png",
+        "sha256": "d0133627102058f4e4dc7145b621f19f9e350b4085f71b06d079fe30c918f30a",
+        "size_bytes": 225036,
+        "dimensions_px": [
+          1046,
+          648
+        ],
+        "actual_format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          60,
+          56,
+          1046,
+          648
+        ],
+        "coordinate_convention": "Top-left origin; [x,y,width,height]; half-open right and bottom extents.",
+        "masks": [],
+        "resampling": "none",
+        "method": "Decode original JPEG bytes to RGB, crop, strip metadata, and encode as lossless PNG. No generated or reconstructed UI, relabeling, sharpening, annotation, or replacement pixels.",
+        "excluded": "Global/profile chrome and background surrounding the logpoint modal. No account or repository identity remains in the crop.",
+        "retained": "Generic demonstration service name, pricing.py filename, Line 17, warning, original blurred code-preview area, template, and Start control. Existing blur was already in the captured UI; no blur was added."
+      },
+      "caption": "An unsubmitted logpoint draft shows the unbalanced template QA {quantity with a red outline and a pale, disabled-looking Start Debug Session control. The supplied recording sequence places this state after focus moved away from the template.",
+      "limits": "This image supports a visual validation observation only. The control state and blur sequence also rely on the separately supplied interaction record; pixels alone do not establish accessibility semantics or prove that an accessible error was absent.",
+      "verification": {
+        "all_output_pixels_match_decoded_source_crop": true,
+        "source_bytes_unchanged": true,
+        "actual_png_signature": true,
+        "embedded_source_metadata_stripped": true
+      }
+    },
+    {
+      "source": {
+        "file": "59-valid-template-correction.png",
+        "actual_format": "JPEG",
+        "extension_note": "The original filename ends in .png, but its encoded format is JPEG. Original bytes were preserved.",
+        "sha256": "fc830cdc274f7221ddf3e9b5775b891128af06aea2c34dbcf4cfbd7f4d0fcf20",
+        "size_bytes": 75960,
+        "dimensions_px": [
+          1180,
+          729
+        ],
+        "filesystem_mtime_utc": "2026-10-08T06:27:24.045986Z",
+        "filesystem_timestamp_role": "File modification time only; not an independently verified capture, UI-event, ingestion, or trace-event timestamp."
+      },
+      "output": {
+        "file": "59-corrected-template-draft.png",
+        "sha256": "7b9b3673e7829c90924b2915eb171d86d7b87ccd86b889f1b8e706c54228ed48",
+        "size_bytes": 230309,
+        "dimensions_px": [
+          1046,
+          648
+        ],
+        "actual_format": "PNG",
+        "mode": "RGB",
+        "embedded_metadata": {}
+      },
+      "transform": {
+        "source_crop_xywh": [
+          60,
+          56,
+          1046,
+          648
+        ],
+        "coordinate_convention": "Top-left origin; [x,y,width,height]; half-open right and bottom extents.",
+        "masks": [],
+        "resampling": "none",
+        "method": "Decode original JPEG bytes to RGB, crop, strip metadata, and encode as lossless PNG. No generated or reconstructed UI, relabeling, sharpening, annotation, or replacement pixels.",
+        "excluded": "Global/profile chrome and background surrounding the logpoint modal. No account or repository identity remains in the crop.",
+        "retained": "Generic demonstration service name, pricing.py filename, Line 17, warning, original blurred code-preview area, template, and Start control. Existing blur was already in the captured UI; no blur was added."
+      },
+      "caption": "The draft template is corrected to QA {quantity}. The red outline is absent and Start Debug Session appears blue; the interaction record identifies the corrected draft as enabled.",
+      "limits": "An enabled draft is not a submitted logpoint or a started session. The service warning remains visible. This still does not establish successful debugger enablement, current instrumentation, source retrieval, or received snapshots.",
+      "verification": {
+        "all_output_pixels_match_decoded_source_crop": true,
+        "source_bytes_unchanged": true,
+        "actual_png_signature": true,
+        "embedded_source_metadata_stripped": true
+      }
+    }
+  ],
+  "checksum_scope": "SHA256SUMS covers both output PNG files, README.md, and manifest.json. Original byte hashes appear in this manifest and README; originals are excluded from the publication folder."
+}
