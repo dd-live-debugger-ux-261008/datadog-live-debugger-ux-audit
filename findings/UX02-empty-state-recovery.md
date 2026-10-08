@@ -18,7 +18,7 @@ Captured 2026-10-08 at 03:21:54 UTC. The top 76 pixels containing the account gr
 
 Captured 2026-10-08 at 03:23:59 UTC. This scrolled screenshot contains no account identifier. The red border is the only pixel change.
 
-**Video evidence:** The authenticated source recording exists; its privacy-reviewed public excerpt is pending. Approximate source interval is 01:00–03:40 from a recording started at 03:20:17 UTC. No unreviewed raw recording is linked.
+**Video evidence:** [Reviewed authenticated UI excerpt](../authenticated-ui-qa-excerpt.mp4), 00:00–00:13.80 (empty service), 00:13.80–00:26.80 (manual entry), and 02:42.80–02:50.80 (empty configuration). See [exact source intervals](../edited-video-manifest.md). The video shows no successful capture or installed source integration.
 
 ## Reproduce
 
@@ -44,5 +44,5 @@ Add a contextual “Connect your first service” or prerequisite-check action b
 - Manual debugging remains visible without Source Code Integration. Source linking did not falsely block entry to the manual route.
 - Start Debug Session is correctly disabled when no service is selected.
 - Closing the modal returns to the prior page; no session was created in this check.
-- Runtime connectivity and Remote Configuration were being investigated separately. Their state is not itself a Datadog product defect.
+- Runtime telemetry is now paused pending specific payload approval. Agent/sample processes are stopped; no runtime ingestion was proved. These setup and authorization limits are not themselves Datadog defects.
 - This finding is limited to the captured empty-state section and modal. It does not claim that no onboarding help exists elsewhere in Datadog.
