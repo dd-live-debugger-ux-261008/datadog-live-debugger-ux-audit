@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "scope": "Source 07 continuation only; earlier published source 01-06 archives and highlights are unchanged.",
+  "source": {
+    "file": "onboarding-07-raw.mkv",
+    "duration_seconds": 2216.8,
+    "bytes": 43327985,
+    "sha256": "85fe19e7b681704e5fb68c92fb2081012152a905f33c0449b9c818db9daa2360",
+    "utc_start": "2026-10-08T04:49:33+00:00",
+    "utc_end": "2026-10-08T05:26:29.800000+00:00",
+    "width": 1364,
+    "height": 1024,
+    "fps": 20,
+    "audio_tracks": 0
+  },
+  "time_convention": "Half-open source intervals [start,end), in seconds from raw source start. UTC derives from recorded start. There are no inserted transition-card durations.",
+  "retained_seconds": 1446.4,
+  "omitted_seconds": 770.4,
+  "retained": [
+    {
+      "source_start_seconds": 2.5,
+      "source_end_seconds": 103.0,
+      "utc_start": "2026-10-08T04:49:35.500000+00:00",
+      "utc_end": "2026-10-08T04:51:16+00:00",
+      "duration_seconds": 100.5,
+      "title": "Integration recovery and first discovered service",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-01-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 100.5
+    },
+    {
+      "source_start_seconds": 116.25,
+      "source_end_seconds": 187.0,
+      "utc_start": "2026-10-08T04:51:29.250000+00:00",
+      "utc_end": "2026-10-08T04:52:40+00:00",
+      "duration_seconds": 70.75,
+      "title": "Discovered service and wildcard environment",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-01-sanitized.mp4",
+      "output_start_seconds": 100.5,
+      "output_end_seconds": 171.25
+    },
+    {
+      "source_start_seconds": 187.0,
+      "source_end_seconds": 401.55,
+      "utc_start": "2026-10-08T04:52:40+00:00",
+      "utc_end": "2026-10-08T04:56:14.550000+00:00",
+      "duration_seconds": 214.55,
+      "title": "Manual draft, line validation and source guidance",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "source-07-part-01-sanitized.mp4",
+      "output_start_seconds": 171.25,
+      "output_end_seconds": 385.8
+    },
+    {
+      "source_start_seconds": 576.1,
+      "source_end_seconds": 598.95,
+      "utc_start": "2026-10-08T04:59:09.100000+00:00",
+      "utc_end": "2026-10-08T04:59:31.950000+00:00",
+      "duration_seconds": 22.85,
+      "title": "Fresh navigation through the integration catalog",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-01-sanitized.mp4",
+      "output_start_seconds": 385.8,
+      "output_end_seconds": 408.65
+    },
+    {
+      "source_start_seconds": 633.8,
+      "source_end_seconds": 668.75,
+      "utc_start": "2026-10-08T05:00:06.800000+00:00",
+      "utc_end": "2026-10-08T05:00:41.750000+00:00",
+      "duration_seconds": 34.95,
+      "title": "GitHub search in the integration catalog",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-01-sanitized.mp4",
+      "output_start_seconds": 408.65,
+      "output_end_seconds": 443.6
+    },
+    {
+      "source_start_seconds": 698.3,
+      "source_end_seconds": 726.15,
+      "utc_start": "2026-10-08T05:01:11.300000+00:00",
+      "utc_end": "2026-10-08T05:01:39.150000+00:00",
+      "duration_seconds": 27.85,
+      "title": "Fresh GitHub Apps page remains unconnected",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-01-sanitized.mp4",
+      "output_start_seconds": 443.6,
+      "output_end_seconds": 471.45
+    },
+    {
+      "source_start_seconds": 1018.6,
+      "source_end_seconds": 1404.5,
+      "utc_start": "2026-10-08T05:06:31.600000+00:00",
+      "utc_end": "2026-10-08T05:12:57.500000+00:00",
+      "duration_seconds": 385.9,
+      "title": "Brace validation, correction and retained draft",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "source-07-part-02-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 385.9
+    },
+    {
+      "source_start_seconds": 1577.6,
+      "source_end_seconds": 1596.25,
+      "utc_start": "2026-10-08T05:15:50.600000+00:00",
+      "utc_end": "2026-10-08T05:16:09.250000+00:00",
+      "duration_seconds": 18.65,
+      "title": "Baseline request: visible configuration rejection",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "source-07-part-02-sanitized.mp4",
+      "output_start_seconds": 385.9,
+      "output_end_seconds": 404.55
+    },
+    {
+      "source_start_seconds": 1644.55,
+      "source_end_seconds": 1734.2,
+      "utc_start": "2026-10-08T05:16:57.550000+00:00",
+      "utc_end": "2026-10-08T05:18:27.200000+00:00",
+      "duration_seconds": 89.65,
+      "title": "Fresh session inventory following rejection",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-02-sanitized.mp4",
+      "output_start_seconds": 404.55,
+      "output_end_seconds": 494.2
+    },
+    {
+      "source_start_seconds": 1736.05,
+      "source_end_seconds": 1822.65,
+      "utc_start": "2026-10-08T05:18:29.050000+00:00",
+      "utc_end": "2026-10-08T05:19:55.650000+00:00",
+      "duration_seconds": 86.6,
+      "title": "Session filters reset; inventory remains empty",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-03-sanitized.mp4",
+      "output_start_seconds": 0,
+      "output_end_seconds": 86.6
+    },
+    {
+      "source_start_seconds": 1822.65,
+      "source_end_seconds": 1890.45,
+      "utc_start": "2026-10-08T05:19:55.650000+00:00",
+      "utc_end": "2026-10-08T05:21:03.450000+00:00",
+      "duration_seconds": 67.8,
+      "title": "Plain-message control: same visible rejection",
+      "crop_xywh": [
+        136,
+        214,
+        1076,
+        702
+      ],
+      "opaque_masks_source_xywh": [
+        [
+          136,
+          214,
+          216,
+          38
+        ],
+        [
+          1012,
+          214,
+          200,
+          38
+        ],
+        [
+          136,
+          900,
+          840,
+          16
+        ]
+      ],
+      "output_file": "source-07-part-03-sanitized.mp4",
+      "output_start_seconds": 86.6,
+      "output_end_seconds": 154.4
+    },
+    {
+      "source_start_seconds": 1890.45,
+      "source_end_seconds": 2216.8,
+      "utc_start": "2026-10-08T05:21:03.450000+00:00",
+      "utc_end": "2026-10-08T05:26:29.800000+00:00",
+      "duration_seconds": 326.35,
+      "title": "Configuration navigation and retained final state",
+      "crop_xywh": [
+        252,
+        280,
+        1004,
+        620
+      ],
+      "opaque_masks_source_xywh": [],
+      "output_file": "source-07-part-03-sanitized.mp4",
+      "output_start_seconds": 154.4,
+      "output_end_seconds": 480.75
+    }
+  ],
+  "omitted": [
+    {
+      "source_start_seconds": 0,
+      "source_end_seconds": 2.5,
+      "duration_seconds": 2.5,
+      "utc_start": "2026-10-08T04:49:33+00:00",
+      "utc_end": "2026-10-08T04:49:35.500000+00:00",
+      "reason": "Organization chooser and navigation transition; organization identity is withheld, including privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 103.0,
+      "source_end_seconds": 116.25,
+      "duration_seconds": 13.25,
+      "utc_start": "2026-10-08T04:51:16+00:00",
+      "utc_end": "2026-10-08T04:51:29.250000+00:00",
+      "reason": "GitHub installed-app account/settings and selected-repository view; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 401.55,
+      "source_end_seconds": 576.1,
+      "duration_seconds": 174.55,
+      "utc_start": "2026-10-08T04:56:14.550000+00:00",
+      "utc_end": "2026-10-08T04:59:09.100000+00:00",
+      "reason": "GitHub installed/authorized apps, account administration and private fixture creation; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 598.95,
+      "source_end_seconds": 633.8,
+      "duration_seconds": 34.85,
+      "utc_start": "2026-10-08T04:59:31.950000+00:00",
+      "utc_end": "2026-10-08T05:00:06.800000+00:00",
+      "reason": "Private fixture repository creation and repository view; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 668.75,
+      "source_end_seconds": 698.3,
+      "duration_seconds": 29.55,
+      "utc_start": "2026-10-08T05:00:41.750000+00:00",
+      "utc_end": "2026-10-08T05:01:11.300000+00:00",
+      "reason": "Private repository/source/download/upload administration; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 726.15,
+      "source_end_seconds": 1018.6,
+      "duration_seconds": 292.45,
+      "utc_start": "2026-10-08T05:01:39.150000+00:00",
+      "utc_end": "2026-10-08T05:06:31.600000+00:00",
+      "reason": "Private repository upload, personal account settings, source download, and unsubmitted repository-scope draft/cancellation; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1404.5,
+      "source_end_seconds": 1577.6,
+      "duration_seconds": 173.1,
+      "utc_start": "2026-10-08T05:12:57.500000+00:00",
+      "utc_end": "2026-10-08T05:15:50.600000+00:00",
+      "reason": "GitHub report/source administration and publishing workflow; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1596.25,
+      "source_end_seconds": 1644.55,
+      "duration_seconds": 48.3,
+      "utc_start": "2026-10-08T05:16:09.250000+00:00",
+      "utc_end": "2026-10-08T05:16:57.550000+00:00",
+      "reason": "GitHub recording upload/administration and navigation preparation; includes privacy boundary padding."
+    },
+    {
+      "source_start_seconds": 1734.2,
+      "source_end_seconds": 1736.05,
+      "duration_seconds": 1.85,
+      "utc_start": "2026-10-08T05:18:27.200000+00:00",
+      "utc_end": "2026-10-08T05:18:29.050000+00:00",
+      "reason": "Brief GitHub publishing tab interruption; includes privacy boundary padding."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-07-part-01-sanitized.mp4",
+      "duration_seconds": 471.45,
+      "bytes": 3453367,
+      "sha256": "eb0548216ea7c87cc4b8d42507c9c65f521d7a26e6bd1f2223fe95d1cd598530",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "9429"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-07-part-02-sanitized.mp4",
+      "duration_seconds": 494.2,
+      "bytes": 3174858,
+      "sha256": "00f404093bbaac9927e381f1d15f862c30b917192cfe2454954440ef2415af7d",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "9884"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    },
+    {
+      "file": "source-07-part-03-sanitized.mp4",
+      "duration_seconds": 480.75,
+      "bytes": 2793875,
+      "sha256": "724e026e45b85a51863a3a289afd4d77024997f5c76cf65973109af41c94faef",
+      "video": {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "20/1",
+        "nb_frames": "9615"
+      },
+      "audio_tracks": 0,
+      "chapter_metadata_track": true
+    }
+  ],
+  "evidence_limits": [
+    "This continuation shows a discovered service and manual UI drafts, followed by two visibly rejected create requests. No successful session, captured variables, source retrieval or source mapping is demonstrated.",
+    "Both baseline and plain-message control show the real error toast: Error creating logpoint: The instrumentation is not valid, please check your configuration. The requests are not silent failures, and their underlying cause is unresolved.",
+    "Line 9999 was accepted only as a draft and was not submitted. Zero, negative and alphabetic input remained disabled. The negative entry is brief in the original motion.",
+    "The initial template attempt was automatically balanced by the editor. Removing the closing brace disabled Start; correcting the template enabled it.",
+    "The integration observation is interrupted-flow recovery after the original consent form had waited about 75 minutes. It is not evidence about fresh-install behavior. GitHub account/repository pages are withheld from this motion package.",
+    "The configuration footage shows Not Connected and the selected service. The empty-state magnifying-glass icon is not a loading spinner. The later settled No environments text was captured after this recording stopped and is not reconstructed into video.",
+    "All clocks are UTC reconstructed from the recorder start. The archived continuous sections play at original speed; omitted time is explicitly listed. No screenshots or generated/reconstructed UI substitute for motion.",
+    "Browser tabs, address/authentication URLs, desktop, account greetings, personal settings and private repository content are excluded. The bottom-left modal mask can obscure a few pixels of adjacent button edge at some modal widths; hidden pixels are not evidence that a product control is missing."
+  ],
+  "review": {
+    "source_overview_seconds": 10,
+    "source_boundary_review_fps": 2,
+    "submit_and_configuration_transition_review_fps": 4,
+    "all_frame_sidebar_classification_fps": 20,
+    "output_ocr": {
+      "frames_reviewed": 362,
+      "unresolved_flags": 0
+    },
+    "representative_output_full_size_review": true,
+    "raw_source_hash_unchanged": true,
+    "decode_validation": true
+  }
+}
