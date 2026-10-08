@@ -1,0 +1,61 @@
+{
+  "id": "134-outlined",
+  "finding_id": "FUNC01",
+  "source_safe_filename": "134-unsaved-predicate-before-remote-save-safe.png",
+  "source_safe_sha256": "4fea20e9149146528d2bf7ac5a18155caaa87044fe1c430a9adea89d20bef56f",
+  "original_source_filename": "134-unsaved-predicate-before-remote-save.jpg",
+  "original_source_sha256": "e9cff2ea386aa332e1222540a2d90efdf89a2f576a51617d95940d2b932914fb",
+  "filename": "134-unsaved-predicate-before-remote-save-outlined.png",
+  "public_relative_path": "evidence/continuation-13/two-tab-132-135/134-unsaved-predicate-before-remote-save-outlined.png",
+  "sha256": "73225af06ab653e13c15173ccfa4b15ad7f031cb2fdc3ebc952e4dc03faa8d28",
+  "dimensions": [
+    1020,
+    538
+  ],
+  "source_crop_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "outline_source_xyxy": [
+    [
+      641,
+      246,
+      899,
+      280
+    ],
+    [
+      1008,
+      328,
+      1148,
+      350
+    ]
+  ],
+  "outline_output_xyxy": [
+    [
+      481,
+      74,
+      739,
+      108
+    ],
+    [
+      848,
+      156,
+      988,
+      178
+    ]
+  ],
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Thin outlines are drawn inward at 2 pixels. The second rectangle surrounds only the visible portion of the Apply control.",
+  "outline_rgb": [
+    220,
+    35,
+    35
+  ],
+  "outline_width_pixels": 2,
+  "only_outline_pixels_changed": true,
+  "original_safe_image_unchanged": true,
+  "caption": "Separate thin-outline derivative of screenshot 134. Red outlines identify only the rendered condition field and the visible portion of the partly clipped Apply control. The condition renders quantity == 3 and Apply has blue active styling. No UI content was redrawn. The remote-save action, causality, repetition, and absence of a warning over the sequence are supported by recorder chronology, not by this still alone.",
+  "original_source_footer_ui_version": "35.143306223",
+  "source_footer_in_safe_crop": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "133",
+  "source_filename": "133-two-tab-dirty-field-after-remote-save.jpg",
+  "source_sha256": "c93f67dd78101a3b694236e36f7b517fc7d95e595903e7309f454d05a525be2e",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "133-two-tab-dirty-field-after-remote-save-safe.png",
+  "public_relative_path": "evidence/continuation-13/two-tab-132-135/133-two-tab-dirty-field-after-remote-save-safe.png",
+  "safe_sha256": "fba520963516fdf443acfde9c9b65f136237a811bf42aad070db0f3c27419190",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "2000ce51ecfc7dadf440079c053ca547d6505001d15640edd388f98405eda1a9",
+  "safe_decoded_rgb_sha256": "2000ce51ecfc7dadf440079c053ca547d6505001d15640edd388f98405eda1a9",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "The editor visibly displays TAB_A2 q={quantity} total={total_cents} and condition quantity == 4. The partly clipped Apply control has pale styling. This records the rendered state following the first remote-save observation. The disabled Apply state was confirmed separately by the recorder.",
+  "visible_evidence_limits": [
+    "The remote-save action and loss of an unsaved draft are established by recorder chronology, not this still alone.",
+    "The Apply control is only partly visible; no warning absence over time can be proven from one frame.",
+    "The image shows pale Apply styling; disabled-state confirmation comes from the recorder observation."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null,
+  "original_source_footer_ui_version": "35.143306223",
+  "source_footer_in_safe_crop": false
+}

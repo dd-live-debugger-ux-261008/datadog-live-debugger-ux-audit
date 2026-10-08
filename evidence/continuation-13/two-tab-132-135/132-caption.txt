@@ -1,0 +1,1 @@
+The visible editor displays TAB_A q={quantity} total={total_cents} and condition quantity == 4. The partly clipped Apply control has blue active styling. Existing event rows remain below. This records the rendered draft state in the two-tab test sequence.

@@ -1,0 +1,61 @@
+{
+  "id": "135-outlined",
+  "finding_id": "FUNC01",
+  "source_safe_filename": "135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+  "source_safe_sha256": "73809605edf4af6e47a302d240d2b7413a832204aa723e322363444220cf7c4a",
+  "original_source_filename": "135-unsaved-predicate-overwritten-by-remote-save.jpg",
+  "original_source_sha256": "64f4eeb9004ca286e57b14005ec6360d7348e6de348bcde72ed04739766eb870",
+  "filename": "135-unsaved-predicate-overwritten-by-remote-save-outlined.png",
+  "public_relative_path": "evidence/continuation-13/two-tab-132-135/135-unsaved-predicate-overwritten-by-remote-save-outlined.png",
+  "sha256": "656cc2a0113ff9eb99b8d367517c7306454ebc02ba28de2d3a11f1a119b85a16",
+  "dimensions": [
+    1020,
+    538
+  ],
+  "source_crop_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "outline_source_xyxy": [
+    [
+      641,
+      246,
+      899,
+      280
+    ],
+    [
+      1008,
+      328,
+      1148,
+      350
+    ]
+  ],
+  "outline_output_xyxy": [
+    [
+      481,
+      74,
+      739,
+      108
+    ],
+    [
+      848,
+      156,
+      988,
+      178
+    ]
+  ],
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Thin outlines are drawn inward at 2 pixels. The second rectangle surrounds only the visible portion of the Apply control.",
+  "outline_rgb": [
+    220,
+    35,
+    35
+  ],
+  "outline_width_pixels": 2,
+  "only_outline_pixels_changed": true,
+  "original_safe_image_unchanged": true,
+  "caption": "Separate thin-outline derivative of screenshot 135. Red outlines identify only the rendered condition field and the visible portion of the partly clipped Apply control. The condition renders quantity == 4 and Apply has pale styling. Its disabled state was confirmed separately by the recorder. No UI content was redrawn. The remote-save action, causality, repetition, and absence of a warning over the sequence are supported by recorder chronology, not by this still alone.",
+  "original_source_footer_ui_version": "35.143306223",
+  "source_footer_in_safe_crop": false
+}

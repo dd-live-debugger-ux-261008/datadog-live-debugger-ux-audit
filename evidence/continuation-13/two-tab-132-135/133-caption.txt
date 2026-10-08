@@ -1,0 +1,1 @@
+The editor visibly displays TAB_A2 q={quantity} total={total_cents} and condition quantity == 4. The partly clipped Apply control has pale styling. This records the rendered state following the first remote-save observation. The disabled Apply state was confirmed separately by the recorder.

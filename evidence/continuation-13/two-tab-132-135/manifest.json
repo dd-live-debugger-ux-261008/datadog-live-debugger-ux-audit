@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "title": "FUNC01: unsaved condition overwritten during a remote message-only edit",
+  "public_relative_directory": "evidence/continuation-13/two-tab-132-135/",
+  "evidence_medium": "Direct screenshots only. These stills do not prove continuous foreground video.",
+  "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Safe screenshots are integer-coordinate crops preserving all retained decoded RGB pixels. Separately labeled derivatives add only two-pixel outlines around documented visible regions.",
+  "timestamp_limit": "Event-list row times are retained as displayed. They are not substituted for independently verified payload execution timestamps or screenshot acquisition times. No payload timestamp fields are visible in these screenshots.",
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "98c6224d3546039b333292cf2b39da485cf1aca1e4272571a137812582e0aab5",
+    "batch_definition_sha256": "979cac46067a7ad0fc10c019cd8d98a4227196c137fd0641d31e837209eb18c1",
+    "source_jpeg_decode": "RGB",
+    "output_format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "earlier_frozen_pack_unchanged": true,
+    "browser_access": false,
+    "published": false
+  },
+  "images": [
+    {
+      "id": "132",
+      "source_filename": "132-stale-tab-independent-draft.jpg",
+      "source_sha256": "612d1fbdc5af99a2c4b305026c905339e75eb4b78b1ff8efa9e90fd41053259e",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "132-stale-tab-independent-draft-safe.png",
+      "public_relative_path": "evidence/continuation-13/two-tab-132-135/132-stale-tab-independent-draft-safe.png",
+      "safe_sha256": "4f42f85af45d3780da7c5d30fbed7688ca2e50eda62419a63fb85f3081d07e15",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "744e8c17f9d09f62459c2e6a83b0f140d872b4dd831db74998919370e729ba2d",
+      "safe_decoded_rgb_sha256": "744e8c17f9d09f62459c2e6a83b0f140d872b4dd831db74998919370e729ba2d",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The visible editor displays TAB_A q={quantity} total={total_cents} and condition quantity == 4. The partly clipped Apply control has blue active styling. Existing event rows remain below. This records the rendered draft state in the two-tab test sequence.",
+      "visible_evidence_limits": [
+        "This still does not establish the stored condition, another tab\u2019s actions, or the chronology of remote updates.",
+        "The Apply control is partly clipped by the pane boundary."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null,
+      "original_source_footer_ui_version": "35.143306223",
+      "source_footer_in_safe_crop": false
+    },
+    {
+      "id": "133",
+      "source_filename": "133-two-tab-dirty-field-after-remote-save.jpg",
+      "source_sha256": "c93f67dd78101a3b694236e36f7b517fc7d95e595903e7309f454d05a525be2e",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "133-two-tab-dirty-field-after-remote-save-safe.png",
+      "public_relative_path": "evidence/continuation-13/two-tab-132-135/133-two-tab-dirty-field-after-remote-save-safe.png",
+      "safe_sha256": "fba520963516fdf443acfde9c9b65f136237a811bf42aad070db0f3c27419190",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "2000ce51ecfc7dadf440079c053ca547d6505001d15640edd388f98405eda1a9",
+      "safe_decoded_rgb_sha256": "2000ce51ecfc7dadf440079c053ca547d6505001d15640edd388f98405eda1a9",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "The editor visibly displays TAB_A2 q={quantity} total={total_cents} and condition quantity == 4. The partly clipped Apply control has pale styling. This records the rendered state following the first remote-save observation. The disabled Apply state was confirmed separately by the recorder.",
+      "visible_evidence_limits": [
+        "The remote-save action and loss of an unsaved draft are established by recorder chronology, not this still alone.",
+        "The Apply control is only partly visible; no warning absence over time can be proven from one frame.",
+        "The image shows pale Apply styling; disabled-state confirmation comes from the recorder observation."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null,
+      "original_source_footer_ui_version": "35.143306223",
+      "source_footer_in_safe_crop": false
+    },
+    {
+      "id": "134",
+      "source_filename": "134-unsaved-predicate-before-remote-save.jpg",
+      "source_sha256": "e9cff2ea386aa332e1222540a2d90efdf89a2f576a51617d95940d2b932914fb",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "134-unsaved-predicate-before-remote-save-safe.png",
+      "public_relative_path": "evidence/continuation-13/two-tab-132-135/134-unsaved-predicate-before-remote-save-safe.png",
+      "safe_sha256": "4fea20e9149146528d2bf7ac5a18155caaa87044fe1c430a9adea89d20bef56f",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "5da5ba9b642c0d4365fdc973bc868bd9ec8aae97cceba45b9e5b2131ce502ac7",
+      "safe_decoded_rgb_sha256": "5da5ba9b642c0d4365fdc973bc868bd9ec8aae97cceba45b9e5b2131ce502ac7",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "Before-state screenshot: the editor visibly displays TAB_A2 q={quantity} total={total_cents} with quantity == 3 in the condition field. The partly clipped Apply control has blue active styling. This is the rendered unsaved predicate used for the second two-tab reproduction.",
+      "visible_evidence_limits": [
+        "Unsaved status and the subsequent message-only save in another tab come from recorder chronology.",
+        "The Apply control is partly clipped.",
+        "Displayed event-row timestamps are not the timing evidence for the edit operation.",
+        "The image shows blue Apply styling; enabled-state confirmation comes from the recorder observation."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null,
+      "original_source_footer_ui_version": "35.143306223",
+      "source_footer_in_safe_crop": false
+    },
+    {
+      "id": "135",
+      "source_filename": "135-unsaved-predicate-overwritten-by-remote-save.jpg",
+      "source_sha256": "64f4eeb9004ca286e57b14005ec6360d7348e6de348bcde72ed04739766eb870",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+      "public_relative_path": "evidence/continuation-13/two-tab-132-135/135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+      "safe_sha256": "73809605edf4af6e47a302d240d2b7413a832204aa723e322363444220cf7c4a",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "f5b768edeaaaf97a20fd9d907fe26cb7a41ae3ac082a60bf489fb6267606be87",
+      "safe_decoded_rgb_sha256": "f5b768edeaaaf97a20fd9d907fe26cb7a41ae3ac082a60bf489fb6267606be87",
+      "verified_unchanged_pixels_outside_masks": 548760,
+      "source_unchanged": true,
+      "caption": "After-state screenshot: the editor visibly displays TAB_A3 q={quantity} total={total_cents}, and the condition field renders quantity == 4. The partly clipped Apply control has pale styling. This records the rendered replacement of the preceding quantity == 3 draft; the image is captioned from pixels, not the briefly stale accessibility value. The disabled Apply state was confirmed separately by the recorder.",
+      "visible_evidence_limits": [
+        "Causality, the remote save changing only TAB_A2 to TAB_A3, the repeat reproduction, and the lack of a warning over that sequence rely on recorder chronology.",
+        "The stored condition remained quantity == 4 according to the recorder; this finding concerns unsaved edit loss, not captured-value corruption or concurrent saved-write corruption.",
+        "The Apply control is partly clipped.",
+        "The image shows pale Apply styling; disabled-state confirmation comes from the recorder observation."
+      ],
+      "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+      "payload_timestamp_visible": false,
+      "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+      "annotation": null,
+      "original_source_footer_ui_version": "35.143306223",
+      "source_footer_in_safe_crop": false
+    }
+  ],
+  "public_file_allowlist": [
+    "132-caption.txt",
+    "132-provenance.json",
+    "132-stale-tab-independent-draft-safe.png",
+    "133-caption.txt",
+    "133-provenance.json",
+    "133-two-tab-dirty-field-after-remote-save-safe.png",
+    "134-annotation-provenance.json",
+    "134-caption.txt",
+    "134-outlined-caption.txt",
+    "134-provenance.json",
+    "134-unsaved-predicate-before-remote-save-outlined.png",
+    "134-unsaved-predicate-before-remote-save-safe.png",
+    "135-annotation-provenance.json",
+    "135-caption.txt",
+    "135-outlined-caption.txt",
+    "135-provenance.json",
+    "135-unsaved-predicate-overwritten-by-remote-save-outlined.png",
+    "135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+    "SHA256SUMS",
+    "manifest.json"
+  ],
+  "derivatives": [
+    {
+      "id": "134-outlined",
+      "finding_id": "FUNC01",
+      "source_safe_filename": "134-unsaved-predicate-before-remote-save-safe.png",
+      "source_safe_sha256": "4fea20e9149146528d2bf7ac5a18155caaa87044fe1c430a9adea89d20bef56f",
+      "original_source_filename": "134-unsaved-predicate-before-remote-save.jpg",
+      "original_source_sha256": "e9cff2ea386aa332e1222540a2d90efdf89a2f576a51617d95940d2b932914fb",
+      "filename": "134-unsaved-predicate-before-remote-save-outlined.png",
+      "public_relative_path": "evidence/continuation-13/two-tab-132-135/134-unsaved-predicate-before-remote-save-outlined.png",
+      "sha256": "73225af06ab653e13c15173ccfa4b15ad7f031cb2fdc3ebc952e4dc03faa8d28",
+      "dimensions": [
+        1020,
+        538
+      ],
+      "source_crop_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "outline_source_xyxy": [
+        [
+          641,
+          246,
+          899,
+          280
+        ],
+        [
+          1008,
+          328,
+          1148,
+          350
+        ]
+      ],
+      "outline_output_xyxy": [
+        [
+          481,
+          74,
+          739,
+          108
+        ],
+        [
+          848,
+          156,
+          988,
+          178
+        ]
+      ],
+      "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Thin outlines are drawn inward at 2 pixels. The second rectangle surrounds only the visible portion of the Apply control.",
+      "outline_rgb": [
+        220,
+        35,
+        35
+      ],
+      "outline_width_pixels": 2,
+      "only_outline_pixels_changed": true,
+      "original_safe_image_unchanged": true,
+      "caption": "Separate thin-outline derivative of screenshot 134. Red outlines identify only the rendered condition field and the visible portion of the partly clipped Apply control. The condition renders quantity == 3 and Apply has blue active styling. No UI content was redrawn. The remote-save action, causality, repetition, and absence of a warning over the sequence are supported by recorder chronology, not by this still alone.",
+      "original_source_footer_ui_version": "35.143306223",
+      "source_footer_in_safe_crop": false
+    },
+    {
+      "id": "135-outlined",
+      "finding_id": "FUNC01",
+      "source_safe_filename": "135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+      "source_safe_sha256": "73809605edf4af6e47a302d240d2b7413a832204aa723e322363444220cf7c4a",
+      "original_source_filename": "135-unsaved-predicate-overwritten-by-remote-save.jpg",
+      "original_source_sha256": "64f4eeb9004ca286e57b14005ec6360d7348e6de348bcde72ed04739766eb870",
+      "filename": "135-unsaved-predicate-overwritten-by-remote-save-outlined.png",
+      "public_relative_path": "evidence/continuation-13/two-tab-132-135/135-unsaved-predicate-overwritten-by-remote-save-outlined.png",
+      "sha256": "656cc2a0113ff9eb99b8d367517c7306454ebc02ba28de2d3a11f1a119b85a16",
+      "dimensions": [
+        1020,
+        538
+      ],
+      "source_crop_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "outline_source_xyxy": [
+        [
+          641,
+          246,
+          899,
+          280
+        ],
+        [
+          1008,
+          328,
+          1148,
+          350
+        ]
+      ],
+      "outline_output_xyxy": [
+        [
+          481,
+          74,
+          739,
+          108
+        ],
+        [
+          848,
+          156,
+          988,
+          178
+        ]
+      ],
+      "geometry_convention": "Zero-based half-open rectangles [left, top, right, bottom). Thin outlines are drawn inward at 2 pixels. The second rectangle surrounds only the visible portion of the Apply control.",
+      "outline_rgb": [
+        220,
+        35,
+        35
+      ],
+      "outline_width_pixels": 2,
+      "only_outline_pixels_changed": true,
+      "original_safe_image_unchanged": true,
+      "caption": "Separate thin-outline derivative of screenshot 135. Red outlines identify only the rendered condition field and the visible portion of the partly clipped Apply control. The condition renders quantity == 4 and Apply has pale styling. Its disabled state was confirmed separately by the recorder. No UI content was redrawn. The remote-save action, causality, repetition, and absence of a warning over the sequence are supported by recorder chronology, not by this still alone.",
+      "original_source_footer_ui_version": "35.143306223",
+      "source_footer_in_safe_crop": false
+    }
+  ],
+  "finding_context": {
+    "id": "FUNC01",
+    "severity": "Medium",
+    "scope": "Unsaved condition draft is replaced during a remote message-only save.",
+    "chronology_basis": "Recorder confirmed repeated reproductions around 13:01 UTC and 13:02:52 UTC. In the second reproduction, tab B had an unsaved quantity == 3 draft. Tab A saved only the message from TAB_A2 to TAB_A3, and tab B rendered the stored quantity == 4 with Apply disabled.",
+    "screenshot_evidence_basis": "Before 134 and after 135 are read from rendered pixels. The brief stale accessibility value is not used as image evidence.",
+    "stored_condition_scope": "Stored condition remained quantity == 4. No capture corruption or concurrent saved-write corruption is claimed.",
+    "causality_and_warning_limit": "Action chronology and absence of a warning over the sequence come from recorder observations; still screenshots alone do not establish them."
+  },
+  "annotation_processing": {
+    "script_sha256": "7098f2d309fe8d48b828112c600f035ba42df7f5755b54bb45078304eba3a82e",
+    "separate_derivatives_only": true,
+    "original_safe_images_unchanged": true
+  },
+  "original_source_footer_note": "All four originals display UI version 35.143306223. The established safe crop omits the footer; the version is recorded here as source metadata, not inserted into the pixels."
+}

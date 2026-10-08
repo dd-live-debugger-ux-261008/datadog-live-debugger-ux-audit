@@ -1,0 +1,1 @@
+Before-state screenshot: the editor visibly displays TAB_A2 q={quantity} total={total_cents} with quantity == 3 in the condition field. The partly clipped Apply control has blue active styling. This is the rendered unsaved predicate used for the second two-tab reproduction.

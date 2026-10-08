@@ -1,0 +1,40 @@
+{
+  "id": "135",
+  "source_filename": "135-unsaved-predicate-overwritten-by-remote-save.jpg",
+  "source_sha256": "64f4eeb9004ca286e57b14005ec6360d7348e6de348bcde72ed04739766eb870",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+  "public_relative_path": "evidence/continuation-13/two-tab-132-135/135-unsaved-predicate-overwritten-by-remote-save-safe.png",
+  "safe_sha256": "73809605edf4af6e47a302d240d2b7413a832204aa723e322363444220cf7c4a",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "f5b768edeaaaf97a20fd9d907fe26cb7a41ae3ac082a60bf489fb6267606be87",
+  "safe_decoded_rgb_sha256": "f5b768edeaaaf97a20fd9d907fe26cb7a41ae3ac082a60bf489fb6267606be87",
+  "verified_unchanged_pixels_outside_masks": 548760,
+  "source_unchanged": true,
+  "caption": "After-state screenshot: the editor visibly displays TAB_A3 q={quantity} total={total_cents}, and the condition field renders quantity == 4. The partly clipped Apply control has pale styling. This records the rendered replacement of the preceding quantity == 3 draft; the image is captioned from pixels, not the briefly stale accessibility value. The disabled Apply state was confirmed separately by the recorder.",
+  "visible_evidence_limits": [
+    "Causality, the remote save changing only TAB_A2 to TAB_A3, the repeat reproduction, and the lack of a warning over that sequence rely on recorder chronology.",
+    "The stored condition remained quantity == 4 according to the recorder; this finding concerns unsaved edit loss, not captured-value corruption or concurrent saved-write corruption.",
+    "The Apply control is partly clipped.",
+    "The image shows pale Apply styling; disabled-state confirmation comes from the recorder observation."
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "payload_timestamp_visible": false,
+  "event_list_rows_are_verified_selected_capture_execution_timestamp": false,
+  "annotation": null,
+  "original_source_footer_ui_version": "35.143306223",
+  "source_footer_in_safe_crop": false
+}
