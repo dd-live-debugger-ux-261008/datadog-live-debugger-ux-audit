@@ -1,0 +1,77 @@
+{
+  "id": "09",
+  "source_filename": "coverage-repaired-invalid-sha-editor-selected.jpg",
+  "source_sha256": "a072983364bf1f335c30fb98e12af6e00f7cff11100a94d5aa9ec52d8ca77cd1",
+  "source_dimensions": [
+    1180,
+    757
+  ],
+  "safe_filename": "09-repaired-editor-selected-safe.png",
+  "safe_sha256": "a3e9a9c6d9f1b764c26090172682c467d9ffe47627ac94c8a192767d4c701174",
+  "safe_dimensions": [
+    1020,
+    538
+  ],
+  "crop_source_xyxy": [
+    160,
+    172,
+    1180,
+    710
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        168,
+        221,
+        452,
+        254
+      ],
+      "output_xyxy": [
+        8,
+        49,
+        292,
+        82
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    },
+    {
+      "source_xyxy": [
+        168,
+        316,
+        452,
+        349
+      ],
+      "output_xyxy": [
+        8,
+        144,
+        292,
+        177
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private service/runtime identity"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "25e8fd31077a47a18d1496ef5a42e229ac694d2f939129f15098fe82387c1afe",
+  "safe_decoded_rgb_sha256": "a8df28fae699d897baea101f8ada898e3fddd2e221ca5a9dc460696d8e5660e0",
+  "verified_unchanged_pixels_outside_masks": 530016,
+  "source_unchanged": true,
+  "caption": "After repair and an explicit editor selection, the visible pricing.py main editor displays line 17 source and the shared SOURCE_C1 quantity={quantity} total={total_cents} definition. The selected control is EXPIRED with 0 Instances. The event list includes a SOURCE_INVALID_SHA quantity=2 total=2400 row, alongside other source controls.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "This later explicit selection demonstrates that the editor can show the shared C1 definition. It does not prove automatic whole-editor recovery after repair.",
+    "Main-editor content, event-list messages, and a selected event-specific source frame are distinct evidence surfaces.",
+    "Displayed event-list timestamps are UI values, not independent SDK snapshot execution timestamps."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

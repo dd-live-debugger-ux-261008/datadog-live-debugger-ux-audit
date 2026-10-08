@@ -1,0 +1,7 @@
+The displayed bounded_burst receipt reports 9 data requests attempted, 9 succeeded, elapsed_seconds 0.26, health_before true, health_after true, maximum_data_requests 9, and capture_rate_or_count_not_asserted true. It also says the burst was not skipped for failed initial health.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- These are generator request/health results, not a Datadog capture count, sampling rate, completeness guarantee, load test, or latency guarantee.

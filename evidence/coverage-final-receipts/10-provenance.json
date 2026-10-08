@@ -1,0 +1,56 @@
+{
+  "id": "10",
+  "source_filename": "coverage-complex-cycle-four-levels.jpg",
+  "source_sha256": "5195d47a193e0af3d0da39a1eeab2f470082e2f48d964f03e54daa98a511352b",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "10-complex-cycle-expansion-safe.png",
+  "safe_sha256": "859df3faf834eaa66a9ccb7e09b527f1c08090f61c602480036c02e1f55ffce3",
+  "safe_dimensions": [
+    589,
+    598
+  ],
+  "crop_source_xyxy": [
+    531,
+    52,
+    1120,
+    650
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        589,
+        594,
+        949,
+        621
+      ],
+      "output_xyxy": [
+        58,
+        542,
+        418,
+        569
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private repository path in stack frame"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "64a7c987951d52da3eab3fb71e38c189bf39e870d289427f8376c72e3d7a1b4b",
+  "safe_decoded_rgb_sha256": "498deabd30be5acdb8b81c098ed183a32ebb16ec0b611edee011510f4a97512a",
+  "verified_unchanged_pixels_outside_masks": 342502,
+  "source_unchanged": true,
+  "caption": "The retained complex-value tree shows a nested dictionary cycle with label synthetic-cycle, number 73, and self entries, plus empty_list size 0 and empty_map size 0. The recorded UI inspection reached four self expansions at 21:37:30.937 UTC and then collapsed the cycle at 21:37:41.556 UTC.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "This scrolled still shows only part of the expanded tree. Four-level traversal and subsequent collapse come from the corresponding recorded UI text.",
+    "The bounded interaction remained responsive; no termination bound, maximum cycle depth, full graph traversal, or SDK truncation behavior is proved."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

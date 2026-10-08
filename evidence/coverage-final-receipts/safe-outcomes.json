@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "source_type": "Whitelisted outcome JSON and corresponding recorded UI text; private raw logs and credentials were not used.",
+  "stage_times_utc": {
+    "start_c2": {
+      "started": "2026-10-08T20:14:38.440219Z",
+      "completed": "2026-10-08T20:14:41.182422Z"
+    },
+    "repair_metadata": {
+      "started": "2026-10-08T20:19:39.089314Z",
+      "completed": "2026-10-08T20:19:47.215409Z"
+    },
+    "restart_fixture": {
+      "started": "2026-10-08T20:34:39.165902Z",
+      "completed": "2026-10-08T20:34:40.568984Z"
+    },
+    "stop_agent": {
+      "started": "2026-10-08T20:49:39.279613Z",
+      "completed": "2026-10-08T20:49:39.862471Z"
+    },
+    "restore_agent": {
+      "started": "2026-10-08T20:50:40.905469Z",
+      "completed": "2026-10-08T20:50:43.473731Z"
+    },
+    "tiny_burst": {
+      "started": "2026-10-08T21:04:38.240349Z",
+      "completed": "2026-10-08T21:04:38.502620Z"
+    }
+  },
+  "bounded_burst": {
+    "data_requests_attempted": 9,
+    "data_requests_succeeded": 9,
+    "elapsed_seconds": 0.26,
+    "health_before": true,
+    "health_after": true,
+    "maximum_data_requests": 9,
+    "skipped_for_failed_initial_health": false,
+    "capture_rate_or_count_not_asserted": true
+  },
+  "agent_timing_comparison": {
+    "during_ui_observed_utc": "2026-10-08T20:50:23.733Z",
+    "observation_inside_actual_stopped_interval": true,
+    "after_restore_sdk_snapshot_timestamp_ms": 1791492681893,
+    "after_restore_sdk_snapshot_timestamp_utc": "2026-10-08T20:51:21.893Z",
+    "snapshot_after_restore_completion": true,
+    "limits": [
+      "The recorded UI observation time is distinct from SDK execution time.",
+      "Event-list times are not substituted for SDK snapshot time.",
+      "These comparisons do not prove a maximum outage-detection or restored-capture latency."
+    ]
+  },
+  "complex_value_inspection": {
+    "four_expansions_ui_observed_utc": "2026-10-08T21:37:30.937Z",
+    "collapsed_ui_observed_utc": "2026-10-08T21:37:41.556Z",
+    "leaf_search_ui_observed_utc": "2026-10-08T21:38:13.978Z",
+    "cycle_termination_bound_proved": false
+  },
+  "terminal_inventory": {
+    "observed_utc": "2026-10-08T21:28:36.754Z",
+    "all": 7,
+    "active": 0,
+    "inactive": 7,
+    "filters": "My sessions off; Services All; Environments All; Created All time; empty session-title search"
+  },
+  "sources": [
+    {
+      "filename": "coverage-actual-stage-times.json",
+      "sha256": "ed3d48623471f2e03066f9386125502e1475387ffa03a99bab3b5f04755387ba"
+    },
+    {
+      "filename": "coverage-bounded-burst-actual-receipt.json",
+      "sha256": "f82f11457358bec0315f748450f2e906f779b01d8a310f04d394a5ba485debba"
+    },
+    {
+      "filename": "coverage-agent-outage-observations.json",
+      "sha256": "7177c050f5c5e4d2141f1acf9220035ff30056efe1994973e3f45a8419645ae8"
+    },
+    {
+      "filename": "coverage-after-agent-restore-payload.txt",
+      "sha256": "7bc25ccc9e44afa2a6ca7d96b8a24d71a21164300c48967d21e53167e58dff1f"
+    },
+    {
+      "filename": "coverage-terminal-cleanup-step.txt",
+      "sha256": "f4b74c5f83aaac9741c4c186b48c895a3299060be3a7db23cfa909b2608cb702"
+    },
+    {
+      "filename": "coverage-post-terminal-unfiltered-inventory.txt",
+      "sha256": "a0f4eda4463e58d6d2db3ae1f650430cbb7629da71823d05ce8dd6e8996d92f4"
+    },
+    {
+      "filename": "coverage-repaired-invalid-sha-editor-selected.txt",
+      "sha256": "209c49baf701177de38e8549c675fb3e23dd9c5894dccbb9f2cb2fd479c87ecf"
+    },
+    {
+      "filename": "coverage-complex-cycle-four-levels.txt",
+      "sha256": "653839812bf120b6e32dc9bbde2cb03d21ee12af8df8bb2fca5dc832733dab2d"
+    },
+    {
+      "filename": "coverage-complex-cycle-collapsed.txt",
+      "sha256": "143b9695f20ca670bf60349d9ab324201e815230d5a5ff874c88e1809f6ec5d3"
+    },
+    {
+      "filename": "coverage-complex-search-leaf.txt",
+      "sha256": "493ac017caa1e336e7eab32ee5b5957f1277d8cf41cb1a5d2ba80cc0c884fe3d"
+    }
+  ],
+  "excluded_data": "Account, repository, URL, host, session, probe, snapshot, runtime, run/job, and correlation identities are not copied into this derived outcome file."
+}

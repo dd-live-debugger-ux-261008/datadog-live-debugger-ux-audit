@@ -1,0 +1,7 @@
+The receipt shows tiny_burst started at 2026-10-08T21:04:38.240349+00:00 and completed at 2026-10-08T21:04:38.502620+00:00.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- This is the bounded generator stage interval, not a Datadog capture-count guarantee or product latency measurement.

@@ -1,0 +1,35 @@
+{
+  "id": "07",
+  "source_filename": "coverage-terminal-cleanup.jpg",
+  "source_sha256": "0340294e517956487c7e0467d99e8105f42e5696c32017e20c334cccf7f79cbc",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "07-terminal-cleanup-safe.png",
+  "safe_sha256": "3613d058b9c4c03ba01014b4f8c5df7f683ece7f4b556c411c20465c83c1c512",
+  "safe_dimensions": [
+    765,
+    94
+  ],
+  "crop_source_xyxy": [
+    350,
+    605,
+    1115,
+    699
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "3b1de6c33bee5af3be77da92711ad45813a13a6d05fcaa1295e4040d98f9bfce",
+  "safe_decoded_rgb_sha256": "3b1de6c33bee5af3be77da92711ad45813a13a6d05fcaa1295e4040d98f9bfce",
+  "verified_unchanged_pixels_outside_masks": 71910,
+  "source_unchanged": true,
+  "caption": "The completed cleanup step is expanded. It reads \"Stop any remaining job-owned runtime processes\", runs python coverage_runtime.py cleanup, and prints \"Owned coverage runtime cleanup completed.\"",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "This receipt covers the job-owned runtime cleanup step only; workflow success is not evidence that every test case passed.",
+    "The source image is coverage-terminal-cleanup.jpg. The corresponding UI transcript is coverage-terminal-cleanup-step.txt; no image named coverage-terminal-cleanup-step.jpg was present."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

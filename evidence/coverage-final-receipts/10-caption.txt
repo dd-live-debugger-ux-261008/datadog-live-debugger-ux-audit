@@ -1,0 +1,8 @@
+The retained complex-value tree shows a nested dictionary cycle with label synthetic-cycle, number 73, and self entries, plus empty_list size 0 and empty_map size 0. The recorded UI inspection reached four self expansions at 21:37:30.937 UTC and then collapsed the cycle at 21:37:41.556 UTC.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- This scrolled still shows only part of the expanded tree. Four-level traversal and subsequent collapse come from the corresponding recorded UI text.
+- The bounded interaction remained responsive; no termination bound, maximum cycle depth, full graph traversal, or SDK truncation behavior is proved.

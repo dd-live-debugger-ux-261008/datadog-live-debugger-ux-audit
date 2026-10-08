@@ -1,0 +1,9 @@
+The post-terminal Sessions List shows My sessions off, Services All, Environments All, Created All time, and an empty session-title search. The counters are All 7, Active 0, Inactive 7. Three visible session cards are marked INACTIVE. Private session, service, account, and avatar identities are masked.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- This is the observed unfiltered inventory at 2026-10-08T21:28:36.754Z, not a continuous monitoring result.
+- Only three of the seven inactive session cards are visible; the seven-session total comes from the displayed counters.
+- Inactive sessions alone do not prove runtime cleanup; use the separate cleanup receipt.

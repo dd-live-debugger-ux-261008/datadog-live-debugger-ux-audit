@@ -1,0 +1,8 @@
+The completed cleanup step is expanded. It reads "Stop any remaining job-owned runtime processes", runs python coverage_runtime.py cleanup, and prints "Owned coverage runtime cleanup completed."
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- This receipt covers the job-owned runtime cleanup step only; workflow success is not evidence that every test case passed.
+- The source image is coverage-terminal-cleanup.jpg. The corresponding UI transcript is coverage-terminal-cleanup-step.txt; no image named coverage-terminal-cleanup-step.jpg was present.

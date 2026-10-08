@@ -1,0 +1,8 @@
+The stage receipt shows stop_agent completed at 2026-10-08T20:49:39.862471+00:00 and restore_agent started at 2026-10-08T20:50:40.905469+00:00. The top also shows the preceding stop_agent started label, but its timestamp is outside this crop.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- The separately recorded during-outage UI observation at 20:50:23.733 UTC falls strictly after stop completion and before restore start. That observation and its UI content are not pictured here.
+- This anchors the stopped interval; it does not establish outage detection latency or exact capture delivery behavior.

@@ -1,0 +1,7 @@
+The complex-value panel search contains leaf and shows match 1/5. The nested left branch is expanded to leaf with value 11. The right branch is visible as a dictionary of size 1, but its leaf value is below this crop.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- This screenshot establishes the visible left leaf and search state only, not all five search matches or the right leaf value.

@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "title": "Final coverage actual-stage and ancillary direct screenshot evidence",
+  "evidence_medium": "Direct screenshots and explicitly identified safe recorded observations; no continuous-video claim.",
+  "geometry_convention": "Zero-based half-open integer [left, top, right, bottom) crops and solid opaque masks only.",
+  "interpretation_limits": [
+    "The recorded UI observation time is distinct from SDK execution time.",
+    "Event-list times are not substituted for SDK snapshot time.",
+    "These comparisons do not prove a maximum outage-detection or restored-capture latency.",
+    "No new product finding is claimed.",
+    "No capture-count guarantee follows from 9/9 generator requests.",
+    "Explicit shared-C1 editor selection does not prove automatic whole-editor recovery.",
+    "Four self expansions and collapse do not prove a cycle termination bound.",
+    "Workflow success is not proof that every test case succeeded."
+  ],
+  "processing": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "builder_sha256": "1eba52957dbc2a47530881018d26b851922906475a9d3957e054b2743a44b2cd",
+    "format": "lossless RGB PNG",
+    "pixel_preservation_verified": true,
+    "all_originals_unchanged": true,
+    "browser_access": false,
+    "external_publication": false
+  },
+  "images": [
+    {
+      "id": "01",
+      "source_filename": "coverage-bounded-burst-actual-receipt.png",
+      "source_sha256": "ebbb258cc57bf94d1cd2ac2585de23a58d83ce0e5a820304be9c0dd0ee15919c",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "01-bounded-burst-outcome-safe.png",
+      "safe_sha256": "742fdf3addcec84de3c1466b3cc4754f866f0e5f1220cbb11dbb8e511fabf185",
+      "safe_dimensions": [
+        766,
+        239
+      ],
+      "crop_source_xyxy": [
+        450,
+        405,
+        1216,
+        644
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "72ffc3d32e9bf535f579e5678af78b66c6a12621fd1d6d4cdce5ad491866cd2c",
+      "safe_decoded_rgb_sha256": "72ffc3d32e9bf535f579e5678af78b66c6a12621fd1d6d4cdce5ad491866cd2c",
+      "verified_unchanged_pixels_outside_masks": 183074,
+      "source_unchanged": true,
+      "caption": "The displayed bounded_burst receipt reports 9 data requests attempted, 9 succeeded, elapsed_seconds 0.26, health_before true, health_after true, maximum_data_requests 9, and capture_rate_or_count_not_asserted true. It also says the burst was not skipped for failed initial health.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "These are generator request/health results, not a Datadog capture count, sampling rate, completeness guarantee, load test, or latency guarantee."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "02",
+      "source_filename": "coverage-agent-stop-restore-start-receipt.png",
+      "source_sha256": "eed087387ece4567173d43f098d4cb683196adbcf8a10354a6249b368a0d1554",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "02-agent-stop-restore-start-safe.png",
+      "safe_sha256": "e07973cb3667a35a762a7ecd7ca7c58ea914ba21f546423495cd2ddcf7de7308",
+      "safe_dimensions": [
+        766,
+        299
+      ],
+      "crop_source_xyxy": [
+        450,
+        301,
+        1216,
+        600
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "c0a4364ffc67e18530fd9eace43108d0420bdaff23f7612dafe9c07145501e03",
+      "safe_decoded_rgb_sha256": "c0a4364ffc67e18530fd9eace43108d0420bdaff23f7612dafe9c07145501e03",
+      "verified_unchanged_pixels_outside_masks": 229034,
+      "source_unchanged": true,
+      "caption": "The stage receipt shows stop_agent completed at 2026-10-08T20:49:39.862471+00:00 and restore_agent started at 2026-10-08T20:50:40.905469+00:00. The top also shows the preceding stop_agent started label, but its timestamp is outside this crop.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "The separately recorded during-outage UI observation at 20:50:23.733 UTC falls strictly after stop completion and before restore start. That observation and its UI content are not pictured here.",
+        "This anchors the stopped interval; it does not establish outage detection latency or exact capture delivery behavior."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "03",
+      "source_filename": "coverage-agent-restored-receipt.png",
+      "source_sha256": "9035f6c3d2b51016617506c5ec7b01a06b347b2293512846fe8cd67e36d5b5b5",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "03-agent-restored-safe.png",
+      "safe_sha256": "bb58c262550892b6e1607ed1efd9bfb0cd5af9231b8da8acd9bce20d422378be",
+      "safe_dimensions": [
+        766,
+        235
+      ],
+      "crop_source_xyxy": [
+        450,
+        365,
+        1216,
+        600
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "b10b720a0b34e686070020efcfb5da7d1f4126ca9f8e8adbfe8652a7bbe749f8",
+      "safe_decoded_rgb_sha256": "b10b720a0b34e686070020efcfb5da7d1f4126ca9f8e8adbfe8652a7bbe749f8",
+      "verified_unchanged_pixels_outside_masks": 180010,
+      "source_unchanged": true,
+      "caption": "The stage receipt shows restore_agent started at 2026-10-08T20:50:40.905469+00:00 and completed at 2026-10-08T20:50:43.473731+00:00.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "The separately inspected post-recovery SDK snapshot timestamp is 1791492681893 ms, or 2026-10-08T20:51:21.893Z, after actual restore completion. The payload is not pictured in this receipt.",
+        "No exact resumed-capture latency or complete capture-count claim follows from this still."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "04",
+      "source_filename": "coverage-repair-fixture-agent-stages-receipt.png",
+      "source_sha256": "6e547ce69bd3e8cf003df474213710b7f24b011477dc169f45ff2a221ec0ff80",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "04-repair-restart-stages-safe.png",
+      "safe_sha256": "573a0298207ae6c5bd6d5a064e2aa542f9ba7d58ebbe46462457d8a7a2afccad",
+      "safe_dimensions": [
+        766,
+        560
+      ],
+      "crop_source_xyxy": [
+        450,
+        365,
+        1216,
+        925
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "66a385dbd4f69d2f5298368cf51944ae7e9ec4dd97f67b05d00cd65b042e7cd4",
+      "safe_decoded_rgb_sha256": "66a385dbd4f69d2f5298368cf51944ae7e9ec4dd97f67b05d00cd65b042e7cd4",
+      "verified_unchanged_pixels_outside_masks": 428960,
+      "source_unchanged": true,
+      "caption": "The retained stage receipt shows repair_metadata from 2026-10-08T20:19:39.089314+00:00 to 20:19:47.215409+00:00, then restart_fixture from 20:34:39.165902+00:00 to 20:34:40.568984+00:00. The next visible entry identifies stop_agent at 20:49:39.279613+00:00; its state field falls below this crop.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "Stage completion is not proof that every product behavior under test passed.",
+        "The complete safe stage-time JSON records stop_agent as started at the latter timestamp."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "05",
+      "source_filename": "coverage-burst-start-receipt.png",
+      "source_sha256": "888991915663f369a7f39f3ef970c4ac4bb8aa5286b2f9d7d76b6479f0dfb0f6",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "05-burst-start-safe.png",
+      "safe_sha256": "d716d71d8443110f3f1a42206e40a92419cdded458017cff08a9944ff373dd8d",
+      "safe_dimensions": [
+        766,
+        235
+      ],
+      "crop_source_xyxy": [
+        450,
+        365,
+        1216,
+        600
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "3206823c19697b7bbc7e66ee0298db1639aa3e9418c1579f022d35660157c52d",
+      "safe_decoded_rgb_sha256": "3206823c19697b7bbc7e66ee0298db1639aa3e9418c1579f022d35660157c52d",
+      "verified_unchanged_pixels_outside_masks": 180010,
+      "source_unchanged": true,
+      "caption": "The receipt shows restore_agent completed at 2026-10-08T20:50:43.473731+00:00, followed by tiny_burst started at 2026-10-08T21:04:38.240349+00:00.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "Burst completion and request totals are established by the separate completion and outcome receipts."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "06",
+      "source_filename": "coverage-burst-completed-receipt.png",
+      "source_sha256": "380fbe98b411db73f231b2189197de40656f2c9b918e67aa13ec1811cbacfe6d",
+      "source_dimensions": [
+        1364,
+        1024
+      ],
+      "safe_filename": "06-burst-completed-safe.png",
+      "safe_sha256": "fe515b4218e48a3fad7d3af385b0d8a1f8746c7b867ffdf314c6f361c6918c1c",
+      "safe_dimensions": [
+        766,
+        235
+      ],
+      "crop_source_xyxy": [
+        450,
+        365,
+        1216,
+        600
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "9a6d3a1d35a51b45d0434952f63824746e395c240c417a64925adb6c0dd458ba",
+      "safe_decoded_rgb_sha256": "9a6d3a1d35a51b45d0434952f63824746e395c240c417a64925adb6c0dd458ba",
+      "verified_unchanged_pixels_outside_masks": 180010,
+      "source_unchanged": true,
+      "caption": "The receipt shows tiny_burst started at 2026-10-08T21:04:38.240349+00:00 and completed at 2026-10-08T21:04:38.502620+00:00.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "This is the bounded generator stage interval, not a Datadog capture-count guarantee or product latency measurement."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "07",
+      "source_filename": "coverage-terminal-cleanup.jpg",
+      "source_sha256": "0340294e517956487c7e0467d99e8105f42e5696c32017e20c334cccf7f79cbc",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "07-terminal-cleanup-safe.png",
+      "safe_sha256": "3613d058b9c4c03ba01014b4f8c5df7f683ece7f4b556c411c20465c83c1c512",
+      "safe_dimensions": [
+        765,
+        94
+      ],
+      "crop_source_xyxy": [
+        350,
+        605,
+        1115,
+        699
+      ],
+      "opaque_masks": [],
+      "source_crop_decoded_rgb_sha256": "3b1de6c33bee5af3be77da92711ad45813a13a6d05fcaa1295e4040d98f9bfce",
+      "safe_decoded_rgb_sha256": "3b1de6c33bee5af3be77da92711ad45813a13a6d05fcaa1295e4040d98f9bfce",
+      "verified_unchanged_pixels_outside_masks": 71910,
+      "source_unchanged": true,
+      "caption": "The completed cleanup step is expanded. It reads \"Stop any remaining job-owned runtime processes\", runs python coverage_runtime.py cleanup, and prints \"Owned coverage runtime cleanup completed.\"",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "This receipt covers the job-owned runtime cleanup step only; workflow success is not evidence that every test case passed.",
+        "The source image is coverage-terminal-cleanup.jpg. The corresponding UI transcript is coverage-terminal-cleanup-step.txt; no image named coverage-terminal-cleanup-step.jpg was present."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "08",
+      "source_filename": "coverage-post-terminal-unfiltered-inventory.jpg",
+      "source_sha256": "3adb2fb5151b5fe14d784a2793b73e96d602cd792a0def1c07970715a5118cce",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "08-post-terminal-inventory-safe.png",
+      "safe_sha256": "460ce09616eeb6790c2b425a80c2a2dc55d2462d9c6e3795744e5dec6e7fb894",
+      "safe_dimensions": [
+        980,
+        570
+      ],
+      "crop_source_xyxy": [
+        160,
+        170,
+        1140,
+        740
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            185,
+            385,
+            800,
+            455
+          ],
+          "output_xyxy": [
+            25,
+            215,
+            640,
+            285
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session, service, account, and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            185,
+            495,
+            810,
+            645
+          ],
+          "output_xyxy": [
+            25,
+            325,
+            650,
+            475
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session, service, account, and avatar identities"
+        },
+        {
+          "source_xyxy": [
+            185,
+            683,
+            800,
+            735
+          ],
+          "output_xyxy": [
+            25,
+            513,
+            640,
+            565
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private session, service, account, and avatar identities"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "550809f59053a6658fbf36486dff1982b82c7eba23e0a15820385eaa8322704f",
+      "safe_decoded_rgb_sha256": "8c79e669a80ccfcfdf2c1f8f7cb2eb4725581cccb9a4995f3ff0fa870c4a8eee",
+      "verified_unchanged_pixels_outside_masks": 389820,
+      "source_unchanged": true,
+      "caption": "The post-terminal Sessions List shows My sessions off, Services All, Environments All, Created All time, and an empty session-title search. The counters are All 7, Active 0, Inactive 7. Three visible session cards are marked INACTIVE. Private session, service, account, and avatar identities are masked.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "This is the observed unfiltered inventory at 2026-10-08T21:28:36.754Z, not a continuous monitoring result.",
+        "Only three of the seven inactive session cards are visible; the seven-session total comes from the displayed counters.",
+        "Inactive sessions alone do not prove runtime cleanup; use the separate cleanup receipt."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "09",
+      "source_filename": "coverage-repaired-invalid-sha-editor-selected.jpg",
+      "source_sha256": "a072983364bf1f335c30fb98e12af6e00f7cff11100a94d5aa9ec52d8ca77cd1",
+      "source_dimensions": [
+        1180,
+        757
+      ],
+      "safe_filename": "09-repaired-editor-selected-safe.png",
+      "safe_sha256": "a3e9a9c6d9f1b764c26090172682c467d9ffe47627ac94c8a192767d4c701174",
+      "safe_dimensions": [
+        1020,
+        538
+      ],
+      "crop_source_xyxy": [
+        160,
+        172,
+        1180,
+        710
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            168,
+            221,
+            452,
+            254
+          ],
+          "output_xyxy": [
+            8,
+            49,
+            292,
+            82
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        },
+        {
+          "source_xyxy": [
+            168,
+            316,
+            452,
+            349
+          ],
+          "output_xyxy": [
+            8,
+            144,
+            292,
+            177
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private service/runtime identity"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "25e8fd31077a47a18d1496ef5a42e229ac694d2f939129f15098fe82387c1afe",
+      "safe_decoded_rgb_sha256": "a8df28fae699d897baea101f8ada898e3fddd2e221ca5a9dc460696d8e5660e0",
+      "verified_unchanged_pixels_outside_masks": 530016,
+      "source_unchanged": true,
+      "caption": "After repair and an explicit editor selection, the visible pricing.py main editor displays line 17 source and the shared SOURCE_C1 quantity={quantity} total={total_cents} definition. The selected control is EXPIRED with 0 Instances. The event list includes a SOURCE_INVALID_SHA quantity=2 total=2400 row, alongside other source controls.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "This later explicit selection demonstrates that the editor can show the shared C1 definition. It does not prove automatic whole-editor recovery after repair.",
+        "Main-editor content, event-list messages, and a selected event-specific source frame are distinct evidence surfaces.",
+        "Displayed event-list timestamps are UI values, not independent SDK snapshot execution timestamps."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "10",
+      "source_filename": "coverage-complex-cycle-four-levels.jpg",
+      "source_sha256": "5195d47a193e0af3d0da39a1eeab2f470082e2f48d964f03e54daa98a511352b",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "10-complex-cycle-expansion-safe.png",
+      "safe_sha256": "859df3faf834eaa66a9ccb7e09b527f1c08090f61c602480036c02e1f55ffce3",
+      "safe_dimensions": [
+        589,
+        598
+      ],
+      "crop_source_xyxy": [
+        531,
+        52,
+        1120,
+        650
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            589,
+            594,
+            949,
+            621
+          ],
+          "output_xyxy": [
+            58,
+            542,
+            418,
+            569
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path in stack frame"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "64a7c987951d52da3eab3fb71e38c189bf39e870d289427f8376c72e3d7a1b4b",
+      "safe_decoded_rgb_sha256": "498deabd30be5acdb8b81c098ed183a32ebb16ec0b611edee011510f4a97512a",
+      "verified_unchanged_pixels_outside_masks": 342502,
+      "source_unchanged": true,
+      "caption": "The retained complex-value tree shows a nested dictionary cycle with label synthetic-cycle, number 73, and self entries, plus empty_list size 0 and empty_map size 0. The recorded UI inspection reached four self expansions at 21:37:30.937 UTC and then collapsed the cycle at 21:37:41.556 UTC.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "This scrolled still shows only part of the expanded tree. Four-level traversal and subsequent collapse come from the corresponding recorded UI text.",
+        "The bounded interaction remained responsive; no termination bound, maximum cycle depth, full graph traversal, or SDK truncation behavior is proved."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    },
+    {
+      "id": "11",
+      "source_filename": "coverage-complex-search-leaf.jpg",
+      "source_sha256": "4ec15a3d78214db01c7494cd2117c681f6022cd1ba79a51a69376df51af3b076",
+      "source_dimensions": [
+        1165,
+        747
+      ],
+      "safe_filename": "11-complex-leaf-search-safe.png",
+      "safe_sha256": "1508716b5f664ae0f1b0be5537cb480d7f488ff333ad1e4a02fdb3dec84427e1",
+      "safe_dimensions": [
+        589,
+        635
+      ],
+      "crop_source_xyxy": [
+        531,
+        80,
+        1120,
+        715
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            590,
+            124,
+            974,
+            150
+          ],
+          "output_xyxy": [
+            59,
+            44,
+            443,
+            70
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ],
+          "reason": "private repository path in stack frame"
+        }
+      ],
+      "source_crop_decoded_rgb_sha256": "bc156d5d64a943e2f3758af586d5c8ade121890b109bddf85ebd754723b4b181",
+      "safe_decoded_rgb_sha256": "b96b4889e6f6f5563e2626315aed949ab1e714472564aa42be02110132646c84",
+      "verified_unchanged_pixels_outside_masks": 364031,
+      "source_unchanged": true,
+      "caption": "The complex-value panel search contains leaf and shows match 1/5. The nested left branch is expanded to leaf with value 11. The right branch is visible as a dictionary of size 1, but its leaf value is below this crop.",
+      "visible_evidence_limits": [
+        "Direct screenshot only; not continuous foreground-video evidence.",
+        "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+        "Captions distinguish visible screenshot content from separately recorded facts.",
+        "This screenshot establishes the visible left leaf and search state only, not all five search matches or the right leaf value."
+      ],
+      "evidence_medium": "Direct screenshot; no continuous-video claim"
+    }
+  ],
+  "safe_derived_outcomes_file": "safe-outcomes.json",
+  "public_file_allowlist": [
+    "01-bounded-burst-outcome-safe.png",
+    "01-caption.txt",
+    "01-provenance.json",
+    "02-agent-stop-restore-start-safe.png",
+    "02-caption.txt",
+    "02-provenance.json",
+    "03-agent-restored-safe.png",
+    "03-caption.txt",
+    "03-provenance.json",
+    "04-caption.txt",
+    "04-provenance.json",
+    "04-repair-restart-stages-safe.png",
+    "05-burst-start-safe.png",
+    "05-caption.txt",
+    "05-provenance.json",
+    "06-burst-completed-safe.png",
+    "06-caption.txt",
+    "06-provenance.json",
+    "07-caption.txt",
+    "07-provenance.json",
+    "07-terminal-cleanup-safe.png",
+    "08-caption.txt",
+    "08-post-terminal-inventory-safe.png",
+    "08-provenance.json",
+    "09-caption.txt",
+    "09-provenance.json",
+    "09-repaired-editor-selected-safe.png",
+    "10-caption.txt",
+    "10-complex-cycle-expansion-safe.png",
+    "10-provenance.json",
+    "11-caption.txt",
+    "11-complex-leaf-search-safe.png",
+    "11-provenance.json",
+    "ALLOWLIST.txt",
+    "README.txt",
+    "SHA256SUMS",
+    "manifest.json",
+    "safe-outcomes.json"
+  ],
+  "quality_assurance": {
+    "visual_inspection": "All 11 sanitized outputs were viewed at their native geometry and checked for private identifiers, legibility, and crop/mask boundaries. The two refined masks were re-inspected after rebuilding.",
+    "ocr": "Tesseract output for every sanitized image was reviewed. Known account/repository/host/runtime/run/job identifiers, UUID/correlation patterns, URLs, and email patterns were absent. OCR is auxiliary and is not an exact transcription of the screenshots.",
+    "caption_review": "Visible states, separate UI observations, and SDK timestamps are distinguished. No new product finding or capture-count guarantee is claimed.",
+    "exact_pixel_preservation_verified": true,
+    "unmasked_pixels_verified": 3079377,
+    "original_image_hashes_rechecked": 11,
+    "safe_outcome_source_hashes_rechecked": 10,
+    "frozen": true,
+    "publication_status": "Prepared locally only. No browser access or external publication."
+  }
+}

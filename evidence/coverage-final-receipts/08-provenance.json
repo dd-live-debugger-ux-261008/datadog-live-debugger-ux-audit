@@ -1,0 +1,97 @@
+{
+  "id": "08",
+  "source_filename": "coverage-post-terminal-unfiltered-inventory.jpg",
+  "source_sha256": "3adb2fb5151b5fe14d784a2793b73e96d602cd792a0def1c07970715a5118cce",
+  "source_dimensions": [
+    1165,
+    747
+  ],
+  "safe_filename": "08-post-terminal-inventory-safe.png",
+  "safe_sha256": "460ce09616eeb6790c2b425a80c2a2dc55d2462d9c6e3795744e5dec6e7fb894",
+  "safe_dimensions": [
+    980,
+    570
+  ],
+  "crop_source_xyxy": [
+    160,
+    170,
+    1140,
+    740
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        185,
+        385,
+        800,
+        455
+      ],
+      "output_xyxy": [
+        25,
+        215,
+        640,
+        285
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session, service, account, and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        185,
+        495,
+        810,
+        645
+      ],
+      "output_xyxy": [
+        25,
+        325,
+        650,
+        475
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session, service, account, and avatar identities"
+    },
+    {
+      "source_xyxy": [
+        185,
+        683,
+        800,
+        735
+      ],
+      "output_xyxy": [
+        25,
+        513,
+        640,
+        565
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ],
+      "reason": "private session, service, account, and avatar identities"
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "550809f59053a6658fbf36486dff1982b82c7eba23e0a15820385eaa8322704f",
+  "safe_decoded_rgb_sha256": "8c79e669a80ccfcfdf2c1f8f7cb2eb4725581cccb9a4995f3ff0fa870c4a8eee",
+  "verified_unchanged_pixels_outside_masks": 389820,
+  "source_unchanged": true,
+  "caption": "The post-terminal Sessions List shows My sessions off, Services All, Environments All, Created All time, and an empty session-title search. The counters are All 7, Active 0, Inactive 7. Three visible session cards are marked INACTIVE. Private session, service, account, and avatar identities are masked.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "This is the observed unfiltered inventory at 2026-10-08T21:28:36.754Z, not a continuous monitoring result.",
+    "Only three of the seven inactive session cards are visible; the seven-session total comes from the displayed counters.",
+    "Inactive sessions alone do not prove runtime cleanup; use the separate cleanup receipt."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

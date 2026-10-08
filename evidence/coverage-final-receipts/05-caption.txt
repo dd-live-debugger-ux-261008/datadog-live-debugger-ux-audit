@@ -1,0 +1,7 @@
+The receipt shows restore_agent completed at 2026-10-08T20:50:43.473731+00:00, followed by tiny_burst started at 2026-10-08T21:04:38.240349+00:00.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- Burst completion and request totals are established by the separate completion and outcome receipts.

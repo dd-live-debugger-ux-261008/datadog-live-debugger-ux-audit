@@ -1,0 +1,9 @@
+After repair and an explicit editor selection, the visible pricing.py main editor displays line 17 source and the shared SOURCE_C1 quantity={quantity} total={total_cents} definition. The selected control is EXPIRED with 0 Instances. The event list includes a SOURCE_INVALID_SHA quantity=2 total=2400 row, alongside other source controls.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- This later explicit selection demonstrates that the editor can show the shared C1 definition. It does not prove automatic whole-editor recovery after repair.
+- Main-editor content, event-list messages, and a selected event-specific source frame are distinct evidence surfaces.
+- Displayed event-list timestamps are UI values, not independent SDK snapshot execution timestamps.

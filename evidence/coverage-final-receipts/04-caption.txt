@@ -1,0 +1,8 @@
+The retained stage receipt shows repair_metadata from 2026-10-08T20:19:39.089314+00:00 to 20:19:47.215409+00:00, then restart_fixture from 20:34:39.165902+00:00 to 20:34:40.568984+00:00. The next visible entry identifies stop_agent at 20:49:39.279613+00:00; its state field falls below this crop.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- Stage completion is not proof that every product behavior under test passed.
+- The complete safe stage-time JSON records stop_agent as started at the latter timestamp.

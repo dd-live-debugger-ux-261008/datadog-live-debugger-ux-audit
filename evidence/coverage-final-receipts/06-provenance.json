@@ -1,0 +1,34 @@
+{
+  "id": "06",
+  "source_filename": "coverage-burst-completed-receipt.png",
+  "source_sha256": "380fbe98b411db73f231b2189197de40656f2c9b918e67aa13ec1811cbacfe6d",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "06-burst-completed-safe.png",
+  "safe_sha256": "fe515b4218e48a3fad7d3af385b0d8a1f8746c7b867ffdf314c6f361c6918c1c",
+  "safe_dimensions": [
+    766,
+    235
+  ],
+  "crop_source_xyxy": [
+    450,
+    365,
+    1216,
+    600
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "9a6d3a1d35a51b45d0434952f63824746e395c240c417a64925adb6c0dd458ba",
+  "safe_decoded_rgb_sha256": "9a6d3a1d35a51b45d0434952f63824746e395c240c417a64925adb6c0dd458ba",
+  "verified_unchanged_pixels_outside_masks": 180010,
+  "source_unchanged": true,
+  "caption": "The receipt shows tiny_burst started at 2026-10-08T21:04:38.240349+00:00 and completed at 2026-10-08T21:04:38.502620+00:00.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "This is the bounded generator stage interval, not a Datadog capture-count guarantee or product latency measurement."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

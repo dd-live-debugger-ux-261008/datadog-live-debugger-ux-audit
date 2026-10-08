@@ -1,0 +1,34 @@
+{
+  "id": "05",
+  "source_filename": "coverage-burst-start-receipt.png",
+  "source_sha256": "888991915663f369a7f39f3ef970c4ac4bb8aa5286b2f9d7d76b6479f0dfb0f6",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "05-burst-start-safe.png",
+  "safe_sha256": "d716d71d8443110f3f1a42206e40a92419cdded458017cff08a9944ff373dd8d",
+  "safe_dimensions": [
+    766,
+    235
+  ],
+  "crop_source_xyxy": [
+    450,
+    365,
+    1216,
+    600
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "3206823c19697b7bbc7e66ee0298db1639aa3e9418c1579f022d35660157c52d",
+  "safe_decoded_rgb_sha256": "3206823c19697b7bbc7e66ee0298db1639aa3e9418c1579f022d35660157c52d",
+  "verified_unchanged_pixels_outside_masks": 180010,
+  "source_unchanged": true,
+  "caption": "The receipt shows restore_agent completed at 2026-10-08T20:50:43.473731+00:00, followed by tiny_burst started at 2026-10-08T21:04:38.240349+00:00.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "Burst completion and request totals are established by the separate completion and outcome receipts."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

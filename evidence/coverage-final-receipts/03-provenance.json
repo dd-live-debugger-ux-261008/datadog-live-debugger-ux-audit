@@ -1,0 +1,35 @@
+{
+  "id": "03",
+  "source_filename": "coverage-agent-restored-receipt.png",
+  "source_sha256": "9035f6c3d2b51016617506c5ec7b01a06b347b2293512846fe8cd67e36d5b5b5",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "03-agent-restored-safe.png",
+  "safe_sha256": "bb58c262550892b6e1607ed1efd9bfb0cd5af9231b8da8acd9bce20d422378be",
+  "safe_dimensions": [
+    766,
+    235
+  ],
+  "crop_source_xyxy": [
+    450,
+    365,
+    1216,
+    600
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "b10b720a0b34e686070020efcfb5da7d1f4126ca9f8e8adbfe8652a7bbe749f8",
+  "safe_decoded_rgb_sha256": "b10b720a0b34e686070020efcfb5da7d1f4126ca9f8e8adbfe8652a7bbe749f8",
+  "verified_unchanged_pixels_outside_masks": 180010,
+  "source_unchanged": true,
+  "caption": "The stage receipt shows restore_agent started at 2026-10-08T20:50:40.905469+00:00 and completed at 2026-10-08T20:50:43.473731+00:00.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "The separately inspected post-recovery SDK snapshot timestamp is 1791492681893 ms, or 2026-10-08T20:51:21.893Z, after actual restore completion. The payload is not pictured in this receipt.",
+    "No exact resumed-capture latency or complete capture-count claim follows from this still."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

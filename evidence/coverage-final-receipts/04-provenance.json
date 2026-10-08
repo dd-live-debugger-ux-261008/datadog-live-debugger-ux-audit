@@ -1,0 +1,35 @@
+{
+  "id": "04",
+  "source_filename": "coverage-repair-fixture-agent-stages-receipt.png",
+  "source_sha256": "6e547ce69bd3e8cf003df474213710b7f24b011477dc169f45ff2a221ec0ff80",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "04-repair-restart-stages-safe.png",
+  "safe_sha256": "573a0298207ae6c5bd6d5a064e2aa542f9ba7d58ebbe46462457d8a7a2afccad",
+  "safe_dimensions": [
+    766,
+    560
+  ],
+  "crop_source_xyxy": [
+    450,
+    365,
+    1216,
+    925
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "66a385dbd4f69d2f5298368cf51944ae7e9ec4dd97f67b05d00cd65b042e7cd4",
+  "safe_decoded_rgb_sha256": "66a385dbd4f69d2f5298368cf51944ae7e9ec4dd97f67b05d00cd65b042e7cd4",
+  "verified_unchanged_pixels_outside_masks": 428960,
+  "source_unchanged": true,
+  "caption": "The retained stage receipt shows repair_metadata from 2026-10-08T20:19:39.089314+00:00 to 20:19:47.215409+00:00, then restart_fixture from 20:34:39.165902+00:00 to 20:34:40.568984+00:00. The next visible entry identifies stop_agent at 20:49:39.279613+00:00; its state field falls below this crop.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "Stage completion is not proof that every product behavior under test passed.",
+    "The complete safe stage-time JSON records stop_agent as started at the latter timestamp."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}

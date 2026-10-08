@@ -1,0 +1,8 @@
+The stage receipt shows restore_agent started at 2026-10-08T20:50:40.905469+00:00 and completed at 2026-10-08T20:50:43.473731+00:00.
+
+Limits:
+- Direct screenshot only; not continuous foreground-video evidence.
+- Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.
+- Captions distinguish visible screenshot content from separately recorded facts.
+- The separately inspected post-recovery SDK snapshot timestamp is 1791492681893 ms, or 2026-10-08T20:51:21.893Z, after actual restore completion. The payload is not pictured in this receipt.
+- No exact resumed-capture latency or complete capture-count claim follows from this still.

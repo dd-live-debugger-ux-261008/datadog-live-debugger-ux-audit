@@ -1,0 +1,34 @@
+{
+  "id": "01",
+  "source_filename": "coverage-bounded-burst-actual-receipt.png",
+  "source_sha256": "ebbb258cc57bf94d1cd2ac2585de23a58d83ce0e5a820304be9c0dd0ee15919c",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "01-bounded-burst-outcome-safe.png",
+  "safe_sha256": "742fdf3addcec84de3c1466b3cc4754f866f0e5f1220cbb11dbb8e511fabf185",
+  "safe_dimensions": [
+    766,
+    239
+  ],
+  "crop_source_xyxy": [
+    450,
+    405,
+    1216,
+    644
+  ],
+  "opaque_masks": [],
+  "source_crop_decoded_rgb_sha256": "72ffc3d32e9bf535f579e5678af78b66c6a12621fd1d6d4cdce5ad491866cd2c",
+  "safe_decoded_rgb_sha256": "72ffc3d32e9bf535f579e5678af78b66c6a12621fd1d6d4cdce5ad491866cd2c",
+  "verified_unchanged_pixels_outside_masks": 183074,
+  "source_unchanged": true,
+  "caption": "The displayed bounded_burst receipt reports 9 data requests attempted, 9 succeeded, elapsed_seconds 0.26, health_before true, health_after true, maximum_data_requests 9, and capture_rate_or_count_not_asserted true. It also says the burst was not skipped for failed initial health.",
+  "visible_evidence_limits": [
+    "Direct screenshot only; not continuous foreground-video evidence.",
+    "Crops and solid opaque masks remove private identities; no scaling, blur, annotation, or reconstructed UI.",
+    "Captions distinguish visible screenshot content from separately recorded facts.",
+    "These are generator request/health results, not a Datadog capture count, sampling rate, completeness guarantee, load test, or latency guarantee."
+  ],
+  "evidence_medium": "Direct screenshot; no continuous-video claim"
+}
