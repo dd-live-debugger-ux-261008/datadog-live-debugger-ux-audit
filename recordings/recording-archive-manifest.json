@@ -1,0 +1,1634 @@
+{
+  "version": 1,
+  "date_utc": "2026-10-08",
+  "archive_scope": "This archive covers sources 01\u201306 through 2026-10-08 04:35:24 UTC only (exact final endpoint 04:35:24.05 UTC). Sources 01\u201303 retain sanitized full durations; sources 04\u201305 contain retained continuous UI sections; source 06 is entirely withheld. Source 07 and later evidence from the continuation approved at 04:45 UTC are not yet included. All counts, captions and findings describe only this historical footage. Original raw files are not public.",
+  "time_convention": "Seconds from raw source start, half-open intervals [start,end). UTC is reconstructed from recorder start. Outputs play at original speed,20fps, no audio.",
+  "source_total_seconds": 3872.65,
+  "retained_total_seconds": 2023.35,
+  "omitted_total_seconds": 1849.3,
+  "sources": [
+    {
+      "source_file": "public-onboarding-raw.mkv",
+      "duration_seconds": 393.7,
+      "bytes": 11500803,
+      "sha256": "3865e27b47c0b6e349e76b37753e7411131c87f9f52034a15168143ae1080d1c",
+      "width": 1364,
+      "height": 1024,
+      "frame_rate": "20/1",
+      "has_audio": false,
+      "id": "01",
+      "utc_start": "2026-10-08T02:14:27+00:00",
+      "utc_end": "2026-10-08T02:21:00.700000+00:00",
+      "retained": [
+        {
+          "source_start_seconds": 0,
+          "source_end_seconds": 393.7,
+          "utc_start": "2026-10-08T02:14:27+00:00",
+          "utc_end": "2026-10-08T02:21:00.700000+00:00",
+          "output_file": "source-01-sanitized-full-duration.mp4",
+          "output_start_seconds": 0,
+          "output_end_seconds": 393.7,
+          "crop_xywh": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "description": "Public signup and documentation"
+        }
+      ],
+      "omitted": [],
+      "redactions": [
+        {
+          "start": 0,
+          "end": 19,
+          "source_rect": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "label": "Native terminal and tooling interval redacted",
+          "font_size": 18,
+          "output_rect": [
+            0,
+            0,
+            1164,
+            728
+          ],
+          "utc_start": "2026-10-08T02:14:27+00:00",
+          "utc_end": "2026-10-08T02:14:46+00:00"
+        },
+        {
+          "start": 149,
+          "end": 169,
+          "source_rect": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "label": "Native terminal and tooling interval redacted",
+          "font_size": 18,
+          "output_rect": [
+            0,
+            0,
+            1164,
+            728
+          ],
+          "utc_start": "2026-10-08T02:16:56+00:00",
+          "utc_end": "2026-10-08T02:17:16+00:00"
+        },
+        {
+          "start": 380,
+          "end": 393.7,
+          "source_rect": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "label": "Native terminal and tooling interval redacted",
+          "font_size": 18,
+          "output_rect": [
+            0,
+            0,
+            1164,
+            728
+          ],
+          "utc_start": "2026-10-08T02:20:47+00:00",
+          "utc_end": "2026-10-08T02:21:00.700000+00:00"
+        },
+        {
+          "start": 106,
+          "end": 126,
+          "source_rect": [
+            340,
+            660,
+            650,
+            225
+          ],
+          "label": "Temporary inbox address redacted",
+          "font_size": 18,
+          "output_rect": [
+            248,
+            484,
+            650,
+            225
+          ],
+          "utc_start": "2026-10-08T02:16:13+00:00",
+          "utc_end": "2026-10-08T02:16:33+00:00"
+        },
+        {
+          "start": 186,
+          "end": 223,
+          "source_rect": [
+            438,
+            392,
+            480,
+            265
+          ],
+          "label": "Temporary signup identity redacted",
+          "font_size": 18,
+          "output_rect": [
+            346,
+            216,
+            480,
+            265
+          ],
+          "utc_start": "2026-10-08T02:17:33+00:00",
+          "utc_end": "2026-10-08T02:18:10+00:00"
+        },
+        {
+          "start": 228,
+          "end": 284,
+          "source_rect": [
+            730,
+            425,
+            478,
+            337
+          ],
+          "label": "Temporary signup identity redacted",
+          "font_size": 18,
+          "output_rect": [
+            638,
+            249,
+            478,
+            337
+          ],
+          "utc_start": "2026-10-08T02:18:15+00:00",
+          "utc_end": "2026-10-08T02:19:11+00:00"
+        }
+      ],
+      "retained_seconds": 393.7,
+      "omitted_seconds": 0
+    },
+    {
+      "source_file": "onboarding-02-raw.mkv",
+      "duration_seconds": 116.05,
+      "bytes": 2725992,
+      "sha256": "2c589f8d5b15b0ce2d7370cc20d93f77e2e329124dd8fc695cc1ea375f94dccc",
+      "width": 1364,
+      "height": 1024,
+      "frame_rate": "20/1",
+      "has_audio": false,
+      "id": "02",
+      "utc_start": "2026-10-08T02:30:22+00:00",
+      "utc_end": "2026-10-08T02:32:18.050000+00:00",
+      "retained": [
+        {
+          "source_start_seconds": 0,
+          "source_end_seconds": 116.05,
+          "utc_start": "2026-10-08T02:30:22+00:00",
+          "utc_end": "2026-10-08T02:32:18.050000+00:00",
+          "output_file": "source-02-sanitized-full-duration.mp4",
+          "output_start_seconds": 0,
+          "output_end_seconds": 116.05,
+          "crop_xywh": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "description": "Google signup and onboarding arrival"
+        }
+      ],
+      "omitted": [],
+      "redactions": [
+        {
+          "start": 0,
+          "end": 12,
+          "source_rect": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "label": "Native terminal and tooling interval redacted",
+          "font_size": 18,
+          "output_rect": [
+            0,
+            0,
+            1164,
+            728
+          ],
+          "utc_start": "2026-10-08T02:30:22+00:00",
+          "utc_end": "2026-10-08T02:30:34+00:00"
+        },
+        {
+          "start": 10,
+          "end": 28,
+          "source_rect": [
+            600,
+            290,
+            510,
+            205
+          ],
+          "label": "Temporary account identity redacted",
+          "font_size": 18,
+          "output_rect": [
+            508,
+            114,
+            510,
+            205
+          ],
+          "utc_start": "2026-10-08T02:30:32+00:00",
+          "utc_end": "2026-10-08T02:30:50+00:00"
+        },
+        {
+          "start": 10,
+          "end": 28,
+          "source_rect": [
+            1195,
+            180,
+            61,
+            62
+          ],
+          "label": "ID",
+          "font_size": 14,
+          "output_rect": [
+            1103,
+            4,
+            61,
+            62
+          ],
+          "utc_start": "2026-10-08T02:30:32+00:00",
+          "utc_end": "2026-10-08T02:30:50+00:00"
+        },
+        {
+          "start": 26,
+          "end": 65,
+          "source_rect": [
+            438,
+            389,
+            482,
+            123
+          ],
+          "label": "Temporary signup identity redacted",
+          "font_size": 18,
+          "output_rect": [
+            346,
+            213,
+            482,
+            123
+          ],
+          "utc_start": "2026-10-08T02:30:48+00:00",
+          "utc_end": "2026-10-08T02:31:27+00:00"
+        },
+        {
+          "start": 26,
+          "end": 28,
+          "source_rect": [
+            438,
+            389,
+            482,
+            267
+          ],
+          "label": "Temporary signup identity redacted",
+          "font_size": 18,
+          "output_rect": [
+            346,
+            213,
+            482,
+            267
+          ],
+          "utc_start": "2026-10-08T02:30:48+00:00",
+          "utc_end": "2026-10-08T02:30:50+00:00"
+        },
+        {
+          "start": 62,
+          "end": 81,
+          "source_rect": [
+            698,
+            430,
+            378,
+            82
+          ],
+          "label": "Temporary account identity redacted",
+          "font_size": 16,
+          "output_rect": [
+            606,
+            254,
+            378,
+            82
+          ],
+          "utc_start": "2026-10-08T02:31:24+00:00",
+          "utc_end": "2026-10-08T02:31:43+00:00"
+        },
+        {
+          "start": 78,
+          "end": 103,
+          "source_rect": [
+            292,
+            410,
+            353,
+            116
+          ],
+          "label": "Account email redacted",
+          "font_size": 17,
+          "output_rect": [
+            200,
+            234,
+            353,
+            116
+          ],
+          "utc_start": "2026-10-08T02:31:40+00:00",
+          "utc_end": "2026-10-08T02:32:05+00:00"
+        },
+        {
+          "start": 78,
+          "end": 103,
+          "source_rect": [
+            698,
+            392,
+            378,
+            150
+          ],
+          "label": "Temporary account identity redacted",
+          "font_size": 16,
+          "output_rect": [
+            606,
+            216,
+            378,
+            150
+          ],
+          "utc_start": "2026-10-08T02:31:40+00:00",
+          "utc_end": "2026-10-08T02:32:05+00:00"
+        }
+      ],
+      "retained_seconds": 116.05,
+      "omitted_seconds": 0
+    },
+    {
+      "source_file": "onboarding-03-raw.mkv",
+      "duration_seconds": 206.1,
+      "bytes": 4453587,
+      "sha256": "9225c439f5be3d00a2c10af8195f908a174a85b18e4346dc5aed2ab6764284a6",
+      "width": 1364,
+      "height": 1024,
+      "frame_rate": "20/1",
+      "has_audio": false,
+      "id": "03",
+      "utc_start": "2026-10-08T02:40:03+00:00",
+      "utc_end": "2026-10-08T02:43:29.100000+00:00",
+      "retained": [
+        {
+          "source_start_seconds": 0,
+          "source_end_seconds": 206.1,
+          "utc_start": "2026-10-08T02:40:03+00:00",
+          "utc_end": "2026-10-08T02:43:29.100000+00:00",
+          "output_file": "source-03-sanitized-full-duration.mp4",
+          "output_start_seconds": 0,
+          "output_end_seconds": 206.1,
+          "crop_xywh": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "description": "Repository setup - private fixture contents masked"
+        }
+      ],
+      "omitted": [],
+      "redactions": [
+        {
+          "start": 0,
+          "end": 30,
+          "source_rect": [
+            92,
+            176,
+            1164,
+            728
+          ],
+          "label": "Native terminal and account navigation redacted",
+          "font_size": 18,
+          "output_rect": [
+            0,
+            0,
+            1164,
+            728
+          ],
+          "utc_start": "2026-10-08T02:40:03+00:00",
+          "utc_end": "2026-10-08T02:40:33+00:00"
+        },
+        {
+          "start": 28,
+          "end": 206.1,
+          "source_rect": [
+            1196,
+            180,
+            60,
+            60
+          ],
+          "label": "ID",
+          "font_size": 14,
+          "output_rect": [
+            1104,
+            4,
+            60,
+            60
+          ],
+          "utc_start": "2026-10-08T02:40:31+00:00",
+          "utc_end": "2026-10-08T02:43:29.100000+00:00"
+        },
+        {
+          "start": 29,
+          "end": 53,
+          "source_rect": [
+            316,
+            408,
+            282,
+            58
+          ],
+          "label": "Account redacted",
+          "font_size": 17,
+          "output_rect": [
+            224,
+            232,
+            282,
+            58
+          ],
+          "utc_start": "2026-10-08T02:40:32+00:00",
+          "utc_end": "2026-10-08T02:40:56+00:00"
+        },
+        {
+          "start": 52,
+          "end": 74,
+          "source_rect": [
+            316,
+            214,
+            282,
+            62
+          ],
+          "label": "Account redacted",
+          "font_size": 17,
+          "output_rect": [
+            224,
+            38,
+            282,
+            62
+          ],
+          "utc_start": "2026-10-08T02:40:55+00:00",
+          "utc_end": "2026-10-08T02:41:17+00:00"
+        },
+        {
+          "start": 52,
+          "end": 54,
+          "source_rect": [
+            316,
+            214,
+            282,
+            252
+          ],
+          "label": "Account redacted",
+          "font_size": 17,
+          "output_rect": [
+            224,
+            38,
+            282,
+            252
+          ],
+          "utc_start": "2026-10-08T02:40:55+00:00",
+          "utc_end": "2026-10-08T02:40:57+00:00"
+        },
+        {
+          "start": 71,
+          "end": 120,
+          "source_rect": [
+            188,
+            176,
+            212,
+            62
+          ],
+          "label": "Account redacted",
+          "font_size": 16,
+          "output_rect": [
+            96,
+            0,
+            212,
+            62
+          ],
+          "utc_start": "2026-10-08T02:41:14+00:00",
+          "utc_end": "2026-10-08T02:42:03+00:00"
+        },
+        {
+          "start": 71,
+          "end": 120,
+          "source_rect": [
+            120,
+            286,
+            38,
+            48
+          ],
+          "label": "ID",
+          "font_size": 13,
+          "output_rect": [
+            28,
+            110,
+            38,
+            48
+          ],
+          "utc_start": "2026-10-08T02:41:14+00:00",
+          "utc_end": "2026-10-08T02:42:03+00:00"
+        },
+        {
+          "start": 71,
+          "end": 120,
+          "source_rect": [
+            124,
+            414,
+            247,
+            62
+          ],
+          "label": "Account redacted",
+          "font_size": 16,
+          "output_rect": [
+            32,
+            238,
+            247,
+            62
+          ],
+          "utc_start": "2026-10-08T02:41:14+00:00",
+          "utc_end": "2026-10-08T02:42:03+00:00"
+        },
+        {
+          "start": 118,
+          "end": 152,
+          "source_rect": [
+            316,
+            408,
+            722,
+            77
+          ],
+          "label": "Account and private fixture name redacted",
+          "font_size": 18,
+          "output_rect": [
+            224,
+            232,
+            722,
+            77
+          ],
+          "utc_start": "2026-10-08T02:42:01+00:00",
+          "utc_end": "2026-10-08T02:42:35+00:00"
+        },
+        {
+          "start": 118,
+          "end": 152,
+          "source_rect": [
+            316,
+            536,
+            722,
+            52
+          ],
+          "label": "Private fixture metadata redacted",
+          "font_size": 18,
+          "output_rect": [
+            224,
+            360,
+            722,
+            52
+          ],
+          "utc_start": "2026-10-08T02:42:01+00:00",
+          "utc_end": "2026-10-08T02:42:35+00:00"
+        },
+        {
+          "start": 150,
+          "end": 156,
+          "source_rect": [
+            316,
+            176,
+            722,
+            420
+          ],
+          "label": "Account and private fixture metadata redacted",
+          "font_size": 18,
+          "output_rect": [
+            224,
+            0,
+            722,
+            420
+          ],
+          "utc_start": "2026-10-08T02:42:33+00:00",
+          "utc_end": "2026-10-08T02:42:39+00:00"
+        },
+        {
+          "start": 153,
+          "end": 206.1,
+          "source_rect": [
+            188,
+            176,
+            442,
+            62
+          ],
+          "label": "Account and private fixture name redacted",
+          "font_size": 17,
+          "output_rect": [
+            96,
+            0,
+            442,
+            62
+          ],
+          "utc_start": "2026-10-08T02:42:36+00:00",
+          "utc_end": "2026-10-08T02:43:29.100000+00:00"
+        },
+        {
+          "start": 153,
+          "end": 206.1,
+          "source_rect": [
+            120,
+            286,
+            277,
+            48
+          ],
+          "label": "Private fixture name redacted",
+          "font_size": 16,
+          "output_rect": [
+            28,
+            110,
+            277,
+            48
+          ],
+          "utc_start": "2026-10-08T02:42:36+00:00",
+          "utc_end": "2026-10-08T02:43:29.100000+00:00"
+        },
+        {
+          "start": 153,
+          "end": 206.1,
+          "source_rect": [
+            120,
+            410,
+            800,
+            343
+          ],
+          "label": "Private fixture contents and identifiers redacted",
+          "font_size": 20,
+          "output_rect": [
+            28,
+            234,
+            800,
+            343
+          ],
+          "utc_start": "2026-10-08T02:42:36+00:00",
+          "utc_end": "2026-10-08T02:43:29.100000+00:00"
+        },
+        {
+          "start": 153,
+          "end": 206.1,
+          "source_rect": [
+            944,
+            402,
+            304,
+            112
+          ],
+          "label": "Private metadata redacted",
+          "font_size": 17,
+          "output_rect": [
+            852,
+            226,
+            304,
+            112
+          ],
+          "utc_start": "2026-10-08T02:42:36+00:00",
+          "utc_end": "2026-10-08T02:43:29.100000+00:00"
+        }
+      ],
+      "retained_seconds": 206.1,
+      "omitted_seconds": 0
+    },
+    {
+      "source_file": "onboarding-04-raw.mkv",
+      "duration_seconds": 2298.45,
+      "bytes": 49084494,
+      "sha256": "b3bfbd994fd978e65565a375c4e216cdabcc9af4d9b929d00915af86e2b58866",
+      "width": 1364,
+      "height": 1024,
+      "frame_rate": "20/1",
+      "has_audio": false,
+      "id": "04",
+      "utc_start": "2026-10-08T03:20:17+00:00",
+      "utc_end": "2026-10-08T03:58:35.450000+00:00",
+      "retained": [
+        {
+          "source_start_seconds": 60,
+          "source_end_seconds": 216.5,
+          "utc_start": "2026-10-08T03:21:17+00:00",
+          "utc_end": "2026-10-08T03:23:53.500000+00:00",
+          "title": "Empty-service entry, manual modal, and configuration",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 0,
+          "output_end_seconds": 156.5,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 221.3,
+          "source_end_seconds": 243.5,
+          "utc_start": "2026-10-08T03:23:58.300000+00:00",
+          "utc_end": "2026-10-08T03:24:20.500000+00:00",
+          "title": "Empty configuration and service/environment setup",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 156.5,
+          "output_end_seconds": 178.7,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 410.6,
+          "source_end_seconds": 451.5,
+          "utc_start": "2026-10-08T03:27:07.600000+00:00",
+          "utc_end": "2026-10-08T03:27:48.500000+00:00",
+          "title": "Source Code Integration connection explanation",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 178.7,
+          "output_end_seconds": 219.6,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 453.3,
+          "source_end_seconds": 454.4,
+          "utc_start": "2026-10-08T03:27:50.300000+00:00",
+          "utc_end": "2026-10-08T03:27:51.400000+00:00",
+          "title": "Return to integration explanation before GitHub",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 219.6,
+          "output_end_seconds": 220.7,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 767.2,
+          "source_end_seconds": 1282.7,
+          "utc_start": "2026-10-08T03:33:04.200000+00:00",
+          "utc_end": "2026-10-08T03:41:39.700000+00:00",
+          "title": "APM navigation, search, zoom, keyboard and history recovery",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 220.7,
+          "output_end_seconds": 736.2,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 1865.0,
+          "source_end_seconds": 2149.2,
+          "utc_start": "2026-10-08T03:51:22+00:00",
+          "utc_end": "2026-10-08T03:56:06.200000+00:00",
+          "title": "Sessions List first load and retained waiting interval",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 736.2,
+          "output_end_seconds": 1020.4,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 2173.5,
+          "source_end_seconds": 2199.05,
+          "utc_start": "2026-10-08T03:56:30.500000+00:00",
+          "utc_end": "2026-10-08T03:56:56.050000+00:00",
+          "title": "Owner, search and status filters; clear filter",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 1020.4,
+          "output_end_seconds": 1045.95,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 2200.5,
+          "source_end_seconds": 2214.9,
+          "utc_start": "2026-10-08T03:56:57.500000+00:00",
+          "utc_end": "2026-10-08T03:57:11.900000+00:00",
+          "title": "Empty service filter",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 1045.95,
+          "output_end_seconds": 1060.35,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 2215.45,
+          "source_end_seconds": 2224.4,
+          "utc_start": "2026-10-08T03:57:12.450000+00:00",
+          "utc_end": "2026-10-08T03:57:21.400000+00:00",
+          "title": "Sessions List reload and retained filters",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 1060.35,
+          "output_end_seconds": 1069.3,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 2231.35,
+          "source_end_seconds": 2272.3,
+          "utc_start": "2026-10-08T03:57:28.350000+00:00",
+          "utc_end": "2026-10-08T03:58:09.300000+00:00",
+          "title": "Created-date presets and custom calendar",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 1069.3,
+          "output_end_seconds": 1110.25,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 2273.8,
+          "source_end_seconds": 2295.85,
+          "utc_start": "2026-10-08T03:58:10.800000+00:00",
+          "utc_end": "2026-10-08T03:58:32.850000+00:00",
+          "title": "Custom date selection and empty results",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 1110.25,
+          "output_end_seconds": 1132.3,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        },
+        {
+          "source_start_seconds": 2297.35,
+          "source_end_seconds": 2298.45,
+          "utc_start": "2026-10-08T03:58:34.350000+00:00",
+          "utc_end": "2026-10-08T03:58:35.450000+00:00",
+          "title": "Final filter reset and configuration navigation",
+          "output_file": "source-04-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 1132.3,
+          "output_end_seconds": 1133.4,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        }
+      ],
+      "omitted": [
+        {
+          "source_start_seconds": 0,
+          "source_end_seconds": 60,
+          "reason": "Native recorder/terminal preparation and GitHub publishing administration; includes boundary padding.",
+          "utc_start": "2026-10-08T03:20:17+00:00",
+          "utc_end": "2026-10-08T03:21:17+00:00",
+          "duration_seconds": 60
+        },
+        {
+          "source_start_seconds": 216.5,
+          "source_end_seconds": 221.3,
+          "reason": "GitHub publishing tab interruption and boundary padding.",
+          "utc_start": "2026-10-08T03:23:53.500000+00:00",
+          "utc_end": "2026-10-08T03:23:58.300000+00:00",
+          "duration_seconds": 4.8
+        },
+        {
+          "source_start_seconds": 243.5,
+          "source_end_seconds": 410.6,
+          "reason": "Native diagnostics, report publishing and private-fixture upload administration; includes boundary padding.",
+          "utc_start": "2026-10-08T03:24:20.500000+00:00",
+          "utc_end": "2026-10-08T03:27:07.600000+00:00",
+          "duration_seconds": 167.1
+        },
+        {
+          "source_start_seconds": 451.5,
+          "source_end_seconds": 453.3,
+          "reason": "Brief GitHub fixture-upload tab interruption and boundary padding.",
+          "utc_start": "2026-10-08T03:27:48.500000+00:00",
+          "utc_end": "2026-10-08T03:27:50.300000+00:00",
+          "duration_seconds": 1.8
+        },
+        {
+          "source_start_seconds": 454.4,
+          "source_end_seconds": 767.2,
+          "reason": "GitHub installation authorization preview containing account/private-repository selectors, native diagnostics and personalized onboarding Home; no installation grant was submitted. Includes boundary padding.",
+          "utc_start": "2026-10-08T03:27:51.400000+00:00",
+          "utc_end": "2026-10-08T03:33:04.200000+00:00",
+          "duration_seconds": 312.8
+        },
+        {
+          "source_start_seconds": 1282.7,
+          "source_end_seconds": 1865.0,
+          "reason": "Report and screenshot publishing administration, verification and waiting; includes boundary padding.",
+          "utc_start": "2026-10-08T03:41:39.700000+00:00",
+          "utc_end": "2026-10-08T03:51:22+00:00",
+          "duration_seconds": 582.3
+        },
+        {
+          "source_start_seconds": 2149.2,
+          "source_end_seconds": 2173.5,
+          "reason": "Report publishing administration and boundary padding.",
+          "utc_start": "2026-10-08T03:56:06.200000+00:00",
+          "utc_end": "2026-10-08T03:56:30.500000+00:00",
+          "duration_seconds": 24.3
+        },
+        {
+          "source_start_seconds": 2199.05,
+          "source_end_seconds": 2200.5,
+          "reason": "GitHub report verification tab interruption and boundary padding.",
+          "utc_start": "2026-10-08T03:56:56.050000+00:00",
+          "utc_end": "2026-10-08T03:56:57.500000+00:00",
+          "duration_seconds": 1.45
+        },
+        {
+          "source_start_seconds": 2214.9,
+          "source_end_seconds": 2215.45,
+          "reason": "Brief GitHub report tab interruption and boundary padding.",
+          "utc_start": "2026-10-08T03:57:11.900000+00:00",
+          "utc_end": "2026-10-08T03:57:12.450000+00:00",
+          "duration_seconds": 0.55
+        },
+        {
+          "source_start_seconds": 2224.4,
+          "source_end_seconds": 2231.35,
+          "reason": "GitHub report and image verification, plus boundary padding.",
+          "utc_start": "2026-10-08T03:57:21.400000+00:00",
+          "utc_end": "2026-10-08T03:57:28.350000+00:00",
+          "duration_seconds": 6.95
+        },
+        {
+          "source_start_seconds": 2272.3,
+          "source_end_seconds": 2273.8,
+          "reason": "Brief GitHub report verification tab interruption and boundary padding.",
+          "utc_start": "2026-10-08T03:58:09.300000+00:00",
+          "utc_end": "2026-10-08T03:58:10.800000+00:00",
+          "duration_seconds": 1.5
+        },
+        {
+          "source_start_seconds": 2295.85,
+          "source_end_seconds": 2297.35,
+          "reason": "GitHub report verification tab interruption and boundary padding.",
+          "utc_start": "2026-10-08T03:58:32.850000+00:00",
+          "utc_end": "2026-10-08T03:58:34.350000+00:00",
+          "duration_seconds": 1.5
+        }
+      ],
+      "redactions": [
+        {
+          "source_start_seconds": 60,
+          "source_end_seconds": 216.5,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 221.3,
+          "source_end_seconds": 243.5,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 410.6,
+          "source_end_seconds": 451.5,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 453.3,
+          "source_end_seconds": 454.4,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 767.2,
+          "source_end_seconds": 1282.7,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 1865.0,
+          "source_end_seconds": 2149.2,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 2173.5,
+          "source_end_seconds": 2199.05,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 2200.5,
+          "source_end_seconds": 2214.9,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 2215.45,
+          "source_end_seconds": 2224.4,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 2231.35,
+          "source_end_seconds": 2272.3,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 2273.8,
+          "source_end_seconds": 2295.85,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 2297.35,
+          "source_end_seconds": 2298.45,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        },
+        {
+          "source_start_seconds": 998,
+          "source_end_seconds": 1034.8,
+          "source_rectangle_xywh": [
+            880,
+            204,
+            376,
+            728
+          ],
+          "method": "opaque labeled browser controls overlay"
+        },
+        {
+          "source_start_seconds": 1158,
+          "source_end_seconds": 1166,
+          "source_rectangle_xywh": [
+            880,
+            204,
+            376,
+            100
+          ],
+          "method": "opaque labeled browser zoom indicator overlay"
+        }
+      ],
+      "retained_seconds": 1133.4,
+      "omitted_seconds": 1165.05
+    },
+    {
+      "source_file": "onboarding-05-raw.mkv",
+      "duration_seconds": 775.3,
+      "bytes": 15759573,
+      "sha256": "48b517ff996057c5a9786532af6888d4c38772c5532cb393705873c03ffc5b82",
+      "width": 1364,
+      "height": 1024,
+      "frame_rate": "20/1",
+      "has_audio": false,
+      "id": "05",
+      "utc_start": "2026-10-08T03:59:03+00:00",
+      "utc_end": "2026-10-08T04:11:58.300000+00:00",
+      "retained": [
+        {
+          "source_start_seconds": 15.9,
+          "source_end_seconds": 190,
+          "utc_start": "2026-10-08T03:59:18.900000+00:00",
+          "utc_end": "2026-10-08T04:02:13+00:00",
+          "title": "Configuration, custom-installation permission preview, cancellation, and empty-modal recovery",
+          "output_file": "source-05-sanitized-continuous-sections.mp4",
+          "output_start_seconds": 0,
+          "output_end_seconds": 174.1,
+          "crop_xywh": [
+            92,
+            204,
+            1164,
+            728
+          ],
+          "redactions_source_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ]
+        }
+      ],
+      "omitted": [
+        {
+          "source_start_seconds": 0,
+          "source_end_seconds": 15.9,
+          "reason": "Native recorder preparation and GitHub report verification; includes boundary padding.",
+          "utc_start": "2026-10-08T03:59:03+00:00",
+          "utc_end": "2026-10-08T03:59:18.900000+00:00",
+          "duration_seconds": 15.9
+        },
+        {
+          "source_start_seconds": 190,
+          "source_end_seconds": 775.3,
+          "reason": "Idle Sessions List after the useful permission/modal checks; no additional product action was observed.",
+          "utc_start": "2026-10-08T04:02:13+00:00",
+          "utc_end": "2026-10-08T04:11:58.300000+00:00",
+          "duration_seconds": 585.3
+        }
+      ],
+      "redactions": [
+        {
+          "source_start_seconds": 15.9,
+          "source_end_seconds": 190,
+          "source_rectangles_xywh": [
+            [
+              92,
+              204,
+              294,
+              78
+            ],
+            [
+              92,
+              900,
+              1164,
+              32
+            ]
+          ],
+          "method": "opaque labeled account/header and browser-status/footer panels; adjacent UI hidden conservatively"
+        }
+      ],
+      "retained_seconds": 174.1,
+      "omitted_seconds": 601.2
+    },
+    {
+      "source_file": "onboarding-06-raw.mkv",
+      "duration_seconds": 83.05,
+      "bytes": 1074031,
+      "sha256": "5af9f2fb283c9a3447692f5717b39d1de0c5801474c7f9a6b13be9ec7755ad4e",
+      "width": 1364,
+      "height": 1024,
+      "frame_rate": "20/1",
+      "has_audio": false,
+      "id": "06",
+      "utc_start": "2026-10-08T04:34:01+00:00",
+      "utc_end": "2026-10-08T04:35:24.050000+00:00",
+      "retained": [],
+      "omitted": [
+        {
+          "source_start_seconds": 0,
+          "source_end_seconds": 83.05,
+          "reason": "Entire source is recorder/terminal and desktop preparation. The native browser window did not become available; the intended isolated signed-out check did not run. No product evidence is claimed.",
+          "utc_start": "2026-10-08T04:34:01+00:00",
+          "utc_end": "2026-10-08T04:35:24.050000+00:00",
+          "duration_seconds": 83.05
+        }
+      ],
+      "redactions": [],
+      "retained_seconds": 0,
+      "omitted_seconds": 83.05
+    }
+  ],
+  "outputs": [
+    {
+      "file": "source-01-sanitized-full-duration.mp4",
+      "duration_seconds": 393.7,
+      "bytes": 4132815,
+      "sha256": "7089481540641e4680c39d751c96109bec0919cab99aca2e832208cae5c589bf",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1164,
+          "height": 828,
+          "r_frame_rate": "20/1",
+          "nb_frames": "7874"
+        }
+      ]
+    },
+    {
+      "file": "source-02-sanitized-full-duration.mp4",
+      "duration_seconds": 116.05,
+      "bytes": 1058394,
+      "sha256": "55965209614688cd24bef35fd4a2ffa7bb8e911cb692dc69b6bbb12099cb93a2",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1164,
+          "height": 828,
+          "r_frame_rate": "20/1",
+          "nb_frames": "2321"
+        }
+      ]
+    },
+    {
+      "file": "source-03-sanitized-full-duration.mp4",
+      "duration_seconds": 206.1,
+      "bytes": 1832216,
+      "sha256": "b5a45afabd7555f302235ac6b1ea84f6882990b0cfd025450c5a8824b416f25e",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1164,
+          "height": 828,
+          "r_frame_rate": "20/1",
+          "nb_frames": "4122"
+        }
+      ]
+    },
+    {
+      "file": "source-04-sanitized-continuous-sections.mp4",
+      "duration_seconds": 1133.4,
+      "bytes": 10628252,
+      "sha256": "e5e67470a92228f69869e32011362b2f142d4a9e24bf4ca06b5414b9213cbf92",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 900,
+          "r_frame_rate": "20/1",
+          "nb_frames": "22668"
+        }
+      ]
+    },
+    {
+      "file": "source-05-sanitized-continuous-sections.mp4",
+      "duration_seconds": 174.1,
+      "bytes": 2531567,
+      "sha256": "435fa12f8574894dd836f15bcb06ef7ffd5630175b0204ac52334ffb58fe0a00",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 900,
+          "r_frame_rate": "20/1",
+          "nb_frames": "3482"
+        }
+      ]
+    }
+  ],
+  "evidence_limits": [
+    "No service telemetry ingestion, live Debug Session, captured locals or populated-editor/source mapping test is demonstrated.",
+    "During the footage in this archive, the GitHub App had not yet been installed; the later approved continuation is separate. Permission screens shown here are previews, and the custom installation draft was canceled.",
+    "The capture restart gap around02:33UTC is screenshot-only; there is no reconstructed account-creation video.",
+    "Source06 contains no signed-out QA because browser/desktop preparation did not yield a browser window."
+  ],
+  "review": "Sources01-03 received dense transition redaction review and output OCR; sources04-05 received source overview, change-point scan, dense boundary inspection,654 output OCR frames and exact first/last frame checks. Fully opaque masks remove account/terminal/private-fixture pixels and may also obscure adjacent UI. Output files were decoded and metadata/frame counts checked.",
+  "coverage_start_utc": "2026-10-08T02:14:27+00:00",
+  "coverage_end_utc": "2026-10-08T04:35:24.050000+00:00",
+  "included_source_ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "later_continuation": "Source 07 and later evidence from the continuation approved at 04:45 UTC are separate and not yet included in this archive."
+}
