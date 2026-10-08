@@ -1,6 +1,6 @@
 # Datadog audit findings
 
-Overnight checkpoint. Updated 2026-10-08 04:23 UTC.
+Overnight checkpoint. Updated 2026-10-08 05:45 UTC.
 
 Part 1 covers brand-new Datadog/APM usability. Part 2 covers professional Live Debugger and Source Code Integration QA. Both use this shared index.
 
@@ -11,6 +11,7 @@ Part 1 covers brand-new Datadog/APM usability. Part 2 covers professional Live D
 | ID | Severity | Type | Part | Finding and online evidence |
 |---|---|---|---|---|
 | DOC01 | MEDIUM | Confirmed documentation bug | 2 | [Python quickstart uses an invalid module command](findings/DOC01-python-launch-command.md) |
+| SCI01 | MEDIUM | Scoped recovery issue | 2 | [Interrupted GitHub connection does not recover through Connect](findings/SCI01-interrupted-github-recovery.md) |
 | DOC02 | LOW | Confirmed layout bug | 1 | [Contents rail splits section names mid-word](findings/DOC02-documentation-navigation.md) |
 | UX01 | LOW | UX recommendation | 1 | [Permanent region choice needs decision support](findings/UX01-region-choice.md) |
 | UX02 | LOW | UX recommendation | 1 | [Empty service states do not explain setup recovery](findings/UX02-empty-state-recovery.md) |
@@ -25,6 +26,8 @@ There are currently **no confirmed HIGH-severity findings** in the evidence esta
 
 - [DOC01 Python quickstart uses an invalid module command](findings/DOC01-python-launch-command.md): the Python portion fails an isolated reproduction, while correct script/module forms pass. [Screenshot](evidence/annotated/DOC01-python-launch-command.png) · [Video](early-onboarding-excerpt.mp4), 00:58–01:20.
 
+- [SCI01 Interrupted GitHub connection does not recover through Connect](findings/SCI01-interrupted-github-recovery.md): installed and authorized A-only GitHub state remains unconnected in Datadog after an interrupted flow and fresh-context retry. No source workaround verified.
+
 ## Low severity
 
 - [DOC02 Contents rail splits section names mid-word](findings/DOC02-documentation-navigation.md): observed at default desktop zoom in two scroll positions. [Screenshot](evidence/annotated/DOC02-documentation-navigation.png) · [Video](early-onboarding-excerpt.mp4), 00:34–00:58.
@@ -35,7 +38,7 @@ There are currently **no confirmed HIGH-severity findings** in the evidence esta
 ## Severity rubric and evidence types
 
 - HIGH: core task blocked or significant incorrect behavior with no reasonable workaround.
-- MEDIUM: material task failure or misleading behavior with a practical workaround.
+- MEDIUM: material task failure or misleading behavior with bounded demonstrated impact.
 - LOW: localized readability, discoverability, or friction without demonstrated task failure.
 
 Confirmed bugs have direct evidence. UX recommendations describe an improved experience. Hypotheses remain unverified. Environment and setup limits constrain coverage and are not automatically product findings. Test priority P0/P1/P2 is separate from defect severity.
@@ -46,4 +49,4 @@ Fresh test accounts reached authenticated welcome/home states. Local fixture tes
 
 No successful Datadog variable capture, exact deployed-source match, repository authorization boundary, or expiry result is claimed by this checkpoint. Runtime readiness and service-process availability alone do not establish ingestion.
 
-The [QA matrix](QA_MATRIX.md) accounts for all 63 planned cases. 63 cases accounted for: 2 scoped PASS, 2 FINDING, and 59 BLOCKED. [Evidence and recording scope](EVIDENCE.md) distinguish actual UI observations, local reproductions and unexecuted runtime/source cases. Runtime telemetry and the A-only official GitHub App installation await explicit approval. The audit remains resumable.
+63 original cases: 2 scoped PASS, 3 FINDING and 58 BLOCKED. [Full case outcomes](QA_MATRIX.md) and [supplemental executed checks](EXECUTED_CHECKS.md) preserve exact scope. Initial runtime/App-install approvals were received; runtime is now stopped at an additional-destination boundary, and source association is an observed interrupted-flow recovery issue. No capture, exact source mapping, repository-boundary or lifecycle result is established.

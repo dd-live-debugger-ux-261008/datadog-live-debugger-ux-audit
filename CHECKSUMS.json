@@ -1,43 +1,44 @@
 {
-  "checkpoint_utc": "2026-10-08T04:23:00Z",
+  "checkpoint_utc": "2026-10-08T05:45:00Z",
   "original_cases": 63,
   "status_counts": {
     "PASS": 2,
-    "FINDING": 2,
-    "BLOCKED": 59
+    "FINDING": 3,
+    "BLOCKED": 58
   },
+  "supplemental_checks": 25,
   "finding_counts": {
     "HIGH": 0,
-    "MEDIUM": 1,
+    "MEDIUM": 2,
     "LOW": 3
   },
-  "document_pages": 21,
-  "video_archive_status": "Reviewed excerpts available; complete privacy-safe archive pending",
+  "document_pages": 23,
+  "video_scope": "Sources01\u201308 accounted; eight retained archive MP4s plus four overlapping highlight MP4s; sources06/08 wholly withheld tooling preparation",
   "files": [
     {
       "name": "EVIDENCE.md",
-      "bytes": 8048,
-      "sha256": "52c32011e2cb13e51c7075ace0b0c73115a427c229f5c5209a99fbb9884c10dc"
+      "bytes": 15777,
+      "sha256": "310163e292d79711de8de0843efa7db0ccd2eeebff3c21cfaf8c2cf0d9c3b568"
     },
     {
       "name": "EXECUTED_CHECKS.md",
-      "bytes": 3566,
-      "sha256": "9d2ac0bb5a7188d210a3d8c9c5aadf192a914990f01c04c75883e236deedf975"
+      "bytes": 6095,
+      "sha256": "ed16dce1ca9fbb4e0cd0104e31656f3b7eb8d9537cdf7ce535c666d6c316ed65"
     },
     {
       "name": "QA_MATRIX.md",
-      "bytes": 68871,
-      "sha256": "8886449fd7492b2f4b00d7762307bde0142958decd713569dc7f4207f76829fc"
+      "bytes": 75718,
+      "sha256": "61451129b7a9f9e7bb9a18e0a7d25ff99f51137596a242daccaeb2c81f1a96ba"
     },
     {
       "name": "README.md",
-      "bytes": 3234,
-      "sha256": "f9c17e7ce2bd822582552265bfbf60640b34a4487b4118818863769e605270b6"
+      "bytes": 3214,
+      "sha256": "32b1c5fc33e2d189b0683f68635d695bdfae2ddc8119bf82b88c3c9b23963f80"
     },
     {
       "name": "VIDEOS.md",
-      "bytes": 3003,
-      "sha256": "023d342b6b96202c9860d569291523f73dfc021d754bb89252e32ff5856551ac"
+      "bytes": 5201,
+      "sha256": "112b82c5df7ac6f715eae54fea7a20f11cda5c284012cf52b82ea1b9cf02f76d"
     },
     {
       "name": "account-setup-excerpt.mp4",
@@ -110,6 +111,81 @@
       "sha256": "76d9c686d95c2c97db31f49b76a84dc28cecdf0bfdacc147ca75d22d0bf7e28e"
     },
     {
+      "name": "evidence/30-github-return-empty-integration-public-annotated.png",
+      "bytes": 152633,
+      "sha256": "3fc1a038198e524cb8c1e8703eceacc1b123b491cbfaed0258fbb4384e674a9f"
+    },
+    {
+      "name": "evidence/30-github-return-empty-integration-public.png",
+      "bytes": 151879,
+      "sha256": "751e19f1183d5c91ecac21c6dbcf9240bac70021a12c93a4ca9f21875c5ca452"
+    },
+    {
+      "name": "evidence/32-github-installed-a-only-public.png",
+      "bytes": 122555,
+      "sha256": "72e7278a55d342ff67d1f3035983dd2c27d8ed2bed6564931bb61f47f54f889a"
+    },
+    {
+      "name": "evidence/33-service-all-environments-warning-public.png",
+      "bytes": 176381,
+      "sha256": "7f57c4ebea516ef2e4b61f2487573ea289879cdf5c255543ecf1ba2363407d76"
+    },
+    {
+      "name": "evidence/34-line-zero-validation-public.png",
+      "bytes": 192328,
+      "sha256": "8f4366461376ab3f3366ec2b945501bef63d65dd85a2f1aeb8ecd125b099fa61"
+    },
+    {
+      "name": "evidence/35-line-out-of-range-draft-public.png",
+      "bytes": 237504,
+      "sha256": "c8bb7b098593e035647b126c5f52535ba84043b98ef9641147f3855f0fae7c44"
+    },
+    {
+      "name": "evidence/36-source-unavailable-guidance-public.png",
+      "bytes": 270269,
+      "sha256": "d9d139668fe599a8753b20745ab99920d5d229e810a5f5f15b20bc1c9b0bbd93"
+    },
+    {
+      "name": "evidence/37-github-authorized-apps-public.png",
+      "bytes": 78428,
+      "sha256": "595a345ebe6bcf399a2f3a4b78ba8d222a9ce9140d07534f27dbdb2da666f146"
+    },
+    {
+      "name": "evidence/38-a-only-after-b-created-public.png",
+      "bytes": 142664,
+      "sha256": "fd408f359261462780844108eb16574625159a092b98d89de157617851e6635e"
+    },
+    {
+      "name": "evidence/40-unmatched-brace-actual-public.png",
+      "bytes": 233990,
+      "sha256": "7d18bc53249650515b85fb0dde31437aad58cfb9f102a6b39244d26fab950308"
+    },
+    {
+      "name": "evidence/41-valid-template-recovery-public.png",
+      "bytes": 248741,
+      "sha256": "6d5b07890aae6707b892181cc56b07164dc7d224641ee42d5713b1c9fa453d85"
+    },
+    {
+      "name": "evidence/44-plain-template-submit-result-public.png",
+      "bytes": 263563,
+      "sha256": "bfc0e0ab6a916d6539cf2596823a23c944c9aa1fd57ace11d65d604f1619c2bf"
+    },
+    {
+      "name": "evidence/46-settled-service-no-environments-public.png",
+      "bytes": 142044,
+      "sha256": "d36eba60504aa165d2736df64a4c6218fa08e551e970174b2ce88c7afeeca432"
+    },
+    {
+      "name": "evidence/47-invalid-template-after-blur-public.png",
+      "bytes": 269652,
+      "sha256": "8b593cc1d9d2cc1f57249a80c4c143a5ed88c715f9395b6bd1b2c8f9a967a89c"
+    },
+    {
+      "name": "evidence/48-python-function-draft-public.png",
+      "bytes": 220509,
+      "sha256": "e07316d1cf16bf43c75b550af80410a0574df8f858c203a7f6427341cb9068d9"
+    },
+    {
       "name": "evidence/annotated/DOC01-python-launch-command.png",
       "bytes": 496499,
       "sha256": "09f45fb8adbad5ab89ed76c7fefa1cd7aefcc89c89d9a8334b2c079556a8d7ad"
@@ -135,9 +211,24 @@
       "sha256": "7e6cdae25b17daf82f208cc82d1cb1200136fcb25d68228ebcbf11da1dc9cd33"
     },
     {
+      "name": "evidence/runtime-annotation-manifest.json",
+      "bytes": 1134,
+      "sha256": "0fd54aa2df173b86f501fc6d6206d41d0ab89fe4081b084e5dda4018eed9c932"
+    },
+    {
+      "name": "evidence/runtime-privacy-provenance.md",
+      "bytes": 12537,
+      "sha256": "3b7fc16bd2bd43999ea3da5eac0b8adfacd8fa3f938bf808ace37b5d737cfd2f"
+    },
+    {
+      "name": "evidence/submit-error-toast-public.png",
+      "bytes": 163965,
+      "sha256": "85a28ed6b199adb23a410d4a091359d561dbeeb24f77fd210b08c03887badcd3"
+    },
+    {
       "name": "execution-ledger.json",
-      "bytes": 83617,
-      "sha256": "e1e2b0993728717737b3d64871460a687d0b6553e04d9766ea9a8136f11574f8"
+      "bytes": 91096,
+      "sha256": "c88096dd68bdcc17a168f4b5c35207d61f4a22b5e5293fe084ad5e8f46109848"
     },
     {
       "name": "findings/DOC01-python-launch-command.md",
@@ -150,19 +241,24 @@
       "sha256": "63803bd51654c518a8f9b98817c670c247a3ecf5596dc82d784c815c33bcc4b2"
     },
     {
+      "name": "findings/SCI01-interrupted-github-recovery.md",
+      "bytes": 5111,
+      "sha256": "fb400c11c6698897fde9183e316e72fc9d6a2177d97107cc35fea3ef478ab3c3"
+    },
+    {
       "name": "findings/UX01-region-choice.md",
       "bytes": 1986,
       "sha256": "5d8b3bb40d39ee26172b49be605afa62a9d7c18e87e7686554dc0ebdb9f66d0a"
     },
     {
       "name": "findings/UX02-empty-state-recovery.md",
-      "bytes": 3959,
-      "sha256": "7501686637afbacf7e1509211506a0356215f51ed8f12c7c21035665d38cc362"
+      "bytes": 4926,
+      "sha256": "d2c16b674db4cb39eb6e90301abcc83be5d4e5cffcbe95a602fefb612fde87d0"
     },
     {
       "name": "findings.md",
-      "bytes": 4286,
-      "sha256": "1e065cf1bcb3d5fb5b8f7ce669dd4b68e8b0bd6a5f40e82d3f5c9a4c049aae2b"
+      "bytes": 4792,
+      "sha256": "ad2b771cc71972caef7ca44cc29ea9656429d1aacf82490d24f2d9409ca5e94e"
     },
     {
       "name": "glossary.md",
@@ -172,17 +268,107 @@
     {
       "name": "high-severity.md",
       "bytes": 831,
-      "sha256": "b89edfca7b5fe06f0f5f376c383faf57969656a58d168d61567e5313b27df3f8"
+      "sha256": "ae05914f7a933a521c4dc50675b652d8cad2c845467115a5f00d03e13ddc8a7b"
+    },
+    {
+      "name": "recordings/RECORDING_ARCHIVE.md",
+      "bytes": 14087,
+      "sha256": "62627f82251963cf20a97792ec5123413926f992eb00c31103162e2aaf3f0efc"
+    },
+    {
+      "name": "recordings/SHA256SUMS.txt",
+      "bytes": 717,
+      "sha256": "4d3bdfa157870ad122dac3fc91536f485fb9edd82b1848d1604345054a052f34"
+    },
+    {
+      "name": "recordings/continuation-07/CONTINUATION_RECORDING_ARCHIVE.md",
+      "bytes": 7472,
+      "sha256": "813c83b221ab04f8a49545b880e758cdf253e1314db423c0df4f9f94dbe733d3"
+    },
+    {
+      "name": "recordings/continuation-07/SHA256SUMS.txt",
+      "bytes": 497,
+      "sha256": "09a21228982414431c00ff75f3853b4e3498d7fd45f7f4bae58d2ac4f0c364ad"
+    },
+    {
+      "name": "recordings/continuation-07/continuation-recording-manifest.json",
+      "bytes": 15010,
+      "sha256": "09c95b619dc29df8e187d9f2061c15227193d0cc0fed391691a980ccf6d2402e"
+    },
+    {
+      "name": "recordings/continuation-07/highlights/CONTINUATION_HIGHLIGHTS.md",
+      "bytes": 4420,
+      "sha256": "1cf251a18323a532185c7bacdaa681e7b051354071801f71db4c0325cfca567b"
+    },
+    {
+      "name": "recordings/continuation-07/highlights/SHA256SUMS.txt",
+      "bytes": 305,
+      "sha256": "9fa21517d312d9424a7822a6aa67535832047941b45c93b07b7bc9bf7266f168"
+    },
+    {
+      "name": "recordings/continuation-07/highlights/approved-setup-continuation-highlights.mp4",
+      "bytes": 1530501,
+      "sha256": "3e7300ea7612e56143c34a8225ecfb59ef371caf609ff8eb2a83030fd3f124fc"
+    },
+    {
+      "name": "recordings/continuation-07/highlights/continuation-highlight-manifest.json",
+      "bytes": 17134,
+      "sha256": "0ae2b29b631c79e6e35ce2d22b80529d191e0852dbd3abacbba0d71b4962e33c"
+    },
+    {
+      "name": "recordings/continuation-07/source-07-part-01-sanitized.mp4",
+      "bytes": 3453367,
+      "sha256": "eb0548216ea7c87cc4b8d42507c9c65f521d7a26e6bd1f2223fe95d1cd598530"
+    },
+    {
+      "name": "recordings/continuation-07/source-07-part-02-sanitized.mp4",
+      "bytes": 3174858,
+      "sha256": "00f404093bbaac9927e381f1d15f862c30b917192cfe2454954440ef2415af7d"
+    },
+    {
+      "name": "recordings/continuation-07/source-07-part-03-sanitized.mp4",
+      "bytes": 2793875,
+      "sha256": "724e026e45b85a51863a3a289afd4d77024997f5c76cf65973109af41c94faef"
+    },
+    {
+      "name": "recordings/recording-archive-manifest.json",
+      "bytes": 45174,
+      "sha256": "f71493384c61c1720e01ffc2700011901783570a117f6f44afc6f232d4f42241"
+    },
+    {
+      "name": "recordings/source-01-sanitized-full-duration.mp4",
+      "bytes": 4132815,
+      "sha256": "7089481540641e4680c39d751c96109bec0919cab99aca2e832208cae5c589bf"
+    },
+    {
+      "name": "recordings/source-02-sanitized-full-duration.mp4",
+      "bytes": 1058394,
+      "sha256": "55965209614688cd24bef35fd4a2ffa7bb8e911cb692dc69b6bbb12099cb93a2"
+    },
+    {
+      "name": "recordings/source-03-sanitized-full-duration.mp4",
+      "bytes": 1832216,
+      "sha256": "b5a45afabd7555f302235ac6b1ea84f6882990b0cfd025450c5a8824b416f25e"
+    },
+    {
+      "name": "recordings/source-04-sanitized-continuous-sections.mp4",
+      "bytes": 10628252,
+      "sha256": "e5e67470a92228f69869e32011362b2f142d4a9e24bf4ca06b5414b9213cbf92"
+    },
+    {
+      "name": "recordings/source-05-sanitized-continuous-sections.mp4",
+      "bytes": 2531567,
+      "sha256": "435fa12f8574894dd836f15bcb06ef7ffd5630175b0204ac52334ffb58fe0a00"
     },
     {
       "name": "report.docx",
-      "bytes": 829068,
-      "sha256": "e6e81a33b294d43bc52b971fabd3b850a2f8d5b511d07bbc3a8a73f4099250e7"
+      "bytes": 979785,
+      "sha256": "b6b59fe0cd19569484d4b06d4ecfc3638cc0d4d73ee1b87c76ff61c705e1c58e"
     },
     {
       "name": "report.pdf",
-      "bytes": 836621,
-      "sha256": "abaa06d312fef1667092f0b1db9ab861136d93715d0ffc11874128910e4d5170"
+      "bytes": 916705,
+      "sha256": "5512fc9397a63bc9d53eaa5b3add8016bacb794601b465e666cd936ae368dbed"
     }
   ]
 }
