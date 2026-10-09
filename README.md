@@ -1,5 +1,7 @@
 # Datadog Live Debugger and Source Code Integration audit
 
+**Later UI-only evidence:** [Dated UI-only follow-up](UI_FOLLOWUP_2026-10-08.md) records zoom, draft-entry and retained-sort checks from 23:15:22–23:38:38 UTC. It preserves the frozen V12 documents, case verdicts and finding totals. No capture or runtime was started; final unfiltered inventory remained 7 / 0 / 7.
+
 V12 consolidated checkpoint: evidence frozen at **8 October 2026, 21:51:46.355 UTC**. The 63 original case definitions are preserved: **23 scoped PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED**. There are **10 distinct findings: 0 High, 4 Medium and 6 Low**. Seven unresolved topics remain outside the finding and severity totals. This is an evidence checkpoint, not release signoff.
 
 Live capture and exact source attribution work in the tested setup. This continuation adds actual same-target metadata repairs, concurrent C1/C2 execution, application restart, Agent interruption and a bounded nine-request burst. The new evidence strengthens coverage without adding a confirmed finding or completing every original case branch.
@@ -30,3 +32,5 @@ The bounded workflow was observed successful at **21:20:54 UTC**, with explicit 
 The grouped campaign has run. The [remaining plan](REMAINING_WORK.md) identifies the specific unfinished original branches and distinguishes them from fixture corrections, independent-identity requirements and approval gates. The production-labeled synthetic probe was never created; its capture still requires explicit approval.
 
 Sources **01–17**, including sources 16 and 17, now have reviewed archives and highlights. Source 15's long idle interval, source 16's foreground limits, source 17's crashes and recovery, and checks made after recording stopped are disclosed in the [catalog](VIDEOS.md). Screenshots use genuine crops, opaque privacy masks and disclosed outlines. No missing motion or UI transition has been reconstructed.
+
+The separately dated [UI-only addendum](UI_FOLLOWUP_2026-10-08.md) and [source 18 archive](recordings/continuation-18/CONTINUATION_RECORDING_ARCHIVE.md) extend the evidence after the frozen V12 documents. See the latest [video catalog](VIDEOS.md) for aggregate recording totals and exact omissions.

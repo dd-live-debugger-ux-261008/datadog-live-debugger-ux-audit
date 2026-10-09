@@ -1,6 +1,6 @@
 # Audit video catalog
 
-V12 catalog through **8 October 2026, 21:51:46.355 UTC**. Sources 01–17 are reconciled below: **729:50.65 recorded = 609:59.40 retained + 119:51.25 omitted**, in **57 archive MP4s**. Thirteen overlapping highlights total **47:14.40** and are not additional unique coverage. Source 15 includes a disclosed **122:40.00 unchanged idle interval**; retained duration is not continuous testing or all visible product evidence. Sources 06 and 08 remain wholly omitted tooling preparation. The [PDF](report.pdf) and [Word report](report.docx) are the consolidated **37-page V12** edition.
+Sources 01–18 have reviewed archives and highlights: **753:06.65 recorded = 632:55.25 retained + 120:11.40 omitted**, in **59 archive MP4s**. Fourteen overlapping highlights total **50:49.80**. Source 18 adds a separately dated UI-only follow-up after the frozen 37-page V12 documents; it changes no original case verdict or finding. Retained time includes disclosed idle intervals and source frame gaps and is not continuous active testing.
 
 GitHub may show a file page instead of an inline player. Use View raw or Download for MP4 playback.
 
@@ -188,3 +188,19 @@ The archive maps crashes, recovery periods, waits, privacy exclusions and foregr
 The **21:37–21:38 UTC** complex cycle/search follow-up and **21:51 UTC** rapid retained C1→C2→C1 loop occurred after source 17 stopped. They are [direct-still/recorded observations](evidence/rapid-navigation/safe-outcomes.json), not continuous video. The rapid action span was 1.487 seconds, while the final settled check at **21:51:46.355 UTC** restored exact C1 identity. Immediate frames retained prior content during transition; neither every-frame atomic consistency nor a 1.487-second settling time is asserted.
 
 Unicode source-path failure remains fixture-confounded, and full received long-string truncation flags and cycle/depth bounds remain unverified. The unsubmitted production-label draft yields no capture result. [Current evidence and limitations](EVIDENCE.md#coverage-phase-controls) · [Final runtime and capture inventory](EVIDENCE.md#final-runtime-and-capture-state).
+
+
+## Source 18: UI-only follow-up after V12
+
+Source 18 records **23:15:22–23:38:38 UTC** on 8 October 2026. It contains **23:16.00 recorded, 22:55.85 retained in two archive MP4s and 00:20.15 omitted**. The omissions cover recorder-terminal setup and short privacy-sensitive transitions. [Full timeline, crops, masks and omissions](recordings/continuation-18/CONTINUATION_RECORDING_ARCHIVE.md).
+
+- [Archive part 1](recordings/continuation-18/source-18-part-01-sanitized.mp4): 13:49.05
+- [Archive part 2](recordings/continuation-18/source-18-part-02-sanitized.mp4): 09:06.80
+- [Edited highlights](recordings/continuation-18/highlights/ui-only-controls-highlights.mp4): 03:35.40, with [exact chapters and source ranges](recordings/continuation-18/highlights/CONTINUATION_HIGHLIGHTS.md)
+- [Eight genuine stills, captions and provenance](evidence/ui-only-followup/manifest.json), with a [curated outcome summary](evidence/ui-only-followup/evidence-summary.json)
+
+The footage preserves the native 150%/125% zoom popups, modal focus/footer controls, unsaved long Unicode path/Line draft, the desktop shortcut error, retained sorting and the final 7 / 0 / 7 inventory. The UI-only follow-up created no logpoint, reactivated no capture and dispatched no runtime; drafts were discarded and zoom returned to 100%.
+
+Seventeen short source timestamp gaps, with a maximum step of 0.30 seconds, are disclosed. The output holds duplicate frames across those gaps at the original elapsed speed; it does not reconstruct missing motion. Idle UI and the desktop error are not counted as continuous active testing or a product outage. The brief native zoom-popup detail crops are disclosed in the source map. All three MP4s decode and are below 5.5 MB.
+
+The [dated addendum](UI_FOLLOWUP_2026-10-08.md) preserves the narrow evidence boundaries: meaningful recorded Line name, correct settled sampled ascending rows, refresh to descending with ascending state cleared, unconfirmed sort-persistence contract and limited unsuccessful manual-fallback keyboard attempts. The Environment selector’s empty staging search has no established cause. Ten findings, all original case verdicts and the V12 PDF/Word bytes remain unchanged.

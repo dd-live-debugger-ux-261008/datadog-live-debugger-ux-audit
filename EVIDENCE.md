@@ -1,5 +1,7 @@
 # Evidence and checkpoint scope
 
+**Later UI-only evidence:** [Dated UI-only follow-up](UI_FOLLOWUP_2026-10-08.md) records zoom, draft-entry and retained-sort checks from 23:15:22–23:38:38 UTC. It preserves the frozen V12 documents, case verdicts and finding totals. No capture or runtime was started; final unfiltered inventory remained 7 / 0 / 7.
+
 V12 consolidated checkpoint: evidence through **8 October 2026, 21:51:46.355 UTC**. The 63 original definitions are preserved: **23 scoped PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED**. Findings remain **10: 0 High, 4 Medium and 6 Low**. Seven unresolved topics remain outside severity totals. The later coverage controls add evidence and repeat existing FUNC01; they add no new finding. Named controlled runtimes and all known capture sessions are stopped; broader original-case work and retained-asset reconciliation remain explicit.
 
 The [PDF](report.pdf) and [Word report](report.docx) are the consolidated **37-page V12 report**, superseding the earlier V9 documents. Earlier V8/V9, run-4 and source-phase sections retain their dated observations and limitations. Their pending-control statements, counts and cleanup boundaries are superseded only by explicitly dated later evidence. The current [coverage controls](#coverage-phase-controls), [final runtime and capture state](#final-runtime-and-capture-state) and [video catalog](VIDEOS.md) reconcile the later results.
@@ -602,3 +604,10 @@ Named runtime shutdown and all known session inactivity are verified. C01/C02 re
 [Source 16 archive](recordings/continuation-16/CONTINUATION_RECORDING_ARCHIVE.md): **89:26.25 recorded = 78:04.90 retained + 11:21.35 omitted**, seven archive videos, plus an overlapping [05:40.00 highlight](recordings/continuation-16/highlights/CONTINUATION_HIGHLIGHTS.md). The approximately 18:36–18:54 integration-page foreground limit remains explicit; later draft/filter controls are still/recorded observations.
 
 [Source 17 archive](recordings/continuation-17/CONTINUATION_RECORDING_ARCHIVE.md): **102:21.80 recorded = 98:58.45 retained + 03:23.35 omitted**, eight archive videos, plus an overlapping [08:35.70 highlight](recordings/continuation-17/highlights/CONTINUATION_HIGHLIGHTS.md). It contains actual foreground dirty-draft reset footage, with interruptions and browser-recovery intervals mapped. Nominal Agent/burst movie windows require the separately verified actual-stage receipts above. Later complex-value follow-up and the 21:51 rapid-navigation check are after-recording still/recorded observations. No missing motion is reconstructed.
+
+
+## Later UI-only follow-up, 23:15–23:38 UTC
+
+The [dated addendum](UI_FOLLOWUP_2026-10-08.md) records additional B09, F15 and F17 subchecks after the frozen V12 checkpoint. It links [eight genuine safe stills and provenance](evidence/ui-only-followup/manifest.json), [curated outcomes](evidence/ui-only-followup/evidence-summary.json), and [reviewed source 18 motion](recordings/continuation-18/CONTINUATION_RECORDING_ARCHIVE.md). V12 case verdicts, findings and document bytes are unchanged. No new logpoint, reactivation or runtime occurred. The final unfiltered inventory remained All 7 / Active 0 / Inactive 7 at 23:38:38 UTC.
+
+The Line role lookup found the name Enter line number; it is not an unlabeled-field finding. Settled visible ascending rows were correct, and refresh cleared ascending state while restoring descending rows and preserving selected identity. The sort-persistence contract and the narrow unsuccessful manual-fallback keyboard route remain unconfirmed. The Environment selector returned No environments found for the alternate service when searched for staging; the cause of the absence was not established.

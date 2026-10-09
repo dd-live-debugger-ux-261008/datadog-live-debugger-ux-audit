@@ -1,5 +1,7 @@
 # Audit continuation status
 
+**Later UI-only evidence:** [Dated UI-only follow-up](UI_FOLLOWUP_2026-10-08.md) records zoom, draft-entry and retained-sort checks from 23:15:22–23:38:38 UTC. It preserves the frozen V12 documents, case verdicts and finding totals. No capture or runtime was started; final unfiltered inventory remained 7 / 0 / 7.
+
 V12 consolidated checkpoint: evidence frozen at **8 October 2026, 21:51:46.355 UTC**. The 63 original definitions are preserved: **23 scoped PASS, 8 FINDING, 19 IN_PROGRESS, 2 PENDING and 11 BLOCKED**. The inventory remains **10 distinct findings: 0 High, 4 Medium and 6 Low**. Seven unresolved topics are excluded from severity totals. The latest controls add evidence without adding a confirmed finding.
 
 ## Completed campaign and current case limits
@@ -37,3 +39,5 @@ The [recording catalog](VIDEOS.md) and evidence manifests preserve privacy masks
 The [remaining plan](REMAINING_WORK.md) now covers specific unfinished original branches, fixture corrections and genuine approval/access/study gates. The completed repair, revision, restart, Agent-outage and burst stages are no longer listed as unstarted work. This checkpoint does not authorize new runtime activity, broader source grants or the production-labeled capture.
 
 [Cases](QA_MATRIX.md) · [Findings](findings.md) · [Unresolved topics](UNCONFIRMED_OBSERVATIONS.md) · [Evidence](EVIDENCE.md) · [Recordings](VIDEOS.md)
+
+The separately dated [UI-only addendum](UI_FOLLOWUP_2026-10-08.md) and [source 18 archive](recordings/continuation-18/CONTINUATION_RECORDING_ARCHIVE.md) extend the evidence after the frozen V12 documents. See the latest [video catalog](VIDEOS.md) for aggregate recording totals and exact omissions.
