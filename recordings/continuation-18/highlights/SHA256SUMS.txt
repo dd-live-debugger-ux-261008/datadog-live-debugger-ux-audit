@@ -1,0 +1,3 @@
+de4068209b560476a81dbd58f5976abd77f5b11eea2c5bf42bacce295b28f2b7  CONTINUATION_HIGHLIGHTS.md
+a65963d045ba908d31cb010656d050817f16d3f66ad719d38b2d58967fea3dc5  continuation-highlight-manifest.json
+83006338960c900235b012549042ee435e8d3fa29187f36b93ca779874b9fb6a  ui-only-controls-highlights.mp4
