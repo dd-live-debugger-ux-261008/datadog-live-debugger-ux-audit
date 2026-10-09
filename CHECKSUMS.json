@@ -1,17 +1,19 @@
 {
-  "checkpoint": "V12 consolidated report and safe-evidence checkpoint",
-  "live_evidence_cutoff_utc": "2026-10-08T21:51:46.355Z",
-  "scope": "Ten findings: 0 High, 4 Medium, 6 Low. All 63 original definitions preserved:23 PASS,8 FINDING,19 IN_PROGRESS,2 PENDING,11 BLOCKED. Reviewed37-page PDF/Word, sources01\u201317 media and actual stage/retained-navigation evidence consolidated. Known runtime shutdown and seven inactive sessions verified; limitations and retained resources explicit. This manifest excludes itself.",
+  "checkpoint": "V12 plus dated UI-only addendum",
+  "live_evidence_cutoff_utc": "2026-10-08T23:38:38Z",
+  "original_case_ledger_cutoff_utc": "2026-10-08T21:51:46.355Z",
+  "document_cutoff_utc": "2026-10-08T21:51:46.355Z",
+  "scope": "Dated UI-only follow-up through 23:38:38 UTC adds zoom, draft and retained-sort evidence and reviewed source 18 media. Frozen V12 PDF/Word and original 63 case verdicts remain unchanged. Ten findings: 0 High, 4 Medium, 6 Low. No new logpoint, reactivation or runtime; final unfiltered sessions 7 / 0 / 7. This manifest excludes itself.",
   "files": [
     {
       "path": "CURRENT_STATUS.md",
-      "bytes": 6406,
-      "sha256": "b48acd06e2d68651842d30546daafda04bb404248e894ae5975930ab6f791249"
+      "bytes": 7024,
+      "sha256": "2ab1ff75677d20c93b6c7ce838235745f267d86061ab06faf2c1898eb6b9913b"
     },
     {
       "path": "EVIDENCE.md",
-      "bytes": 87249,
-      "sha256": "de6f60acc149b5945ab04053269629c4c962db527a5f5d297a34eccd01b64340"
+      "bytes": 88706,
+      "sha256": "28d025591559e824a972ef4ec886afb59a9375d5763d6893316a66825841e644"
     },
     {
       "path": "EXECUTED_CHECKS.md",
@@ -25,13 +27,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 4746,
-      "sha256": "c9edfbe71d1bf127489060be93eb5030bc59868cf39838ddb89cf4cdc5a26293"
+      "bytes": 5364,
+      "sha256": "a848f353e3d04607f4e8d9646c6433a964c65a4098bf0bef36730cfa94ddfc71"
     },
     {
       "path": "REMAINING_WORK.md",
-      "bytes": 9106,
-      "sha256": "e1f51f0ec712a0efc54e7e31a1a41582d86f5affa065212e0611d8119bf0b844"
+      "bytes": 9703,
+      "sha256": "aff275d5c125734b1c2bd043107a5e04b7ee3524c6736133f1b395016b0d2924"
+    },
+    {
+      "path": "UI_FOLLOWUP_2026-10-08.md",
+      "bytes": 6420,
+      "sha256": "25a628ca0daaf32ddadb808b2db0f4988a842548fd74cf6acb607b59dabf164a"
     },
     {
       "path": "UNCONFIRMED_OBSERVATIONS.md",
@@ -40,8 +47,8 @@
     },
     {
       "path": "VIDEOS.md",
-      "bytes": 22659,
-      "sha256": "cbedc356dcb1990c94c5235c5578c83c4dfa45260fc804ea0b885555da00387d"
+      "bytes": 24729,
+      "sha256": "43a56fcda3e59458f6473fda177cf21e0add9aa10fe185f46b955c06f1da1366"
     },
     {
       "path": "account-setup-excerpt.mp4",
@@ -3569,6 +3576,151 @@
       "sha256": "85a28ed6b199adb23a410d4a091359d561dbeeb24f77fd210b08c03887badcd3"
     },
     {
+      "path": "evidence/ui-only-followup/01-caption.txt",
+      "bytes": 481,
+      "sha256": "d7dfe1805bc09c0dcba77a0c669d13b002f42fe05b8a64998a4db9442690e810"
+    },
+    {
+      "path": "evidence/ui-only-followup/01-modal-150-percent-search-focus-safe.png",
+      "bytes": 199581,
+      "sha256": "9ff6bafb57d01901128e61e8a822f5c90a23b8c2d336ba9fb69323ee626a87fd"
+    },
+    {
+      "path": "evidence/ui-only-followup/01-provenance.json",
+      "bytes": 2220,
+      "sha256": "ce90b867c7e92b4bff73f237f418cda1ad780c42221d35ee5cfe2f8be90a330c"
+    },
+    {
+      "path": "evidence/ui-only-followup/02-caption.txt",
+      "bytes": 593,
+      "sha256": "41c8c8a11efc963b080003abdd89313464edebb270746b2098ae7ca6df22639b"
+    },
+    {
+      "path": "evidence/ui-only-followup/02-provenance.json",
+      "bytes": 2687,
+      "sha256": "1b8e99ad6fd7794c470968eed7b0872b751a3b22879d28d1952d03ffcb21734a"
+    },
+    {
+      "path": "evidence/ui-only-followup/02-unicode-search-manual-fallback-125-percent-safe.png",
+      "bytes": 186797,
+      "sha256": "78b9417e9834bda2734b820fbad69b2b721502aa40fb8714dbf73802bafdf4b7"
+    },
+    {
+      "path": "evidence/ui-only-followup/03-caption.txt",
+      "bytes": 596,
+      "sha256": "fbfef337ef978757b2c8f9dc603186f62c9ea947a5cd4b7b03e201fc56d6196e"
+    },
+    {
+      "path": "evidence/ui-only-followup/03-clear-search-keyboard-focus-125-percent-safe.png",
+      "bytes": 156453,
+      "sha256": "096705681ef55706238d60163cc7f4404a6441f6cd30fbbf117ab73fb19f481b"
+    },
+    {
+      "path": "evidence/ui-only-followup/03-provenance.json",
+      "bytes": 2652,
+      "sha256": "c26991c5386377b34c2d02b0a286ca66d0510ad27a970ce3500221ac4e1f574e"
+    },
+    {
+      "path": "evidence/ui-only-followup/04-caption.txt",
+      "bytes": 756,
+      "sha256": "996f0d504035d9c2b1893bf4bd3bd5fb321762cdaee3ca643a7c39f2497e6b2f"
+    },
+    {
+      "path": "evidence/ui-only-followup/04-provenance.json",
+      "bytes": 3267,
+      "sha256": "aa61add0bd6eaa8f7858481c290c273e66f762856f51df16e61facba5d356999"
+    },
+    {
+      "path": "evidence/ui-only-followup/04-unicode-manual-line-9-draft-125-percent-safe.png",
+      "bytes": 200497,
+      "sha256": "0ff3a6cfe6d2c658b533f33ea6d8564ee234eb96a62fe1e109c841962809715a"
+    },
+    {
+      "path": "evidence/ui-only-followup/05-caption.txt",
+      "bytes": 726,
+      "sha256": "a1494498ba9c40f826327dded756482cd37121031f945608705d4ad70f52af64"
+    },
+    {
+      "path": "evidence/ui-only-followup/05-editor-focus-and-fixed-footer-125-percent-safe.png",
+      "bytes": 221116,
+      "sha256": "61c333c82eef533e21f96c9a8455593e82bb5acc3b593b3350893941a5bcce0d"
+    },
+    {
+      "path": "evidence/ui-only-followup/05-provenance.json",
+      "bytes": 2976,
+      "sha256": "22703a836d334b1cc34fb687a8eb7520d2dc83ee0e0504d57b23968605abe904"
+    },
+    {
+      "path": "evidence/ui-only-followup/06-caption.txt",
+      "bytes": 588,
+      "sha256": "09ca1cab39d3b210a17235d5a159ef68233cee53281e0293de016351088ccbeb"
+    },
+    {
+      "path": "evidence/ui-only-followup/06-provenance.json",
+      "bytes": 3132,
+      "sha256": "68f72a84394a6e8e09ef530b5b6863bbeeb787b812bb1ee3b42caf549644c318"
+    },
+    {
+      "path": "evidence/ui-only-followup/06-settled-ascending-events-safe.png",
+      "bytes": 423864,
+      "sha256": "4166fd17b9e3a90ba4038315a4f974397f3b2f47853dead14873dbe109c453ed"
+    },
+    {
+      "path": "evidence/ui-only-followup/07-caption.txt",
+      "bytes": 601,
+      "sha256": "0c56621eb531b6ca7cd1665a72f9e283d25d55a227430f9b9140d967512062d8"
+    },
+    {
+      "path": "evidence/ui-only-followup/07-provenance.json",
+      "bytes": 3148,
+      "sha256": "719800f5005e4a81610f9c6cf14281e8380b0bd4de740704dd32f6c45e40268d"
+    },
+    {
+      "path": "evidence/ui-only-followup/07-refreshed-default-descending-events-safe.png",
+      "bytes": 352457,
+      "sha256": "b31261ea9715f368d995e5f4919b3f359f4045b9b6dc552a0f1dab4ac41ef005"
+    },
+    {
+      "path": "evidence/ui-only-followup/08-caption.txt",
+      "bytes": 673,
+      "sha256": "674b4ead95d446e2dea7f9327b1c4abc2640db3ae6d6b87a2cc7b0fb704aec30"
+    },
+    {
+      "path": "evidence/ui-only-followup/08-final-unfiltered-inventory-7-0-7-safe.png",
+      "bytes": 118630,
+      "sha256": "fcfbdf186a31b4dc5529155e7f4bfe3be12947b41ca4da6cd6fcca0f2a5ec237"
+    },
+    {
+      "path": "evidence/ui-only-followup/08-provenance.json",
+      "bytes": 3263,
+      "sha256": "b24b52cda00ec5345bd16622928977cfd120bf960687ba008b6d8bb631578ab3"
+    },
+    {
+      "path": "evidence/ui-only-followup/README.txt",
+      "bytes": 1523,
+      "sha256": "039fa015017ce5d2fc0b3d46bf355f5d7cf0e278b8ea02c0187634cccba0831b"
+    },
+    {
+      "path": "evidence/ui-only-followup/SHA256SUMS",
+      "bytes": 2564,
+      "sha256": "0f59d621d736ea17baf140e1210f24c8d22c82f8734cbfc95f27bc4324567702"
+    },
+    {
+      "path": "evidence/ui-only-followup/evidence-summary.json",
+      "bytes": 3411,
+      "sha256": "e5a5ebbd03cac0de35b464cd88b829d84943958297e8f257632f52582378ca7d"
+    },
+    {
+      "path": "evidence/ui-only-followup/manifest.json",
+      "bytes": 28477,
+      "sha256": "0d347a4fa23c1a9a80f077d35d3a7cb06fff51143c02dd0c1651c6c2eeb0aeee"
+    },
+    {
+      "path": "evidence/ui-only-followup/masks.json",
+      "bytes": 10004,
+      "sha256": "3bc715ffee0a1be1e10d64217b0728d53af1724742ef7fe9f9861171a439db70"
+    },
+    {
       "path": "execution-ledger.json",
       "bytes": 125618,
       "sha256": "415c458ba29a62a76dae7cf556900473c80d93268c960586d5bd523dd840d853"
@@ -4297,6 +4449,56 @@
       "path": "recordings/continuation-17/source-17-part-08-sanitized.mp4",
       "bytes": 1350678,
       "sha256": "1445ba6f5ea6eb509400934b0308261020509921172658e9b78a5bf956158433"
+    },
+    {
+      "path": "recordings/continuation-18/CONTINUATION_RECORDING_ARCHIVE.md",
+      "bytes": 8468,
+      "sha256": "cf8ccbf3ca46bfad4c0fc9381be0f959820e92d78731415445b5cb86c9848d92"
+    },
+    {
+      "path": "recordings/continuation-18/SANITATION_VERIFICATION.json",
+      "bytes": 10555,
+      "sha256": "b3f49c2c35b4a61549e750814eddc520256e69067a427ac418b81e4b179f8e96"
+    },
+    {
+      "path": "recordings/continuation-18/SHA256SUMS.txt",
+      "bytes": 494,
+      "sha256": "8c11ab612e025e2bb17432a11e2c4ab35e90cb21ed1cbde33017b30faddbd3aa"
+    },
+    {
+      "path": "recordings/continuation-18/continuation-recording-manifest.json",
+      "bytes": 23456,
+      "sha256": "73d551b810a60dddbab9921de085ebed584c4a4a7174db5ad1e1a9afdb1c493e"
+    },
+    {
+      "path": "recordings/continuation-18/highlights/CONTINUATION_HIGHLIGHTS.md",
+      "bytes": 9847,
+      "sha256": "de4068209b560476a81dbd58f5976abd77f5b11eea2c5bf42bacce295b28f2b7"
+    },
+    {
+      "path": "recordings/continuation-18/highlights/SHA256SUMS.txt",
+      "bytes": 294,
+      "sha256": "95fa2ee81b0dd3717850a94ee43dad662e21e9de6215150f26bbaa3273788a93"
+    },
+    {
+      "path": "recordings/continuation-18/highlights/continuation-highlight-manifest.json",
+      "bytes": 26419,
+      "sha256": "a65963d045ba908d31cb010656d050817f16d3f66ad719d38b2d58967fea3dc5"
+    },
+    {
+      "path": "recordings/continuation-18/highlights/ui-only-controls-highlights.mp4",
+      "bytes": 2182936,
+      "sha256": "83006338960c900235b012549042ee435e8d3fa29187f36b93ca779874b9fb6a"
+    },
+    {
+      "path": "recordings/continuation-18/source-18-part-01-sanitized.mp4",
+      "bytes": 5476233,
+      "sha256": "cb925e92c5148f6b1c6192ad0a7548859ad6d03f203f6555f6dc2a7153a6b216"
+    },
+    {
+      "path": "recordings/continuation-18/source-18-part-02-sanitized.mp4",
+      "bytes": 4876510,
+      "sha256": "5ce9c73844e0c150383662fdd56765d125b0125e37c5b7317a71e184cc949acd"
     },
     {
       "path": "recordings/recording-archive-manifest.json",
