@@ -1,0 +1,128 @@
+{
+  "id": "06",
+  "source_filename": "f17-ui-only-ascending-settled.png",
+  "source_sha256": "184806688719da16526a9effae6ce39d7a76ce06df61a47d1f8696586adcc66c",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "06-settled-ascending-events-safe.png",
+  "safe_sha256": "4166fd17b9e3a90ba4038315a4f974397f3b2f47853dead14873dbe109c453ed",
+  "safe_dimensions": [
+    1020,
+    578
+  ],
+  "crop_source_xyxy": [
+    252,
+    302,
+    1272,
+    880
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        439,
+        314,
+        790,
+        337
+      ],
+      "reason": "Session title",
+      "output_xyxy": [
+        187,
+        12,
+        538,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        1002,
+        312,
+        1093,
+        335
+      ],
+      "reason": "Creator identity and avatar",
+      "output_xyxy": [
+        750,
+        10,
+        841,
+        33
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        289,
+        399,
+        468,
+        419
+      ],
+      "reason": "Selected service name",
+      "output_xyxy": [
+        37,
+        97,
+        216,
+        117
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        722,
+        451,
+        787,
+        472
+      ],
+      "reason": "Repository commit identifier",
+      "output_xyxy": [
+        470,
+        149,
+        535,
+        170
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "cd9137cb925593f40002142dd1a39994703b413442ac9321b374e775b4d38503",
+  "safe_decoded_rgb_sha256": "b93b361db1f84c69855f0e98111cf69d98aa856400cdfe980f35ee2b5169f3da",
+  "verified_unchanged_pixels_outside_masks": 574449,
+  "source_unchanged": true,
+  "caption": "After the ascending sort settles, the Date column has an ascending indicator and the displayed event times run chronologically from 13:16:26.215 to 13:18:29.719. The session is INACTIVE and the Events header retains seven logpoints. Identity, service, and commit fields are masked.",
+  "visible_evidence_limits": [
+    "The immediate post-click frame was excluded because it still contained pre-sort rows.",
+    "Displayed event-row times are not independently verified payload execution or screenshot-acquisition timestamps.",
+    "This correct settled order creates no new finding and does not change existing case counts."
+  ],
+  "browser_zoom_observation": "100%",
+  "companion_receipts": [
+    {
+      "source_filename": "f17-ui-only-ascending-settled.json",
+      "source_sha256": "f441bcf26c02603e37d7380ee97940fcc9c6c65b4979e105c79e879508e55b82",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

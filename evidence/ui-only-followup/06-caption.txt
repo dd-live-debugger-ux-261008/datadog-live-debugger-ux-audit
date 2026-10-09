@@ -1,0 +1,6 @@
+After the ascending sort settles, the Date column has an ascending indicator and the displayed event times run chronologically from 13:16:26.215 to 13:18:29.719. The session is INACTIVE and the Events header retains seven logpoints. Identity, service, and commit fields are masked.
+
+Limits:
+- The immediate post-click frame was excluded because it still contained pre-sort rows.
+- Displayed event-row times are not independently verified payload execution or screenshot-acquisition timestamps.
+- This correct settled order creates no new finding and does not change existing case counts.

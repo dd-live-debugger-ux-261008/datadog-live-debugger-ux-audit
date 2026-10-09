@@ -1,0 +1,501 @@
+{
+  "geometry_convention": "Zero-based, half-open [left, top, right, bottom) rectangles.",
+  "images": [
+    {
+      "source_filename": "b09-150percent-add-modal.png",
+      "safe_filename": "01-modal-150-percent-search-focus-safe.png",
+      "crop_source_xyxy": [
+        136,
+        247,
+        1213,
+        909
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            208,
+            397,
+            446,
+            431
+          ],
+          "reason": "Selected service name; preserve service-selector controls and focus evidence",
+          "output_xyxy": [
+            72,
+            150,
+            310,
+            184
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "b09-long-path-popover-125percent.png",
+      "safe_filename": "02-unicode-search-manual-fallback-125-percent-safe.png",
+      "crop_source_xyxy": [
+        137,
+        235,
+        1214,
+        913
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            200,
+            330,
+            442,
+            354
+          ],
+          "reason": "Selected service name",
+          "output_xyxy": [
+            63,
+            95,
+            305,
+            119
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            166,
+            566,
+            809,
+            594
+          ],
+          "reason": "Runner and repository path prefix; retain original synthetic qa_paths/unicodé space/東京 handler.py suffix",
+          "output_xyxy": [
+            29,
+            331,
+            672,
+            359
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "b09-manual-entry-keyboard-focus.png",
+      "safe_filename": "03-clear-search-keyboard-focus-125-percent-safe.png",
+      "crop_source_xyxy": [
+        137,
+        235,
+        1214,
+        913
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            200,
+            330,
+            442,
+            354
+          ],
+          "reason": "Selected service name",
+          "output_xyxy": [
+            63,
+            95,
+            305,
+            119
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            166,
+            566,
+            809,
+            594
+          ],
+          "reason": "Runner and repository path prefix; retain original synthetic Unicode suffix",
+          "output_xyxy": [
+            29,
+            331,
+            672,
+            359
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "b09-long-path-manual-draft-filled.png",
+      "safe_filename": "04-unicode-manual-line-9-draft-125-percent-safe.png",
+      "crop_source_xyxy": [
+        144,
+        235,
+        1207,
+        913
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            144,
+            360,
+            348,
+            388
+          ],
+          "reason": "Selected service name, already partly clipped in source",
+          "output_xyxy": [
+            0,
+            125,
+            204,
+            153
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            144,
+            652,
+            637,
+            676
+          ],
+          "reason": "Runner and repository prefix in horizontally scrolled File control; preserve synthetic suffix and line focus",
+          "output_xyxy": [
+            0,
+            417,
+            493,
+            441
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "b09-manual-draft-footer-focus.png",
+      "safe_filename": "05-editor-focus-and-fixed-footer-125-percent-safe.png",
+      "crop_source_xyxy": [
+        144,
+        235,
+        1207,
+        913
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            206,
+            360,
+            450,
+            388
+          ],
+          "reason": "Selected service name",
+          "output_xyxy": [
+            62,
+            125,
+            306,
+            153
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            217,
+            652,
+            740,
+            676
+          ],
+          "reason": "Runner and repository prefix; preserve original synthetic Unicode suffix",
+          "output_xyxy": [
+            73,
+            417,
+            596,
+            441
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "f17-ui-only-ascending-settled.png",
+      "safe_filename": "06-settled-ascending-events-safe.png",
+      "crop_source_xyxy": [
+        252,
+        302,
+        1272,
+        880
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            439,
+            314,
+            790,
+            337
+          ],
+          "reason": "Session title",
+          "output_xyxy": [
+            187,
+            12,
+            538,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            1002,
+            312,
+            1093,
+            335
+          ],
+          "reason": "Creator identity and avatar",
+          "output_xyxy": [
+            750,
+            10,
+            841,
+            33
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            289,
+            399,
+            468,
+            419
+          ],
+          "reason": "Selected service name",
+          "output_xyxy": [
+            37,
+            97,
+            216,
+            117
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            722,
+            451,
+            787,
+            472
+          ],
+          "reason": "Repository commit identifier",
+          "output_xyxy": [
+            470,
+            149,
+            535,
+            170
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "f17-ui-only-after-refresh.png",
+      "safe_filename": "07-refreshed-default-descending-events-safe.png",
+      "crop_source_xyxy": [
+        252,
+        302,
+        1272,
+        880
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            439,
+            314,
+            790,
+            337
+          ],
+          "reason": "Session title",
+          "output_xyxy": [
+            187,
+            12,
+            538,
+            35
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            1002,
+            312,
+            1093,
+            335
+          ],
+          "reason": "Creator identity and avatar",
+          "output_xyxy": [
+            750,
+            10,
+            841,
+            33
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            289,
+            399,
+            468,
+            419
+          ],
+          "reason": "Selected service name",
+          "output_xyxy": [
+            37,
+            97,
+            216,
+            117
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            722,
+            451,
+            787,
+            472
+          ],
+          "reason": "Repository commit identifier",
+          "output_xyxy": [
+            470,
+            149,
+            535,
+            170
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "source_filename": "ui-only-final-unfiltered-inventory.png",
+      "safe_filename": "08-final-unfiltered-inventory-7-0-7-safe.png",
+      "crop_source_xyxy": [
+        252,
+        302,
+        1257,
+        931
+      ],
+      "opaque_masks": [
+        {
+          "source_xyxy": [
+            280,
+            568,
+            940,
+            645
+          ],
+          "reason": "First card title, service names, creator identity, and avatar",
+          "output_xyxy": [
+            28,
+            266,
+            688,
+            343
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            280,
+            678,
+            886,
+            829
+          ],
+          "reason": "Second card title, service names, creator identity, and avatar",
+          "output_xyxy": [
+            28,
+            376,
+            634,
+            527
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        },
+        {
+          "source_xyxy": [
+            280,
+            864,
+            715,
+            923
+          ],
+          "reason": "Third card title, service name, creator identity, and avatar",
+          "output_xyxy": [
+            28,
+            562,
+            463,
+            621
+          ],
+          "fill_rgb": [
+            32,
+            35,
+            41
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "05",
+  "source_filename": "b09-manual-draft-footer-focus.png",
+  "source_sha256": "0f775d5b12fb527b9c565124fc28f472da61c9ae6b6650e0719fbdce4d59f00a",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "05-editor-focus-and-fixed-footer-125-percent-safe.png",
+  "safe_sha256": "61c333c82eef533e21f96c9a8455593e82bb5acc3b593b3350893941a5bcce0d",
+  "safe_dimensions": [
+    1063,
+    678
+  ],
+  "crop_source_xyxy": [
+    144,
+    235,
+    1207,
+    913
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        206,
+        360,
+        450,
+        388
+      ],
+      "reason": "Selected service name",
+      "output_xyxy": [
+        62,
+        125,
+        306,
+        153
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        217,
+        652,
+        740,
+        676
+      ],
+      "reason": "Runner and repository prefix; preserve original synthetic Unicode suffix",
+      "output_xyxy": [
+        73,
+        417,
+        596,
+        441
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "25e0cb6156445735f94512b0e3d0005dbca237a5f95fc2cc8d194a435fe66351",
+  "safe_decoded_rgb_sha256": "f525d4117eae2f8ad1992557e454b899b3f188ae450a7726aa50067590e04f8c",
+  "verified_unchanged_pixels_outside_masks": 701330,
+  "source_unchanged": true,
+  "caption": "The same unsaved manual draft shows the synthetic Unicode filename, line 9, editor focus near the lower edge, horizontal scrollbar, and fixed Add to Session footer. The footer is visible; this frame does not claim that the footer button has keyboard focus. The focus trail records repeated Tab in the editor.",
+  "visible_evidence_limits": [
+    "This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.",
+    "A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.",
+    "Tab inserted spaces in the editable message draft; this is not a confirmed keyboard trap.",
+    "Native Alt+F1 produced an XFCE D-Bus error. That environment confound is not scored as a product defect."
+  ],
+  "browser_zoom_observation": "125%",
+  "companion_receipts": [
+    {
+      "source_filename": "b09-manual-draft-footer-focus-trail.json",
+      "source_sha256": "7e4e3460918a5748fa875e11b31909ae488b53b2f0297a791c3413f389200fb2",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "b09-f15-draft-cleanup.json",
+      "source_sha256": "3a0698e5f8944c27399833715df18e9f627c573f6e3e8b75771ea97fe71cb42a",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

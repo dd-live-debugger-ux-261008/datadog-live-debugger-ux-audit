@@ -1,0 +1,5 @@
+At 150% browser zoom, the Add a logpoint modal shows the initial search focus ring, configuration notice, scrollable body, and visible fixed Add to Session footer. The disabled action and all remaining pixels are original. The service name is masked.
+
+Limits:
+- Zoom is corroborated by the recorded follow-up observations; the browser zoom popup is outside this modal crop.
+- This initial empty modal is not proof of a submitted logpoint or completion of a keyboard-only workflow.

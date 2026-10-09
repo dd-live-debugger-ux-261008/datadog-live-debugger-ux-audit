@@ -1,0 +1,6 @@
+At 125% zoom, the manual File option contains the synthetic qa_paths/unicodé space/東京 handler.py suffix and the focused line field contains 9. The long value produces inner horizontal scrolling, while the fixed Add to Session action remains visible. Clipping and scrolling are present in the original screenshot. The draft was never submitted.
+
+Limits:
+- This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.
+- A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.
+- The companion DOM receipt finds exactly one textbox with the meaningful accessible name Enter line number. Missing explicit label/ARIA attributes alone are not an unlabeled-field defect.

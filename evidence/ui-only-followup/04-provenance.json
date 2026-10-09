@@ -1,0 +1,98 @@
+{
+  "id": "04",
+  "source_filename": "b09-long-path-manual-draft-filled.png",
+  "source_sha256": "fb700b0128ff57ef68dd0f5eb569a0527e1d1112ae4177446dc2f479ed6600fc",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "04-unicode-manual-line-9-draft-125-percent-safe.png",
+  "safe_sha256": "0ff3a6cfe6d2c658b533f33ea6d8564ee234eb96a62fe1e109c841962809715a",
+  "safe_dimensions": [
+    1063,
+    678
+  ],
+  "crop_source_xyxy": [
+    144,
+    235,
+    1207,
+    913
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        144,
+        360,
+        348,
+        388
+      ],
+      "reason": "Selected service name, already partly clipped in source",
+      "output_xyxy": [
+        0,
+        125,
+        204,
+        153
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        144,
+        652,
+        637,
+        676
+      ],
+      "reason": "Runner and repository prefix in horizontally scrolled File control; preserve synthetic suffix and line focus",
+      "output_xyxy": [
+        0,
+        417,
+        493,
+        441
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "2165228161c7507f2eb3698eb2cd8c2784f9596c5453bb8aa5909209f9ac4f6c",
+  "safe_decoded_rgb_sha256": "a4c9939968c9d942bc975b1d2f37b79c98bad6bfcee297cb884a293caf2bc35d",
+  "verified_unchanged_pixels_outside_masks": 703170,
+  "source_unchanged": true,
+  "caption": "At 125% zoom, the manual File option contains the synthetic qa_paths/unicodé space/東京 handler.py suffix and the focused line field contains 9. The long value produces inner horizontal scrolling, while the fixed Add to Session action remains visible. Clipping and scrolling are present in the original screenshot. The draft was never submitted.",
+  "visible_evidence_limits": [
+    "This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.",
+    "A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.",
+    "The companion DOM receipt finds exactly one textbox with the meaningful accessible name Enter line number. Missing explicit label/ARIA attributes alone are not an unlabeled-field defect."
+  ],
+  "browser_zoom_observation": "125%",
+  "companion_receipts": [
+    {
+      "source_filename": "b09-long-path-manual-draft-filled.txt",
+      "source_sha256": "1890b4f5a7613e4af81d7b2d431ffce462b3676241f26ddd0d00a4923d6164c9",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "b09-line-field-label-dom.json",
+      "source_sha256": "b6fbefd24421f37346b45089410eadff178c7c3fbdb349ed60e23e1935e7e212",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "b09-f15-draft-cleanup.json",
+      "source_sha256": "3a0698e5f8944c27399833715df18e9f627c573f6e3e8b75771ea97fe71cb42a",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

@@ -1,0 +1,113 @@
+{
+  "id": "08",
+  "source_filename": "ui-only-final-unfiltered-inventory.png",
+  "source_sha256": "89a0d33508c563bfb1ca2e76c67477742cc186b4d3d128586b928d56ab7c0b64",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "08-final-unfiltered-inventory-7-0-7-safe.png",
+  "safe_sha256": "fcfbdf186a31b4dc5529155e7f4bfe3be12947b41ca4da6cd6fcca0f2a5ec237",
+  "safe_dimensions": [
+    1005,
+    629
+  ],
+  "crop_source_xyxy": [
+    252,
+    302,
+    1257,
+    931
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        280,
+        568,
+        940,
+        645
+      ],
+      "reason": "First card title, service names, creator identity, and avatar",
+      "output_xyxy": [
+        28,
+        266,
+        688,
+        343
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        280,
+        678,
+        886,
+        829
+      ],
+      "reason": "Second card title, service names, creator identity, and avatar",
+      "output_xyxy": [
+        28,
+        376,
+        634,
+        527
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        280,
+        864,
+        715,
+        923
+      ],
+      "reason": "Third card title, service name, creator identity, and avatar",
+      "output_xyxy": [
+        28,
+        562,
+        463,
+        621
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "24f8190fed1e8cd44dc75c69011edbcc2008f553eb52784723a57a1ff41cfb3c",
+  "safe_decoded_rgb_sha256": "22d4286994cdd100359c12f00a70ba859d3a9ca129111f908509e35c189ee120",
+  "verified_unchanged_pixels_outside_masks": 464154,
+  "source_unchanged": true,
+  "caption": "The final unfiltered Sessions List shows My sessions off, Services All, Environments All, Created All time, and an empty search field. Counts are All 7, Active 0, Inactive 7. Three cards are in the current viewport and each visible status is INACTIVE. Card identities and service names are masked.",
+  "visible_evidence_limits": [
+    "The counts are for this observed list state; all seven cards are not visible in this viewport.",
+    "Cleanup receipts confirm the draft was discarded and zoom restored to 100%, with no new logpoint, session reactivation, or runtime dispatch during this follow-up.",
+    "The screenshot does not establish shutdown of runtime processes, agents, or other external resources."
+  ],
+  "browser_zoom_observation": "100%",
+  "companion_receipts": [
+    {
+      "source_filename": "ui-only-final-unfiltered-inventory.txt",
+      "source_sha256": "90d2c27c817dc5ca50f87f3cc46fb2d634c65011ef94699b7b0e0c14156d549e",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "b09-f15-draft-cleanup.json",
+      "source_sha256": "3a0698e5f8944c27399833715df18e9f627c573f6e3e8b75771ea97fe71cb42a",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

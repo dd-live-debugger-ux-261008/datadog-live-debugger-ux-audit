@@ -1,0 +1,6 @@
+At 125% zoom, the synthetic Unicode search suffix wraps across two lines. The focused search, No symbols found result, Input function or file:line manually fallback, and fixed action footer remain visible. The repository prefix and selected service name are masked.
+
+Limits:
+- This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.
+- A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.
+- Visibility of the manual-entry action does not establish that the recorded keyboard attempts activated it.

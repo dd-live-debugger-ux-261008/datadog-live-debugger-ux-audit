@@ -1,0 +1,67 @@
+{
+  "id": "01",
+  "source_filename": "b09-150percent-add-modal.png",
+  "source_sha256": "feef7fb7768115963e39aefe08ed8357d247890d7c1979a4512e489238e794a8",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "01-modal-150-percent-search-focus-safe.png",
+  "safe_sha256": "9ff6bafb57d01901128e61e8a822f5c90a23b8c2d336ba9fb69323ee626a87fd",
+  "safe_dimensions": [
+    1077,
+    662
+  ],
+  "crop_source_xyxy": [
+    136,
+    247,
+    1213,
+    909
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        208,
+        397,
+        446,
+        431
+      ],
+      "reason": "Selected service name; preserve service-selector controls and focus evidence",
+      "output_xyxy": [
+        72,
+        150,
+        310,
+        184
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "33a2dc2651ae7f18378cbf053d484b05f9670706880eb30d2eed23dfe17989d4",
+  "safe_decoded_rgb_sha256": "dd696465cb4b2f96ba358295f64f4924c0b7d814b8ff39483b50aff55fd52ea9",
+  "verified_unchanged_pixels_outside_masks": 704882,
+  "source_unchanged": true,
+  "caption": "At 150% browser zoom, the Add a logpoint modal shows the initial search focus ring, configuration notice, scrollable body, and visible fixed Add to Session footer. The disabled action and all remaining pixels are original. The service name is masked.",
+  "visible_evidence_limits": [
+    "Zoom is corroborated by the recorded follow-up observations; the browser zoom popup is outside this modal crop.",
+    "This initial empty modal is not proof of a submitted logpoint or completion of a keyboard-only workflow."
+  ],
+  "browser_zoom_observation": "150%",
+  "companion_receipts": [
+    {
+      "source_filename": "b09-keyboard-focus-trail.json",
+      "source_sha256": "9c7fc9fee6a3618b446c0bcb97e7d1657c4a16cbb278dd2b2ac03b7b0a5ca5c0",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

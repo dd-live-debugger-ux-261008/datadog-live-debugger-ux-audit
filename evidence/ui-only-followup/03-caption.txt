@@ -1,0 +1,6 @@
+The 125% search state shows a focus outline on Clear search query after Tab; the preceding manual-entry popover is closed. The selected synthetic Unicode suffix and fixed disabled footer are retained. The companion observation records the next Tab reaching Give Feedback.
+
+Limits:
+- This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.
+- A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.
+- This is a narrow observed focus sequence, not a global keyboard-accessibility or keyboard-trap finding.

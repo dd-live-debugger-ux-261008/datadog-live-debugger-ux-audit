@@ -1,0 +1,88 @@
+{
+  "id": "03",
+  "source_filename": "b09-manual-entry-keyboard-focus.png",
+  "source_sha256": "5abbf6a11a8f60253b2f3e6ae2fb23824c5b26f315302b4783249f6644122aa1",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "03-clear-search-keyboard-focus-125-percent-safe.png",
+  "safe_sha256": "096705681ef55706238d60163cc7f4404a6441f6cd30fbbf117ab73fb19f481b",
+  "safe_dimensions": [
+    1077,
+    678
+  ],
+  "crop_source_xyxy": [
+    137,
+    235,
+    1214,
+    913
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        200,
+        330,
+        442,
+        354
+      ],
+      "reason": "Selected service name",
+      "output_xyxy": [
+        63,
+        95,
+        305,
+        119
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        166,
+        566,
+        809,
+        594
+      ],
+      "reason": "Runner and repository path prefix; retain original synthetic Unicode suffix",
+      "output_xyxy": [
+        29,
+        331,
+        672,
+        359
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "7e684acca79836637b3ef5325f70c4ff0ce10cac4408ba456c25ae5b6b6371ae",
+  "safe_decoded_rgb_sha256": "4eab96813447e8454d9d4a32e4955ac46150bd67d6f783780310f3ef0e738708",
+  "verified_unchanged_pixels_outside_masks": 706394,
+  "source_unchanged": true,
+  "caption": "The 125% search state shows a focus outline on Clear search query after Tab; the preceding manual-entry popover is closed. The selected synthetic Unicode suffix and fixed disabled footer are retained. The companion observation records the next Tab reaching Give Feedback.",
+  "visible_evidence_limits": [
+    "This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.",
+    "A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.",
+    "This is a narrow observed focus sequence, not a global keyboard-accessibility or keyboard-trap finding."
+  ],
+  "browser_zoom_observation": "125%",
+  "companion_receipts": [
+    {
+      "source_filename": "b09-manual-fallback-keyboard-observation.json",
+      "source_sha256": "0fcd0b4d74153a3dcdef8578045c4c93461f8fc6a47b8f5d8f1d1fb7cc4af01c",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

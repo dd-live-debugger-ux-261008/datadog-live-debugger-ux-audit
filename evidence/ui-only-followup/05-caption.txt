@@ -1,0 +1,7 @@
+The same unsaved manual draft shows the synthetic Unicode filename, line 9, editor focus near the lower edge, horizontal scrollbar, and fixed Add to Session footer. The footer is visible; this frame does not claim that the footer button has keyboard focus. The focus trail records repeated Tab in the editor.
+
+Limits:
+- This was an unsaved draft. Add to Session and Ctrl+Enter were not used; the draft was discarded.
+- A still does not establish the complete keyboard route. Manual-entry keyboard fallback remains UNCONFIRMED.
+- Tab inserted spaces in the editable message draft; this is not a confirmed keyboard trap.
+- Native Alt+F1 produced an XFCE D-Bus error. That environment confound is not scored as a product defect.

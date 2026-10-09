@@ -1,0 +1,128 @@
+{
+  "id": "07",
+  "source_filename": "f17-ui-only-after-refresh.png",
+  "source_sha256": "01c100d8c6f0234b0f0d0685fa9df25604f351b7e89f16a68610c4115933c6c8",
+  "source_dimensions": [
+    1364,
+    1024
+  ],
+  "safe_filename": "07-refreshed-default-descending-events-safe.png",
+  "safe_sha256": "b31261ea9715f368d995e5f4919b3f359f4045b9b6dc552a0f1dab4ac41ef005",
+  "safe_dimensions": [
+    1020,
+    578
+  ],
+  "crop_source_xyxy": [
+    252,
+    302,
+    1272,
+    880
+  ],
+  "opaque_masks": [
+    {
+      "source_xyxy": [
+        439,
+        314,
+        790,
+        337
+      ],
+      "reason": "Session title",
+      "output_xyxy": [
+        187,
+        12,
+        538,
+        35
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        1002,
+        312,
+        1093,
+        335
+      ],
+      "reason": "Creator identity and avatar",
+      "output_xyxy": [
+        750,
+        10,
+        841,
+        33
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        289,
+        399,
+        468,
+        419
+      ],
+      "reason": "Selected service name",
+      "output_xyxy": [
+        37,
+        97,
+        216,
+        117
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    },
+    {
+      "source_xyxy": [
+        722,
+        451,
+        787,
+        472
+      ],
+      "reason": "Repository commit identifier",
+      "output_xyxy": [
+        470,
+        149,
+        535,
+        170
+      ],
+      "fill_rgb": [
+        32,
+        35,
+        41
+      ]
+    }
+  ],
+  "source_crop_decoded_rgb_sha256": "b14cc5ef8b77bba8e0bdd40af13d0edcfa56c8bf3102d4d8b903b063f1340641",
+  "safe_decoded_rgb_sha256": "3e0778e22998f45ffbfa677836f6720f9f71b2e3a17582b32bd2696e431c1748",
+  "verified_unchanged_pixels_outside_masks": 574449,
+  "source_unchanged": true,
+  "caption": "After browser refresh, the explicit ascending indicator is cleared and the displayed rows return to default descending order, from 14:16:08.794 to 14:15:25.817. The companion DOM receipt also has no ascending aria-sort. The retained session remains INACTIVE with seven logpoints.",
+  "visible_evidence_limits": [
+    "No stale ascending indicator was observed after refresh.",
+    "A sort-persistence contract has not been established; the reset is an observation, not a new confirmed defect or automatic PASS change.",
+    "Displayed event-row times are not independently verified payload execution or screenshot-acquisition timestamps."
+  ],
+  "browser_zoom_observation": "100%",
+  "companion_receipts": [
+    {
+      "source_filename": "f17-ui-only-after-refresh.json",
+      "source_sha256": "7b4986cde818182aec3a622181bc37e3623fe95c7324b475e3ea101bbeb7b613",
+      "raw_contents_included": false
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "source_sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7",
+      "raw_contents_included": false
+    }
+  ],
+  "evidence_medium": "Direct screenshot; not proof of continuous foreground video",
+  "annotation": null
+}

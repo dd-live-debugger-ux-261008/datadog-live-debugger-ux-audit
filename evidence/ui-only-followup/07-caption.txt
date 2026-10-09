@@ -1,0 +1,6 @@
+After browser refresh, the explicit ascending indicator is cleared and the displayed rows return to default descending order, from 14:16:08.794 to 14:15:25.817. The companion DOM receipt also has no ascending aria-sort. The retained session remains INACTIVE with seven logpoints.
+
+Limits:
+- No stale ascending indicator was observed after refresh.
+- A sort-persistence contract has not been established; the reset is an observation, not a new confirmed defect or automatic PASS change.
+- Displayed event-row times are not independently verified payload execution or screenshot-acquisition timestamps.

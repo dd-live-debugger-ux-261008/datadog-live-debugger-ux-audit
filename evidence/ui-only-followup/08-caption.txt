@@ -1,0 +1,6 @@
+The final unfiltered Sessions List shows My sessions off, Services All, Environments All, Created All time, and an empty search field. Counts are All 7, Active 0, Inactive 7. Three cards are in the current viewport and each visible status is INACTIVE. Card identities and service names are masked.
+
+Limits:
+- The counts are for this observed list state; all seven cards are not visible in this viewport.
+- Cleanup receipts confirm the draft was discarded and zoom restored to 100%, with no new logpoint, session reactivation, or runtime dispatch during this follow-up.
+- The screenshot does not establish shutdown of runtime processes, agents, or other external resources.

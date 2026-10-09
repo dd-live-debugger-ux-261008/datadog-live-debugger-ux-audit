@@ -1,0 +1,92 @@
+{
+  "phase": "UI-only retained-state follow-up",
+  "window_utc": {
+    "start": "2026-10-08T23:15:22Z",
+    "end": "2026-10-08T23:38:38Z"
+  },
+  "findings_and_counts": "Existing ten findings and case counts unchanged. No new confirmed finding.",
+  "manual_draft": {
+    "submitted": false,
+    "discarded": true,
+    "synthetic_suffix": "qa_paths/unicodé space/東京 handler.py",
+    "line": 9
+  },
+  "alternate_service_draft": {
+    "environment_selector_observation": "Environment selector showed 'No environments found' when searched for staging; no cause established.",
+    "cause_established": false
+  },
+  "line_field": {
+    "meaningful_accessible_name": "Enter line number",
+    "exact_role_lookup_count": 1,
+    "new_unlabeled_field_defect": false
+  },
+  "keyboard_fallback": {
+    "status": "UNCONFIRMED",
+    "environment_confound": "Native Alt+F1 triggered an XFCE D-Bus error; browser-dispatched Alt+F1 did not expose help. No product defect is inferred."
+  },
+  "sorting": {
+    "settled_ascending_correct": true,
+    "refresh_default_descending": true,
+    "refresh_clears_ascending_indicator": true,
+    "persistence_contract_established": false,
+    "unsettled_frame_included": false
+  },
+  "cleanup": {
+    "new_logpoints_created": 0,
+    "reactivation_actions": 0,
+    "runtime_dispatches": 0,
+    "zoom": "100%",
+    "final_unfiltered_sessions": {
+      "all": 7,
+      "active": 0,
+      "inactive": 7
+    }
+  },
+  "source_receipts": [
+    {
+      "source_filename": "b09-f15-draft-cleanup.json",
+      "sha256": "3a0698e5f8944c27399833715df18e9f627c573f6e3e8b75771ea97fe71cb42a"
+    },
+    {
+      "source_filename": "b09-keyboard-focus-trail.json",
+      "sha256": "9c7fc9fee6a3618b446c0bcb97e7d1657c4a16cbb278dd2b2ac03b7b0a5ca5c0"
+    },
+    {
+      "source_filename": "b09-line-field-label-dom.json",
+      "sha256": "b6fbefd24421f37346b45089410eadff178c7c3fbdb349ed60e23e1935e7e212"
+    },
+    {
+      "source_filename": "b09-long-path-manual-draft-filled.txt",
+      "sha256": "1890b4f5a7613e4af81d7b2d431ffce462b3676241f26ddd0d00a4923d6164c9"
+    },
+    {
+      "source_filename": "b09-manual-draft-footer-focus-trail.json",
+      "sha256": "7e4e3460918a5748fa875e11b31909ae488b53b2f0297a791c3413f389200fb2"
+    },
+    {
+      "source_filename": "b09-manual-fallback-keyboard-observation.json",
+      "sha256": "0fcd0b4d74153a3dcdef8578045c4c93461f8fc6a47b8f5d8f1d1fb7cc4af01c"
+    },
+    {
+      "source_filename": "f15-alternate-draft-no-live-environments.txt",
+      "sha256": "4b485bdf14bcfc5f137377572ff9b76389db2f85db32b4a6862aa392aaf858b1"
+    },
+    {
+      "source_filename": "f17-ui-only-after-refresh.json",
+      "sha256": "7b4986cde818182aec3a622181bc37e3623fe95c7324b475e3ea101bbeb7b613"
+    },
+    {
+      "source_filename": "f17-ui-only-ascending-settled.json",
+      "sha256": "f441bcf26c02603e37d7380ee97940fcc9c6c65b4979e105c79e879508e55b82"
+    },
+    {
+      "source_filename": "ui-only-addendum-observations.json",
+      "sha256": "4c0e6c15333a03524a485f86bd63b98a1b6c5e942a19504dfd2ea08248ae6ea7"
+    },
+    {
+      "source_filename": "ui-only-final-unfiltered-inventory.txt",
+      "sha256": "90d2c27c817dc5ca50f87f3cc46fb2d634c65011ef94699b7b0e0c14156d549e"
+    }
+  ],
+  "privacy": "Only a curated summary is included. Raw receipt bodies, application URLs, session/snapshot/host/repository identifiers, service names, and account identity are excluded."
+}
