@@ -1,0 +1,312 @@
+{
+  "source": {
+    "label": "Recording source 18",
+    "duration_seconds": 1396.0,
+    "bytes": 32069307,
+    "sha256": "830105ffdae5aac21ccd0f161240dcaba65ff712118f126d072ec057de687cd1",
+    "utc_start": "2026-10-08T23:15:22Z",
+    "utc_end": "2026-10-08T23:38:38Z",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "stored_frame_count": 27892,
+    "adjacent_timestamp_gaps": [
+      {
+        "from": 208.05,
+        "to": 208.15,
+        "step": 0.1
+      },
+      {
+        "from": 208.5,
+        "to": 208.6,
+        "step": 0.1
+      },
+      {
+        "from": 210.65,
+        "to": 210.9,
+        "step": 0.25
+      },
+      {
+        "from": 212.35,
+        "to": 212.45,
+        "step": 0.1
+      },
+      {
+        "from": 214.8,
+        "to": 214.95,
+        "step": 0.15
+      },
+      {
+        "from": 286.9,
+        "to": 287.0,
+        "step": 0.1
+      },
+      {
+        "from": 339.1,
+        "to": 339.2,
+        "step": 0.1
+      },
+      {
+        "from": 339.25,
+        "to": 339.35,
+        "step": 0.1
+      },
+      {
+        "from": 581.35,
+        "to": 581.45,
+        "step": 0.1
+      },
+      {
+        "from": 581.45,
+        "to": 581.65,
+        "step": 0.2
+      },
+      {
+        "from": 582.3,
+        "to": 582.4,
+        "step": 0.1
+      },
+      {
+        "from": 645.8,
+        "to": 646.1,
+        "step": 0.3
+      },
+      {
+        "from": 1008.5,
+        "to": 1008.65,
+        "step": 0.15
+      },
+      {
+        "from": 1009.65,
+        "to": 1009.75,
+        "step": 0.1
+      },
+      {
+        "from": 1009.8,
+        "to": 1009.9,
+        "step": 0.1
+      },
+      {
+        "from": 1011.45,
+        "to": 1011.55,
+        "step": 0.1
+      },
+      {
+        "from": 1311.3,
+        "to": 1311.4,
+        "step": 0.1
+      }
+    ],
+    "audio_tracks": 0,
+    "normal_recorder_exit": true
+  },
+  "outputs": [
+    {
+      "path": "publish-archive/source-18-part-01-sanitized.mp4",
+      "bytes": 5476233,
+      "sha256": "cb925e92c5148f6b1c6192ad0a7548859ad6d03f203f6555f6dc2a7153a6b216",
+      "duration_seconds": 829.05,
+      "dimensions": [
+        1280,
+        900
+      ],
+      "frames": 16581,
+      "fps": "20/1",
+      "audio_tracks": 0,
+      "decoded": true
+    },
+    {
+      "path": "publish-archive/source-18-part-02-sanitized.mp4",
+      "bytes": 4876510,
+      "sha256": "5ce9c73844e0c150383662fdd56765d125b0125e37c5b7317a71e184cc949acd",
+      "duration_seconds": 546.8,
+      "dimensions": [
+        1280,
+        900
+      ],
+      "frames": 10936,
+      "fps": "20/1",
+      "audio_tracks": 0,
+      "decoded": true
+    },
+    {
+      "path": "publish-highlights/ui-only-controls-highlights.mp4",
+      "bytes": 2182936,
+      "sha256": "83006338960c900235b012549042ee435e8d3fa29187f36b93ca779874b9fb6a",
+      "duration_seconds": 215.4,
+      "dimensions": [
+        1280,
+        900
+      ],
+      "frames": 4308,
+      "fps": "20/1",
+      "audio_tracks": 0,
+      "decoded": true
+    }
+  ],
+  "archive_retained_seconds": 1375.85,
+  "archive_omitted_seconds": 20.15,
+  "highlight_seconds": 215.4,
+  "source_partition_verified": true,
+  "all_mp4_below_19_MB": true,
+  "all_mp4_fully_decoded": true,
+  "primary_visual_review": {
+    "archive_samples": 69,
+    "highlight_samples": 45
+  },
+  "ocr": {
+    "periodic_interval_seconds": 10,
+    "scene_threshold": 0.003,
+    "ocr_frames": 369,
+    "periodic_frames": 160,
+    "scene_frames": 209,
+    "flags": []
+  },
+  "independent_review": {
+    "status": "passed_with_sampling_limits",
+    "scope": "Independent privacy review of source18 archive, highlights, and eight sanitized stills",
+    "reviewed_output_hashes": [
+      {
+        "name": "source-18-part-01-sanitized.mp4",
+        "sha256": "cb925e92c5148f6b1c6192ad0a7548859ad6d03f203f6555f6dc2a7153a6b216",
+        "bytes": 5476233
+      },
+      {
+        "name": "source-18-part-02-sanitized.mp4",
+        "sha256": "5ce9c73844e0c150383662fdd56765d125b0125e37c5b7317a71e184cc949acd",
+        "bytes": 4876510
+      },
+      {
+        "name": "ui-only-controls-highlights.mp4",
+        "sha256": "83006338960c900235b012549042ee435e8d3fa29187f36b93ca779874b9fb6a",
+        "bytes": 2182936
+      }
+    ],
+    "reviewed_png_hashes": [
+      {
+        "name": "01-modal-150-percent-search-focus-safe.png",
+        "bytes": 199581,
+        "sha256": "9ff6bafb57d01901128e61e8a822f5c90a23b8c2d336ba9fb69323ee626a87fd"
+      },
+      {
+        "name": "02-unicode-search-manual-fallback-125-percent-safe.png",
+        "bytes": 186797,
+        "sha256": "78b9417e9834bda2734b820fbad69b2b721502aa40fb8714dbf73802bafdf4b7"
+      },
+      {
+        "name": "03-clear-search-keyboard-focus-125-percent-safe.png",
+        "bytes": 156453,
+        "sha256": "096705681ef55706238d60163cc7f4404a6441f6cd30fbbf117ab73fb19f481b"
+      },
+      {
+        "name": "04-unicode-manual-line-9-draft-125-percent-safe.png",
+        "bytes": 200497,
+        "sha256": "0ff3a6cfe6d2c658b533f33ea6d8564ee234eb96a62fe1e109c841962809715a"
+      },
+      {
+        "name": "05-editor-focus-and-fixed-footer-125-percent-safe.png",
+        "bytes": 221116,
+        "sha256": "61c333c82eef533e21f96c9a8455593e82bb5acc3b593b3350893941a5bcce0d"
+      },
+      {
+        "name": "06-settled-ascending-events-safe.png",
+        "bytes": 423864,
+        "sha256": "4166fd17b9e3a90ba4038315a4f974397f3b2f47853dead14873dbe109c453ed"
+      },
+      {
+        "name": "07-refreshed-default-descending-events-safe.png",
+        "bytes": 352457,
+        "sha256": "b31261ea9715f368d995e5f4919b3f359f4045b9b6dc552a0f1dab4ac41ef005"
+      },
+      {
+        "name": "08-final-unfiltered-inventory-7-0-7-safe.png",
+        "bytes": 118630,
+        "sha256": "fcfbdf186a31b4dc5529155e7f4bfe3be12947b41ca4da6cd6fcca0f2a5ec237"
+      }
+    ],
+    "counts": {
+      "assembled_video_ocr_samples": 252,
+      "assembled_video_suspect_matches": 0,
+      "corrected_edge_ocr_samples": 22,
+      "still_ocr_samples": 8,
+      "corrected_edge_and_still_suspect_matches": 0,
+      "initial_visual_first_mid_last_samples": 69,
+      "final_sanitized_stills_visually_reviewed": 8
+    },
+    "fixes": [
+      {
+        "source_seconds": [
+          335.8,
+          339.0
+        ],
+        "description": "Union mask covers query vertical movement during entry."
+      },
+      {
+        "source_seconds": [
+          566.0,
+          567.65
+        ],
+        "description": "Timed mask covers the private manual File prefix while it is typed before the option-selection scene."
+      },
+      {
+        "source_seconds": [
+          584.2,
+          585.0
+        ],
+        "description": "Union mask covers the previous input and dropdown positions across the row-position transition."
+      },
+      {
+        "source_seconds": [
+          611.45,
+          611.8
+        ],
+        "description": "Union mask covers the old wider repository prefix until horizontal scrolling completes."
+      },
+      {
+        "source_seconds": [
+          844.5,
+          845.0
+        ],
+        "description": "Union mask covers the old manual File row during the return-to-search transition."
+      }
+    ],
+    "unresolvedissues": [],
+    "limitations": [
+      "OCR sampling covers every retained clip start/end plus periodic interiors; it is not exhaustive recognition of every pixel in every video frame.",
+      "Known static exposure locations and transition masks were visually reviewed. Final media hashes stayed unchanged throughout review.",
+      "Manual keyboard fallback remains unconfirmed. No new product-bug count is established.",
+      "Native 150% detail crop preserves original timing, including the banner shown after the popup disappears.",
+      "Independent hash review covers the MP4 and PNG media; publication metadata was separately scanned during freeze."
+    ],
+    "factual_caveats": [
+      "Meaningful line accessible name exists.",
+      "Settled refreshed sort is default descending with the ascending indicator cleared.",
+      "Final unfiltered inventory shows All 7, Active 0, Inactive 7.",
+      "Desktop D-Bus error is an environment limitation."
+    ]
+  },
+  "stills": {
+    "count": 8,
+    "pixel_preservation_verified": true,
+    "unchanged_pixels_outside_masks": 5135222,
+    "all_sources_unchanged": true
+  },
+  "unresolved_privacy_issues": [],
+  "limitations": [
+    "Genuine foreground desktop footage at original elapsed speed. No generated, reconstructed, or recreated UI; opaque crops/masks and editorial captions only.",
+    "The source has 27,892 stored frames over 1,396 seconds. Seventeen adjacent timestamp steps exceed 50 ms; maximum step is 300 ms. CFR 20 fps duplicate-holds bridge these short source gaps without time compression.",
+    "Periodic and scene-triggered OCR plus independent visual checks are sampling-based, not every-pixel certification. Full decode was checked for every final MP4.",
+    "UTC labels describe recording time. Event-row clocks are UI display values and are not independently verified UTC receipt times.",
+    "Idle foreground waits and the native XFCE D-Bus error remain in the archive; visible continuity does not imply continuous active testing.",
+    "The 150% popup is visible near the beginning of the two-second detail crop, then disappears naturally. The 125% popup detail crop lasts one second. Remaining UI clips retain their native pixel scale.",
+    "The draft was discarded without Add to Session, Ctrl+Enter, new logpoints, or reactivation. Manual-entry keyboard fallback remains UNCONFIRMED; no broad keyboard-inaccessibility or keyboard-trap claim is made.",
+    "The line field is discoverable by the meaningful accessible name Enter line number (exact role lookup count 1). Absent explicit ARIA/label attributes alone are not an unlabeled-field defect.",
+    "Native Alt+F1 produced an XFCE D-Bus error. This environment/tool limitation is not scored as a Datadog defect.",
+    "Settled sampled ascending rows are chronological. Refresh removes the ascending indicator and returns default descending rows; no persistence contract or new finding is asserted.",
+    "The alternate draft cleared Environment. The Environment selector showed No environments found when searched for staging; no cause is established. The service was stopped during the observation.",
+    "Existing ten findings and original case counts remain unchanged. Final unfiltered inventory is All 7 / Active 0 / Inactive 7 at 100% zoom."
+  ],
+  "publication": "External publication was not performed by the sanitation workflow."
+}

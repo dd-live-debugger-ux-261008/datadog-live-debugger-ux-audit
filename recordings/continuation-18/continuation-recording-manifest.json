@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "title": "Source 18 sanitized UI-only recording archive",
+  "source": {
+    "label": "Recording source 18",
+    "duration_seconds": 1396.0,
+    "bytes": 32069307,
+    "sha256": "830105ffdae5aac21ccd0f161240dcaba65ff712118f126d072ec057de687cd1",
+    "utc_start": "2026-10-08T23:15:22Z",
+    "utc_end": "2026-10-08T23:38:38Z",
+    "dimensions": [
+      1364,
+      1024
+    ],
+    "fps": 20,
+    "stored_frame_count": 27892,
+    "adjacent_timestamp_gaps": [
+      {
+        "from": 208.05,
+        "to": 208.15,
+        "step": 0.1
+      },
+      {
+        "from": 208.5,
+        "to": 208.6,
+        "step": 0.1
+      },
+      {
+        "from": 210.65,
+        "to": 210.9,
+        "step": 0.25
+      },
+      {
+        "from": 212.35,
+        "to": 212.45,
+        "step": 0.1
+      },
+      {
+        "from": 214.8,
+        "to": 214.95,
+        "step": 0.15
+      },
+      {
+        "from": 286.9,
+        "to": 287.0,
+        "step": 0.1
+      },
+      {
+        "from": 339.1,
+        "to": 339.2,
+        "step": 0.1
+      },
+      {
+        "from": 339.25,
+        "to": 339.35,
+        "step": 0.1
+      },
+      {
+        "from": 581.35,
+        "to": 581.45,
+        "step": 0.1
+      },
+      {
+        "from": 581.45,
+        "to": 581.65,
+        "step": 0.2
+      },
+      {
+        "from": 582.3,
+        "to": 582.4,
+        "step": 0.1
+      },
+      {
+        "from": 645.8,
+        "to": 646.1,
+        "step": 0.3
+      },
+      {
+        "from": 1008.5,
+        "to": 1008.65,
+        "step": 0.15
+      },
+      {
+        "from": 1009.65,
+        "to": 1009.75,
+        "step": 0.1
+      },
+      {
+        "from": 1009.8,
+        "to": 1009.9,
+        "step": 0.1
+      },
+      {
+        "from": 1011.45,
+        "to": 1011.55,
+        "step": 0.1
+      },
+      {
+        "from": 1311.3,
+        "to": 1311.4,
+        "step": 0.1
+      }
+    ],
+    "audio_tracks": 0,
+    "normal_recorder_exit": true
+  },
+  "output_video_files": [
+    {
+      "path": "publish-archive/source-18-part-01-sanitized.mp4",
+      "bytes": 5476233,
+      "sha256": "cb925e92c5148f6b1c6192ad0a7548859ad6d03f203f6555f6dc2a7153a6b216",
+      "duration_seconds": 829.05,
+      "dimensions": [
+        1280,
+        900
+      ],
+      "frames": 16581,
+      "fps": "20/1",
+      "audio_tracks": 0,
+      "decoded": true,
+      "file": "source-18-part-01-sanitized.mp4"
+    },
+    {
+      "path": "publish-archive/source-18-part-02-sanitized.mp4",
+      "bytes": 4876510,
+      "sha256": "5ce9c73844e0c150383662fdd56765d125b0125e37c5b7317a71e184cc949acd",
+      "duration_seconds": 546.8,
+      "dimensions": [
+        1280,
+        900
+      ],
+      "frames": 10936,
+      "fps": "20/1",
+      "audio_tracks": 0,
+      "decoded": true,
+      "file": "source-18-part-02-sanitized.mp4"
+    }
+  ],
+  "retained_seconds": 1375.85,
+  "omitted_seconds": 20.15,
+  "ranges_are_half_open": true,
+  "output_geometry": [
+    1280,
+    900
+  ],
+  "output_fps": 20,
+  "source_rectangles": "x,y,width,height; before padding; timed masks use raw seconds",
+  "segments": [
+    {
+      "start": 11.9,
+      "end": 58.25,
+      "title": "Retained C1 source before zoom",
+      "caption": "Stopped session; seven retained logpoints. Repository, account and service identities are masked.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          308,
+          660,
+          35
+        ],
+        [
+          290,
+          397,
+          360,
+          26
+        ],
+        [
+          700,
+          446,
+          125,
+          32
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 46.35,
+      "raw_start_utc": "2026-10-08T23:15:33.900Z",
+      "raw_end_utc": "2026-10-08T23:16:20.250Z"
+    },
+    {
+      "start": 60,
+      "end": 62,
+      "title": "Verify the native 150% zoom popup",
+      "caption": "Detail crop of the genuine browser zoom popup; no UI reconstruction.",
+      "crop": [
+        868,
+        168,
+        264,
+        54
+      ],
+      "masks": [],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 46.35,
+      "output_end_seconds": 48.35,
+      "raw_start_utc": "2026-10-08T23:16:22.000Z",
+      "raw_end_utc": "2026-10-08T23:16:24.000Z"
+    },
+    {
+      "start": 62,
+      "end": 115.05,
+      "title": "Inspect the retained session at 150% zoom",
+      "caption": "UI-only check; retained source and Add control remain visible. No session activation.",
+      "crop": [
+        100,
+        308,
+        1152,
+        612
+      ],
+      "masks": [
+        [
+          145,
+          431,
+          560,
+          44
+        ],
+        [
+          1100,
+          390,
+          145,
+          34
+        ],
+        [
+          145,
+          554,
+          440,
+          40
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 48.35,
+      "output_end_seconds": 101.4,
+      "raw_start_utc": "2026-10-08T23:16:24.000Z",
+      "raw_end_utc": "2026-10-08T23:17:17.050Z"
+    },
+    {
+      "start": 115.6,
+      "end": 176.75,
+      "title": "Inspect modal focus at 150% zoom",
+      "caption": "Search autofocus and reverse-Tab focus checks; fixed action footer remains visible.",
+      "crop": [
+        146,
+        250,
+        1060,
+        656
+      ],
+      "masks": [
+        [
+          208,
+          397,
+          250,
+          36
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 101.4,
+      "output_end_seconds": 162.55,
+      "raw_start_utc": "2026-10-08T23:17:17.600Z",
+      "raw_end_utc": "2026-10-08T23:18:18.750Z"
+    },
+    {
+      "start": 176.75,
+      "end": 199.9,
+      "title": "Choose an alternate service by keyboard",
+      "caption": "Service names are masked. Selection is an unsaved draft; no entity is created.",
+      "crop": [
+        146,
+        250,
+        1060,
+        656
+      ],
+      "masks": [
+        [
+          208,
+          397,
+          435,
+          489
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 162.55,
+      "output_end_seconds": 185.7,
+      "raw_start_utc": "2026-10-08T23:18:18.750Z",
+      "raw_end_utc": "2026-10-08T23:18:41.900Z"
+    },
+    {
+      "start": 199.9,
+      "end": 280.55,
+      "title": "Inspect the reset environment on a stopped service",
+      "caption": "The alternate draft clears Environment; searching staging yields no result while stopped.",
+      "crop": [
+        146,
+        250,
+        1060,
+        656
+      ],
+      "masks": [
+        [
+          208,
+          397,
+          250,
+          36
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 185.7,
+      "output_end_seconds": 266.35,
+      "raw_start_utc": "2026-10-08T23:18:41.900Z",
+      "raw_end_utc": "2026-10-08T23:20:02.550Z"
+    },
+    {
+      "start": 281,
+      "end": 305.9,
+      "title": "Dismiss the alternate-service draft",
+      "caption": "Escape returns to the retained session; the Add control regains focus.",
+      "crop": [
+        100,
+        308,
+        1152,
+        612
+      ],
+      "masks": [
+        [
+          145,
+          431,
+          560,
+          44
+        ],
+        [
+          1100,
+          390,
+          145,
+          34
+        ],
+        [
+          145,
+          554,
+          440,
+          40
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 266.35,
+      "output_end_seconds": 291.25,
+      "raw_start_utc": "2026-10-08T23:20:03.000Z",
+      "raw_end_utc": "2026-10-08T23:20:27.900Z"
+    },
+    {
+      "start": 306,
+      "end": 307,
+      "title": "Verify the native 125% zoom popup",
+      "caption": "Detail crop of the genuine browser zoom popup during the size change.",
+      "crop": [
+        868,
+        168,
+        264,
+        54
+      ],
+      "masks": [],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 291.25,
+      "output_end_seconds": 292.25,
+      "raw_start_utc": "2026-10-08T23:20:28.000Z",
+      "raw_end_utc": "2026-10-08T23:20:29.000Z"
+    },
+    {
+      "start": 307,
+      "end": 335.8,
+      "title": "Inspect the modal at 125% zoom",
+      "caption": "Original inherited staging scope; search and fixed action footer remain visible.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          247,
+          74
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 292.25,
+      "output_end_seconds": 321.05,
+      "raw_start_utc": "2026-10-08T23:20:29.000Z",
+      "raw_end_utc": "2026-10-08T23:20:57.800Z"
+    },
+    {
+      "start": 335.8,
+      "end": 505,
+      "title": "Search a synthetic long Unicode path",
+      "caption": "Repository prefix is masked; the Unicode suffix and manual-entry fallback remain visible.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          247,
+          74
+        ],
+        [
+          164,
+          560,
+          648,
+          39
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 335.8,
+          "end": 339,
+          "rect": [
+            164,
+            559,
+            648,
+            70
+          ]
+        }
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 321.05,
+      "output_end_seconds": 490.25,
+      "raw_start_utc": "2026-10-08T23:20:57.800Z",
+      "raw_end_utc": "2026-10-08T23:23:47.000Z"
+    },
+    {
+      "start": 505,
+      "end": 567.65,
+      "title": "Open the manual File and Line controls",
+      "caption": "Pointer activation opens manual entry. Enter line number is a meaningful accessible name.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          247,
+          74
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 566,
+          "end": 567.65,
+          "rect": [
+            205,
+            616,
+            558,
+            35
+          ]
+        }
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 490.25,
+      "output_end_seconds": 552.9,
+      "raw_start_utc": "2026-10-08T23:23:47.000Z",
+      "raw_end_utc": "2026-10-08T23:24:49.650Z"
+    },
+    {
+      "start": 567.65,
+      "end": 584.2,
+      "title": "Select the synthetic long File option",
+      "caption": "Both copies of the private path prefix are masked; the long Unicode suffix is preserved.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          247,
+          74
+        ],
+        [
+          205,
+          616,
+          558,
+          35
+        ],
+        [
+          319,
+          658,
+          563,
+          32
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 552.9,
+      "output_end_seconds": 569.45,
+      "raw_start_utc": "2026-10-08T23:24:49.650Z",
+      "raw_end_utc": "2026-10-08T23:25:06.200Z"
+    },
+    {
+      "start": 584.2,
+      "end": 611.45,
+      "title": "Inspect the long File value before line entry",
+      "caption": "The unsaved File value widens the inner content; fixed action footer stays visible.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          247,
+          74
+        ],
+        [
+          145,
+          647,
+          625,
+          37
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 584.2,
+          "end": 585,
+          "rect": [
+            145,
+            615,
+            738,
+            70
+          ]
+        }
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 569.45,
+      "output_end_seconds": 596.7,
+      "raw_start_utc": "2026-10-08T23:25:06.200Z",
+      "raw_end_utc": "2026-10-08T23:25:33.450Z"
+    },
+    {
+      "start": 611.45,
+      "end": 661.7,
+      "title": "Enter line 9 and inspect keyboard focus",
+      "caption": "Line and footer remain visible with inner horizontal scroll. No Add to Session action.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          145,
+          321,
+          300,
+          74
+        ],
+        [
+          145,
+          647,
+          521,
+          37
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 611.45,
+          "end": 611.8,
+          "rect": [
+            145,
+            647,
+            625,
+            37
+          ]
+        }
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 596.7,
+      "output_end_seconds": 646.95,
+      "raw_start_utc": "2026-10-08T23:25:33.450Z",
+      "raw_end_utc": "2026-10-08T23:26:23.700Z"
+    },
+    {
+      "start": 662,
+      "end": 664.9,
+      "title": "Return the draft content to the left edge",
+      "caption": "The draft remains unsaved; the Unicode suffix and line 9 are still visible.",
+      "crop": [
+        146,
+        238,
+        1060,
+        674
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          247,
+          74
+        ],
+        [
+          145,
+          647,
+          625,
+          37
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 646.95,
+      "output_end_seconds": 649.85,
+      "raw_start_utc": "2026-10-08T23:26:24.000Z",
+      "raw_end_utc": "2026-10-08T23:26:26.900Z"
+    },
+    {
+      "start": 665.3,
+      "end": 714.4,
+      "title": "Inspect the unsaved message at 100% zoom",
+      "caption": "Repeated Tab inserts spaces in the message draft; this is not a confirmed keyboard trap.",
+      "crop": [
+        148,
+        225,
+        1058,
+        690
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          194,
+          25
+        ],
+        [
+          202,
+          552,
+          426,
+          31
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 649.85,
+      "output_end_seconds": 698.95,
+      "raw_start_utc": "2026-10-08T23:26:27.300Z",
+      "raw_end_utc": "2026-10-08T23:27:16.400Z"
+    },
+    {
+      "start": 714.4,
+      "end": 773.6,
+      "title": "Native shortcut triggers an XFCE error",
+      "caption": "Alt+F1 produces a desktop D-Bus error. Environment limitation; not a Datadog defect.",
+      "crop": [
+        148,
+        225,
+        1058,
+        690
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          194,
+          25
+        ],
+        [
+          202,
+          552,
+          426,
+          31
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 698.95,
+      "output_end_seconds": 758.15,
+      "raw_start_utc": "2026-10-08T23:27:16.400Z",
+      "raw_end_utc": "2026-10-08T23:28:15.600Z"
+    },
+    {
+      "start": 773.6,
+      "end": 844.5,
+      "title": "Resume the unsaved manual draft",
+      "caption": "The desktop error is dismissed; retained draft controls remain available.",
+      "crop": [
+        148,
+        225,
+        1058,
+        690
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          194,
+          25
+        ],
+        [
+          202,
+          552,
+          426,
+          31
+        ]
+      ],
+      "output_file": "source-18-part-01-sanitized.mp4",
+      "output_start_seconds": 758.15,
+      "output_end_seconds": 829.05,
+      "raw_start_utc": "2026-10-08T23:28:15.600Z",
+      "raw_end_utc": "2026-10-08T23:29:26.500Z"
+    },
+    {
+      "start": 844.5,
+      "end": 1020.1,
+      "title": "Recheck the manual-entry fallback",
+      "caption": "Keyboard attempts remain UNCONFIRMED; popup timing varies. No broad accessibility claim.",
+      "crop": [
+        148,
+        225,
+        1058,
+        690
+      ],
+      "masks": [
+        [
+          198,
+          321,
+          194,
+          25
+        ],
+        [
+          168,
+          508,
+          528,
+          32
+        ]
+      ],
+      "timed_masks": [
+        {
+          "start": 844.5,
+          "end": 845,
+          "rect": [
+            202,
+            552,
+            426,
+            31
+          ]
+        }
+      ],
+      "output_file": "source-18-part-02-sanitized.mp4",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 175.6,
+      "raw_start_utc": "2026-10-08T23:29:26.500Z",
+      "raw_end_utc": "2026-10-08T23:32:22.100Z"
+    },
+    {
+      "start": 1020.7,
+      "end": 1160,
+      "title": "Discard the draft and inspect retained state",
+      "caption": "No new logpoint or activation; the selected C1 capture and source remain retained.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          308,
+          660,
+          35
+        ],
+        [
+          290,
+          397,
+          360,
+          26
+        ],
+        [
+          700,
+          446,
+          125,
+          32
+        ]
+      ],
+      "output_file": "source-18-part-02-sanitized.mp4",
+      "output_start_seconds": 175.6,
+      "output_end_seconds": 314.9,
+      "raw_start_utc": "2026-10-08T23:32:22.700Z",
+      "raw_end_utc": "2026-10-08T23:34:42.000Z"
+    },
+    {
+      "start": 1160,
+      "end": 1236.75,
+      "title": "Inspect explicit descending then ascending sort",
+      "caption": "Use the settled rows for the outcome; immediate post-click rows can still be pre-sort.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          308,
+          660,
+          35
+        ],
+        [
+          290,
+          397,
+          360,
+          26
+        ],
+        [
+          700,
+          446,
+          125,
+          32
+        ]
+      ],
+      "output_file": "source-18-part-02-sanitized.mp4",
+      "output_start_seconds": 314.9,
+      "output_end_seconds": 391.65,
+      "raw_start_utc": "2026-10-08T23:34:42.000Z",
+      "raw_end_utc": "2026-10-08T23:35:58.750Z"
+    },
+    {
+      "start": 1236.75,
+      "end": 1345.1,
+      "title": "Refresh and inspect the default descending order",
+      "caption": "Refresh clears the ascending indicator; persistence contract remains unverified.",
+      "crop": [
+        250,
+        300,
+        1020,
+        580
+      ],
+      "masks": [
+        [
+          435,
+          308,
+          660,
+          35
+        ],
+        [
+          290,
+          397,
+          360,
+          26
+        ],
+        [
+          700,
+          446,
+          125,
+          32
+        ]
+      ],
+      "output_file": "source-18-part-02-sanitized.mp4",
+      "output_start_seconds": 391.65,
+      "output_end_seconds": 500.0,
+      "raw_start_utc": "2026-10-08T23:35:58.750Z",
+      "raw_end_utc": "2026-10-08T23:37:47.100Z"
+    },
+    {
+      "start": 1349.2,
+      "end": 1396,
+      "title": "Verify the final unfiltered session inventory",
+      "caption": "My sessions is cleared at the end: All 7, Active 0, Inactive 7. Zoom is 100%.",
+      "crop": [
+        252,
+        303,
+        1000,
+        614
+      ],
+      "masks": [
+        [
+          274,
+          552,
+          672,
+          365
+        ]
+      ],
+      "output_file": "source-18-part-02-sanitized.mp4",
+      "output_start_seconds": 500.0,
+      "output_end_seconds": 546.8,
+      "raw_start_utc": "2026-10-08T23:37:51.200Z",
+      "raw_end_utc": "2026-10-08T23:38:38.000Z"
+    }
+  ],
+  "omissions": [
+    {
+      "start": 0,
+      "end": 11.9,
+      "reason": "Recorder terminal setup and private desktop transition"
+    },
+    {
+      "start": 58.25,
+      "end": 60,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 115.05,
+      "end": 115.6,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 280.55,
+      "end": 281,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 305.9,
+      "end": 306,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 661.7,
+      "end": 662,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 664.9,
+      "end": 665.3,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 1020.1,
+      "end": 1020.7,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    },
+    {
+      "start": 1345.1,
+      "end": 1349.2,
+      "reason": "Brief privacy-sensitive zoom, modal, or page transition guard"
+    }
+  ],
+  "limitations": [
+    "Genuine foreground desktop footage at original elapsed speed. No generated, reconstructed, or recreated UI; opaque crops/masks and editorial captions only.",
+    "The source has 27,892 stored frames over 1,396 seconds. Seventeen adjacent timestamp steps exceed 50 ms; maximum step is 300 ms. CFR 20 fps duplicate-holds bridge these short source gaps without time compression.",
+    "Periodic and scene-triggered OCR plus independent visual checks are sampling-based, not every-pixel certification. Full decode was checked for every final MP4.",
+    "UTC labels describe recording time. Event-row clocks are UI display values and are not independently verified UTC receipt times.",
+    "Idle foreground waits and the native XFCE D-Bus error remain in the archive; visible continuity does not imply continuous active testing.",
+    "The 150% popup is visible near the beginning of the two-second detail crop, then disappears naturally. The 125% popup detail crop lasts one second. Remaining UI clips retain their native pixel scale.",
+    "The draft was discarded without Add to Session, Ctrl+Enter, new logpoints, or reactivation. Manual-entry keyboard fallback remains UNCONFIRMED; no broad keyboard-inaccessibility or keyboard-trap claim is made.",
+    "The line field is discoverable by the meaningful accessible name Enter line number (exact role lookup count 1). Absent explicit ARIA/label attributes alone are not an unlabeled-field defect.",
+    "Native Alt+F1 produced an XFCE D-Bus error. This environment/tool limitation is not scored as a Datadog defect.",
+    "Settled sampled ascending rows are chronological. Refresh removes the ascending indicator and returns default descending rows; no persistence contract or new finding is asserted.",
+    "The alternate draft cleared Environment. The Environment selector showed No environments found when searched for staging; no cause is established. The service was stopped during the observation.",
+    "Existing ten findings and original case counts remain unchanged. Final unfiltered inventory is All 7 / Active 0 / Inactive 7 at 100% zoom."
+  ],
+  "publication": "Prepared and reviewed locally; no external write performed by the sanitation workflow."
+}
